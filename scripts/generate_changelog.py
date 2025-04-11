@@ -6,7 +6,7 @@ import os
 timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
 filename = f"data/changelog{timestamp}.json"
 
-token = os.getenv("GH_TOKEN")
+token = os.getenv("REPOLINTER_AUTO_TOKEN")
 org_name = "DSACMS"
 
 g = Github(token)
