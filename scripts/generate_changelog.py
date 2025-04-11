@@ -1,6 +1,10 @@
 from github import Github # type: ignore
+from datetime import datetime, timezone, timedelta
 import json
 import os
+
+timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+filename = f"data/changelog{timestamp}.json"
 
 token = os.getenv("GH_TOKEN")
 org_name = "DSACMS"
@@ -16,7 +20,8 @@ for repo in org.get_repos(type="public"):
         "url": repo.html_url,
         "description": repo.description,
         "issues": [],
-        "pulls": []
+        "pulls": [],
+        "commits": []
     }
 
     for issue in repo.get_issues(state="open"):
@@ -35,9 +40,18 @@ for repo in org.get_repos(type="public"):
                 "created_at": pr.created_at.isoformat()
             })
 
+    for commit in repo.get_commits():
+        if issue.pull_request is None:
+            repo_data["commits"].append({
+                "message": commit.commit.message,
+                "url": commit.html_url,
+                "author": commit.commit.author.name,
+                "created_at": commit.commit.author.date.isoformat()
+            })
+
     data["repos"].append(repo_data)
 
-with open("data/changelog.json", "w") as f:
+with open(filename, "w") as f:
     json.dump(data, f, indent=2)
 
 print("✅ Changelog data written to data/changelog.json")
