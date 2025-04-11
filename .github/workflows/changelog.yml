@@ -25,4 +25,4 @@ jobs:
             - name: Run changelog script
               env:
                 GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
-              run: python generate_changelog.py
+              run: python scripts/generate_changelog.py
