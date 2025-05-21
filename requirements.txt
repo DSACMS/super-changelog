@@ -1,2 +1,4 @@
 requests
 PyGithub
+python-dateutil
+markdown
