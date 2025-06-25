@@ -1,0 +1,2785 @@
+{
+  "repos": [
+    {
+      "name": "dedupliFHIR",
+      "url": "https://github.com/DSACMS/dedupliFHIR",
+      "description": "Prototype for basic deduplication and aggregation of eCQM data",
+      "issues": [
+        {
+          "title": "TEST ISSUE FOR code-gov",
+          "url": "https://github.com/DSACMS/dedupliFHIR/issues/239",
+          "created_at": "2025-06-23T19:26:03+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [
+        {
+          "title": "TEST ISSUE FOR code-gov",
+          "url": "https://github.com/DSACMS/metrics/issues/400",
+          "created_at": "2025-06-23T19:26:47+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "[Repolinter] Tier 3 OSS Policy Issues",
+          "url": "https://github.com/DSACMS/metrics/issues/399",
+          "created_at": "2025-06-20T04:06:52+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/metrics/pull/402",
+          "created_at": "2025-06-24T19:48:58+00:00",
+          "updated_at": "2025-06-24T19:48:58+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/metrics/pull/401",
+          "created_at": "2025-06-24T18:25:52+00:00",
+          "updated_at": "2025-06-24T18:25:52+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Security upgrade urllib3 from 2.0.7 to 2.5.0",
+          "url": "https://github.com/DSACMS/metrics/pull/398",
+          "created_at": "2025-06-20T04:05:13+00:00",
+          "updated_at": "2025-06-20T04:05:13+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "update measureauthoringtool data: Sun Jun 22 16:01:50 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7da6f2e4f41a142d9179a85b57a73d6e49268967",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T16:01:50+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jun 22 15:13:57 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/2600343fd6a6239fee16e69432e6b643ab8e8bb5",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T15:13:57+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jun 22 14:53:35 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/6e969dbadaee8fc74475d4ac2b424679d50b7fb1",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:53:35+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jun 22 14:48:43 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7b176adb35d22011040c1b6b2cc6fc7d719a44a5",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:48:43+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jun 22 14:35:41 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/72a6d906bd0164db83a7f6d79397946dcd5f0656",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:35:41+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Jun 22 14:29:58 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/59a3473d3625601033624aea3ed89e34311fc947",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:29:58+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jun 22 14:27:06 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/2d09ec20de0e3577fb34181925543c3aa7776f6b",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:27:06+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jun 22 14:23:03 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5ada758708a12034452b9c5ab7b9aa59a80074bd",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:23:03+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jun 22 14:21:32 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/207d5b458860a901a5ff888d140ff8fba02e817a",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:21:32+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jun 22 14:14:24 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5b0ed6c8ad516d9c28e648b2ce78df92378ad24f",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:14:24+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Jun 22 14:12:32 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/8ffeec8b4b04c599a9d2d986b3d9ecce808ae18c",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T14:12:32+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jun 22 12:08:32 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/00541c1ee11a27fa52327e6fd410cca841f35b81",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T12:08:32+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jun 22 08:54:31 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/191425a485ada028f4533700c057d81897a10edc",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T08:54:32+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jun 22 07:50:19 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/11c30168a29de83da84ff312a91d000d6a31e4cf",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T07:50:19+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jun 22 07:39:10 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/fc687ccfb91f450b6473aadf6a816d4c58872577",
+          "author": "GitHub Actions",
+          "created_at": "2025-06-22T07:39:10+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "[Snyk] Security upgrade github-pages from 231 to 232",
+          "url": "https://github.com/DSACMS/income-reporting-playbook/pull/9",
+          "created_at": "2025-06-20T23:14:21+00:00",
+          "updated_at": "2025-06-20T23:14:21+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [
+        {
+          "title": "TEST ISSUE FOR code-gov",
+          "url": "https://github.com/DSACMS/repo-scaffolder/issues/329",
+          "created_at": "2025-06-23T18:30:02+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/330",
+          "created_at": "2025-06-24T18:25:45+00:00",
+          "updated_at": "2025-06-24T18:25:45+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "description": "Open Source Program Office Guide for CMS.gov",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Tools Page: Updated project cards",
+          "url": "https://github.com/DSACMS/ospo-guide/pull/76",
+          "created_at": "2025-06-18T21:18:15+00:00",
+          "updated_at": "2025-06-18T21:18:15+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": null,
+      "issues": [
+        {
+          "title": "ZAP Full Scan Report",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/639",
+          "created_at": "2025-05-01T21:38:41+00:00",
+          "state": "open",
+          "is_new": false
+        }
+      ],
+      "pulls": [
+        {
+          "title": "FFS-3008: Run Axe accessibility checker during E2E testing",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/794",
+          "created_at": "2025-06-25T18:49:35+00:00",
+          "updated_at": "2025-06-25T19:05:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade @axe-core/playwright from 4.10.1 to 4.10.2",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/793",
+          "created_at": "2025-06-25T03:02:45+00:00",
+          "updated_at": "2025-06-25T03:02:57+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Add actionlint precommit hook",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/792",
+          "created_at": "2025-06-24T22:21:40+00:00",
+          "updated_at": "2025-06-24T22:21:50+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Fix erb_lint inadvertently running on vendor/bundle files",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/791",
+          "created_at": "2025-06-24T21:29:41+00:00",
+          "updated_at": "2025-06-24T22:35:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Update debase from 0.2.5.beta2 to 0.2.9",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/790",
+          "created_at": "2025-06-24T18:22:39+00:00",
+          "updated_at": "2025-06-25T15:39:55+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Expire sessions in Rails rather than via cookie `Expires`",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/789",
+          "created_at": "2025-06-24T04:25:02+00:00",
+          "updated_at": "2025-06-24T19:02:36+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Cache `bundle install` when running Rspec",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/788",
+          "created_at": "2025-06-24T00:07:52+00:00",
+          "updated_at": "2025-06-24T20:31:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Enable E2E tests in CI",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/787",
+          "created_at": "2025-06-23T23:39:14+00:00",
+          "updated_at": "2025-06-25T13:25:26+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2687: Add E2E test framework that replays modal callbacks/webhooks",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/786",
+          "created_at": "2025-06-23T17:24:17+00:00",
+          "updated_at": "2025-06-25T19:07:25+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2325: Remove New Relic event tracking, update events",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/785",
+          "created_at": "2025-06-23T14:22:25+00:00",
+          "updated_at": "2025-06-23T21:10:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.89.0 to 1.89.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/784",
+          "created_at": "2025-06-22T02:41:00+00:00",
+          "updated_at": "2025-06-23T15:55:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Fix for 1 vulnerabilities",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/783",
+          "created_at": "2025-06-21T00:17:26+00:00",
+          "updated_at": "2025-06-21T00:17:35+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: remove Rainbow to fix auto-deploy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/782",
+          "created_at": "2025-06-20T21:44:57+00:00",
+          "updated_at": "2025-06-20T21:53:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2533: Standardize event names between Pinwheel/Argyle JS's and backend",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/781",
+          "created_at": "2025-06-20T19:55:07+00:00",
+          "updated_at": "2025-06-20T22:04:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2676: Store link expiration in database field",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/780",
+          "created_at": "2025-06-20T14:10:22+00:00",
+          "updated_at": "2025-06-23T16:40:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade postcss-minify from 1.1.0 to 1.2.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/779",
+          "created_at": "2025-06-20T03:29:08+00:00",
+          "updated_at": "2025-06-24T21:15:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade postcss from 8.5.3 to 8.5.4",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/778",
+          "created_at": "2025-06-20T03:29:04+00:00",
+          "updated_at": "2025-06-23T15:56:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: create translations:generate rake task",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/777",
+          "created_at": "2025-06-19T19:21:13+00:00",
+          "updated_at": "2025-06-20T17:38:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Revert \"No ticket: create translations:generate rake task\"",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/776",
+          "created_at": "2025-06-19T19:16:25+00:00",
+          "updated_at": "2025-06-20T22:05:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3023: Create github actions to check for string token changes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/775",
+          "created_at": "2025-06-19T19:12:35+00:00",
+          "updated_at": "2025-06-25T14:22:08+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: Add patsier-cms to reviewer lottery",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/774",
+          "created_at": "2025-06-17T19:46:57+00:00",
+          "updated_at": "2025-06-23T16:40:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "No ticket: create translations:generate rake task",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/773",
+          "created_at": "2025-06-17T18:28:29+00:00",
+          "updated_at": "2025-06-19T18:30:24+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2932: Adding \"other_jobs\" page [pending translations]",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/772",
+          "created_at": "2025-06-16T19:51:23+00:00",
+          "updated_at": "2025-06-24T15:53:40+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @uswds/uswds from 3.12.0 to 3.13.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/770",
+          "created_at": "2025-06-14T03:50:46+00:00",
+          "updated_at": "2025-06-23T18:01:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix missing \"host\" ArgumentError on /submits",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/765",
+          "created_at": "2025-06-12T23:32:51+00:00",
+          "updated_at": "2025-06-20T22:11:48+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2999: re-enable highlighting",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/754",
+          "created_at": "2025-06-11T16:31:37+00:00",
+          "updated_at": "2025-06-20T22:09:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2917: mileage in monthly summaries",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/752",
+          "created_at": "2025-06-10T22:12:14+00:00",
+          "updated_at": "2025-06-20T22:05:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2979: Bug fix for link generation returning the wrong host",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/749",
+          "created_at": "2025-06-10T19:39:01+00:00",
+          "updated_at": "2025-06-20T22:05:22+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2918: fetch gig mileage expenses",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/747",
+          "created_at": "2025-06-10T03:23:02+00:00",
+          "updated_at": "2025-06-20T22:09:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2985: Missing paystubs or gigs for Monthly Summary Table",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/744",
+          "created_at": "2025-06-10T00:19:31+00:00",
+          "updated_at": "2025-06-20T22:12:05+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-PATCH: Resolving python and tar-fs vulnerabilities",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/734",
+          "created_at": "2025-06-05T18:56:45+00:00",
+          "updated_at": "2025-06-20T22:09:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "unpinning tar-fs, resolving things using npm audit fix",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/733",
+          "created_at": "2025-06-05T16:42:26+00:00",
+          "updated_at": "2025-06-20T22:11:35+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Strings for monthly summary table (gig earnings + mileage)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/726",
+          "created_at": "2025-06-03T20:59:11+00:00",
+          "updated_at": "2025-06-20T22:09:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2667: Multi-earner household share link",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/723",
+          "created_at": "2025-05-30T19:11:45+00:00",
+          "updated_at": "2025-06-20T22:04:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2938 fix caseworker report being rendered in spanish",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/717",
+          "created_at": "2025-05-28T03:00:21+00:00",
+          "updated_at": "2025-06-20T22:10:35+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Ruby upgrade",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/713",
+          "created_at": "2025-05-27T23:54:20+00:00",
+          "updated_at": "2025-06-20T22:09:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2769: income report for gigs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/710",
+          "created_at": "2025-05-27T20:56:05+00:00",
+          "updated_at": "2025-06-20T22:09:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "apply standard retry for jobs that fail",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/705",
+          "created_at": "2025-05-22T17:12:12+00:00",
+          "updated_at": "2025-06-20T22:11:15+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2908: Added client_agency_id to ApplicantFinishedArgyleSync",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/695",
+          "created_at": "2025-05-20T01:26:53+00:00",
+          "updated_at": "2025-06-20T22:09:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Upgrade docker and ruby to new versions",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/693",
+          "created_at": "2025-05-19T22:39:29+00:00",
+          "updated_at": "2025-06-20T22:11:21+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "temporarily ignore warnings for libc",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/692",
+          "created_at": "2025-05-19T19:41:49+00:00",
+          "updated_at": "2025-06-20T22:10:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix 'undefined method `>' for nil' error on /submits",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/691",
+          "created_at": "2025-05-19T15:44:27+00:00",
+          "updated_at": "2025-06-20T22:10:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.6 to 5.99.7",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/690",
+          "created_at": "2025-05-17T02:57:05+00:00",
+          "updated_at": "2025-06-20T22:10:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[FFS-2863] set up telemetry for newrelic solid queue",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/685",
+          "created_at": "2025-05-15T15:14:36+00:00",
+          "updated_at": "2025-06-20T22:10:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.5 to 5.99.6",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/667",
+          "created_at": "2025-05-10T09:45:16+00:00",
+          "updated_at": "2025-06-20T22:10:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add ability to SFTP files and use it to deliver necessary files to AZ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/666",
+          "created_at": "2025-05-09T23:00:24+00:00",
+          "updated_at": "2025-06-20T22:10:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Security upgrade rack from 2.2.13 to 2.2.14",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/662",
+          "created_at": "2025-05-09T15:44:00+00:00",
+          "updated_at": "2025-06-20T22:10:08+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2852: Fix date format issues",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/658",
+          "created_at": "2025-05-08T17:37:40+00:00",
+          "updated_at": "2025-06-20T22:10:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2826: added tracking of payroll provider from argyle",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/655",
+          "created_at": "2025-05-06T21:39:33+00:00",
+          "updated_at": "2025-06-20T22:10:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "remove libvips, because its an image processing library that had a security vuln and rather than update, why bump this unless we need it",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/648",
+          "created_at": "2025-05-05T14:42:33+00:00",
+          "updated_at": "2025-06-20T22:10:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade dotenv from 16.4.7 to 16.5.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/642",
+          "created_at": "2025-05-01T23:51:55+00:00",
+          "updated_at": "2025-06-20T22:10:11+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2749: Display LA Indexing Fields",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/641",
+          "created_at": "2025-05-01T23:43:17+00:00",
+          "updated_at": "2025-06-20T22:10:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.1 to 5.99.5",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/634",
+          "created_at": "2025-05-01T02:41:09+00:00",
+          "updated_at": "2025-06-20T22:10:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2787 Update gig validators",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/633",
+          "created_at": "2025-05-01T01:27:37+00:00",
+          "updated_at": "2025-06-20T22:10:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "implemented LA copy changes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/622",
+          "created_at": "2025-04-29T14:40:15+00:00",
+          "updated_at": "2025-06-20T22:12:16+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.98.0 to 5.99.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/619",
+          "created_at": "2025-04-29T01:51:55+00:00",
+          "updated_at": "2025-06-20T22:10:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.86.2 to 1.86.3",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/609",
+          "created_at": "2025-04-26T01:40:29+00:00",
+          "updated_at": "2025-06-20T22:10:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.86.1 to 1.86.2",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/600",
+          "created_at": "2025-04-24T02:21:54+00:00",
+          "updated_at": "2025-06-20T22:10:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": " FFS-2754: finish extracting out maybe later",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/597",
+          "created_at": "2025-04-23T20:58:29+00:00",
+          "updated_at": "2025-06-20T22:10:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "clean up some code that was unrelated to current work but seemed nice to clean up",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/596",
+          "created_at": "2025-04-23T19:41:18+00:00",
+          "updated_at": "2025-06-20T22:10:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2780: Redirect to Synchronizations page when argyle encounters \"account system_error\" ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/595",
+          "created_at": "2025-04-23T18:01:20+00:00",
+          "updated_at": "2025-06-20T22:10:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2729: re-link continue button to applicant info page in case they want to continue forward",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/591",
+          "created_at": "2025-04-22T19:16:38+00:00",
+          "updated_at": "2025-06-20T22:10:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2638: introduce load testing and first round of results",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/586",
+          "created_at": "2025-04-21T21:01:09+00:00",
+          "updated_at": "2025-06-20T22:10:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": " FFS-2750: add ability to see the dashboard across environments",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/584",
+          "created_at": "2025-04-21T16:26:38+00:00",
+          "updated_at": "2025-06-20T22:10:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2782: round hours to the nearest tenth on the screen in cases where argyle might report as many decimals as it likes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/583",
+          "created_at": "2025-04-21T14:45:32+00:00",
+          "updated_at": "2025-06-20T22:10:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": " [FFS-2750] fix report generation worker refactor by adding additional argyle tests",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/580",
+          "created_at": "2025-04-18T19:01:37+00:00",
+          "updated_at": "2025-06-20T22:10:52+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2750: add terraform to create solidqueue app workers",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/576",
+          "created_at": "2025-04-18T17:12:57+00:00",
+          "updated_at": "2025-06-20T22:10:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Security upgrade solid_queue from 0.2.2 to 0.3.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/575",
+          "created_at": "2025-04-18T17:05:47+00:00",
+          "updated_at": "2025-06-20T22:12:23+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[FFS-2750] submit to client asynchronously via solid queue",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/574",
+          "created_at": "2025-04-17T23:22:31+00:00",
+          "updated_at": "2025-06-20T22:10:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Remove `gigs_synced_at` column",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/570",
+          "created_at": "2025-04-16T22:50:23+00:00",
+          "updated_at": "2025-06-20T22:10:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.85.1 to 1.86.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/551",
+          "created_at": "2025-04-10T01:09:47+00:00",
+          "updated_at": "2025-06-20T22:10:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Sketch: e2e rspec tests",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/549",
+          "created_at": "2025-04-09T21:50:04+00:00",
+          "updated_at": "2025-06-23T17:24:49+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Sketch: Minimum reporting requirements",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/543",
+          "created_at": "2025-04-08T17:44:42+00:00",
+          "updated_at": "2025-06-20T22:12:43+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade postcss-cli from 11.0.0 to 11.0.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/539",
+          "created_at": "2025-04-03T23:53:09+00:00",
+          "updated_at": "2025-06-20T22:10:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2598 Re-architect payment details sync",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/537",
+          "created_at": "2025-04-03T22:40:23+00:00",
+          "updated_at": "2025-06-20T22:10:20+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2657 Argyle Employer Address",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/536",
+          "created_at": "2025-04-03T22:30:55+00:00",
+          "updated_at": "2025-06-20T22:10:19+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "add outside collab DSAC process document, update code owners",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/532",
+          "created_at": "2025-04-02T17:56:22+00:00",
+          "updated_at": "2025-06-20T22:10:22+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade autoprefixer from 10.4.20 to 10.4.21",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/526",
+          "created_at": "2025-03-31T01:24:38+00:00",
+          "updated_at": "2025-06-20T22:10:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @hotwired/turbo-rails from 8.0.12 to 8.0.13",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/519",
+          "created_at": "2025-03-23T23:08:32+00:00",
+          "updated_at": "2025-06-20T22:10:24+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2562: Refactor Fetching, Normalization, and Reporting to support Multi-Aggregator",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/518",
+          "created_at": "2025-03-20T22:27:53+00:00",
+          "updated_at": "2025-06-20T22:10:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.85.0 to 1.85.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/514",
+          "created_at": "2025-03-18T02:04:41+00:00",
+          "updated_at": "2025-06-20T22:09:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2585 Fix Expired Invitations crash",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/511",
+          "created_at": "2025-03-14T22:04:59+00:00",
+          "updated_at": "2025-06-20T22:09:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2540: Generic link",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/510",
+          "created_at": "2025-03-14T19:48:44+00:00",
+          "updated_at": "2025-06-20T22:09:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2471: All missing translations",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/500",
+          "created_at": "2025-03-12T12:54:39+00:00",
+          "updated_at": "2025-06-20T22:09:03+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2490 Wrap Argyle Data Fetch API's",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/496",
+          "created_at": "2025-03-10T20:30:34+00:00",
+          "updated_at": "2025-06-20T22:09:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fixes 404 issue with argyle service due to improper path",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/492",
+          "created_at": "2025-03-06T21:25:02+00:00",
+          "updated_at": "2025-06-20T22:09:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Dev Tools: A rake command to create a CBV applicant flow",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/484",
+          "created_at": "2025-03-04T22:07:11+00:00",
+          "updated_at": "2025-06-20T22:08:57+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2397-3: Experimental: fix Mixpanel location inference",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/483",
+          "created_at": "2025-03-04T21:09:14+00:00",
+          "updated_at": "2025-06-20T22:09:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Revert \"another attempt at fixing mixpanel profile location\"",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/481",
+          "created_at": "2025-03-04T17:16:21+00:00",
+          "updated_at": "2025-06-20T22:08:57+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "resolving uri gem vulnerability",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/476",
+          "created_at": "2025-03-03T21:30:28+00:00",
+          "updated_at": "2025-06-20T22:08:56+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2466: Infer supported jobs from within Pinwheel subclass",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/474",
+          "created_at": "2025-02-27T19:07:32+00:00",
+          "updated_at": "2025-06-20T22:08:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2466: Rename cbv_flow identifier column for clarity",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/472",
+          "created_at": "2025-02-26T20:56:54+00:00",
+          "updated_at": "2025-06-20T22:08:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2466: Rename PinwheelAccount model to PayrollAccount",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/470",
+          "created_at": "2025-02-25T21:00:29+00:00",
+          "updated_at": "2025-06-20T22:08:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Patching security vulnerabilities for nokogiri and libgnutls",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/463",
+          "created_at": "2025-02-20T21:00:50+00:00",
+          "updated_at": "2025-06-20T22:08:52+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2336: Better Organize Response Objects",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/457",
+          "created_at": "2025-02-14T21:46:50+00:00",
+          "updated_at": "2025-06-20T22:08:51+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2336: Move paystub, identity, employment, income into a response object",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/455",
+          "created_at": "2025-02-14T17:55:49+00:00",
+          "updated_at": "2025-06-20T22:08:51+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Upgrade rack 2.2.10 -> 2.2.11",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/454",
+          "created_at": "2025-02-13T23:08:46+00:00",
+          "updated_at": "2025-06-20T22:08:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Adding pre-commit hook for linting",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/453",
+          "created_at": "2025-02-13T22:21:31+00:00",
+          "updated_at": "2025-06-20T22:08:49+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Patching vulnerabilities | esbuild, net-imap",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/450",
+          "created_at": "2025-02-12T17:57:34+00:00",
+          "updated_at": "2025-06-20T22:08:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2337: Multi-Provider Support in Javascript Front-end code",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/444",
+          "created_at": "2025-02-11T03:41:25+00:00",
+          "updated_at": "2025-06-20T22:08:52+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Address vulnerability",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/443",
+          "created_at": "2025-02-10T16:53:06+00:00",
+          "updated_at": "2025-06-20T22:08:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2336: First sketch of multi-provider search",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/442",
+          "created_at": "2025-02-07T21:47:39+00:00",
+          "updated_at": "2025-06-20T22:08:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade postcss from 8.5.0 to 8.5.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/441",
+          "created_at": "2025-02-07T01:51:56+00:00",
+          "updated_at": "2025-06-20T22:08:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.83.2 to 1.83.4",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/440",
+          "created_at": "2025-02-07T01:51:52+00:00",
+          "updated_at": "2025-06-20T22:08:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "2401: Use different syntax",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/437",
+          "created_at": "2025-02-05T19:35:35+00:00",
+          "updated_at": "2025-06-20T22:08:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2455: Install vitest javascript unit testing and refactor JS code that calls Internal API's",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/435",
+          "created_at": "2025-02-04T19:08:45+00:00",
+          "updated_at": "2025-06-20T22:08:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade postcss from 8.4.49 to 8.5.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/434",
+          "created_at": "2025-02-04T01:23:19+00:00",
+          "updated_at": "2025-06-20T22:08:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.83.1 to 1.83.2",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/433",
+          "created_at": "2025-02-04T01:23:14+00:00",
+          "updated_at": "2025-06-20T22:08:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2403: Token-based authentication",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/431",
+          "created_at": "2025-01-31T16:54:33+00:00",
+          "updated_at": "2025-06-20T22:08:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "upgrade go",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/427",
+          "created_at": "2025-01-30T18:33:51+00:00",
+          "updated_at": "2025-06-20T22:08:31+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2407: Remove ConnectArgyleAccounts and Applicants Table",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/426",
+          "created_at": "2025-01-30T16:12:15+00:00",
+          "updated_at": "2025-06-20T22:08:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2401: Add bare bones invitations controller",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/424",
+          "created_at": "2025-01-29T18:55:47+00:00",
+          "updated_at": "2025-06-20T22:08:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.83.0 to 1.83.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/421",
+          "created_at": "2025-01-25T01:43:54+00:00",
+          "updated_at": "2025-06-20T22:08:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "2374: Include new wind down copy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/420",
+          "created_at": "2025-01-24T18:27:41+00:00",
+          "updated_at": "2025-06-20T22:08:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Set up Terraform to accommodate change made to hashicorp GH action",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/419",
+          "created_at": "2025-01-22T21:39:11+00:00",
+          "updated_at": "2025-06-20T22:08:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "asdf",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/418",
+          "created_at": "2025-01-22T19:11:05+00:00",
+          "updated_at": "2025-06-20T22:08:24+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Attempt to fix vulnerability",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/416",
+          "created_at": "2025-01-21T17:35:12+00:00",
+          "updated_at": "2025-06-20T22:08:26+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2261: Disable NYC Staff Portal",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/415",
+          "created_at": "2025-01-21T17:01:27+00:00",
+          "updated_at": "2025-06-20T22:08:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade esbuild from 0.24.0 to 0.24.2",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/414",
+          "created_at": "2025-01-11T01:16:24+00:00",
+          "updated_at": "2025-06-20T22:08:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @uswds/uswds from 3.10.0 to 3.11.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/413",
+          "created_at": "2025-01-09T23:51:51+00:00",
+          "updated_at": "2025-06-20T22:08:28+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2162: Set up mixpanel and use it to track page views",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/399",
+          "created_at": "2024-12-17T21:34:12+00:00",
+          "updated_at": "2025-06-20T22:08:24+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump vulnerabilities",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/396",
+          "created_at": "2024-12-16T18:10:37+00:00",
+          "updated_at": "2025-06-20T22:08:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade postcss from 8.4.48 to 8.4.49",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/395",
+          "created_at": "2024-12-14T00:00:09+00:00",
+          "updated_at": "2025-06-20T22:08:22+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @uswds/uswds from 3.9.0 to 3.10.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/394",
+          "created_at": "2024-12-14T00:00:04+00:00",
+          "updated_at": "2025-06-20T22:09:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.80.6 to 1.81.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/393",
+          "created_at": "2024-12-13T23:59:58+00:00",
+          "updated_at": "2025-06-20T22:09:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade Rails 7.1.3 -> 7.1.5 for security fix",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/388",
+          "created_at": "2024-12-11T19:40:02+00:00",
+          "updated_at": "2025-06-20T22:09:12+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "2113: Redirect to root if staff portal is disabled",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/383",
+          "created_at": "2024-12-04T17:31:47+00:00",
+          "updated_at": "2025-06-20T22:08:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-156-search-page-improved",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/361",
+          "created_at": "2024-11-19T22:08:54+00:00",
+          "updated_at": "2025-06-20T22:09:11+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1782: Capture User Agent and other data per page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/360",
+          "created_at": "2024-11-19T20:13:07+00:00",
+          "updated_at": "2025-06-20T22:08:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @uswds/uswds from 3.8.0 to 3.9.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/358",
+          "created_at": "2024-11-15T23:25:27+00:00",
+          "updated_at": "2025-06-20T22:08:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade @hotwired/turbo-rails from 8.0.4 to 8.0.12",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/357",
+          "created_at": "2024-11-15T23:25:20+00:00",
+          "updated_at": "2025-06-20T22:08:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade postcss from 8.4.38 to 8.4.47",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/356",
+          "created_at": "2024-11-15T23:25:16+00:00",
+          "updated_at": "2025-06-20T22:08:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.75.0 to 1.80.4",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/354",
+          "created_at": "2024-11-15T23:25:01+00:00",
+          "updated_at": "2025-06-20T22:08:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix Docker build error by upgrading system dependencies",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/351",
+          "created_at": "2024-11-12T20:01:00+00:00",
+          "updated_at": "2025-06-20T22:08:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Include email address in all weekly reports",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/347",
+          "created_at": "2024-11-04T19:30:10+00:00",
+          "updated_at": "2025-06-20T22:08:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Track manually switching locale",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/346",
+          "created_at": "2024-11-01T20:11:35+00:00",
+          "updated_at": "2025-06-20T22:08:08+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "1930: fourth bullet",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/345",
+          "created_at": "2024-11-01T19:20:55+00:00",
+          "updated_at": "2025-06-20T22:08:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Enables previewing production locally. ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/338",
+          "created_at": "2024-10-28T19:55:31+00:00",
+          "updated_at": "2025-06-20T22:08:12+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Fix data redaction for Cbv Flows without invitations",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/334",
+          "created_at": "2024-10-22T20:43:58+00:00",
+          "updated_at": "2025-06-20T22:08:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1930: Refactor Synchronizations to Patch to Itself",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/332",
+          "created_at": "2024-10-22T16:26:08+00:00",
+          "updated_at": "2025-06-20T22:08:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[WIP] Remove infra/test go files",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/323",
+          "created_at": "2024-10-16T20:25:59+00:00",
+          "updated_at": "2025-06-20T22:08:07+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Include cbv flow id in pinwheel link error events",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/313",
+          "created_at": "2024-10-08T20:23:02+00:00",
+          "updated_at": "2025-06-20T22:07:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1488: Explicitly set margin to something slightly higher than the default",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/311",
+          "created_at": "2024-10-08T19:40:15+00:00",
+          "updated_at": "2025-06-20T22:07:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Track when agreement page is loaded",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/307",
+          "created_at": "2024-10-03T19:01:28+00:00",
+          "updated_at": "2025-06-20T22:07:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1492: Synchronizations follow up",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/303",
+          "created_at": "2024-10-02T17:57:59+00:00",
+          "updated_at": "2025-06-20T22:07:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix documentation test failure by excluding HHS.gov",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/299",
+          "created_at": "2024-09-30T22:17:51+00:00",
+          "updated_at": "2025-06-20T22:07:52+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Track account creation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/295",
+          "created_at": "2024-09-27T17:42:32+00:00",
+          "updated_at": "2025-06-20T22:07:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bug fix: Include current_site as part of the locals",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/294",
+          "created_at": "2024-09-26T18:46:10+00:00",
+          "updated_at": "2025-06-20T22:07:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bump webrick",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/289",
+          "created_at": "2024-09-24T15:16:00+00:00",
+          "updated_at": "2025-06-20T22:07:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1558: Update view logic and language for no paystubs found scenario",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/282",
+          "created_at": "2024-09-18T19:29:39+00:00",
+          "updated_at": "2025-06-20T22:07:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1625: Remove step 2 from NYC caseworker email body",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/278",
+          "created_at": "2024-09-13T17:34:55+00:00",
+          "updated_at": "2025-06-20T22:07:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1567: Change Date Field",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/273",
+          "created_at": "2024-09-11T20:36:14+00:00",
+          "updated_at": "2025-06-20T22:07:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Only conditionally set the asset host",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/272",
+          "created_at": "2024-09-11T15:46:13+00:00",
+          "updated_at": "2025-06-20T22:07:42+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "1550: Use message_html feature",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/265",
+          "created_at": "2024-09-10T15:45:04+00:00",
+          "updated_at": "2025-06-20T22:07:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1553: Set org name as \u201csearch\u201d",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/264",
+          "created_at": "2024-09-10T15:22:38+00:00",
+          "updated_at": "2025-06-20T22:07:40+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Allow site-specific pinwheel environments",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/263",
+          "created_at": "2024-09-09T21:17:38+00:00",
+          "updated_at": "2025-06-20T22:07:39+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1146: PDFs for MA",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/254",
+          "created_at": "2024-09-04T19:40:41+00:00",
+          "updated_at": "2025-06-20T22:07:38+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Only permit authorized MA users",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/248",
+          "created_at": "2024-08-30T15:55:24+00:00",
+          "updated_at": "2025-06-20T22:07:38+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update method to more accurately reflect its meaning",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/241",
+          "created_at": "2024-08-28T18:47:50+00:00",
+          "updated_at": "2025-06-20T22:07:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Filter for known account IDs only",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/235",
+          "created_at": "2024-08-27T16:30:47+00:00",
+          "updated_at": "2025-06-20T22:07:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: PDF header and show pagination for caseworker email",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/233",
+          "created_at": "2024-08-26T22:10:58+00:00",
+          "updated_at": "2025-06-20T22:07:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Change ordering; paginate; update translation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/232",
+          "created_at": "2024-08-26T21:37:42+00:00",
+          "updated_at": "2025-06-20T22:07:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Highlight specific caseworker pdf rows",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/231",
+          "created_at": "2024-08-26T18:53:19+00:00",
+          "updated_at": "2025-06-20T22:07:31+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update \"nyc\" to production pinwheel :rocket:",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/230",
+          "created_at": "2024-08-26T18:32:08+00:00",
+          "updated_at": "2025-06-20T22:07:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix design issues on /cbv/entries page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/220",
+          "created_at": "2024-08-23T20:55:18+00:00",
+          "updated_at": "2025-06-20T22:07:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Adds Caseworker PDF view",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/219",
+          "created_at": "2024-08-23T20:23:28+00:00",
+          "updated_at": "2025-06-20T22:07:26+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update missed opportunities for factories",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/211",
+          "created_at": "2024-08-22T20:42:33+00:00",
+          "updated_at": "2025-06-20T22:07:26+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Use factories in our tests",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/209",
+          "created_at": "2024-08-22T19:18:48+00:00",
+          "updated_at": "2025-06-20T22:07:24+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Apply interface to payment details view",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/208",
+          "created_at": "2024-08-22T18:48:17+00:00",
+          "updated_at": "2025-06-20T22:07:25+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Implement Client-Facing PDF",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/203",
+          "created_at": "2024-08-21T22:58:01+00:00",
+          "updated_at": "2025-06-20T22:07:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: Client-facing PDF; Rename helper methods",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/189",
+          "created_at": "2024-08-19T18:17:30+00:00",
+          "updated_at": "2025-06-20T22:07:23+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "987: Add PDF styles",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/178",
+          "created_at": "2024-08-16T14:42:03+00:00",
+          "updated_at": "2025-06-20T22:07:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "987: PDF",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/175",
+          "created_at": "2024-08-15T19:33:16+00:00",
+          "updated_at": "2025-06-20T22:07:18+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Exclude zero amount deductions",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/173",
+          "created_at": "2024-08-15T18:05:44+00:00",
+          "updated_at": "2025-06-20T22:07:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Required fields",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/167",
+          "created_at": "2024-08-13T18:26:23+00:00",
+          "updated_at": "2025-06-20T22:07:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add support to infra template for cron jobs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/156",
+          "created_at": "2024-08-09T03:21:49+00:00",
+          "updated_at": "2025-06-20T22:07:16+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Update deploy-failures.md",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/153",
+          "created_at": "2024-08-08T17:07:34+00:00",
+          "updated_at": "2025-06-20T22:07:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1265 show hourly",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/144",
+          "created_at": "2024-08-07T00:06:02+00:00",
+          "updated_at": "2025-06-20T22:07:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Drop authenticity_token from GET action forms",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/143",
+          "created_at": "2024-08-06T23:24:45+00:00",
+          "updated_at": "2025-06-20T22:07:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Permit PDF for summary view",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/139",
+          "created_at": "2024-08-06T18:44:06+00:00",
+          "updated_at": "2025-06-20T22:07:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Listen for a combination of events",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/138",
+          "created_at": "2024-08-06T00:31:33+00:00",
+          "updated_at": "2025-06-20T22:07:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add Azure SSO for \"sandbox\" site",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/136",
+          "created_at": "2024-08-05T22:29:43+00:00",
+          "updated_at": "2025-06-20T22:07:08+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix Humanize Bug",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/135",
+          "created_at": "2024-08-05T19:57:02+00:00",
+          "updated_at": "2025-06-20T22:07:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1204: SSO Spike",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/126",
+          "created_at": "2024-08-01T17:26:04+00:00",
+          "updated_at": "2025-06-20T22:07:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1023: Add new fields to site configuration, send email",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/118",
+          "created_at": "2024-07-30T19:03:58+00:00",
+          "updated_at": "2025-06-20T22:07:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add MA MOVEIt bucket configuration",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/114",
+          "created_at": "2024-07-25T19:04:47+00:00",
+          "updated_at": "2025-06-20T22:07:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add lock symbol, new copy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/106",
+          "created_at": "2024-07-15T18:30:48+00:00",
+          "updated_at": "2025-06-20T22:07:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "1092: Summary View Updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/105",
+          "created_at": "2024-07-15T15:40:31+00:00",
+          "updated_at": "2025-06-20T22:07:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-1085: Show employment information",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/104",
+          "created_at": "2024-07-12T17:44:25+00:00",
+          "updated_at": "2025-06-20T22:06:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update headers for payment details",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/103",
+          "created_at": "2024-07-12T16:34:35+00:00",
+          "updated_at": "2025-06-20T22:06:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix dependency scan",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/100",
+          "created_at": "2024-07-12T14:44:04+00:00",
+          "updated_at": "2025-06-20T22:07:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-1091: updates to /agreement page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/99",
+          "created_at": "2024-07-12T13:45:49+00:00",
+          "updated_at": "2025-06-20T22:06:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-1065: Remove language selection",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/98",
+          "created_at": "2024-07-10T22:19:53+00:00",
+          "updated_at": "2025-06-20T22:06:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Apply template-infra commit",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/97",
+          "created_at": "2024-07-09T00:45:05+00:00",
+          "updated_at": "2025-06-20T22:06:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Track ApplicantDownloadedIncomePDF",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/96",
+          "created_at": "2024-07-08T15:13:31+00:00",
+          "updated_at": "2025-06-20T22:06:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fix OWASP test",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/94",
+          "created_at": "2024-07-07T16:54:24+00:00",
+          "updated_at": "2025-06-20T22:06:57+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Use NR Event Tracker",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/89",
+          "created_at": "2024-07-01T21:54:31+00:00",
+          "updated_at": "2025-06-20T22:06:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update deploy-failures.md",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/88",
+          "created_at": "2024-07-01T20:47:49+00:00",
+          "updated_at": "2025-06-20T22:06:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Enabling new relic agent, adding newrelic_key env var to terraform co\u2026",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/76",
+          "created_at": "2024-06-28T19:45:56+00:00",
+          "updated_at": "2025-06-20T22:06:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Added case number and timestamps to email and generated summary PDFs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/66",
+          "created_at": "2024-06-18T23:08:11+00:00",
+          "updated_at": "2025-06-20T22:06:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Pinwheel merge resolve",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/64",
+          "created_at": "2024-06-17T16:35:48+00:00",
+          "updated_at": "2025-06-20T22:06:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "George/ffs 777",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/60",
+          "created_at": "2024-06-13T02:16:22+00:00",
+          "updated_at": "2025-06-20T22:06:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "822 webhook",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/53",
+          "created_at": "2024-06-10T20:49:27+00:00",
+          "updated_at": "2025-06-20T22:06:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bugfix/build dev container",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/39",
+          "created_at": "2024-06-05T15:48:31+00:00",
+          "updated_at": "2025-06-20T22:06:43+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Rename pinwheel, add modal, add CSP, create new service and connect",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/35",
+          "created_at": "2024-06-04T19:17:25+00:00",
+          "updated_at": "2025-06-20T22:06:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Use PG for Action Cable",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/34",
+          "created_at": "2024-05-31T18:03:39+00:00",
+          "updated_at": "2025-06-20T22:06:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "applying changes from previous infra setup",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/31",
+          "created_at": "2024-05-28T19:10:37+00:00",
+          "updated_at": "2025-06-20T22:06:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Apply GH actions updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/30",
+          "created_at": "2024-05-28T15:07:38+00:00",
+          "updated_at": "2025-06-20T22:06:30+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Initial infrastructure setup from George",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/29",
+          "created_at": "2024-05-21T21:47:09+00:00",
+          "updated_at": "2025-06-20T22:06:19+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Add Applicant Mailer for invitation emails",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/25",
+          "created_at": "2024-05-16T21:43:51+00:00",
+          "updated_at": "2025-06-20T22:06:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Reuse an associated CbvFlow if it exists",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/24",
+          "created_at": "2024-05-16T16:04:17+00:00",
+          "updated_at": "2025-06-20T22:05:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Complete Argyle Service Class",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/21",
+          "created_at": "2024-05-14T22:00:28+00:00",
+          "updated_at": "2025-06-20T22:06:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add PDF functionality",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/20",
+          "created_at": "2024-05-14T19:24:35+00:00",
+          "updated_at": "2025-06-20T22:06:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Rubocop-ify",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/19",
+          "created_at": "2024-05-14T18:50:17+00:00",
+          "updated_at": "2025-06-20T22:06:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Internalize and localize",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/18",
+          "created_at": "2024-05-14T18:28:09+00:00",
+          "updated_at": "2025-06-20T22:06:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Simplified Employer Search",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/17",
+          "created_at": "2024-05-07T21:42:25+00:00",
+          "updated_at": "2025-06-20T22:06:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Feature/ffs 675",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/16",
+          "created_at": "2024-05-03T19:59:39+00:00",
+          "updated_at": "2025-06-20T22:06:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Refresh expired token",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/15",
+          "created_at": "2024-05-03T14:22:13+00:00",
+          "updated_at": "2025-06-20T22:06:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Mg design improvements",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/14",
+          "created_at": "2024-05-02T23:14:07+00:00",
+          "updated_at": "2025-06-20T22:06:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Listen to Argyle Webhooks to check when paystubs are fully sync'd",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/13",
+          "created_at": "2024-05-01T20:55:25+00:00",
+          "updated_at": "2025-06-20T22:05:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Feature/ffs 616",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/12",
+          "created_at": "2024-04-30T19:03:31+00:00",
+          "updated_at": "2025-06-20T22:05:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Query for payroll data and show message if it doesn\u2019t exist",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/11",
+          "created_at": "2024-04-30T17:00:33+00:00",
+          "updated_at": "2025-06-20T22:05:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Remove providers; use selected employer",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/9",
+          "created_at": "2024-04-29T18:12:16+00:00",
+          "updated_at": "2025-06-20T22:05:57+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add Rubocop Linter",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/8",
+          "created_at": "2024-04-26T23:49:08+00:00",
+          "updated_at": "2025-06-20T22:05:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add CbvFlows model and controller for flow logic (FFS-679)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/7",
+          "created_at": "2024-04-26T19:15:51+00:00",
+          "updated_at": "2025-06-20T22:05:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Trigger Argyle Link",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/6",
+          "created_at": "2024-04-25T19:28:46+00:00",
+          "updated_at": "2025-06-20T22:05:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "FFS-3023: Create github actions to check for string token changes (#775)\n\nRemoved pre-commit hooks on push for i18n-missing and i18n-interpolations since differences like those are now expected to happen at development time. i18n-normalize remains.\nAdded two new github actions that run before merge if the locales folder has changes:\n\n1. Check Locale Synchronization -- this uses the changes in your branch for en.yml and makes sure the same keys have been changed in your branch for es.yml. This helps us protect against issues where an en string is changed but an es string is unmodified.\n2. Check i18n-tasks health -- this is the same thing we used to run pre-commit, but now we run it pre-merge. This will fail if there are any keys that don't match up between en and es, if there are unused keys, if interpolations are wrong, and if the locale files aren't normalized.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ae0fa52d274549b16fd20a7a4702a35b226aff9d",
+          "author": "Tim Miller",
+          "created_at": "2025-06-25T14:22:04+00:00"
+        },
+        {
+          "message": "Fix erb_lint inadvertently running on vendor/bundle files (#791)\n\nThis comes recommended by [erb_lint's README][1].\n\n[1]: https://github.com/Shopify/erb_lint#usage",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/243c5b5a62b9d775285d45c05cf596ec1973318b",
+          "author": "Tom Dooner",
+          "created_at": "2025-06-24T22:12:17+00:00"
+        },
+        {
+          "message": "fix: upgrade postcss-minify from 1.1.0 to 1.2.0 (#779)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/877da03919879f2fab36da7b470c274557467a88",
+          "author": "decause-gov",
+          "created_at": "2025-06-24T21:15:06+00:00"
+        },
+        {
+          "message": "Cache `bundle install` when running Rspec (#788)\n\nThis should shave off ~1 minute from our test runs.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9218ad73a597e393e8074f57c147ca65019b29f7",
+          "author": "Tom Dooner",
+          "created_at": "2025-06-24T20:31:07+00:00"
+        },
+        {
+          "message": "FFS-2325: Remove New Relic even tracking, update events (#785)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ffb53d05310181d5d9e92f69cddb159a78d9f302",
+          "author": "patsier-cms",
+          "created_at": "2025-06-23T21:10:02+00:00"
+        },
+        {
+          "message": "fix: upgrade @uswds/uswds from 3.12.0 to 3.13.0 (#770)\n\nSnyk has created this PR to upgrade @uswds/uswds from 3.12.0 to 3.13.0.\n\nSee this package in npm:\n@uswds/uswds\n\nSee this project in Snyk:\nhttps://app.snyk.io/org/ospo/project/a94f26c7-ed40-4004-a636-d3b13c37de47?utm_source=github&utm_medium=referral&page=upgrade-pr\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/874ee35486f363174f1dc3e15bd183d4c9e412e9",
+          "author": "decause-gov",
+          "created_at": "2025-06-23T18:01:15+00:00"
+        },
+        {
+          "message": "No ticket: Add patsier-cms to reviewer lottery (#774)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fd42f1a9b450b05cd4772962734dfaec97442dfb",
+          "author": "patsier-cms",
+          "created_at": "2025-06-23T16:40:29+00:00"
+        },
+        {
+          "message": "fix: upgrade postcss from 8.5.3 to 8.5.4 (#778)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c11cd27aa253c958dbfbe4412c79ddcbbd83a9e1",
+          "author": "decause-gov",
+          "created_at": "2025-06-23T15:56:06+00:00"
+        },
+        {
+          "message": "fix: upgrade sass from 1.89.0 to 1.89.1 (#784)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/74c5bd59f3fb976d650c8484479ce91f72bf638b",
+          "author": "decause-gov",
+          "created_at": "2025-06-23T15:55:30+00:00"
+        },
+        {
+          "message": "FFS-2676: Store link expiration in database field (#780)\n\n* FFS-2676: Store link expiration in database field\n\nAdds the expires_at field to CbvFlowInvitation so that expiration times\ncan be queried in the database. Because by default Rails stores and\nreturns this in UTC, also adds #expires_at_local to return in the\nconfigured valid time zone, and adds migrations to create the field and\nthen populate it for existing records.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a80e285170b60352ac7b00e85380f8e16e604d61",
+          "author": "patsier-cms",
+          "created_at": "2025-06-23T13:28:55+00:00"
+        },
+        {
+          "message": "removed Rainbow to fix auto-deploy (#782)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4b4b06ee209b105fa8f7e88c02c02ba15bef15c1",
+          "author": "Tim Miller",
+          "created_at": "2025-06-20T21:53:09+00:00"
+        },
+        {
+          "message": "FFS-2533: Standardize event names between Pinwheel/Argyle JS's and backend (#781)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/95b1b3ba5a3573a6e584a4fd6b69c39bc155d25b",
+          "author": "Daphne Gold",
+          "created_at": "2025-06-20T21:07:22+00:00"
+        },
+        {
+          "message": "No ticket: create translations:generate rake task (#777)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ffdb479c2dfe2da4cb68bb3dbd8bb5436e535e51",
+          "author": "Tim Miller",
+          "created_at": "2025-06-20T17:38:48+00:00"
+        },
+        {
+          "message": "Revert \"No ticket: create translations:generate rake task (#773)\" (#776)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ab900c3055e09f44177419796a95c762ed6ada25",
+          "author": "Tim Miller",
+          "created_at": "2025-06-19T19:20:47+00:00"
+        },
+        {
+          "message": "No ticket: create translations:generate rake task (#773)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0af5e2d9f41051ed1e4209b8eef84f66e07002c5",
+          "author": "Tim Miller",
+          "created_at": "2025-06-19T18:30:19+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate a CMS code.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/74",
+          "created_at": "2025-06-24T18:25:45+00:00",
+          "updated_at": "2025-06-24T18:25:45+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/73",
+          "created_at": "2025-06-21T02:51:51+00:00",
+          "updated_at": "2025-06-21T02:51:51+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repolinter-test-1",
+      "url": "https://github.com/DSACMS/repolinter-test-1",
+      "description": "Test repository for Repolinter Actions",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repolinter-test-1/pull/9",
+          "created_at": "2025-06-24T18:02:32+00:00",
+          "updated_at": "2025-06-24T18:02:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Tooling that allows for code.json creation through automation",
+      "issues": [
+        {
+          "title": "Version Roadmap",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/issues/46",
+          "created_at": "2025-06-24T20:06:15+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/45",
+          "created_at": "2025-06-24T19:48:28+00:00",
+          "updated_at": "2025-06-24T19:48:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/44",
+          "created_at": "2025-06-24T19:23:52+00:00",
+          "updated_at": "2025-06-24T19:23:53+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Changed dependency strategy to docker",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/43",
+          "created_at": "2025-06-24T19:04:02+00:00",
+          "updated_at": "2025-06-24T19:44:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump @jest/globals from 29.7.0 to 30.0.2",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/42",
+          "created_at": "2025-06-23T20:49:38+00:00",
+          "updated_at": "2025-06-23T20:49:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump @github/local-action from 2.6.1 to 3.2.1",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/41",
+          "created_at": "2025-06-23T20:41:37+00:00",
+          "updated_at": "2025-06-23T20:41:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump the npm-development group with 16 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/40",
+          "created_at": "2025-06-23T20:32:14+00:00",
+          "updated_at": "2025-06-23T20:32:14+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump the npm-development group across 1 directory with 15 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/34",
+          "created_at": "2025-06-02T19:07:56+00:00",
+          "updated_at": "2025-06-23T18:55:36+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/32",
+          "created_at": "2025-05-26T19:04:27+00:00",
+          "updated_at": "2025-06-23T19:08:40+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Update README.md",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/6fb44e7182ced666d5f53c3023b0b11873c84737",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T20:04:59+00:00"
+        },
+        {
+          "message": "added proper perms for labels\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/69d0a7faced08a6f79c01e3dbeabe23602c18200",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:53:28+00:00"
+        },
+        {
+          "message": "Merge pull request #43 from DSACMS/sachin/versioningUpdates\n\nChanged dependency strategy to docker",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/a9948adc5b3a362605666a7f88c10be107ccb117",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:44:14+00:00"
+        },
+        {
+          "message": "reverted action version\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/2e4bc4367bfd325fe19b23a42409ed5558ec5a15",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:29:41+00:00"
+        },
+        {
+          "message": "copying all files now\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/bc56b60381a4d357cf12a732317b0ab5e6392a93",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:22:25+00:00"
+        },
+        {
+          "message": "added config file to docker\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/01d69b06be2ec5874c933cded72f6c4e3a12ea96",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:19:31+00:00"
+        },
+        {
+          "message": "changed npm flag\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/865578d0ce67e64ce0fd9f79237dd1afc33b1bdf",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:16:48+00:00"
+        },
+        {
+          "message": "changed the npm run command\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/c327f86894380ed871c966d0e77d41c154be163d",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:12:25+00:00"
+        },
+        {
+          "message": "changed branch target for testing\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/8f0eff000b6900b467dbcd40b67fb6bdf2c7c040",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:06:59+00:00"
+        },
+        {
+          "message": "changed dependency strategy to docker\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/72d1663c657b71f877fc01ddb423f9cfe36f2b77",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T19:03:43+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "description": "Guide to the SHARE IT Act helping federal agencies comply with software code sharing requirements",
+      "issues": [
+        {
+          "title": "TEST ISSUE FOR code-gov",
+          "url": "https://github.com/DSACMS/share-it-act-lp/issues/10",
+          "created_at": "2025-06-23T18:26:16+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/12",
+          "created_at": "2025-06-24T19:48:16+00:00",
+          "updated_at": "2025-06-24T19:48:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/11",
+          "created_at": "2025-06-24T18:25:21+00:00",
+          "updated_at": "2025-06-24T18:25:21+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Add exemption text",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/9",
+          "created_at": "2025-06-22T21:07:18+00:00",
+          "updated_at": "2025-06-24T19:19:47+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Legacy Generator Changes",
+          "url": "https://github.com/DSACMS/code-gov/pull/36",
+          "created_at": "2025-06-24T16:37:36+00:00",
+          "updated_at": "2025-06-24T17:09:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": " Issue Queue Pool",
+          "url": "https://github.com/DSACMS/code-gov/pull/35",
+          "created_at": "2025-06-24T15:31:14+00:00",
+          "updated_at": "2025-06-25T15:26:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Added agency_logos dir, with list and files",
+          "url": "https://github.com/DSACMS/code-gov/pull/34",
+          "created_at": "2025-06-23T18:18:53+00:00",
+          "updated_at": "2025-06-23T18:24:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Adding SHARE IT Act content",
+          "url": "https://github.com/DSACMS/code-gov/pull/33",
+          "created_at": "2025-06-23T18:00:58+00:00",
+          "updated_at": "2025-06-23T18:09:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Issue Queue Pool",
+          "url": "https://github.com/DSACMS/code-gov/pull/19",
+          "created_at": "2025-06-04T14:28:58+00:00",
+          "updated_at": "2025-06-24T16:20:15+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Resolve merge conflicts of individual code.json files\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/code-gov/commit/0da737a086a3260cf38167e6e226edf724d03465",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-06-25T18:25:33+00:00"
+        },
+        {
+          "message": "added entry points for the issue\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/code-gov/commit/ca28c3b5f8539cf8d90faf79895b42aa0f422a7d",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T18:11:21+00:00"
+        },
+        {
+          "message": "added passthrough copy in eleventy.js\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/code-gov/commit/cb34e0e30d767f197e59dad2676f11087ea4fb71",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T17:32:09+00:00"
+        },
+        {
+          "message": "fixing issues page from not loading properly\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/code-gov/commit/fd2a235fa349665f42f97bbbdeecacade188faf1",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T17:24:12+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/code-gov/commit/d40fc5b76787be2f303d318923c1b5deba45b52b",
+          "author": "github-actions[bot]",
+          "created_at": "2025-06-25T15:27:00+00:00"
+        },
+        {
+          "message": "Merge pull request #35 from DSACMS/sachin/newIssueQueue\n\n Issue Queue Pool",
+          "url": "https://github.com/DSACMS/code-gov/commit/184fca0c030e4832f5d7477df5e5687d696cf0aa",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T15:26:37+00:00"
+        },
+        {
+          "message": "Merge pull request #36 from DSACMS/sachin/legacyChanges\n\nLegacy Generator Changes",
+          "url": "https://github.com/DSACMS/code-gov/commit/504b3cea35d7b2e76ca729ca996a1c0810bfddcf",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T17:09:07+00:00"
+        },
+        {
+          "message": "altered top level property name for legacy-index.json\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/code-gov/commit/5aad11a95c533a1a0417f4539ba679a7ec48e583",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T16:35:10+00:00"
+        },
+        {
+          "message": "full feature complete\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/code-gov/commit/9d7b818d1c705b7783e73c56f5b0c397ec6327c0",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-24T15:29:30+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "datajson-index-generator",
+      "url": "https://github.com/DSACMS/datajson-index-generator",
+      "description": "Script to create an indexed data.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Repolinter Results",
+          "url": "https://github.com/DSACMS/datajson-index-generator/pull/1",
+          "created_at": "2025-06-25T15:15:38+00:00",
+          "updated_at": "2025-06-25T15:15:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "removed metadata from final index\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/datajson-index-generator/commit/83598773cdf5a7c08eed8e34eae59d80777e48ed",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T15:21:27+00:00"
+        },
+        {
+          "message": "added deploy job\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/datajson-index-generator/commit/d9ce987c862f1a70a23c7a7736f748ea971840d4",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T15:14:13+00:00"
+        },
+        {
+          "message": "added webpage logic\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/datajson-index-generator/commit/6597c83f3df457f1a6bed24e0654d1343bad2bc3",
+          "author": "Sachin Panayil",
+          "created_at": "2025-06-25T15:08:31+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "ndh",
+      "url": "https://github.com/DSACMS/ndh",
+      "description": null,
+      "issues": [
+        {
+          "title": "test",
+          "url": "https://github.com/DSACMS/ndh/issues/1",
+          "created_at": "2025-06-23T19:19:30+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-06-18",
+    "end": "2025-06-25"
+  },
+  "generated_at": "2025-06-25T19:46:27.868193+00:00"
+}

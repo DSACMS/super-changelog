@@ -8,11 +8,11 @@ def main():
     now = datetime.now(timezone.utc)
     one_week_ago = now - timedelta(days=7)
 
-    timestamp = now.strftime("%y-%m-%d")
-    start_date = one_week_ago.strftime("%y-%m-%d")
-    end_date = now.strftime("%y-%m-%d")
+    timestamp = now.strftime("%Y-%m-%d")
+    start_date = one_week_ago.strftime("%Y-%m-%d")
+    end_date = now.strftime("%Y-%m-%d")
 
-    filename = f"data/weekly_changelog_{start_date}_to_{end_date}.json"
+    filename = f"changelog_data/data/weekly_changelog_{start_date}_to_{end_date}.json"
 
     os.makedirs("data", exist_ok=True)
 
