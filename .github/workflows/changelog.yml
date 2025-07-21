@@ -5,24 +5,82 @@ on:
         - cron: '0 13 * * 0'
     workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
 jobs:
-    changelog:
-        runs-on: ubuntu-latest
+  generate-weekly-summary:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-        steps:
-            - name: Set up Python
-              uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-            - name: Checkout repository
-              uses: actions/setup-python@v4
-              with:
-                python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
 
-            - name: Install dependencies
-              run: |
-                python -m pip install --upgrade pip
-                pip install -r requirements.txt
-            - name: Run changelog script
-              env:
-                GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
-              run: python scripts/generate_changelog.py
+      - name: Generate weekly changelog
+        env:
+          GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
+        run: |
+          python scripts/generate_changelog_weekly.py
+      
+      - name: Generate summary
+        run: |
+          python scripts/generate_summary.py
+
+      - name: Create Pull Request with Summary
+        env: 
+          GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
+        run: |
+          # Get latest summary files
+          TIMESTAMP=$(date +"%Y-%m-%d")
+          PR_TITLE_FILE="changelog_data/summaries/pr_title_{TIMESTAMP}.txt"
+          PR_BODY_FILE="changelog_data/summaries/pr_body_{TIMESTAMP}.md"
+
+          if [ ! -f "$PR_TITLE_FILE" ] || [ ! -f "$PR_BODY_FILE" ]; then
+            echo "Summary not found, checking latest file..."
+            PR_TITLE_FILE=$(ls -t changelog_data/summaries/pr_title_*.txt 2>/dev/null | head -n1)
+            PR_BODY_FILE=$(ls -t changelog_data/summaries/pr_body_*.md 2>/dev/null | head -n1)
+          fi
+
+          if [ -f "$PR_TITLE_FILE" ] && [ -f "$PR_BODY_FILE" ]; then
+            PR_TITLE=$(cat "$PR_TITLE_FILE")
+
+            BRANCH_NAME="weekly-changelog-&(date +"-%m-%d")"
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git chackout -b "$BRANCH_NAME"
+
+            git add changelog_data/
+            git commit -sm "Add weekly changelog summary for $(date +"%Y-%m-%d")"
+            git push origin "$BRANCH_NAME"
+
+            gh pr create \
+              --title "$PR_TITLE" \
+              --body-file "$PR_BODY_FILE" \
+              --base main \
+              --head "$BRANCH_NAME" \
+              --label "changelog" \
+              --label "automated"
+          else
+            echo "Could not find PR title or body files"
+            exit 1
+          fi
+      
+      - name: Upload summary artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: weekly-changelog-summary
+          path: |
+            changelog_data/summaries/
+            changelog_data/data/weekly_changelog_*.json

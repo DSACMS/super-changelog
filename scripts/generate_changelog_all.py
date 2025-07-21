@@ -6,7 +6,7 @@ import re
 
 def main():
     timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
-    filename = f"data/changelog{timestamp}.json"
+    filename = f"changelog_data/data/changelog{timestamp}.json"
     # since = datetime.now(timezone.utc) - timedelta(days=7)
 
     os.makedirs("data", exist_ok=True)
