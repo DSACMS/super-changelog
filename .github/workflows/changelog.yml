@@ -78,7 +78,7 @@ jobs:
           fi
       
       - name: Upload summary artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: weekly-changelog-summary
           path: |
