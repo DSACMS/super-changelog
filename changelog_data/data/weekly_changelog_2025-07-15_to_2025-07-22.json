@@ -1,0 +1,731 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "update measureauthoringtool data: Sun Jul 20 11:34:55 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/59de0e06743fe50eac60a92de573e2b61e72146a",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T11:34:55+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jul 20 10:41:12 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/acf2af93e6f19bc7028d33666d69866d9c9ef505",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T10:41:12+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jul 20 10:03:52 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/3fc9ac93dc357e5a9932946b128b0068290811e0",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T10:03:52+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jul 20 09:58:54 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/c96f98d5b66d40fe1d4764c3244103d695488fbe",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:58:54+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jul 20 09:45:46 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/da506c891d743d7d00fc10a9e37ce4b8fc2c53fd",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:45:46+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Jul 20 09:40:56 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a5805684944b6ff929bb4d7efd0820e9a7b8c52f",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:40:56+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jul 20 09:36:27 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/cb4d45f3e397eda8de0184e168805c4e5de0df5a",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:36:27+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jul 20 09:32:02 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/545953e1206bb04cf0e245b7ca00fa28d0d7dc78",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:32:03+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jul 20 09:30:17 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5c564075e0c0073616e327b3b989657672d362dc",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:30:17+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jul 20 09:00:10 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5e3650e6b2345c028dcd1ad3f5b670076e8df571",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T09:00:10+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Jul 20 08:58:13 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/cd20d58181fdcff7c4961bc66e21a363ab0053bc",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T08:58:13+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Jul 20 08:21:25 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/00e5e138ef3d00fd854bde8b7181bffafd8f490c",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T08:21:25+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Jul 20 07:59:12 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/61ee4427e5543399ae0d3e385a49abb4b756ad71",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T07:59:12+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Jul 20 07:48:40 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/810821563c1bb4de42029f36cb6ffa3e66fbd255",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T07:48:40+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Jul 20 07:39:23 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a8df122812b9704028a109d5a4c51547d69c75ec",
+          "author": "GitHub Actions",
+          "created_at": "2025-07-20T07:39:23+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/334",
+          "created_at": "2025-07-19T03:12:17+00:00",
+          "updated_at": "2025-07-19T03:12:17+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": null,
+      "issues": [
+        {
+          "title": "Add Jeff Catania as external maintainer",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/828",
+          "created_at": "2025-07-11T16:59:28+00:00",
+          "state": "open",
+          "is_new": false
+        }
+      ],
+      "pulls": [
+        {
+          "title": "[Snyk] Fix for 1 vulnerabilities",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/843",
+          "created_at": "2025-07-22T03:26:15+00:00",
+          "updated_at": "2025-07-22T03:26:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3082: Distinguish SMS and RFI links for LA users",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/842",
+          "created_at": "2025-07-21T20:16:46+00:00",
+          "updated_at": "2025-07-22T03:07:12+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade dotenv from 16.6.0 to 16.6.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/841",
+          "created_at": "2025-07-19T01:05:09+00:00",
+          "updated_at": "2025-07-21T17:26:20+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade dotenv from 16.5.0 to 16.6.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/840",
+          "created_at": "2025-07-18T01:01:16+00:00",
+          "updated_at": "2025-07-18T01:09:35+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix locale sync script to handle historical asymmetries",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/839",
+          "created_at": "2025-07-17T22:24:46+00:00",
+          "updated_at": "2025-07-17T22:29:05+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2932: Import Spanish Translations for \"other_jobs\" page.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/838",
+          "created_at": "2025-07-17T16:48:40+00:00",
+          "updated_at": "2025-07-21T18:58:54+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2430: Remove inline HTML styles",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/837",
+          "created_at": "2025-07-16T15:02:17+00:00",
+          "updated_at": "2025-07-16T16:11:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix timeout modal being hidden behind Argyle",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/836",
+          "created_at": "2025-07-16T12:45:30+00:00",
+          "updated_at": "2025-07-16T14:54:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Upgrade `erzz/dockle-action` v1.3.1 -> v1.4.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/835",
+          "created_at": "2025-07-15T23:33:43+00:00",
+          "updated_at": "2025-07-17T19:27:52+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Add Mixpanel attributes to two events",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/834",
+          "created_at": "2025-07-15T23:11:04+00:00",
+          "updated_at": "2025-07-17T23:35:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Add Mixpanel JS and use it to record anonymized user sessions",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/833",
+          "created_at": "2025-07-15T21:00:50+00:00",
+          "updated_at": "2025-07-17T19:12:19+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "working accordion component",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/832",
+          "created_at": "2025-07-15T18:42:37+00:00",
+          "updated_at": "2025-07-22T14:12:17+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Updates code owners and external contributors",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/826",
+          "created_at": "2025-07-11T15:23:51+00:00",
+          "updated_at": "2025-07-21T17:26:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-1904: Set up review apps to ease acceptance testing",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/820",
+          "created_at": "2025-07-08T22:07:21+00:00",
+          "updated_at": "2025-07-17T16:00:35+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-2932: Adding \"other_jobs\" page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/772",
+          "created_at": "2025-06-16T19:51:23+00:00",
+          "updated_at": "2025-07-16T17:02:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Update code owners and external contributors (#826)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a73866ce2be837737f8e08dbb3e530ebb3da0e7a",
+          "author": "Jeff Catania",
+          "created_at": "2025-07-21T17:26:55+00:00"
+        },
+        {
+          "message": "Upgrade dotenv from 16.6.0 to 16.6.1 (#841)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/688001c90f2f94357e3a0a8378e6a93996bba7af",
+          "author": "decause-gov",
+          "created_at": "2025-07-21T17:26:17+00:00"
+        },
+        {
+          "message": "Upgrade dotenv from 16.5.0 to 16.6.0 (#840)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1580c8a40822e923e508e70a7c949e4223ec5a84",
+          "author": "decause-gov",
+          "created_at": "2025-07-18T01:09:32+00:00"
+        },
+        {
+          "message": "Add Mixpanel attributes to two events (#834)\n\n* Add to **ApplicantBeganLinkingEmployer** attributes that show which\n  item is attempted to be linked. We track this later in the flow as\n  well, but only if the sync is successful.\n* Add to Argyle's *ApplicantBeganLinkingEmployer** the\n  `client_agency_id` for parity with other CBV flow events.\n* Add to **ApplicantClickedFeedbackLink** the `cbv_applicant_id`, if\n  present, so the distinct_id gets set properly.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f60da3d246c8df098a08044b8efda136a55c0f68",
+          "author": "Tom Dooner",
+          "created_at": "2025-07-17T23:35:49+00:00"
+        },
+        {
+          "message": "Upgrade two GH Actions for more reliable builds (#835)\n\n* Upgrade `erzz/dockle-action` v1.3.1 -> v1.4.0\n* Upgrade `aquasecurity/tfsec-pr-commenter-action` v1.2.0 -> v1.3.1",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/42976152b05be14e700d146de8bc9497ec0e71c1",
+          "author": "Tom Dooner",
+          "created_at": "2025-07-17T19:27:49+00:00"
+        },
+        {
+          "message": "FFS-1904: Set up review apps to ease acceptance testing (#820)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/72e2bca5af03c8b2a997d3afceb97bfa88103e54",
+          "author": "Daphne Gold",
+          "created_at": "2025-07-17T15:56:40+00:00"
+        },
+        {
+          "message": "Revert 4532f1f2f2a640c9a2e94f82f444b0d1ac5c5881",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/092d58932c4a796c7342c9b84cf7075ac1f26aa6",
+          "author": "George Byers",
+          "created_at": "2025-07-16T17:49:38+00:00"
+        },
+        {
+          "message": "Revert \"updating summaries show.html.erb\"\n\nThis reverts commit 4532f1f2f2a640c9a2e94f82f444b0d1ac5c5881.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2992d258b49d237afc129edcda51d7a35d5365a7",
+          "author": "George Byers",
+          "created_at": "2025-07-16T17:14:51+00:00"
+        },
+        {
+          "message": "Revert \"Merge branch 'george/ffs-2932-ldh-other-job'\"\n\nThis reverts commit 328f6cb43a9b8766199c8e0f5136eebd4c0be41f, reversing\nchanges made to fe73655850af846630271bf61a635c44e6f4edbe.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/276706ce07366d7353e5a353ae5707413a4c48a1",
+          "author": "George Byers",
+          "created_at": "2025-07-16T17:14:45+00:00"
+        },
+        {
+          "message": "Merge branch 'george/ffs-2932-ldh-other-job'",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/328f6cb43a9b8766199c8e0f5136eebd4c0be41f",
+          "author": "George Byers",
+          "created_at": "2025-07-16T17:02:42+00:00"
+        },
+        {
+          "message": "updating summaries show.html.erb",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4532f1f2f2a640c9a2e94f82f444b0d1ac5c5881",
+          "author": "George Byers",
+          "created_at": "2025-07-16T17:02:16+00:00"
+        },
+        {
+          "message": "FFS-2430: Remove inline HTML styles (#837)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fe73655850af846630271bf61a635c44e6f4edbe",
+          "author": "patsier-cms",
+          "created_at": "2025-07-16T16:11:09+00:00"
+        },
+        {
+          "message": "FFS-3038: Fix timeout modal being hidden behind Argyle (#836)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f73a3e5f1f7c74c2d8c9eb8c8e8fc5ef68935930",
+          "author": "patsier-cms",
+          "created_at": "2025-07-16T14:54:13+00:00"
+        },
+        {
+          "message": "Merge branch 'main' into george/ffs-2932-ldh-other-job",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9ff664d2a16306225065494a92277b5f8706a88a",
+          "author": "George Byers",
+          "created_at": "2025-07-15T22:02:20+00:00"
+        },
+        {
+          "message": "importing spanish, fixing import bug",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/19ce71c75bd6920866794e7f3bc64899e70e1ec0",
+          "author": "George Byers",
+          "created_at": "2025-07-15T21:34:52+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate a CMS code.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/79",
+          "created_at": "2025-07-19T03:00:33+00:00",
+          "updated_at": "2025-07-19T03:00:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "description": "CMS code.json: An agency-wide metadata standard for software projects",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Update metadata.md",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/48fbe9bddfd7d98c5ab10d4b93ac27a9aae570d0",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-07-21T17:26:20+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Tooling that allows for code.json creation through automation",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Bump DSACMS/automated-codejson-generator from 1.0.0 to 1.0.1 in the actions-minor group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/48",
+          "created_at": "2025-07-14T21:27:02+00:00",
+          "updated_at": "2025-07-21T23:41:55+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group with 16 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/40",
+          "created_at": "2025-06-23T20:32:14+00:00",
+          "updated_at": "2025-07-21T22:57:08+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/32",
+          "created_at": "2025-05-26T19:04:27+00:00",
+          "updated_at": "2025-07-21T22:38:15+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Create summary functionality",
+          "url": "https://github.com/DSACMS/super-changelog/pull/1",
+          "created_at": "2025-06-25T23:59:20+00:00",
+          "updated_at": "2025-07-21T14:23:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Fix syntax in action date\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/14eedfa7b15638300611a918c081d89d0d14fb6f",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-07-22T17:35:11+00:00"
+        },
+        {
+          "message": "Fix typo in branch configuration\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/2623aaee249e74a514d5754d6c5ebc163f41fe5b",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-07-22T17:22:40+00:00"
+        },
+        {
+          "message": "Fix typo in action\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/56d41225ff783217f2eb9f7bd64d6e85bb792a15",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-07-22T17:14:07+00:00"
+        },
+        {
+          "message": "Update actions/artifact to 4\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/28fe2033723901bfc17bb6b76d904cbf08c2ae10",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-07-22T17:03:51+00:00"
+        },
+        {
+          "message": "Merge pull request #1 from DSACMS/Create-summary-and-email\n\nCreate summary functionality",
+          "url": "https://github.com/DSACMS/super-changelog/commit/6e87fb6790a52456d38d769e92b9575a79fef805",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-07-21T14:23:46+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "ndh",
+      "url": "https://github.com/DSACMS/ndh",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Bump starlette from 0.47.1 to 0.47.2 in /src",
+          "url": "https://github.com/DSACMS/ndh/pull/21",
+          "created_at": "2025-07-22T15:40:18+00:00",
+          "updated_at": "2025-07-22T15:40:19+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Changing individual_id to uuid",
+          "url": "https://github.com/DSACMS/ndh/pull/20",
+          "created_at": "2025-07-22T15:35:44+00:00",
+          "updated_at": "2025-07-22T15:58:14+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FIPS County Codes ETL Pipeline",
+          "url": "https://github.com/DSACMS/ndh/pull/19",
+          "created_at": "2025-07-21T21:18:18+00:00",
+          "updated_at": "2025-07-21T21:18:55+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Adding the sql for the insert_practitioner function",
+          "url": "https://github.com/DSACMS/ndh/pull/18",
+          "created_at": "2025-07-18T20:51:33+00:00",
+          "updated_at": "2025-07-21T14:41:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Sjp/practitioner endpoint",
+          "url": "https://github.com/DSACMS/ndh/pull/17",
+          "created_at": "2025-07-18T20:31:53+00:00",
+          "updated_at": "2025-07-21T14:42:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Adding Foreign Keys for the Provider Tables",
+          "url": "https://github.com/DSACMS/ndh/pull/16",
+          "created_at": "2025-07-18T12:40:28+00:00",
+          "updated_at": "2025-07-18T14:15:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Creating a new provider table",
+          "url": "https://github.com/DSACMS/ndh/pull/15",
+          "created_at": "2025-07-16T13:38:00+00:00",
+          "updated_at": "2025-07-18T17:10:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Sjp/provider tables",
+          "url": "https://github.com/DSACMS/ndh/pull/14",
+          "created_at": "2025-07-15T18:08:00+00:00",
+          "updated_at": "2025-07-15T22:16:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #17 from DSACMS/sjp/practitioner_endpoint\n\nSjp/practitioner endpoint",
+          "url": "https://github.com/DSACMS/ndh/commit/94105e71713dc4c7b501149e3ea6915f6e9d5b68",
+          "author": "Fred Trotter",
+          "created_at": "2025-07-21T14:42:16+00:00"
+        },
+        {
+          "message": "Merge pull request #18 from DSACMS/sjp/insert_practitioner_function\n\nAdding the sql for the insert_practitioner function",
+          "url": "https://github.com/DSACMS/ndh/commit/ffa704afda06dd202d252c3f4285f97a91fa1870",
+          "author": "Fred Trotter",
+          "created_at": "2025-07-21T14:38:41+00:00"
+        },
+        {
+          "message": "removing blank ipynb",
+          "url": "https://github.com/DSACMS/ndh/commit/3148693ebf1c659a5d1af8c7bde41d61824818f8",
+          "author": "PR0I",
+          "created_at": "2025-07-18T21:30:45+00:00"
+        },
+        {
+          "message": "Caught one more tiny typo",
+          "url": "https://github.com/DSACMS/ndh/commit/783651fe4bd3665127a096bb26244e96b126430f",
+          "author": "PR0I",
+          "created_at": "2025-07-18T20:54:32+00:00"
+        },
+        {
+          "message": "Caught one more tiny typo",
+          "url": "https://github.com/DSACMS/ndh/commit/c8e8ac5f01749142ea9cb5ecc954dd829e355283",
+          "author": "PR0I",
+          "created_at": "2025-07-18T20:53:44+00:00"
+        },
+        {
+          "message": "Slight improvement to the readme",
+          "url": "https://github.com/DSACMS/ndh/commit/5735ab3db09418ee1525cf7af945d432e54f21c3",
+          "author": "PR0I",
+          "created_at": "2025-07-18T20:52:32+00:00"
+        },
+        {
+          "message": "Adding the sql for the insert_practitioner function",
+          "url": "https://github.com/DSACMS/ndh/commit/d8dbfcae6667f1724931ca0f0c2f23f7a8fdb5be",
+          "author": "PR0I",
+          "created_at": "2025-07-18T20:48:26+00:00"
+        },
+        {
+          "message": "WORKING PRACTITIONER ENDPOINT",
+          "url": "https://github.com/DSACMS/ndh/commit/105fa1b37791dde141f056096ab17b9d475f34a6",
+          "author": "PR0I",
+          "created_at": "2025-07-18T20:26:15+00:00"
+        },
+        {
+          "message": "All components to query a single Practitioner",
+          "url": "https://github.com/DSACMS/ndh/commit/09d35a5440889614052f6465cc15f35ef910f708",
+          "author": "PR0I",
+          "created_at": "2025-07-18T18:16:46+00:00"
+        },
+        {
+          "message": "Merge pull request #15 from DSACMS/sjp/new-provider-table\n\nCreating a new provider table",
+          "url": "https://github.com/DSACMS/ndh/commit/ac2f1e7b2b7847bb0b4db4681ad188cf3d3a3c64",
+          "author": "spopelka-dsac",
+          "created_at": "2025-07-18T17:10:43+00:00"
+        },
+        {
+          "message": "Merge branch 'sjp/new-provider-table'",
+          "url": "https://github.com/DSACMS/ndh/commit/d7108fa9b337c754f551d2abd3fb97a1327a77da",
+          "author": "PR0I",
+          "created_at": "2025-07-18T17:06:17+00:00"
+        },
+        {
+          "message": "using gender to conform to FHIR",
+          "url": "https://github.com/DSACMS/ndh/commit/c877ab2d6b1c797612271cc09c38f60f83aa0765",
+          "author": "PR0I",
+          "created_at": "2025-07-18T15:11:51+00:00"
+        },
+        {
+          "message": "Merge pull request #16 from DSACMS/sjp/adding_foreign_keys\n\nAdding Foreign Keys for the Provider Tables",
+          "url": "https://github.com/DSACMS/ndh/commit/74c049374b1463792be203c2c69abbcd379c3d91",
+          "author": "spopelka-dsac",
+          "created_at": "2025-07-18T14:15:44+00:00"
+        },
+        {
+          "message": "changing the pk for the nucc_taxonomy_code_to_medicare_provider_type table",
+          "url": "https://github.com/DSACMS/ndh/commit/35b6042858101de6fe7aee9fefc870e21a3452f5",
+          "author": "PR0I",
+          "created_at": "2025-07-18T12:35:48+00:00"
+        },
+        {
+          "message": "adding foreign keys and renaming files",
+          "url": "https://github.com/DSACMS/ndh/commit/ccc1a7b80275d9934395a006ef581914e0363e3d",
+          "author": "PR0I",
+          "created_at": "2025-07-18T12:32:23+00:00"
+        },
+        {
+          "message": "updating models.py with foreign keys",
+          "url": "https://github.com/DSACMS/ndh/commit/4df38238f0ee2ecbc8d8eeb14602b54f1ada2d11",
+          "author": "PR0I",
+          "created_at": "2025-07-18T03:01:35+00:00"
+        },
+        {
+          "message": "Creating a new provider table",
+          "url": "https://github.com/DSACMS/ndh/commit/c826c2f8ad80582fc737ac6ae0539f340c202980",
+          "author": "PR0I",
+          "created_at": "2025-07-16T13:34:10+00:00"
+        },
+        {
+          "message": "Initial progress toward provider endpoint",
+          "url": "https://github.com/DSACMS/ndh/commit/f041cc81a235afaa344ad84eb08c277168a204d6",
+          "author": "PR0I",
+          "created_at": "2025-07-16T13:25:35+00:00"
+        },
+        {
+          "message": "Merge pull request #14 from DSACMS/sjp/provider_tables\n\nSjp/provider tables",
+          "url": "https://github.com/DSACMS/ndh/commit/0388446206da3a4b5c087f9fc25e883983a00dfe",
+          "author": "Fred Trotter",
+          "created_at": "2025-07-15T22:16:58+00:00"
+        },
+        {
+          "message": "making the schema valid",
+          "url": "https://github.com/DSACMS/ndh/commit/66668dcc2d223912d09688012ece5869743e6f1a",
+          "author": "PR0I",
+          "created_at": "2025-07-15T18:06:53+00:00"
+        },
+        {
+          "message": "Adding just provider tables, with some naming tweaks and incorporating feedback from PR #13",
+          "url": "https://github.com/DSACMS/ndh/commit/331189f8ebc78283b3450fd96ce7e82cd7701247",
+          "author": "PR0I",
+          "created_at": "2025-07-15T18:01:53+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "bluebutton-web-server",
+      "url": "https://github.com/DSACMS/bluebutton-web-server",
+      "description": "Blue Button API fork meant to be outbounded and sent upstream",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge remote-tracking branch 'refs/remotes/origin/master'",
+          "url": "https://github.com/DSACMS/bluebutton-web-server/commit/d255252678386a8d29566e9a595d07727ad3df11",
+          "author": "Sachin Panayil",
+          "created_at": "2025-07-21T15:27:53+00:00"
+        },
+        {
+          "message": "pr requested changes\n\nSigned-off-by: Sachin Panayil <sachinpanayil01@gmail.com>",
+          "url": "https://github.com/DSACMS/bluebutton-web-server/commit/f59fed77cf843a0a7cc22bbccb272b3763e4ee3e",
+          "author": "Sachin Panayil",
+          "created_at": "2025-07-21T15:27:15+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/bluebutton-web-server/commit/3d6fc04c02d03b3c8a9068ec4ba50bcd37a854e5",
+          "author": "github-actions[bot]",
+          "created_at": "2025-07-19T03:11:47+00:00"
+        }
+      ],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-07-15",
+    "end": "2025-07-22"
+  },
+  "generated_at": "2025-07-22T17:37:35.166967+00:00"
+}

@@ -1,0 +1,103 @@
+{
+  "period": {
+    "start": "2025-07-15",
+    "end": "2025-07-22"
+  },
+  "generated_at": "2025-07-22T17:37:35.166967+00:00",
+  "total_repos": 9,
+  "avtive_repos": 9,
+  "total_issues": 1,
+  "total_pulls": 29,
+  "total_commits": 60,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 15,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 15,
+      "commits": 15,
+      "changelog_entries": 0,
+      "highlights": [
+        "9 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ndh",
+      "url": "https://github.com/DSACMS/ndh",
+      "issues": 0,
+      "pulls": 8,
+      "commits": 21,
+      "changelog_entries": 0,
+      "highlights": [
+        "5 PR(s) merged"
+      ]
+    },
+    {
+      "name": "bluebutton-web-server",
+      "url": "https://github.com/DSACMS/bluebutton-web-server",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
