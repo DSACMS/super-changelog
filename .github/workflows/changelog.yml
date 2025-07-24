@@ -73,13 +73,20 @@ jobs:
             git push origin "$BRANCH_NAME"
 
             if ! gh pr view "$BRANCH_NAME" --json number 2>/dev/null; then
+              gh api repos/${{ github.repository }}/labels -f name='changelog' -f color='0E8A16' || true
+              gh api repos/${{ github.repository }}/labels -f name='automated' -f color='FB04D4' || true
+
               gh pr create \
                 --title "$PR_TITLE" \
                 --body-file "$PR_BODY_FILE" \
                 --base main \
                 --head "$BRANCH_NAME" \
-                --label "changelog" \
-                --label "automated"
+                --label "changelog, automated" || \
+                gh pr create \
+                --title "$PR_TITLE" \
+                --body-file "$PR_BODY_FILE" \
+                --base main \
+                --head "$BRANCH_NAME"
             else
               echo "PR already exists for $BRANCH_NAME"
             fi
