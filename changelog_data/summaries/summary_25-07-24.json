@@ -3,12 +3,12 @@
     "start": "2025-07-17",
     "end": "2025-07-24"
   },
-  "generated_at": "2025-07-24T16:31:52.040187+00:00",
+  "generated_at": "2025-07-24T18:21:08.869404+00:00",
   "total_repos": 22,
   "avtive_repos": 22,
   "total_issues": 2,
   "total_pulls": 49,
-  "total_commits": 181,
+  "total_commits": 188,
   "total_changelog_entries": 0,
   "repos_with_activity": [
     {
@@ -120,7 +120,7 @@
       "url": "https://github.com/DSACMS/super-changelog",
       "issues": 0,
       "pulls": 1,
-      "commits": 6,
+      "commits": 13,
       "changelog_entries": 0,
       "highlights": [
         "1 PR(s) merged"
