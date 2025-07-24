@@ -44,8 +44,8 @@ jobs:
         run: |
           # Get latest summary files
           TIMESTAMP=$(date +"%Y-%m-%d")
-          PR_TITLE_FILE="changelog_data/summaries/pr_title_{TIMESTAMP}.txt"
-          PR_BODY_FILE="changelog_data/summaries/pr_body_{TIMESTAMP}.md"
+          PR_TITLE_FILE="changelog_data/summaries/pr_title_TIMESTAMP.txt"
+          PR_BODY_FILE="changelog_data/summaries/pr_body_TIMESTAMP.md"
 
           if [ ! -f "$PR_TITLE_FILE" ] || [ ! -f "$PR_BODY_FILE" ]; then
             echo "Summary not found, checking latest file..."
@@ -59,19 +59,30 @@ jobs:
             BRANCH_NAME="weekly-changelog-$(date +"%Y-%m-%d")"
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git checkout -b "$BRANCH_NAME"
+            git config --global pull.rebase true
+
+            if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
+              git checkout -b "$BRANCH_NAME"
+              git pull origin "$BRANCH_NAME"
+            else
+              git checkout -b "$BRANCH_NAME"
+            fi
 
             git add changelog_data/
-            git commit -sm "Add weekly changelog summary for $(date +"%Y-%m-%d")"
+            git commit -sm "Add weekly changelog summary for $(date +"%Y-%m-%d")" || echo "No changes to commit"
             git push origin "$BRANCH_NAME"
 
-            gh pr create \
-              --title "$PR_TITLE" \
-              --body-file "$PR_BODY_FILE" \
-              --base main \
-              --head "$BRANCH_NAME" \
-              --label "changelog" \
-              --label "automated"
+            if ! gh pr view "$BRANCH_NAME" --json number 2>/dev/null; then
+              gh pr create \
+                --title "$PR_TITLE" \
+                --body-file "$PR_BODY_FILE" \
+                --base main \
+                --head "$BRANCH_NAME" \
+                --label "changelog" \
+                --label "automated"
+            else
+              echo "PR already exists for $BRANCH_NAME"
+            fi
           else
             echo "Could not find PR title or body files"
             exit 1
