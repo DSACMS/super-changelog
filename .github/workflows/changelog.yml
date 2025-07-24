@@ -65,9 +65,15 @@ jobs:
             git config --global pull.rebase true
 
             if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
+              rm -f changelog_data/data/weekly_changelog_*.json
+              rm -f changelog_data/summaries/*_$(date +"%y-%m-%d").*
+
               git fetch origin "$BRANCH_NAME"
               git checkout "$BRANCH_NAME"
               git pull origin "$BRANCH_NAME"
+
+              python scripts/generate_changelog_weekly.py
+              python scripts/generate_summary.py
             else
               git checkout -b "$BRANCH_NAME"
             fi
@@ -101,10 +107,10 @@ jobs:
                 --head "$BRANCH_NAME" \
                 --label "changelog,automated" || \
                 gh pr create \
-                --title "$PR_TITLE" \
-                --body-file "$PR_BODY_FILE" \
-                --base main \
-                --head "$BRANCH_NAME"
+                  --title "$PR_TITLE" \
+                  --body-file "$PR_BODY_FILE" \
+                  --base main \
+                  --head "$BRANCH_NAME"
             else
               echo "PR already exists for $BRANCH_NAME"
             fi
