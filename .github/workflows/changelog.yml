@@ -65,18 +65,21 @@ jobs:
             git config --global pull.rebase true
 
             if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
-              rm -f changelog_data/data/weekly_changelog_*.json
-              rm -f changelog_data/summaries/*_$(date +"%y-%m-%d").*
+              # rm -f changelog_data/data/weekly_changelog_*.json
+              # rm -f changelog_data/summaries/*_$(date +"%y-%m-%d").*
 
-              git fetch origin "$BRANCH_NAME"
+              git stash --include-untracked
+              # git fetch origin "$BRANCH_NAME"
+              git fetch origin
               git checkout "$BRANCH_NAME"
               git pull origin "$BRANCH_NAME"
-
-              python scripts/generate_changelog_weekly.py
-              python scripts/generate_summary.py
+              git stash pop || true
             else
               git checkout -b "$BRANCH_NAME"
             fi
+
+            python scripts/generate_changelog_weekly.py
+            python scripts/generate_summary.py
 
             git add changelog_data/
             if git diff-index --quiet HEAD --; then
@@ -86,7 +89,10 @@ jobs:
             fi
 
             for i in {1..3}; do
-              git pull --rebase origin "$BRANCH_NAME"
+              git reset --hard HEAD
+              git clean -fd
+              git pull origin "$BRANCH_NAME"
+              # git pull --rebase origin "$BRANCH_NAME"
               if git push origin "$BRANCH_NAME"; then
                 break
               fi
