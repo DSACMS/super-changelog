@@ -1,0 +1,21 @@
+[project]
+name = "super-changelog"
+version = "0.1.0"
+description = "Org level changelog"
+authors = [
+    {name = "Dinne Kopelevich",email = "dinne.kopelevich@gsa.gov"}
+]
+license = {text = "CC0"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "pygithub (>=2.6.1,<3.0.0)",
+    "python-dateutil (>=2.9.0.post0,<3.0.0)",
+    "markdown (>=3.8.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
