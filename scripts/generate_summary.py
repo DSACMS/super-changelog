@@ -21,7 +21,7 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
         "period": data.get("period", {}),
         "generated_at": data.get("generated_at"),
         "total_repos": len(data["repos"]),
-        "avtive_repos": 0,
+        "active_repos": 0,
         "total_issues": 0,
         "total_pulls": 0,
         "total_commits": 0,
@@ -53,7 +53,7 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
             if (repo_data.get("issues") or repo_data.get("pulls") or
                 repo_data.get("commits") or repo_data.get("changelog_entries")):
                 has_activity = True
-                summary["avtive_repos"] += 1
+                summary["active_repos"] += 1
 
             for entry in repo_data.get("changelog_entries", []):
                 for change in entry.get("changes", []):
