@@ -1,0 +1,232 @@
+{
+  "period": {
+    "start": "2025-07-17",
+    "end": "2025-07-24"
+  },
+  "generated_at": "2025-07-24T16:31:52.040187+00:00",
+  "total_repos": 22,
+  "avtive_repos": 22,
+  "total_issues": 2,
+  "total_pulls": 49,
+  "total_commits": 181,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 15,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 7,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 18,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "9 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-index-generator",
+      "url": "https://github.com/DSACMS/codejson-index-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ndh",
+      "url": "https://github.com/DSACMS/ndh",
+      "issues": 0,
+      "pulls": 11,
+      "commits": 31,
+      "changelog_entries": 0,
+      "highlights": [
+        "8 PR(s) merged"
+      ]
+    },
+    {
+      "name": "bluebutton-web-server",
+      "url": "https://github.com/DSACMS/bluebutton-web-server",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/ndh_vrdc_python_projects",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_VEINHasher",
+      "url": "https://github.com/DSACMS/ndh_VEINHasher",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_nucc_slurp",
+      "url": "https://github.com/DSACMS/ndh_nucc_slurp",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_ehr_fhir_npi_slurp",
+      "url": "https://github.com/DSACMS/ndh_ehr_fhir_npi_slurp",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_durc_is_crud",
+      "url": "https://github.com/DSACMS/ndh_durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_Puffin",
+      "url": "https://github.com/DSACMS/ndh_Puffin",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 59,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_csviper",
+      "url": "https://github.com/DSACMS/ndh_csviper",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_plainerflow",
+      "url": "https://github.com/DSACMS/ndh_plainerflow",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ndh_plan_scrape",
+      "url": "https://github.com/DSACMS/ndh_plan_scrape",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}

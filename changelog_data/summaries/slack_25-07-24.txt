@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-07-17 to 2025-07-24)
+
+• 0 of 22 repos with activity
+• 181 commits | 49 PRs | 2 issues
+
+*Most Active Repos:*
+• *ndh_Puffin*: 59 commits, 0 PRs
+• *ndh*: 31 commits, 11 PRs
+• *iv-cbv-payroll*: 9 commits, 18 PRs
+• *metrics*: 15 commits, 0 PRs
+• *codejson-generator*: 9 commits, 5 PRs
