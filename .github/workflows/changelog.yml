@@ -59,11 +59,13 @@ jobs:
             BRANCH_NAME="weekly-changelog-$(date +"%Y-%m-%d")"
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git config --global pull.rebase true
+            # git config --global pull.rebase true
 
             if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
+              git stash
               git checkout -b "$BRANCH_NAME"
-              git pull origin "$BRANCH_NAME"
+              git stash pop ||  true
+              # git pull origin "$BRANCH_NAME"
             else
               git checkout -b "$BRANCH_NAME"
             fi
