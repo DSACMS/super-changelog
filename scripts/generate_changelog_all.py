@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 import json
 import os
 import re
-from scripts import ChangelogGenerator
+from util import ChangelogGenerator
 
 def main():
     timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")

@@ -4,7 +4,7 @@ import json
 import os
 import re
 
-from scripts import ChangelogGenerator
+from util import ChangelogGenerator
 
 def main():
     now = datetime.now(timezone.utc)
