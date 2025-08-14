@@ -69,7 +69,7 @@ class ChangelogGenerator:
         self.log_history_start = log_history_start
 
         self.timestamp = self.now.strftime("%Y-%m-%d")
-        self.start_date = one_week_ago.strftime("%Y-%m-%d") if log_history_start else None
+        self.start_date = self.log_history_start.strftime("%Y-%m-%d") if log_history_start else None
         self.end_date = self.now.strftime("%Y-%m-%d")
 
         self.filename = filename
