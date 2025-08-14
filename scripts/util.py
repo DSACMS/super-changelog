@@ -69,7 +69,7 @@ class ChangelogGenerator:
         self.log_history_start = log_history_start
 
         self.timestamp = self.now.strftime("%Y-%m-%d")
-        self.start_date = self.log_history_start if log_history_start else None
+        self.start_date = datetime.strptime(self.log_history_start, "%Y-%m-%d") if log_history_start else None
         self.end_date = self.now.strftime("%Y-%m-%d")
 
         self.filename = filename
@@ -84,7 +84,7 @@ class ChangelogGenerator:
         data = {
             "repos": [],
             "period": {
-                "start": self.start_date,
+                "start": self.log_history_start,
                 "end": self.end_date
             },
             "generated_at": self.now.isoformat()
@@ -110,7 +110,7 @@ class ChangelogGenerator:
                             "url": issue.html_url,
                             "created_at": issue.created_at.isoformat(),
                             "state": issue.state,
-                            "is_new": issue.created_at >= self.log_history_start
+                            "is_new": issue.created_at >= self.start_date
                     })
             except Exception as e:
                 print(f"Error fetching issues for {repo.name}: {str(e)}")
@@ -125,7 +125,7 @@ class ChangelogGenerator:
                             "updated_at": pr.updated_at.isoformat(),
                             "state": pr.state,
                             "merged": pr.merged,
-                            "is_new": pr.created_at >= one_week_ago
+                            "is_new": pr.created_at >= self.start_date
                         })
             except Exception as e:
                 print(f"Error fetching PRs for {repo.name}: {str(e)}")
