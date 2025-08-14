@@ -76,6 +76,7 @@ jobs:
               git stash pop || true
             else
               git checkout -b "$BRANCH_NAME"
+              git push --set-upstream origin "$BRANCH_NAME"
             fi
 
             python scripts/generate_changelog_weekly.py
