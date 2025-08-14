@@ -117,6 +117,8 @@ class ChangelogGenerator:
             
             try:
                 for pr in repo.get_pulls(state="all"):
+                    print(pr.created_at)
+                    print(pr.updated_at)
                     if pr.created_at >= self.start_date or pr.updated_at >= self.start_date:
                         repo_data["pulls"].append({
                             "title": pr.title,
