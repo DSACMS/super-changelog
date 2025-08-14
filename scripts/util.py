@@ -79,7 +79,7 @@ class ChangelogGenerator:
     
     def get_data(self,org_name):
 
-        org = g.get_organization(org_name)
+        org = self.g.get_organization(org_name)
 
         data = {
             "repos": [],
