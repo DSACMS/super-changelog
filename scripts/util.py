@@ -102,7 +102,6 @@ class ChangelogGenerator:
                 "changelog_entries": []
             }
 
-            one_week_ago = (self.now - timedelta(days=7))
             try:
                 for issue in repo.get_issues(state="all", since=self.log_history_start):
                     if issue.pull_request is None:
@@ -111,7 +110,7 @@ class ChangelogGenerator:
                             "url": issue.html_url,
                             "created_at": issue.created_at.isoformat(),
                             "state": issue.state,
-                            "is_new": issue.created_at >= one_week_ago
+                            "is_new": issue.created_at >= self.log_history_start
                     })
             except Exception as e:
                 print(f"Error fetching issues for {repo.name}: {str(e)}")
