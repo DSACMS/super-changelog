@@ -103,7 +103,7 @@ class ChangelogGenerator:
             }
 
             try:
-                for issue in repo.get_issues(state="all", since=self.log_history_start):
+                for issue in repo.get_issues(state="all", since=self.start_date):
                     if issue.pull_request is None:
                         repo_data["issues"].append({
                             "title": issue.title,
@@ -117,7 +117,7 @@ class ChangelogGenerator:
             
             try:
                 for pr in repo.get_pulls(state="all"):
-                    if pr.created_at >= self.log_history_start or pr.updated_at >= self.log_history_start:
+                    if pr.created_at >= self.start_date or pr.updated_at >= self.start_date:
                         repo_data["pulls"].append({
                             "title": pr.title,
                             "url": pr.html_url,
@@ -131,7 +131,7 @@ class ChangelogGenerator:
                 print(f"Error fetching PRs for {repo.name}: {str(e)}")
             
             try:
-                for commit in repo.get_commits(since=self.log_history_start):
+                for commit in repo.get_commits(since=self.start_date):
                     repo_data["commits"].append({
                         "message": commit.commit.message,
                         "url": commit.html_url,
