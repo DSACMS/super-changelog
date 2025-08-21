@@ -103,32 +103,43 @@ class ChangelogGenerator:
             }
 
             try:
-                for issue in repo.get_issues(state="all", since=self.start_date):
-                    if issue.pull_request is None:
-                        repo_data["issues"].append({
-                            "title": issue.title,
-                            "url": issue.html_url,
-                            "created_at": issue.created_at.isoformat(),
-                            "state": issue.state,
-                            "is_new": issue.created_at >= self.start_date
-                    })
+                issues_and_prs = repo.get_issues(state="all")
+
+                num_issues = len([issue for issue in issues_and_prs if issue.pull_request is None])
+                print(f"Found {num_issues} issues")
+
+                num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
+                print(f"Found {num_prs} pull requests")
+
+                print(self.start_date)
+
+                for n, issue in enumerate(issues_and_prs):
+                    #print(n)
+                    #print(issue.created_at)
+                    if issue.created_at.replace(tzinfo=None) >= self.start_date or issue.updated_at.replace(tzinfo=None) >= self.start_date:
+                        #print("GOT ONE")
+                        if not hasattr(issue,'merged'):
+                            #print(issue)
+                            repo_data["issues"].append({
+                                "title": issue.title,
+                                "url": issue.html_url,
+                                "created_at": issue.created_at.isoformat(),
+                                "state": issue.state,
+                                "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
+                            })
+                        else:
+                            repo_data["pulls"].append({
+                                "title":issue.title,
+                                "url": issue.html_url,
+                                "created_at": issue.created_at.isoformat(),
+                                "updated_at": issue.updated_at.isoformat(),
+                                "state": issue.state,
+                                "merged": issue.merged,
+                                "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
+                            })
+
             except Exception as e:
-                print(f"Error fetching issues for {repo.name}: {str(e)}")
-            
-            try:
-                for pr in repo.get_pulls(state="all"):
-                    if pr.created_at.replace(tzinfo=None) >= self.start_date or pr.updated_at.replace(tzinfo=None) >= self.start_date:
-                        repo_data["pulls"].append({
-                            "title": pr.title,
-                            "url": pr.html_url,
-                            "created_at": pr.created_at.isoformat(),
-                            "updated_at": pr.updated_at.isoformat(),
-                            "state": pr.state,
-                            "merged": pr.merged,
-                            "is_new": pr.created_at >= self.start_date
-                        })
-            except Exception as e:
-                print(f"Error fetching PRs for {repo.name}: {str(e)}")
+                print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
             try:
                 for commit in repo.get_commits(since=self.start_date):
