@@ -111,14 +111,14 @@ class ChangelogGenerator:
                 num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
                 print(f"Found {num_prs} pull requests")
 
-                print(self.start_date)
+                #print(self.start_date)
 
                 for n, issue in enumerate(issues_and_prs):
                     #print(n)
                     #print(issue.created_at)
                     if issue.created_at.replace(tzinfo=None) >= self.start_date or issue.updated_at.replace(tzinfo=None) >= self.start_date:
-                        #print("GOT ONE")
-                        if not hasattr(issue,'merged'):
+                        #print(f"GOT ONE {n}")
+                        if not issue.pull_request:
                             #print(issue)
                             repo_data["issues"].append({
                                 "title": issue.title,
@@ -128,14 +128,16 @@ class ChangelogGenerator:
                                 "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
                             })
                         else:
+                            pr = repo.get_pull(issue.number)
+                            #print(f"Got PULL merged: {pr.is_merged()}")
                             repo_data["pulls"].append({
-                                "title":issue.title,
-                                "url": issue.html_url,
-                                "created_at": issue.created_at.isoformat(),
-                                "updated_at": issue.updated_at.isoformat(),
-                                "state": issue.state,
-                                "merged": issue.merged,
-                                "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
+                                "title":pr.title,
+                                "url": pr.html_url,
+                                "created_at": pr.created_at.isoformat(),
+                                "updated_at": pr.updated_at.isoformat(),
+                                "state": pr.state,
+                                "merged": pr.is_merged(),
+                                "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
                             })
 
             except Exception as e:

@@ -34,209 +34,6 @@
       "description": null,
       "issues": [
         {
-          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.101.0",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/919",
-          "created_at": "2025-08-22T00:07:51+00:00",
-          "state": "open",
-          "is_new": true
-        },
-        {
-          "title": "Jeffcatania/terraform sftp test server",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/918",
-          "created_at": "2025-08-21T16:24:14+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3254: Make CSV file generation agency configurable and disable for AZ",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/917",
-          "created_at": "2025-08-21T15:54:39+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Skip tracking ApplicantClickedGenericLink for Go user agent",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/916",
-          "created_at": "2025-08-21T13:49:17+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Increase RDS ACU capacity to 10",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/915",
-          "created_at": "2025-08-20T23:54:56+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Revert \"Release demo\"",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/914",
-          "created_at": "2025-08-20T23:22:44+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Release demo",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/913",
-          "created_at": "2025-08-20T23:13:01+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Increase solidqueue workers 2 -> 4 for LA launch week",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/912",
-          "created_at": "2025-08-20T23:10:23+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "No ticket: update reviewer lottery",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/911",
-          "created_at": "2025-08-20T19:58:28+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3214: add w2 monthly summary to pdfs",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/910",
-          "created_at": "2025-08-20T19:31:11+00:00",
-          "state": "open",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3283: Backdate events in Mixpanel by using \"time\" property",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/909",
-          "created_at": "2025-08-20T14:37:30+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3178: Payment Details UX changes from FFS-3027",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/908",
-          "created_at": "2025-08-20T00:25:30+00:00",
-          "state": "open",
-          "is_new": true
-        },
-        {
-          "title": "Upgrade libxslt1-dev to address security finding",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/907",
-          "created_at": "2025-08-19T21:26:02+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3203: adding w2 monthly summary to /summary page",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/906",
-          "created_at": "2025-08-19T21:03:12+00:00",
-          "state": "open",
-          "is_new": true
-        },
-        {
-          "title": "FFS-2839: WIP Everything Combined",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/905",
-          "created_at": "2025-08-18T23:14:23+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Improve display of \"Copy Link\" on /success",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/904",
-          "created_at": "2025-08-18T23:09:21+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Add margin below alerts in layout",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/903",
-          "created_at": "2025-08-18T23:01:53+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-2839: Remove \"usa-prose\" class by configuring USWDS",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/902",
-          "created_at": "2025-08-18T22:44:43+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Improve styling of process list",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/901",
-          "created_at": "2025-08-18T22:32:59+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "Ensure consistent margin-top-5 on \"Continue\" buttons",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/900",
-          "created_at": "2025-08-18T22:20:25+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "[FFS-3223] propose additional newrelic alert to run alongside current",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/899",
-          "created_at": "2025-08-18T13:42:46+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "FFS-3252: Investigate why some AZ flows are missing an invitation",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/898",
-          "created_at": "2025-08-15T19:45:37+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
-          "title": "No ticket: Create a jupyter analytics notebook",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/893",
-          "created_at": "2025-08-13T22:22:39+00:00",
-          "state": "closed",
-          "is_new": false
-        },
-        {
-          "title": "FFS-3222: LA go-live infra changes",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/891",
-          "created_at": "2025-08-12T21:34:42+00:00",
-          "state": "closed",
-          "is_new": false
-        },
-        {
-          "title": "No ticket: Experimental: Provide optional sha to deploy",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/875",
-          "created_at": "2025-08-04T12:10:06+00:00",
-          "state": "open",
-          "is_new": false
-        },
-        {
-          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.100.0",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/866",
-          "created_at": "2025-07-31T04:54:50+00:00",
-          "state": "closed",
-          "is_new": false
-        },
-        {
-          "title": "Publish July 2025 Cumulative Data Update",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/861",
-          "created_at": "2025-07-29T15:53:28+00:00",
-          "state": "closed",
-          "is_new": false
-        },
-        {
-          "title": "FFS-3115 LA Wind-down spanish translations",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/859",
-          "created_at": "2025-07-28T16:58:50+00:00",
-          "state": "closed",
-          "is_new": false
-        },
-        {
-          "title": "CHORE Finish renaming field",
-          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/857",
-          "created_at": "2025-07-28T13:34:54+00:00",
-          "state": "open",
-          "is_new": false
-        },
-        {
           "title": "Add Jeff Catania as external maintainer",
           "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/828",
           "created_at": "2025-07-11T16:59:28+00:00",
@@ -244,8 +41,282 @@
           "is_new": false
         }
       ],
-      "pulls": [],
+      "pulls": [
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.101.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/919",
+          "created_at": "2025-08-22T00:07:51+00:00",
+          "updated_at": "2025-08-22T17:08:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Jeffcatania/terraform sftp test server",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/918",
+          "created_at": "2025-08-21T16:24:14+00:00",
+          "updated_at": "2025-08-21T16:25:18+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3254: Make CSV file generation agency configurable and disable for AZ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/917",
+          "created_at": "2025-08-21T15:54:39+00:00",
+          "updated_at": "2025-08-21T17:16:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Skip tracking ApplicantClickedGenericLink for Go user agent",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/916",
+          "created_at": "2025-08-21T13:49:17+00:00",
+          "updated_at": "2025-08-21T17:56:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Increase RDS ACU capacity to 10",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/915",
+          "created_at": "2025-08-20T23:54:56+00:00",
+          "updated_at": "2025-08-21T18:29:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Revert \"Release demo\"",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/914",
+          "created_at": "2025-08-20T23:22:44+00:00",
+          "updated_at": "2025-08-20T23:23:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Release demo",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/913",
+          "created_at": "2025-08-20T23:13:01+00:00",
+          "updated_at": "2025-08-20T23:13:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Increase solidqueue workers 2 -> 4 for LA launch week",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/912",
+          "created_at": "2025-08-20T23:10:23+00:00",
+          "updated_at": "2025-08-20T23:52:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: update reviewer lottery",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/911",
+          "created_at": "2025-08-20T19:58:28+00:00",
+          "updated_at": "2025-08-21T00:28:59+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3214: add w2 monthly summary to pdfs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/910",
+          "created_at": "2025-08-20T19:31:11+00:00",
+          "updated_at": "2025-08-21T23:02:51+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3283: Backdate events in Mixpanel by using \"time\" property",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/909",
+          "created_at": "2025-08-20T14:37:30+00:00",
+          "updated_at": "2025-08-20T16:59:39+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3178: Payment Details UX changes from FFS-3027",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/908",
+          "created_at": "2025-08-20T00:25:30+00:00",
+          "updated_at": "2025-08-21T21:25:01+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Upgrade libxslt1-dev to address security finding",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/907",
+          "created_at": "2025-08-19T21:26:02+00:00",
+          "updated_at": "2025-08-20T01:58:40+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3203: adding w2 monthly summary to /summary page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/906",
+          "created_at": "2025-08-19T21:03:12+00:00",
+          "updated_at": "2025-08-22T15:38:38+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2839: WIP Everything Combined",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/905",
+          "created_at": "2025-08-18T23:14:23+00:00",
+          "updated_at": "2025-08-21T18:33:41+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Improve display of \"Copy Link\" on /success",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/904",
+          "created_at": "2025-08-18T23:09:21+00:00",
+          "updated_at": "2025-08-21T18:28:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Add margin below alerts in layout",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/903",
+          "created_at": "2025-08-18T23:01:53+00:00",
+          "updated_at": "2025-08-21T18:26:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2839: Remove \"usa-prose\" class by configuring USWDS",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/902",
+          "created_at": "2025-08-18T22:44:43+00:00",
+          "updated_at": "2025-08-21T17:58:38+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Improve styling of process list",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/901",
+          "created_at": "2025-08-18T22:32:59+00:00",
+          "updated_at": "2025-08-21T18:29:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Ensure consistent margin-top-5 on \"Continue\" buttons",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/900",
+          "created_at": "2025-08-18T22:20:25+00:00",
+          "updated_at": "2025-08-21T18:15:28+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[FFS-3223] propose additional newrelic alert to run alongside current",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/899",
+          "created_at": "2025-08-18T13:42:46+00:00",
+          "updated_at": "2025-08-20T04:45:39+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3252: Investigate why some AZ flows are missing an invitation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/898",
+          "created_at": "2025-08-15T19:45:37+00:00",
+          "updated_at": "2025-08-15T20:38:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: Create a jupyter analytics notebook",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/893",
+          "created_at": "2025-08-13T22:22:39+00:00",
+          "updated_at": "2025-08-18T18:24:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3222: LA go-live infra changes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/891",
+          "created_at": "2025-08-12T21:34:42+00:00",
+          "updated_at": "2025-08-15T16:32:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "No ticket: Experimental: Provide optional sha to deploy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/875",
+          "created_at": "2025-08-04T12:10:06+00:00",
+          "updated_at": "2025-08-21T18:46:43+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.100.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/866",
+          "created_at": "2025-07-31T04:54:50+00:00",
+          "updated_at": "2025-08-21T18:49:39+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Publish July 2025 Cumulative Data Update",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/861",
+          "created_at": "2025-07-29T15:53:28+00:00",
+          "updated_at": "2025-08-21T18:50:32+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3115 LA Wind-down spanish translations",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/859",
+          "created_at": "2025-07-28T16:58:50+00:00",
+          "updated_at": "2025-08-19T00:14:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "CHORE Finish renaming field",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/857",
+          "created_at": "2025-07-28T13:34:54+00:00",
+          "updated_at": "2025-08-21T22:21:30+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
       "commits": [
+        {
+          "message": "Upgrade webpack from 5.99.9 to 5.101.0 (#919)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9f1551387a2d32405d96043277433010a95461dc",
+          "author": "decause-gov",
+          "created_at": "2025-08-22T17:08:54+00:00"
+        },
+        {
+          "message": "FFS-3203: adding w2 monthly summary to /summary page (#906)\n\n* The /summary page will now display the same W2 Monthly Summary view component that we display on /payment_details. The footnote will always be hidden per a conversation with Rutvi.\n* This page's headers are now correct (previously we'd skip a level here and there). Note that these might look a little funny right now, but will look normal again once Tom's big css change PRs are in.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/90627b0542b0dcade20457e01d252b03974d1eb3",
+          "author": "Tim Miller",
+          "created_at": "2025-08-22T15:34:58+00:00"
+        },
         {
           "message": "Increase RDS ACU capacity to 10 (#915)\n\nThis is part of our tried-and-true load tested configuration, we need to\nset this in order to achieve the necessary performance.",
           "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d34cc4f36c01b25e9621f96fb5cb7fbecf8b376f",
@@ -357,14 +428,24 @@
       "description": "Form to generate code.json",
       "issues": [
         {
-          "title": "Form Bug Fixes",
-          "url": "https://github.com/DSACMS/codejson-generator/pull/92",
-          "created_at": "2025-08-19T23:27:29+00:00",
-          "state": "closed",
+          "title": "Add GitLab Automation",
+          "url": "https://github.com/DSACMS/codejson-generator/issues/93",
+          "created_at": "2025-08-22T17:58:16+00:00",
+          "state": "open",
           "is_new": true
         }
       ],
-      "pulls": [],
+      "pulls": [
+        {
+          "title": "Form Bug Fixes",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/92",
+          "created_at": "2025-08-19T23:27:29+00:00",
+          "updated_at": "2025-08-20T16:23:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
       "commits": [
         {
           "message": "Merge pull request #92 from DSACMS/DSACMS/nat/bug-fixes\n\nForm Bug Fixes",
@@ -403,37 +484,45 @@
       "name": "gov-codejson",
       "url": "https://github.com/DSACMS/gov-codejson",
       "description": "CMS code.json: An agency-wide metadata standard for software projects",
-      "issues": [
+      "issues": [],
+      "pulls": [
         {
           "title": "Docs: Add docs on private repositories",
           "url": "https://github.com/DSACMS/gov-codejson/pull/35",
           "created_at": "2025-08-21T16:21:20+00:00",
+          "updated_at": "2025-08-22T17:37:57+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "FAQ: Add new FAQ on laborHours",
           "url": "https://github.com/DSACMS/gov-codejson/pull/34",
           "created_at": "2025-08-19T22:28:39+00:00",
+          "updated_at": "2025-08-20T16:35:09+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
           "title": "Added Tests + Schema Updates",
           "url": "https://github.com/DSACMS/gov-codejson/pull/33",
           "created_at": "2025-08-19T21:49:42+00:00",
+          "updated_at": "2025-08-20T23:53:43+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
           "title": "Docs: Update fields & Exemptions doc",
           "url": "https://github.com/DSACMS/gov-codejson/pull/32",
           "created_at": "2025-08-14T22:03:21+00:00",
+          "updated_at": "2025-08-15T18:44:19+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [
         {
           "message": "Merge pull request #33 from DSACMS/nat/validation\n\nAdded Tests + Schema Updates",
@@ -576,37 +665,46 @@
           "created_at": "2025-08-19T23:37:10+00:00",
           "state": "open",
           "is_new": true
-        },
+        }
+      ],
+      "pulls": [
         {
           "title": "Updated contractNumber type and feedbackMechanism type and generation",
           "url": "https://github.com/DSACMS/automated-codejson-generator/pull/60",
           "created_at": "2025-08-14T16:51:59+00:00",
+          "updated_at": "2025-08-19T21:40:06+00:00",
           "state": "open",
+          "merged": false,
           "is_new": false
         },
         {
           "title": "Bump the actions-minor group with 2 updates",
           "url": "https://github.com/DSACMS/automated-codejson-generator/pull/59",
           "created_at": "2025-08-12T02:47:05+00:00",
+          "updated_at": "2025-08-18T20:47:05+00:00",
           "state": "open",
+          "merged": false,
           "is_new": false
         },
         {
           "title": "Bump the npm-development group with 16 updates",
           "url": "https://github.com/DSACMS/automated-codejson-generator/pull/57",
           "created_at": "2025-08-12T01:30:04+00:00",
+          "updated_at": "2025-08-19T04:35:26+00:00",
           "state": "open",
+          "merged": false,
           "is_new": false
         },
         {
           "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group",
           "url": "https://github.com/DSACMS/automated-codejson-generator/pull/53",
           "created_at": "2025-08-12T00:15:56+00:00",
+          "updated_at": "2025-08-18T20:28:22+00:00",
           "state": "open",
+          "merged": false,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [],
       "changelog_entries": []
     },
@@ -616,43 +714,73 @@
       "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
       "issues": [
         {
-          "title": "Fix Issues and PRs. ",
-          "url": "https://github.com/DSACMS/super-changelog/pull/9",
-          "created_at": "2025-08-21T21:44:57+00:00",
-          "state": "closed",
-          "is_new": true
-        },
-        {
           "title": "Issue Template",
           "url": "https://github.com/DSACMS/super-changelog/issues/8",
           "created_at": "2025-08-18T14:27:49+00:00",
           "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Weekly Changelog Summary: 2025-08-15 to 2025-08-22",
+          "url": "https://github.com/DSACMS/super-changelog/pull/10",
+          "created_at": "2025-08-22T15:17:48+00:00",
+          "updated_at": "2025-08-22T15:21:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix Issues and PRs. ",
+          "url": "https://github.com/DSACMS/super-changelog/pull/9",
+          "created_at": "2025-08-21T21:44:57+00:00",
+          "updated_at": "2025-08-22T15:01:31+00:00",
+          "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
           "title": "Weekly Changelog Summary: 2025-08-10 to 2025-08-17",
           "url": "https://github.com/DSACMS/super-changelog/pull/7",
           "created_at": "2025-08-17T13:34:28+00:00",
+          "updated_at": "2025-08-18T14:22:29+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
           "title": "Weekly Changelog Summary: 2025-08-07 to 2025-08-14",
           "url": "https://github.com/DSACMS/super-changelog/pull/6",
           "created_at": "2025-08-14T22:55:41+00:00",
+          "updated_at": "2025-08-15T17:26:04+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         },
         {
           "title": "Weekly Changelog Summary: 2025-07-17 to 2025-07-24",
           "url": "https://github.com/DSACMS/super-changelog/pull/2",
           "created_at": "2025-07-24T18:26:07+00:00",
+          "updated_at": "2025-08-18T14:24:02+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [
+        {
+          "message": "Merge pull request #10 from DSACMS/weekly-changelog-2025-08-22\n\nWeekly Changelog Summary: 2025-08-15 to 2025-08-22",
+          "url": "https://github.com/DSACMS/super-changelog/commit/839b77b112802fa641f7493eb66bc16311311b8c",
+          "author": "decause-gov",
+          "created_at": "2025-08-22T15:21:21+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2025-08-22\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/bdbf3b2edb0244687977510069f37853b341c398",
+          "author": "GitHub Action",
+          "created_at": "2025-08-22T15:17:45+00:00"
+        },
         {
           "message": "Merge pull request #9 from DSACMS/fix-issues-and-prs\n\nFix Issues and PRs.",
           "url": "https://github.com/DSACMS/super-changelog/commit/4c59c8b3ee0ed33de164bfbde4bb635a975e86ac",
@@ -696,93 +824,117 @@
       "name": "npd",
       "url": "https://github.com/DSACMS/npd",
       "description": null,
-      "issues": [
+      "issues": [],
+      "pulls": [
         {
           "title": "automate running fixture data sql script",
           "url": "https://github.com/DSACMS/npd/pull/48",
           "created_at": "2025-08-20T20:19:45+00:00",
+          "updated_at": "2025-08-20T20:19:45+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "Add Template for Pull Requests",
           "url": "https://github.com/DSACMS/npd/pull/47",
           "created_at": "2025-08-20T14:16:43+00:00",
+          "updated_at": "2025-08-20T14:16:43+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "PoC Provider FHIR Tests",
           "url": "https://github.com/DSACMS/npd/pull/46",
           "created_at": "2025-08-20T14:03:23+00:00",
+          "updated_at": "2025-08-20T14:03:23+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "Making Contributing More User-Friendly",
           "url": "https://github.com/DSACMS/npd/pull/45",
           "created_at": "2025-08-19T18:12:10+00:00",
+          "updated_at": "2025-08-20T20:20:25+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "NDH-89 Testing Jira Integration",
           "url": "https://github.com/DSACMS/npd/pull/44",
           "created_at": "2025-08-18T20:50:05+00:00",
+          "updated_at": "2025-08-19T18:51:59+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "clarifying the table naming/schema",
           "url": "https://github.com/DSACMS/npd/pull/43",
           "created_at": "2025-08-18T19:47:59+00:00",
+          "updated_at": "2025-08-19T18:51:19+00:00",
           "state": "open",
+          "merged": false,
           "is_new": true
         },
         {
           "title": "docs(contributor): contributors readme action update",
           "url": "https://github.com/DSACMS/npd/pull/42",
           "created_at": "2025-08-16T02:57:16+00:00",
+          "updated_at": "2025-08-19T18:48:53+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
           "title": "docs(contributor): contributors readme action update",
           "url": "https://github.com/DSACMS/npd/pull/41",
           "created_at": "2025-08-09T03:05:50+00:00",
+          "updated_at": "2025-08-19T18:49:15+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         },
         {
           "title": "Added Version Numbers to Dependencies",
           "url": "https://github.com/DSACMS/npd/pull/40",
           "created_at": "2025-08-05T20:48:06+00:00",
+          "updated_at": "2025-08-19T18:50:48+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         },
         {
           "title": "Ft approach",
           "url": "https://github.com/DSACMS/npd/pull/37",
           "created_at": "2025-08-05T11:12:08+00:00",
+          "updated_at": "2025-08-19T18:52:48+00:00",
           "state": "closed",
+          "merged": false,
           "is_new": false
         },
         {
           "title": "docs(contributor): contributors readme action update",
           "url": "https://github.com/DSACMS/npd/pull/36",
           "created_at": "2025-08-04T18:53:53+00:00",
+          "updated_at": "2025-08-19T18:49:40+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         },
         {
           "title": "docs(contributor): contributors readme action update",
           "url": "https://github.com/DSACMS/npd/pull/34",
           "created_at": "2025-08-02T15:44:30+00:00",
+          "updated_at": "2025-08-19T18:50:21+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [
         {
           "message": "Merge pull request #40 from DSACMS/sachin/requirementsFix\n\nAdded Version Numbers to Dependencies",
@@ -855,16 +1007,18 @@
       "name": "npd_vrdc_python_projects",
       "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
       "description": "Calculate VTINs for a VRDC PUF",
-      "issues": [
+      "issues": [],
+      "pulls": [
         {
           "title": "Create SECURITY.md",
           "url": "https://github.com/DSACMS/npd_vrdc_python_projects/pull/3",
           "created_at": "2025-08-04T19:47:16+00:00",
+          "updated_at": "2025-08-15T17:04:33+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [
         {
           "message": "Merge pull request #3 from DSACMS/IsaacMilarky-patch-1\n\nCreate SECURITY.md",
@@ -879,16 +1033,18 @@
       "name": "npd_nucc_slurp",
       "url": "https://github.com/DSACMS/npd_nucc_slurp",
       "description": "because the CSV makes calculating the parent difficult.",
-      "issues": [
+      "issues": [],
+      "pulls": [
         {
           "title": "Create SECURITY.md",
           "url": "https://github.com/DSACMS/npd_nucc_slurp/pull/3",
           "created_at": "2025-08-04T19:42:57+00:00",
+          "updated_at": "2025-08-15T17:03:38+00:00",
           "state": "closed",
+          "merged": true,
           "is_new": false
         }
       ],
-      "pulls": [],
       "commits": [
         {
           "message": "Merge pull request #3 from DSACMS/IsaacMilarky-patch-1\n\nCreate SECURITY.md",
@@ -904,5 +1060,5 @@
     "start": "2025-08-15",
     "end": "2025-08-22"
   },
-  "generated_at": "2025-08-22T15:09:56.459638+00:00"
+  "generated_at": "2025-08-22T18:32:51.999825+00:00"
 }
