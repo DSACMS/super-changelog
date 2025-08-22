@@ -1,0 +1,118 @@
+{
+  "period": {
+    "start": "2025-08-15",
+    "end": "2025-08-22"
+  },
+  "generated_at": "2025-08-22T15:09:56.459638+00:00",
+  "total_repos": 10,
+  "active_repos": 10,
+  "total_issues": 60,
+  "total_pulls": 0,
+  "total_commits": 62,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 30,
+      "pulls": 0,
+      "commits": 17,
+      "changelog_entries": 0,
+      "highlights": [
+        "22 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 4,
+      "pulls": 0,
+      "commits": 20,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 new issue(s)"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 6,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 5,
+      "pulls": 0,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 new issue(s)"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 12,
+      "pulls": 0,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "7 new issue(s)"
+      ]
+    },
+    {
+      "name": "graphics",
+      "url": "https://github.com/DSACMS/graphics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_nucc_slurp",
+      "url": "https://github.com/DSACMS/npd_nucc_slurp",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
