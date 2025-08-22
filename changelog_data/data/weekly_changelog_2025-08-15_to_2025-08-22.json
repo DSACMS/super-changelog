@@ -1,0 +1,908 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 17 08:14:14 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/12a73eb0b8b3748ec0d936eecd926ee8fc6c9e1e",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-17T08:14:14+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 17 08:03:08 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/36d5b4abf5b614de2cbe9b8920da8cd9766647f3",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-17T08:03:08+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 17 07:54:15 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/d7f5db6fcedffbaa1099a4e06df91d97d5555e2a",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-17T07:54:15+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": null,
+      "issues": [
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.101.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/919",
+          "created_at": "2025-08-22T00:07:51+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Jeffcatania/terraform sftp test server",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/918",
+          "created_at": "2025-08-21T16:24:14+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3254: Make CSV file generation agency configurable and disable for AZ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/917",
+          "created_at": "2025-08-21T15:54:39+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Skip tracking ApplicantClickedGenericLink for Go user agent",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/916",
+          "created_at": "2025-08-21T13:49:17+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Increase RDS ACU capacity to 10",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/915",
+          "created_at": "2025-08-20T23:54:56+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Revert \"Release demo\"",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/914",
+          "created_at": "2025-08-20T23:22:44+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Release demo",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/913",
+          "created_at": "2025-08-20T23:13:01+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Increase solidqueue workers 2 -> 4 for LA launch week",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/912",
+          "created_at": "2025-08-20T23:10:23+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "No ticket: update reviewer lottery",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/911",
+          "created_at": "2025-08-20T19:58:28+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3214: add w2 monthly summary to pdfs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/910",
+          "created_at": "2025-08-20T19:31:11+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3283: Backdate events in Mixpanel by using \"time\" property",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/909",
+          "created_at": "2025-08-20T14:37:30+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3178: Payment Details UX changes from FFS-3027",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/908",
+          "created_at": "2025-08-20T00:25:30+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Upgrade libxslt1-dev to address security finding",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/907",
+          "created_at": "2025-08-19T21:26:02+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3203: adding w2 monthly summary to /summary page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/906",
+          "created_at": "2025-08-19T21:03:12+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "FFS-2839: WIP Everything Combined",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/905",
+          "created_at": "2025-08-18T23:14:23+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Improve display of \"Copy Link\" on /success",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/904",
+          "created_at": "2025-08-18T23:09:21+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Add margin below alerts in layout",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/903",
+          "created_at": "2025-08-18T23:01:53+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-2839: Remove \"usa-prose\" class by configuring USWDS",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/902",
+          "created_at": "2025-08-18T22:44:43+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Improve styling of process list",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/901",
+          "created_at": "2025-08-18T22:32:59+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Ensure consistent margin-top-5 on \"Continue\" buttons",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/900",
+          "created_at": "2025-08-18T22:20:25+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "[FFS-3223] propose additional newrelic alert to run alongside current",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/899",
+          "created_at": "2025-08-18T13:42:46+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "FFS-3252: Investigate why some AZ flows are missing an invitation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/898",
+          "created_at": "2025-08-15T19:45:37+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "No ticket: Create a jupyter analytics notebook",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/893",
+          "created_at": "2025-08-13T22:22:39+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "FFS-3222: LA go-live infra changes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/891",
+          "created_at": "2025-08-12T21:34:42+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "No ticket: Experimental: Provide optional sha to deploy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/875",
+          "created_at": "2025-08-04T12:10:06+00:00",
+          "state": "open",
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.100.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/866",
+          "created_at": "2025-07-31T04:54:50+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "Publish July 2025 Cumulative Data Update",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/861",
+          "created_at": "2025-07-29T15:53:28+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "FFS-3115 LA Wind-down spanish translations",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/859",
+          "created_at": "2025-07-28T16:58:50+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "CHORE Finish renaming field",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/857",
+          "created_at": "2025-07-28T13:34:54+00:00",
+          "state": "open",
+          "is_new": false
+        },
+        {
+          "title": "Add Jeff Catania as external maintainer",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/828",
+          "created_at": "2025-07-11T16:59:28+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Increase RDS ACU capacity to 10 (#915)\n\nThis is part of our tried-and-true load tested configuration, we need to\nset this in order to achieve the necessary performance.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d34cc4f36c01b25e9621f96fb5cb7fbecf8b376f",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T18:29:40+00:00"
+        },
+        {
+          "message": "Improve styling of process list (#901)\n\n* Use the `usa-process-list__heading` class for the headings\n* Remove the unnecessary spacing helper classes",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4158571b75a39592502bc31641e9d4fad61009b7",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T18:29:04+00:00"
+        },
+        {
+          "message": "Improve display of \"Copy Link\" on /success (#904)\n\n* Add slightly more margin between icons and the text for each step\n* Use `<p>` tags more consistently and rely on their spacing instead of\n  using helper classes\n* Move the \"Copy Link\" button into the `usa-icon-list` so it doesn't\n  need to reinvent its left margin",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a3a1fc18a39a5619b7354abef95677c1ef25bab5",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T18:28:43+00:00"
+        },
+        {
+          "message": "Add spacing below alerts in layout (#903)\n\nThis will improve the distinctiveness of these alerts by separating them\nfrom the content properly.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cef54f03cd60c6b031b24f55aaeb20d0c34ee781",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T18:26:41+00:00"
+        },
+        {
+          "message": "Ensure consistent margin on \"Continue\" buttons (#900)\n\n* Remove custom styling for `.usa-button.display-block` as it diverges\n  from intended button styling in Figma\n* Override button spacing to be 5 units to match Figma (instead of the\n  default of 3) when inside a .usa-form.\n* Update help modal buttons (and cleanup other styling)\n* Create `help-modal__button` CSS class to handle its rules. It adds a\n  bit more line height than standard.\n* Make \"Continue\" buttons have equal top/bottom margin",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/766f60db7939bccd45b2ead3f62195c65d9e8525",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T18:15:26+00:00"
+        },
+        {
+          "message": "FFS-2839: Remove \"usa-prose\" class by configuring USWDS (#902)\n\nWe don't need the usa-prose class after enabling\n`$theme-global-content-styles`, which will create CSS rules for common\nHTML elements according to USWDS typography. This creates some styles\nthat are not consistent with our Figma template, though: namely the\nheading font and font sizes.\n\nThis also updates some other global styles, such as the measure and\nchanging our body font to be \"Public Sans\" instead of \"Source Sans Pro\"\nto match Figma.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4dc2da3f4a288fb539a2bf42fd1ea655cf295bd1",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T17:58:35+00:00"
+        },
+        {
+          "message": "Skip tracking ApplicantClickedGenericLink for Go user agent (#916)\n\nWe're still not exactly sure what this traffic is from, but we tend to\nget about 80k requests from a Go-Http-Client user agent when the LA SMS\nmessages go out.\n\nThese events clutter up the Mixpanel account and delay other async jobs\nfrom succeeding.\n\nUntil we figure out a more effective rate limiting strategy, let's at\nleast stop tracking these useless bot events.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/748283d520850296b7e1a3e0b405c2a2a143a8c8",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-21T17:56:47+00:00"
+        },
+        {
+          "message": "FFS-3254: Make CSV file generation agency configurable and disable for AZ (#917)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/044a862f897767a1e22d46d13e0110e4a1e9b5b4",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-21T17:16:00+00:00"
+        },
+        {
+          "message": "Update reviewer lottery (#911)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/191a449068bb2d645fa96afdc04b0b86978887c5",
+          "author": "Tim Miller",
+          "created_at": "2025-08-21T00:28:58+00:00"
+        },
+        {
+          "message": "Increase solidqueue workers 2 -> 4 for LA launch week (#912)\n\nWe [learned this morning][1] that two are not sufficient to keep the\nqueue from growing. Let's up the count to 4 for the remainder of the LA\nmessaging week.\n\n[1]: https://cmsgov.slack.com/archives/C08GB9BHSEB/p1755698014230989?thread_ts=1755696907.956919&cid=C08GB9BHSEB",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b1b201be7db91e4b6c1f2b52986490cb819909ce",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-20T23:51:07+00:00"
+        },
+        {
+          "message": "Revert \"Release demo (#913)\" (#914)\n\nThis reverts commit 5d843c4a410e4e68e8a78cc421149e3125165b4b.\n\nIncorrect merge from forked repo due to github defaults",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/76a65942b6c1cc3bb97635526abbd9f350e32383",
+          "author": "cdigg",
+          "created_at": "2025-08-20T23:23:49+00:00"
+        },
+        {
+          "message": "Release demo (#913)\n\n* automatically comment on Asana task when pull request status changes\n\n* Potential fix for code scanning alert no. 36: Workflow does not contain permissions\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>\n\n* Connect pull request attachments from GitHub pull request descriptions to Asana\n\n* Potential fix for code scanning alert no. 37: Workflow does not contain permissions\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>\n\n* Configure DPW Demo environment (#5)\n\n* update tf variables for project\n\n* add demo infra account config\n\n* running networks and infra build\n\n* set up app build configs\n\n* setup demo environment for database and network\n\n* remove evidently feature flags because its deprecated.  Also update environment variables to use demo.divt.app\n\n* lint terraform correction\n\n* saving progress\n\n* saving progress\n\n* fix shellcheck\n\n* temporarily replace dockerfile run cmd\n\n* print debug lines in Client_agency_config\n\n* add circuit breaker\n\n* add circuitbreaker for solidqueue\n\n* update cd-app.yml options\n\n* force a new commit hash to build a new version\n\n* lets try adding demo to database.yml\n\n* jeffffff\n\n* YOLO\n\n* dumb move by ian\n\n* log current db connection config\n\n* add exception\n\n* first pass at code cleanup\n\n* second pass at code cleanup\n\n* remove all references to evidently.  Save ~$30/month per environment.\n\n* fix ci errors\n\n* update broken pr checks\n\n* correct the aws route53 certificate on managed dns\n\n* correct cd-app yml to not run on main\n\n* terraform fmt\n\n* update DEMO_MODE domain matching\n\n* update DEMO_MODE domain matching\n\n* update comments, update certificate alt names\n\n---------\n\nCo-authored-by: Andre Diggins <andrediggins@gmail.com>\n\n---------\n\nCo-authored-by: Jeff Catania <jeffreycatania@gmail.com>\nCo-authored-by: jeffcatania-dpw <jeff@digitalpublicworks.org>\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5d843c4a410e4e68e8a78cc421149e3125165b4b",
+          "author": "cdigg",
+          "created_at": "2025-08-20T23:13:26+00:00"
+        },
+        {
+          "message": "FFS-3283: Backdate events in Mixpanel by using \"time\" property (#909)\n\nWe currently track events with a \"timestamp\" property, in an attempt to\ncapture the original event timestamp.\n\nFor Mixpanel, in order to backdate events properly, we need the event\nname to be \"time\", as described [in the Mixpanel API docs][1].\n\n[1]: https://developer.mixpanel.com/reference/track-event",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2103002002772751d2c2ef6da7b81f1a05568e01",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-20T16:59:37+00:00"
+        },
+        {
+          "message": "Upgrade libxslt1-dev to address security finding (#907)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7dc49f00be0cf7aff47aa0a044dfa682b7d60a3b",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-20T01:58:39+00:00"
+        },
+        {
+          "message": "No ticket: Create a jupyter analytics notebook (#893)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0fd0e26ed5271ed772b4b0dd3a2f0fb59f171b77",
+          "author": "Tim Miller",
+          "created_at": "2025-08-18T18:24:55+00:00"
+        },
+        {
+          "message": "FFS-3252: Investigate why some AZ flows are missing an invitation (#898)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/bfc5a2d6e39bf198b69838b457d537b5a17eba30",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-15T20:38:35+00:00"
+        },
+        {
+          "message": "FFS-3222: LA go-live infra changes (#891)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4074e2a302b43d07c1d21dc0a6a2e40a734428d7",
+          "author": "Tim Miller",
+          "created_at": "2025-08-15T16:32:41+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate code.json",
+      "issues": [
+        {
+          "title": "Form Bug Fixes",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/92",
+          "created_at": "2025-08-19T23:27:29+00:00",
+          "state": "closed",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #92 from DSACMS/DSACMS/nat/bug-fixes\n\nForm Bug Fixes",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/781dfa6435b8bf08824a406573d2afc18e59d82b",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T16:23:03+00:00"
+        },
+        {
+          "message": "Added a check for an array for handling multi-field objects\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/2a34a4d13f8ac90a6abebf4227189e21f753af7a",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T23:20:49+00:00"
+        },
+        {
+          "message": "Update CMS schema to latest and adjusted form component rendering accordingly\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/5c1892b35c92aba6b7b7c07e4616744168af8681",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T23:20:13+00:00"
+        },
+        {
+          "message": "Update gov schema\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/13e94f08f826474350d6bca5927312b9506ba335",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T23:00:17+00:00"
+        },
+        {
+          "message": "Added functionality to not include blank optional fields in output\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/075f9f78941be8ec7b8fddd3057ead4fdf9ad2fe",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:57:52+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "description": "CMS code.json: An agency-wide metadata standard for software projects",
+      "issues": [
+        {
+          "title": "Docs: Add docs on private repositories",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/35",
+          "created_at": "2025-08-21T16:21:20+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "FAQ: Add new FAQ on laborHours",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/34",
+          "created_at": "2025-08-19T22:28:39+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Added Tests + Schema Updates",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/33",
+          "created_at": "2025-08-19T21:49:42+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Docs: Update fields & Exemptions doc",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/32",
+          "created_at": "2025-08-14T22:03:21+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #33 from DSACMS/nat/validation\n\nAdded Tests + Schema Updates",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/a33d04ff8ccc019adfa04dddfc8ab05f1775c8bb",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T23:53:43+00:00"
+        },
+        {
+          "message": "Change example file names and updated example file paths\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/cb5990f9fa30eb02198f8664ce7ad0d3d2f8e870",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T23:48:37+00:00"
+        },
+        {
+          "message": "Changed examples.md to point to example code.json files\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/22016f09406940d39185be203ed62c517128688d",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T23:40:36+00:00"
+        },
+        {
+          "message": "Changed workflow file to include updated file paths\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/93bb05026442450663621fd1b571bacdc69fb9be",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T23:40:09+00:00"
+        },
+        {
+          "message": "Create new tests directory separate from schemas containing all testing\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/58b0b45feb8407e2dd605c7f898adb9acbd15d5f",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T23:39:22+00:00"
+        },
+        {
+          "message": "Update code.json content across tests\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/68f809e9cc787188287fa4b0f2963488c71e2ba2",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T17:21:50+00:00"
+        },
+        {
+          "message": "Merge pull request #34 from DSACMS/natalialuzuriaga-patch-6\n\nFAQ: Add new FAQ on laborHours",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/e9f74edbc5abf8a2adbfcd07f0cfeb8febf8c18d",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T16:35:08+00:00"
+        },
+        {
+          "message": "Update faq.md",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/cb49c0184df50a34be89d2ad14e756aff7e9bbe1",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-20T16:32:57+00:00"
+        },
+        {
+          "message": "Update faq.md",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/22b7e215c14932264a8e9d35cdb27228820b21a7",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:27:58+00:00"
+        },
+        {
+          "message": "Merge branch 'main' into nat/validation",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/47342cdb6a036f9e23182b24fbfef03efcae0b2e",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:04:56+00:00"
+        },
+        {
+          "message": "Update gov-schema.json",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/f208535bfd6aee79ce3c1cc1a5c66c030351cd69",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:03:36+00:00"
+        },
+        {
+          "message": "Update cms-schema.json",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/d544c037e7d278feea98b85dfd49f303038796cf",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:02:59+00:00"
+        },
+        {
+          "message": "Update examples.md",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/0a63d12d3ac58e30099656d452ee7579939739a8",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:02:17+00:00"
+        },
+        {
+          "message": "Update code.json",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/e769e6701a9df66ef612cf916e792c5cdf6bfbf6",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T22:01:37+00:00"
+        },
+        {
+          "message": "Add new json-schema-test.yml workflow to PR checks\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/81ad36c75e6309b67fd8cbe69f4dfe966c757cdf",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T21:35:20+00:00"
+        },
+        {
+          "message": "Add tests to repository to validate schemas\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/9b7fa8def1836a99af0659236ca87c5bf86a87cb",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T21:29:35+00:00"
+        },
+        {
+          "message": "Updated enum values in CMS schema\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/0ab3a6d8fad2a9a78ccd7b68f0be547e05eb890a",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T16:43:48+00:00"
+        },
+        {
+          "message": "Added missing languages to gov schema\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/898c763713001b3592b617ab0b87ed2b177925d1",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T16:40:49+00:00"
+        },
+        {
+          "message": "Updated code.json\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/9d0d5166f455999a7d52286cabad8b5385f5e64c",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-19T16:40:00+00:00"
+        },
+        {
+          "message": "Merge pull request #32 from DSACMS/DSACMS/nat/updates\n\nDocs: Update fields & Exemptions doc",
+          "url": "https://github.com/DSACMS/gov-codejson/commit/a4fb0882f520421ef45bcd1db2d048fe81c9cf9e",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-15T18:44:19+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Tooling that allows for code.json creation through automation",
+      "issues": [
+        {
+          "title": "IDEA: Remove cookiecutter files if code.json already exists",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/issues/62",
+          "created_at": "2025-08-21T16:17:32+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "IDEA: Add JSON Validation",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/issues/61",
+          "created_at": "2025-08-19T23:37:10+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Updated contractNumber type and feedbackMechanism type and generation",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/60",
+          "created_at": "2025-08-14T16:51:59+00:00",
+          "state": "open",
+          "is_new": false
+        },
+        {
+          "title": "Bump the actions-minor group with 2 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/59",
+          "created_at": "2025-08-12T02:47:05+00:00",
+          "state": "open",
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group with 16 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/57",
+          "created_at": "2025-08-12T01:30:04+00:00",
+          "state": "open",
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/53",
+          "created_at": "2025-08-12T00:15:56+00:00",
+          "state": "open",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [
+        {
+          "title": "Fix Issues and PRs. ",
+          "url": "https://github.com/DSACMS/super-changelog/pull/9",
+          "created_at": "2025-08-21T21:44:57+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Issue Template",
+          "url": "https://github.com/DSACMS/super-changelog/issues/8",
+          "created_at": "2025-08-18T14:27:49+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-08-10 to 2025-08-17",
+          "url": "https://github.com/DSACMS/super-changelog/pull/7",
+          "created_at": "2025-08-17T13:34:28+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-08-07 to 2025-08-14",
+          "url": "https://github.com/DSACMS/super-changelog/pull/6",
+          "created_at": "2025-08-14T22:55:41+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-07-17 to 2025-07-24",
+          "url": "https://github.com/DSACMS/super-changelog/pull/2",
+          "created_at": "2025-07-24T18:26:07+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #9 from DSACMS/fix-issues-and-prs\n\nFix Issues and PRs.",
+          "url": "https://github.com/DSACMS/super-changelog/commit/4c59c8b3ee0ed33de164bfbde4bb635a975e86ac",
+          "author": "decause-gov",
+          "created_at": "2025-08-22T14:42:41+00:00"
+        },
+        {
+          "message": "fix issues and prs. fetch both at once and change check criteria. Also replace timezone info for all comparisons\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/036f39122443892105b0ba546013d271110deca8",
+          "author": "Isaac Milarsky",
+          "created_at": "2025-08-21T21:42:05+00:00"
+        },
+        {
+          "message": "Merge pull request #2 from DSACMS/weekly-changelog-2025-07-24\n\nWeekly Changelog Summary: 2025-07-17 to 2025-07-24",
+          "url": "https://github.com/DSACMS/super-changelog/commit/5ad4af0329c5f2be78ccbb3985cfdeccc2e8a9a7",
+          "author": "decause-gov",
+          "created_at": "2025-08-18T14:24:01+00:00"
+        },
+        {
+          "message": "Merge pull request #7 from DSACMS/weekly-changelog-2025-08-17\n\nWeekly Changelog Summary: 2025-08-10 to 2025-08-17",
+          "url": "https://github.com/DSACMS/super-changelog/commit/1bda397c0b28a3f9f744cbd95b0a727adb875791",
+          "author": "decause-gov",
+          "created_at": "2025-08-18T14:22:29+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2025-08-17\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/0b49bcf5e7952372aa1b475a3369164dde270ea2",
+          "author": "GitHub Action",
+          "created_at": "2025-08-17T13:34:26+00:00"
+        },
+        {
+          "message": "Merge pull request #6 from DSACMS/weekly-changelog-2025-08-14\n\nWeekly Changelog Summary: 2025-08-07 to 2025-08-14",
+          "url": "https://github.com/DSACMS/super-changelog/commit/ce62753d013d92ad4aaaa796f9afd3be7c4a24ab",
+          "author": "decause-gov",
+          "created_at": "2025-08-15T17:25:58+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "description": null,
+      "issues": [
+        {
+          "title": "automate running fixture data sql script",
+          "url": "https://github.com/DSACMS/npd/pull/48",
+          "created_at": "2025-08-20T20:19:45+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Add Template for Pull Requests",
+          "url": "https://github.com/DSACMS/npd/pull/47",
+          "created_at": "2025-08-20T14:16:43+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "PoC Provider FHIR Tests",
+          "url": "https://github.com/DSACMS/npd/pull/46",
+          "created_at": "2025-08-20T14:03:23+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Making Contributing More User-Friendly",
+          "url": "https://github.com/DSACMS/npd/pull/45",
+          "created_at": "2025-08-19T18:12:10+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "NDH-89 Testing Jira Integration",
+          "url": "https://github.com/DSACMS/npd/pull/44",
+          "created_at": "2025-08-18T20:50:05+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "clarifying the table naming/schema",
+          "url": "https://github.com/DSACMS/npd/pull/43",
+          "created_at": "2025-08-18T19:47:59+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/42",
+          "created_at": "2025-08-16T02:57:16+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/41",
+          "created_at": "2025-08-09T03:05:50+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "Added Version Numbers to Dependencies",
+          "url": "https://github.com/DSACMS/npd/pull/40",
+          "created_at": "2025-08-05T20:48:06+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "Ft approach",
+          "url": "https://github.com/DSACMS/npd/pull/37",
+          "created_at": "2025-08-05T11:12:08+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/36",
+          "created_at": "2025-08-04T18:53:53+00:00",
+          "state": "closed",
+          "is_new": false
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/34",
+          "created_at": "2025-08-02T15:44:30+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #40 from DSACMS/sachin/requirementsFix\n\nAdded Version Numbers to Dependencies",
+          "url": "https://github.com/DSACMS/npd/commit/de93145496cec1925981188c0f3593030397d817",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-19T18:50:48+00:00"
+        },
+        {
+          "message": "Merge pull request #34 from DSACMS/contributors-readme-action-NDfXma3zkB\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/a4ff7fcb8aea7998caf3a02d35050af87c7d9f24",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-19T18:50:21+00:00"
+        },
+        {
+          "message": "Merge pull request #36 from DSACMS/contributors-readme-action-7HZNjo-N9e\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/1a51b07dced9e463b58729d162ad61b11b9603e1",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-19T18:49:39+00:00"
+        },
+        {
+          "message": "Merge pull request #41 from DSACMS/contributors-readme-action-FMQclg9AuI\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/876a2040f02cb0bdfab073ead244308e0f2c45ff",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-19T18:49:15+00:00"
+        },
+        {
+          "message": "Merge pull request #42 from DSACMS/contributors-readme-action-wvVEZxdDC6\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/2b53a5cfcda45e0a1dc9783b6088f8d6b0f4a2e7",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-19T18:48:53+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/6de6b314d2c30efcb6e43ff5816d17d577f502a9",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-16T02:57:15+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "graphics",
+      "url": "https://github.com/DSACMS/graphics",
+      "description": "A repository to store OSPO graphics",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "decause inkscape dump 2022-Q32025",
+          "url": "https://github.com/DSACMS/graphics/commit/9f8bb9c021007fa297611e8305a4560a4c86f0fd",
+          "author": "Remy",
+          "created_at": "2025-08-20T14:23:45+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/graphics/commit/80fb4186c4162ae9a0127e3f94022d3e2a498ffe",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-20T14:23:47+00:00"
+        },
+        {
+          "message": "Added .gitignore",
+          "url": "https://github.com/DSACMS/graphics/commit/efb9a8dc21c44613073a821521a66db7e724106d",
+          "author": "Remy",
+          "created_at": "2025-08-20T14:23:14+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
+      "description": "Calculate VTINs for a VRDC PUF",
+      "issues": [
+        {
+          "title": "Create SECURITY.md",
+          "url": "https://github.com/DSACMS/npd_vrdc_python_projects/pull/3",
+          "created_at": "2025-08-04T19:47:16+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #3 from DSACMS/IsaacMilarky-patch-1\n\nCreate SECURITY.md",
+          "url": "https://github.com/DSACMS/npd_vrdc_python_projects/commit/79612e88e607083f0bb5ca59aeeca135abb9fb57",
+          "author": "Isaac Milarsky",
+          "created_at": "2025-08-15T17:04:30+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_nucc_slurp",
+      "url": "https://github.com/DSACMS/npd_nucc_slurp",
+      "description": "because the CSV makes calculating the parent difficult.",
+      "issues": [
+        {
+          "title": "Create SECURITY.md",
+          "url": "https://github.com/DSACMS/npd_nucc_slurp/pull/3",
+          "created_at": "2025-08-04T19:42:57+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Merge pull request #3 from DSACMS/IsaacMilarky-patch-1\n\nCreate SECURITY.md",
+          "url": "https://github.com/DSACMS/npd_nucc_slurp/commit/b164f4d1bf3733b0116ca7618961a37d1e150d8c",
+          "author": "Isaac Milarsky",
+          "created_at": "2025-08-15T17:03:38+00:00"
+        }
+      ],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-08-15",
+    "end": "2025-08-22"
+  },
+  "generated_at": "2025-08-22T15:09:56.459638+00:00"
+}
