@@ -37,7 +37,7 @@
           "title": "[Snyk] Upgrade webpack from 5.99.9 to 5.101.0",
           "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/919",
           "created_at": "2025-08-22T00:07:51+00:00",
-          "state": "open",
+          "state": "closed",
           "is_new": true
         },
         {
@@ -128,7 +128,7 @@
           "title": "FFS-3203: adding w2 monthly summary to /summary page",
           "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/906",
           "created_at": "2025-08-19T21:03:12+00:00",
-          "state": "open",
+          "state": "closed",
           "is_new": true
         },
         {
@@ -247,6 +247,18 @@
       "pulls": [],
       "commits": [
         {
+          "message": "Upgrade webpack from 5.99.9 to 5.101.0 (#919)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9f1551387a2d32405d96043277433010a95461dc",
+          "author": "decause-gov",
+          "created_at": "2025-08-22T17:08:54+00:00"
+        },
+        {
+          "message": "FFS-3203: adding w2 monthly summary to /summary page (#906)\n\n* The /summary page will now display the same W2 Monthly Summary view component that we display on /payment_details. The footnote will always be hidden per a conversation with Rutvi.\n* This page's headers are now correct (previously we'd skip a level here and there). Note that these might look a little funny right now, but will look normal again once Tom's big css change PRs are in.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/90627b0542b0dcade20457e01d252b03974d1eb3",
+          "author": "Tim Miller",
+          "created_at": "2025-08-22T15:34:58+00:00"
+        },
+        {
           "message": "Increase RDS ACU capacity to 10 (#915)\n\nThis is part of our tried-and-true load tested configuration, we need to\nset this in order to achieve the necessary performance.",
           "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d34cc4f36c01b25e9621f96fb5cb7fbecf8b376f",
           "author": "Tom Dooner",
@@ -356,6 +368,13 @@
       "url": "https://github.com/DSACMS/codejson-generator",
       "description": "Form to generate code.json",
       "issues": [
+        {
+          "title": "Add GitLab Automation",
+          "url": "https://github.com/DSACMS/codejson-generator/issues/93",
+          "created_at": "2025-08-22T17:58:16+00:00",
+          "state": "open",
+          "is_new": true
+        },
         {
           "title": "Form Bug Fixes",
           "url": "https://github.com/DSACMS/codejson-generator/pull/92",
@@ -616,6 +635,13 @@
       "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
       "issues": [
         {
+          "title": "Weekly Changelog Summary: 2025-08-15 to 2025-08-22",
+          "url": "https://github.com/DSACMS/super-changelog/pull/10",
+          "created_at": "2025-08-22T15:17:48+00:00",
+          "state": "closed",
+          "is_new": true
+        },
+        {
           "title": "Fix Issues and PRs. ",
           "url": "https://github.com/DSACMS/super-changelog/pull/9",
           "created_at": "2025-08-21T21:44:57+00:00",
@@ -653,6 +679,24 @@
       ],
       "pulls": [],
       "commits": [
+        {
+          "message": "fix pr issue\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/0e2e871168f0b85414cf25f79f934c408e47234b",
+          "author": "Isaac Milarsky",
+          "created_at": "2025-08-22T18:45:35+00:00"
+        },
+        {
+          "message": "Merge pull request #10 from DSACMS/weekly-changelog-2025-08-22\n\nWeekly Changelog Summary: 2025-08-15 to 2025-08-22",
+          "url": "https://github.com/DSACMS/super-changelog/commit/839b77b112802fa641f7493eb66bc16311311b8c",
+          "author": "decause-gov",
+          "created_at": "2025-08-22T15:21:21+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2025-08-22\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/bdbf3b2edb0244687977510069f37853b341c398",
+          "author": "GitHub Action",
+          "created_at": "2025-08-22T15:17:45+00:00"
+        },
         {
           "message": "Merge pull request #9 from DSACMS/fix-issues-and-prs\n\nFix Issues and PRs.",
           "url": "https://github.com/DSACMS/super-changelog/commit/4c59c8b3ee0ed33de164bfbde4bb635a975e86ac",
@@ -904,5 +948,5 @@
     "start": "2025-08-15",
     "end": "2025-08-22"
   },
-  "generated_at": "2025-08-22T15:09:56.459638+00:00"
+  "generated_at": "2025-08-22T18:54:23.498220+00:00"
 }
