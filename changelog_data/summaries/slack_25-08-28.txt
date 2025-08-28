@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-08-21 to 2025-08-28)
+
+• 12 of 12 repos with activity
+• 85 commits | 57 PRs | 8 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 18 commits, 27 PRs
+• *npd*: 27 commits, 17 PRs
+• *metrics*: 15 commits, 0 PRs
+• *codejson-generator*: 13 commits, 1 PRs
+• *super-changelog*: 7 commits, 3 PRs
