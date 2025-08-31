@@ -1,0 +1,1079 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "update measureauthoringtool data: Sun Aug 31 10:36:52 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a18cfa66246848d96cb643022b5705d9698a6566",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T10:36:52+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 31 09:46:16 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7f6621c06d126cb4882be8bd697db6b89c78eb42",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T09:46:16+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 31 09:07:24 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/dfb1a6db3999d7412f0c2b45362b2c88b4974ecf",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T09:07:24+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 31 09:01:58 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/6f3b8ee13d57776ce1983b8fcf6669d9f07fc5c6",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T09:01:58+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 31 08:49:32 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/15eb0ff224ac8cf492f51cc3cdce8baeb384f33a",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:49:32+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Aug 31 08:43:25 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/c8849dd0d8770c6b1a97fa74f8c4f178ca67ae8f",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:43:25+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 31 08:40:03 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7e6768b1579f1c458f5c2306b60edda8d3cdb909",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:40:03+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 31 08:35:12 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/791106ab3151e9474dcf406574a92e5ea8f6aa8a",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:35:12+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 31 08:33:28 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/8cfe479e82ca4f2a98f77f7bf38e8a070a980cc0",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:33:28+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 31 08:25:32 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/79399ecf21902827d02366db08c7c72ac38cea24",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:25:32+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Aug 31 08:23:22 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a4315e876e31eb953032436deaad43fc74bee2d5",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:23:22+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 31 08:07:02 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/6aea7a49d8b74f49e28933c42a9f73af911fb985",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T08:07:02+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 31 07:48:57 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/8a94bc021e5f9a122022e85a485e64822e240fee",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T07:48:57+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 31 07:40:31 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5e1592dd16dbbcfdbb3269efc4d3ad0c1baeea67",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T07:40:31+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 31 07:33:29 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/33382ec55321f37c37aacf3f67d7290fa0f504fa",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-31T07:33:29+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Aug 24 10:32:43 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/3ce501355208b0d1118e7f8120b5c935e1380ab2",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T10:32:44+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 24 09:39:38 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/45d428c5396cd29cff72911aeb8a055541d3d50f",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T09:39:38+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 24 08:56:26 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/57005e596bd677ba7b94f9785e3156c4f0ed209c",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:56:26+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 24 08:49:41 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7b767cda2e961d5073c483e3aca49abe29288f4a",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:49:41+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 24 08:37:45 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/c0de43da18557dd2776b72707f555da9df7e3122",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:37:45+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Aug 24 08:32:44 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/67c6ee3e70efb67240a0a75e4292e55146cb3db7",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:32:44+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 24 08:29:21 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/5f30873f37c4ebc02cb2a0f6e5519ad95ce4928f",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:29:21+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 24 08:24:54 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/af046b2154aadd69355fdc9a6116e16ba5e242b9",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:24:54+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 24 08:23:14 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/29259534b4daca75b495b6363426f5a45351d8fe",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:23:14+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 24 08:15:42 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/150179a0130a15de8e0a02d010f4c7ce49f1f66e",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:15:42+00:00"
+        },
+        {
+          "message": "update measureauthoringtool data: Sun Aug 24 08:13:47 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/dbf3cd6794328da7a18bca476d3c156bc8ac6987",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:13:47+00:00"
+        },
+        {
+          "message": "update CMSgov data: Sun Aug 24 08:02:20 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a0b3d48d8ddab640e4e04b20b6fcad041d9ce1a8",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T08:02:20+00:00"
+        },
+        {
+          "message": "update CMS-Enterprise data: Sun Aug 24 07:45:07 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/6a82bfecadf8e0c78ba3f7576ae3aef365860cc4",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T07:45:07+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Aug 24 07:38:41 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/9bcdbc3c28c57f8ee4a9b7fb37252366200ced7c",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T07:38:41+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Aug 24 07:32:57 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/2f0df17f267ab8b26d462ad5ba6e3da02a6cdbb6",
+          "author": "GitHub Actions",
+          "created_at": "2025-08-24T07:32:57+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [
+        {
+          "title": "Update Contributor Workflow Fails When There Are Branch Protections on Main",
+          "url": "https://github.com/DSACMS/repo-scaffolder/issues/342",
+          "created_at": "2025-08-25T18:04:32+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "description": "Open Source Program Office Guide for CMS.gov",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Resources: Created new Cybersecurity guide and update GitHub 101",
+          "url": "https://github.com/DSACMS/ospo-guide/pull/82",
+          "created_at": "2025-08-26T22:22:44+00:00",
+          "updated_at": "2025-08-26T22:22:44+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "FFS-3197: Reenable turbo on /employer_search by fixing style issue in CSP",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/936",
+          "created_at": "2025-08-30T00:22:13+00:00",
+          "updated_at": "2025-08-30T00:24:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3209: Reconfigure database backups",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/935",
+          "created_at": "2025-08-29T19:09:41+00:00",
+          "updated_at": "2025-08-29T21:01:22+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3298: Return containers and database to standard configuration \ud83d\udcb5 ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/934",
+          "created_at": "2025-08-29T17:14:13+00:00",
+          "updated_at": "2025-08-29T17:31:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-2543: Use JS to show help alert on /employer_search without refresh",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/933",
+          "created_at": "2025-08-29T16:38:49+00:00",
+          "updated_at": "2025-08-29T16:48:45+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Fix AutoTitleTestHelper to use HTML parser instead of regex",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/932",
+          "created_at": "2025-08-29T00:11:50+00:00",
+          "updated_at": "2025-08-29T16:16:35+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Rename AlertComponent to Uswds::Alert and use it for site alerts",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/931",
+          "created_at": "2025-08-29T00:08:01+00:00",
+          "updated_at": "2025-08-29T16:33:02+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3219 & FFS-3329: /success shareable link updates (simplified with origin)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/930",
+          "created_at": "2025-08-28T21:59:07+00:00",
+          "updated_at": "2025-08-29T17:09:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3263: replace amazon with amazon flex on popular providers",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/929",
+          "created_at": "2025-08-28T19:51:14+00:00",
+          "updated_at": "2025-08-28T21:08:50+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Publish July 2025 Cumulative Data Update",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/928",
+          "created_at": "2025-08-28T16:54:47+00:00",
+          "updated_at": "2025-08-28T17:27:51+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3253: Stats",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/927",
+          "created_at": "2025-08-28T13:51:10+00:00",
+          "updated_at": "2025-08-28T18:51:36+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.89.2 to 1.90.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/926",
+          "created_at": "2025-08-27T04:21:45+00:00",
+          "updated_at": "2025-08-29T16:52:11+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Cle/tf playground - DO NOT MERGE",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/925",
+          "created_at": "2025-08-26T22:04:52+00:00",
+          "updated_at": "2025-08-26T22:05:42+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: Run i18n-health on PR pushes on branch, not main",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/924",
+          "created_at": "2025-08-25T21:08:11+00:00",
+          "updated_at": "2025-08-25T22:52:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: fix translations in main",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/923",
+          "created_at": "2025-08-25T20:59:33+00:00",
+          "updated_at": "2025-08-25T22:03:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Remove Pat from reviewer lottery",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/922",
+          "created_at": "2025-08-25T18:36:03+00:00",
+          "updated_at": "2025-08-25T18:47:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Filter `member_name` and `employer_name` from logs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/921",
+          "created_at": "2025-08-25T18:33:47+00:00",
+          "updated_at": "2025-08-25T20:57:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3287: Remove \"Prompt\" row from applicant info table on /summary",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/920",
+          "created_at": "2025-08-22T21:26:49+00:00",
+          "updated_at": "2025-08-26T18:41:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3214: add w2 monthly summary to pdfs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/910",
+          "created_at": "2025-08-20T19:31:11+00:00",
+          "updated_at": "2025-08-25T21:28:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3178: Payment Details UX changes from FFS-3027",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/908",
+          "created_at": "2025-08-20T00:25:30+00:00",
+          "updated_at": "2025-08-27T19:58:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "FFS-3298: Return containers and database to standard configuration (#934)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/41a191f392ed47b4b161baba9deab678f67254ed",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-29T17:23:28+00:00"
+        },
+        {
+          "message": "FFS-3219 & FFS-3329: /success shareable link updates (simplified with origin) (#930)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c7f25d7cc0e8611b3e6cb8c141ea4b45f6980510",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-29T17:05:43+00:00"
+        },
+        {
+          "message": "Upgrade sass from 1.89.2 to 1.90.0 (#926)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/be9cca9bec0a06bc48cde49f135c93d4598b602f",
+          "author": "decause-gov",
+          "created_at": "2025-08-29T16:52:09+00:00"
+        },
+        {
+          "message": "Fix AutoTitleTestHelper to use HTML parser instead of regex (#932)\n\nThis came up because I'm about to add an `<h1>` tag that has a class on\nit, which won't match the H1_REGEX here.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ada126364e50f45690defe8c3cadfbacec34d77d",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-29T16:16:33+00:00"
+        },
+        {
+          "message": "Publish July 2025 Cumulative Data Update (#928)\n\nCo-authored-by: pperozo <patricia.perozo@gmail.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/8d3ab59f3828a0d907ddd4e2aff94291805982ec",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-28T17:27:49+00:00"
+        },
+        {
+          "message": "FFS-3178: Payment Details UX changes from FFS-3027 (#908)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b3ba90bd753c9b650a66f982929a872dad8e1d56",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-27T19:55:05+00:00"
+        },
+        {
+          "message": "FFS-3287: Remove \"Prompt\" row from applicant info table on /summary (#920)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3d56001ab48980f53e10aa4aecca9945c3d3c991",
+          "author": "Daphne Gold",
+          "created_at": "2025-08-26T18:37:14+00:00"
+        },
+        {
+          "message": "No ticket: Run i18n-health on PR pushes on branch, not main (#924)\n\nWhen we run our i18n-tasks health GitHub Action on push to a PR, it used to run on main instead of the code in the PR. Now, it will run on the code in the PR.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c47558198e70436aade2e68a18d725f733e4b2ba",
+          "author": "Tim Miller",
+          "created_at": "2025-08-25T22:52:48+00:00"
+        },
+        {
+          "message": "remove now unused strings (#923)\n\n1. A ticket copied an error banner to /summary but did not copy two strings that it required. These strings have now been copied.\n2. There were three strings that were no longer used at all. These have been deleted.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b59ce3f9e15305784840e87afd3e4d5852ac598d",
+          "author": "Tim Miller",
+          "created_at": "2025-08-25T22:03:51+00:00"
+        },
+        {
+          "message": "FFS-3214: add w2 monthly summary to pdfs (#910)\n\n* Adds the W2 Monthly Summary component to the pdfs\n* Minor changes to the Payments and Deductions list\n* Per convo with Rutvi, only show the footnote for the first of each type of employment",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d3914f9d945d6b818eaa98146338e728ff23e167",
+          "author": "Tim Miller",
+          "created_at": "2025-08-25T21:24:23+00:00"
+        },
+        {
+          "message": "Filter `member_name` and `employer_name` from logs (#921)\n\nThe filter parameters are applied recursively to anything in the\n`params` hash so they don't get logged.\n\nLet's make sure that these fields from within the\n`cbv_flow_invitations.income_changes` object are redacted before being\nlogged to NewRelic.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2e4fa7f2ce0d544e0230a9fd62e43122f4e3cf23",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-25T20:57:16+00:00"
+        },
+        {
+          "message": "Remove Pat from reviewer lottery (#922)\n\nHis last day at DSAC was Friday. So long!",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a3dc6d05ed047e93e491836ef60e506444dd7290",
+          "author": "Tom Dooner",
+          "created_at": "2025-08-25T18:47:47+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate code.json",
+      "issues": [
+        {
+          "title": "Fix loading button state",
+          "url": "https://github.com/DSACMS/codejson-generator/issues/96",
+          "created_at": "2025-08-25T21:47:25+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Implemented USWDS Styling",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/95",
+          "created_at": "2025-08-22T21:25:52+00:00",
+          "updated_at": "2025-08-27T21:21:25+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #95 from DSACMS/DSACMS/nat/uswds-port\n\nImplemented USWDS Styling",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/ae862193d4d3f93544e462b547d216c063d48ccf",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-27T21:21:25+00:00"
+        },
+        {
+          "message": "Resolved accessibility bugs\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/da67933bcaca223d144234aac4a6a831cceaa723",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-26T22:09:12+00:00"
+        },
+        {
+          "message": "Change text weight for output label\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/72d7a29d781375b487f34831c83a3bdd55109b25",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-25T21:33:17+00:00"
+        },
+        {
+          "message": "Add favicon\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/37a248d883ce0e1b670942cc47e7d24b357a26c2",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-25T21:29:44+00:00"
+        },
+        {
+          "message": "Add new content component to add description text below object fields\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/codejson-generator/commit/5eb1a50db11b856ff19382a30e8196582a99107e",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-25T21:29:01+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-index-generator",
+      "url": "https://github.com/DSACMS/codejson-index-generator",
+      "description": "Script to create an indexed code.json",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Update README.md",
+          "url": "https://github.com/DSACMS/codejson-index-generator/commit/353cbe87f0a0e8b91bc2c68f227b8cd603a4259e",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-08-25T18:31:40+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "description": "CMS code.json: An agency-wide metadata standard for software projects",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Docs: Added agency-index.md",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/37",
+          "created_at": "2025-08-27T18:34:28+00:00",
+          "updated_at": "2025-08-28T13:14:20+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Schemas: Update schema to use JSON v2020-12 and validation",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/36",
+          "created_at": "2025-08-26T00:01:25+00:00",
+          "updated_at": "2025-08-26T00:37:15+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Tooling that allows for code.json creation through automation",
+      "issues": [
+        {
+          "title": "Explore usage of JSON Schema to Typescript converter",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/issues/63",
+          "created_at": "2025-08-26T22:26:32+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Bump the actions-minor group with 2 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/59",
+          "created_at": "2025-08-12T02:47:05+00:00",
+          "updated_at": "2025-08-25T19:40:43+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group with 16 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/57",
+          "created_at": "2025-08-12T01:30:04+00:00",
+          "updated_at": "2025-08-26T10:21:54+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/53",
+          "created_at": "2025-08-12T00:15:56+00:00",
+          "updated_at": "2025-08-25T19:03:21+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Weekly Changelog Summary: 2025-08-21 to 2025-08-28",
+          "url": "https://github.com/DSACMS/super-changelog/pull/12",
+          "created_at": "2025-08-28T15:54:31+00:00",
+          "updated_at": "2025-08-28T16:06:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-08-17 to 2025-08-24",
+          "url": "https://github.com/DSACMS/super-changelog/pull/11",
+          "created_at": "2025-08-24T13:40:17+00:00",
+          "updated_at": "2025-08-28T15:36:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #12 from DSACMS/weekly-changelog-2025-08-28\n\nWeekly Changelog Summary: 2025-08-21 to 2025-08-28",
+          "url": "https://github.com/DSACMS/super-changelog/commit/caf6161d75bce25bbc10a3fbc98f61721d707057",
+          "author": "decause-gov",
+          "created_at": "2025-08-28T16:04:43+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2025-08-28\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/04464864d5565f256fadf0aa993fb401230bb0ee",
+          "author": "GitHub Action",
+          "created_at": "2025-08-28T15:54:26+00:00"
+        },
+        {
+          "message": "Merge pull request #11 from DSACMS/weekly-changelog-2025-08-24\n\nWeekly Changelog Summary: 2025-08-17 to 2025-08-24",
+          "url": "https://github.com/DSACMS/super-changelog/commit/8f210845768d69dd256233de7f68ca6bcb003fd8",
+          "author": "decause-gov",
+          "created_at": "2025-08-28T15:36:13+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2025-08-24\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/1950aff9f01d9b561beb7b467c35191977d7aa68",
+          "author": "GitHub Action",
+          "created_at": "2025-08-24T13:40:14+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "description": null,
+      "issues": [
+        {
+          "title": "PR Templates",
+          "url": "https://github.com/DSACMS/npd/issues/28",
+          "created_at": "2025-07-28T15:37:13+00:00",
+          "state": "closed",
+          "is_new": false
+        }
+      ],
+      "pulls": [
+        {
+          "title": "DRAFT: Build Remaining Tables",
+          "url": "https://github.com/DSACMS/npd/pull/59",
+          "created_at": "2025-08-29T17:50:07+00:00",
+          "updated_at": "2025-08-29T17:51:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "DRAFT: Build Remaining Tables",
+          "url": "https://github.com/DSACMS/npd/pull/58",
+          "created_at": "2025-08-29T17:47:37+00:00",
+          "updated_at": "2025-08-29T17:48:40+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/57",
+          "created_at": "2025-08-27T23:12:28+00:00",
+          "updated_at": "2025-08-28T11:38:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/56",
+          "created_at": "2025-08-27T23:11:26+00:00",
+          "updated_at": "2025-08-28T11:38:31+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/55",
+          "created_at": "2025-08-27T23:09:32+00:00",
+          "updated_at": "2025-08-28T11:37:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "bump rds instance size to 100",
+          "url": "https://github.com/DSACMS/npd/pull/54",
+          "created_at": "2025-08-27T20:13:38+00:00",
+          "updated_at": "2025-08-27T23:09:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "NDH-111 Doc Updates from Alberto Meeting",
+          "url": "https://github.com/DSACMS/npd/pull/53",
+          "created_at": "2025-08-26T19:54:14+00:00",
+          "updated_at": "2025-08-27T23:12:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/52",
+          "created_at": "2025-08-26T17:38:10+00:00",
+          "updated_at": "2025-08-26T17:40:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Adding terraform files",
+          "url": "https://github.com/DSACMS/npd/pull/51",
+          "created_at": "2025-08-26T17:07:37+00:00",
+          "updated_at": "2025-08-26T17:38:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/50",
+          "created_at": "2025-08-26T15:32:00+00:00",
+          "updated_at": "2025-08-26T17:39:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/pull/49",
+          "created_at": "2025-08-25T16:19:37+00:00",
+          "updated_at": "2025-08-25T16:27:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "automate running fixture data sql script",
+          "url": "https://github.com/DSACMS/npd/pull/48",
+          "created_at": "2025-08-20T20:19:45+00:00",
+          "updated_at": "2025-08-25T12:35:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add Template for Pull Requests",
+          "url": "https://github.com/DSACMS/npd/pull/47",
+          "created_at": "2025-08-20T14:16:43+00:00",
+          "updated_at": "2025-08-25T16:19:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Django API Tests",
+          "url": "https://github.com/DSACMS/npd/pull/46",
+          "created_at": "2025-08-20T14:03:23+00:00",
+          "updated_at": "2025-08-28T20:14:02+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Making Contributing More User-Friendly",
+          "url": "https://github.com/DSACMS/npd/pull/45",
+          "created_at": "2025-08-19T18:12:10+00:00",
+          "updated_at": "2025-08-26T15:31:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "clarifying the table naming/schema",
+          "url": "https://github.com/DSACMS/npd/pull/43",
+          "created_at": "2025-08-18T19:47:59+00:00",
+          "updated_at": "2025-08-27T23:10:28+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "puffin readme",
+          "url": "https://github.com/DSACMS/npd/pull/38",
+          "created_at": "2025-08-05T11:58:34+00:00",
+          "updated_at": "2025-08-27T23:14:48+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Sjp/create table edits",
+          "url": "https://github.com/DSACMS/npd/pull/13",
+          "created_at": "2025-07-14T18:28:49+00:00",
+          "updated_at": "2025-08-25T12:01:56+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Ft create table",
+          "url": "https://github.com/DSACMS/npd/pull/7",
+          "created_at": "2025-07-02T13:00:13+00:00",
+          "updated_at": "2025-08-27T23:14:56+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #56 from DSACMS/contributors-readme-action-FM2oXWXEaK\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/555b7c411b3aace358c56ba2fb43d3df3f2e20ec",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-28T11:38:31+00:00"
+        },
+        {
+          "message": "Merge pull request #57 from DSACMS/contributors-readme-action-NwCI8C0yYY\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/7da9d9f78bb128fd0739585277bb500347406214",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-28T11:38:05+00:00"
+        },
+        {
+          "message": "Merge pull request #55 from DSACMS/contributors-readme-action-_sDZZjUvas\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/2e6775b23e532bbe18fdbbee3b825e2b10a09544",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-28T11:37:37+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/8a3dd7e614556b2d646ca1962b523aeac1df6f36",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-27T23:12:27+00:00"
+        },
+        {
+          "message": "Merge pull request #53 from DSACMS/sjp/more-doc-updates\n\nNDH-111 Doc Updates from Alberto Meeting",
+          "url": "https://github.com/DSACMS/npd/commit/f29d6f1eea0931a66470c667c999221e92661180",
+          "author": "Fred Trotter",
+          "created_at": "2025-08-27T23:12:06+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/b6a6ce70e2622808af4b1a4a4e4a97b63ee2df5c",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-27T23:11:25+00:00"
+        },
+        {
+          "message": "Merge pull request #43 from DSACMS/sjp/small-fips-tweaks\n\nclarifying the table naming/schema",
+          "url": "https://github.com/DSACMS/npd/commit/13a12ce3f863c01e206024fb1a79df6cd925486f",
+          "author": "Fred Trotter",
+          "created_at": "2025-08-27T23:10:27+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/c068f53ae48f85b919a4d710bd15f1a8b01144bc",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-27T23:09:31+00:00"
+        },
+        {
+          "message": "Merge pull request #54 from DSACMS/wbprice/bump-rds-instance-size\n\nbump rds instance size to 100",
+          "url": "https://github.com/DSACMS/npd/commit/465ee6ae68410fadc4b358fd365f29b0cb42e2d2",
+          "author": "Fred Trotter",
+          "created_at": "2025-08-27T23:09:12+00:00"
+        },
+        {
+          "message": "bump rds instance size to 100",
+          "url": "https://github.com/DSACMS/npd/commit/476c7c5c106fcea0f9017946d28e52d0eb81f695",
+          "author": "Blaine Price",
+          "created_at": "2025-08-27T20:10:05+00:00"
+        },
+        {
+          "message": "fixing typos",
+          "url": "https://github.com/DSACMS/npd/commit/979e06ca4f5af3adeabf06460d3e958f553ef9a5",
+          "author": "PR0I",
+          "created_at": "2025-08-26T19:51:04+00:00"
+        },
+        {
+          "message": "Adding a little more color to the ETLs folder documentation, too",
+          "url": "https://github.com/DSACMS/npd/commit/fe4913da56c71ee92851083201f51a6587ec7a73",
+          "author": "PR0I",
+          "created_at": "2025-08-26T19:41:38+00:00"
+        },
+        {
+          "message": "Updating the documentation to reflect the decisions made in the Alberto Meeting",
+          "url": "https://github.com/DSACMS/npd/commit/552746d37d6e1ca963bd4366d56120c0317af6c4",
+          "author": "PR0I",
+          "created_at": "2025-08-26T19:40:06+00:00"
+        },
+        {
+          "message": "Merge pull request #52 from DSACMS/contributors-readme-action-mQc4Ty8IyU\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/4d1305f612ec147250f941b1ae5c9f49879df2bb",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-26T17:40:06+00:00"
+        },
+        {
+          "message": "Merge pull request #50 from DSACMS/contributors-readme-action-Bi3AKgAX1_\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/b92432227cb6f5e1bebb070a4c8496941345407b",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-26T17:39:43+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/da9a1e8f5bcdf7a0dc5cce8df4f8226446de46f3",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-26T17:38:09+00:00"
+        },
+        {
+          "message": "Merge pull request #51 from DSACMS/sjp/terraform\n\nAdding terraform files",
+          "url": "https://github.com/DSACMS/npd/commit/44af4a957e3524616f5e777fb266165b0cc5bd3d",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-26T17:37:49+00:00"
+        },
+        {
+          "message": "Adding terraform files",
+          "url": "https://github.com/DSACMS/npd/commit/841f5fc02cc5f3e5bc086b645e1fa8ac49fa1a8e",
+          "author": "PR0I",
+          "created_at": "2025-08-26T17:05:29+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/0bacd178a1691ac1db769df9734998d2ccc681d0",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-26T15:31:59+00:00"
+        },
+        {
+          "message": "Merge pull request #45 from DSACMS/sjp/migrations\n\nMaking Contributing More User-Friendly",
+          "url": "https://github.com/DSACMS/npd/commit/a3c58d782b572bec61f4e386818e7c2dfb8f02a5",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-26T15:31:36+00:00"
+        },
+        {
+          "message": "reverting the changes from PR 46",
+          "url": "https://github.com/DSACMS/npd/commit/4075cee29a46fa47fd75d380cf37afbf59cabaa2",
+          "author": "PR0I",
+          "created_at": "2025-08-25T21:24:03+00:00"
+        },
+        {
+          "message": "Merge pull request #49 from DSACMS/contributors-readme-action-RqthDzAGZm\n\ndocs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/npd/commit/b673a394991fb0115a8c8baa630d5258f832f0b1",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-25T16:27:03+00:00"
+        },
+        {
+          "message": "update contributors information",
+          "url": "https://github.com/DSACMS/npd/commit/1b8b8975ef61f6d149b0b0f2c81ae8a4f54f12f2",
+          "author": "github-actions[bot]",
+          "created_at": "2025-08-25T16:19:36+00:00"
+        },
+        {
+          "message": "Merge pull request #47 from DSACMS/pr-issue-templates\n\nAdd Template for Pull Requests",
+          "url": "https://github.com/DSACMS/npd/commit/3d6d3d86618eb64590a510c3751af7bf55be52ba",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-25T16:19:16+00:00"
+        },
+        {
+          "message": "Update PULL_REQUEST_TEMPLATE.md",
+          "url": "https://github.com/DSACMS/npd/commit/fa36ee5702dbf368ab73013fb8574cb3d90162cc",
+          "author": "Isaac Milarsky",
+          "created_at": "2025-08-25T16:08:32+00:00"
+        },
+        {
+          "message": "Merge pull request #48 from DSACMS/wbprice/docker-compose-easy-up\n\nautomate running fixture data sql script",
+          "url": "https://github.com/DSACMS/npd/commit/8d30c74e39eeff211749c9b9ffe9d5b2f1ee4db7",
+          "author": "Sarah Popelka",
+          "created_at": "2025-08-25T12:35:29+00:00"
+        },
+        {
+          "message": "fixing merge conflict resolution issue",
+          "url": "https://github.com/DSACMS/npd/commit/b0738deb8a3393e1a61f0f39ca9c9b834b09d5a5",
+          "author": "PR0I",
+          "created_at": "2025-08-25T12:30:28+00:00"
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_VEINHasher",
+      "url": "https://github.com/DSACMS/npd_VEINHasher",
+      "description": "A project to generate a secure EIN hash",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "add warning",
+          "url": "https://github.com/DSACMS/npd_VEINHasher/pull/2",
+          "created_at": "2025-08-27T23:24:04+00:00",
+          "updated_at": "2025-08-28T11:43:57+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_cicadence",
+      "url": "https://github.com/DSACMS/npd_cicadence",
+      "description": "Cicadence for Primeval Privacy Math",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Need to clearly note this code is not used in production ",
+          "url": "https://github.com/DSACMS/npd_cicadence/pull/2",
+          "created_at": "2025-08-27T23:20:37+00:00",
+          "updated_at": "2025-08-28T11:44:30+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-08-24",
+    "end": "2025-08-31"
+  },
+  "generated_at": "2025-08-31T13:28:46.137680+00:00"
+}
