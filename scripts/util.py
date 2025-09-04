@@ -77,6 +77,76 @@ class ChangelogGenerator:
 
         self.g = Github(token)
     
+    def get_contributers(self,repo,data):
+        repo_contributors = repo.get_contributers(anon="true")
+
+        num_contributors = len(repo_contributors)
+        print(f"Found {num_contributors} contributors")
+
+        new_users = []
+        relevant_events = []
+
+        for user in repo_contributors:
+            #Go through events api and find first time
+            #that they pushed to this repo.
+            for event in user.get_events():
+                if event.type == "PushEvent" and event.repo == repo:
+                    relevant_events.append(event)
+            
+
+            #See if the first push to this repo was recent, making them
+            #a new contributor to this repository
+            relevant_events.sort(key= lambda x: x.created_at)
+            
+            if relevant_events:
+                if relevant_events[0].created_at.replace(tzinfo=None) >= self.start_date:
+                    new_users.append(user)
+
+        for user in new_users:
+            data["contributors"].append({
+                "name" : user.name,
+                "company": user.company,
+                "created_at": user.created_at,
+                "email": user.email
+            })
+
+        print(f"Found {len(new_users)} new contributors")
+    
+    def get_issues_and_prs(self,repo,data):
+        issues_and_prs = repo.get_issues(state="all")
+
+        num_issues = len([issue for issue in issues_and_prs if issue.pull_request is None])
+        print(f"Found {num_issues} issues")
+
+        num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
+        print(f"Found {num_prs} pull requests")
+
+        for issue in issues_and_prs:
+
+            if issue.created_at.replace(tzinfo=None) >= self.start_date or issue.updated_at.replace(tzinfo=None) >= self.start_date:
+                #print(f"GOT ONE {n}")
+                if not issue.pull_request:
+                    #print(issue)
+                    data["issues"].append({
+                        "title": issue.title,
+                        "url": issue.html_url,
+                        "created_at": issue.created_at.isoformat(),
+                        "state": issue.state,
+                        "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
+                    })
+                else:
+                    pr = repo.get_pull(issue.number)
+                    #print(f"Got PULL merged: {pr.is_merged()}")
+                    data["pulls"].append({
+                        "title":pr.title,
+                        "url": pr.html_url,
+                        "created_at": pr.created_at.isoformat(),
+                        "updated_at": pr.updated_at.isoformat(),
+                        "state": pr.state,
+                        "merged": pr.is_merged(),
+                        "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
+                    })
+
     def get_data(self,org_name):
 
         org = self.g.get_organization(org_name)
@@ -99,50 +169,20 @@ class ChangelogGenerator:
                 "issues": [],
                 "pulls": [],
                 "commits": [],
+                "contributors": [],
                 "changelog_entries": []
             }
 
             try:
-                issues_and_prs = repo.get_issues(state="all")
-
-                num_issues = len([issue for issue in issues_and_prs if issue.pull_request is None])
-                print(f"Found {num_issues} issues")
-
-                num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
-                print(f"Found {num_prs} pull requests")
-
-                #print(self.start_date)
-
-                for n, issue in enumerate(issues_and_prs):
-                    #print(n)
-                    #print(issue.created_at)
-                    if issue.created_at.replace(tzinfo=None) >= self.start_date or issue.updated_at.replace(tzinfo=None) >= self.start_date:
-                        #print(f"GOT ONE {n}")
-                        if not issue.pull_request:
-                            #print(issue)
-                            repo_data["issues"].append({
-                                "title": issue.title,
-                                "url": issue.html_url,
-                                "created_at": issue.created_at.isoformat(),
-                                "state": issue.state,
-                                "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
-                            })
-                        else:
-                            pr = repo.get_pull(issue.number)
-                            #print(f"Got PULL merged: {pr.is_merged()}")
-                            repo_data["pulls"].append({
-                                "title":pr.title,
-                                "url": pr.html_url,
-                                "created_at": pr.created_at.isoformat(),
-                                "updated_at": pr.updated_at.isoformat(),
-                                "state": pr.state,
-                                "merged": pr.is_merged(),
-                                "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
-                            })
-
+                self.get_issues_and_prs(repo,repo_data)
             except Exception as e:
                 print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
+            try:
+                self.get_contributers(repo,repo_data)
+            except Exception as e:
+                print(f"Error fetching contributors for {repo.name}: {str(e)}")
+
             try:
                 for commit in repo.get_commits(since=self.start_date):
                     repo_data["commits"].append({
