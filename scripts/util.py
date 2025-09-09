@@ -1,4 +1,5 @@
 from github import Github # type: ignore
+from github import GithubException
 from datetime import datetime, timezone, timedelta
 import json
 import os
@@ -77,10 +78,10 @@ class ChangelogGenerator:
 
         self.g = Github(token)
     
-    def get_contributers(self,repo,data):
-        repo_contributors = repo.get_contributers(anon="true")
+    def get_contributors(self,repo,data):
+        repo_contributors = repo.get_contributors()
 
-        num_contributors = len(repo_contributors)
+        num_contributors = repo_contributors.totalCount
         print(f"Found {num_contributors} contributors")
 
         new_users = []
@@ -89,9 +90,13 @@ class ChangelogGenerator:
         for user in repo_contributors:
             #Go through events api and find first time
             #that they pushed to this repo.
-            for event in user.get_events():
-                if event.type == "PushEvent" and event.repo == repo:
-                    relevant_events.append(event)
+            try:
+                for event in user.get_events():
+                    if event.type == "PushEvent" and event.repo == repo:
+                        relevant_events.append(event)
+            except GithubException as e:
+                print("Could not get events for user!")
+                print(e)
             
 
             #See if the first push to this repo was recent, making them
@@ -106,7 +111,7 @@ class ChangelogGenerator:
             data["contributors"].append({
                 "name" : user.name,
                 "company": user.company,
-                "created_at": user.created_at,
+                "created_at": user.created_at.isoformat(),
                 "email": user.email
             })
 
@@ -179,9 +184,10 @@ class ChangelogGenerator:
                 print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
             try:
-                self.get_contributers(repo,repo_data)
+                self.get_contributors(repo,repo_data)
             except Exception as e:
                 print(f"Error fetching contributors for {repo.name}: {str(e)}")
+
 
             try:
                 for commit in repo.get_commits(since=self.start_date):
