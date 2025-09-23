@@ -1,0 +1,152 @@
+{
+  "period": {
+    "start": "2025-09-14",
+    "end": "2025-09-21"
+  },
+  "generated_at": "2025-09-21T13:43:11.539826+00:00",
+  "total_repos": 13,
+  "active_repos": 13,
+  "total_issues": 8,
+  "total_pulls": 57,
+  "total_commits": 107,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 18,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 12,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "8 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 16,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 8,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 6,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 0,
+      "pulls": 16,
+      "commits": 44,
+      "changelog_entries": 0,
+      "highlights": [
+        "12 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_VEINHasher",
+      "url": "https://github.com/DSACMS/npd_VEINHasher",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd_durc_is_crud",
+      "url": "https://github.com/DSACMS/npd_durc_is_crud",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_Puffin",
+      "url": "https://github.com/DSACMS/npd_Puffin",
+      "issues": 6,
+      "pulls": 5,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 PR(s) merged",
+        "6 new issue(s)"
+      ]
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}
