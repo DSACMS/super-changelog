@@ -2,21 +2,10 @@ import pytest
 import os
 import json
 import tempfile
-import sys
+# import sys
 from datetime import datetime, timezone, timedelta
 from unittest.mock import Mock, patch
-# from github import Github, Repository, NamedUser, PullRequest, Issue
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-try:
-    from github import Github, Repository, NamedUser, PullRequest, Issue
-except ImportError:
-    Github = Mock
-    Repository = Mock
-    NamedUser = Mock
-    PullRequest = Mock
-    Issue = Mock
+from github import Github, Repository, NamedUser, PullRequest, Issue
 
 
 @pytest.fixture
