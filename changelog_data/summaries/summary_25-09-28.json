@@ -1,0 +1,126 @@
+{
+  "period": {
+    "start": "2025-09-21",
+    "end": "2025-09-28"
+  },
+  "generated_at": "2025-09-28T13:42:37.274816+00:00",
+  "total_repos": 11,
+  "active_repos": 11,
+  "total_issues": 3,
+  "total_pulls": 43,
+  "total_commits": 39,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 10,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "7 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 6,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 1,
+      "pulls": 6,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 0,
+      "pulls": 11,
+      "commits": 19,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_Puffin",
+      "url": "https://github.com/DSACMS/npd_Puffin",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
