@@ -5,17 +5,7 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 from unittest.mock import Mock, patch, MagicMock
-# from scripts.util import ChangelogGenerator, parse_changelog
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-try:
-    from scripts.util import ChangelogGenerator, parse_changelog
-except ImportError:
-    try:
-        from util import ChangelogGenerator, parse_changelog
-    except ImportError:
-        pytest.skip("Cannot import ChangelogGenerator", allow_module_level=True)
+from scripts.util import ChangelogGenerator, parse_changelog
 
 
 class TestParseChangelog:
