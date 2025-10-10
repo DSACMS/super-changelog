@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-10-03 to 2025-10-10)
+
+• 17 of 17 repos with activity
+• 76 commits | 69 PRs | 8 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 15 commits, 27 PRs
+• *automated-codejson-generator*: 6 commits, 10 PRs
+• *repo-scaffolder*: 9 commits, 6 PRs
+• *tier3*: 9 commits, 2 PRs
+• *tier4*: 9 commits, 2 PRs
