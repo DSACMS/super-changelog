@@ -109,3 +109,20 @@ class TestMainFunction:
         assert any(f.startswith("slack_") for f in files)
         assert any(f.startswith("pr_title_") for f in files)
         assert any(f.startswith("pr_body_") for f in files)
+
+    def test_main_no_data_directory(self, temp_dir, monkeypatch):
+        """Test handles missing data directory."""
+        monkeypatch.chdir(temp_dir)
+
+        result = main()
+        assert result is None
+
+    def test_main_no_weekly_files(self, temp_dir, monkeypatch):
+        """Test main handles missing weekly changelog files."""
+        data_dir = os.path.join(temp_dir, "changelog_data", "data")
+        os.makedirs(data_dir, exist_ok=True)
+
+        monkeypatch.chdir(temp_dir)
+
+        result = main()
+        assert result is None
