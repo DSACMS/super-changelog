@@ -1,0 +1,1282 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [
+        {
+          "title": "[Repolinter] Tier 3 OSS Policy Issues",
+          "url": "https://github.com/DSACMS/metrics/issues/406",
+          "created_at": "2025-10-20T15:23:13+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "[Repolinter] Tier 3 OSS Policy Issues",
+          "url": "https://github.com/DSACMS/metrics/issues/405",
+          "created_at": "2025-10-17T02:42:02+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Set up data with frontend submodule",
+          "url": "https://github.com/DSACMS/metrics/pull/404",
+          "created_at": "2025-10-17T02:39:05+00:00",
+          "updated_at": "2025-10-23T20:16:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "update CMS-Enterprise data: Sun Oct 19 07:52:17 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/a1b3023859a9996595dea51bc986610771cf06f2",
+          "author": "GitHub Actions",
+          "created_at": "2025-10-19T07:52:17+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Oct 19 07:42:33 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/e4c78446c4f33b1ef13abf63dd6284464e55726a",
+          "author": "GitHub Actions",
+          "created_at": "2025-10-19T07:42:33+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Oct 19 07:34:12 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/7867c5e685fa476c01b87d804e9da8a1bbb1e265",
+          "author": "GitHub Actions",
+          "created_at": "2025-10-19T07:34:12+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Dinne Kopelevich",
+          "company": "DSAC(Work), GSA (work) + personal projects",
+          "created_at": "2020-04-17T19:37:59+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "description": "A home for the suite of income verification related projects the DSAC and Facing Finical Shock teams are collaborating on",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "[Snyk] Security upgrade @storybook/addon-links from 6.5.16 to 7.0.0",
+          "url": "https://github.com/DSACMS/iv-doc-uploader/pull/32",
+          "created_at": "2025-10-23T05:44:39+00:00",
+          "updated_at": "2025-10-23T05:44:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Repository Templates: Add PR template",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/356",
+          "created_at": "2025-10-23T21:11:07+00:00",
+          "updated_at": "2025-10-23T21:11:07+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Workflows: Update automated-codejson-generator GitHub Action",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/355",
+          "created_at": "2025-10-23T20:52:12+00:00",
+          "updated_at": "2025-10-23T20:54:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/354",
+          "created_at": "2025-10-23T20:34:12+00:00",
+          "updated_at": "2025-10-23T20:44:39+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Tier Determiner Quiz: Edit Quiz Questions",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/353",
+          "created_at": "2025-10-16T19:39:00+00:00",
+          "updated_at": "2025-10-20T15:51:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add Edits From NPD Repo",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/343",
+          "created_at": "2025-09-22T21:22:31+00:00",
+          "updated_at": "2025-10-23T22:09:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/330",
+          "created_at": "2025-06-24T18:25:45+00:00",
+          "updated_at": "2025-10-23T20:45:01+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #353 from DSACMS/DSACMS/nat/quiz-updates\n\nTier Determiner Quiz: Edit Quiz Questions",
+          "url": "https://github.com/DSACMS/repo-scaffolder/commit/1e3ade29c6f0594c5bfbe751703dd47f388ce184",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-20T15:51:32+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Isaac Milarsky",
+          "company": null,
+          "created_at": "2016-12-18T19:35:40+00:00",
+          "email": "imilarsky@gmail.com"
+        },
+        {
+          "name": "Sachin Panayil",
+          "company": "@DSACMS ",
+          "created_at": "2021-02-20T21:39:48+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "description": "Open Source Program Office Guide for CMS.gov",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Add images as shortcode",
+          "url": "https://github.com/DSACMS/ospo-guide/pull/85",
+          "created_at": "2025-10-21T18:59:45+00:00",
+          "updated_at": "2025-10-22T14:28:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #85 from DSACMS/change-to-shortcode\n\nAdd images as shortcode",
+          "url": "https://github.com/DSACMS/ospo-guide/commit/a9bedc8fe626d5a972f18ed99bc01c928ff4397a",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-10-22T14:28:41+00:00"
+        },
+        {
+          "message": "Add images as shortcode\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/ospo-guide/commit/2a76d8f52d4775f8a4a903a731fbbdd7ba5fa1c4",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-10-21T15:03:00+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": null,
+      "issues": [
+        {
+          "title": "Tier 4 Repository Maturity Model Super Ticket",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/971",
+          "created_at": "2025-09-29T19:26:18+00:00",
+          "state": "open",
+          "is_new": false
+        }
+      ],
+      "pulls": [
+        {
+          "title": "FFS-3310: Improvements to employer search results cards on mobile",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1060",
+          "created_at": "2025-10-23T23:03:24+00:00",
+          "updated_at": "2025-10-23T23:10:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3426: fix PR envs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1059",
+          "created_at": "2025-10-23T21:31:30+00:00",
+          "updated_at": "2025-10-23T21:53:30+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Remove Evidently feature flags from Terraform",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1058",
+          "created_at": "2025-10-23T19:38:20+00:00",
+          "updated_at": "2025-10-23T19:50:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3412: create uniqueness constraint on auth_token",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1057",
+          "created_at": "2025-10-23T18:38:02+00:00",
+          "updated_at": "2025-10-23T21:51:51+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3459: Implement employer search changes to support unemployed users",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1056",
+          "created_at": "2025-10-22T22:13:04+00:00",
+          "updated_at": "2025-10-23T18:32:53+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3282: Add stress testing strategy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1055",
+          "created_at": "2025-10-22T20:48:19+00:00",
+          "updated_at": "2025-10-23T14:38:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3458: Add content updates to entry page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1054",
+          "created_at": "2025-10-22T17:55:51+00:00",
+          "updated_at": "2025-10-23T12:33:54+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3354: Set referer in feedback form link on /success",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1053",
+          "created_at": "2025-10-21T22:48:59+00:00",
+          "updated_at": "2025-10-22T18:22:59+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Add chromedriver upgrade to `bin/update`",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1052",
+          "created_at": "2025-10-21T02:48:11+00:00",
+          "updated_at": "2025-10-21T17:21:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3330: Update /employer_search header text",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1051",
+          "created_at": "2025-10-21T02:40:14+00:00",
+          "updated_at": "2025-10-21T22:31:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Remove 99% of noise/warnings when running rspec",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1050",
+          "created_at": "2025-10-21T01:59:54+00:00",
+          "updated_at": "2025-10-21T19:37:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3458: Update entry page help text",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1049",
+          "created_at": "2025-10-21T00:12:50+00:00",
+          "updated_at": "2025-10-21T21:09:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[Snyk] Upgrade @hotwired/turbo-rails from 8.0.16 to 8.0.18",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1048",
+          "created_at": "2025-10-18T01:39:19+00:00",
+          "updated_at": "2025-10-20T19:15:19+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3407: Implement content updates to /other_jobs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1047",
+          "created_at": "2025-10-17T20:14:44+00:00",
+          "updated_at": "2025-10-23T16:47:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Npm audit + happy dom cve fix",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1046",
+          "created_at": "2025-10-17T19:52:06+00:00",
+          "updated_at": "2025-10-20T19:43:38+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3390: Guard against null paystubs in tracking event",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1045",
+          "created_at": "2025-10-17T00:30:24+00:00",
+          "updated_at": "2025-10-17T18:36:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3406: Implement content updates to /add_jobs page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1044",
+          "created_at": "2025-10-16T20:12:56+00:00",
+          "updated_at": "2025-10-20T21:19:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "wip: PR to show Open Telemetry Tracing",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1043",
+          "created_at": "2025-10-16T15:00:40+00:00",
+          "updated_at": "2025-10-20T19:17:21+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[Snyk] Upgrade sass from 1.92.0 to 1.93.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1034",
+          "created_at": "2025-10-11T02:53:40+00:00",
+          "updated_at": "2025-10-20T19:16:20+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Update documentation for First-Time Deployment",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1031",
+          "created_at": "2025-10-10T19:01:03+00:00",
+          "updated_at": "2025-10-22T15:37:20+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "OSPO: Update code.json",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1028",
+          "created_at": "2025-10-09T16:10:53+00:00",
+          "updated_at": "2025-10-20T22:11:37+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "No ticket: Experimental: Provide optional sha to deploy",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/875",
+          "created_at": "2025-08-04T12:10:06+00:00",
+          "updated_at": "2025-10-17T20:33:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Remove Evidently feature flags from Terraform (#1058)\n\nThe Evidently product was EOL'd by AWS effective Oct 17, 2025.\nTherefore, any deploys after that date will fail since Terraform is\nunable to access those resources.\n\nSee this commit from our upstream infra codebase:\nhttps://github.com/navapbc/template-infra/commit/94b4dd013867710b799da1bbed565b64688c7cdc",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/791643bdb343dbea327d46b9c2976c01cf3b3490",
+          "author": "Tom Dooner",
+          "created_at": "2025-10-23T19:47:04+00:00"
+        },
+        {
+          "message": "FFS-3407: Implement content updates to /other_jobs (#1047)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7b2459c4fbd47a7ec7412e0af160b06fddda14c3",
+          "author": "Daphne Gold",
+          "created_at": "2025-10-23T16:47:25+00:00"
+        },
+        {
+          "message": "added stress testing strategy (#1055)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5c1a16e1233096a44de96abe1f36b5341e6e9d36",
+          "author": "Tim Miller",
+          "created_at": "2025-10-23T14:38:25+00:00"
+        },
+        {
+          "message": "FFS-3330: Update /employer_search header text (#1051)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/347462617ba40abaf374cca48972649eb4a48b9d",
+          "author": "Tom Dooner",
+          "created_at": "2025-10-21T22:31:25+00:00"
+        },
+        {
+          "message": "FFS-3458: Update entry page help text (#1049)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/55d613815eddd88d0be6a161461c92a9c8a08bd8",
+          "author": "Ben Calegari",
+          "created_at": "2025-10-21T21:09:13+00:00"
+        },
+        {
+          "message": "Remove 99% of noise/warnings when running rspec (#1050)\n\n* Bump vite to patch vulnerability",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/71489a1db82dbe0405579a629904243dccaf1a0e",
+          "author": "Ben Calegari",
+          "created_at": "2025-10-21T19:36:59+00:00"
+        },
+        {
+          "message": "Add chromedriver upgrade to `bin/update` (#1052)\n\nThis script is meant to upgrade all dependencies. Since chromedriver is\nparticularly nagging, let's see if we can make it automatically upgrade\nusing homebrew.\n\nNot sure if the `xattr` thing will work to get around the security\nthing, but would be awesome if it did. (I tried it once successfully.)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f25f659fc5730f304eb489ba799f88cb8f9982ad",
+          "author": "Tom Dooner",
+          "created_at": "2025-10-21T17:21:32+00:00"
+        },
+        {
+          "message": "FFS-3406: Implement content updates to /add_jobs page (#1044)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5b76679fc2c36226050643c7ac59c3e1b5619ca1",
+          "author": "Daphne Gold",
+          "created_at": "2025-10-20T21:19:00+00:00"
+        },
+        {
+          "message": "npm audit + happy dom cve fix (#1046)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b5c83836e23fbdc035bc31408a69390eec9aaad2",
+          "author": "Ben Calegari",
+          "created_at": "2025-10-20T19:43:29+00:00"
+        },
+        {
+          "message": "Provide optional sha to deploy (#875)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5f112505bd18c386d60c3b4c46723c818e4adb59",
+          "author": "Tim Miller",
+          "created_at": "2025-10-17T20:33:05+00:00"
+        },
+        {
+          "message": "Guard against null paystubs in tracking event (#1045)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fbb87ded325bc6f0348c7c8e71404a5b14450506",
+          "author": "Ben Calegari",
+          "created_at": "2025-10-17T18:36:33+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Tooling that allows for code.json creation through automation",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "V1.2.0",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/74",
+          "created_at": "2025-10-02T16:29:39+00:00",
+          "updated_at": "2025-10-21T21:51:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bump akhilmhdh/contributors-readme-action from 2.3.10 to 2.3.11 in the actions-minor group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/69",
+          "created_at": "2025-09-22T18:28:51+00:00",
+          "updated_at": "2025-10-20T18:14:48+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump @octokit/action from 7.0.0 to 8.0.2",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/58",
+          "created_at": "2025-08-12T02:16:21+00:00",
+          "updated_at": "2025-10-21T21:52:12+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group with 16 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/57",
+          "created_at": "2025-08-12T01:30:04+00:00",
+          "updated_at": "2025-10-21T21:52:11+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump @jest/globals from 29.7.0 to 30.0.5",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/55",
+          "created_at": "2025-08-12T00:19:43+00:00",
+          "updated_at": "2025-10-21T21:52:08+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump @github/local-action from 2.6.1 to 5.1.0",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/54",
+          "created_at": "2025-08-12T00:17:25+00:00",
+          "updated_at": "2025-10-21T21:52:07+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/53",
+          "created_at": "2025-08-12T00:15:56+00:00",
+          "updated_at": "2025-10-21T21:52:07+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #74 from DSACMS/v1.2.0\n\nV1.2.0",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/d4607058886c7ceae449f53f10a44354fec6ba5a",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T21:51:55+00:00"
+        },
+        {
+          "message": "removed zod stripping and created helper",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/60adecdde434e9a90d4891b1df9319af0c6bb903",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T20:07:48+00:00"
+        },
+        {
+          "message": "Merge remote-tracking branch 'refs/remotes/origin/v1.2.0' into v1.2.0",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/0ae4bec029e513d2bbb065342508509ab49a34e4",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T19:57:58+00:00"
+        },
+        {
+          "message": "added functionality to strip old fields",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/c44627cb0400e4cb85af8ce818520c727d255182",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T19:57:37+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+      "issues": [
+        {
+          "title": "Color bug causing buttons to be hard to see",
+          "url": "https://github.com/DSACMS/share-it-act-lp/issues/28",
+          "created_at": "2025-10-23T15:28:58+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Website: Remove quiz & non SHARE IT Act tools + minor fixes",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/27",
+          "created_at": "2025-10-22T20:07:06+00:00",
+          "updated_at": "2025-10-22T20:17:41+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Docs: Add gov-codejson docs to schema section",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/26",
+          "created_at": "2025-10-17T22:03:37+00:00",
+          "updated_at": "2025-10-20T17:55:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #26 from DSACMS/DSACMS/nat/schema\n\nDocs: Add gov-codejson docs to schema section",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/5b74eeb935b10ce9dad80fe01bb6a436a260ad28",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-20T17:55:58+00:00"
+        },
+        {
+          "message": "Added links to examples and updated order number\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/0e73057047b1ea78fd3f2de29737d351eae3c0c7",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-20T17:45:34+00:00"
+        },
+        {
+          "message": "Added rest of gov-codejson docs to schema section\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/0ab95cf5fc49bcceced01a75dbdc382a3a0a13ca",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-17T22:01:06+00:00"
+        },
+        {
+          "message": "Add docs on procedures in schema section\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/eb8d8aa824103684150a0beedba94cd2c88ab1bb",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-17T21:44:28+00:00"
+        },
+        {
+          "message": "Add first page on code.json for schema section\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/473c2feeff260233b2fb7080b83d275693909169",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-17T21:30:08+00:00"
+        },
+        {
+          "message": "Remove CTA section\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/share-it-act-lp/commit/5dd8d97059af1438a9ce8ad389bc53884b78646f",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2025-10-17T19:32:55+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Weekly Changelog Summary: 2025-10-10 to 2025-10-17",
+          "url": "https://github.com/DSACMS/super-changelog/pull/25",
+          "created_at": "2025-10-17T02:38:32+00:00",
+          "updated_at": "2025-10-17T02:38:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "description": "A modern version of a health provider directory to serve as a single source of truth for the benefit of all",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Wbprice/dagster ecs service attempt 2",
+          "url": "https://github.com/DSACMS/npd/pull/135",
+          "created_at": "2025-10-23T20:54:37+00:00",
+          "updated_at": "2025-10-23T21:58:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Cleaning Up Repo Workflows",
+          "url": "https://github.com/DSACMS/npd/pull/134",
+          "created_at": "2025-10-23T20:36:22+00:00",
+          "updated_at": "2025-10-23T20:38:46+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-319] Developer information page",
+          "url": "https://github.com/DSACMS/npd/pull/133",
+          "created_at": "2025-10-23T20:13:39+00:00",
+          "updated_at": "2025-10-23T20:13:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Sjp/flyway variables",
+          "url": "https://github.com/DSACMS/npd/pull/132",
+          "created_at": "2025-10-23T19:58:07+00:00",
+          "updated_at": "2025-10-23T21:29:34+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Format and Publish Backend Test Results",
+          "url": "https://github.com/DSACMS/npd/pull/131",
+          "created_at": "2025-10-23T19:41:07+00:00",
+          "updated_at": "2025-10-23T21:04:31+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Remove Unnecessary Columns",
+          "url": "https://github.com/DSACMS/npd/pull/130",
+          "created_at": "2025-10-23T19:07:26+00:00",
+          "updated_at": "2025-10-23T19:44:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "ndh-286: add database check to healthCheck endpoint; update unit test",
+          "url": "https://github.com/DSACMS/npd/pull/129",
+          "created_at": "2025-10-23T18:59:36+00:00",
+          "updated_at": "2025-10-23T23:56:31+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/GitHub actions runner",
+          "url": "https://github.com/DSACMS/npd/pull/128",
+          "created_at": "2025-10-22T17:37:56+00:00",
+          "updated_at": "2025-10-22T18:49:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "NDH-326 Clarify FHIR Version for Base Validator",
+          "url": "https://github.com/DSACMS/npd/pull/127",
+          "created_at": "2025-10-22T16:16:32+00:00",
+          "updated_at": "2025-10-22T18:51:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-295]: Fix header nav menu accessibility issues",
+          "url": "https://github.com/DSACMS/npd/pull/126",
+          "created_at": "2025-10-21T19:32:53+00:00",
+          "updated_at": "2025-10-21T20:25:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/prod terraform env",
+          "url": "https://github.com/DSACMS/npd/pull/125",
+          "created_at": "2025-10-21T18:52:55+00:00",
+          "updated_at": "2025-10-21T19:06:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-289]: CapabilityStatement Endpoint Implementation",
+          "url": "https://github.com/DSACMS/npd/pull/124",
+          "created_at": "2025-10-21T17:51:57+00:00",
+          "updated_at": "2025-10-22T20:23:57+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-296] Use i18next as a frontend content / translation helper",
+          "url": "https://github.com/DSACMS/npd/pull/123",
+          "created_at": "2025-10-21T16:14:13+00:00",
+          "updated_at": "2025-10-22T18:34:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-304] Cleanly handle trailing slashes in Django paths",
+          "url": "https://github.com/DSACMS/npd/pull/122",
+          "created_at": "2025-10-21T15:40:28+00:00",
+          "updated_at": "2025-10-21T20:09:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/troubleshoot api service not starting",
+          "url": "https://github.com/DSACMS/npd/pull/121",
+          "created_at": "2025-10-20T21:01:55+00:00",
+          "updated_at": "2025-10-21T15:57:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "NDH-203 Add PractitionerRole and Location Endpoints",
+          "url": "https://github.com/DSACMS/npd/pull/120",
+          "created_at": "2025-10-20T19:11:42+00:00",
+          "updated_at": "2025-10-22T15:20:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-301] Address frontend dependency management",
+          "url": "https://github.com/DSACMS/npd/pull/119",
+          "created_at": "2025-10-20T18:36:39+00:00",
+          "updated_at": "2025-10-21T19:51:49+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "NDH-226: Add local and remote container hostnames to ALLOWED_HOSTS",
+          "url": "https://github.com/DSACMS/npd/pull/118",
+          "created_at": "2025-10-17T21:03:06+00:00",
+          "updated_at": "2025-10-21T15:56:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-250] Implement Sorting in FHIR API",
+          "url": "https://github.com/DSACMS/npd/pull/117",
+          "created_at": "2025-10-17T20:34:57+00:00",
+          "updated_at": "2025-10-23T15:27:50+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-248] Introduce frontend test suite",
+          "url": "https://github.com/DSACMS/npd/pull/116",
+          "created_at": "2025-10-17T16:07:41+00:00",
+          "updated_at": "2025-10-20T15:41:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/organize envs",
+          "url": "https://github.com/DSACMS/npd/pull/115",
+          "created_at": "2025-10-16T21:16:50+00:00",
+          "updated_at": "2025-10-17T14:58:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-241] Landing page MVP",
+          "url": "https://github.com/DSACMS/npd/pull/113",
+          "created_at": "2025-10-15T14:34:13+00:00",
+          "updated_at": "2025-10-17T14:22:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "NDH-249: Update the Organization and Practitioner to use organization_id ",
+          "url": "https://github.com/DSACMS/npd/pull/109",
+          "created_at": "2025-10-07T18:50:32+00:00",
+          "updated_at": "2025-10-21T19:23:19+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add Fhir Validation Module",
+          "url": "https://github.com/DSACMS/npd/pull/84",
+          "created_at": "2025-09-11T21:24:29+00:00",
+          "updated_at": "2025-10-23T15:33:17+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "NDH-89 Testing Jira Integration",
+          "url": "https://github.com/DSACMS/npd/pull/44",
+          "created_at": "2025-08-18T20:50:05+00:00",
+          "updated_at": "2025-10-21T18:44:18+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #135 from DSACMS/wbprice/dagster-ecs-service-attempt-2\n\nWbprice/dagster ecs service attempt 2",
+          "url": "https://github.com/DSACMS/npd/commit/a7a4c08e7b1c838334f13e4ad246ea45f5665ad0",
+          "author": "dturner5234",
+          "created_at": "2025-10-23T21:02:00+00:00"
+        },
+        {
+          "message": "bump resources",
+          "url": "https://github.com/DSACMS/npd/commit/0a2b8ac51c52589ed692bea694bcf96631cb6a0e",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T20:54:15+00:00"
+        },
+        {
+          "message": "Remove Unnecessary Columns (#130)\n\n\n* adding drop column statements\n\n* adding drop column statements\n\n* tweak\n\n* remove addiitonal columns\n\n* removing accidentally committed files\n\n---------",
+          "url": "https://github.com/DSACMS/npd/commit/5182039e83be6d4a1b42aecc4f127b3adb4e1f39",
+          "author": "Sarah Popelka",
+          "created_at": "2025-10-23T19:44:43+00:00"
+        },
+        {
+          "message": "whatever, terraform fmt",
+          "url": "https://github.com/DSACMS/npd/commit/3742f422aa4977fc6cd59e37111a147ea14ac9e2",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T19:09:36+00:00"
+        },
+        {
+          "message": "add output for dagster ui",
+          "url": "https://github.com/DSACMS/npd/commit/d6008d46fd89e9a168ab7be287598d3c8b031b12",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T18:22:10+00:00"
+        },
+        {
+          "message": "add prod etl",
+          "url": "https://github.com/DSACMS/npd/commit/f3a44bbc9adde9677a7405ef2157cee9b26a8764",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T18:16:47+00:00"
+        },
+        {
+          "message": "potato",
+          "url": "https://github.com/DSACMS/npd/commit/652140a383e7984bf69b2791fa49c6c80abe4a5e",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T18:15:14+00:00"
+        },
+        {
+          "message": "update rule",
+          "url": "https://github.com/DSACMS/npd/commit/0acf008b26601911c894959a846f2936eedcb21f",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T18:13:22+00:00"
+        },
+        {
+          "message": "minimally working",
+          "url": "https://github.com/DSACMS/npd/commit/631678398d54526c69d8a3ca2939de0d8809c3f2",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T18:05:15+00:00"
+        },
+        {
+          "message": "grant dagster ability to access the api database",
+          "url": "https://github.com/DSACMS/npd/commit/0da0ed50a7c6ed7e9786623a18b59fe6986048b3",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T15:11:20+00:00"
+        },
+        {
+          "message": "correct security group",
+          "url": "https://github.com/DSACMS/npd/commit/2c8b3aaba8ce26145a710668be138b0707a53add",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T13:56:37+00:00"
+        },
+        {
+          "message": "updated security  group config",
+          "url": "https://github.com/DSACMS/npd/commit/fdbf470d5cc24867d9e568af7e5920bb855e550a",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T13:38:31+00:00"
+        },
+        {
+          "message": "where is that dagster workfile?",
+          "url": "https://github.com/DSACMS/npd/commit/5cba50c5c9982cb2b9980582c1b4290b76e08ccc",
+          "author": "Blaine Price",
+          "created_at": "2025-10-23T13:23:37+00:00"
+        },
+        {
+          "message": "potato",
+          "url": "https://github.com/DSACMS/npd/commit/0b33a002f9fd5371fa473eb006f798a854becbca",
+          "author": "Blaine Price",
+          "created_at": "2025-10-22T19:56:13+00:00"
+        },
+        {
+          "message": "copy a bunch of older work over",
+          "url": "https://github.com/DSACMS/npd/commit/bdfdbdef1e3094424320e4e66694f9022609093f",
+          "author": "Blaine Price",
+          "created_at": "2025-10-22T19:36:46+00:00"
+        },
+        {
+          "message": "GitHub Actions Runner, Dev Deploy Fixes (#128)\n\n- Specify self-hosted runner infrastructure, policies, security groups\n- Fix bugs with dev configuration\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/npd/commit/edad5bf176d2619dd834542d930fc04bad21b39e",
+          "author": "Blaine Price",
+          "created_at": "2025-10-22T18:49:52+00:00"
+        },
+        {
+          "message": "updating fhir.resources import, serializers, and tests to make explicit that we're using FHIR v4 (#127)",
+          "url": "https://github.com/DSACMS/npd/commit/7d91dd9c2396f4a0f3f69ca3a321294a8e872085",
+          "author": "Sarah Popelka",
+          "created_at": "2025-10-22T18:47:09+00:00"
+        },
+        {
+          "message": "[NDH-296] Use i18next as a frontend content / translation helper (#123)",
+          "url": "https://github.com/DSACMS/npd/commit/8ed0d0bd93bc39fbceb3a951ce773ab634336210",
+          "author": "Adam Bachman",
+          "created_at": "2025-10-22T18:34:43+00:00"
+        },
+        {
+          "message": "NDH-203 Add PractitionerRole and Location Endpoints (#120)\n\n* framework for PractitionerRole\n\n* view work\n\n* fixing merge issue\n\n* Schema changes to remove the composite foreign keys and support the location/practitionerrole reconfiguration\n\n* nothing\n\n* Updating models.py\n\n* commiting in case\n\n* Adding location endpoint\n\n* adding the migration files as well\n\n* committing\n\n* redone provider to org and provider to location data\n\n* minor improvements\n\n* Adding Soem tests for PRactitionerRole and Location endpoints\n\n* add location_to_endpoint table\n\n* Adding link to updated ERD\n\n* updating models\n\n* reverting the url route hack\n\n* removing some files I didn't mean to commit\n\n* one more file\n\n* Adding ERD SVG\n\n* I suck at embedding images in markdown\n\n* slight formatting update\n\n* Reverting references to npis\n\n* using reverse() and fixing 404 location test\n\n* whoops, didn't actually commit\n\n* rename the view variables and add single retireval tests\n\n* fix imports\n\n* fixing import errors\n\n* Adding routes following the new pattern",
+          "url": "https://github.com/DSACMS/npd/commit/0350c6a4ef7ae8aa34de1a865d317aaee98e332e",
+          "author": "Sarah Popelka",
+          "created_at": "2025-10-22T15:20:29+00:00"
+        },
+        {
+          "message": "fixed accessibility issues by adding custom css module (#126)",
+          "url": "https://github.com/DSACMS/npd/commit/639bd6040a26a6aef2d2b607e3a1848144819a44",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T20:25:41+00:00"
+        },
+        {
+          "message": "[NDH-304] Cleanly handle trailing slashes in Django paths (#122)",
+          "url": "https://github.com/DSACMS/npd/commit/198f4f8d6123d8957302a336689a0bcd29264288",
+          "author": "Adam Bachman",
+          "created_at": "2025-10-21T20:09:21+00:00"
+        },
+        {
+          "message": "[NDH-301] add i18next dependency, address frontend dependency confusion (#119)",
+          "url": "https://github.com/DSACMS/npd/commit/5534d6c52f9737da048839a7354a01bd1f8de615",
+          "author": "Adam Bachman",
+          "created_at": "2025-10-21T19:51:49+00:00"
+        },
+        {
+          "message": "NDH-249: Update the Organization and Practitioner to use organization_id  (#109)\n\n* swapped to using Organization model in view and supporting serializers\n\n* added single call implementation and added multiple identifiers\n\n* added identifier search\n\n* added Practioner support and system/value search support\n\n* fixed failing tests and added unique tests\n\n* added more tests\n\n* added more indepth testing\n\n* fixed failing test due to wrong path\n\n* added requested changes\n\n* fixed failed checks\n\n* added requested changes\n\n* fixed failing test",
+          "url": "https://github.com/DSACMS/npd/commit/2464d653594b5734aa095feff86ebdaefce8cd50",
+          "author": "Sachin Panayil",
+          "created_at": "2025-10-21T19:23:19+00:00"
+        },
+        {
+          "message": "Prod terraform definitions (#125)\n\nCreate prod terraform definitions\nDeploy to prod\nredirect ALB requests to CMS strategy page\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/npd/commit/863fc270502cf5d9d7325ff1480597ac6ef8ce5e",
+          "author": "Blaine Price",
+          "created_at": "2025-10-21T19:06:49+00:00"
+        },
+        {
+          "message": "Wbprice/troubleshoot api service not starting (#121)\n\n* Troubleshoot API Startup Failures\n\n- Troubleshoot networking configuration between load balancer and API\n  security group\n- Troubleshoot API IAM permissions\n- Troubleshoot vpn security group permission\n- add env.* to gitignore\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/npd/commit/2f4c8905efe53096bffa18cbafe89f1a2b31324e",
+          "author": "Blaine Price",
+          "created_at": "2025-10-21T15:57:53+00:00"
+        },
+        {
+          "message": "Merge pull request #118 from DSACMS/ndh-226-health-check-endpoint-allow-lb-requests\n\nNDH-226: Add local and remote container hostnames to ALLOWED_HOSTS",
+          "url": "https://github.com/DSACMS/npd/commit/ea53e1abad1462049e80258516354ef52879eaae",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-21T15:56:44+00:00"
+        },
+        {
+          "message": "oops, forgot to commit the middleware",
+          "url": "https://github.com/DSACMS/npd/commit/b55c5058acb2da3abd8b9645a8a8743b1e0d7aa6",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-21T15:09:14+00:00"
+        },
+        {
+          "message": "Use middleware approach to bypass allowed hosts check for healthCheck endpoint",
+          "url": "https://github.com/DSACMS/npd/commit/cdf7d2eb301563faa971a8cdd2e582754f315b1a",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-21T15:06:18+00:00"
+        },
+        {
+          "message": "restore settings.py",
+          "url": "https://github.com/DSACMS/npd/commit/8236f5b6a6e83acc35524691d7e61fa65c584499",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T20:16:16+00:00"
+        },
+        {
+          "message": "try out csrf-exempt decorator",
+          "url": "https://github.com/DSACMS/npd/commit/adaeb7fae3b6396a3bc1f2c4fb8099751c8bc4b0",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T20:13:05+00:00"
+        },
+        {
+          "message": "remove spaces",
+          "url": "https://github.com/DSACMS/npd/commit/dce75765524583ee6baaff2963d12d540731bda1",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T18:24:54+00:00"
+        },
+        {
+          "message": "remove .idea",
+          "url": "https://github.com/DSACMS/npd/commit/f3bad64570aa0918b2a2bca0e66ecadb5cc2d29c",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T18:22:17+00:00"
+        },
+        {
+          "message": "Delete .idea/.gitignore",
+          "url": "https://github.com/DSACMS/npd/commit/a1e340d2c278353cc443fd282964531fb2c0bb7b",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T18:09:49+00:00"
+        },
+        {
+          "message": "merge conflicts",
+          "url": "https://github.com/DSACMS/npd/commit/fb3ebe744f60711bb1268e525fba4242b69c00e1",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T18:08:16+00:00"
+        },
+        {
+          "message": "remove outdated comments",
+          "url": "https://github.com/DSACMS/npd/commit/3de21362441bdae22aefa217f147d46bec05288e",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T17:59:19+00:00"
+        },
+        {
+          "message": "update the load balancer health check configuration to expect a 200 rather than a 400",
+          "url": "https://github.com/DSACMS/npd/commit/8f1610bb5cebb384d7203c3b2439da7104652ab9",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-20T17:51:38+00:00"
+        },
+        {
+          "message": "[NDH-248] Introduce frontend test suite (#116)\n\n* [NDH-248] Introduce vitest + testing-library for frontend testing\n* remove leftover example app react code",
+          "url": "https://github.com/DSACMS/npd/commit/f34fe6acee7586b42aaf8738f4a4a25db16e5a49",
+          "author": "Adam Bachman",
+          "created_at": "2025-10-20T15:41:28+00:00"
+        },
+        {
+          "message": "Add local and remote container hostnames to ALLOWED_HOSTS",
+          "url": "https://github.com/DSACMS/npd/commit/1aeca0b66df4c7bd0cd4f1738d8c35e398e7842b",
+          "author": "tspecht-cms",
+          "created_at": "2025-10-17T20:00:37+00:00"
+        },
+        {
+          "message": "Wbprice/organize envs (#115)\n\nArrange terraform templates to make it easier to manage separate envs",
+          "url": "https://github.com/DSACMS/npd/commit/9b73f94b3aa3e754922682f640da2aea57b9753b",
+          "author": "Blaine Price",
+          "created_at": "2025-10-17T14:58:01+00:00"
+        },
+        {
+          "message": "[NDH-241] NPD Landing Page MVP (#113)\n\n- introduce react-router, put Landing page in a proper route\n- when running vite in development mode, use the default base path\n- flesh out the landing page with styling and content",
+          "url": "https://github.com/DSACMS/npd/commit/2692b67f07ddbc34db74a212443dfee51d76e3a2",
+          "author": "Adam Bachman",
+          "created_at": "2025-10-17T14:21:56+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": null,
+          "company": null,
+          "created_at": "2025-10-10T14:18:00+00:00",
+          "email": null
+        },
+        {
+          "name": null,
+          "company": null,
+          "created_at": "2025-09-15T20:13:58+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Refactor as frontend only submodule",
+          "url": "https://github.com/DSACMS/metrics_frontend/pull/2",
+          "created_at": "2025-10-17T01:53:01+00:00",
+          "updated_at": "2025-10-20T18:08:25+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [
+        {
+          "name": "Dinne Kopelevich",
+          "company": "DSAC(Work), GSA (work) + personal projects",
+          "created_at": "2020-04-17T19:37:59+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "description": "Tier 3 Template Repository",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+          "url": "https://github.com/DSACMS/tier3/pull/3",
+          "created_at": "2025-10-20T15:51:49+00:00",
+          "updated_at": "2025-10-20T15:51:50+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "description": "Tier 4 Template Repository",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+          "url": "https://github.com/DSACMS/tier4/pull/3",
+          "created_at": "2025-10-20T15:51:53+00:00",
+          "updated_at": "2025-10-20T15:51:54+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_vrdc_python_projects",
+      "url": "https://github.com/DSACMS/npd_vrdc_python_projects",
+      "description": "Calculate VTINs for a VRDC PUF",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Ft idr reports",
+          "url": "https://github.com/DSACMS/npd_vrdc_python_projects/pull/5",
+          "created_at": "2025-09-17T13:19:31+00:00",
+          "updated_at": "2025-10-23T07:32:56+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_ehr_fhir_npi_slurp",
+      "url": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp",
+      "description": "Slurps metadata from the EHR FHIR endpoints listed in Lantern",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update README.md",
+          "url": "https://github.com/DSACMS/npd_ehr_fhir_npi_slurp/pull/2",
+          "created_at": "2025-10-23T21:47:13+00:00",
+          "updated_at": "2025-10-23T21:47:13+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-10-17",
+    "end": "2025-10-24"
+  },
+  "generated_at": "2025-10-24T01:47:51.304388+00:00"
+}
