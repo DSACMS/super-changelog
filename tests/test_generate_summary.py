@@ -11,6 +11,7 @@ from scripts.generate_summary import (
     main
 )
 
+
 class TestGenerateSummary:
     """Test to generate_summary function"""
 
@@ -80,6 +81,123 @@ class TestGenerateSummary:
 
         with pytest.raises(ValueError):
             generate_summary(data_file)
+
+
+class TestCreateMailToLink:
+    """Test mailto link creation."""
+
+    def test_mailto_link_structure(self, mock_changelog_data, temp_dir):
+        """Test that mailto link is properly formatted."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        mailto_link = create_mailto_link(summary)
+
+        assert mailto_link.startswith("mailto:?")
+        assert "subject=" in mailto_link
+        assert "body=" in mailto_link
+
+    def test_mailto_link_contains_key_info(self, mock_changelog_data, temp_dir):
+        """Test that mailto link contains important info."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        mailto_link = create_mailto_link(summary)
+
+        assert "2025-01-01" in mailto_link or "2025%2D01%2D01" in mailto_link
+
+
+class TestCreateSlackMessage:
+    """Test Slack message creation."""
+
+    def test_slack_message_format(self, mock_changelog_data, temp_dir):
+        """Test Slack message is properly formatted."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        slack_message = create_slack_message(summary)
+
+        assert isinstance(slack_message, str)
+        assert len(slack_message) > 0
+        assert "Weekly Changelog Summary" in slack_message
+
+    def test_slack_message_contains_stats(self, mock_changelog_data, temp_dir):
+        """Test that Slack massage contains stats."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        slack_message = create_slack_message(summary)
+
+        assert "1" in slack_message
+        assert "commits" in slack_message.lower()
+        assert "PRs" in slack_message or "prs" in slack_message.lower()
+
+
+class TestCreatePRContent:
+    """Test PR content creation."""
+
+    def test_pr_content_returns_tuple(self, mock_changelog_data, temp_dir):
+        """Test that create_pr_content returns a title and body."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        result = create_pr_content(summary)
+
+        assert isinstance(result, tuple)
+        assert len(result) == 2
+
+        title, body = result
+        assert isinstance(title, str)
+        assert isinstance(body, str)
+
+    def test_pr_title_format(self, mock_changelog_data, temp_dir):
+        """Test PR title format"""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        title, _ = create_pr_content(summary)
+
+        assert "Weekly Changelog Summary" in title
+        assert "2025-01-01" in title
+        assert "2025-01-08" in title
+
+    def test_pr_body_markdown_format(self, mock_changelog_data, temp_dir):
+        """Test that PR body uses markdown formatting."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        _, body = create_pr_content(summary)
+
+        assert "#" in body
+        assert "-" in body
+        assert "Overview" in body
+        assert "Repository Activity" in body
+
+    def test_body_includes_repo_details(self, mock_changelog_data, temp_dir):
+        """Test that PR body includes repo details."""
+        data_file = os.path.join(temp_dir, "test_data.json")
+        with open(data_file, 'w') as f:
+            json.dump(mock_changelog_data, f)
+
+        summary = generate_summary(data_file)
+        _, body = create_pr_content(summary)
+
+        assert "test-repo" in body
+        assert "https://github.com" in body
 
 
 @pytest.mark.integration
