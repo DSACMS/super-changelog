@@ -33,7 +33,7 @@ def create_branch_and_commit():
 
         subprocess.run(["git", "add", "changelog_data/"], check=True)
 
-        commit_message = f"Add weekly changelog summary for {datetime.now(timezone.utc).strftime("%Y-%m-%d")}"
+        commit_message = f"Add weekly changelog summary for {datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
         subprocess.run(["git", "commit", "-sm", commit_message], check=True)
         
         subprocess.run(["git", "push", "origin", branch_name], check=True)
