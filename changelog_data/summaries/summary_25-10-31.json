@@ -1,0 +1,223 @@
+{
+  "period": {
+    "start": "2025-10-24",
+    "end": "2025-10-31"
+  },
+  "generated_at": "2025-10-31T01:57:43.153228+00:00",
+  "total_repos": 20,
+  "active_repos": 20,
+  "total_issues": 2,
+  "total_pulls": 106,
+  "total_commits": 116,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "dedupliFHIR",
+      "url": "https://github.com/DSACMS/dedupliFHIR",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 6,
+      "commits": 18,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 18,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "12 PR(s) merged"
+      ]
+    },
+    {
+      "name": "repolinter-actions",
+      "url": "https://github.com/DSACMS/repolinter-actions",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-index-generator",
+      "url": "https://github.com/DSACMS/codejson-index-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 7,
+      "commits": 10,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 0,
+      "pulls": 47,
+      "commits": 41,
+      "changelog_entries": 0,
+      "highlights": [
+        "36 PR(s) merged"
+      ]
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier0",
+      "url": "https://github.com/DSACMS/tier0",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier1",
+      "url": "https://github.com/DSACMS/tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd_csviper",
+      "url": "https://github.com/DSACMS/npd_csviper",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}

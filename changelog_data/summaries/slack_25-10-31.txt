@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-10-24 to 2025-10-31)
+
+• 20 of 20 repos with activity
+• 116 commits | 106 PRs | 2 issues
+
+*Most Active Repos:*
+• *npd*: 41 commits, 47 PRs
+• *iv-cbv-payroll*: 14 commits, 18 PRs
+• *repo-scaffolder*: 18 commits, 6 PRs
+• *super-changelog*: 10 commits, 7 PRs
+• *share-it-act-lp*: 8 commits, 5 PRs
