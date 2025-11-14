@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-11-07 to 2025-11-14)
+
+• 34 of 34 repos with activity
+• 131 commits | 111 PRs | 7 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 21 commits, 36 PRs
+• *npd*: 20 commits, 28 PRs
+• *ospo-guide*: 12 commits, 6 PRs
+• *repo-scaffolder*: 11 commits, 4 PRs
+• *cms-gource*: 6 commits, 2 PRs
