@@ -1,0 +1,180 @@
+{
+  "period": {
+    "start": "2025-11-21",
+    "end": "2025-11-28"
+  },
+  "generated_at": "2025-11-28T01:57:18.727675+00:00",
+  "total_repos": 16,
+  "active_repos": 16,
+  "total_issues": 3,
+  "total_pulls": 107,
+  "total_commits": 55,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": ".github",
+      "url": "https://github.com/DSACMS/.github",
+      "issues": 1,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 2,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 45,
+      "commits": 36,
+      "changelog_entries": 0,
+      "highlights": [
+        "36 PR(s) merged"
+      ]
+    },
+    {
+      "name": "metrics-dash-backend-tools",
+      "url": "https://github.com/DSACMS/metrics-dash-backend-tools",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 0,
+      "pulls": 43,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "38 PR(s) merged"
+      ]
+    },
+    {
+      "name": "tier0",
+      "url": "https://github.com/DSACMS/tier0",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "tier1",
+      "url": "https://github.com/DSACMS/tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "private-codejson-generator",
+      "url": "https://github.com/DSACMS/private-codejson-generator",
+      "issues": 0,
+      "pulls": 6,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
