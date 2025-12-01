@@ -1,48 +1,45 @@
 # super-changelog
 
-This is the project description, could match github.com repo description.
+SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG
 
 ## About the Project
 
 **{project statement}**
 
+<!---
 ### Project Vision
+**{project vision}** -->
 
-**{project vision}**
-
+<!--
 ### Project Mission
+**{project mission}** -->
 
-**{project mission}**
-
+<!--
 ### Agency Mission
+TODO: Good to include since this is an agency-led project -->
 
-<!-- TODO: Must include since this is an agency-led project -->
-
+<!--
 ### Team Mission
-
-<!-- TODO: Must include since this is an agency-led project -->
+TODO: Good to include since this is an agency-led project -->
 
 ## Core Team
 
 A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
 
-<!--
 ## Repository Structure
 
-TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time.
+<!-- TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time. -->
+<!--TREE START--><!--TREE END-->
 
 **{list directories and descriptions}**
 
-TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.
+<!-- TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels. -->
 
 **{list of .md at top directory and descriptions}**
 
--->
-
-<!--
 # Development and Software Delivery Lifecycle
+
 The following guide is for members of the project team who have access to the repository as well as code contributors. The main difference between internal and external contributions is that external contributors will need to fork the project and will not be able to merge their own pull requests. For more information on contributing, see: [CONTRIBUTING.md](./CONTRIBUTING.md).
--->
 
 ## Local Development
 
@@ -56,10 +53,9 @@ This project is monorepo with several apps. Please see the [api](./api/README.md
 
 Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
 
-<!--
 ## Branching Model
 
-TODO - with example below:
+<!--- TODO - with example below:
 This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
 
 * Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
@@ -91,12 +87,14 @@ Principles and guidelines for participating in our open source community are can
 
 <!--
 ## Governance
-Information about how the **{project_name}** community is governed may be found in [GOVERNANCE.md](GOVERNANCE.md).
+Information about how the super-changelog community is governed may be found in [GOVERNANCE.md](GOVERNANCE.md).
+-->
 
-<!--
 ## Feedback
+
 If you have ideas for how we can improve or add to our capacity building efforts and methods for welcoming people into our community, please let us know at **{contact email}**. If you would like to comment on the tool itself, please let us know by filing an **issue on our GitHub repository.**
 
+<!--
 ## Glossary
 Information about terminology and acronyms used in this documentation may be found in [GLOSSARY.md](GLOSSARY.md).
 -->
