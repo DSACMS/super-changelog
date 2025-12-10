@@ -174,10 +174,13 @@ class ChangelogGenerator:
                 "start": self.log_history_start,
                 "end": self.end_date
             },
-            "generated_at": self.now.isoformat()
+            "generated_at": self.now.isoformat(),
+            "total_repo_count": 0
         }
 
+        total_repos = 0
         for repo in org.get_repos(type="public"):
+            total_repos += 1
             print(f"Processing repo: {repo.name}")
             repo_data = {
                 "name": repo.name,
@@ -258,6 +261,7 @@ class ChangelogGenerator:
                 repo_data["commits"] or repo_data["changelog_entries"]):
                 data["repos"].append(repo_data)
         
+        data["total_repo_count"] = total_repos
         return data
     
     def save_data(self, data):

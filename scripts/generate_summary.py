@@ -20,7 +20,7 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
     summary = {
         "period": data.get("period", {}),
         "generated_at": data.get("generated_at"),
-        "total_repos": len(data["repos"]),
+        "total_repos": data.get("total_repo_count", len(data["repos"])),
         "active_repos": 0,
         "total_issues": 0,
         "total_pulls": 0,
