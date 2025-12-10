@@ -70,33 +70,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details on the release process.
 Total number of contributors: <!--CONTRIBUTOR COUNT START--> <!--CONTRIBUTOR COUNT END-->
 
 <!-- readme: contributors -start -->
-<table>
-	<tbody>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/DinneK">
-                    <img src="https://avatars.githubusercontent.com/u/63877492?v=4" width="100;" alt="DinneK"/>
-                    <br />
-                    <sub><b>Dinne Kopelevich</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/IsaacMilarky">
-                    <img src="https://avatars.githubusercontent.com/u/24639268?v=4" width="100;" alt="IsaacMilarky"/>
-                    <br />
-                    <sub><b>Isaac Milarsky</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/decause-gov">
-                    <img src="https://avatars.githubusercontent.com/u/107957201?v=4" width="100;" alt="decause-gov"/>
-                    <br />
-                    <sub><b>decause-gov</b></sub>
-                </a>
-            </td>
-		</tr>
-	<tbody>
-</table>
 <!-- readme: contributors -end -->
 
 <!--
@@ -144,3 +117,12 @@ When participating in super-changelog open source community conversations and sp
 ### Acknowledgements
 
 The Community Guidelines sections were originally forked from the [United States Digital Service](https://usds.gov) [Justice40](https://thejustice40.com) open source [repository](https://github.com/usds/justice40-tool), and we would like to acknowledge and thank the community for their contributions.
+ 
+ ## Maintainers List 
+<!-- What groups/domains are maintainers a part of? Does your project have domains/areas that are maintained by specific people? List @USERNAMES directly, or any @ALIASES for groups/teams. -->
+ 
+ ## Approvers List 
+<!-- Who are the project approvers? List out @USERNAMES where possible so they can be tagged in issues/PRs directly. -->
+ 
+ ## Reviewers List 
+<!-- Who are the project reviewers? List out @USERNAMES where possible so they can be tagged in issues/PRs directly. -->
