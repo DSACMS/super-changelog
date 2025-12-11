@@ -65,7 +65,7 @@
   "fismaLevel": "low",
   "group": "CMS/DSAC/OSPO",
   "projects": [
-    "n/a"
+    "ospo"
   ],
   "systems": [],
   "subsetInHealthcare": [
