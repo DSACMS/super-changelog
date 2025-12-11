@@ -50,7 +50,8 @@
     "cmsoss-tier3",
     "commops",
     "ospo",
-    "superchangelog"
+    "superchangelog",
+    "featured"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
