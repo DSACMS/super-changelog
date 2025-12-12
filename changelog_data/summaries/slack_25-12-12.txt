@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2025-12-05 to 2025-12-12)
+
+• 39 of 71 repos with activity
+• 157 commits | 134 PRs | 8 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 29 commits, 39 PRs
+• *npd*: 18 commits, 27 PRs
+• *super-changelog*: 9 commits, 6 PRs
+• *repo-scaffolder*: 8 commits, 5 PRs
+• *VDI-env-analytics-packages*: 9 commits, 3 PRs
