@@ -2,28 +2,29 @@ import os
 import json
 import subprocess
 from datetime import datetime, timezone
-from github import Github  # type: ignore
+from github import Github #type: ignore
 
-def get_latest_summary_files():
-    """Get the paths to the latest summary files."""
-    summaries_dir = "changelog_data/summaries"
-    if not os.path.exists(summaries_dir):
-        raise FileNotFoundError("summaries directory not found")
+def get_latest_condensed_summary_files():
+    """Get paths to latest condensed summary files."""
+    summary_dir = "changelog_data/summaries"
+    if not os.path.exists(summary_dir):
+        raise FileNotFoundError("Summaries directory not found.")
     
-    pr_title_files = [f for f in os.listdir(summaries_dir) if f.startswith("pr_title_")]
-    pr_body_files = [f for f in os.listdir(summaries_dir) if f.startswith("pr_body_")]
+    pr_title_files = [f for f in os.listdir(summary_dir) if f.startswith("pr_title_condensed_")]
+    pr_body_files = [f for f in os.listdir(summary_dir) if f.startswith("pr_body_condensed_")]
 
     if not pr_title_files or not pr_body_files:
-        raise FileNotFoundError("PR title or body files not found")
+        raise FileNotFoundError("Condensed PR title or body not found.")
     
-    latest_title_file = os.path.join(summaries_dir, sorted(pr_title_files)[-1])
-    latest_body_file = os.path.join(summaries_dir, sorted(pr_body_files)[-1])
+    latest_title_file = os.path.join(summary_dir, sorted(pr_title_files)[-1])
+    latest_body_file = os.path.join(summary_dir, sorted(pr_body_files)[-1])
 
     return latest_title_file, latest_body_file
 
-def create_branch_and_commit():
-    """Create branch and commit the changelog."""
-    branch_name = f"weekly-changelog-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+
+def create_branch_and_commit(branch_suffix="condensed"):
+    """Create branch and commit changelog."""
+    branch_name = f"weekly-changelog-{branch_suffix}-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
 
     try:
         subprocess.run(["git", "config", "--local", "user.email", "action@github.com"], check=True)
@@ -33,9 +34,9 @@ def create_branch_and_commit():
 
         subprocess.run(["git", "add", "changelog_data/"], check=True)
 
-        commit_message = f"Add weekly changelog summary for {datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
-        subprocess.run(["git", "commit", "-sm", commit_message], check=True)
-        
+        commit_message = f"Add condensed weekly changelog summary for {datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+
         subprocess.run(["git", "push", "origin", branch_name], check=True)
 
         return branch_name
@@ -43,6 +44,7 @@ def create_branch_and_commit():
     except subprocess.CalledProcessError as e:
         print(f"Git operation failed: {e}")
         raise
+
 
 def create_pull_request_with_api(title, body, branch_name):
     """Create a pull request using the GitHub API."""
@@ -67,7 +69,7 @@ def create_pull_request_with_api(title, body, branch_name):
         )
 
         try:
-            pr.add_to_labels("changelog", "automated")
+            pr.add_to_labels("changelog", "automated", "condensed")
         except Exception as e:
             print(f"Could not add labels: {e}")
 
@@ -77,6 +79,7 @@ def create_pull_request_with_api(title, body, branch_name):
     except Exception as e:
         print(f"Failed to create pull request: {e}")
         raise
+
 
 def create_pull_request_with_cli(title, body, branch_name):
     """Create a pull request using the GitHub CLI."""
@@ -94,7 +97,8 @@ def create_pull_request_with_cli(title, body, branch_name):
                 "--base", "main",
                 "--head", branch_name,
                 "--label", "changelog",
-                "--label", "automated"
+                "--label", "automated",
+                "--label", "condensed"
             ]
 
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
@@ -112,14 +116,15 @@ def create_pull_request_with_cli(title, body, branch_name):
         raise
     except FileNotFoundError:
         print("GitHub CLI (gh) not found. Falling back to API method.")
-        return None
+        return None 
     
-def main():
-    """Main function to create pull request."""
-    try:
-        print("Creating weekly changelog summary PR...")
 
-        title_file, body_file = get_latest_summary_files()
+def main():
+    """Main function to create condensed pull request."""
+    try:
+        print("Creating weekly condensed changelog summary PR...")
+
+        title_file, body_file = get_latest_condensed_summary_files()
 
         with open(title_file, 'r') as f:
             title = f.read().strip()
@@ -129,7 +134,7 @@ def main():
 
         print(f"PR Title: {title}")
 
-        branch_name = create_branch_and_commit()
+        branch_name = create_branch_and_commit("condensed")
         print(f"Created branch: {branch_name}")
 
         pr_url = None
@@ -141,18 +146,18 @@ def main():
             pr_url = pr.html_url
 
         if pr_url:
-            print(f"Successfully created pull request: {pr_url}")
+            print(f"Successfully created condensed pull request: {pr_url}")
 
             output_dir = "changelog_data/summaries"
             timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
-            pr_url_file = os.path.join(output_dir, f"pr_url_{timestamp}.txt")
+            pr_url_file = os.path.join(output_dir, f"pr_url_condensed_{timestamp}.txt")
             with open(pr_url_file, 'w') as f:
                 f.write(pr_url)
 
         return pr_url
     
     except Exception as e:
-        print(f"Failed to create pull request: {e}")
+        print(f"Failed to create condensed pull request: {e}")
         raise
 
 if __name__ == "__main__":

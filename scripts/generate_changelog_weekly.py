@@ -18,7 +18,7 @@ def main():
 
     os.makedirs("data", exist_ok=True)
 
-    token = os.getenv("GH_TOKEN") or os.getenv("REPOLINTER_AUTO_TOKEN")
+    token = os.getenv("GITHUB_TOKEN") or os.getenv("REPOLINTER_AUTO_TOKEN")
     if not token:
         raise ValueError("Github token not found in environmental variables")
     

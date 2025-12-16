@@ -56,6 +56,8 @@ def main():
          "Generating weekly changelog data"),
         (os.path.join(script_dir, "generate_summary.py"),
          "Generating summary and notifications"),
+        (os.path.join(script_dir, "generate_summary_condensed.py"),
+         "Generating condensed changelog summary"),
     ]
 
     all_success = True
@@ -81,8 +83,9 @@ def main():
         print()
         print("Next steps:")
         print(" 1. Review the generated summary files")
-        print(" 2. Use the mailto link to send email notifications")
-        print(" 3. Create a PR using the create_pr.py script")
+        print(" 2. Create a detailed PR: python scripts/create_pr.py")
+        print(" 3. Create a condensed PR: python scripts/create_pr_condensed.py")
+        print(" 4. Use the mailto link to send email notifications")
 
         timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
         mailto_file = os.path.join(summary_dir, f"mailto_{timestamp}.txt")
@@ -90,6 +93,11 @@ def main():
             with open(mailto_file, 'r') as f:
                 mailto_link = f.read().strip()
             print(f" Mailto link ready: {len(mailto_link)} characters")
+
+        print()
+        print("Two PR formats available:")
+        print(" - Detailed: Full statistics and activity breakdown")
+        print(" - Condensed: Emoji-based changelog format (Added, Fixed, Changed, etc.)")
 
     else:
         print("Weekly changelog generation failed!")
