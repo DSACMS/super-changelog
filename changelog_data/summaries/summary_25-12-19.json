@@ -3,12 +3,12 @@
     "start": "2025-12-12",
     "end": "2025-12-19"
   },
-  "generated_at": "2025-12-19T02:13:14.700400+00:00",
+  "generated_at": "2025-12-19T14:15:24.072738+00:00",
   "total_repos": 72,
-  "active_repos": 14,
+  "active_repos": 15,
   "total_issues": 13,
-  "total_pulls": 60,
-  "total_commits": 63,
+  "total_pulls": 61,
+  "total_commits": 67,
   "total_changelog_entries": 0,
   "repos_with_activity": [
     {
@@ -106,11 +106,11 @@
       "name": "super-changelog",
       "url": "https://github.com/DSACMS/super-changelog",
       "issues": 0,
-      "pulls": 3,
-      "commits": 2,
+      "pulls": 4,
+      "commits": 5,
       "changelog_entries": 0,
       "highlights": [
-        "1 PR(s) merged"
+        "2 PR(s) merged"
       ]
     },
     {
@@ -124,6 +124,15 @@
         "10 PR(s) merged",
         "1 new issue(s)"
       ]
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
     },
     {
       "name": "caseworkerportal",

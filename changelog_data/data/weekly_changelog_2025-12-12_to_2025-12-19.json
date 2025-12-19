@@ -626,12 +626,21 @@
       "issues": [],
       "pulls": [
         {
+          "title": "Weekly Changelog Summary: 2025-12-12 to 2025-12-19",
+          "url": "https://github.com/DSACMS/super-changelog/pull/41",
+          "created_at": "2025-12-19T03:03:17+00:00",
+          "updated_at": "2025-12-19T03:03:18+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
           "title": "Add new condensed summary",
           "url": "https://github.com/DSACMS/super-changelog/pull/40",
           "created_at": "2025-12-17T00:09:02+00:00",
-          "updated_at": "2025-12-17T17:25:43+00:00",
-          "state": "open",
-          "merged": false,
+          "updated_at": "2025-12-19T13:26:47+00:00",
+          "state": "closed",
+          "merged": true,
           "is_new": true
         },
         {
@@ -655,10 +664,28 @@
       ],
       "commits": [
         {
+          "message": "Modify variable name\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/c1ae7ff9d335de4ecc3bf335da3a3feaadc1b04b",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-12-19T13:42:42+00:00"
+        },
+        {
+          "message": "Merge pull request #40 from DSACMS/condensed-summary\n\nAdd new condensed summary",
+          "url": "https://github.com/DSACMS/super-changelog/commit/f79dc832dce50a79fe154f8084a83a77f9ce8f1a",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-12-19T13:26:46+00:00"
+        },
+        {
           "message": "Merge pull request #39 from DSACMS/weekly-changelog-2025-12-12\n\nWeekly Changelog Summary: 2025-12-05 to 2025-12-12",
           "url": "https://github.com/DSACMS/super-changelog/commit/df62543b8749e8a186339122699f95c1d4b7be40",
           "author": "decause-gov",
           "created_at": "2025-12-18T16:54:03+00:00"
+        },
+        {
+          "message": "Add new condensed summary\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/36ad19743655394c9d4cedb4bc045e6824506b06",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-12-16T23:57:00+00:00"
         },
         {
           "message": "Add weekly changelog summary for 2025-12-12\n\nSigned-off-by: GitHub Action <action@github.com>",
@@ -715,7 +742,7 @@
           "title": "Wbprice/ndh 584 resolve flyway schema already exists error",
           "url": "https://github.com/DSACMS/npd/pull/281",
           "created_at": "2025-12-17T21:11:57+00:00",
-          "updated_at": "2025-12-18T14:41:42+00:00",
+          "updated_at": "2025-12-19T14:17:03+00:00",
           "state": "open",
           "merged": false,
           "is_new": true
@@ -946,6 +973,23 @@
           "url": "https://github.com/DSACMS/npd/commit/26905325d0731864298a9af3e85e054aa6f010f0",
           "author": "Adam Bachman",
           "created_at": "2025-12-12T14:53:17+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Add first directory\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/pra-guides/commit/d4b5d8452e4be4d67929271c8a29b1d10d2047ea",
+          "author": "Dinne Kopelevich",
+          "created_at": "2025-12-19T13:21:40+00:00"
         }
       ],
       "contributors": [],
@@ -1206,6 +1250,6 @@
     "start": "2025-12-12",
     "end": "2025-12-19"
   },
-  "generated_at": "2025-12-19T02:13:14.700400+00:00",
+  "generated_at": "2025-12-19T14:15:24.072738+00:00",
   "total_repo_count": 72
 }
