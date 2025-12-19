@@ -1,0 +1,161 @@
+{
+  "period": {
+    "start": "2025-12-12",
+    "end": "2025-12-19"
+  },
+  "generated_at": "2025-12-19T02:13:14.700400+00:00",
+  "total_repos": 72,
+  "active_repos": 14,
+  "total_issues": 13,
+  "total_pulls": 60,
+  "total_commits": 63,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 4,
+      "pulls": 17,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "7 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 3,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 4,
+      "pulls": 0,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 new issue(s)"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 1,
+      "pulls": 23,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "10 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "caseworkerportal",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "VDI-env-analytics-packages",
+      "url": "https://github.com/DSACMS/VDI-env-analytics-packages",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 16,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}
