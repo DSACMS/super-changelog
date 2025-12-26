@@ -1,0 +1,106 @@
+{
+  "period": {
+    "start": "2025-12-19",
+    "end": "2025-12-26"
+  },
+  "generated_at": "2025-12-26T02:07:41.969993+00:00",
+  "total_repos": 72,
+  "active_repos": 9,
+  "total_issues": 1,
+  "total_pulls": 41,
+  "total_commits": 39,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 20,
+      "commits": 13,
+      "changelog_entries": 0,
+      "highlights": [
+        "13 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 1,
+      "pulls": 11,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 12,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}
