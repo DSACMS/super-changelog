@@ -1,0 +1,1380 @@
+{
+  "repos": [
+    {
+      "name": "open",
+      "url": "https://github.com/DSACMS/open",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/open/pull/60",
+          "created_at": "2026-01-01T01:05:12+00:00",
+          "updated_at": "2026-01-01T01:05:13+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "dsacms.github.io",
+      "url": "https://github.com/DSACMS/dsacms.github.io",
+      "description": "Landing Page for DSACMS GitHub Organization",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/dsacms.github.io/pull/7",
+          "created_at": "2026-01-01T01:59:44+00:00",
+          "updated_at": "2026-01-01T01:59:45+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "dedupliFHIR",
+      "url": "https://github.com/DSACMS/dedupliFHIR",
+      "description": "Prototype for basic deduplication and aggregation of eCQM data",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/dedupliFHIR/pull/243",
+          "created_at": "2026-01-01T02:21:19+00:00",
+          "updated_at": "2026-01-01T02:21:20+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "opportunities",
+      "url": "https://github.com/DSACMS/opportunities",
+      "description": "Resource for Public Service Internship and Fellowship Opportunities",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/opportunities/pull/10",
+          "created_at": "2026-01-01T02:03:38+00:00",
+          "updated_at": "2026-01-01T02:03:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/metrics/pull/418",
+          "created_at": "2026-01-01T01:03:16+00:00",
+          "updated_at": "2026-01-01T01:03:17+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "update CMS-Enterprise data: Sun Dec 28 07:40:20 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/e3bbea4f51d4c79ecabf4a005c9428629c21d4c9",
+          "author": "GitHub Actions",
+          "created_at": "2025-12-28T07:40:20+00:00"
+        },
+        {
+          "message": "update Enterprise-CMCS data: Sun Dec 28 07:37:26 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/cb26c469020152b4d584f16839e934ddb10256ac",
+          "author": "GitHub Actions",
+          "created_at": "2025-12-28T07:37:26+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Dec 28 07:35:02 UTC 2025",
+          "url": "https://github.com/DSACMS/metrics/commit/f46bbd22cd786a4be91287b0dfb646fe3804a27c",
+          "author": "GitHub Actions",
+          "created_at": "2025-12-28T07:35:02+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "oss-community-runbook",
+      "url": "https://github.com/DSACMS/oss-community-runbook",
+      "description": "Runbook for helping to stand-up Open Source Communities",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/oss-community-runbook/pull/6",
+          "created_at": "2026-01-01T02:25:28+00:00",
+          "updated_at": "2026-01-01T02:25:28+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "cms-gource",
+      "url": "https://github.com/DSACMS/cms-gource",
+      "description": "Gource.io Visualization of Developer.CMS.gov Open Source repositories",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/cms-gource/pull/7",
+          "created_at": "2026-01-01T00:59:50+00:00",
+          "updated_at": "2026-01-01T00:59:51+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/374",
+          "created_at": "2026-01-01T02:33:28+00:00",
+          "updated_at": "2026-01-01T02:33:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "form-demo",
+      "url": "https://github.com/DSACMS/form-demo",
+      "description": "Demo of a web form",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/form-demo/pull/6",
+          "created_at": "2026-01-01T01:00:11+00:00",
+          "updated_at": "2026-01-01T01:00:12+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "description": "Repository containing various presentations delivered by the Digital Service at CMS",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/decks/pull/12",
+          "created_at": "2026-01-01T02:04:15+00:00",
+          "updated_at": "2026-01-01T02:04:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "description": "Open Source Program Office Guide for CMS.gov",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/ospo-guide/pull/104",
+          "created_at": "2026-01-01T02:02:24+00:00",
+          "updated_at": "2026-01-01T02:02:25+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "FFS-3625 Implement NSC API in Education flow",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1251",
+          "created_at": "2025-12-31T23:47:47+00:00",
+          "updated_at": "2025-12-31T23:48:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Fix bug when user submits activity entry form without checking consent box",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1250",
+          "created_at": "2025-12-31T22:56:49+00:00",
+          "updated_at": "2025-12-31T22:56:59+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump action_text-trix from 2.1.15 to 2.1.16 in /app in the bundler group across 1 directory",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1249",
+          "created_at": "2025-12-31T22:09:54+00:00",
+          "updated_at": "2025-12-31T22:10:07+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3645 Implement PDF Doc Transmitter",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1248",
+          "created_at": "2025-12-31T16:54:28+00:00",
+          "updated_at": "2026-01-01T14:53:05+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3602: Add concept of \"Reporting Month\" to HR1 flow with date validation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1247",
+          "created_at": "2025-12-31T16:50:44+00:00",
+          "updated_at": "2025-12-31T21:07:18+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump faker from 3.5.2 to 3.5.3 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1246",
+          "created_at": "2025-12-29T15:20:56+00:00",
+          "updated_at": "2025-12-29T15:38:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump solid_queue from 1.2.1 to 1.2.4 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1245",
+          "created_at": "2025-12-29T15:20:41+00:00",
+          "updated_at": "2025-12-29T15:39:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump cgi from 0.4.2 to 0.5.1 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1244",
+          "created_at": "2025-12-29T15:20:27+00:00",
+          "updated_at": "2025-12-29T15:38:20+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump turbo-rails from 2.0.11 to 2.0.20 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1243",
+          "created_at": "2025-12-29T15:20:11+00:00",
+          "updated_at": "2025-12-29T15:38:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump jsdom from 27.3.0 to 27.4.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1242",
+          "created_at": "2025-12-29T15:20:05+00:00",
+          "updated_at": "2025-12-29T15:37:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump mission_control-jobs from 1.0.2 to 1.1.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1241",
+          "created_at": "2025-12-29T15:19:56+00:00",
+          "updated_at": "2025-12-29T15:37:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix math typo in benchmark script",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1240",
+          "created_at": "2025-12-26T20:53:48+00:00",
+          "updated_at": "2025-12-26T21:37:24+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3606: Allow editing or deleting an activity from Activity Hub",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1239",
+          "created_at": "2025-12-24T23:31:11+00:00",
+          "updated_at": "2025-12-26T20:07:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3491: Add benchmark:workers rake task",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1238",
+          "created_at": "2025-12-24T18:19:02+00:00",
+          "updated_at": "2025-12-26T19:18:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3566: Advance through /add_job in activity hub",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1236",
+          "created_at": "2025-12-23T02:15:01+00:00",
+          "updated_at": "2025-12-31T16:05:32+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump vite from 7.2.7 to 7.3.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1217",
+          "created_at": "2025-12-15T15:38:06+00:00",
+          "updated_at": "2025-12-29T15:36:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update ngrok domain whitelist",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1210",
+          "created_at": "2025-12-09T22:09:54+00:00",
+          "updated_at": "2025-12-29T16:46:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bump the pip group across 1 directory with 2 updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1192",
+          "created_at": "2025-12-05T19:17:57+00:00",
+          "updated_at": "2025-12-29T15:36:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Update ngrok domain whitelist (#1210)\n\nWhitelist ngrok host",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2cfa6f2d57a219a58d42267a3634805392d38ae2",
+          "author": "Jan",
+          "created_at": "2025-12-29T16:46:25+00:00"
+        },
+        {
+          "message": "Bump solid_queue from 1.2.1 to 1.2.4 in /app (#1245)\n\nBumps [solid_queue](https://github.com/rails/solid_queue) from 1.2.1 to 1.2.4.\n- [Release notes](https://github.com/rails/solid_queue/releases)\n- [Commits](https://github.com/rails/solid_queue/compare/v1.2.1...v1.2.4)\n\n---\nupdated-dependencies:\n- dependency-name: solid_queue\n  dependency-version: 1.2.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/361b9e292f5c699507879d1177c20a73ebca089f",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:39:14+00:00"
+        },
+        {
+          "message": "Bump faker from 3.5.2 to 3.5.3 in /app (#1246)\n\nBumps [faker](https://github.com/faker-ruby/faker) from 3.5.2 to 3.5.3.\n- [Release notes](https://github.com/faker-ruby/faker/releases)\n- [Changelog](https://github.com/faker-ruby/faker/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/faker-ruby/faker/compare/v3.5.2...v3.5.3)\n\n---\nupdated-dependencies:\n- dependency-name: faker\n  dependency-version: 3.5.3\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1a32a4a555b15276f29bb0595041eb26987c9a17",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:38:45+00:00"
+        },
+        {
+          "message": "Bump cgi from 0.4.2 to 0.5.1 in /app (#1244)\n\nBumps [cgi](https://github.com/ruby/cgi) from 0.4.2 to 0.5.1.\n- [Release notes](https://github.com/ruby/cgi/releases)\n- [Commits](https://github.com/ruby/cgi/compare/v0.4.2...v0.5.1)\n\n---\nupdated-dependencies:\n- dependency-name: cgi\n  dependency-version: 0.5.1\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2fb6f14b8a4fe31d9f191ea282eac1cab60a5066",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:38:18+00:00"
+        },
+        {
+          "message": "Bump turbo-rails from 2.0.11 to 2.0.20 in /app (#1243)\n\nBumps [turbo-rails](https://github.com/hotwired/turbo-rails) from 2.0.11 to 2.0.20.\n- [Release notes](https://github.com/hotwired/turbo-rails/releases)\n- [Commits](https://github.com/hotwired/turbo-rails/compare/v2.0.11...v2.0.20)\n\n---\nupdated-dependencies:\n- dependency-name: turbo-rails\n  dependency-version: 2.0.20\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/bf6ca1485d232f4f665e1967629c9ada2b425048",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:37:59+00:00"
+        },
+        {
+          "message": "Bump jsdom from 27.3.0 to 27.4.0 in /app (#1242)\n\nBumps [jsdom](https://github.com/jsdom/jsdom) from 27.3.0 to 27.4.0.\n- [Release notes](https://github.com/jsdom/jsdom/releases)\n- [Changelog](https://github.com/jsdom/jsdom/blob/main/Changelog.md)\n- [Commits](https://github.com/jsdom/jsdom/compare/27.3.0...27.4.0)\n\n---\nupdated-dependencies:\n- dependency-name: jsdom\n  dependency-version: 27.4.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/6288b5b094d4d034203a9e576928627c30b3094a",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:37:27+00:00"
+        },
+        {
+          "message": "Bump mission_control-jobs from 1.0.2 to 1.1.0 in /app (#1241)\n\nBumps [mission_control-jobs](https://github.com/rails/mission_control-jobs) from 1.0.2 to 1.1.0.\n- [Release notes](https://github.com/rails/mission_control-jobs/releases)\n- [Commits](https://github.com/rails/mission_control-jobs/compare/v1.0.2...v1.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: mission_control-jobs\n  dependency-version: 1.1.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5c506146925807393c3dffb6714f5fa5bc9b9d42",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:37:15+00:00"
+        },
+        {
+          "message": "Bump vite from 7.2.7 to 7.3.0 in /app (#1217)\n\nBumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 7.2.7 to 7.3.0.\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v7.3.0/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v7.3.0/packages/vite)\n\n---\nupdated-dependencies:\n- dependency-name: vite\n  dependency-version: 7.3.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/772fb28ac7424b0af015ca9eed59f0510bb9591c",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:36:51+00:00"
+        },
+        {
+          "message": "Bump the pip group across 1 directory with 2 updates (#1192)\n\nBumps the pip group with 2 updates in the /app/analytics directory: [jupyterlab](https://github.com/jupyterlab/jupyterlab) and [urllib3](https://github.com/urllib3/urllib3).\n\n\nUpdates `jupyterlab` from 4.4.5 to 4.4.8\n- [Release notes](https://github.com/jupyterlab/jupyterlab/releases)\n- [Changelog](https://github.com/jupyterlab/jupyterlab/blob/main/RELEASE.md)\n- [Commits](https://github.com/jupyterlab/jupyterlab/compare/@jupyterlab/lsp@4.4.5...@jupyterlab/lsp@4.4.8)\n\nUpdates `urllib3` from 2.5.0 to 2.6.0\n- [Release notes](https://github.com/urllib3/urllib3/releases)\n- [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)\n- [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: jupyterlab\n  dependency-version: 4.4.8\n  dependency-type: direct:production\n  dependency-group: pip\n- dependency-name: urllib3\n  dependency-version: 2.6.0\n  dependency-type: direct:production\n  dependency-group: pip\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/967d159ae1ad3eb398cacb8903c1aa98d13bcb8b",
+          "author": "dependabot[bot]",
+          "created_at": "2025-12-29T15:36:30+00:00"
+        },
+        {
+          "message": "Fix math typo in benchmark script (#1240)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/66191ba34e79072f5c87b22fbc6d240cfa69ebd5",
+          "author": "Tom Dooner",
+          "created_at": "2025-12-26T21:36:57+00:00"
+        },
+        {
+          "message": "FFS-3606: Allow editing or deleting an activity from Activity Hub (#1239)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5d313c13d684ae8cfe74b808aed4879920ac8eb8",
+          "author": "Daphne Gold",
+          "created_at": "2025-12-26T20:07:43+00:00"
+        },
+        {
+          "message": "FFS-3491: Add benchmark:workers rake task (#1238)\n\nThis rake task will enqueue about 200 user's worth of jobs, and then\ntime how long it takes the queue to work them off. That will give us an\noverall \"jobs/minute\" throughput estimate based the representative mix\nof event types.\n\nWe can then compare that throughput to the average job enqueue rate for\ncertain numbers of users to find the level beyond which the queue will\ngrow without bound.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2d08adf2cb4b7c8f6c1009b1fa60e6bb639b6d9f",
+          "author": "Tom Dooner",
+          "created_at": "2025-12-26T19:18:46+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repodive-tools",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "description": "Scripts and tools to gather information about git repositories.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repodive-tools/pull/16",
+          "created_at": "2026-01-01T02:33:27+00:00",
+          "updated_at": "2026-01-01T02:33:28+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "reverse-scorecard-generation",
+      "url": "https://github.com/DSACMS/reverse-scorecard-generation",
+      "description": "Combine column-major HHS Zero Trust Scorecard Excel spreadsheets into a row-major CSV file.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/reverse-scorecard-generation/pull/6",
+          "created_at": "2026-01-01T01:27:15+00:00",
+          "updated_at": "2026-01-01T01:27:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "mural-ollama",
+      "url": "https://github.com/DSACMS/mural-ollama",
+      "description": "Multimodal LLM Mural Assistant with Ollama",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/mural-ollama/pull/9",
+          "created_at": "2026-01-01T01:07:11+00:00",
+          "updated_at": "2026-01-01T01:07:11+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "cms-open-source-policy",
+      "url": "https://github.com/DSACMS/cms-open-source-policy",
+      "description": "CMS' Open Source Policy",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/cms-open-source-policy/pull/8",
+          "created_at": "2026-01-01T02:26:55+00:00",
+          "updated_at": "2026-01-01T02:26:56+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "gource-log",
+      "url": "https://github.com/DSACMS/gource-log",
+      "description": "GitHub Action to run Gource on the desired repository and store the log for later use.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/gource-log/pull/10",
+          "created_at": "2026-01-01T02:33:37+00:00",
+          "updated_at": "2026-01-01T02:33:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repolinter-actions",
+      "url": "https://github.com/DSACMS/repolinter-actions",
+      "description": "Run Repolinter in your CI pipeline with the option to send PRs",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/repolinter-actions/pull/33",
+          "created_at": "2026-01-01T01:03:55+00:00",
+          "updated_at": "2026-01-01T01:03:56+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate code.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/105",
+          "created_at": "2026-01-01T01:21:22+00:00",
+          "updated_at": "2026-01-01T01:21:23+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "description": "Test repository for Repolinter Actions",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/testing-repository/pull/13",
+          "created_at": "2026-01-01T02:00:25+00:00",
+          "updated_at": "2026-01-01T02:00:26+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "codejson-index-generator",
+      "url": "https://github.com/DSACMS/codejson-index-generator",
+      "description": "Script to create an indexed code.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/codejson-index-generator/pull/21",
+          "created_at": "2026-01-01T02:02:25+00:00",
+          "updated_at": "2026-01-01T02:02:26+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "description": "CMS code.json: An agency-wide metadata standard for software projects",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/gov-codejson/pull/48",
+          "created_at": "2026-01-01T01:40:57+00:00",
+          "updated_at": "2026-01-01T01:40:58+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Github Action that allows for automated code.json creation and maintenance ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/103",
+          "created_at": "2025-12-29T17:28:26+00:00",
+          "updated_at": "2025-12-29T21:11:24+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Inherit from gov-codejson with tests",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/102",
+          "created_at": "2025-12-29T17:18:02+00:00",
+          "updated_at": "2025-12-29T21:11:30+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/101",
+          "created_at": "2025-12-22T18:11:46+00:00",
+          "updated_at": "2025-12-29T18:12:34+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group across 1 directory with 14 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/89",
+          "created_at": "2025-11-17T18:32:33+00:00",
+          "updated_at": "2025-12-29T18:14:23+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump akhilmhdh/contributors-readme-action from 2.3.10 to 2.3.11 in the actions-minor group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/69",
+          "created_at": "2025-09-22T18:28:51+00:00",
+          "updated_at": "2025-12-29T18:12:19+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "un-sdg-form",
+      "url": "https://github.com/DSACMS/un-sdg-form",
+      "description": "Form for identifying projects that fulfill UN-SDGs",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/un-sdg-form/pull/8",
+          "created_at": "2026-01-01T01:08:44+00:00",
+          "updated_at": "2026-01-01T01:08:45+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "description": "OSPO Help Desk",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/ospo/pull/23",
+          "created_at": "2026-01-01T02:01:18+00:00",
+          "updated_at": "2026-01-01T02:01:19+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/share-it-act-lp/pull/35",
+          "created_at": "2026-01-01T01:05:52+00:00",
+          "updated_at": "2026-01-01T01:05:54+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "index-generator-website",
+      "url": "https://github.com/DSACMS/index-generator-website",
+      "description": "Tool to help federal agencies compile their code.json index files for SHARE IT Act compliance",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/index-generator-website/pull/11",
+          "created_at": "2026-01-01T01:21:10+00:00",
+          "updated_at": "2026-01-01T01:21:11+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/super-changelog/pull/43",
+          "created_at": "2026-01-01T01:12:48+00:00",
+          "updated_at": "2026-01-01T01:12:49+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-12-19 to 2025-12-26",
+          "url": "https://github.com/DSACMS/super-changelog/pull/42",
+          "created_at": "2025-12-26T02:57:20+00:00",
+          "updated_at": "2025-12-26T02:57:22+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "project-ticket-template",
+      "url": "https://github.com/DSACMS/project-ticket-template",
+      "description": "This is a test project to create ticket templates within GitHub project boards",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/project-ticket-template/pull/8",
+          "created_at": "2026-01-01T01:11:33+00:00",
+          "updated_at": "2026-01-01T01:11:34+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "agenda-scaffolder",
+      "url": "https://github.com/DSACMS/agenda-scaffolder",
+      "description": "Tools and templates for crowdsourcing agendas for community meetings.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/agenda-scaffolder/pull/6",
+          "created_at": "2026-01-01T02:31:16+00:00",
+          "updated_at": "2026-01-01T02:31:17+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "outbound-tools-survey-2",
+      "url": "https://github.com/DSACMS/outbound-tools-survey-2",
+      "description": "Form to evaluate documentation clarity and user confidence in using checklist areas for repository reparation.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/outbound-tools-survey-2/pull/11",
+          "created_at": "2026-01-01T01:46:00+00:00",
+          "updated_at": "2026-01-01T01:46:01+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/code-gov/pull/48",
+          "created_at": "2026-01-01T02:00:58+00:00",
+          "updated_at": "2026-01-01T02:00:58+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "outbound-understanding-survey-1",
+      "url": "https://github.com/DSACMS/outbound-understanding-survey-1",
+      "description": "A web form to evaluate documentation clarity and user confidence in figuring out tier, benefits and risks",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/outbound-understanding-survey-1/pull/5",
+          "created_at": "2026-01-01T02:25:28+00:00",
+          "updated_at": "2026-01-01T02:25:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "datajson-index-generator",
+      "url": "https://github.com/DSACMS/datajson-index-generator",
+      "description": "Script to create an indexed data.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/datajson-index-generator/pull/5",
+          "created_at": "2026-01-01T01:55:15+00:00",
+          "updated_at": "2026-01-01T01:55:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "gh-datacall-form",
+      "url": "https://github.com/DSACMS/gh-datacall-form",
+      "description": "Form to generate a GitHub Data Call",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/gh-datacall-form/pull/19",
+          "created_at": "2026-01-01T00:55:51+00:00",
+          "updated_at": "2026-01-01T00:55:52+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "description": "A modern version of a health provider directory to serve as a single source of truth for the benefit of all",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/npd/pull/293",
+          "created_at": "2026-01-01T02:23:11+00:00",
+          "updated_at": "2026-01-01T02:23:12+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "remove infrastructure definitions",
+          "url": "https://github.com/DSACMS/npd/pull/292",
+          "created_at": "2025-12-31T16:17:59+00:00",
+          "updated_at": "2025-12-31T16:34:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Updated CODEOWNERS",
+          "url": "https://github.com/DSACMS/npd/pull/291",
+          "created_at": "2025-12-31T15:42:44+00:00",
+          "updated_at": "2025-12-31T15:42:44+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Adjusting Aria Levels and Side Bar",
+          "url": "https://github.com/DSACMS/npd/pull/290",
+          "created_at": "2025-12-29T21:09:44+00:00",
+          "updated_at": "2025-12-29T21:23:03+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-583] Tracking Secret Rotation Lambda ",
+          "url": "https://github.com/DSACMS/npd/pull/289",
+          "created_at": "2025-12-29T20:49:22+00:00",
+          "updated_at": "2025-12-31T16:21:25+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-618] Developer Page Content Changes",
+          "url": "https://github.com/DSACMS/npd/pull/288",
+          "created_at": "2025-12-23T18:15:37+00:00",
+          "updated_at": "2025-12-29T20:42:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Create sample second flyway process for core data model work",
+          "url": "https://github.com/DSACMS/npd/pull/287",
+          "created_at": "2025-12-19T21:23:29+00:00",
+          "updated_at": "2025-12-31T16:19:04+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Sjp/nppes pecos discovery",
+          "url": "https://github.com/DSACMS/npd/pull/278",
+          "created_at": "2025-12-17T14:03:28+00:00",
+          "updated_at": "2025-12-29T18:50:34+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Core Data Model - NPPES PUF Output Discovery",
+          "url": "https://github.com/DSACMS/npd/pull/236",
+          "created_at": "2025-12-01T14:17:17+00:00",
+          "updated_at": "2025-12-29T21:05:43+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "remove infrastructure definitions (#292)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>",
+          "url": "https://github.com/DSACMS/npd/commit/7b1715afc18ba0ef91aa808f6fb6c074e234a99b",
+          "author": "Blaine Price",
+          "created_at": "2025-12-31T16:34:21+00:00"
+        },
+        {
+          "message": "[NDH-618] Developer Page Content Changes (#288)\n\n* implemented content changes\n\n* adding robust tests",
+          "url": "https://github.com/DSACMS/npd/commit/f721f888f9c04e332a3f94c3efb4461c429127ad",
+          "author": "Sachin Panayil",
+          "created_at": "2025-12-29T20:42:37+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "graphics",
+      "url": "https://github.com/DSACMS/graphics",
+      "description": "A repository to store OSPO graphics",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/graphics/pull/4",
+          "created_at": "2026-01-01T02:12:24+00:00",
+          "updated_at": "2026-01-01T02:12:24+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_nucc_slurp",
+      "url": "https://github.com/DSACMS/npd_nucc_slurp",
+      "description": "because the CSV makes calculating the parent difficult.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/npd_nucc_slurp/pull/5",
+          "created_at": "2026-01-01T02:05:06+00:00",
+          "updated_at": "2026-01-01T02:05:07+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_csviper",
+      "url": "https://github.com/DSACMS/npd_csviper",
+      "description": "A python command line tool that builds out other python scripts to import CSV files. ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/npd_csviper/pull/6",
+          "created_at": "2026-01-01T01:11:35+00:00",
+          "updated_at": "2026-01-01T01:11:36+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_cicadence",
+      "url": "https://github.com/DSACMS/npd_cicadence",
+      "description": "Cicadence for Primeval Privacy Math",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/npd_cicadence/pull/4",
+          "created_at": "2026-01-01T01:56:27+00:00",
+          "updated_at": "2026-01-01T01:56:28+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd_plan_scrape",
+      "url": "https://github.com/DSACMS/npd_plan_scrape",
+      "description": "plan scrape prototype",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/npd_plan_scrape/pull/3",
+          "created_at": "2026-01-01T00:59:41+00:00",
+          "updated_at": "2026-01-01T00:59:42+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/pra-guides/pull/4",
+          "created_at": "2026-01-01T01:03:54+00:00",
+          "updated_at": "2026-01-01T01:03:55+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "private-codejson-generator",
+      "url": "https://github.com/DSACMS/private-codejson-generator",
+      "description": "Form to generate code.json from private and public repos",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/private-codejson-generator/pull/12",
+          "created_at": "2026-01-01T01:45:49+00:00",
+          "updated_at": "2026-01-01T01:45:50+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Fix link to SECURITY_CONCERNS.md in README",
+          "url": "https://github.com/DSACMS/private-codejson-generator/commit/7816a2c768449f3bb61c85b2097d62d1001b2cbb",
+          "author": "Sachin Panayil",
+          "created_at": "2025-12-31T17:09:18+00:00"
+        },
+        {
+          "message": "Fix link to SECURITY_CONSIDERATIONS.md in README",
+          "url": "https://github.com/DSACMS/private-codejson-generator/commit/aa1afbd3aeafb820e927642e305ef39d53f29cf8",
+          "author": "Sachin Panayil",
+          "created_at": "2025-12-31T17:08:51+00:00"
+        },
+        {
+          "message": "Add files via upload",
+          "url": "https://github.com/DSACMS/private-codejson-generator/commit/b41c83f4ea8965429899a36cb8f2e2237366d4d4",
+          "author": "Sachin Panayil",
+          "created_at": "2025-12-31T17:08:27+00:00"
+        },
+        {
+          "message": "Update README with security warning\n\nAdded a warning about security concerns and project usage.",
+          "url": "https://github.com/DSACMS/private-codejson-generator/commit/d2312a1b3b74f7aa21773556c7b19d4b677f117d",
+          "author": "Sachin Panayil",
+          "created_at": "2025-12-31T17:07:50+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "caseworkerportal",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/caseworkerportal/pull/3",
+          "created_at": "2026-01-01T01:46:59+00:00",
+          "updated_at": "2026-01-01T01:46:59+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Restructure to adopt a \"clean arch\" style",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/9",
+          "created_at": "2025-12-30T21:23:12+00:00",
+          "updated_at": "2025-12-30T23:25:16+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Added testing",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/8",
+          "created_at": "2025-12-30T16:05:00+00:00",
+          "updated_at": "2025-12-31T20:22:41+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Structured Logging",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/7",
+          "created_at": "2025-12-29T16:49:34+00:00",
+          "updated_at": "2025-12-29T19:55:00+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "OTel configuration refactor",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/6",
+          "created_at": "2025-12-23T20:21:21+00:00",
+          "updated_at": "2025-12-29T18:22:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #7 from DSACMS/logger\n\nStructured Logging",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/6426039619d6f32ba69224fc63f51c4e38c9d7b9",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T19:54:39+00:00"
+        },
+        {
+          "message": "Use JSON logging on prod",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/06a40292d26186d96b734842e04b353a6a080704",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T19:48:20+00:00"
+        },
+        {
+          "message": "Add stack trace logging and global error handler",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/e45ab94439a1ebf974daca8e55199dc413cb51be",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T17:45:56+00:00"
+        },
+        {
+          "message": "Add logging lint to golangci-lint",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/0cb1e835a0a0b4d4d3b90943cb9057ae07e44c6c",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T16:40:02+00:00"
+        },
+        {
+          "message": "Add logger module",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/b8207d7f60d94f01b26d2523372492cf4d33f7e3",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T16:14:23+00:00"
+        },
+        {
+          "message": "ignore vendor directory",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/c68904685ba7b80f3500c87c3fb60c4ac6a2ae28",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T14:51:36+00:00"
+        },
+        {
+          "message": "Merge pull request #6 from DSACMS/tracing",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/ba4645b725a9aec3daaa49479b14741b1669c015",
+          "author": "Jake Shilling",
+          "created_at": "2025-12-29T18:22:11+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2025-12-26",
+    "end": "2026-01-02"
+  },
+  "generated_at": "2026-01-02T02:10:18.280065+00:00",
+  "total_repo_count": 72
+}
