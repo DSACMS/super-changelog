@@ -1,0 +1,1251 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [
+        {
+          "title": "[Repolinter] Tier 3 OSS Policy Issues",
+          "url": "https://github.com/DSACMS/metrics/issues/420",
+          "created_at": "2026-01-09T05:13:10+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "[Snyk] Security upgrade urllib3 from 2.0.7 to 2.6.3",
+          "url": "https://github.com/DSACMS/metrics/pull/419",
+          "created_at": "2026-01-09T05:12:10+00:00",
+          "updated_at": "2026-01-09T05:12:25+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [
+        {
+          "name": "decause-gov",
+          "company": "@CMSgov ",
+          "created_at": "2022-06-21T20:20:11+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Workflows: Add workflow for markdown docs check",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/376",
+          "created_at": "2026-01-09T18:01:30+00:00",
+          "updated_at": "2026-01-15T22:24:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Tests: Create tests using pytest-cookies",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/375",
+          "created_at": "2026-01-02T17:42:15+00:00",
+          "updated_at": "2026-01-15T15:20:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Repository Templates: Add .gitignore",
+          "url": "https://github.com/DSACMS/repo-scaffolder/pull/373",
+          "created_at": "2025-12-11T22:13:17+00:00",
+          "updated_at": "2026-01-09T18:22:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "contributors": [
+        {
+          "name": "Sachin Panayil",
+          "company": "@DSACMS ",
+          "created_at": "2021-02-20T21:39:48+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Remove `awscli` from production images",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1282",
+          "created_at": "2026-01-15T19:42:31+00:00",
+          "updated_at": "2026-01-15T22:20:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3525: Add controller name to structured logging messages",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1281",
+          "created_at": "2026-01-15T18:47:59+00:00",
+          "updated_at": "2026-01-15T22:21:19+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "No ticket: switch to unsafe-inline csp strategy for Argyle",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1280",
+          "created_at": "2026-01-14T20:06:41+00:00",
+          "updated_at": "2026-01-14T20:52:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Update .env to use non-localhost for AZ",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1279",
+          "created_at": "2026-01-14T00:24:21+00:00",
+          "updated_at": "2026-01-14T19:03:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "N/A: Add demo environment apply to infra checklist",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1278",
+          "created_at": "2026-01-13T17:51:13+00:00",
+          "updated_at": "2026-01-13T17:59:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump sass from 1.97.1 to 1.97.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1277",
+          "created_at": "2026-01-12T19:56:17+00:00",
+          "updated_at": "2026-01-13T21:56:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump vitest from 4.0.16 to 4.0.17 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1276",
+          "created_at": "2026-01-12T19:56:09+00:00",
+          "updated_at": "2026-01-14T23:03:11+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump aws-sdk-s3 from 1.208.0 to 1.211.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1275",
+          "created_at": "2026-01-12T19:56:07+00:00",
+          "updated_at": "2026-01-14T22:55:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump @rails/actioncable from 8.1.100 to 8.1.200 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1274",
+          "created_at": "2026-01-12T19:55:55+00:00",
+          "updated_at": "2026-01-14T22:55:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump pry from 0.15.2 to 0.16.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1273",
+          "created_at": "2026-01-12T19:55:53+00:00",
+          "updated_at": "2026-01-14T23:10:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump vite from 7.3.0 to 7.3.1 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1272",
+          "created_at": "2026-01-12T19:55:48+00:00",
+          "updated_at": "2026-01-14T22:53:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump newrelic_rpm from 9.19.0 to 9.24.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1271",
+          "created_at": "2026-01-12T19:55:39+00:00",
+          "updated_at": "2026-01-14T22:59:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump happy-dom from 20.0.11 to 20.1.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1270",
+          "created_at": "2026-01-12T19:55:35+00:00",
+          "updated_at": "2026-01-13T21:56:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump faraday from 2.9.2 to 2.14.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1269",
+          "created_at": "2026-01-12T19:55:24+00:00",
+          "updated_at": "2026-01-14T22:59:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump brakeman from 7.1.1 to 7.1.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1268",
+          "created_at": "2026-01-12T19:55:09+00:00",
+          "updated_at": "2026-01-14T23:00:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3677: Add PDF API transmission configuration for LA",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1267",
+          "created_at": "2026-01-12T18:25:06+00:00",
+          "updated_at": "2026-01-12T19:38:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Upgrade 4 system packages to fix vulnerability scans",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1266",
+          "created_at": "2026-01-12T16:59:10+00:00",
+          "updated_at": "2026-01-12T17:09:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3645: Add \"custom_headers\" config to PDF API transmitter",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1265",
+          "created_at": "2026-01-12T16:48:52+00:00",
+          "updated_at": "2026-01-12T17:32:51+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3658: Receive PDFs in test implementation",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1264",
+          "created_at": "2026-01-10T04:32:21+00:00",
+          "updated_at": "2026-01-12T23:00:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3607: Assign confirmation code to Activity Flows when submitted",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1263",
+          "created_at": "2026-01-09T20:28:07+00:00",
+          "updated_at": "2026-01-12T19:37:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump urllib3 from 2.6.0 to 2.6.3 in /app/analytics in the pip group across 1 directory",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1259",
+          "created_at": "2026-01-08T06:38:10+00:00",
+          "updated_at": "2026-01-12T18:13:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3625 Implement NSC API in Education flow",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1251",
+          "created_at": "2025-12-31T23:47:47+00:00",
+          "updated_at": "2026-01-15T18:40:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3566: Implement income activity in ActivityFlow",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1236",
+          "created_at": "2025-12-23T02:15:01+00:00",
+          "updated_at": "2026-01-15T19:56:19+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "OSPO: Tier 3 Repolinter Results",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1224",
+          "created_at": "2025-12-15T22:39:09+00:00",
+          "updated_at": "2026-01-14T19:00:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "wip: PR to show Open Telemetry Tracing",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1043",
+          "created_at": "2025-10-16T15:00:40+00:00",
+          "updated_at": "2026-01-15T17:37:54+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Remove `awscli` from production images (#1282)\n\nThere is a security vulnerability in `awscli`. I considered ignoring the\nvulnerability, but actually a better approach might be for us to just\nremove the AWS CLI from the container images, since we don't actually\nuse it.\n\nThe only potential use would be from ad-hoc container sessions we use\nfor debugging, but we can just reinstall it if we need it in that case.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5705ecf823a2f894a48097e54d357dfa3f45c454",
+          "author": "Tom Dooner",
+          "created_at": "2026-01-15T22:20:31+00:00"
+        },
+        {
+          "message": "FFS-3566: Implement income activity in ActivityFlow (#1236)\n\n* Refactor webhook handling to support both flow types\n* Add flow navigator concept to centralize logic for navigation\n  differences between the flows\n* Add visual display of income activities in Activity Flow\n  pages\n\nCo-authored-by: Tom Dooner <tomdooner@navapbc.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c6f2fa5c9fb1af5bf73745c1d587274b62241ae7",
+          "author": "Ben Calegari",
+          "created_at": "2026-01-15T19:52:15+00:00"
+        },
+        {
+          "message": "FFS-3625 Implement NSC API in Education flow (#1251)\n\n* Create NSC service\n\n* fix positional argument, fix nsc service clearing cache\n\n* Simplify the enrollment status, improve service logging\n\n* nsc call returning empty enrollmentDetails case\n\ndisplay alert (allow to add comments)\n\n* use identity in activities\n\n* Correct the header during NSC call\n\n* nsc service multiple schools\n\nsearch for enrolled schools and select the first for (now)\n\n* remove the mock education service\n\n* fix: typo in frozen string\nclean up frozen strings\n\n* Remove min delay in NSC API call\n\nUse front end to delay the feedback (prevent short blink)\n\n* fix comment education activity status comment\n\n* Bump action_text-trix in /app in the bundler group across 1 directory (#1249)\n\nBumps the bundler group with 1 update in the /app directory: [action_text-trix](https://github.com/basecamp/trix).\n\n\nUpdates `action_text-trix` from 2.1.15 to 2.1.16\n- [Release notes](https://github.com/basecamp/trix/releases)\n- [Commits](https://github.com/basecamp/trix/compare/v2.1.15...v2.1.16)\n\n---\nupdated-dependencies:\n- dependency-name: action_text-trix\n  dependency-version: 2.1.16\n  dependency-type: indirect\n  dependency-group: bundler\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\n\n* N/A: Re-enable activity hub in local development\n\n* upfront the hardcoded token expiry interval for better visibility\n\n* FFS-3525: Forward structured logs to NewRelic (#1261)\n\nApparently since NewRelic doesn't officially support `semantic_logger`,\nwe need to use its appender to shove the logs into the NewRelic Ruby\nagent.\n\nI tested this locally and it seemed to work.\n\n* Fix i18n-tasks CI job failures (#1262)\n\nTwo strings were missing in Spanish (that's fine for now), and one was\nunused (that's also expected, since we haven't implemented the reporting\nrange functionality yet).\n\n* FFS-3656: Transmit pdf and json to states (#1258)\n\n- Change http-pdf to http_pdf to match existing camelcasing of transmission methods\n- Refactor url > json_api_url for disambiguation\n\n* nsc API request accountId as env\n\n* Create NSC service\n\n* fix positional argument, fix nsc service clearing cache\n\n* Simplify the enrollment status, improve service logging\n\n* nsc call returning empty enrollmentDetails case\n\ndisplay alert (allow to add comments)\n\n* use identity in activities\n\n* Correct the header during NSC call\n\n* nsc service multiple schools\n\nsearch for enrolled schools and select the first for (now)\n\n* remove the mock education service\n\n* fix: typo in frozen string\nclean up frozen strings\n\n* Remove min delay in NSC API call\n\nUse front end to delay the feedback (prevent short blink)\n\n* fix comment education activity status comment\n\n* upfront the hardcoded token expiry interval for better visibility\n\n* nsc API request accountId as env\n\n* education flow: fix no records found double alert\n\n* code format: add missing newline at the end of file\nUpdate .editorconfig\n\n* update the .editorconfig for global default\n\nautoformat education views\n\n* l10n Let the translator go over spanish\n\n* retry logic after 401\n\n* nsc service consent before call\n\nright now the consent is not persisted. When user gets into this section he already passed the consent screen\n\n* test nsc responses\n\n* nsc service connection timeout from var\n\n* remove dead translation\n\n* normalize the translation\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Daphne Gold <daphnegold@navapbc.com>\nCo-authored-by: Tom Dooner <tomdooner@navapbc.com>\nCo-authored-by: Ben Calegari <bencalegari@navapbc.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2978c1bb97b400b761d83940334814d9e78965f7",
+          "author": "Jan",
+          "created_at": "2026-01-15T18:40:32+00:00"
+        },
+        {
+          "message": "Bump pry from 0.15.2 to 0.16.0 in /app (#1273)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/86a607731fe2d28718e3482bb2fbe872a09e8f58",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T23:10:24+00:00"
+        },
+        {
+          "message": "Bump vitest from 4.0.16 to 4.0.17 in /app (#1276)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/70a77951a613c90fd147b9c43cf422b4ae79d841",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T23:03:08+00:00"
+        },
+        {
+          "message": "Bump brakeman from 7.1.1 to 7.1.2 in /app (#1268)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a497fefffa1a0cc619a7c8526406aaeec63693f7",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:59:58+00:00"
+        },
+        {
+          "message": "Bump faraday from 2.9.2 to 2.14.0 in /app (#1269)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c7bc0582966e2a193d902bfde133da6c3d048769",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:59:40+00:00"
+        },
+        {
+          "message": "Bump newrelic_rpm from 9.19.0 to 9.24.0 in /app (#1271)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3d262df5e166757517363d133145ebfa14b93ec1",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:59:13+00:00"
+        },
+        {
+          "message": "Bump @rails/actioncable from 8.1.100 to 8.1.200 in /app (#1274)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/350320efe072583ee228005e5c8134ffd8772a05",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:55:51+00:00"
+        },
+        {
+          "message": "Bump aws-sdk-s3 from 1.208.0 to 1.211.0 in /app (#1275)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d6b963d2bf4307bd8fa56734ec8399b8449400ec",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:55:28+00:00"
+        },
+        {
+          "message": "Bump vite from 7.3.0 to 7.3.1 in /app (#1272)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d16d6d6610bd41927e65c0f34b85705363765eb6",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-14T22:53:54+00:00"
+        },
+        {
+          "message": "Update CSP to use unsafe-inline style-src strategy (#1280)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/23f216b75534c5c842e556919d18d3d4148b0088",
+          "author": "Tim Miller",
+          "created_at": "2026-01-14T20:48:18+00:00"
+        },
+        {
+          "message": "Update .env to use non-localhost for AZ (#1279)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b3230901c7e370e043f9ca0702e87a2afd107a01",
+          "author": "Tom Dooner",
+          "created_at": "2026-01-14T19:02:59+00:00"
+        },
+        {
+          "message": "Bump happy-dom from 20.0.11 to 20.1.0 in /app (#1270)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4c702d7089bfbc1f2455713bf3e0c32297af4807",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-13T21:56:27+00:00"
+        },
+        {
+          "message": "Bump sass from 1.97.1 to 1.97.2 in /app (#1277)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cc3b86483ac5cf67128721c841f28a608ce6876d",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-13T21:56:01+00:00"
+        },
+        {
+          "message": "N/A: Add demo environment apply to infra checklist (#1278)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d20dd67b34ac2b1d755459862eb91ed139746afe",
+          "author": "Daphne Gold",
+          "created_at": "2026-01-13T17:59:12+00:00"
+        },
+        {
+          "message": "Receive PDFs in test implementation (#1264)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3b2097fadf9b3df20981b0ce473d53025e2bac4d",
+          "author": "Ben Calegari",
+          "created_at": "2026-01-12T23:00:28+00:00"
+        },
+        {
+          "message": "FFS-3677: Add PDF API transmission configuration for LA (#1267)\n\nThis updates the LA transmission method to use the (experimental) JSON +\nPDF delivery system. This is to allow for testing, since there's no live\nLA pilot occurring now.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fb1007d8e683bb6e297ac5f09be474ccde38b672",
+          "author": "Tom Dooner",
+          "created_at": "2026-01-12T19:38:39+00:00"
+        },
+        {
+          "message": "FFS-3607: Assign confirmation code to Activity Flows when submitted (#1263)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/6e1251c07dd89ec23e2f5daaaf93d26c9d235994",
+          "author": "Daphne Gold",
+          "created_at": "2026-01-12T19:37:40+00:00"
+        },
+        {
+          "message": "Bump urllib3 in /app/analytics in the pip group across 1 directory (#1259)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/102489f7d07508be3bd5e16caf5a63d643219674",
+          "author": "dependabot[bot]",
+          "created_at": "2026-01-12T18:13:25+00:00"
+        },
+        {
+          "message": "FFS-3645: Add \"custom_headers\" config to PDF API transmitter (#1265)\n\nThis got overlooked on the initial implementation but will be necessary:\nthe capability to add custom headers to the PDF API request (the same as\nthe JSON request).\n\nFor now I'm going to make these share the same \"custom_headers\" object\nin the configuration, since the values happen to be the same for LA, but\nin the future we can split them out if necessary.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7f056aa31c0df97ed1a53e2a8a8bfcc2220627d6",
+          "author": "Tom Dooner",
+          "created_at": "2026-01-12T17:32:49+00:00"
+        },
+        {
+          "message": "Upgrade 4 system packages to fix vulnerability scans (#1266)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/46870503ef91dc92ff1b90ac62cf38fc034d23e6",
+          "author": "Tom Dooner",
+          "created_at": "2026-01-12T17:08:53+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "description": "Test repository for Repolinter Actions",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "test",
+          "url": "https://github.com/DSACMS/testing-repository/pull/22",
+          "created_at": "2026-01-09T22:28:32+00:00",
+          "updated_at": "2026-01-09T22:28:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "test",
+          "url": "https://github.com/DSACMS/testing-repository/pull/21",
+          "created_at": "2026-01-09T22:27:50+00:00",
+          "updated_at": "2026-01-09T22:28:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Revert \"adding hotfix\"",
+          "url": "https://github.com/DSACMS/testing-repository/pull/20",
+          "created_at": "2026-01-09T22:25:00+00:00",
+          "updated_at": "2026-01-09T22:25:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "adding hotfix",
+          "url": "https://github.com/DSACMS/testing-repository/pull/19",
+          "created_at": "2026-01-09T22:24:23+00:00",
+          "updated_at": "2026-01-09T22:24:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "test",
+          "url": "https://github.com/DSACMS/testing-repository/pull/18",
+          "created_at": "2026-01-09T22:17:13+00:00",
+          "updated_at": "2026-01-09T22:25:47+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "test",
+          "url": "https://github.com/DSACMS/testing-repository/pull/17",
+          "created_at": "2026-01-09T22:16:27+00:00",
+          "updated_at": "2026-01-09T22:17:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Hotfix3",
+          "url": "https://github.com/DSACMS/testing-repository/pull/16",
+          "created_at": "2026-01-09T22:14:21+00:00",
+          "updated_at": "2026-01-09T22:15:47+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "hotfix",
+          "url": "https://github.com/DSACMS/testing-repository/pull/15",
+          "created_at": "2026-01-09T22:10:28+00:00",
+          "updated_at": "2026-01-09T22:15:46+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "hotfix: adding type to data.json",
+          "url": "https://github.com/DSACMS/testing-repository/pull/14",
+          "created_at": "2026-01-09T22:07:07+00:00",
+          "updated_at": "2026-01-09T22:09:29+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "adding random 2",
+          "url": "https://github.com/DSACMS/testing-repository/commit/6473fb5da34e2f0fd9f6aa07b02b382e7f5898f9",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-09T22:04:31+00:00"
+        },
+        {
+          "message": "adding random",
+          "url": "https://github.com/DSACMS/testing-repository/commit/83371214b76ca25bd5ee3faf61c2d5aabcb69df4",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-09T22:04:09+00:00"
+        },
+        {
+          "message": "testing hotfix sync action",
+          "url": "https://github.com/DSACMS/testing-repository/commit/90d6d3a54c4597c7cf62534a8d39ba537e33e09d",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-09T22:03:06+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Sachin Panayil",
+          "company": "@DSACMS ",
+          "created_at": "2021-02-20T21:39:48+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Github Action that allows for automated code.json creation and maintenance ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Fixing broken field bug",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/104",
+          "created_at": "2026-01-15T18:49:55+00:00",
+          "updated_at": "2026-01-15T20:26:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Inherit from gov-codejson with tests",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/102",
+          "created_at": "2025-12-29T17:18:02+00:00",
+          "updated_at": "2026-01-12T18:12:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/101",
+          "created_at": "2025-12-22T18:11:46+00:00",
+          "updated_at": "2026-01-15T20:28:33+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump the npm-development group across 1 directory with 14 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/89",
+          "created_at": "2025-11-17T18:32:33+00:00",
+          "updated_at": "2026-01-12T22:31:38+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump akhilmhdh/contributors-readme-action from 2.3.10 to 2.3.11 in the actions-minor group across 1 directory",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/69",
+          "created_at": "2025-09-22T18:28:51+00:00",
+          "updated_at": "2026-01-12T22:27:02+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "adding auto updating schema checker",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/0a50f3e69b26820597add6f840694363beebeecc",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-15T22:31:45+00:00"
+        },
+        {
+          "message": "adding auto updating schema checker",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/6b120b8c83a65ae930f59a371e3b82b3b18654b5",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-15T22:31:28+00:00"
+        },
+        {
+          "message": "Adding Verbose Error Logging",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/972f086c18ea8d0183067142a56e1d4438521b47",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-15T21:43:59+00:00"
+        },
+        {
+          "message": "Fixing broken field bug (#104)\n\n* add .or literal addition\n\n* adding verbose error logging\n\n* editing code.json to trigger validation\n\n* changing version for action\n\n* manually editing code.json schema to trigger fail\n\n* adding package to handle errors\n\n* reverting things",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/b30267ce94fb20b9e68d783395f4b5c31f959bb0",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-15T20:26:05+00:00"
+        },
+        {
+          "message": "Inherit from gov-codejson with tests (#102)\n\n* created script to pull from source model and created tests\n\n* changing branch name for testing\n\n* created a test action\n\n* sytanx issue\n\n* Reverting back to feature branch\n\n* added run script and logging",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/commit/aa5ed74488f4138cb10fb0fe1a999eb7912f1525",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-12T18:12:42+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Weekly Changelog Summary: 2026-01-02 to 2026-01-09",
+          "url": "https://github.com/DSACMS/super-changelog/pull/45",
+          "created_at": "2026-01-09T03:01:14+00:00",
+          "updated_at": "2026-01-09T03:01:14+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "description": "A modern version of a health provider directory to serve as a single source of truth for the benefit of all",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Set fismaLevel to 'low' in code.json",
+          "url": "https://github.com/DSACMS/npd/pull/335",
+          "created_at": "2026-01-15T20:41:51+00:00",
+          "updated_at": "2026-01-15T20:57:48+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-759] Removing \"Search\" Parameter from Documentation",
+          "url": "https://github.com/DSACMS/npd/pull/334",
+          "created_at": "2026-01-15T17:02:09+00:00",
+          "updated_at": "2026-01-15T18:16:05+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/merge release into main",
+          "url": "https://github.com/DSACMS/npd/pull/333",
+          "created_at": "2026-01-14T19:43:04+00:00",
+          "updated_at": "2026-01-14T19:45:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Updating main with release",
+          "url": "https://github.com/DSACMS/npd/pull/332",
+          "created_at": "2026-01-14T19:40:09+00:00",
+          "updated_at": "2026-01-14T19:41:37+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Merge main into release after merging release ",
+          "url": "https://github.com/DSACMS/npd/pull/331",
+          "created_at": "2026-01-14T19:36:17+00:00",
+          "updated_at": "2026-01-14T19:38:53+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Merge release into main",
+          "url": "https://github.com/DSACMS/npd/pull/330",
+          "created_at": "2026-01-14T19:32:28+00:00",
+          "updated_at": "2026-01-14T19:33:48+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Revert \"change practitioner whitespace to match main\"",
+          "url": "https://github.com/DSACMS/npd/pull/329",
+          "created_at": "2026-01-14T19:29:41+00:00",
+          "updated_at": "2026-01-14T19:30:50+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "change practitioner whitespace to match main",
+          "url": "https://github.com/DSACMS/npd/pull/328",
+          "created_at": "2026-01-14T19:26:02+00:00",
+          "updated_at": "2026-01-14T19:28:39+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-755] Fixing Feature Flag Bug",
+          "url": "https://github.com/DSACMS/npd/pull/327",
+          "created_at": "2026-01-14T19:24:33+00:00",
+          "updated_at": "2026-01-15T18:29:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "changing whitespace in test_practitioner.py",
+          "url": "https://github.com/DSACMS/npd/pull/326",
+          "created_at": "2026-01-14T19:20:07+00:00",
+          "updated_at": "2026-01-14T19:22:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "1/14/2026 Big whammy release candidate",
+          "url": "https://github.com/DSACMS/npd/pull/325",
+          "created_at": "2026-01-14T19:15:53+00:00",
+          "updated_at": "2026-01-14T19:45:31+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/the perfect storm",
+          "url": "https://github.com/DSACMS/npd/pull/324",
+          "created_at": "2026-01-14T19:09:42+00:00",
+          "updated_at": "2026-01-14T19:12:12+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/were gonna need a bigger boat",
+          "url": "https://github.com/DSACMS/npd/pull/323",
+          "created_at": "2026-01-14T19:00:04+00:00",
+          "updated_at": "2026-01-14T19:02:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Wbprice/nuke it from orbit its the only way to be sure",
+          "url": "https://github.com/DSACMS/npd/pull/322",
+          "created_at": "2026-01-14T18:54:17+00:00",
+          "updated_at": "2026-01-14T18:56:51+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix metadata path to align with hotfix change",
+          "url": "https://github.com/DSACMS/npd/pull/321",
+          "created_at": "2026-01-14T18:39:18+00:00",
+          "updated_at": "2026-01-14T18:42:04+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Sjp/another merge try",
+          "url": "https://github.com/DSACMS/npd/pull/320",
+          "created_at": "2026-01-14T18:36:10+00:00",
+          "updated_at": "2026-01-14T18:47:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fixing Additional Merge Conflicts for Big Whammy Release",
+          "url": "https://github.com/DSACMS/npd/pull/319",
+          "created_at": "2026-01-14T17:23:45+00:00",
+          "updated_at": "2026-01-14T18:31:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fixing merge conflicts associated with Big Whammy Release",
+          "url": "https://github.com/DSACMS/npd/pull/318",
+          "created_at": "2026-01-13T21:47:52+00:00",
+          "updated_at": "2026-01-13T21:53:30+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "1/13/2026 Big whammy release candidate",
+          "url": "https://github.com/DSACMS/npd/pull/317",
+          "created_at": "2026-01-13T21:09:59+00:00",
+          "updated_at": "2026-01-14T19:15:13+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-704/5] Adding Search Navigation",
+          "url": "https://github.com/DSACMS/npd/pull/316",
+          "created_at": "2026-01-13T19:12:37+00:00",
+          "updated_at": "2026-01-14T17:42:58+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Fix Interpolated String Bug ",
+          "url": "https://github.com/DSACMS/npd/pull/315",
+          "created_at": "2026-01-12T21:12:48+00:00",
+          "updated_at": "2026-01-13T17:59:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-677] Improve Test Assertions for Location Tests",
+          "url": "https://github.com/DSACMS/npd/pull/314",
+          "created_at": "2026-01-09T23:12:36+00:00",
+          "updated_at": "2026-01-09T23:12:37+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Automated Hotfix Sync to Main",
+          "url": "https://github.com/DSACMS/npd/pull/313",
+          "created_at": "2026-01-09T22:35:25+00:00",
+          "updated_at": "2026-01-13T21:48:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fixing Failing Snyk Status",
+          "url": "https://github.com/DSACMS/npd/pull/312",
+          "created_at": "2026-01-09T21:34:47+00:00",
+          "updated_at": "2026-01-09T21:59:34+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Replicating changes from #308 in main",
+          "url": "https://github.com/DSACMS/npd/pull/311",
+          "created_at": "2026-01-09T20:51:00+00:00",
+          "updated_at": "2026-01-09T21:18:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-676] Improve Test Assertions for Endpoint Tests",
+          "url": "https://github.com/DSACMS/npd/pull/310",
+          "created_at": "2026-01-09T20:40:21+00:00",
+          "updated_at": "2026-01-09T20:40:22+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Adding Search Navigation",
+          "url": "https://github.com/DSACMS/npd/pull/309",
+          "created_at": "2026-01-09T20:12:46+00:00",
+          "updated_at": "2026-01-13T18:48:24+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-692] Updating provider pk",
+          "url": "https://github.com/DSACMS/npd/pull/308",
+          "created_at": "2026-01-09T16:29:39+00:00",
+          "updated_at": "2026-01-09T20:47:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "[NDH-692] Documentation issue for Single Practitioner Endpoint",
+          "url": "https://github.com/DSACMS/npd/pull/305",
+          "created_at": "2026-01-08T17:58:00+00:00",
+          "updated_at": "2026-01-09T18:32:43+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-483] Adding Basic Sort Functionality ",
+          "url": "https://github.com/DSACMS/npd/pull/304",
+          "created_at": "2026-01-07T19:53:58+00:00",
+          "updated_at": "2026-01-09T21:20:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Fixing Search Bugs",
+          "url": "https://github.com/DSACMS/npd/pull/301",
+          "created_at": "2026-01-06T21:54:16+00:00",
+          "updated_at": "2026-01-09T21:20:37+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-478] Practitioner Search Page and Sort Capabilities",
+          "url": "https://github.com/DSACMS/npd/pull/297",
+          "created_at": "2026-01-05T20:10:05+00:00",
+          "updated_at": "2026-01-15T18:30:05+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-539] Add Missing Long/Lat Filter and Parameters Missing in FHIREndpointViewSet",
+          "url": "https://github.com/DSACMS/npd/pull/279",
+          "created_at": "2025-12-17T20:01:32+00:00",
+          "updated_at": "2026-01-12T15:35:56+00:00",
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-539] Add Parameters Missing in FHIRPractitionerRoleViewSet",
+          "url": "https://github.com/DSACMS/npd/pull/273",
+          "created_at": "2025-12-15T23:32:29+00:00",
+          "updated_at": "2026-01-15T22:55:31+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "[NDH-278] Build out OrganizationAffiliation endpoint",
+          "url": "https://github.com/DSACMS/npd/pull/270",
+          "created_at": "2025-12-12T22:58:15+00:00",
+          "updated_at": "2026-01-09T20:00:11+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Wbprice/merge release into main (#333)\n\n* Update release branch - take 02 (#261)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sarah Popelka <sarah.popelka1@cms.hhs.gov>\n\n* Add csrf environment variables and logging config (#296)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Sjp/fix 500 errors (#299)\n\n* adding test for /fhir page and fixing metadata maybe\n\n* fixing the /fhir and /metadata 500s\n\n* cleaning up the diff\n\n* Sjp/fix 500 errors (#300)\n\n* adding test for /fhir page and fixing metadata maybe\n\n* fixing the /fhir and /metadata 500s\n\n* cleaning up the diff\n\n* removing dependency on testserver for metadata endpoint\n\n* putting back csrf trusted origins\n\n* [NDH-692] Updating provider pk (#308)\n\n* Updating provider pk\n\n* cleaning up models.py\n\n* one more cleanup\n\n* update retrieve param naming for clarity\n\n* Fixing merge conflicts associated with Big Whammy Release (#318)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* adding migration, updating models.py and updating serializers (#262)\n\n* fixing dumb db var name bug (#263)\n\n* adding public, npd as the search path (#265)\n\n* adding public, npd as the search path\n\n* whops, wrong place\n\n* deleted the thing\n\n* Disable ecs service for gha (#266)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* hardcode npd database name (#267)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-574] Add Playwright GitHub Action (#264)\n\n- add optional \"make watch-frontend-test-assets\" target for live playwright testing\n- debug Practitioner end-to-end test in CI\n- update playwright documentation\n\n* [NDH-471] Organization listing page with pagination (#269)\n\n* initial Organization listing page\n* add e2e organization tests\n* update organization e2e test\n* add end-to-end fixture creation command, seedsystem\n* make e2e organizations tests rely on data present in system\n* support pagination on the organization listing page\n* add faker dependency, sort requirements\n* update organization listing frontend + e2e tests, fix bugs in pagination\n\n* EC2 Instance user data for semi-ephemeral EC2 GitHub Actions Runners (#271)\n\nPreconfigure EC2 instance for GitHub Actions with a User Data script\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update weekly refresh token using date modulo'd by 7 rather than milleseconds, which Terraform doesn't support (#274)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update trust policy to read from npd-ops rather than NPD (#275)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Use templatefile() in place of \"template_file\" (#276)\n\n* Update weekly refresh token (#277)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* NDH-572: apply AWS support recs (#258)\n\n* Ndh 613 delete test env (#280)\n\n* NDH-613: delete test env\n\n* delete envs/test directory\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\n\n* deleted clinical org repeatable-migration (#286)\n\n* Wbprice/ndh 584 resolve flyway schema already exists error (#281)\n\n* update db-migrations FLYWAY_DEFAULT_SCHEMA value\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-639] Add optional SQL query tracing to the backend test suite (#282)\n\n* add optional SQL query tracing to the backend test suite\n\n* only prepare file logging handler if SQL_TRACING is set\n\n* [NDH-479] Basic organization search (#272)\n\n* [NDH-479][WIP] Simple organization search\n\n* combine search and pagination for /organizations/search\n\n* react 19 doesn't need .Provider, swap context nesting\n\n* [NDH-618] Developer Page Content Changes (#288)\n\n* implemented content changes\n\n* adding robust tests\n\n* remove infrastructure definitions (#292)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update code.json metadata (#293)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* updated CODEOWNERS file to reflect current staff (#291)\n\n* add csrf config and csrf logging config (#298)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Adjusting Aria Levels and Side Bar (#290)\n\n* adjusting aria levels and accompanying tests\n\n* fixed inconsistent nav bar\n\n* [NDH-324] Amendments to Fixtures and Test cases (#256)\n\n* check all entries in filter assertions\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* address remaining comments\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create fixtures module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add another code to test data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* format code with ruff\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* patch location fixture\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix address use bug in serializer\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create seperate create_address method\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create non nurse records\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rename test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* change serializer for otherIDs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* verify length in test_list_filter_by_npi_specific\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rewrite the address filter to check to see if search appears in address when transformed into a string\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* check all addresses in tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix organization fixture module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports in seedsystem\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* revise for pr review\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* unused import\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* debug remove print\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* apply revision to general id filter\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* resolve conflict in markdown\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix typo causing test failure\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-641] Add Snyk GitHub Workflow (#284)\n\n* Create snyk.yml\n\n* Update snyk.yml\n\n* upgrade deps\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* added npm override to fix transitive dependency\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\n\n* backfilling hotfixes into main (#302)\n\n* fixing failing snyk status (#306)\n\n* Fixes in README.md (#307)\n\nFix misspelled word and link in the repo structure section.\n\n* replicating changes off of main (#311)\n\n* upgraded vulnerable package (#312)\n\n* updated sytnax to fix string bug] (#315)\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Adam Bachman <adam.bachman@cms.hhs.gov>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: sman-dsac <sunil.manchikanti1@cms.hhs.gov>\n\n* Fixing Additional Merge Conflicts for Big Whammy Release (#319)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* adding migration, updating models.py and updating serializers (#262)\n\n* fixing dumb db var name bug (#263)\n\n* adding public, npd as the search path (#265)\n\n* adding public, npd as the search path\n\n* whops, wrong place\n\n* deleted the thing\n\n* Disable ecs service for gha (#266)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* hardcode npd database name (#267)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-574] Add Playwright GitHub Action (#264)\n\n- add optional \"make watch-frontend-test-assets\" target for live playwright testing\n- debug Practitioner end-to-end test in CI\n- update playwright documentation\n\n* [NDH-471] Organization listing page with pagination (#269)\n\n* initial Organization listing page\n* add e2e organization tests\n* update organization e2e test\n* add end-to-end fixture creation command, seedsystem\n* make e2e organizations tests rely on data present in system\n* support pagination on the organization listing page\n* add faker dependency, sort requirements\n* update organization listing frontend + e2e tests, fix bugs in pagination\n\n* EC2 Instance user data for semi-ephemeral EC2 GitHub Actions Runners (#271)\n\nPreconfigure EC2 instance for GitHub Actions with a User Data script\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update weekly refresh token using date modulo'd by 7 rather than milleseconds, which Terraform doesn't support (#274)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update trust policy to read from npd-ops rather than NPD (#275)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Use templatefile() in place of \"template_file\" (#276)\n\n* Update weekly refresh token (#277)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* NDH-572: apply AWS support recs (#258)\n\n* Ndh 613 delete test env (#280)\n\n* NDH-613: delete test env\n\n* delete envs/test directory\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\n\n* deleted clinical org repeatable-migration (#286)\n\n* Wbprice/ndh 584 resolve flyway schema already exists error (#281)\n\n* update db-migrations FLYWAY_DEFAULT_SCHEMA value\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-639] Add optional SQL query tracing to the backend test suite (#282)\n\n* add optional SQL query tracing to the backend test suite\n\n* only prepare file logging handler if SQL_TRACING is set\n\n* [NDH-479] Basic organization search (#272)\n\n* [NDH-479][WIP] Simple organization search\n\n* combine search and pagination for /organizations/search\n\n* react 19 doesn't need .Provider, swap context nesting\n\n* [NDH-618] Developer Page Content Changes (#288)\n\n* implemented content changes\n\n* adding robust tests\n\n* remove infrastructure definitions (#292)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update code.json metadata (#293)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* updated CODEOWNERS file to reflect current staff (#291)\n\n* add csrf config and csrf logging config (#298)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Adjusting Aria Levels and Side Bar (#290)\n\n* adjusting aria levels and accompanying tests\n\n* fixed inconsistent nav bar\n\n* [NDH-324] Amendments to Fixtures and Test cases (#256)\n\n* check all entries in filter assertions\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* address remaining comments\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create fixtures module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add another code to test data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* format code with ruff\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* patch location fixture\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix address use bug in serializer\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create seperate create_address method\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create non nurse records\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rename test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* change serializer for otherIDs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* verify length in test_list_filter_by_npi_specific\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rewrite the address filter to check to see if search appears in address when transformed into a string\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* check all addresses in tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix organization fixture module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports in seedsystem\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* revise for pr review\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* unused import\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* debug remove print\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* apply revision to general id filter\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* resolve conflict in markdown\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix typo causing test failure\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-641] Add Snyk GitHub Workflow (#284)\n\n* Create snyk.yml\n\n* Update snyk.yml\n\n* upgrade deps\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* added npm override to fix transitive dependency\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\n\n* backfilling hotfixes into main (#302)\n\n* fixing failing snyk status (#306)\n\n* Fixes in README.md (#307)\n\nFix misspelled word and link in the repo structure section.\n\n* replicating changes off of main (#311)\n\n* upgraded vulnerable package (#312)\n\n* updated sytnax to fix string bug] (#315)\n\n* adding workflow that allows for automated sync from release to main (#313)\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Adam Bachman <adam.bachman@cms.hhs.gov>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: sman-dsac <sunil.manchikanti1@cms.hhs.gov>\n\n* Sjp/another merge try (#320)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing \u2026",
+          "url": "https://github.com/DSACMS/npd/commit/def1a9b667a9ea958acd0c857fe634f6904be344",
+          "author": "Blaine Price",
+          "created_at": "2026-01-14T19:45:28+00:00"
+        },
+        {
+          "message": "changing whitespace in test_practitioner.py (#326)",
+          "url": "https://github.com/DSACMS/npd/commit/44c41914fdff9993ecb9082847e3298e396642bc",
+          "author": "Sarah Popelka",
+          "created_at": "2026-01-14T19:22:47+00:00"
+        },
+        {
+          "message": "Wbprice/the perfect storm (#324)\n\n* Update release branch - take 02 (#261)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sarah Popelka <sarah.popelka1@cms.hhs.gov>\n\n* Add csrf environment variables and logging config (#296)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Sjp/fix 500 errors (#299)\n\n* adding test for /fhir page and fixing metadata maybe\n\n* fixing the /fhir and /metadata 500s\n\n* cleaning up the diff\n\n* Sjp/fix 500 errors (#300)\n\n* adding test for /fhir page and fixing metadata maybe\n\n* fixing the /fhir and /metadata 500s\n\n* cleaning up the diff\n\n* removing dependency on testserver for metadata endpoint\n\n* putting back csrf trusted origins\n\n* [NDH-692] Updating provider pk (#308)\n\n* Updating provider pk\n\n* cleaning up models.py\n\n* one more cleanup\n\n* update retrieve param naming for clarity\n\n* Fixing merge conflicts associated with Big Whammy Release (#318)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* adding migration, updating models.py and updating serializers (#262)\n\n* fixing dumb db var name bug (#263)\n\n* adding public, npd as the search path (#265)\n\n* adding public, npd as the search path\n\n* whops, wrong place\n\n* deleted the thing\n\n* Disable ecs service for gha (#266)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* hardcode npd database name (#267)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-574] Add Playwright GitHub Action (#264)\n\n- add optional \"make watch-frontend-test-assets\" target for live playwright testing\n- debug Practitioner end-to-end test in CI\n- update playwright documentation\n\n* [NDH-471] Organization listing page with pagination (#269)\n\n* initial Organization listing page\n* add e2e organization tests\n* update organization e2e test\n* add end-to-end fixture creation command, seedsystem\n* make e2e organizations tests rely on data present in system\n* support pagination on the organization listing page\n* add faker dependency, sort requirements\n* update organization listing frontend + e2e tests, fix bugs in pagination\n\n* EC2 Instance user data for semi-ephemeral EC2 GitHub Actions Runners (#271)\n\nPreconfigure EC2 instance for GitHub Actions with a User Data script\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update weekly refresh token using date modulo'd by 7 rather than milleseconds, which Terraform doesn't support (#274)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update trust policy to read from npd-ops rather than NPD (#275)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Use templatefile() in place of \"template_file\" (#276)\n\n* Update weekly refresh token (#277)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* NDH-572: apply AWS support recs (#258)\n\n* Ndh 613 delete test env (#280)\n\n* NDH-613: delete test env\n\n* delete envs/test directory\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\n\n* deleted clinical org repeatable-migration (#286)\n\n* Wbprice/ndh 584 resolve flyway schema already exists error (#281)\n\n* update db-migrations FLYWAY_DEFAULT_SCHEMA value\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-639] Add optional SQL query tracing to the backend test suite (#282)\n\n* add optional SQL query tracing to the backend test suite\n\n* only prepare file logging handler if SQL_TRACING is set\n\n* [NDH-479] Basic organization search (#272)\n\n* [NDH-479][WIP] Simple organization search\n\n* combine search and pagination for /organizations/search\n\n* react 19 doesn't need .Provider, swap context nesting\n\n* [NDH-618] Developer Page Content Changes (#288)\n\n* implemented content changes\n\n* adding robust tests\n\n* remove infrastructure definitions (#292)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update code.json metadata (#293)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* updated CODEOWNERS file to reflect current staff (#291)\n\n* add csrf config and csrf logging config (#298)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Adjusting Aria Levels and Side Bar (#290)\n\n* adjusting aria levels and accompanying tests\n\n* fixed inconsistent nav bar\n\n* [NDH-324] Amendments to Fixtures and Test cases (#256)\n\n* check all entries in filter assertions\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* address remaining comments\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create fixtures module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add another code to test data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* format code with ruff\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* patch location fixture\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix address use bug in serializer\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create seperate create_address method\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create non nurse records\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rename test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* change serializer for otherIDs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* verify length in test_list_filter_by_npi_specific\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rewrite the address filter to check to see if search appears in address when transformed into a string\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* check all addresses in tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix organization fixture module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports in seedsystem\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* revise for pr review\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* unused import\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* debug remove print\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* apply revision to general id filter\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* resolve conflict in markdown\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix typo causing test failure\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-641] Add Snyk GitHub Workflow (#284)\n\n* Create snyk.yml\n\n* Update snyk.yml\n\n* upgrade deps\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* added npm override to fix transitive dependency\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\n\n* backfilling hotfixes into main (#302)\n\n* fixing failing snyk status (#306)\n\n* Fixes in README.md (#307)\n\nFix misspelled word and link in the repo structure section.\n\n* replicating changes off of main (#311)\n\n* upgraded vulnerable package (#312)\n\n* updated sytnax to fix string bug] (#315)\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Adam Bachman <adam.bachman@cms.hhs.gov>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: sman-dsac <sunil.manchikanti1@cms.hhs.gov>\n\n* Fixing Additional Merge Conflicts for Big Whammy Release (#319)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accidental package-lock stuff\n\n* Change trigger for backend tests (#259)\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Backend test fix (#260)\n\n* Change trigger for backend tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove upstream reporting tool\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* adding migration, updating models.py and updating serializers (#262)\n\n* fixing dumb db var name bug (#263)\n\n* adding public, npd as the search path (#265)\n\n* adding public, npd as the search path\n\n* whops, wrong place\n\n* deleted the thing\n\n* Disable ecs service for gha (#266)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* hardcode npd database name (#267)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-574] Add Playwright GitHub Action (#264)\n\n- add optional \"make watch-frontend-test-assets\" target for live playwright testing\n- debug Practitioner end-to-end test in CI\n- update playwright documentation\n\n* [NDH-471] Organization listing page with pagination (#269)\n\n* initial Organization listing page\n* add e2e organization tests\n* update organization e2e test\n* add end-to-end fixture creation command, seedsystem\n* make e2e organizations tests rely on data present in system\n* support pagination on the organization listing page\n* add faker dependency, sort requirements\n* update organization listing frontend + e2e tests, fix bugs in pagination\n\n* EC2 Instance user data for semi-ephemeral EC2 GitHub Actions Runners (#271)\n\nPreconfigure EC2 instance for GitHub Actions with a User Data script\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update weekly refresh token using date modulo'd by 7 rather than milleseconds, which Terraform doesn't support (#274)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update trust policy to read from npd-ops rather than NPD (#275)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Use templatefile() in place of \"template_file\" (#276)\n\n* Update weekly refresh token (#277)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* NDH-572: apply AWS support recs (#258)\n\n* Ndh 613 delete test env (#280)\n\n* NDH-613: delete test env\n\n* delete envs/test directory\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\n\n* deleted clinical org repeatable-migration (#286)\n\n* Wbprice/ndh 584 resolve flyway schema already exists error (#281)\n\n* update db-migrations FLYWAY_DEFAULT_SCHEMA value\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-639] Add optional SQL query tracing to the backend test suite (#282)\n\n* add optional SQL query tracing to the backend test suite\n\n* only prepare file logging handler if SQL_TRACING is set\n\n* [NDH-479] Basic organization search (#272)\n\n* [NDH-479][WIP] Simple organization search\n\n* combine search and pagination for /organizations/search\n\n* react 19 doesn't need .Provider, swap context nesting\n\n* [NDH-618] Developer Page Content Changes (#288)\n\n* implemented content changes\n\n* adding robust tests\n\n* remove infrastructure definitions (#292)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update code.json metadata (#293)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* updated CODEOWNERS file to reflect current staff (#291)\n\n* add csrf config and csrf logging config (#298)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Adjusting Aria Levels and Side Bar (#290)\n\n* adjusting aria levels and accompanying tests\n\n* fixed inconsistent nav bar\n\n* [NDH-324] Amendments to Fixtures and Test cases (#256)\n\n* check all entries in filter assertions\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* address remaining comments\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create fixtures module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add another code to test data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* format code with ruff\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* remove unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* patch location fixture\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix address use bug in serializer\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create seperate create_address method\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* create non nurse records\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rename test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* change serializer for otherIDs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* verify length in test_list_filter_by_npi_specific\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* rewrite the address filter to check to see if search appears in address when transformed into a string\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* check all addresses in tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix organization fixture module\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix imports in seedsystem\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* revise for pr review\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* unused import\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* debug remove print\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* apply revision to general id filter\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* resolve conflict in markdown\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix typo causing test failure\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-641] Add Snyk GitHub Workflow (#284)\n\n* Create snyk.yml\n\n* Update snyk.yml\n\n* upgrade deps\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* added npm override to fix transitive dependency\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\n\n* backfilling hotfixes into main (#302)\n\n* fixing failing snyk status (#306)\n\n* Fixes in README.md (#307)\n\nFix misspelled word and link in the repo structure section.\n\n* replicating changes off of main (#311)\n\n* upgraded vulnerable package (#312)\n\n* updated sytnax to fix string bug] (#315)\n\n* adding workflow that allows for automated sync from release to main (#313)\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\nCo-authored-by: dturner5234 <daniel.r.turner@pilot.cms.gov>\nCo-authored-by: Isaac Milarsky <imilarsky@gmail.com>\nCo-authored-by: Adam Bachman <adam.bachman@cms.hhs.gov>\nCo-authored-by: rmillergv <ross.miller@cms.hhs.gov>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Sachin Panayil <79382140+sachin-panayil@users.noreply.github.com>\nCo-authored-by: tspecht-cms <trevor.specht@cms.hhs.gov>\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\nCo-authored-by: Sachin Panayil <sachinpanayil01@gmail.com>\nCo-authored-by: sman-dsac <sunil.manchikanti1@cms.hhs.gov>\n\n* Sjp/another merge try (#320)\n\n* add missing file (#209)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update load balancer listener config, update allowed hosts in django (#210)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* update allowed hosts (#211)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* remove strategy page redirect\n\n- because it is difficult to read and reason about\n- the strategy of asking terraform to hop from one load balancer\n  listener to another on the fly is brittle and failed out on me during\n  a prod deploy\n\n* clean up remaining redirect to strategy page config\n\n* terraform  fmt\n\n* Wbprice/internal dns configuration (#213)\n\n* create internal dns configuration to be imported into infoblocks\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Remove sandbox terraform definitions and github actions workflows (#214)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* specify storage autoscaling limits (#215)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-303] Implement Custom Sorting in FHIR API (#195)\n\n* add custom sorting to endpoint view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add custom sorting for practitioner role view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add location view set\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix errors\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add tests for custom sorting functionality\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* conform to proper parameter name in ticket\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add sort parameter to swagger docs\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* Use an alias to describe directory domain (#217)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-446] ensure login header, footer, and body are responsive on mobile (#216)\n\n* ensure header title does not wrap at desktop size (#218)\n\n* ensure header title does not wrap at desktop size\n\n* handle logo margin at <desktop >mobile sizes\n\n* [NDH-399] Introducing feature flags! (#193)\n\n* [NDH-399] Introducing feature flags!\n\n* move feature flags under frontend settings\n\n* finish FeatureFlag support in frontend, including examples of testing\n\n* finish frontend feature flag setup work\n\n* remove 'localhost:8000' from ALLOWED_HOSTS\n\n* fix typo in comment\n\n* add repeatable seed migrations for local development\n\n* restore existing migration from main\n\n* fix typo in django_migrations readme\n\n* fix test fixture creation for feature flag condition\n\n* added ross miller to the team in COMMUNITY.md (#222)\n\n* added ross miller to the team in COMMUNITY.md\n\n* Address review feedback for changes to COMMUNITY.md\n\n* updating contributors list (#224)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* updating contributors list (#225)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\n\n* Provision test resources (#219)\n\n* test, not impl\n\n* add test env\n\n* update test image tf_vars\n\n* bring in dns module\n\n* update default images for services\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-401]: Refactored tests.py into different suites (#223)\n\n* refactored tests.py into different suites\n\n* reverted our init re exports in filters\n\n* removed some comments\n\n* removed redundant helper\n\n* added requested changes\n\n* fix: address sorting change test breakage for LocationViewSetTestCase (#221)\n\n* Update internal domains (#226)\n\n* For internal domains, update 'directory' to read 'cnpd' now that a FISMA code has been assigned\n\n* Update docs\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* bump storage space in dev etl rds (#228)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* removed browsableAPI renderer (#230)\n\n* [NDH-359] Establish code quality baseline for Python and Typescript (#173)\n\n* [NDH-359] Add precommit-config including auto-formatting\n* ruff format everything in backend/\n* add Python linting to backend-test CI workflow\n* add backend/Makefile commands for installing ruff and pre-commit and running lint + format\n* update documentation\n\n* re-enable dms (#229)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update CODEOWNERS file (#231)\n\n* update CODEOWNERS file to describe notification and reviewer expectations\n* rename CODEOWNERS file, swap comment syntax\n\n* Introduce Playwright for end-to-end-testing (#227)\n\n* introducing playwright for end-to-end testing of the NPD application\n\n* make sure the backend knows when it is running as a test-server\n\n* allow frontend dev server to use VITE_API_BASE_URL as proxy target\n\n* make frontend a little more testable\n\n* ensure backend works when TESTING is not in env\n\n* npm install insists\n\n* add Playwright running notes\n\n* backend `make` commands  necessary for playwright and useful for development\n\n* update playwright documentation\n\n* Update code.json metadata (#235)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* CI Runner Out of Space Errors (#232)\n\n- Increase default size of CI instance from 31G (default) to 250G\n- Update documentation to describe how to increase size of volumes\n  backing the root volume where the CI runner works\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-398] Organization details screen - initial work (#198)\n\n* [NDH-398] introduce @tanstack/react-query, start shaping the Organization lookup page\n\n* ensure Organization page renders in test with feature flags obeyed\n\n* fix inverse feature flag logic\n\n* npm install inside container keeps fiddling with package-lock.json\n\n* set VITE_API_BASE_URL in GitHub Action frontend test workflow\n\n* add basic Organization page sections, update styles\n\n* put update your details alert inside feature flag block\n\n* Fixing Failing Gitleaks Action (#238)\n\n* added false positive fingerprints to .gitleaksignore\n\n* missed two of them\n\n* [NDH-448] Modify Django Tests to Use setUpTestData Methods Instead of Sample Data SQL (#234)\n\n* add flyway option to exclude sample data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* First draft of creating fixture and factory test data helpers for implementation with tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* move fixtures file anfter moving in test refactor changes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get some of the fixtures working and patch overwrite in compose-test\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* bug fixes\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* need to insert all required data\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* now have working tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* make sure to use lists when it makes sense\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* ruff formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* fix unused variables\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add proper sorting test back\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* self-referencing rules for etl and fhir api db security groups (#233)\n\n* self-referencing for etl and fhir api db security groups\n\n* update dms to target npd_staging\n\n* Change task to full-load and CDC\n\n* revert stop task setting\n\n* \"MaxFullLoadSubTasks\": 2 for testing\n\n* remove local.multi_az reference; remove try statements\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Dan Turner <daniel.turner1@cms.hhs.gov>\n\n* Automate export of FHIR API schema to Typescript (#239)\n\n* automate export of FHIR API schema to Typescript\n\n* drop old types file\n\n* update test fixtures with new API types\n\n* http -> https redirect (#245)\n\n- creates http -> https redirect for directory.cms.gov (prod)\n- updates production domain names for directory.cms.gov and\n  api.directory.cms.gov in domains module\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* correct typo in lvextend instructions (#244)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-424] Unified project tooling (#237)\n\n* [NDH-424] add bin/npr script to the project\n\n* drop make commands from npr\n\n* consolidate to a single docker compose configuration file setup\n\n* move project-central make commands to a top-level Makefile\n\n* don't run playwright host commands with bin/npr\n\n* ensure playwright can correctly start test-server, finish Makefile .PHONY entries\n\n* drop backend/docker-compose.yml reference from bin/npr\n\n* use bin/npr in make tasks whenever possible, rename test-fast to test-backend, add test-frontend\n\n* update GHA test jobs to match new structure\n\n* make  and bin/npr should use compose.test.yml to run db migrations for test-setup\n\n* update documentation, ensure all make and npr commands work\n\n* update note on frontend dependencies\n\n* do not include flyway local_dev in compose.test.yml\n\n* Organization component test should wait for feature flag components to render (#246)\n\n* NDH-520: set up prod-test env (#248)\n\n* NDH-520: set up prod-test env\n\n* add prod-test map to domains module\n\n* name change to stay under 32 chars\n\n* apply name change\n\n* apply name change in all the places\n\n* update readme with prod-test info\n\n* more dagster -> etl naming change\n\n---------\n\nCo-authored-by: tspecht-cms <trevor.specht@hhs.cms.gov>\nCo-authored-by: Blaine Price <1wbprice@gmail.com>\n\n* [NDH-553] Basic React error pages (#249)\n\n* [NDH-552] move default user creation to django command, add auth helper for e2e testing\n\n* [NDH-553] add basic ErrorBoundary and NotFound pages\n\n* add not_found end-to-end test\n\n* [NDH-324] Improve Practitioner Test Assertions (#250)\n\n* add equal checks to filter tests\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add check for nucc codes in test practitioner\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* add functionality to create fixture data with practitioners tied to location\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* get all address related tests working\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* formatting\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n---------\n\nSigned-off-by: Isaac Milarsky <imilarsky@gmail.com>\n\n* [NDH-397] Initial Practitioner page (#240)\n\n- generic API support updates\n- end-to-end test\n\n* [NDH-476]: Organization Detail MVP (#242)\n\n* used translation files to display text\n\n* fixed definitions\n\n* added about section\n\n* added contact section\n\n* implemented identifiers section\n\n* removed bad file\n\n* refactored into new type framework\n\n* added some tests\n\n* removed some tests\n\n* adding requested changes\n\n* [NDH-559] provider_directory.tests.test_views should not rely on file system (#252)\n\n* Wbprice/self hosted runner containers (#251)\n\n* exploratory work on self-hosted github runners running in ecs, adapted from https://www.warpbuild.com/blog/self-hosting-github-actions\\#method-2-using-ecs-elastic-container-service\n\n---------\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* Update internal route53 configuration (#253)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* we want an internal domain for the directory in prod-test (#255)\n\nCo-authored-by: Blaine Price <william.price@cms.hhs.gov>\n\n* [NDH-477]: Practitioner Page MVP (#254)\n\n* contact layout section + translations implemented\n\n* created baseline about and contact\n\n* implemted identifiers section\n\n* refactored selectors into a Presenter class\n\n* added more translations\n\n* added more translations that i forgor\n\n* some tweaks to support working with real data (#206)\n\n* some tweaks to support working with real data\n\n* reverting settings changes\n\n* fix failing test and remove print statement\n\n* tweaks\n\n* tweaks\n\n* adding parent_org and associated test\n\n* fixing broken tests\n\n* linting fixes\n\n* fixing accide\u2026",
+          "url": "https://github.com/DSACMS/npd/commit/7594cccadf0f1849568d32693e507b58875af741",
+          "author": "Blaine Price",
+          "created_at": "2026-01-14T19:12:12+00:00"
+        },
+        {
+          "message": "removing the conflict at the source (#321)",
+          "url": "https://github.com/DSACMS/npd/commit/c88d95854806d18fefb5f977265d2ae09fb39474",
+          "author": "Sarah Popelka",
+          "created_at": "2026-01-14T18:41:54+00:00"
+        },
+        {
+          "message": "adding workflow that allows for automated sync from release to main (#313)",
+          "url": "https://github.com/DSACMS/npd/commit/c6d3fed54e63855347485b825004ecb5a2811719",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-13T21:48:23+00:00"
+        },
+        {
+          "message": "updated sytnax to fix string bug] (#315)",
+          "url": "https://github.com/DSACMS/npd/commit/f978be3b56a627c547a782ef03a7a110da3ce24a",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-13T17:59:31+00:00"
+        },
+        {
+          "message": "upgraded vulnerable package (#312)",
+          "url": "https://github.com/DSACMS/npd/commit/bd5a0671ff292ce19aa4b8c4b84305ed5e0f58e7",
+          "author": "Sachin Panayil",
+          "created_at": "2026-01-09T21:59:30+00:00"
+        },
+        {
+          "message": "replicating changes off of main (#311)",
+          "url": "https://github.com/DSACMS/npd/commit/d79ab117c4c374c82e4d06b053eab7cd2da41e03",
+          "author": "Sarah Popelka",
+          "created_at": "2026-01-09T21:18:52+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Add pr checks",
+          "url": "https://github.com/DSACMS/metrics_frontend/pull/5",
+          "created_at": "2026-01-07T17:02:23+00:00",
+          "updated_at": "2026-01-16T02:38:29+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "contributors": [
+        {
+          "name": "Dinne Kopelevich",
+          "company": "DSAC(Work), GSA (work) + personal projects",
+          "created_at": "2020-04-17T19:37:59+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": []
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Fix links and add scss\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/pra-guides/commit/da5efd415ae953bcbe81868532f473abc34798bd",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-01-14T03:05:39+00:00"
+        },
+        {
+          "message": "Add all directories and links\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+          "url": "https://github.com/DSACMS/pra-guides/commit/cf9529772e3f02a2a0008e8f1206a669d039bf61",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-01-14T00:47:39+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "description": null,
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Refactor Config struct to embed core.Config as Core",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/15",
+          "created_at": "2026-01-15T18:31:12+00:00",
+          "updated_at": "2026-01-15T18:31:12+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "infra/circuit breaker: Refactor config and add circuit breaker middleware",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/14",
+          "created_at": "2026-01-12T19:02:49+00:00",
+          "updated_at": "2026-01-14T18:23:39+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Infra/package choice",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/13",
+          "created_at": "2026-01-12T15:35:24+00:00",
+          "updated_at": "2026-01-12T15:55:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Infra/circuit breaker",
+          "url": "https://github.com/DSACMS/verification-service-api/pull/12",
+          "created_at": "2026-01-07T18:32:53+00:00",
+          "updated_at": "2026-01-12T15:55:52+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #13 from DSACMS/infra/package-choice\n\nInfra/package choice",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/dd2b8ee7bb79b43c077285ca27b475f307d9e90a",
+          "author": "Imhotep Benjamin",
+          "created_at": "2026-01-12T15:55:49+00:00"
+        },
+        {
+          "message": "Rename FunctionTernary to FuncTernary\n\nSimplified Function Ternary name",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/a27e5a728f7f5d5b23670555f407f48eff4267ea",
+          "author": "Imhotep Benjamin",
+          "created_at": "2026-01-12T15:47:50+00:00"
+        },
+        {
+          "message": "Add generic ternary and function ternary utilities\n\nIntroduces Ternary and FunctionTernary functions in pkg/choice/choice.go to provide generic ternary operator functionality for values and functions.",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/764cbe8f60be12b76cb2e0aac100410683f6ce45",
+          "author": "Imhotep Benjamin",
+          "created_at": "2026-01-12T15:33:27+00:00"
+        },
+        {
+          "message": "Refactor otel_test.go to use testify assertions\n\nReplaces manual error checks in TestOtel_EmitsSpan with testify's require.Len and assert.Equal for improved readability and consistency in test assertions.",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/8f7f0baa785f6632991992660c99ce0c19ef2ffb",
+          "author": "Imhotep Benjamin",
+          "created_at": "2026-01-09T18:46:37+00:00"
+        },
+        {
+          "message": "Refactor Redis config to use core.Config struct\n\nMoved Redis configuration from environment variables to the core.Config struct, updating StatusRouter and related tests to accept Redis settings from config. Added RedisConfig to core.Config, with helper functions and environment variable support. Improved context handling in status handler and cleaned up middleware comments. Updated circuit breaker tests and added interface assertion for RedisBreaker.",
+          "url": "https://github.com/DSACMS/verification-service-api/commit/5e8bba2d84db5f42ccdf77b193ac02d3844d1a96",
+          "author": "Imhotep Benjamin",
+          "created_at": "2026-01-09T18:33:52+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": []
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "description": "A suite of tools to assist organizations with archiving repositories",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Dsacms/nat/workflow",
+          "url": "https://github.com/DSACMS/repo-sunsetter/pull/3",
+          "created_at": "2026-01-14T22:41:58+00:00",
+          "updated_at": "2026-01-14T22:41:58+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Archival Checklists: Add the 2 archival checklists with README explainer",
+          "url": "https://github.com/DSACMS/repo-sunsetter/pull/2",
+          "created_at": "2026-01-14T20:08:36+00:00",
+          "updated_at": "2026-01-14T20:24:25+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Repolinter Results",
+          "url": "https://github.com/DSACMS/repo-sunsetter/pull/1",
+          "created_at": "2026-01-13T21:00:26+00:00",
+          "updated_at": "2026-01-13T21:00:27+00:00",
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "updating contributors list",
+          "url": "https://github.com/DSACMS/repo-sunsetter/commit/7a3749bde38f42332a1bf4146065d863a4a27469",
+          "author": "github-actions[bot]",
+          "created_at": "2026-01-13T20:59:39+00:00"
+        },
+        {
+          "message": "BOT: Update repo structure in README.md",
+          "url": "https://github.com/DSACMS/repo-sunsetter/commit/c2d258d540c0e43c9cffce56d27ddbaeb709f3ac",
+          "author": "github-actions[bot]",
+          "created_at": "2026-01-13T20:59:31+00:00"
+        },
+        {
+          "message": "initial commit",
+          "url": "https://github.com/DSACMS/repo-sunsetter/commit/3053c4f6f3ee8384f6a6a662e02dca685c52cc06",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-01-13T20:59:16+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Natalia Luzuriaga",
+          "company": "@CMSgov",
+          "created_at": "2017-07-07T13:48:50+00:00",
+          "email": "nat.luzuriaga@gmail.com"
+        }
+      ],
+      "changelog_entries": []
+    }
+  ],
+  "period": {
+    "start": "2026-01-09",
+    "end": "2026-01-16"
+  },
+  "generated_at": "2026-01-16T02:16:15.835773+00:00",
+  "total_repo_count": 73
+}
