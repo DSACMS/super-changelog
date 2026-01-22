@@ -39,6 +39,10 @@ jobs:
       - name: Generate summary
         run: |
           python scripts/generate_summary.py
+      
+      - name: Generate condensed summary
+        run: |
+          python scripts/generate_summary_condensed.py
 
       - name: Create Pull Request with Summary
         env: 
@@ -113,6 +117,93 @@ jobs:
                 --base main \
                 --head "$BRANCH_NAME" \
                 --label "changelog,automated" || \
+                gh pr create \
+                  --title "$PR_TITLE" \
+                  --body-file "$PR_BODY_FILE" \
+                  --base main \
+                  --head "$BRANCH_NAME"
+            else
+              echo "PR already exists for $BRANCH_NAME"
+            fi
+          else
+            echo "Could not find PR title or body files"
+            exit 1
+          fi
+
+      - name: Create Condensed Pull Request
+        env: 
+          GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
+        run: |
+          # Get latest condensed summary files
+          TIMESTAMP=$(date +"%Y-%m-%d")
+          PR_TITLE_FILE="changelog_data/summaries/pr_title_condensed_${TIMESTAMP}.txt"
+          PR_BODY_FILE="changelog_data/summaries/pr_body_condensed_${TIMESTAMP}.md"
+
+          if [ ! -f "$PR_TITLE_FILE" ] || [ ! -f "$PR_BODY_FILE" ]; then
+            echo "Condensed summary not found, checking latest file..."
+            PR_TITLE_FILE=$(ls -t changelog_data/summaries/pr_title_condensed_*.txt 2>/dev/null | head -n1)
+            PR_BODY_FILE=$(ls -t changelog_data/summaries/pr_body_condensed_*.md 2>/dev/null | head -n1)
+          fi
+
+          if [ -f "$PR_TITLE_FILE" ] && [ -f "$PR_BODY_FILE" ]; then
+            PR_TITLE=$(cat "$PR_TITLE_FILE")
+
+            BRANCH_NAME="weekly-changelog-condensed-$(date +"%Y-%m-%d")"
+
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git config --global pull.rebase true
+
+            if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
+              # rm -f changelog_data/data/weekly_changelog_*.json
+              # rm -f changelog_data/summaries/*_$(date +"%y-%m-%d").*
+
+              git stash --include-untracked
+              # git fetch origin "$BRANCH_NAME"
+              git fetch origin
+              git checkout "$BRANCH_NAME"
+              git pull origin "$BRANCH_NAME"
+              git stash pop || true
+            else
+              git checkout -b "$BRANCH_NAME"
+              git push --set-upstream origin "$BRANCH_NAME"
+            fi
+
+            python scripts/generate_changelog_weekly.py
+            python scripts/generate_summary_condensed.py
+
+            git add changelog_data/
+            if git diff-index --quiet HEAD --; then
+              echo "No changes to commit"
+            else
+              git commit -sm "Add weekly condensed changelog summary for $(date +"%Y-%m-%d")"
+            fi
+
+            for i in {1..3}; do
+              git reset --hard HEAD
+              git clean -fd
+              git pull origin "$BRANCH_NAME"
+              # git pull --rebase origin "$BRANCH_NAME"
+              if git push origin "$BRANCH_NAME"; then
+                break
+              fi
+              sleep 5
+            done
+
+            # git commit -sm "Add weekly condensed changelog summary for $(date +"%Y-%m-%d")" || echo "No changes to commit"
+            # git push origin "$BRANCH_NAME"
+
+            if ! gh pr view "$BRANCH_NAME" --json number 2>/dev/null; then
+              gh api repos/${{ github.repository }}/labels -f name='changelog' -f color='0E8A16' || true
+              gh api repos/${{ github.repository }}/labels -f name='automated' -f color='FB04D4' || true
+              gh api repos/${{ github.repository }}/labels -f name='condensed' -f color='FFD700' || true
+
+              gh pr create \
+                --title "$PR_TITLE" \
+                --body-file "$PR_BODY_FILE" \
+                --base main \
+                --head "$BRANCH_NAME" \
+                --label "changelog,automated,condensed" || \
                 gh pr create \
                   --title "$PR_TITLE" \
                   --body-file "$PR_BODY_FILE" \
