@@ -19,10 +19,15 @@
   "repositoryURL": "https://github.com/DSACMS/super-changelog",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2292,
+  "laborHours": 12008,
   "reuseFrequency": {
-    "forks": 1
+    "forks": 1,
+    "clones": 0
   },
   "platforms": [
     "web"
@@ -40,15 +45,19 @@
     "0"
   ],
   "SBOM": "https://github.com/DSACMS/super-changelog/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2025-04-09T00:43:10Z",
-    "lastModified": "2025-11-14T15:18:30Z",
-    "metadataLastUpdated": "2025-11-20T21:12:08.921Z"
+    "lastModified": "2025-12-19T16:13:25Z",
+    "metadataLastUpdated": "2026-01-01T01:12:46.290Z"
   },
   "tags": [
     "cmsgov",
     "cmsoss-tier3",
     "commops",
+    "featured",
     "ospo",
     "superchangelog"
   ],
