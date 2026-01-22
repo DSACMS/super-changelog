@@ -1,0 +1,135 @@
+{
+  "period": {
+    "start": "2026-01-02",
+    "end": "2026-01-09"
+  },
+  "generated_at": "2026-01-09T02:13:51.098621+00:00",
+  "total_repos": 72,
+  "active_repos": 12,
+  "total_issues": 1,
+  "total_pulls": 58,
+  "total_commits": 43,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 17,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "14 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 1,
+      "pulls": 24,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "15 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "private-codejson-generator",
+      "url": "https://github.com/DSACMS/private-codejson-generator",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "caseworkerportal",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 13,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}
