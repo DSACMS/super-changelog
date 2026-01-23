@@ -6,67 +6,67 @@ from typing import Dict, List, Any
 
 
 EMOJI_MAP = {
-        'added': {
-                'emoji': '✅',
-                'patterns': [r'[Aa]dd(?:ed|s|ing)?', r'[Nn]ew'],
-                'keywords': ['add', 'added', 'adds', 'adding', 'new']
-        },
-        'fixed': {
-                'emoji': '🪲',
-                'patterns': [r'[Ff]ix(?:ed|es|ing)?', r'[Bb]ug'],
-                'keywords': ['fix', 'fixed', 'fixes', 'fixing', 'bug', 'bugfix']
-        },
-        'changed': {
-                'emoji': '🔧',
-                'patterns': [
-                    r'[Cc]hang(?:ed|e|es|ing)?', 
-                    r'[Mm]odif(?:y|ied|ies|ying)?', 
-                    r'[Uu]pdat(?:ed|e|es|ing)?',
-                    r'[Ii]prov(?:ed|e|es|ing|evement)?'
-                ],
-                'keywords': [
-                    'change',
-                    'changed',
-                    'changes',
-                    'changing',
-                    'modify',
-                    'modified',
-                    'modifies',
-                    'modifying',
-                    'update',
-                    'updated',
-                    'updates',
-                    'updating',
-                    'improve',
-                    'improved',
-                    'improvement'
-                ]
-        },
-        'deprecated': {
-                'emoji': '⚠️',
-                'patterns': [r'[Dd]eprecat(?:ed|e|es|ing)?'],
-                'keywords': ['deprecate', 'deprecated', 'deprecates', 'deprecating']
-        },
-        'removed': {
-                'emoji': '🗑️',
-                'patterns': [r'[Rr]emov(?:ed|e|es|ing)?', r'[Dd]elet(?:ed|e|es|ing)?'],
-                'keywords': ['remove', 'removed', 'removes', 'removing', 'delete', 'deleted', 'deletes', 'deleting']
-        },
-        'security': {
-                'emoji': '🔒',
-                'patterns': [r'[Ss]ecur(?:ity|ed|e|ing)?',],
-                'keywords': ['security', 'secure', 'secured', 'securing']
-        },
-        'performance': {
-                'emoji': '⚡️',
-                'patterns': [r'[Pp]erforman(?:ce|t)?', r'[Oo]ptimi(?:ze|zed|zes|zing|zation)?'],
-                'keywords': ['performance', 'performant', 'optimize', 'optimized', 'optimizes', 'optimizing', 'optimization']
-        },
-        'documentation': {
-                'emoji': '📚',
-                'patterns': [r'[Dd]ocument(?:ation)?', r'[Dd]ocs?'],
-                'keywords': ['documentation', 'document', 'docs', 'doc']
-        },
+    'added': {
+        'emoji': '✅',
+        'patterns': [r'[Aa]dd(?:ed|s|ing)?', r'[Nn]ew'],
+        'keywords': ['add', 'added', 'adds', 'adding', 'new']
+    },
+    'fixed': {
+        'emoji': '🪲',
+        'patterns': [r'[Ff]ix(?:ed|es|ing)?', r'[Bb]ug'],
+        'keywords': ['fix', 'fixed', 'fixes', 'fixing', 'bug', 'bugfix']
+    },
+    'changed': {
+        'emoji': '🔧',
+        'patterns': [
+            r'[Cc]hang(?:ed|e|es|ing)?', 
+            r'[Mm]odif(?:y|ied|ies|ying)?', 
+            r'[Uu]pdat(?:ed|e|es|ing)?',
+            r'[Ii]prov(?:ed|e|es|ing|evement)?'
+        ],
+        'keywords': [
+            'change',
+            'changed',
+            'changes',
+            'changing',
+            'modify',
+            'modified',
+            'modifies',
+            'modifying',
+            'update',
+            'updated',
+            'updates',
+            'updating',
+            'improve',
+            'improved',
+            'improvement'
+        ]
+    },
+    'deprecated': {
+        'emoji': '⚠️',
+        'patterns': [r'[Dd]eprecat(?:ed|e|es|ing)?'],
+        'keywords': ['deprecate', 'deprecated', 'deprecates', 'deprecating']
+    },
+    'removed': {
+        'emoji': '🗑️',
+        'patterns': [r'[Rr]emov(?:ed|e|es|ing)?', r'[Dd]elet(?:ed|e|es|ing)?'],
+        'keywords': ['remove', 'removed', 'removes', 'removing', 'delete', 'deleted', 'deletes', 'deleting']
+    },
+    'security': {
+        'emoji': '🔒',
+        'patterns': [r'[Ss]ecur(?:ity|ed|e|ing)?',],
+        'keywords': ['security', 'secure', 'secured', 'securing']
+    },
+    'performance': {
+        'emoji': '⚡️',
+        'patterns': [r'[Pp]erforman(?:ce|t)?', r'[Oo]ptimi(?:ze|zed|zes|zing|zation)?'],
+        'keywords': ['performance', 'performant', 'optimize', 'optimized', 'optimizes', 'optimizing', 'optimization']
+    },
+    'documentation': {
+        'emoji': '📚',
+        'patterns': [r'[Dd]ocument(?:ation)?', r'[Dd]ocs?'],
+        'keywords': ['documentation', 'document', 'docs', 'doc']
+    },
 }
 
 
@@ -104,7 +104,7 @@ def categorize_changes(data: Dict[str, Any]) -> Dict[str, List[Dict]]:
         repo_name = repo_data.get("name", "Unknown")
 
         for entry in repo_data.get("changelog_entries", []):
-            for change in entry.get("change", []):
+            for change in entry.get("changes", []):
                 category = change.get("category", "")
                 items = change.get("items", [])
 
@@ -198,7 +198,7 @@ def create_condensed_pr_content(summary: Dict[str, Any]) -> tuple:
         "",
         "## 📊 Quick Stats",
         f"- **Active Repositories**: {summary.get('active_repos', 0)}/{summary.get('total_repos', 0)}",
-        f"- **Commits**: {summary.get('total_commits', 0)} : **Pull Requests**: {summary.get('total_pulls', 0)} | **Issues**: {summary.get('total_issues', 0)}",
+        f"- 📦 **Commits**: {summary.get('total_commits', 0)} | 🔀 **Pull Requests**: {summary.get('total_pulls', 0)} | ❗️ **Issues**: {summary.get('total_issues', 0)}",
         ""
     ]
 
@@ -213,7 +213,7 @@ def create_condensed_pr_content(summary: Dict[str, Any]) -> tuple:
         ('removed', '🗑️ Removed', 'Deprecations and removals'),
         ('security', '🔒 Security', 'Security improvements'),
         ('performance', '⚡️ Performance', 'Performance optimizations'),
-        ('documentation', '📚 Documentation', 'Ducumentation updates'),
+        ('documentation', '📚 Documentation', 'Documentation updates'),
     ]
 
     has_changes = False
@@ -318,7 +318,7 @@ def main():
         output_dir = "changelog_data/summaries"
         os.makedirs(output_dir, exist_ok=True)
 
-        timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
         summary_file = os.path.join(output_dir, f"summary_condensed_{timestamp}.json")
         with open(summary_file, 'w') as f:
