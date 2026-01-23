@@ -1,0 +1,165 @@
+{
+  "period": {
+    "start": "2026-01-16",
+    "end": "2026-01-23"
+  },
+  "generated_at": "2026-01-23T02:18:36.508599+00:00",
+  "total_repos": 73,
+  "active_repos": 15,
+  "total_issues": 3,
+  "total_pulls": 90,
+  "total_commits": 72,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 7,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "5 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 21,
+      "commits": 19,
+      "changelog_entries": 0,
+      "highlights": [
+        "19 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 3,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 6,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 PR(s) merged"
+      ]
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "issues": 0,
+      "pulls": 41,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "32 PR(s) merged"
+      ]
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}
