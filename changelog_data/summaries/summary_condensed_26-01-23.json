@@ -3,11 +3,11 @@
     "start": "2026-01-16",
     "end": "2026-01-23"
   },
-  "generated_at": "2026-01-23T01:47:46.632214+00:00",
+  "generated_at": "2026-01-23T03:04:00.847368+00:00",
   "total_repos": 73,
   "active_repos": 15,
   "total_commits": 72,
-  "total_pulls": 90,
+  "total_pulls": 91,
   "total_issues": 3,
   "total_changelog_entries": 0,
   "categorized_changes": {
@@ -90,7 +90,7 @@
       "name": "super-changelog",
       "url": "https://github.com/DSACMS/super-changelog",
       "commits": 8,
-      "pulls": 6,
+      "pulls": 7,
       "issues": 0
     },
     {
