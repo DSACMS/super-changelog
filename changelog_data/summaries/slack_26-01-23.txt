@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-01-16 to 2026-01-23)
+
+• 15 of 73 repos with activity
+• 72 commits | 90 PRs | 3 issues
+
+*Most Active Repos:*
+• *npd*: 14 commits, 41 PRs
+• *iv-cbv-payroll*: 19 commits, 21 PRs
+• *repo-scaffolder*: 8 commits, 7 PRs
+• *super-changelog*: 8 commits, 6 PRs
+• *ospo-guide*: 7 commits, 2 PRs

@@ -1,0 +1,160 @@
+{
+  "period": {
+    "start": "2026-01-16",
+    "end": "2026-01-23"
+  },
+  "generated_at": "2026-01-23T01:47:46.632214+00:00",
+  "total_repos": 73,
+  "active_repos": 15,
+  "total_commits": 72,
+  "total_pulls": 90,
+  "total_issues": 3,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Workflows: Add workflow for markdown docs check",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/376",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Workflow: Update contributors.yml with fix and update contributor count in COMMUNITY.md",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/378",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Release: Merge dev to main",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/377",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 1,
+    "fixed": 1,
+    "other": 1
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "commits": 8,
+      "pulls": 7,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "commits": 7,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 19,
+      "pulls": 21,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 3
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 8,
+      "pulls": 6,
+      "issues": 0
+    },
+    {
+      "name": "npd",
+      "url": "https://github.com/DSACMS/npd",
+      "commits": 14,
+      "pulls": 41,
+      "issues": 0
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "commits": 8,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "commits": 5,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "commits": 3,
+      "pulls": 3,
+      "issues": 0
+    }
+  ]
+}
