@@ -47,7 +47,7 @@ jobs:
       - name: Upload summary artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-changelog-summary
+          name: weekly-changelog-summaries
           path: |
             changelog_data/summaries/
             changelog_data/data/weekly_changelog_*.json
