@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-01-23 to 2026-01-30)
+
+• 18 of 73 repos with activity
+• 60 commits | 62 PRs | 17 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 28 commits, 32 PRs
+• *super-changelog*: 5 commits, 7 PRs
+• *repo-scaffolder*: 5 commits, 4 PRs
+• *repo-sunsetter*: 6 commits, 2 PRs
+• *testing-repository*: 6 commits, 0 PRs
