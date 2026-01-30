@@ -30,6 +30,10 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
         "key_changes": []
     }
 
+    period = summary.get("period", {})
+    period_start = period.get("start", "")
+    period_end = period.get("end", "")
+
     for repo_data in data.get("repos", []):
         try:
             repo_name = repo_data.get("name", "Unknown")
@@ -75,7 +79,13 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
                             repo_summary["highlights"].append(f"Changed: {item}")
                             summary["key_changes"].append(f"{repo_name}: Changed {item}")
 
-            merged_prs = [pr for pr in repo_data["pulls"] if pr.get("merged")]
+            merged_prs = []
+            for pr in repo_data.get("pulls", []):
+                if pr.get("merged") and pr.get("merged_at"):
+                    merged_date = pr["merged_at"][:10]
+                    if period_start <= merged_date <= period_end:
+                        merged_prs.append(pr)
+
             if merged_prs:
                 repo_summary["highlights"].append(f"{len(merged_prs)} PR(s) merged")
 

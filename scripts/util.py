@@ -152,6 +152,7 @@ class ChangelogGenerator:
                                 "url": pr.html_url,
                                 "created_at": pr.created_at.isoformat(),
                                 "updated_at": pr.updated_at.isoformat(),
+                                "merged_at": pr.merged_at.isoformat() if pr.merged_at else None,
                                 "state": pr.state,
                                 "merged": pr.is_merged(),
                                 "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
