@@ -1,0 +1,153 @@
+{
+  "period": {
+    "start": "2026-01-23",
+    "end": "2026-01-30"
+  },
+  "generated_at": "2026-01-30T14:46:53.825344+00:00",
+  "total_repos": 73,
+  "active_repos": 18,
+  "total_commits": 60,
+  "total_pulls": 62,
+  "total_issues": 17,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": []
+  },
+  "change_counts": {},
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "iv-doc-uploader",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "commits": 5,
+      "pulls": 4,
+      "issues": 6
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 28,
+      "pulls": 32,
+      "issues": 0
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "commits": 6,
+      "pulls": 0,
+      "issues": 4
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "commits": 2,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 5,
+      "pulls": 7,
+      "issues": 4
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "VDI-env-analytics-packages",
+      "url": "https://github.com/DSACMS/VDI-env-analytics-packages",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "commits": 6,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 0
+    }
+  ]
+}

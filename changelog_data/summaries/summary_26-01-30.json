@@ -1,0 +1,195 @@
+{
+  "period": {
+    "start": "2026-01-23",
+    "end": "2026-01-30"
+  },
+  "generated_at": "2026-01-30T14:46:53.825344+00:00",
+  "total_repos": 73,
+  "active_repos": 18,
+  "total_issues": 17,
+  "total_pulls": 62,
+  "total_commits": 60,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 1,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "iv-doc-uploader",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 6,
+      "pulls": 4,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 32,
+      "commits": 28,
+      "changelog_entries": 0,
+      "highlights": [
+        "29 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 4,
+      "pulls": 0,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 new issue(s)"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 4,
+      "pulls": 7,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged",
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "hhs-tier1",
+      "url": "https://github.com/DSACMS/hhs-tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "VDI-env-analytics-packages",
+      "url": "https://github.com/DSACMS/VDI-env-analytics-packages",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
