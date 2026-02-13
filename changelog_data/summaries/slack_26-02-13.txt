@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-02-06 to 2026-02-13)
+
+• 12 of 75 repos with activity
+• 69 commits | 52 PRs | 5 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 17 commits, 29 PRs
+• *dsac_quarto_demo*: 35 commits, 2 PRs
+• *pra-guides*: 7 commits, 3 PRs
+• *automated-codejson-generator*: 0 commits, 9 PRs
+• *super-changelog*: 4 commits, 2 PRs
