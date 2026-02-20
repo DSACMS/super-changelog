@@ -1,0 +1,118 @@
+{
+  "period": {
+    "start": "2026-02-13",
+    "end": "2026-02-20"
+  },
+  "generated_at": "2026-02-20T02:06:57.658529+00:00",
+  "total_repos": 76,
+  "active_repos": 13,
+  "total_commits": 69,
+  "total_pulls": 79,
+  "total_issues": 11,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": []
+  },
+  "change_counts": {},
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "income-reporting-playbook",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 31,
+      "pulls": 35,
+      "issues": 1
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "commits": 13,
+      "pulls": 18,
+      "issues": 9
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "commits": 3,
+      "pulls": 11,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "commits": 5,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "commits": 6,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "commits": 1,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "uswds",
+      "url": "https://github.com/DSACMS/uswds",
+      "commits": 6,
+      "pulls": 1,
+      "issues": 0
+    }
+  ]
+}
