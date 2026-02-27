@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-02-20 to 2026-02-27)
+
+• 10 of 77 repos with activity
+• 34 commits | 48 PRs | 2 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 16 commits, 22 PRs
+• *repo-sunsetter*: 7 commits, 10 PRs
+• *automated-codejson-generator*: 3 commits, 6 PRs
+• *testing-repository*: 4 commits, 2 PRs
+• *ospo-guide*: 1 commits, 3 PRs
