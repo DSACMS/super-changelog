@@ -1,0 +1,115 @@
+{
+  "period": {
+    "start": "2026-02-20",
+    "end": "2026-02-27"
+  },
+  "generated_at": "2026-02-27T02:05:14.332901+00:00",
+  "total_repos": 77,
+  "active_repos": 10,
+  "total_issues": 2,
+  "total_pulls": 48,
+  "total_commits": 34,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 22,
+      "commits": 16,
+      "changelog_entries": 0,
+      "highlights": [
+        "16 PR(s) merged"
+      ]
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 6,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "VDI-env-analytics-packages",
+      "url": "https://github.com/DSACMS/VDI-env-analytics-packages",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "verification-service-api",
+      "url": "https://github.com/DSACMS/verification-service-api",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "issues": 1,
+      "pulls": 10,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "wg-data-science",
+      "url": "https://github.com/DSACMS/wg-data-science",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
