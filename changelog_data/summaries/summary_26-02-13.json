@@ -1,0 +1,137 @@
+{
+  "period": {
+    "start": "2026-02-06",
+    "end": "2026-02-13"
+  },
+  "generated_at": "2026-02-13T02:22:50.069746+00:00",
+  "total_repos": 75,
+  "active_repos": 12,
+  "total_issues": 5,
+  "total_pulls": 52,
+  "total_commits": 69,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 29,
+      "commits": 17,
+      "changelog_entries": 0,
+      "highlights": [
+        "17 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 9,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "issues": 3,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 new issue(s)"
+      ]
+    },
+    {
+      "name": "dsac_quarto_demo",
+      "url": "https://github.com/DSACMS/dsac_quarto_demo",
+      "issues": 1,
+      "pulls": 2,
+      "commits": 35,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
