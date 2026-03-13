@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-03-06 to 2026-03-13)
+
+• 16 of 79 repos with activity
+• 63 commits | 61 PRs | 0 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 18 commits, 24 PRs
+• *super-changelog*: 11 commits, 10 PRs
+• *cmmi-access-model*: 10 commits, 2 PRs
+• *ospo-guide*: 7 commits, 4 PRs
+• *metrics*: 2 commits, 5 PRs
