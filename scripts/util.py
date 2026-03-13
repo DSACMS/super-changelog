@@ -162,6 +162,38 @@ class ChangelogGenerator:
         except Exception as e:
             print(f"Error getting issues and PRs: {e}")
 
+    def get_releases(self, repo, data):
+        try:
+            releases = repo.get_releases()
+            fetched_releases = []
+
+            for release in releases:
+                published = release.published_at
+                if published is None:
+                    continue
+
+                if self.start_date and published.replace(tzinfo=None) < self.start_date:
+                    continue
+
+                fetched_releases.append({
+                    "name": release.title,
+                    "body": release.body,
+                    "url": release.html_url,
+                    "published_at": published.isoformat(),
+                    "created_at": release.created_at.isoformat() if release.created_at else None,
+                    "is_draft": release.draft,
+                    "is_prerelease": release.prerelease,
+                    "author": release.author.login if release.author else None,
+                    "tag_name": release.tag_name
+                })
+            
+            data["releases"] = fetched_releases
+            print(f"Found {len(fetched_releases)} release(s)")
+        except Exception as e:
+            print(f"Error getting releases for {repo.name}: {e}")
+            data["releases"] = []
+
+
     def get_data(self, org_name):
         try:
             org = self.g.get_organization(org_name)
@@ -191,7 +223,8 @@ class ChangelogGenerator:
                 "pulls": [],
                 "commits": [],
                 "contributors": [],
-                "changelog_entries": []
+                "changelog_entries": [],
+                "releases": []
             }
 
             try:
@@ -257,9 +290,14 @@ class ChangelogGenerator:
                         continue
             except Exception as e:
                 print(f"Error checking changelog for {repo.name}: {str(e)}")
+
+            try:
+                self.get_releases(repo, repo_data)
+            except Exception as e:
+                print(f"Error fetching releases for {repo.name}: {str(e)}")
             
             if (repo_data["issues"] or repo_data["pulls"] or
-                repo_data["commits"] or repo_data["changelog_entries"]):
+                repo_data["commits"] or repo_data["changelog_entries"]) or repo_data["releases"]:
                 data["repos"].append(repo_data)
         
         data["total_repo_count"] = total_repos
