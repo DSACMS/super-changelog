@@ -64,7 +64,7 @@ jobs:
                     echo "Error: Invalid end date format. Expected YYYY-MM-DD."
                     exit 1
                 fi
-                if [[ "$START_DATE" >= "$END_DATE" ]]; then
+                if [[ "$START_DATE" > "$END_DATE" || "$START_DATE" == "$END_DATE" ]]; then
                     echo "Error: Start date must be before end date."
                     exit 1
                 fi
