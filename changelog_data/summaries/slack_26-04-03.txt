@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-03-27 to 2026-04-03)
+
+• 50 of 80 repos with activity
+• 56 commits | 99 PRs | 29 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 14 commits, 28 PRs
+• *fast-facts-2.0*: 28 commits, 2 PRs
+• *open*: 6 commits, 14 PRs
+• *cmmi-access-model*: 5 commits, 2 PRs
+• *automated-codejson-generator*: 0 commits, 4 PRs
