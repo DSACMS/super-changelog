@@ -7,7 +7,7 @@ import sys
 import subprocess
 from datetime import datetime, timezone
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from util import ChangelogGenerator # type: ignore
 
@@ -65,7 +65,7 @@ def main() -> None:
 
     output_dir = "changelog_data/data"
     os.makedirs(output_dir, exist_ok=True)
-    filename = os.path.join(output_dir, f"changelog_{start_date}_to_{end_date}.json")
+    filename = os.path.join(output_dir, f"historical_changelog_{start_date}_to_{end_date}.json")
 
     print(f"Generating historical changelog data for {org_name} from {start_date} to {end_date}...")
     print(f"Organization: {org_name}")
