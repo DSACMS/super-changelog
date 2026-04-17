@@ -1,0 +1,146 @@
+{
+  "period": {
+    "start": "2026-04-10",
+    "end": "2026-04-17"
+  },
+  "generated_at": "2026-04-17T02:37:05.032725+00:00",
+  "total_repos": 82,
+  "active_repos": 17,
+  "total_commits": 66,
+  "total_pulls": 68,
+  "total_issues": 4,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": []
+  },
+  "change_counts": {},
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 36,
+      "pulls": 50,
+      "issues": 1
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 2
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "graphics",
+      "url": "https://github.com/DSACMS/graphics",
+      "commits": 1,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "uswds",
+      "url": "https://github.com/DSACMS/uswds",
+      "commits": 4,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "cmmi-access-model",
+      "url": "https://github.com/DSACMS/cmmi-access-model",
+      "commits": 5,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "repo-baseline-action",
+      "url": "https://github.com/DSACMS/repo-baseline-action",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "npd-data",
+      "url": "https://github.com/DSACMS/npd-data",
+      "commits": 4,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "public-sans",
+      "url": "https://github.com/DSACMS/public-sans",
+      "commits": 11,
+      "pulls": 0,
+      "issues": 0
+    }
+  ]
+}

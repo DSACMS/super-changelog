@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-04-10 to 2026-04-17)
+
+• 17 of 82 repos with activity
+• 66 commits | 68 PRs | 4 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 36 commits, 50 PRs
+• *public-sans*: 11 commits, 0 PRs
+• *cmmi-access-model*: 5 commits, 3 PRs
+• *uswds*: 4 commits, 1 PRs
+• *npd-data*: 4 commits, 1 PRs
