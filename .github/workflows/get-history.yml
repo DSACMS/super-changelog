@@ -1,0 +1,156 @@
+name: Generate Historical Changelog
+
+on:
+  workflow_dispatch:
+    inputs:
+        start_date:
+          description: 'Start date for historical data (YYYY-MM-DD) - required, e.g., 2026-01-01'
+          required: true
+          type: string
+        end_date:
+          description: 'End date for historical data (YYYY-MM-DD) - defaults to today if not provided'
+          required: false
+          default: ''
+          type: string
+        org_name:
+          description: 'GitHub organization name'
+          required: false
+          type: string
+          default: 'DSACMS'
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    generate-historical-data:
+        runs-on: ubuntu-latest
+        
+        steps:
+          - name: Checkout repository
+            uses: actions/checkout@v4
+            with:
+              fetch-depth: 0
+    
+          - name: Set up Python
+            uses: actions/setup-python@v4
+            with:
+              python-version: '3.11'
+    
+          - name: Install dependencies
+            run: |
+              python -m pip install --upgrade pip
+              pip install PyGithub
+
+          - name: Resolve dates
+            id: dates
+            run: |
+              START_DATE="${{ github.event.inputs.start_date }}"
+              END_DATE="${{ github.event.inputs.end_date }}"
+
+                if [ -z "$END_DATE" ]; then
+                    END_DATE=$(date -u +%Y-%m-%d)
+                    echo "No end date provided, defaulting to today: $END_DATE"
+                fi
+
+                echo "start_date=$START_DATE" >> $GITHUB_OUTPUT
+                echo "end_date=$END_DATE" >> $GITHUB_OUTPUT
+
+                if [[ ! "$START_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+                    echo "Error: Invalid start date format. Expected YYYY-MM-DD."
+                    exit 1
+                fi
+                if [[ ! "$END_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+                    echo "Error: Invalid end date format. Expected YYYY-MM-DD."
+                    exit 1
+                fi
+                if [[ "$START_DATE" > "$END_DATE" || "$START_DATE" == "$END_DATE" ]]; then
+                    echo "Error: Start date must be before end date."
+                    exit 1
+                fi
+                
+          - name: Generate historical changelog data
+            env:
+              GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
+              START_DATE: ${{ steps.dates.outputs.start_date }}
+              END_DATE: ${{ steps.dates.outputs.end_date }}
+              ORG_NAME: ${{ github.event.inputs.org_name }}
+            run: |
+              python scripts/generate_changelog_historical.py
+
+          - name: Upload historical data artifact
+            uses: actions/upload-artifact@v4
+            with:
+              name: historical-changelog-${{ steps.dates.outputs.start_date }}-to-${{ steps.dates.outputs.end_date }}
+              path: changelog_data/data/historical_changelog_*.json
+              if-no-files-found: error
+
+          - name: Create Pull Request with Historical Summary
+            env: 
+              GH_TOKEN: ${{ secrets.REPOLINTER_AUTO_TOKEN }}
+            run: |
+              START_DATE="${{ steps.dates.outputs.start_date }}"
+              END_DATE="${{ steps.dates.outputs.end_date }}"
+              BRANCH_NAME="historical-changelog-${START_DATE}-to-${END_DATE}"
+              DATA_FILE="changelog_data/data/historical_changelog_${START_DATE}_to_${END_DATE}.json"
+
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action" 
+
+              if git ls-remote --exit-code origin $BRANCH_NAME; then
+                echo "Branch $BRANCH_NAME already exists. Checking out existing branch..."
+                git fetch origin $BRANCH_NAME
+                git checkout $BRANCH_NAME
+                git pull origin $BRANCH_NAME
+              else
+                echo "Creating new branch $BRANCH_NAME..."
+                git checkout -b $BRANCH_NAME
+              fi
+
+              git add changelog_data/
+
+              if git diff-index --quiet HEAD --; then
+                echo "No changes to commit, file already exists in the branch."
+              else
+                git commit -sm "Add historical changelog data from $START_DATE to $END_DATE"
+                git push --set-upstream origin $BRANCH_NAME
+              fi
+
+              if gh pr view $BRANCH_NAME --json number 2>/dev/null; then
+                echo "Pull request for branch $BRANCH_NAME already exists, skipping PR creation."
+              else
+                gh api repos/${{ github.repository }}/labels \
+                  -f name='historical-changelog-data' -f color='0E8A16' || true
+                gh api repos/${{ github.repository }}/labels \
+                  -f name='automated' -f color='FB04D4' || true
+
+                PR_TITLE="Add historical changelog data from $START_DATE to $END_DATE"
+                PR_BODY=$(cat <<EOF
+              ## Historical Changelog Data
+              
+              **Period:**: \`$START_DATE\` to \`$END_DATE\`
+              **Organization**: ${{ github.event.inputs.org_name }}
+              **Generated**: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+              
+              ### Contents
+              
+              Activity data for the specific period above has been generated and added to the repository.
+
+              - **Data File**: \`$DATA_FILE\`
+              - **Description**: This file contains a comprehensive changelog of all activities (PRs, issues, commits) across all repositories in the specified organization during the defined period. \
+              It is intended for historical analysis and reference.   
+              EOF
+              )
+
+                gh pr create \
+                  --title "$PR_TITLE" \
+                  --body "$PR_BODY" \
+                  --base main \
+                  --head $BRANCH_NAME \
+                  --label "historical-changelog-data,automated" || \
+                gh pr create \
+                  --title "$PR_TITLE" \
+                  --body "$PR_BODY" \
+                  --base main \
+                  --head $BRANCH_NAME
+              fi
