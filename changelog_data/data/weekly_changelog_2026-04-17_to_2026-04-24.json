@@ -1,0 +1,1266 @@
+{
+  "repos": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "description": "CMS Open Source Repository Metrics Website",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "[Snyk] Security upgrade urllib3 from 2.0.7 to 2.6.0",
+          "url": "https://github.com/DSACMS/metrics/pull/416",
+          "created_at": "2025-12-08T04:05:56+00:00",
+          "updated_at": "2026-04-23T08:37:30+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "update Enterprise-CMCS data: Sun Apr 19 08:19:31 UTC 2026",
+          "url": "https://github.com/DSACMS/metrics/commit/be05bf3ce74487cefe8229a715be2326c2debe44",
+          "author": "GitHub Actions",
+          "created_at": "2026-04-19T08:19:31+00:00"
+        },
+        {
+          "message": "update DSACMS data: Sun Apr 19 08:16:02 UTC 2026",
+          "url": "https://github.com/DSACMS/metrics/commit/f8ae57b31490697fd8cc7c8d743f39b385d6d346",
+          "author": "GitHub Actions",
+          "created_at": "2026-04-19T08:16:02+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "FFS-4232: Add \"research\" client agency",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1644",
+          "created_at": "2026-04-23T13:07:14+00:00",
+          "updated_at": "2026-04-23T20:19:05+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-4259: Exclude gross_pay_list entries with `null` amount",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1643",
+          "created_at": "2026-04-22T23:12:50+00:00",
+          "updated_at": "2026-04-23T20:57:57+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3920: Implement progress indicator variants on the activity flow review page",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1642",
+          "created_at": "2026-04-22T21:04:17+00:00",
+          "updated_at": "2026-04-23T21:10:50+00:00",
+          "merged_at": "2026-04-23T21:06:57+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Fix ArgumentError by disabling NewRelic SemanticLogger integration",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1641",
+          "created_at": "2026-04-22T19:49:23+00:00",
+          "updated_at": "2026-04-22T20:27:16+00:00",
+          "merged_at": "2026-04-22T20:27:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3768: Display previously uploaded documents on document upload pages",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1640",
+          "created_at": "2026-04-22T17:55:47+00:00",
+          "updated_at": "2026-04-23T04:28:10+00:00",
+          "merged_at": "2026-04-23T04:23:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump the pip group across 1 directory with 2 updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1639",
+          "created_at": "2026-04-21T17:45:00+00:00",
+          "updated_at": "2026-04-21T19:49:45+00:00",
+          "merged_at": "2026-04-21T19:49:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump tcort/github-action-markdown-link-check from 1.1.0 to 1.1.2",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1638",
+          "created_at": "2026-04-21T16:11:33+00:00",
+          "updated_at": "2026-04-21T17:43:57+00:00",
+          "merged_at": "2026-04-21T17:43:55+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump actions/upload-artifact from 4 to 7",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1637",
+          "created_at": "2026-04-21T16:11:29+00:00",
+          "updated_at": "2026-04-21T17:44:08+00:00",
+          "merged_at": "2026-04-21T17:44:06+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump docker/login-action from 3 to 4",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1636",
+          "created_at": "2026-04-21T16:11:25+00:00",
+          "updated_at": "2026-04-21T17:44:27+00:00",
+          "merged_at": "2026-04-21T17:44:25+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump actions/setup-go from 5 to 6",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1635",
+          "created_at": "2026-04-21T16:11:22+00:00",
+          "updated_at": "2026-04-21T17:44:41+00:00",
+          "merged_at": "2026-04-21T17:44:40+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump bridgecrewio/checkov-action from 12.2296.0 to 12.3099.0",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1634",
+          "created_at": "2026-04-21T16:11:17+00:00",
+          "updated_at": "2026-04-21T16:11:18+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump rubocop from 1.86.0 to 1.86.1 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1633",
+          "created_at": "2026-04-21T15:58:27+00:00",
+          "updated_at": "2026-04-21T17:45:20+00:00",
+          "merged_at": "2026-04-21T17:45:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump axe-core-rspec from 4.11.1 to 4.11.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1632",
+          "created_at": "2026-04-21T15:57:55+00:00",
+          "updated_at": "2026-04-21T17:45:35+00:00",
+          "merged_at": "2026-04-21T17:45:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump newrelic_rpm from 10.2.0 to 10.4.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1631",
+          "created_at": "2026-04-21T15:57:14+00:00",
+          "updated_at": "2026-04-21T17:45:48+00:00",
+          "merged_at": "2026-04-21T17:45:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump view_component from 4.6.0 to 4.7.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1630",
+          "created_at": "2026-04-21T15:56:50+00:00",
+          "updated_at": "2026-04-21T17:46:05+00:00",
+          "merged_at": "2026-04-21T17:46:02+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump vite from 8.0.8 to 8.0.9 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1629",
+          "created_at": "2026-04-21T15:56:40+00:00",
+          "updated_at": "2026-04-21T17:46:19+00:00",
+          "merged_at": "2026-04-21T17:46:17+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump webpack from 5.106.1 to 5.106.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1628",
+          "created_at": "2026-04-21T15:56:30+00:00",
+          "updated_at": "2026-04-21T19:49:59+00:00",
+          "merged_at": "2026-04-21T19:49:57+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump vitest from 4.1.4 to 4.1.5 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1627",
+          "created_at": "2026-04-21T15:56:23+00:00",
+          "updated_at": "2026-04-21T19:49:25+00:00",
+          "merged_at": "2026-04-21T19:49:23+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump faker from 3.6.1 to 3.8.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1626",
+          "created_at": "2026-04-21T15:56:21+00:00",
+          "updated_at": "2026-04-21T17:47:03+00:00",
+          "merged_at": "2026-04-21T17:47:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump postcss from 8.5.8 to 8.5.10 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1625",
+          "created_at": "2026-04-21T15:56:15+00:00",
+          "updated_at": "2026-04-21T17:47:18+00:00",
+          "merged_at": "2026-04-21T17:47:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Bump prettier from 3.8.2 to 3.8.3 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1624",
+          "created_at": "2026-04-21T15:56:08+00:00",
+          "updated_at": "2026-04-21T19:49:34+00:00",
+          "merged_at": "2026-04-21T19:49:32+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Update AGENTS.md to align with team conventions",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1623",
+          "created_at": "2026-04-21T00:36:55+00:00",
+          "updated_at": "2026-04-21T15:23:56+00:00",
+          "merged_at": "2026-04-21T15:23:45+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-4242: Update NH link when no employer is found",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1622",
+          "created_at": "2026-04-20T23:51:41+00:00",
+          "updated_at": "2026-04-21T17:35:21+00:00",
+          "merged_at": "2026-04-21T17:35:19+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-3917: Implement frontend toggle to switch units on the progress indicator",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1621",
+          "created_at": "2026-04-20T23:44:35+00:00",
+          "updated_at": "2026-04-22T02:05:53+00:00",
+          "merged_at": "2026-04-21T20:30:07+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-4197: Update Readme for Developer Experience",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1620",
+          "created_at": "2026-04-20T14:23:21+00:00",
+          "updated_at": "2026-04-22T18:40:19+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Fix 0 community service hours in CE PDF report",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1619",
+          "created_at": "2026-04-19T12:11:04+00:00",
+          "updated_at": "2026-04-20T16:26:00+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1618",
+          "created_at": "2026-04-18T09:45:51+00:00",
+          "updated_at": "2026-04-18T09:45:52+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump yard from 0.9.38 to 0.9.42 in /app in the bundler group across 1 directory",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1617",
+          "created_at": "2026-04-17T22:33:15+00:00",
+          "updated_at": "2026-04-20T15:49:55+00:00",
+          "merged_at": "2026-04-20T15:49:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "FFS-4225: Update welcome page content",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1616",
+          "created_at": "2026-04-16T21:20:31+00:00",
+          "updated_at": "2026-04-20T15:16:51+00:00",
+          "merged_at": "2026-04-20T15:12:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-4095: Make /demo links shareable",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1615",
+          "created_at": "2026-04-16T20:22:08+00:00",
+          "updated_at": "2026-04-20T14:25:41+00:00",
+          "merged_at": "2026-04-20T14:21:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Improve docs for JSON API Receiver",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1614",
+          "created_at": "2026-04-16T19:02:54+00:00",
+          "updated_at": "2026-04-17T15:37:37+00:00",
+          "merged_at": "2026-04-17T15:37:35+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3921: Update progress calculator to handle renewals",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1612",
+          "created_at": "2026-04-15T21:53:01+00:00",
+          "updated_at": "2026-04-17T16:11:19+00:00",
+          "merged_at": "2026-04-17T16:11:16+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1610",
+          "created_at": "2026-04-15T10:18:14+00:00",
+          "updated_at": "2026-04-17T16:47:19+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "FFS-3880: delete on exit when creating an activity",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1550",
+          "created_at": "2026-03-31T15:29:04+00:00",
+          "updated_at": "2026-04-23T20:57:52+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "FFS-3920: Implement progress indicator variants on the activity flow review page (#1642)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5caeb84248d2cfb7763976554f5f3edb6b5b4f37",
+          "author": "Daphne Gold",
+          "created_at": "2026-04-23T21:06:56+00:00"
+        },
+        {
+          "message": "FFS-3768: Display previously uploaded documents on document upload pages (#1640)\n\n- Icon helpers\n- Attempt to fix flaky CI",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/245a4cc3988c2549799fccde6303a75d686647d1",
+          "author": "Ben Calegari",
+          "created_at": "2026-04-23T04:23:57+00:00"
+        },
+        {
+          "message": "Fix ArgumentError by disabling NewRelic SemanticLogger integration (#1641)\n\nOn a page that raises an exception (for example a 404 page), these were\nturning into a 500 error due to a complex monkeypatching battle between\nNewRelic and SemanticLogger, both vying for control over the logger.\n\nThis is due to NewRelic 10.3.0 adding first-party support for\nSemanticLogger (see https://github.com/newrelic/newrelic-ruby-agent/pull/3467).\n\nTheir docs recommend enabling only one or the other. Disabling NewRelic\nseems to fix the ArgumentError triggered on a 404 page.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/74adda15572f35e51e171cb7b3b9ad52fcf865fd",
+          "author": "Tom Dooner",
+          "created_at": "2026-04-22T20:27:13+00:00"
+        },
+        {
+          "message": "FFS-3917: Implement frontend toggle to switch units on the progress indicator (#1621)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b18ac0621c839faa2dde0b2f37e4eea6fa06e9a2",
+          "author": "Daphne Gold",
+          "created_at": "2026-04-21T20:30:07+00:00"
+        },
+        {
+          "message": "Bump webpack from 5.106.1 to 5.106.2 in /app (#1628)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9dabf11315f459e16c4441ffeea90130e2bb3485",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T19:49:56+00:00"
+        },
+        {
+          "message": "Bump the pip group across 1 directory with 2 updates (#1639)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/15ee97a48a134f737a036b0b905d130843e17057",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T19:49:42+00:00"
+        },
+        {
+          "message": "Bump prettier from 3.8.2 to 3.8.3 in /app (#1624)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1494f6f9819233b685d2fa3735d81507526b8d35",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T19:49:32+00:00"
+        },
+        {
+          "message": "Bump vitest from 4.1.4 to 4.1.5 in /app (#1627)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a3549254d84fd434e914e81a95680b45b11f850e",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T19:49:22+00:00"
+        },
+        {
+          "message": "Bump postcss from 8.5.8 to 8.5.10 in /app (#1625)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7b559223e28ccb3fe0bddc1eae1a2a014e654c7d",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:47:15+00:00"
+        },
+        {
+          "message": "Bump faker from 3.6.1 to 3.8.0 in /app (#1626)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c85430c59937a288d03796cb7169cbbb21a49c52",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:47:00+00:00"
+        },
+        {
+          "message": "Bump vite from 8.0.8 to 8.0.9 in /app (#1629)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b8a44446b70713bf6ed939497a3012861eb700a2",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:46:17+00:00"
+        },
+        {
+          "message": "Bump view_component from 4.6.0 to 4.7.0 in /app (#1630)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5d8f640046e2382ff18f3d45627ef2d4fe85dbe8",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:46:02+00:00"
+        },
+        {
+          "message": "Bump newrelic_rpm from 10.2.0 to 10.4.0 in /app (#1631)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/848cbe939cc53195d7266e633a22f517c4c949cd",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:45:45+00:00"
+        },
+        {
+          "message": "Bump axe-core-rspec from 4.11.1 to 4.11.2 in /app (#1632)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/15640cd2ec19c21a30064bb82c339dc47e905e10",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:45:33+00:00"
+        },
+        {
+          "message": "Bump rubocop from 1.86.0 to 1.86.1 in /app (#1633)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/264856015b4c60ac8ffe3cbd7ce59f655741b4f9",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:45:17+00:00"
+        },
+        {
+          "message": "Bump actions/setup-go from 5 to 6 (#1635)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/82e62a570463e58ff388c02bc98959c4617ec68b",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:44:39+00:00"
+        },
+        {
+          "message": "Bump docker/login-action from 3 to 4 (#1636)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/365b78a5f00a9308ccdd684920e86b47c9f6140f",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:44:25+00:00"
+        },
+        {
+          "message": "Bump actions/upload-artifact from 4 to 7 (#1637)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9455b06da2baedea2e7340a6a68cd3a0ee4943cf",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:44:05+00:00"
+        },
+        {
+          "message": "Bump tcort/github-action-markdown-link-check from 1.1.0 to 1.1.2 (#1638)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c8af68732772f7242e13344a68acf2917a4f1f10",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-21T17:43:55+00:00"
+        },
+        {
+          "message": "FFS-4242: Update NH link when no employer is found (#1622)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a7f82514f246875a69e6805aef438853ee4d9bf9",
+          "author": "Tom Dooner",
+          "created_at": "2026-04-21T17:35:19+00:00"
+        },
+        {
+          "message": "Update AGENTS.md to align with team conventions (#1623)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/54386473581912e53a9cca7be8348beecf9bc981",
+          "author": "Daphne Gold",
+          "created_at": "2026-04-21T15:23:44+00:00"
+        },
+        {
+          "message": "Bump yard from 0.9.38 to 0.9.42 in /app in the bundler group across 1 directory (#1617)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9d5be0deb32f7fe3810a8cab47d97bf5dbbf90fa",
+          "author": "dependabot[bot]",
+          "created_at": "2026-04-20T15:49:53+00:00"
+        },
+        {
+          "message": "FFS-4225: Update welcome page content (#1616)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fa96357a281b16a34f9c46de0557e3462c1cd415",
+          "author": "Daphne Gold",
+          "created_at": "2026-04-20T15:12:40+00:00"
+        },
+        {
+          "message": "FFS-4095: Make /demo links shareable (#1615)\n\n* Restructure the page slightly so the links are at the bottom of it\n* Make a little widget that allows copying the link\n* Allow the server processing to happen via `fetch` rather than a\n  standard HTTP POST.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1d60d4116ea0bf58d346d56f45409cb3e27265ce",
+          "author": "Tom Dooner",
+          "created_at": "2026-04-20T14:21:42+00:00"
+        },
+        {
+          "message": "FFS-3921: Update progress calculator to handle renewals (#1612)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f7dd975fc0246490c524d7f43af563a078d9bc29",
+          "author": "Daphne Gold",
+          "created_at": "2026-04-17T16:11:16+00:00"
+        },
+        {
+          "message": "Improve docs for JSON API Receiver (#1614)\n\n* Make a couple README.md tweaks to satisfy pre-commit (removing\n  trailing spaces and a hallucinated link to a never-existing\n  GLOSSARY.md)\n* Improve docs for the JSON API Receiver\n* Update the comment in the receiver to point to the README docs.",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/039cc34fb71fffb59aaf43dc6230d1f8bd5de7ed",
+          "author": "Tom Dooner",
+          "created_at": "2026-04-17T15:37:35+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate code.json",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/116",
+          "created_at": "2026-04-18T04:05:44+00:00",
+          "updated_at": "2026-04-18T04:05:44+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "description": "Github Action that allows for automated code.json creation and maintenance ",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Bump the npm-development group across 1 directory with 13 updates",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/121",
+          "created_at": "2026-03-27T18:16:06+00:00",
+          "updated_at": "2026-04-17T18:16:10+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump octokit-plugin-create-pull-request from 6.0.0 to 6.0.1 in the npm-production group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/114",
+          "created_at": "2026-02-09T21:36:20+00:00",
+          "updated_at": "2026-04-17T18:14:26+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        },
+        {
+          "title": "Bump akhilmhdh/contributors-readme-action from 2.3.10 to 2.3.11 in the actions-minor group",
+          "url": "https://github.com/DSACMS/automated-codejson-generator/pull/109",
+          "created_at": "2026-02-09T21:34:26+00:00",
+          "updated_at": "2026-04-17T18:14:15+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": false
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "\ud83d\udccb Changelog Summary: 2026-04-10 to 2026-04-17",
+          "url": "https://github.com/DSACMS/super-changelog/pull/83",
+          "created_at": "2026-04-17T03:12:22+00:00",
+          "updated_at": "2026-04-21T20:02:27+00:00",
+          "merged_at": "2026-04-21T20:02:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-10-17 to 2025-10-24",
+          "url": "https://github.com/DSACMS/super-changelog/pull/82",
+          "created_at": "2026-04-17T03:12:16+00:00",
+          "updated_at": "2026-04-21T20:02:14+00:00",
+          "merged_at": "2026-04-21T20:02:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        },
+        {
+          "title": "\ud83d\udccb Changelog Summary: 2026-04-03 to 2026-04-10",
+          "url": "https://github.com/DSACMS/super-changelog/pull/81",
+          "created_at": "2026-04-10T03:07:13+00:00",
+          "updated_at": "2026-04-21T20:01:56+00:00",
+          "merged_at": "2026-04-21T20:01:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-10-24 to 2025-10-31",
+          "url": "https://github.com/DSACMS/super-changelog/pull/80",
+          "created_at": "2026-04-10T03:07:10+00:00",
+          "updated_at": "2026-04-21T20:01:42+00:00",
+          "merged_at": "2026-04-21T20:01:42+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "\ud83d\udccb Changelog Summary: 2026-03-27 to 2026-04-03",
+          "url": "https://github.com/DSACMS/super-changelog/pull/79",
+          "created_at": "2026-04-03T03:01:38+00:00",
+          "updated_at": "2026-04-21T20:01:29+00:00",
+          "merged_at": "2026-04-21T20:01:28+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Weekly Changelog Summary: 2025-11-28 to 2025-12-05",
+          "url": "https://github.com/DSACMS/super-changelog/pull/78",
+          "created_at": "2026-04-03T03:01:37+00:00",
+          "updated_at": "2026-04-21T20:01:13+00:00",
+          "merged_at": "2026-04-21T20:01:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/super-changelog/pull/77",
+          "created_at": "2026-04-01T01:51:34+00:00",
+          "updated_at": "2026-04-21T20:00:56+00:00",
+          "merged_at": "2026-04-21T20:00:56+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Add historical call",
+          "url": "https://github.com/DSACMS/super-changelog/pull/76",
+          "created_at": "2026-03-27T14:42:38+00:00",
+          "updated_at": "2026-04-21T19:59:58+00:00",
+          "merged_at": "2026-04-21T19:59:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "Weekly Changelog Summary: 2026-03-13 to 2026-03-20",
+          "url": "https://github.com/DSACMS/super-changelog/pull/75",
+          "created_at": "2026-03-27T03:00:41+00:00",
+          "updated_at": "2026-04-21T20:00:40+00:00",
+          "merged_at": "2026-04-21T20:00:40+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        },
+        {
+          "title": "\ud83d\udccb Changelog Summary: 2026-03-20 to 2026-03-27",
+          "url": "https://github.com/DSACMS/super-changelog/pull/74",
+          "created_at": "2026-03-27T03:00:40+00:00",
+          "updated_at": "2026-04-21T20:00:26+00:00",
+          "merged_at": "2026-04-21T20:00:26+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #83 from DSACMS/weekly-changelog-condensed-2026-04-17\n\n\ud83d\udccb Changelog Summary: 2026-04-10 to 2026-04-17",
+          "url": "https://github.com/DSACMS/super-changelog/commit/d3f24cda0d535a007d9f524f23ae3b552827c0e0",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:02:27+00:00"
+        },
+        {
+          "message": "Merge pull request #82 from DSACMS/weekly-changelog-2026-04-17\n\nWeekly Changelog Summary: 2025-10-17 to 2025-10-24",
+          "url": "https://github.com/DSACMS/super-changelog/commit/87215f2d92358ea05d51d802ff670ba862f2341d",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:02:13+00:00"
+        },
+        {
+          "message": "Merge pull request #81 from DSACMS/weekly-changelog-condensed-2026-04-10\n\n\ud83d\udccb Changelog Summary: 2026-04-03 to 2026-04-10",
+          "url": "https://github.com/DSACMS/super-changelog/commit/7cacfb775f40132749b7a5142ae835b43fcd56c4",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:01:56+00:00"
+        },
+        {
+          "message": "Merge pull request #80 from DSACMS/weekly-changelog-2026-04-10\n\nWeekly Changelog Summary: 2025-10-24 to 2025-10-31",
+          "url": "https://github.com/DSACMS/super-changelog/commit/636994c7abff38613338f4db9f48ed61b61c77fb",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:01:42+00:00"
+        },
+        {
+          "message": "Merge pull request #79 from DSACMS/weekly-changelog-condensed-2026-04-03\n\n\ud83d\udccb Changelog Summary: 2026-03-27 to 2026-04-03",
+          "url": "https://github.com/DSACMS/super-changelog/commit/2b52a3813acbb1f3d0f216120ff6bed6e5be0583",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:01:28+00:00"
+        },
+        {
+          "message": "Merge pull request #78 from DSACMS/weekly-changelog-2026-04-03\n\nWeekly Changelog Summary: 2025-11-28 to 2025-12-05",
+          "url": "https://github.com/DSACMS/super-changelog/commit/fe3e64fc4bca42a0d79159b2fa72392bdea37b44",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:01:13+00:00"
+        },
+        {
+          "message": "Merge pull request #77 from DSACMS/code-json-1775008292185\n\nUpdate code.json",
+          "url": "https://github.com/DSACMS/super-changelog/commit/ac4d6a746846b2576f1ca9e0e70ad39fe0465f00",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:00:55+00:00"
+        },
+        {
+          "message": "Merge pull request #75 from DSACMS/weekly-changelog-2026-03-27\n\nWeekly Changelog Summary: 2026-03-13 to 2026-03-20",
+          "url": "https://github.com/DSACMS/super-changelog/commit/e09550a45e328183e5b812fb34cce1a6898e70b1",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:00:40+00:00"
+        },
+        {
+          "message": "Merge pull request #74 from DSACMS/weekly-changelog-condensed-2026-03-27\n\n\ud83d\udccb Changelog Summary: 2026-03-20 to 2026-03-27",
+          "url": "https://github.com/DSACMS/super-changelog/commit/ebe975d03459b324957d9a6329eb6e90e83b9c1d",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T20:00:26+00:00"
+        },
+        {
+          "message": "Merge pull request #76 from DSACMS/historical-changes\n\nAdd historical call",
+          "url": "https://github.com/DSACMS/super-changelog/commit/d51d2f52259cb29781406643c69f5c75acb9afb5",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-21T19:59:57+00:00"
+        },
+        {
+          "message": "Add weekly condensed changelog summary for 2026-04-17\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/a64877628d039b3b25e4841c5956eedae63496df",
+          "author": "GitHub Action",
+          "created_at": "2026-04-17T03:12:18+00:00"
+        },
+        {
+          "message": "Add weekly changelog summary for 2026-04-17\n\nSigned-off-by: GitHub Action <action@github.com>",
+          "url": "https://github.com/DSACMS/super-changelog/commit/ceded650828fdc6980a07600715c70eccceb433e",
+          "author": "GitHub Action",
+          "created_at": "2026-04-17T03:12:14+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "VDI-env-analytics-packages",
+      "url": "https://github.com/DSACMS/VDI-env-analytics-packages",
+      "description": "Packages used by the VDI environment for Data Analytics at CMS",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Bump the pip group across 1 directory with 9 updates",
+          "url": "https://github.com/DSACMS/VDI-env-analytics-packages/pull/6",
+          "created_at": "2026-04-23T20:34:31+00:00",
+          "updated_at": "2026-04-23T20:34:32+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        },
+        {
+          "title": "Bump the pip group across 1 directory with 4 updates",
+          "url": "https://github.com/DSACMS/VDI-env-analytics-packages/pull/4",
+          "created_at": "2025-12-16T23:00:04+00:00",
+          "updated_at": "2026-04-23T20:26:53+00:00",
+          "merged_at": "2026-04-23T20:26:44+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #4 from DSACMS/dependabot/pip/pip-c31789d9f9\n\nBump the pip group across 1 directory with 4 updates",
+          "url": "https://github.com/DSACMS/VDI-env-analytics-packages/commit/74ab0a238e3759ee687838c42493ad48f6364828",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-23T20:26:44+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Dinne Kopelevich",
+          "company": "DSAC(Work), GSA (work) + personal projects",
+          "created_at": "2020-04-17T19:37:59+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "description": "NPM package that bidirectionally converts code.json to other metadata formats",
+      "issues": [
+        {
+          "title": "Roadmap to v1.0.0",
+          "url": "https://github.com/DSACMS/codejson-crosswalk/issues/1",
+          "created_at": "2026-04-16T20:52:24+00:00",
+          "state": "open",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "adding unit tests for engine logic",
+          "url": "https://github.com/DSACMS/codejson-crosswalk/commit/d1846fde69b2ac62ee43ef23c43e518ff5755ffb",
+          "author": "Sachin Panayil",
+          "created_at": "2026-04-23T19:27:28+00:00"
+        },
+        {
+          "message": "removing script code",
+          "url": "https://github.com/DSACMS/codejson-crosswalk/commit/7127353359f00231610634a94085af1d480303f0",
+          "author": "Sachin Panayil",
+          "created_at": "2026-04-20T18:46:37+00:00"
+        },
+        {
+          "message": "defining public API",
+          "url": "https://github.com/DSACMS/codejson-crosswalk/commit/f4d2022d719bbd8ab479bbd2d7246deed6d53b1b",
+          "author": "Sachin Panayil",
+          "created_at": "2026-04-20T18:41:34+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Sachin Panayil",
+          "company": "@DSACMS ",
+          "created_at": "2021-02-20T21:39:48+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "cmmi-access-model",
+      "url": "https://github.com/DSACMS/cmmi-access-model",
+      "description": "ACCESS Model FHIR Implementation Guide (IG) references an Operations Manual that provides more information about the ACCESS Model APIs. A link to the Operations Manual will be made available soon.",
+      "issues": [],
+      "pulls": [
+        {
+          "title": "Repolinter Results",
+          "url": "https://github.com/DSACMS/cmmi-access-model/pull/7",
+          "created_at": "2026-04-15T16:45:17+00:00",
+          "updated_at": "2026-04-17T15:40:04+00:00",
+          "merged_at": "2026-04-17T15:40:03+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "updating contributors list",
+          "url": "https://github.com/DSACMS/cmmi-access-model/commit/b5a62b6edd213efabf70058ba02fdf2eb57ca040",
+          "author": "github-actions[bot]",
+          "created_at": "2026-04-17T15:40:19+00:00"
+        },
+        {
+          "message": "Merge pull request #7 from DSACMS/repolinter-results-#26\n\nRepolinter Results",
+          "url": "https://github.com/DSACMS/cmmi-access-model/commit/39135c1e5daf01b1b84236ca8dfa1aebe8de65ae",
+          "author": "Dinne Kopelevich",
+          "created_at": "2026-04-17T15:40:03+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "description": "Reimagining CMS Fast Facts communication of summary information",
+      "issues": [
+        {
+          "title": "Variable naming",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/issues/16",
+          "created_at": "2026-04-21T17:04:12+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update code.json",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/pull/11",
+          "created_at": "2026-04-01T02:31:00+00:00",
+          "updated_at": "2026-04-22T14:14:52+00:00",
+          "merged_at": "2026-04-22T14:14:48+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #11 from DSACMS/code-json-1775010658265\n\nUpdate code.json",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/a2cd8422cc5f0421f2c2bf8106f8b8eb5777fab2",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-22T14:14:48+00:00"
+        },
+        {
+          "message": "fix: two more missing fields added",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/a34ac467dc7bf9f1a75291f870202cfe527cf665",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-22T14:13:05+00:00"
+        },
+        {
+          "message": "fix: addresses missing fields flags in PR check",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b7dc6813f6fa87794bab2fb3054b9619173a1332",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-22T14:09:34+00:00"
+        },
+        {
+          "message": "doc: update with addtl info, fixes #11",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/7521cc9f654a5ca653cd84f9551b5b0a3daffb39",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-22T13:50:11+00:00"
+        },
+        {
+          "message": "git: ignore Rproj files",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/79628d896779a6f70435d486b15686460e076307",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-21T18:14:54+00:00"
+        },
+        {
+          "message": "renv: update packages for snapshot",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b729a33c5c59f9a9faf22c7c34e34d9bf4a0b811",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-21T18:09:37+00:00"
+        },
+        {
+          "message": "feat: update dictionary with data_year renaming",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/65c1b69ceda922cda6697714e4cf46082959ec3d",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T14:05:18+00:00"
+        },
+        {
+          "message": "fix: testing with diff color/sizing",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/ff0c89d95aedba60254c334a612a80fb8f3a1a6e",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T13:52:51+00:00"
+        },
+        {
+          "message": "git: add local files to ignore",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/502cda07e476f60a20f2c16916f9b4382744e4ec",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T13:56:54+00:00"
+        },
+        {
+          "message": "fix: change year to data_year per feedback",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/da31cbb837560fb031ce02bef3f19a28015de543",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-09T20:32:18+00:00"
+        },
+        {
+          "message": "feat: change logo to reverse",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/f2c22e0eb0fcfc943db5b58c871407c4208b078e",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-09T20:30:35+00:00"
+        },
+        {
+          "message": "git: ignore new folder + test files",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/9423eb3e5409df922ecc2a4855f52282329ef930",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-09T20:30:16+00:00"
+        },
+        {
+          "message": "fix",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/4579e7b72a5f0210901df0148034160b7078e4f5",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-09T20:09:53+00:00"
+        },
+        {
+          "message": "git: ignore quarto `.*files` folders",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/e44526b4a3ca7081fa3168c02c7af4d2ea671c17",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-09T20:08:36+00:00"
+        },
+        {
+          "message": "doc: improve read me around local dev",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/48c33bfd512ae5e65dc45daabbfdf626ae86d052",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T18:48:10+00:00"
+        },
+        {
+          "message": "renv: init",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/a1f51fb66d6994ba48029bcab28a91ec5dd5a3a6",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T18:47:57+00:00"
+        },
+        {
+          "message": "feat: purposefully add processed + stiched public data",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/33c067af5bbf17e191a2a22d82d1a4b188213d58",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T17:55:27+00:00"
+        },
+        {
+          "message": "feat: add formated dictionary file",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/f639ee1cdf85e8ca69a8e95a7f51b63a82b0d221",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T17:54:59+00:00"
+        },
+        {
+          "message": "feat: add dictionary",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b5deed607534505d46da456a5ddb4ce99b856b93",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T17:54:42+00:00"
+        },
+        {
+          "message": "fix: rename due to adding in dict file",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/6b0bb688b9c35a8e3c221a68c4b465bf308bb133",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T15:26:47+00:00"
+        },
+        {
+          "message": "fix: change 2025 release to display as from April",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/71de8e283c05b111352b5c4eebd3d0ebd666b425",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-03T15:26:02+00:00"
+        },
+        {
+          "message": "fix: bugs + align with qmd",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/15f2eeea5216c392348bace9c96ee3bd141578d3",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T20:54:44+00:00"
+        },
+        {
+          "message": "fix: update dataout from std dataset",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/268b4fc3682b2c767ea00fad2bd934fa2b13af1b",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T20:34:49+00:00"
+        },
+        {
+          "message": "fix: finalize recoding with std dataset",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/081492ab95e02f573864f0fcb9965bc618bedc4d",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T20:33:41+00:00"
+        },
+        {
+          "message": "fix: clean up cost-sharing tab processing",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b58abe43e831610eaef164c4ae31564241d3986a",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T19:57:33+00:00"
+        },
+        {
+          "message": "fix: drop old scripts that are no longer used",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/70282b10315c19def1da865f6961ebd5a8333ebd",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T17:12:29+00:00"
+        },
+        {
+          "message": "fix: finish refactoring code through benes tab",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b564880314101db69787a929b21f6a9ca7678835",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T16:14:45+00:00"
+        },
+        {
+          "message": "fix: change area to be consistent (for dup years purposes)",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b124600c7e8426421df48d022af1f5a62da07e24",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T15:37:57+00:00"
+        },
+        {
+          "message": "feat: drop open files from list",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/10b145fc66c96464f15f57708836171f8b1a53b0",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T15:37:18+00:00"
+        },
+        {
+          "message": "feat: clean up import for rds files",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/1397974e642c9014fc9f587c7fc367c9b5f18569",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:45:11+00:00"
+        },
+        {
+          "message": "fix:clean up file naming",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/88ec3a39d350031d876491b01ab31ae2311c109f",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:39:15+00:00"
+        },
+        {
+          "message": "doc: rename scripts for easy of use",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/d5c12690165d7c09858a3aa569a41a367f593e26",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:35:03+00:00"
+        },
+        {
+          "message": "fix: suppress warnings",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/300ecfb6d9a2d4428ccc3008099d88d7fde280fe",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:33:07+00:00"
+        },
+        {
+          "message": "feat: migrate df pre-processing to sep script",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/8225d2d4037a667f1ded32a1cd4498161593d150",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:32:31+00:00"
+        },
+        {
+          "message": "fix: remove all color objects, keeping just the color list object",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/f1b7569d238eafed224687098bcdadd0ead52415",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-02T14:05:52+00:00"
+        },
+        {
+          "message": "fix: adjust processing to handle standardized data (context - half beneficiares)",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/a17295e1517661e356cafffa77cc962ae58f073b",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-01T20:49:11+00:00"
+        },
+        {
+          "message": "fix: address pop unit conversion",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/62fd5cec4e4be452e703cfbafd13b50147ff9ab2",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-01T20:38:18+00:00"
+        },
+        {
+          "message": "fix: address bugs",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/06d30e68c1cb862879519c24ca57de8b7c739530",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-01T16:12:11+00:00"
+        },
+        {
+          "message": "feat: fcn to extract pop tab + fcn to read in all tabs",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/ebfa785c183b35fe0f2973943f88c29ad4a3d5a1",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-01T15:46:42+00:00"
+        },
+        {
+          "message": "feat: update costsharing read in fcn to standardize",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/147252b0bcc924939f38b35567a198271ae055cd",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-31T20:58:38+00:00"
+        },
+        {
+          "message": "feat: fcn to read in utilization (ab + d)",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/f289e56f45c5175322c5b7ee99df4aec92b46d17",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-31T20:04:19+00:00"
+        },
+        {
+          "message": "feat: fcn to extract release my()",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/dba4bf5cf5f4620cb7ed169d0f7653f3a8e27a2d",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-31T18:15:05+00:00"
+        },
+        {
+          "message": "feat: fcn to read in medicaid exp",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/0aca3dcb1043af721846bba47cb154ca8b41bb1d",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-31T18:09:58+00:00"
+        },
+        {
+          "message": "feat: update finacial and nhe standardization + structure in",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/e14b910d7a14833d6734af8763992fd2331d15f9",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-31T15:55:13+00:00"
+        },
+        {
+          "message": "feat: standardize NHE import",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/1e3cbb35fabc62e5af97dbb870ed2574bb0a8145",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-30T20:03:43+00:00"
+        },
+        {
+          "message": "feat: fcn to standardize cms spend data and apply, #10",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/43b70ea2a1b708dba6447e176da2a656cdb64ee4",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-03-30T19:27:54+00:00"
+        },
+        {
+          "message": "git: ignore Rproj files",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/3ebdcd806420893a76c45ad4b5ba0e524ccf20b3",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-21T18:14:54+00:00"
+        },
+        {
+          "message": "renv: update packages for snapshot",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/789cc84ffe5211479e7fc0fbf0e1aac2a3825bda",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-21T18:09:37+00:00"
+        },
+        {
+          "message": "feat: update dictionary with data_year renaming",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/85488d2c4522f0bd19cf073846f2a39430f3b620",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T14:05:18+00:00"
+        },
+        {
+          "message": "fix: testing with diff color/sizing",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/41548cd79cca5f86ab692c76d1424e4e3bf08c7f",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T13:52:51+00:00"
+        },
+        {
+          "message": "git: add local files to ignore",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/6cc10112b08a1cd03cd020d6894262dddd0b71c3",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-04-17T13:56:54+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    }
+  ],
+  "period": {
+    "start": "2026-04-17",
+    "end": "2026-04-24"
+  },
+  "generated_at": "2026-04-24T02:40:38.061255+00:00",
+  "total_repo_count": 82
+}
