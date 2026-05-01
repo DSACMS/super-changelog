@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-04-24 to 2026-05-01)
+
+• 41 of 82 repos with activity
+• 90 commits | 94 PRs | 2 issues
+
+*Most Active Repos:*
+• *fast-facts-2.0*: 51 commits, 11 PRs
+• *iv-cbv-payroll*: 12 commits, 39 PRs
+• *uswds*: 16 commits, 0 PRs
+• *super-changelog*: 4 commits, 3 PRs
+• *caseworkerportal*: 0 commits, 6 PRs
