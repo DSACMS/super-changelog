@@ -17,6 +17,23 @@ on:
           required: false
           type: string
           default: 'DSACMS'
+      
+  workflow_call:
+    inputs:
+        start_date:
+          required: true
+          type: string
+        end_date:
+          required: false
+          default: ''
+          type: string
+        org_name:
+          required: false
+          type: string
+          default: 'DSACMS'
+    secrets:
+        REPOLINTER_AUTO_TOKEN:
+          required: true
 
 permissions:
     contents: write
