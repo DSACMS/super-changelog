@@ -94,6 +94,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> <!--CONTRIBUTOR COU
                     <sub><b>decause-gov</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/natalialuzuriaga">
+                    <img src="https://avatars.githubusercontent.com/u/29980737?v=4" width="100;" alt="natalialuzuriaga"/>
+                    <br />
+                    <sub><b>Natalia Luzuriaga</b></sub>
+                </a>
+            </td>
 		</tr>
 	<tbody>
 </table>
