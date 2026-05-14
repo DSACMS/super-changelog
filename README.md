@@ -60,7 +60,83 @@ The following guide is for members of the project team who have access to the re
 This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
 -->
 
-To run super-changelog locally, you will need Python 3.x and a GitHub personal 
+To run super-changelog locally, you will need Python 3.x and a GitHub personal access token with `repo` and `read:org` scopes for the target organization.
+
+1. Clone the repository:
+```bash
+git clone git@github.com:DSACMS/super-changelog.git
+cd super-changelog
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set required environnment variables:
+```bash
+export GH_TOKEN=your_github_token
+export ORG_NAME=YourGitHubOrg # currently defaults to DSACMS if not set
+```
+
+4. Run the weekly pipeline:
+```bash
+python scripts/run_weekly.py
+```
+ **or**
+
+5. Generate a historical report with a custom date range
+```bash
+export START_DATE=2025-01-01 (Example)
+export END_DATE=2025-05-30 (Example)
+
+python scripts/generate_changelog_historical.py
+```
+
+Historical output is saved to:
+`changelog_data/data/historical_changelog_{START_DATE}_to_{END_DATE}.json`.
+
+>**Note:** The target organization's repositories must be **public**. Super-changelog is org-agnostic &mdash; it works with any GitHub organization, not just DSACMS.
+
+### What It Produces
+Each weekly run creates two pull requests and a JSON data file:
+
+**Full weekly report PR** (`weekly-changelog-{date}`) &mdash; A markdown file listing all avtive repositories for the week: commits, pull requests, contributors, and CHANGELOG.md entries from each repo in the organization.
+
+**Condensed summary PR** (`weekly-changelog-condensed-{date}`) &mdash; A shorter, human-readable summary with quick stats and a list of active repositories.
+
+Example:
+```markdown
+# 📋 Weekly Changelog
+**Period**: 2026-05-01 to 2026-05-08
+
+## 📊 Quick Stats
+- **Active Repositories**: 51/83
+- 📦 **Commits**: 60 | 🔀 **Pull Requests**: 112 | ❗️ **Issues**: 2
+
+## ✅ Added
+*New features and additions*
+
+### .github
+- [Add speaking](https://github.com/DSACMS/.github/pull/13)
+
+## 🚀 Active Repositories
+
+- **[iv-cbv-payroll](https://github.com/DSACMS/iv-cbv-payroll)**: 25 commits, 40 pulls
+- **[pra-guides](https://github.com/DSACMS/pra-guides)**: 5 commits, 13 pulls, 1 issues
+- *...and 41 more repositories*
+---
+*🤖 Generated automatically on 2026-05-08T02:55:27.493320+00:00*
+```
+
+**JSON data file** &mdash; Included in both the full report PR and the condensed version. Contains structured repository data suitable for downstream use: dashboards, archival tooling, reporting pipelines, or other automation that needs org-level activity data.
+
+#### Historical Data
+The `generate_changelog_historical.py` script collects the same dataas the weekly run, but for any selected date range. This is great for:
+- Identifying inactive repositories as candidates for archival
+- Auditing contributor activity across a period
+- Generating reports for leadership or stakeholder communications
+- Feeding data into tools
 
 ## Coding Style and Linters
 
@@ -69,8 +145,6 @@ To run super-changelog locally, you will need Python 3.x and a GitHub personal
 Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
 
 ## Branching Model
-
-<!--- TODO - with example below:
 This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
 
 * Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
@@ -82,7 +156,6 @@ This project follows [trunk-based development](https://trunkbaseddevelopment.com
 This project uses **continuous deployment** using [Github Actions](https://github.com/features/actions) which is configured in the [./github/workflows](.github/workflows) directory.
 
 Pull-requests are merged to `main` and the changes are immediately deployed to the development environment. Releases are created to push changes to production.
--->
 
 ## Contributing
 
@@ -142,9 +215,9 @@ This project is in the public domain within the United States, and copyright and
 
 All contributions to this project will be released under the CC0 dedication. By submitting a pull request or issue, you are agreeing to comply with this waiver of copyright interest.
  
- ## Documentation Index 
+<!-- ## Documentation Index --> 
 <!-- TODO: This is a like a 'table of contents' for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide 'bookmark' or 'anchor' links to specific sections of your file to be referenced in tickets, docs, or other communication channels. --> 
- **{list of .md at top directory and descriptions}** 
+<!-- **{list of .md at top directory and descriptions}** -->
  
  ## Codeowners 
  The contents of this repository are managed by {responsible organization(s)}. Those responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md). 
