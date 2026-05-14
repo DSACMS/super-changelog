@@ -1,0 +1,334 @@
+{
+  "repos": [
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository",
+      "description": "my test-repo!",
+      "issues": [
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/12",
+          "created_at": "2026-05-14T08:49:59+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/11",
+          "created_at": "2026-05-14T06:16:30+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/10",
+          "created_at": "2026-05-14T05:14:56+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/9",
+          "created_at": "2026-05-13T21:51:29+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/8",
+          "created_at": "2026-05-13T21:49:51+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/7",
+          "created_at": "2026-05-13T21:04:44+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/6",
+          "created_at": "2026-05-13T18:58:57+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/5",
+          "created_at": "2026-05-13T17:32:19+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/4",
+          "created_at": "2026-05-13T17:11:08+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/3",
+          "created_at": "2026-05-11T23:22:37+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/2",
+          "created_at": "2026-05-11T23:19:00+00:00",
+          "state": "open",
+          "is_new": true
+        },
+        {
+          "title": "Archival Candidates Report",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/issues/1",
+          "created_at": "2026-05-11T23:16:34+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Create FINAL-archiver-identifier.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/9bf1e5e59466664918f379cc9c6fe86953173c94",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-13T16:43:49+00:00"
+        },
+        {
+          "message": "Fix formatting in criticality score command",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/5ec6711fba2ff3993bd0c5a0293d114cca2b5b31",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-13T04:43:17+00:00"
+        },
+        {
+          "message": "Update criticality-score.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/dce6e32741feaa8aa4fe0811a533187330ace7aa",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-13T04:35:29+00:00"
+        },
+        {
+          "message": "Update criticality-score.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/d90c01a71bf41e31635baf04dc0e143d841b114d",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-13T04:30:26+00:00"
+        },
+        {
+          "message": "Update criticality-score.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/6cb910965881a324102ab2fdf9102a2643ebcfe9",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-13T04:29:02+00:00"
+        },
+        {
+          "message": "Update criticality-score.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/a6d37a48eb1183760a8c7f31f00f4126249a0d13",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-12T01:01:43+00:00"
+        },
+        {
+          "message": "Add GitHub Actions workflow for Go CI",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/c4b59170724c5ef8e0ceecc322b9ad326132dadc",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-12T00:58:17+00:00"
+        },
+        {
+          "message": "Create archival-identifier.yml",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/a1cb274ef34f94b2ff5aed028aca75b0fd5de4cf",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:13:09+00:00"
+        },
+        {
+          "message": "Initial commit",
+          "url": "https://github.com/natalialuzuriaga-testing-org/testing-repository/commit/f6d837262524d9b5c65a9e7ac28ee3137ff16434",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:08:27+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Natalia Luzuriaga",
+          "company": "@CMSgov (work) + personal projects",
+          "created_at": "2017-07-07T13:48:50+00:00",
+          "email": "nat.luzuriaga@gmail.com"
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "repository1",
+      "url": "https://github.com/natalialuzuriaga-testing-org/repository1",
+      "description": "Contains PRs and Issues",
+      "issues": [
+        {
+          "title": "Add rest of repository template files here",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/issues/1",
+          "created_at": "2026-05-11T23:09:52+00:00",
+          "state": "open",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Update README to clarify repository purpose",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/pull/2",
+          "created_at": "2026-05-11T23:10:33+00:00",
+          "updated_at": "2026-05-11T23:10:41+00:00",
+          "merged_at": "2026-05-11T23:10:41+00:00",
+          "state": "closed",
+          "merged": true,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Update README to include releases information",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/commit/a8e50a40c4019cc439b418ac9dbb3a575f889b48",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:11:00+00:00"
+        },
+        {
+          "message": "Merge pull request #2 from natalialuzuriaga-testing-org/natalialuzuriaga-patch-1\n\nUpdate README to clarify repository purpose",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/commit/0e732a43aac2b192e38aa86133883f5da74c924d",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:10:41+00:00"
+        },
+        {
+          "message": "Update README to clarify repository purpose",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/commit/4fa118764d717bd8bbc689f46eac1cde233b487c",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:10:26+00:00"
+        },
+        {
+          "message": "Initial commit",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/commit/9b2ff720512a9a5f035ff9a5b3f57be904287f7c",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:09:05+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Natalia Luzuriaga",
+          "company": "@CMSgov (work) + personal projects",
+          "created_at": "2017-07-07T13:48:50+00:00",
+          "email": "nat.luzuriaga@gmail.com"
+        }
+      ],
+      "changelog_entries": [],
+      "releases": [
+        {
+          "name": "README release",
+          "body": "Creating a new release for this README!",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1/releases/tag/v1.0.0",
+          "published_at": "2026-05-11T23:11:26+00:00",
+          "created_at": "2026-05-11T23:11:00+00:00",
+          "is_draft": false,
+          "is_prerelease": false,
+          "author": "natalialuzuriaga",
+          "tag_name": "v1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "repository2",
+      "url": "https://github.com/natalialuzuriaga-testing-org/repository2",
+      "description": "my test-repo 2!",
+      "issues": [
+        {
+          "title": "Update README",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository2/issues/2",
+          "created_at": "2026-05-11T23:15:02+00:00",
+          "state": "closed",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Add MIT License to the project",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository2/pull/1",
+          "created_at": "2026-05-11T23:14:09+00:00",
+          "updated_at": "2026-05-11T23:14:09+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Revise README title and add repository description\n\nUpdated repository title and added description.",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository2/commit/2b1295ed13c45067bef6e601fbc0ae00636cdfaf",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:14:40+00:00"
+        },
+        {
+          "message": "Initial commit",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository2/commit/ac64765494209889ef2bf0d13c6f77f86da70beb",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:13:40+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "repository1-fork",
+      "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork",
+      "description": "Fork of repository 1",
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Update README.md",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork/commit/4f61fc3ac366755957dcecd3e3eddbcbf81f8922",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-12T15:59:29+00:00"
+        },
+        {
+          "message": "Update README to include releases information",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork/commit/a8e50a40c4019cc439b418ac9dbb3a575f889b48",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:11:00+00:00"
+        },
+        {
+          "message": "Merge pull request #2 from natalialuzuriaga-testing-org/natalialuzuriaga-patch-1\n\nUpdate README to clarify repository purpose",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork/commit/0e732a43aac2b192e38aa86133883f5da74c924d",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:10:41+00:00"
+        },
+        {
+          "message": "Update README to clarify repository purpose",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork/commit/4fa118764d717bd8bbc689f46eac1cde233b487c",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:10:26+00:00"
+        },
+        {
+          "message": "Initial commit",
+          "url": "https://github.com/natalialuzuriaga-testing-org/repository1-fork/commit/9b2ff720512a9a5f035ff9a5b3f57be904287f7c",
+          "author": "Natalia Luzuriaga",
+          "created_at": "2026-05-11T23:09:05+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Natalia Luzuriaga",
+          "company": "@CMSgov (work) + personal projects",
+          "created_at": "2017-07-07T13:48:50+00:00",
+          "email": "nat.luzuriaga@gmail.com"
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    }
+  ],
+  "period": {
+    "start": "2026-05-01",
+    "end": "2026-05-14"
+  },
+  "generated_at": "2026-05-14T14:25:48.935754+00:00",
+  "total_repo_count": 4
+}
