@@ -2,7 +2,7 @@
 SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG
 
 ## About the Project
-Super-changelog is a python-based automation tool that aggregates activity across all public repositories in a GitHub organization. Each week, it collects repository statistics, such as, commits, pull requests, issues, and contributor activity, via the GitHub API and parses individual CHANGELOG.md files to produce two pull requests: a full weekly stats report and a condensed summary. It also supports generating historical data for a custom date range, which can be usedfor archival decisions, activity audits, and reporting.
+Super-changelog is a python-based automation tool that aggregates activity across all public repositories in a GitHub organization. Each week, it collects repository statistics, such as, commits, pull requests, issues, and contributor activity, via the GitHub API and parses individual CHANGELOG.md files to produce two pull requests: a full weekly stats report and a condensed summary. It also supports generating historical data for a custom date range, which can be used for archival decisions, activity audits, and reporting.
 
 <!---
 ### Project Vision
@@ -149,7 +149,7 @@ Example:
 **JSON data file** &mdash; Included in both the full report PR and the condensed version. Contains structured repository data suitable for downstream use: dashboards, archival tooling, reporting pipelines, or other automation that needs org-level activity data.
 
 #### Historical Data
-The `generate_changelog_historical.py` script collects the same dataas the weekly run, but for any selected date range. This is great for:
+The `generate_changelog_historical.py` script collects the same data that the weekly run collects, but for any selected date range. This is great for:
 - Identifying inactive repositories as candidates for archival
 - Auditing contributor activity across a period
 - Generating reports for leadership or stakeholder communications
@@ -230,11 +230,5 @@ For more information and resources about SBOMs, visit: https://www.cisa.gov/sbom
 
 This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/) as indicated in [LICENSE](LICENSE).
 
-All contributions to this project will be released under the CC0 dedication. By submitting a pull request or issue, you are agreeing to comply with this waiver of copyright interest.
- 
-<!-- ## Documentation Index --> 
-<!-- TODO: This is a like a 'table of contents' for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide 'bookmark' or 'anchor' links to specific sections of your file to be referenced in tickets, docs, or other communication channels. --> 
-<!-- **{list of .md at top directory and descriptions}** -->
- 
- ## Codeowners 
- The contents of this repository are managed by {responsible organization(s)}. Those responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md). 
+All contributions to this project will be released under the CC0 dedication. By submitting a pull request or issue, you are agreeing to comply with this waiver of copyright interest. 
+
