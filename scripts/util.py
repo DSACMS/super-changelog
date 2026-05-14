@@ -141,6 +141,7 @@ class ChangelogGenerator:
                             "url": issue.html_url,
                             "created_at": issue.created_at.isoformat(),
                             "state": issue.state,
+                            "author": issue.user.login if issue.user else None,
                             "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
                         })
                     else:
@@ -155,6 +156,7 @@ class ChangelogGenerator:
                                 "merged_at": pr.merged_at.isoformat() if pr.merged_at else None,
                                 "state": pr.state,
                                 "merged": pr.is_merged(),
+                                "author": pr.user.login if pr.user else None,
                                 "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
                             })
                         except Exception as e:
@@ -215,10 +217,18 @@ class ChangelogGenerator:
         for repo in org.get_repos(type="public"):
             total_repos += 1
             print(f"Processing repo: {repo.name}")
+            try:
+                topics = repo.get_topics()
+            except Exception as e:
+                print(f"Error getting topics for {repo.name}: {e}")
+                topics = []
+
             repo_data = {
                 "name": repo.name,
                 "url": repo.html_url,
                 "description": repo.description,
+                "archived": repo.archived,
+                "topics": topics,
                 "issues": [],
                 "pulls": [],
                 "commits": [],
