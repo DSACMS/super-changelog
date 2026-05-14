@@ -12,13 +12,11 @@ Super-changelog is a python-based automation tool that aggregates activity acros
 ### Project Mission
 **{project mission}** -->
 
-<!--
 ### Agency Mission
-TODO: Good to include since this is an agency-led project -->
+This project supports the agency's broader source code stewardship initiative, focused on bringing all repositories up to open source and repository hygiene standards.
 
-<!--
 ### Team Mission
-TODO: Good to include since this is an agency-led project -->
+Our team is committed to building tools that make open source development complemented with repository hygiene easier for federal development teams, focusing on automation and accuracy to reduce manual overhead.
 
 ## Core Team
 
@@ -28,6 +26,13 @@ A list of core team members responsible for the code and documentation in this r
 
 ```plaintext
 .
+├── .github
+│   ├── .gitleaks.toml
+│   ├── ISSUE_TEMPLATE
+│   └── workflows
+├── changelog_data
+│   ├── data
+│   └── summaries
 └── scripts
     ├── __init__.py
     ├── __pycache__
@@ -61,6 +66,18 @@ This project is monorepo with several apps. Please see the [api](./api/README.md
 -->
 
 To run super-changelog locally, you will need Python 3.x and a GitHub personal access token with `repo` and `read:org` scopes for the target organization.
+
+#### Token
+A `GH_TOKEN` is needed for this action for writing issues and pull requests. Set it as the permissions below:
+```
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+```
+
+⚠️ Please make sure the following are enabled within your Repository Action Settings in order to work properly ⚠️
+![GitHub Workflow Permissions Setting](./assets/workflow_permissions_setting.png) 
 
 1. Clone the repository:
 ```bash
