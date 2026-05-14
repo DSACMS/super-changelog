@@ -118,7 +118,7 @@ Historical output is saved to:
 ### What It Produces
 Each weekly run creates two pull requests and a JSON data file:
 
-**Full weekly report PR** (`weekly-changelog-{date}`) &mdash; A markdown file listing all avtive repositories for the week: commits, pull requests, contributors, and CHANGELOG.md entries from each repo in the organization.
+**Full weekly report PR** (`weekly-changelog-{date}`) &mdash; A markdown file listing all active repositories for the week: commits, pull requests, contributors, and CHANGELOG.md entries from each repo in the organization.
 
 **Condensed summary PR** (`weekly-changelog-condensed-{date}`) &mdash; A shorter, human-readable summary with quick stats and a list of active repositories.
 
