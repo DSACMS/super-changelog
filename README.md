@@ -1,10 +1,8 @@
 # super-changelog
-
 SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG
 
 ## About the Project
-
-**{project statement}**
+Super-changelog is a python-based automation tool that aggregates activity across all public repositories in a GitHub organization. Each week, it collects repository statistics, such as, commits, pull requests, issues, and contributor activity, via the GitHub API and parses individual CHANGELOG.md files to produce two pull requests: a full weekly stats report and a condensed summary. It also supports generating historical data for a custom date range, which can be usedfor archival decisions, activity audits, and reporting.
 
 <!---
 ### Project Vision
@@ -28,18 +26,29 @@ A list of core team members responsible for the code and documentation in this r
 
 ## Repository Structure
 
-<!-- TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time. -->
-
 ```plaintext
 .
+└── scripts
+    ├── __init__.py
+    ├── __pycache__
+    ├── create_pr.py
+    ├── create_pr_condensed.py
+    ├── generate_changelog_all.py
+    ├── generate_changelog_historical.py
+    ├── generate_changelog_weekly.py
+    ├── generate_summary.py
+    ├── generate_summary_condensed.py
+    ├── run_weekly.py
+    └── util.py
 ```
+**scripts/** &mdash; All autmation logic lives here. The weekly pipeline is orchestrated by `run_weekly.py`, which calls the generation and PR creation scripts in sequence. `utils.py` provides the shared `ChangelogGenerator` class used by both the weekly and historical scripts.
 
+**changelog_data/data/** &mdash; Output directory for generated JSON files created at runtime (These files are merged in through a PR).
 
-**{list directories and descriptions}**
+**.github/workflows/** &mdash; GitHub Actions workflows that run the weekly pipeline automatically on a schedule.
+
 
 <!-- TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels. -->
-
-**{list of .md at top directory and descriptions}**
 
 # Development and Software Delivery Lifecycle
 
@@ -50,6 +59,8 @@ The following guide is for members of the project team who have access to the re
 <!--- TODO - with example below:
 This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
 -->
+
+To run super-changelog locally, you will need Python 3.x and a GitHub personal 
 
 ## Coding Style and Linters
 
