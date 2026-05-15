@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-05-08 to 2026-05-15)
+
+• 16 of 83 repos with activity
+• 148 commits | 120 PRs | 9 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 24 commits, 29 PRs
+• *ospo-guide*: 5 commits, 47 PRs
+• *fast-facts-2.0*: 39 commits, 5 PRs
+• *archival-identifier*: 22 commits, 11 PRs
+• *share-it-act-lp*: 18 commits, 13 PRs
