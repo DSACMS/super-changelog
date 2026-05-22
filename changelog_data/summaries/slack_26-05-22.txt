@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-05-15 to 2026-05-22)
+
+• 13 of 83 repos with activity
+• 62 commits | 43 PRs | 2 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 20 commits, 31 PRs
+• *archival-identifier*: 27 commits, 4 PRs
+• *cmmi-access-model*: 4 commits, 0 PRs
+• *metrics*: 3 commits, 0 PRs
+• *decks*: 3 commits, 0 PRs
