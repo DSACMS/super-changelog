@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-05-22 to 2026-05-29)
+
+• 15 of 83 repos with activity
+• 33 commits | 41 PRs | 16 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 18 commits, 31 PRs
+• *codejson-crosswalk*: 11 commits, 0 PRs
+• *ospo*: 0 commits, 4 PRs
+• *tier3*: 2 commits, 1 PRs
+• *tier4*: 1 commits, 1 PRs
