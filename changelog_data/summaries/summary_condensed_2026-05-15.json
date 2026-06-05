@@ -1,0 +1,139 @@
+{
+  "period": {
+    "start": "2026-05-08",
+    "end": "2026-05-15"
+  },
+  "generated_at": "2026-05-15T03:32:07.959219+00:00",
+  "total_repos": 83,
+  "active_repos": 16,
+  "total_commits": 148,
+  "total_pulls": 120,
+  "total_issues": 9,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": []
+  },
+  "change_counts": {},
+  "active_repos_list": [
+    {
+      "name": "dsacms.github.io",
+      "url": "https://github.com/DSACMS/dsacms.github.io",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "commits": 5,
+      "pulls": 47,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 24,
+      "pulls": 29,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "commits": 11,
+      "pulls": 0,
+      "issues": 7
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "cms-it-alliance-demo",
+      "url": "https://github.com/DSACMS/cms-it-alliance-demo",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "commits": 18,
+      "pulls": 13,
+      "issues": 2
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 9,
+      "pulls": 7,
+      "issues": 0
+    },
+    {
+      "name": "share-it-savings",
+      "url": "https://github.com/DSACMS/share-it-savings",
+      "commits": 7,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "commits": 3,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "commits": 22,
+      "pulls": 11,
+      "issues": 0
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "commits": 39,
+      "pulls": 5,
+      "issues": 0
+    }
+  ]
+}
