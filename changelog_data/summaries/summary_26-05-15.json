@@ -1,0 +1,178 @@
+{
+  "period": {
+    "start": "2026-05-08",
+    "end": "2026-05-15"
+  },
+  "generated_at": "2026-05-15T03:32:07.959219+00:00",
+  "total_repos": 83,
+  "active_repos": 16,
+  "total_issues": 9,
+  "total_pulls": 120,
+  "total_commits": 148,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "dsacms.github.io",
+      "url": "https://github.com/DSACMS/dsacms.github.io",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 47,
+      "commits": 5,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 29,
+      "commits": 24,
+      "changelog_entries": 0,
+      "highlights": [
+        "24 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 7,
+      "pulls": 0,
+      "commits": 11,
+      "changelog_entries": 0,
+      "highlights": [
+        "7 new issue(s)"
+      ]
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-it-alliance-demo",
+      "url": "https://github.com/DSACMS/cms-it-alliance-demo",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 2,
+      "pulls": 13,
+      "commits": 18,
+      "changelog_entries": 0,
+      "highlights": [
+        "8 PR(s) merged"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 7,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "share-it-savings",
+      "url": "https://github.com/DSACMS/share-it-savings",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-sunsetter",
+      "url": "https://github.com/DSACMS/repo-sunsetter",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "issues": 0,
+      "pulls": 11,
+      "commits": 22,
+      "changelog_entries": 0,
+      "highlights": [
+        "7 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 39,
+      "changelog_entries": 0,
+      "highlights": [
+        "5 PR(s) merged"
+      ]
+    }
+  ],
+  "key_changes": []
+}

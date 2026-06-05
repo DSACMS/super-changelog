@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-05-01 to 2026-05-08)
+
+• 51 of 83 repos with activity
+• 60 commits | 112 PRs | 2 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 25 commits, 40 PRs
+• *pra-guides*: 5 commits, 13 PRs
+• *fast-facts-2.0*: 10 commits, 3 PRs
+• *super-changelog*: 3 commits, 4 PRs
+• *dsacms.github.io*: 2 commits, 3 PRs
