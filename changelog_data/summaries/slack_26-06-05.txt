@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-05-29 to 2026-06-05)
+
+• 48 of 83 repos with activity
+• 89 commits | 86 PRs | 14 issues
+
+*Most Active Repos:*
+• *fast-facts-2.0*: 49 commits, 5 PRs
+• *iv-cbv-payroll*: 21 commits, 30 PRs
+• *share-it-act-lp*: 9 commits, 3 PRs
+• *codejson-crosswalk*: 6 commits, 1 PRs
+• *super-changelog*: 2 commits, 4 PRs
