@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-06-05 to 2026-06-12)
+
+• 17 of 85 repos with activity
+• 90 commits | 55 PRs | 16 issues
+
+*Most Active Repos:*
+• *fast-facts-2.0*: 44 commits, 7 PRs
+• *iv-cbv-payroll*: 14 commits, 26 PRs
+• *super-changelog*: 15 commits, 12 PRs
+• *emmy-agent-marketplace*: 11 commits, 2 PRs
+• *ospo*: 1 commits, 2 PRs
