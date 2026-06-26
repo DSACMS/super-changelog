@@ -1,0 +1,15 @@
+Weekly Changelog Summary* (2026-06-19 to 2026-06-26)
+
+• 11 of 89 repos with activity
+• 56 commits | 44 PRs | 11 issues
+
+*Key Changes:*
+• super-changelog: Added Initial release of super-changelog
+• super-changelog: Added Initial release of super-changelog
+
+*Most Active Repos:*
+• *medicare_monthly_enrollment_dashboard*: 30 commits, 13 PRs
+• *iv-cbv-payroll*: 18 commits, 22 PRs
+• *emmy-agent-marketplace*: 2 commits, 5 PRs
+• *fast-facts-2.0*: 3 commits, 1 PRs
+• *super-changelog*: 0 commits, 2 PRs

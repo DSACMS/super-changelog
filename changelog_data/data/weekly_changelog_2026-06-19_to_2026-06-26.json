@@ -1,0 +1,1177 @@
+{
+  "repos": [
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "archived": false,
+      "topics": [
+        "cms",
+        "community-engagement",
+        "medicaid",
+        "medicaid-expansion",
+        "eligibility-determination",
+        "hr-1",
+        "income-verification",
+        "work-requirement",
+        "education",
+        "open-source",
+        "center-for-medicaid-and-children-services",
+        "education-program",
+        "work-program"
+      ],
+      "issues": [
+        {
+          "title": "Android app description is missing important details",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/1849",
+          "created_at": "2026-06-25T20:44:48+00:00",
+          "state": "open",
+          "author": "grugnog",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "FFS-4499: Use SHA image tags for UAT deploys",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1848",
+          "created_at": "2026-06-25T15:54:09+00:00",
+          "updated_at": "2026-06-25T17:54:46+00:00",
+          "merged_at": "2026-06-25T17:05:18+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "daphnegold",
+          "is_new": true
+        },
+        {
+          "title": "Skip \"AI Test Classifier\" CI workflow for dependabot PRs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1847",
+          "created_at": "2026-06-24T16:29:14+00:00",
+          "updated_at": "2026-06-24T16:59:02+00:00",
+          "merged_at": "2026-06-24T16:41:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "tdooner",
+          "is_new": true
+        },
+        {
+          "title": "Bump the bundler group across 1 directory with 2 updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1846",
+          "created_at": "2026-06-24T16:10:33+00:00",
+          "updated_at": "2026-06-24T16:24:58+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump faraday, faraday-net_http, json, concurrent-ruby for CVE-2026-54297",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1845",
+          "created_at": "2026-06-24T16:06:47+00:00",
+          "updated_at": "2026-06-24T16:23:13+00:00",
+          "merged_at": "2026-06-24T16:23:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "tdooner",
+          "is_new": true
+        },
+        {
+          "title": "FFS-4452: Add JSONSchema for Income Report API (and validate it)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1844",
+          "created_at": "2026-06-24T15:58:02+00:00",
+          "updated_at": "2026-06-24T18:09:43+00:00",
+          "merged_at": "2026-06-24T18:09:40+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "tdooner",
+          "is_new": true
+        },
+        {
+          "title": "Bump rubocop from 1.87.0 to 1.88.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1843",
+          "created_at": "2026-06-23T15:54:24+00:00",
+          "updated_at": "2026-06-24T17:09:08+00:00",
+          "merged_at": "2026-06-24T17:09:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump happy-dom from 20.10.4 to 20.10.6 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1842",
+          "created_at": "2026-06-23T15:54:06+00:00",
+          "updated_at": "2026-06-24T17:59:45+00:00",
+          "merged_at": "2026-06-24T17:59:43+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump vite from 8.0.16 to 8.1.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1841",
+          "created_at": "2026-06-23T15:53:56+00:00",
+          "updated_at": "2026-06-24T17:12:29+00:00",
+          "merged_at": "2026-06-24T17:12:27+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump aws-sdk-s3 from 1.225.0 to 1.226.0 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1840",
+          "created_at": "2026-06-23T15:53:51+00:00",
+          "updated_at": "2026-06-24T18:12:23+00:00",
+          "merged_at": "2026-06-24T18:12:21+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump actions/checkout from 6 to 7",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1839",
+          "created_at": "2026-06-23T15:53:44+00:00",
+          "updated_at": "2026-06-24T17:08:16+00:00",
+          "merged_at": "2026-06-24T17:08:14+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump cgi from 0.5.1 to 0.5.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1838",
+          "created_at": "2026-06-23T15:53:27+00:00",
+          "updated_at": "2026-06-24T18:10:22+00:00",
+          "merged_at": "2026-06-24T18:10:20+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Bump nokogiri from 1.19.3 to 1.19.4 in /app in the bundler group across 1 directory",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1837",
+          "created_at": "2026-06-23T13:17:24+00:00",
+          "updated_at": "2026-06-24T16:08:56+00:00",
+          "merged_at": "2026-06-24T16:08:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "do not merge -- test change to trigger workflow",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1836",
+          "created_at": "2026-06-22T21:06:53+00:00",
+          "updated_at": "2026-06-23T12:15:49+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "millerti",
+          "is_new": true
+        },
+        {
+          "title": "fix permissions on comment classifier",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1835",
+          "created_at": "2026-06-22T20:59:19+00:00",
+          "updated_at": "2026-06-23T12:15:19+00:00",
+          "merged_at": "2026-06-23T12:15:15+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "millerti",
+          "is_new": true
+        },
+        {
+          "title": "[FFS-4505] add hawaii to sandbox access to allow hawaii to test things out",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1834",
+          "created_at": "2026-06-22T12:58:40+00:00",
+          "updated_at": "2026-06-24T18:06:19+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "iannorriswork",
+          "is_new": true
+        },
+        {
+          "title": "FFS-4498: Enable the launcher in UAT",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1833",
+          "created_at": "2026-06-18T22:23:24+00:00",
+          "updated_at": "2026-06-23T15:59:32+00:00",
+          "merged_at": "2026-06-23T15:59:29+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "daphnegold",
+          "is_new": false
+        },
+        {
+          "title": "Bump the pip group across 1 directory with 2 updates",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1832",
+          "created_at": "2026-06-18T16:57:50+00:00",
+          "updated_at": "2026-06-24T18:00:21+00:00",
+          "merged_at": "2026-06-24T18:00:19+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": false
+        },
+        {
+          "title": "Bump undici from 7.25.0 to 7.28.0 in /app in the npm_and_yarn group across 1 directory",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1831",
+          "created_at": "2026-06-18T16:57:44+00:00",
+          "updated_at": "2026-06-24T15:58:53+00:00",
+          "merged_at": "2026-06-24T15:58:50+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": false
+        },
+        {
+          "title": "4470api docs",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1829",
+          "created_at": "2026-06-17T20:53:59+00:00",
+          "updated_at": "2026-06-24T16:43:35+00:00",
+          "merged_at": "2026-06-24T16:43:33+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "serverless-mom",
+          "is_new": false
+        },
+        {
+          "title": "Bump rubocop-rspec from 3.9.0 to 3.10.2 in /app",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1796",
+          "created_at": "2026-06-09T15:54:07+00:00",
+          "updated_at": "2026-06-24T18:14:12+00:00",
+          "merged_at": "2026-06-24T18:14:09+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "dependabot[bot]",
+          "is_new": false
+        },
+        {
+          "title": "FFS-4075: Self-attested employment page missing back button",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1767",
+          "created_at": "2026-06-01T14:40:52+00:00",
+          "updated_at": "2026-06-23T20:29:15+00:00",
+          "merged_at": "2026-06-23T20:29:13+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "millerti",
+          "is_new": false
+        },
+        {
+          "title": "Add agent skills for Jira and Worktrees",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1719",
+          "created_at": "2026-05-18T16:58:57+00:00",
+          "updated_at": "2026-06-24T18:15:50+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "tdooner",
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "FFS-4499: Use SHA image tags for UAT deploys (#1848)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/8ff0230161bd2f83724261e6633d9f8a1ea1ba9d",
+          "author": "Daphne Gold",
+          "created_at": "2026-06-25T17:05:18+00:00"
+        },
+        {
+          "message": "Bump rubocop-rspec from 3.9.0 to 3.10.2 in /app (#1796)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ben Calegari <bencalegari@navapbc.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ea0ebe048b644deffdb69665cc60cecb74d654df",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T18:14:09+00:00"
+        },
+        {
+          "message": "Bump aws-sdk-s3 from 1.225.0 to 1.226.0 in /app (#1840)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9f4f3eb61625dc80d2d45586a9111634a24e25e6",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T18:12:21+00:00"
+        },
+        {
+          "message": "Bump cgi from 0.5.1 to 0.5.2 in /app (#1838)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7a1544789592f955ed41325c70d47d60f628a9b3",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T18:10:20+00:00"
+        },
+        {
+          "message": "FFS-4452: Add JSONSchema for Income Report API (and validate it) (#1844)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/28913ca8179eda31aefdb77eeaa19e2daf25e620",
+          "author": "Tom Dooner",
+          "created_at": "2026-06-24T18:09:39+00:00"
+        },
+        {
+          "message": "Bump the pip group across 1 directory with 2 updates (#1832)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/63e3c49e7a72cf4f80ce5f42d892487f3a0e2b90",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T18:00:19+00:00"
+        },
+        {
+          "message": "Bump happy-dom from 20.10.4 to 20.10.6 in /app (#1842)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f652166e98cb9c679250547415df8db1288a47ef",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T17:59:42+00:00"
+        },
+        {
+          "message": "Bump vite from 8.0.16 to 8.1.0 in /app (#1841)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/98597644cd5b11df0af69bc34ceb96eeda37b139",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T17:12:27+00:00"
+        },
+        {
+          "message": "Bump rubocop from 1.87.0 to 1.88.0 in /app (#1843)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b8c4926fadd39c978f90e22009ddcf6642be71e7",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T17:09:05+00:00"
+        },
+        {
+          "message": "Bump actions/checkout from 6 to 7 (#1839)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/8e30cf4d377a76d3c770403b640bed61ac6ff8a1",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T17:08:14+00:00"
+        },
+        {
+          "message": "4470api docs (#1829)\n\nCo-authored-by: Nocnica <nicamellifera@navapbc.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/660611e16bb32e2dc895952ea48e7532e8bf535b",
+          "author": "No\u010dnica Mellifera",
+          "created_at": "2026-06-24T16:43:32+00:00"
+        },
+        {
+          "message": "Skip \"AI Test Classifier\" CI workflow for dependabot PRs (#1847)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d2ed60bc43fae62e81f11aebd2b272fb93ac25e6",
+          "author": "Tom Dooner",
+          "created_at": "2026-06-24T16:41:43+00:00"
+        },
+        {
+          "message": "Bump faraday, faraday-net_http, json, concurrent-ruby for CVE-2026-54297 (#1845)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ee2beed19dd2f41ec4e8d7e7a03fab9e6b735124",
+          "author": "Tom Dooner",
+          "created_at": "2026-06-24T16:23:10+00:00"
+        },
+        {
+          "message": "Bump nokogiri from 1.19.3 to 1.19.4 in /app in the bundler group across 1 directory (#1837)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1ca562b3f0efe793fbdb0565bab3f3fd66d9782e",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T16:08:54+00:00"
+        },
+        {
+          "message": "Bump undici from 7.25.0 to 7.28.0 in /app in the npm_and_yarn group across 1 directory (#1831)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5e736c77c21cfc9d25c02942d3b0ebcefa74105a",
+          "author": "dependabot[bot]",
+          "created_at": "2026-06-24T15:58:49+00:00"
+        },
+        {
+          "message": "FFS-4075: Self-attested employment page missing back button (#1767)\n\nCo-authored-by: Autofac Agent <agent@autofac>\nCo-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>\nCo-authored-by: Ben Calegari <bencalegari@navapbc.com>",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1854c63ddac9dccb0862e489afb6a7de0e19c0b3",
+          "author": "Tim Miller",
+          "created_at": "2026-06-23T20:29:12+00:00"
+        },
+        {
+          "message": "FFS-4498: Enable the launcher in UAT (#1833)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3eb30af9b2f67a14099e573ae8608a27fddf080c",
+          "author": "Daphne Gold",
+          "created_at": "2026-06-23T15:59:29+00:00"
+        },
+        {
+          "message": "fix permissions on comment classifier (#1835)",
+          "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cbd27435743e4a6881b5ca5c51b2c73a86d7e6f7",
+          "author": "Tim Miller",
+          "created_at": "2026-06-23T12:15:15+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "description": "Form to generate code.json",
+      "archived": false,
+      "topics": [
+        "dsacms-tier3",
+        "featured"
+      ],
+      "issues": [],
+      "pulls": [
+        {
+          "title": "docs(contributor): contributors readme action update",
+          "url": "https://github.com/DSACMS/codejson-generator/pull/127",
+          "created_at": "2026-06-20T05:45:28+00:00",
+          "updated_at": "2026-06-20T05:45:28+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "github-actions[bot]",
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "description": "General Support Repository for the Open Source Program Office (OSPO) at CMS.gov",
+      "archived": false,
+      "topics": [
+        "featured"
+      ],
+      "issues": [
+        {
+          "title": "Complete GFE Setup",
+          "url": "https://github.com/DSACMS/ospo/issues/38",
+          "created_at": "2026-06-15T16:34:15+00:00",
+          "state": "open",
+          "author": "decause-gov",
+          "is_new": false
+        },
+        {
+          "title": "Medicare Claims Pricer Repo",
+          "url": "https://github.com/DSACMS/ospo/issues/33",
+          "created_at": "2026-06-03T16:13:08+00:00",
+          "state": "open",
+          "author": "decause-gov",
+          "is_new": false
+        },
+        {
+          "title": "SAS Codebook Migration",
+          "url": "https://github.com/DSACMS/ospo/issues/32",
+          "created_at": "2026-06-03T16:10:20+00:00",
+          "state": "open",
+          "author": "decause-gov",
+          "is_new": false
+        },
+        {
+          "title": "Medicare Monthly Enrollment Dashboard",
+          "url": "https://github.com/DSACMS/ospo/issues/29",
+          "created_at": "2026-05-28T19:27:16+00:00",
+          "state": "open",
+          "author": "decause-gov",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+      "archived": false,
+      "topics": [
+        "cmsgov",
+        "cmsoss-tier3",
+        "commops",
+        "ospo",
+        "superchangelog",
+        "featured"
+      ],
+      "issues": [],
+      "pulls": [
+        {
+          "title": "\ud83d\udccb Changelog Summary: 2026-06-12 to 2026-06-19",
+          "url": "https://github.com/DSACMS/super-changelog/pull/108",
+          "created_at": "2026-06-19T04:52:34+00:00",
+          "updated_at": "2026-06-19T04:52:35+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "super-changelog-bot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "Weekly Changelog Summary: 2026-02-27 to 2026-03-06",
+          "url": "https://github.com/DSACMS/super-changelog/pull/107",
+          "created_at": "2026-06-19T04:52:33+00:00",
+          "updated_at": "2026-06-19T04:52:34+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "super-changelog-bot[bot]",
+          "is_new": true
+        }
+      ],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [
+        {
+          "version": "unknown",
+          "date": null,
+          "changes": [
+            {
+              "category": "Added",
+              "items": [
+                "Initial release of super-changelog",
+                "Initial release of super-changelog",
+                "Initial release of super-changelog",
+                "Initial release of super-changelog",
+                "Initial release of super-changelog",
+                "Initial release of super-changelog",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                "Historical reporting with a custom date range",
+                "Historical reporting with a custom date range",
+                "Historical reporting with a custom date range",
+                "Historical reporting with a custom date range",
+                "Historical reporting with a custom date range",
+                "Historical reporting with a custom date range",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "Org-agnostic design &mdash; works with any public GitHub organization",
+                "JSON data output for downstream dashboards and reporting",
+                "JSON data output for downstream dashboards and reporting",
+                "JSON data output for downstream dashboards and reporting",
+                "JSON data output for downstream dashboards and reporting",
+                "JSON data output for downstream dashboards and reporting",
+                "JSON data output for downstream dashboards and reporting",
+                "GitHub Ations workflow for automated weekly runs",
+                "GitHub Ations workflow for automated weekly runs",
+                "GitHub Ations workflow for automated weekly runs",
+                "GitHub Ations workflow for automated weekly runs",
+                "GitHub Ations workflow for automated weekly runs",
+                "GitHub Ations workflow for automated weekly runs"
+              ]
+            }
+          ]
+        }
+      ],
+      "releases": []
+    },
+    {
+      "name": "cmmi-access-model",
+      "url": "https://github.com/DSACMS/cmmi-access-model",
+      "description": "ACCESS Model FHIR Implementation Guide (IG) references an Operations Manual that provides more information about the ACCESS Model APIs. A link to the Operations Manual will be made available soon.",
+      "archived": false,
+      "topics": [],
+      "issues": [
+        {
+          "title": "Request update to BMI LOINC",
+          "url": "https://github.com/DSACMS/cmmi-access-model/issues/10",
+          "created_at": "2026-06-23T19:53:52+00:00",
+          "state": "open",
+          "author": "jencolrn",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "description": "Reimagining CMS Fast Facts communication of summary information",
+      "archived": false,
+      "topics": [
+        "dsacms-tier2"
+      ],
+      "issues": [
+        {
+          "title": "Make plots dynamic?",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/issues/51",
+          "created_at": "2026-06-24T16:44:34+00:00",
+          "state": "open",
+          "author": "achafetz",
+          "is_new": true
+        },
+        {
+          "title": "Turn off expandable?",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/issues/50",
+          "created_at": "2026-06-23T14:17:56+00:00",
+          "state": "open",
+          "author": "achafetz",
+          "is_new": true
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Dev cleanup",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/pull/52",
+          "created_at": "2026-06-25T17:18:15+00:00",
+          "updated_at": "2026-06-25T17:20:05+00:00",
+          "merged_at": "2026-06-25T17:20:01+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "achafetz",
+          "is_new": true
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #52 from DSACMS/dev_cleanup\n\nDev cleanup",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/b57f397aaf3a5adb13ffc04694fbc5d5fb89309a",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-06-25T17:20:01+00:00"
+        },
+        {
+          "message": "fix: adjust sizing of text in viz displays",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/2c0bbed91c95c0fb08ed360c56ea7ce5f3c35cae",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-06-25T17:17:15+00:00"
+        },
+        {
+          "message": "fix: address name change",
+          "url": "https://github.com/DSACMS/fast-facts-2.0/commit/33ffb40c11451690af4dcf80a5cf95f9a222cc25",
+          "author": "Aaron Chafetz",
+          "created_at": "2026-06-25T17:16:47+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "description": null,
+      "archived": false,
+      "topics": [],
+      "issues": [],
+      "pulls": [
+        {
+          "title": "[codex] Update Jira ticket conventions",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/13",
+          "created_at": "2026-06-24T13:46:05+00:00",
+          "updated_at": "2026-06-25T13:52:13+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "j-shilling",
+          "is_new": true
+        },
+        {
+          "title": "[codex] Refactor Emmy Jira ticketing conventions",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/12",
+          "created_at": "2026-06-22T18:08:13+00:00",
+          "updated_at": "2026-06-22T18:10:05+00:00",
+          "merged_at": "2026-06-22T18:10:05+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "j-shilling",
+          "is_new": true
+        },
+        {
+          "title": "[codex] Add Emmy governance docs plugin",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/11",
+          "created_at": "2026-06-22T13:59:07+00:00",
+          "updated_at": "2026-06-22T15:54:57+00:00",
+          "merged_at": "2026-06-22T15:54:57+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "j-shilling",
+          "is_new": true
+        },
+        {
+          "title": "Bump actions/checkout from 6 to 7",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/10",
+          "created_at": "2026-06-22T13:14:50+00:00",
+          "updated_at": "2026-06-22T13:14:51+00:00",
+          "merged_at": null,
+          "state": "open",
+          "merged": false,
+          "author": "dependabot[bot]",
+          "is_new": true
+        },
+        {
+          "title": "[codex] Add Emmy Jira ticketing skill",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/8",
+          "created_at": "2026-06-15T19:04:03+00:00",
+          "updated_at": "2026-06-22T18:50:49+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "j-shilling",
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "[codex] Refactor Emmy Jira ticketing conventions (#12)\n\n* Add Emmy governance follow-up ticket skill\n\n* Refactor Emmy Jira ticketing conventions",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/commit/ff27c5d2eebcaf5f1807362914851431d95b220d",
+          "author": "Jake Shilling",
+          "created_at": "2026-06-22T18:10:04+00:00"
+        },
+        {
+          "message": "[codex] Add Emmy governance docs plugin (#11)\n\n* Add Emmy governance docs plugin\n\n* Bundle governance plugin runtime files",
+          "url": "https://github.com/DSACMS/emmy-agent-marketplace/commit/8fa04802a96385e60634b5d2729b4fd12d58d298",
+          "author": "Jake Shilling",
+          "created_at": "2026-06-22T15:54:56+00:00"
+        }
+      ],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "website-template",
+      "url": "https://github.com/DSACMS/website-template",
+      "description": "A template repository to set up a HTML/CSS/JS/Markdown/11ty website",
+      "archived": false,
+      "topics": [],
+      "issues": [
+        {
+          "title": "pa11y-scan job hangs on ubuntu-20.04 runner",
+          "url": "https://github.com/DSACMS/website-template/issues/3",
+          "created_at": "2026-06-23T20:49:40+00:00",
+          "state": "open",
+          "author": "haseebmalik18",
+          "is_new": true
+        }
+      ],
+      "pulls": [],
+      "commits": [],
+      "contributors": [],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "description": "Re-implement the Medicare Monthly Enrollment dashboard in an open-source framework that could be deployed to data.cms.gov in the future.",
+      "archived": false,
+      "topics": [],
+      "issues": [
+        {
+          "title": "Front-end: PieChart Visualization",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/issues/1",
+          "created_at": "2026-06-18T20:12:44+00:00",
+          "state": "closed",
+          "author": "decause-gov",
+          "is_new": false
+        }
+      ],
+      "pulls": [
+        {
+          "title": "Restyle trend charts with interactive hover tooltips",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/14",
+          "created_at": "2026-06-24T17:01:38+00:00",
+          "updated_at": "2026-06-25T09:49:46+00:00",
+          "merged_at": "2026-06-25T09:49:46+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "haseebmalik18",
+          "is_new": true
+        },
+        {
+          "title": "Add MA and MAPD state-level enrollment choropleth maps",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/13",
+          "created_at": "2026-06-24T11:13:26+00:00",
+          "updated_at": "2026-06-24T14:08:59+00:00",
+          "merged_at": "2026-06-24T14:08:58+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "isaac-rtc",
+          "is_new": true
+        },
+        {
+          "title": "Bundle dashboard JS via esbuild app.js entry and bump pa11y runner to ubuntu-22.04",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/12",
+          "created_at": "2026-06-23T20:22:21+00:00",
+          "updated_at": "2026-06-24T19:33:32+00:00",
+          "merged_at": "2026-06-23T21:15:54+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "haseebmalik18",
+          "is_new": true
+        },
+        {
+          "title": "Dsacms/zion/11ty template frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/11",
+          "created_at": "2026-06-23T18:22:58+00:00",
+          "updated_at": "2026-06-23T18:45:30+00:00",
+          "merged_at": "2026-06-23T18:44:47+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "zionmich",
+          "is_new": true
+        },
+        {
+          "title": "Dsacms/zion/11ty template frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/10",
+          "created_at": "2026-06-23T16:43:00+00:00",
+          "updated_at": "2026-06-23T18:45:30+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "zionmich",
+          "is_new": true
+        },
+        {
+          "title": "Dsacms/zion/11ty template frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/9",
+          "created_at": "2026-06-23T15:27:49+00:00",
+          "updated_at": "2026-06-23T16:08:50+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "zionmich",
+          "is_new": true
+        },
+        {
+          "title": "Created the 11ty templated version of our frontend ",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/8",
+          "created_at": "2026-06-23T14:41:52+00:00",
+          "updated_at": "2026-06-23T15:21:37+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "zionmich",
+          "is_new": true
+        },
+        {
+          "title": "Cache transformed dataset results in sessionStorage instead of raw re\u2026",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/7",
+          "created_at": "2026-06-22T19:37:52+00:00",
+          "updated_at": "2026-06-24T19:33:32+00:00",
+          "merged_at": "2026-06-22T19:45:26+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "haseebmalik18",
+          "is_new": true
+        },
+        {
+          "title": "Use sessionStorage to cache requestDataset results across refresh",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/6",
+          "created_at": "2026-06-22T18:18:58+00:00",
+          "updated_at": "2026-06-24T19:33:33+00:00",
+          "merged_at": null,
+          "state": "closed",
+          "merged": false,
+          "author": "haseebmalik18",
+          "is_new": true
+        },
+        {
+          "title": "Change to live API calls on client side with caching, remove JSONs",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/5",
+          "created_at": "2026-06-22T18:15:00+00:00",
+          "updated_at": "2026-06-22T18:34:11+00:00",
+          "merged_at": "2026-06-22T18:34:11+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "kmsheikh",
+          "is_new": true
+        },
+        {
+          "title": "Cache requestDataset results to avoid duplicate fetches",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/4",
+          "created_at": "2026-06-22T17:56:49+00:00",
+          "updated_at": "2026-06-22T18:08:28+00:00",
+          "merged_at": "2026-06-22T18:08:28+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "haseebmalik18",
+          "is_new": true
+        },
+        {
+          "title": "Add pie chart visualizations for Medicare and Part D enrollment",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/3",
+          "created_at": "2026-06-22T17:05:12+00:00",
+          "updated_at": "2026-06-22T17:16:36+00:00",
+          "merged_at": "2026-06-22T17:16:36+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "isaac-rtc",
+          "is_new": true
+        },
+        {
+          "title": "Add national and county prescription drug enrollment tables",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/2",
+          "created_at": "2026-06-18T20:43:44+00:00",
+          "updated_at": "2026-06-24T19:33:32+00:00",
+          "merged_at": "2026-06-18T21:02:10+00:00",
+          "state": "closed",
+          "merged": true,
+          "author": "haseebmalik18",
+          "is_new": false
+        }
+      ],
+      "commits": [
+        {
+          "message": "Merge pull request #14 from DSACMS/DSACMS/haseeb/chart-interactivity\n\nRestyle trend charts with interactive hover tooltips",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/aa6674f83be900d82acab2d715e423bf164ff1ae",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-25T09:49:46+00:00"
+        },
+        {
+          "message": "Restyle trend charts with interactive hover tooltips",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/871ac65675df0e1af1ffc202b4465ce5dd06ded5",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-24T16:59:06+00:00"
+        },
+        {
+          "message": "Merge pull request #13 from DSACMS/DSACMS/isaac/medicare-maps\n\nAdd MA and MAPD state-level enrollment choropleth maps",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/8c612cb0e6afc597baa0fd22b93b59d0ae9ce0a4",
+          "author": "zionmich",
+          "created_at": "2026-06-24T14:08:58+00:00"
+        },
+        {
+          "message": "Added working state maps to new template, and added topojson to dependencies\n\nSigned-off-by: Isaac Guzman <ig2505@columbia.edu>",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/20db93074809d9bdb8a152c1fb49899dc66c92c5",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-24T11:01:50+00:00"
+        },
+        {
+          "message": "Merge branch 'main' into DSACMS/Isaac/medicare-maps",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/97091f3fcd20aad7b941c7892684ccf990bf7580",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-23T21:32:40+00:00"
+        },
+        {
+          "message": "Resolving linter errors",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/c9080b66a015b1fd0dba80bb366eb634bf185aa1",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-23T21:22:41+00:00"
+        },
+        {
+          "message": "Merge pull request #12 from DSACMS/DSACMS/haseeb/bundle-dashboard-js\n\nBundle dashboard JS via esbuild app.js entry and bump pa11y runner to ubuntu-22.04",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/5346b12abaf8eb844a517c801a2358980bea3510",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-23T21:15:54+00:00"
+        },
+        {
+          "message": "Add state-level MA and MAPD enrollment choropleth maps\n\nSigned-off-by: Isaac Guzman <ig2505@columbia.edu>",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/6f1448300733d9ea1c1752a10b3a76695eb2af95",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-23T20:47:13+00:00"
+        },
+        {
+          "message": "Bump pa11y-scan runner to ubuntu-22.04 since 20.04 no longer runs",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/544afc5cdbecda2dff698ad0c82defb1d52b7d8a",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-23T20:34:12+00:00"
+        },
+        {
+          "message": "Bundle dashboard JS via esbuild app.js entry instead of import map",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/9cfa4b92997cf51f817552ce87c654d3c2240990",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-23T20:10:39+00:00"
+        },
+        {
+          "message": "Merge pull request #11 from DSACMS/DSACMS/zion/11ty-template-frontend\n\nDsacms/zion/11ty template frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/0f5637a97a548ac53d127120ae63063371441d7c",
+          "author": "zionmich",
+          "created_at": "2026-06-23T18:44:47+00:00"
+        },
+        {
+          "message": "cleaned up the script map",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/5acbae2db4b0fb82637d909abfabb63fdc383fa7",
+          "author": "zionmich",
+          "created_at": "2026-06-23T18:20:55+00:00"
+        },
+        {
+          "message": "added index mapping",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/bc579f410f9945e22e6b42396d6cdb9e069af02d",
+          "author": "zionmich",
+          "created_at": "2026-06-23T16:41:18+00:00"
+        },
+        {
+          "message": "Merge remote-tracking branch 'origin/frontend' into DSACMS/zion/11ty-template-frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/301a1fefb13b14e82900b57c198396344ea69f4e",
+          "author": "zionmich",
+          "created_at": "2026-06-23T16:12:10+00:00"
+        },
+        {
+          "message": "repo cleaning",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/bd4d60c79ea6ff78df7179f4ebf58312550ce058",
+          "author": "zionmich",
+          "created_at": "2026-06-23T16:09:12+00:00"
+        },
+        {
+          "message": "Remove unused template header, nav, footer, and example pages",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/2958ebfae11eafb1e900de30151c225ffdcd3df6",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-23T15:46:03+00:00"
+        },
+        {
+          "message": "resolved merge conflict in changelog.yml",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/8eeea3c54bfced80a04634c3e53d8913a37a52bc",
+          "author": "zionmich",
+          "created_at": "2026-06-23T15:23:22+00:00"
+        },
+        {
+          "message": "updated some security flags on link replacement and regex",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/9e0ab700d6a0bf47faa3e3e38095e3f94874191f",
+          "author": "zionmich",
+          "created_at": "2026-06-23T15:20:55+00:00"
+        },
+        {
+          "message": "Potential fix for pull request finding 'CodeQL / Workflow does not contain permissions'\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/34a3053ba9f4a3bc10446c8d9cfd80e2b3e3303e",
+          "author": "zionmich",
+          "created_at": "2026-06-23T14:48:50+00:00"
+        },
+        {
+          "message": "Merge branch 'main' into frontend",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/3c3ed31150682807b1a794081a4082159388c869",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-23T13:43:06+00:00"
+        },
+        {
+          "message": "added the 11ty template",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/9ee31f31753003a98468b890823daf3e710a77fd",
+          "author": "zionmich",
+          "created_at": "2026-06-22T21:34:58+00:00"
+        },
+        {
+          "message": "remove unused files",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/9fe523ca7e245e388b1d6ee788966ca4671e571a",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-22T20:30:21+00:00"
+        },
+        {
+          "message": "Merge pull request #7 from DSACMS/DSACMS/haseeb/cache-transformed-result\n\nCache transformed dataset results in sessionStorage instead of raw responses",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/fdd4aee03c43c50714cfab3f72520868bef19181",
+          "author": "Haseeb Malik",
+          "created_at": "2026-06-22T19:45:26+00:00"
+        },
+        {
+          "message": "Cache transformed dataset results in sessionStorage instead of raw responses",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/107699be204998b1b427e0056301a66f0b2eec46",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-22T19:35:05+00:00"
+        },
+        {
+          "message": "Merge pull request #5 from DSACMS/DSACMS/kmsheikh/api-call\n\nChange to live API calls on client side with caching, remove JSONs",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/bf165e3f0e58f3f20256a1a16e02941d3754cd0a",
+          "author": "zionmich",
+          "created_at": "2026-06-22T18:34:10+00:00"
+        },
+        {
+          "message": "Merge pull request #4 from DSACMS/DSACMS/haseeb/request-cache\n\nCache requestDataset results to avoid duplicate fetches",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/81f60c40110eeb7ce244f5ff66a5ca281401aa67",
+          "author": "zionmich",
+          "created_at": "2026-06-22T18:08:27+00:00"
+        },
+        {
+          "message": "Change to live API calls on client side with caching, remove JSONs\n\nSigned-off-by: Kiran Sheikh <kmaya.sheikh@gmail.com>",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/61503473831782d77109c8481c510b393275d472",
+          "author": "Kiran Sheikh",
+          "created_at": "2026-06-22T17:53:56+00:00"
+        },
+        {
+          "message": "Cache requestDataset results to avoid duplicate fetches",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/85f9741439d0fa6badb490184076190e63ce2fdd",
+          "author": "haseebmalik18",
+          "created_at": "2026-06-22T17:50:59+00:00"
+        },
+        {
+          "message": "Merge pull request #3 from DSACMS/frontend\n\nAdd pie chart visualizations for Medicare and Part D enrollment",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/27a2e711d14c02f9a47616cf50806859ffd0c81f",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-22T17:16:36+00:00"
+        },
+        {
+          "message": "Add accessible pie charts for Medicare/Part D enrollment\n\nSigned-off-by: Isaac Guzman <ig2505@columbia.edu>",
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/99c29730ecb6ada600cf4ed0c5d224faaef4f82d",
+          "author": "Isaac Guzman",
+          "created_at": "2026-06-22T14:41:31+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Isaac Guzman",
+          "company": null,
+          "created_at": "2025-01-10T06:25:58+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "code-book",
+      "url": "https://github.com/DSACMS/code-book",
+      "description": null,
+      "archived": false,
+      "topics": [],
+      "issues": [],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "created a python script to make the YAML file and another python script to make the Codebook",
+          "url": "https://github.com/DSACMS/code-book/commit/81466611255942d96b5eccb19548e5d520d03254",
+          "author": "zionmich",
+          "created_at": "2026-06-25T15:13:15+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": null,
+          "company": null,
+          "created_at": "2022-09-14T19:03:35+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    },
+    {
+      "name": "MedicareClaimsPricerSource",
+      "url": "https://github.com/DSACMS/MedicareClaimsPricerSource",
+      "description": null,
+      "archived": false,
+      "topics": [],
+      "issues": [
+        {
+          "title": "Phase1: Raw file upload",
+          "url": "https://github.com/DSACMS/MedicareClaimsPricerSource/issues/1",
+          "created_at": "2026-06-18T20:28:10+00:00",
+          "state": "open",
+          "author": "decause-gov",
+          "is_new": false
+        }
+      ],
+      "pulls": [],
+      "commits": [
+        {
+          "message": "Updated README to include directory structure\n\nSigned-off-by: Kiran Sheikh <kmaya.sheikh@gmail.com>",
+          "url": "https://github.com/DSACMS/MedicareClaimsPricerSource/commit/86906cd65ae180201c0e071aad34943deac57512",
+          "author": "Kiran Sheikh",
+          "created_at": "2026-06-23T22:01:12+00:00"
+        },
+        {
+          "message": "Added pricer executable jar zip files, extracted READMEs into pricer folders\n\nSigned-off-by: Kiran Sheikh <kmaya.sheikh@gmail.com>",
+          "url": "https://github.com/DSACMS/MedicareClaimsPricerSource/commit/933f06933323d0c5660105976a59437b667bece8",
+          "author": "Kiran Sheikh",
+          "created_at": "2026-06-22T23:42:24+00:00"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Kiran Maya Sheikh",
+          "company": null,
+          "created_at": "2022-10-28T20:49:26+00:00",
+          "email": null
+        }
+      ],
+      "changelog_entries": [],
+      "releases": []
+    }
+  ],
+  "period": {
+    "start": "2026-06-19",
+    "end": "2026-06-26"
+  },
+  "generated_at": "2026-06-26T03:42:04.033523+00:00",
+  "total_repo_count": 89
+}
