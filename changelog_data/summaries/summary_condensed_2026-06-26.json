@@ -1,0 +1,128 @@
+{
+  "period": {
+    "start": "2026-06-19",
+    "end": "2026-06-26"
+  },
+  "generated_at": "2026-06-26T03:42:04.033523+00:00",
+  "total_repos": 89,
+  "active_repos": 11,
+  "total_commits": 56,
+  "total_pulls": 44,
+  "total_issues": 11,
+  "total_changelog_entries": 1,
+  "categorized_changes": {
+    "added": [],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4499: Use SHA image tags for UAT deploys",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1848",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Skip \"AI Test Classifier\" CI workflow for dependabot PRs",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1847",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump faraday, faraday-net_http, json, concurrent-ruby for CVE-2026-54297",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1845",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "other": 3
+  },
+  "active_repos_list": [
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "commits": 18,
+      "pulls": 22,
+      "issues": 1
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 4
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "cmmi-access-model",
+      "url": "https://github.com/DSACMS/cmmi-access-model",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 2
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "commits": 2,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "website-template",
+      "url": "https://github.com/DSACMS/website-template",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "commits": 30,
+      "pulls": 13,
+      "issues": 1
+    },
+    {
+      "name": "code-book",
+      "url": "https://github.com/DSACMS/code-book",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "MedicareClaimsPricerSource",
+      "url": "https://github.com/DSACMS/MedicareClaimsPricerSource",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 1
+    }
+  ]
+}
