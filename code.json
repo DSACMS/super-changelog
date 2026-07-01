@@ -24,9 +24,9 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 14883,
+  "laborHours": 16022,
   "reuseFrequency": {
-    "forks": 3,
+    "forks": 2,
     "clones": 0
   },
   "platforms": [
@@ -50,8 +50,8 @@
   "partners": [],
   "date": {
     "created": "2025-04-09T00:43:10Z",
-    "lastModified": "2026-05-29T18:44:42Z",
-    "metadataLastUpdated": "2026-06-01T02:50:55.500Z"
+    "lastModified": "2026-06-16T23:46:02Z",
+    "metadataLastUpdated": "2026-07-01T02:42:42.451Z"
   },
   "tags": [
     "cmsgov",
