@@ -4,6 +4,51 @@ from datetime import datetime, timezone
 from typing import Dict, List, Any
 import urllib.parse
 
+
+def normalize_data(data: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Normalize changelog data into a single top-level structure with a flat
+    `repos` list, regardless of whether the source file is single-org
+    (legacy: {"repos": [...]}) or multi-org ({"DSACMS": {"repos": [...]}, ...}).
+
+    Each repo in the returned `repos` list is tagged with its `org`.
+    """
+    # Legacy single-org shape: already has top-level "repos"
+    if "repos" in data:
+        for repo in data["repos"]:
+            repo.setdefault("org", data.get("org_name", "unknown"))
+        return data
+
+    # Multi-org shape: keys are org names mapping to per-org data
+    merged = {
+        "repos": [],
+        "period": {},
+        "generated_at": None,
+        "total_repo_count": 0,
+    }
+
+    for org_name, org_data in data.items():
+        if not isinstance(org_data, dict) or "repos" not in org_data:
+            continue
+
+        if not merged["period"] and org_data.get("period"):
+            merged["period"] = org_data["period"]
+        if merged["generated_at"] is None and org_data.get("generated_at"):
+            merged["generated_at"] = org_data["generated_at"]
+
+        merged["total_repo_count"] += org_data.get(
+            "total_repo_count", len(org_data["repos"])
+        )
+
+        for repo in org_data["repos"]:
+            repo["org"] = org_name
+            merged["repos"].append(repo)
+
+    if not merged["repos"]:
+        raise ValueError("Invalid data structure: no repos found in any org")
+
+    return merged
+
 def generate_summary(data_file: str) -> Dict[str, Any]:
     """Generate a summary from changelog data."""
     try:
