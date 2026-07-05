@@ -58,9 +58,11 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
         print(f"Error reading data file {data_file}: {e}")
         raise
 
-    if "repos" not in data:
-        print("Invalid data structure: missing 'repos' key")
-        raise ValueError("Invalid data structure: missing 'repos' key")
+    # if "repos" not in data:
+    #     print("Invalid data structure: missing 'repos' key")
+    #     raise ValueError("Invalid data structure: missing 'repos' key")
+
+    data = normalize_data(data)
 
     summary = {
         "period": data.get("period", {}),
