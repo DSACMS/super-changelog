@@ -33,7 +33,7 @@ def main():
     with open(filename, "w") as f:
         json.dump(combined_data, f, indent=2)
 
-    print(f"Saved combined changelog for {len(org_names)} orgs to {filename}")
+    print(f"Saved combined changelog for {len(org_names)} orgs to {filename}") 
 
 if __name__ == "__main__":
     main()
