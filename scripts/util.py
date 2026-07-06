@@ -7,8 +7,6 @@ import re
 
 
 def parse_changelog(content):
-    entries = []
-
     categories = [
         r'[Aa]dd(?:ed|s|ing)?',
         r'[Cc]hang(?:ed|e|es|ing)?',
@@ -19,10 +17,10 @@ def parse_changelog(content):
     ]
 
     version_patterns = [
-        r'^#+\s*(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$'
-        r'^#+\s*(\d{4}-\d{2}-\d{2}).*?$'
-        r'^#+\s*[Rr]elease\s+(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$'
-        r'^#+\s*[Vv]ersion\s+(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$'
+        r'^#+\s*(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$',
+        r'^#+\s*(\d{4}-\d{2}-\d{2}).*?$',
+        r'^#+\s*[Rr]elease\s+(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$',
+        r'^#+\s*[Vv]ersion\s+(?:v|\[)?(\d+\.\d+\.\d+)(?:\])?.*?$',
     ]
 
     release = []
@@ -30,6 +28,7 @@ def parse_changelog(content):
     current_release = {"version": "unknown", "date": None, "changes": []}
 
     for line in lines:
+        matched_version = False
         for pattern in version_patterns:
             match = re.search(pattern, line)
             if match:
@@ -44,20 +43,36 @@ def parse_changelog(content):
                     "date": release_date,
                     "changes": []
                 }
+                matched_version = True
                 break
 
+        if matched_version:
+            continue
+
+        matched_category = False
         for category_pattern in categories:
-            category_match = re.search(rf'(?:^#+\s*|^\s*-\s*\*\*|\s+-\s+)({category_pattern})[:\s]*$', line, re.IGNORECASE)
+            category_match = re.search(
+                rf'(?:^#+\s*|^\s*-\s*\*\*|\s+-\s+)({category_pattern})[:\s]*$',
+                line, re.IGNORECASE
+            )
             if category_match:
                 category = category_match.group(1)
                 current_release["changes"].append({"category": category, "items": []})
-                continue
+                matched_category = True
+                break
 
-            if current_release["changes"] and (line.strip().startswith('-') or line.strip().startswith('*')):
-                item_text = line.strip()[1:].strip()
-                if item_text and not any(item_text.lower().startswith(cat.lower()) for cat in ['added', 'changed', 'depreciated', 'removed', 'fixed', 'security']):
-                    if current_release["changes"]:
-                        current_release["changes"][-1]["items"].append(item_text)
+        if matched_category:
+            continue
+
+        if current_release["changes"] and (
+            line.strip().startswith('-') or line.strip().startswith('*')
+        ):
+            item_text = line.strip()[1:].strip()
+            skip_prefixes = ['added', 'changed', 'deprecated', 'removed', 'fixed', 'security']
+            if item_text and not any(
+                item_text.lower().startswith(cat) for cat in skip_prefixes
+            ):
+                current_release["changes"][-1]["items"].append(item_text)
 
     if current_release["changes"]:
         release.append(current_release)
