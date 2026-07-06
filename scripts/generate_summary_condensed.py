@@ -218,6 +218,7 @@ def generate_condensed_summary(data_file: str) -> Dict[str, Any]:
         {
             "name": r.get("name"),
             "url": r.get("url"),
+            "org": r.get("org", "unknown"),
             "commits": len(r.get("commits", [])),
             "pulls": len(r.get("pulls", [])),
             "issues": len(r.get("issues", []))

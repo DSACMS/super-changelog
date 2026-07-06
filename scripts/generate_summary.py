@@ -88,6 +88,7 @@ def generate_summary(data_file: str) -> Dict[str, Any]:
 
             repo_summary = {
                 "name": repo_name,
+                "org": repo_data.get("org", "unknown"),
                 "url": repo_data["url"],
                 "issues": len(repo_data["issues"]),
                 "pulls": len(repo_data["pulls"]),
