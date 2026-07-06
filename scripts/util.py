@@ -139,7 +139,7 @@ class ChangelogGenerator:
             print(f"Found {num_issues} issues")
 
             num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
-            print(f"Found {num_prs} pull requests")
+            print(f"Found {num_prs} pull requests") 
 
             for issue in issues_and_prs:
                 if not self.start_date:
