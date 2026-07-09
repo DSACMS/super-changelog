@@ -91,7 +91,7 @@ class ChangelogGenerator:
         self.filename = filename
         self.token = token
 
-        self.g = Github(token, per_page=100)
+        self.g = Github(token, per_page=100, lazy=True)
 
     """
     def get_contributors(self,repo,data):
@@ -460,6 +460,11 @@ class ChangelogGenerator:
                 "commits": [],
                 "releases": []
             }
+            
+            if repo.archived:
+                print(f"Skipping archived repo: {repo.name}")
+                data["repos"].append(repo_data)
+                continue
             
             try:
                 self.get_issues_and_prs(repo, repo_data)
