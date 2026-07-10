@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-07-03 to 2026-07-10)
+
+• 24 of 168 repos with activity
+• 60 commits | 112 PRs | 57 issues
+
+*Key Changes:*
+• super-changelog: Added Initial release of super-changelog
+• super-changelog: Added Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs
+• batcave-tf-gatus: Added Changelog
+• batcave-tf-gatus: Added pre-commit
+• batcave-workflow-engine: Added GitHub action auth support
+• batcave-workflow-engine: Added settings package for config and metaconfig values
+• batcave-workflow-engine: Changed Upgrade omnibus base image to v1.5.1
+• batcave-workflow-engine: Changed refactored CLI for readability and maintenance
+
+*Most Active Repos:*
+• *ztmf-ui*: 13 commits, 26 PRs
+• *iv-cbv-payroll*: 14 commits, 20 PRs
+• *ztmf*: 8 commits, 20 PRs
+• *mint-app*: 4 commits, 19 PRs
+• *ospo-guide*: 8 commits, 4 PRs
