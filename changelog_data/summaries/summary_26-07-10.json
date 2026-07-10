@@ -1,0 +1,339 @@
+{
+  "period": {
+    "start": "2026-07-03",
+    "end": "2026-07-10"
+  },
+  "generated_at": "2026-07-10T03:19:37.673070+00:00",
+  "total_repos": 168,
+  "active_repos": 24,
+  "total_issues": 57,
+  "total_pulls": 112,
+  "total_commits": 60,
+  "total_changelog_entries": 6,
+  "repos_with_activity": [
+    {
+      "name": "repo-scaffolder",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 1,
+      "pulls": 4,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 20,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "14 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 2,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 2,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 6,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 1,
+      "pulls": 5,
+      "commits": 3,
+      "changelog_entries": 1,
+      "highlights": [
+        "Added: Initial release of super-changelog",
+        "Added: Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+        "3 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "tier1",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/tier1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier2",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/tier2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier3",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/tier3",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "tier4",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/tier4",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "archival-identifier",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "issues": 1,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "MedicareClaimsPricerSource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/MedicareClaimsPricerSource",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-core",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-core",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "easi-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "mint-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "issues": 0,
+      "pulls": 19,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "10 PR(s) merged"
+      ]
+    },
+    {
+      "name": "batcave-tf-gatus",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 1,
+      "highlights": [
+        "Added: Changelog",
+        "Added: pre-commit"
+      ]
+    },
+    {
+      "name": "ztmf",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "issues": 18,
+      "pulls": 20,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "9 PR(s) merged",
+        "14 new issue(s)"
+      ]
+    },
+    {
+      "name": "batcave-workflow-engine",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 2,
+      "highlights": [
+        "Added: GitHub action auth support",
+        "Added: settings package for config and metaconfig values",
+        "Changed: Upgrade omnibus base image to v1.5.1",
+        "Changed: refactored CLI for readability and maintenance",
+        "Added: Configuration File template rendering with built-in values",
+        "Added: Configuration conversions",
+        "Fixed: Viper config key names",
+        "Fixed: Specified CLI command parameters for custom input and output for easier unit testing in the future",
+        "Changed: refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+        "Added: debugging flag",
+        "Added: pkg/shell/commands Runner interface",
+        "Added: cmd/workflow-engine for cli",
+        "Added: pkg/environments"
+      ]
+    },
+    {
+      "name": "ztmf-ui",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "issues": 24,
+      "pulls": 26,
+      "commits": 13,
+      "changelog_entries": 0,
+      "highlights": [
+        "15 PR(s) merged",
+        "19 new issue(s)"
+      ]
+    },
+    {
+      "name": "Esmd-fhir-client-python",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/Esmd-fhir-client-python",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 2,
+      "highlights": [
+        "Added: **Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+        "Added: Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+        "Changed: **Type Hints**: Added comprehensive type annotations throughout shared utilities",
+        "Fixed: **Code Duplication**: Eliminated duplicate files across modules",
+        "Fixed: **Import Issues**: Fixed circular imports and dependency issues",
+        "Added: **ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+        "Added: **AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+        "Fixed: **NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "Fixed: **DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging."
+      ]
+    }
+  ],
+  "key_changes": [
+    "super-changelog: Added Initial release of super-changelog",
+    "super-changelog: Added Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+    "batcave-tf-gatus: Added Changelog",
+    "batcave-tf-gatus: Added pre-commit",
+    "batcave-workflow-engine: Added GitHub action auth support",
+    "batcave-workflow-engine: Added settings package for config and metaconfig values",
+    "batcave-workflow-engine: Changed Upgrade omnibus base image to v1.5.1",
+    "batcave-workflow-engine: Changed refactored CLI for readability and maintenance",
+    "batcave-workflow-engine: Added Configuration File template rendering with built-in values",
+    "batcave-workflow-engine: Added Configuration conversions",
+    "batcave-workflow-engine: Fixed Viper config key names",
+    "batcave-workflow-engine: Fixed Specified CLI command parameters for custom input and output for easier unit testing in the future",
+    "batcave-workflow-engine: Changed refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+    "batcave-workflow-engine: Added debugging flag",
+    "batcave-workflow-engine: Added pkg/shell/commands Runner interface",
+    "batcave-workflow-engine: Added cmd/workflow-engine for cli",
+    "batcave-workflow-engine: Added pkg/environments",
+    "Esmd-fhir-client-python: Added **Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+    "Esmd-fhir-client-python: Added Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+    "Esmd-fhir-client-python: Changed **Type Hints**: Added comprehensive type annotations throughout shared utilities",
+    "Esmd-fhir-client-python: Fixed **Code Duplication**: Eliminated duplicate files across modules",
+    "Esmd-fhir-client-python: Fixed **Import Issues**: Fixed circular imports and dependency issues",
+    "Esmd-fhir-client-python: Added **ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+    "Esmd-fhir-client-python: Added **AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+    "Esmd-fhir-client-python: Fixed **NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+    "Esmd-fhir-client-python: Fixed **DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging."
+  ]
+}
