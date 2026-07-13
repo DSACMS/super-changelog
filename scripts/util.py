@@ -92,46 +92,6 @@ class ChangelogGenerator:
         self.token = token
 
         self.g = Github(token, per_page=100, lazy=True)
-
-    """
-    def get_contributors(self,repo,data):
-        try:
-            repo_contributors = repo.get_contributors()
-            num_contributors = repo_contributors.totalCount
-            print(f"Found {num_contributors} contributors")
-
-            new_users = []
-
-            for user in repo_contributors:
-                relevant_events = []
-
-                try:
-                    for event in user.get_events(): # this only grabs user events within the last 30 days or 300 events
-                        if event.type == "PushEvent" and event.repo and event.repo.id == repo.id:
-                            relevant_events.append(event)
-                except GithubException as e:
-                    print(f"Could not get events for user {user.login}: {e}")
-                    continue
-                
-                relevant_events.sort(key=lambda x: x.created_at)
-
-                if relevant_events and self.start_date:
-                # because get_events only grabs events within the last 30 days
-                # some users may be mistakenly included as new contributors since their first event may not be captured
-                    if relevant_events[0].created_at.replace(tzinfo=None) >=self.start_date:
-                        new_users.append(user)
-
-            for user in new_users:
-                data["contributors"].append({
-                    "name" : user.name,
-                    "company": user.company,
-                    "created_at": user.created_at.isoformat() if user.created_at else None,
-                    "email": user.email
-                })
-            print(f"Found {len(new_users)} new contributors")
-        except Exception as e:
-            print(f"Error getting contributors: {e}")     
-    """
     
     def get_contributors(self, repo, data):
         try:
@@ -174,56 +134,6 @@ class ChangelogGenerator:
         except Exception as e:
             print(f"Error getting contributors: {e}")
 
-    """
-    def get_issues_and_prs(self,repo,data):
-        try:
-            issues_and_prs = list(repo.get_issues(state="all"))
-
-            num_issues = len([issue for issue in issues_and_prs if issue.pull_request is None])
-            print(f"Found {num_issues} issues")
-
-            num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
-            print(f"Found {num_prs} pull requests") 
-
-            for issue in issues_and_prs:
-                if not self.start_date:
-                    continue
-
-                if (issue.created_at.replace(tzinfo=None) >= self.start_date or 
-                    issue.updated_at.replace(tzinfo=None) >= self.start_date):
-
-                    #print(f"GOT ONE {n}")
-                    if not issue.pull_request:
-                        #print(issue)
-                        data["issues"].append({
-                            "title": issue.title,
-                            "url": issue.html_url,
-                            "created_at": issue.created_at.isoformat(),
-                            "state": issue.state,
-                            "author": issue.user.login if issue.user else None,
-                            "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
-                        })
-                    else:
-                        try:
-                            pr = repo.get_pull(issue.number)
-                            #print(f"Got PULL merged: {pr.is_merged()}")
-                            data["pulls"].append({
-                                "title":pr.title,
-                                "url": pr.html_url,
-                                "created_at": pr.created_at.isoformat(),
-                                "updated_at": pr.updated_at.isoformat(),
-                                "merged_at": pr.merged_at.isoformat() if pr.merged_at else None,
-                                "state": pr.state,
-                                "merged": pr.is_merged(),
-                                "author": pr.user.login if pr.user else None,
-                                "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
-                            })
-                        except Exception as e:
-                            print(f"Error getting PR details for #{issue.number}: {e}")
-        except Exception as e:
-            print(f"Error getting issues and PRs: {e}")
-    """
-    
     def get_issues_and_prs(self, repo, data):
         try:
             if not self.start_date:
@@ -414,17 +324,11 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching releases for {repo.name}: {str(e)}")
             
-            """
-            if (repo_data["issues"] or repo_data["pulls"] or
-                repo_data["commits"] or repo_data["changelog_entries"]) or repo_data["releases"]:
-                data["repos"].append(repo_data)
-                
-                Remove this line of code because it is removing repositories that have no activity from 
-                the data.json. However, doing so means that they will not be recognized
-                for the archival process. 
-            """
-            data["repos"].append(repo_data)
             
+            if  (repo_data["issues"] or repo_data["pulls"] or
+                repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
+                data["repos"].append(repo_data)
+                        
         data["total_repo_count"] = total_repos
         return data
     
