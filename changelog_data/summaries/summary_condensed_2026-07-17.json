@@ -1,0 +1,890 @@
+{
+  "period": {
+    "start": "2026-07-10",
+    "end": "2026-07-17"
+  },
+  "generated_at": "2026-07-17T02:37:58.022507+00:00",
+  "total_repos": 171,
+  "active_repos": 24,
+  "total_commits": 81,
+  "total_pulls": 92,
+  "total_issues": 48,
+  "total_changelog_entries": 4,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "ospo-guide",
+        "text": "[DRAFT] Outbound: Create new Generative AI Usage policy",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/130",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4465: Add configurable household setup to launcher",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1906",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Initial release of super-changelog",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Historical reporting with a custom date range",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Org-agnostic design &mdash; works with any public GitHub organization",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "JSON data output for downstream dashboards and reporting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "GitHub Ations workflow for automated weekly runs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Add All Areas and county enrollment data grids below the state map",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/25",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Adding map cards for front-end and wiring up buttons",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/23",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Add pie chart card section with dashboard selection buttons",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/22",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-tf-gatus",
+        "text": "Changelog",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-tf-gatus",
+        "text": "pre-commit",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "GitHub action auth support",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "settings package for config and metaconfig values",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "settings package marshalling / unmarshalling",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Grype Image Scan Task",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Task pattern instead of pipeline pattern for simplicity Note: currently the new experimental is behind a build flag",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image vulnerability scan task",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image antivirus scan",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image build",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Snyk SAST Scan",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration File template rendering with built-in values",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration conversions",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration init with the format option",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Semgrep, osemgrep, gitleaks shell commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Code Scan Pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Config Template auto rendering",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Version Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "All commands will defer to viper for arguments and defaults",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "no push flag to image publish",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Gatecheck Shell Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pipeline helper functions for common file operations",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Oras Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Deploy pipeline validation only (beta feature)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "clamscan & freshclam for virus scanning",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "command run with context",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "command run with IO",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype CMD",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async task object",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "\"Combo\" pipelines for image-delivery and all pipelines",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "GitHub Actions Code Generation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "debugging flag",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell/commands Runner interface",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell/commands Command struct",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell for command wrappers",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "podman version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker / podman support via CLI cmd interface",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker info",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image build pipeline (info only)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker info, build, and push commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "internal logger to image build pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "json, yaml, toml meta tags for pipelines/config",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "config parsing with viper",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype scan sbom command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image-scan pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft scan image command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft to image-scan pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan pipeline to CLI",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan pipeline wiring in CLI for Viper config variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "cmd/workflow-engine for cli",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/environments",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/jobs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/pipelines",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/system",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "initial project structure",
+        "category": "Added",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "ztmf",
+        "text": "fix(model): make users_fismasystems Save idempotent on duplicate assignment (#429)",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/438",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf",
+        "text": "fix(api): return 400 not 500 for malformed list-endpoint query params (#420)",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/430",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Viper config key names",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Specified CLI command parameters for custom input and output for easier unit testing in the future",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "easi-app",
+        "text": "[EASI-5043] Modify System Intake Contract Questions",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3501",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Upgrade omnibus base image to v1.5.1",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Move existing CLI package to v0",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Task Run pattern",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "refactored CLI for readability and maintenance",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "upgraded to go 1.22.0",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "New Executable will default inputs and outputs to OS",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "WithStdin, WithStdout, WithStderr all merged to WithIO",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Config syntax to correlated with pipelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Code Scan Run organization to use functions for simplicity",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Add multi writer for Gatecheck list",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async run execution for image scan pipeline",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "moved shell package to legacy",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan execution flow",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker build argument strategy for shell",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "shell command errors instead of exit codes",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "shell command rich errors",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async task wraps stderr for cleaner log output",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Limit the number of supported Github action fields",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "updated Version commands to return Commands instead of just an error",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "simplified Command Methods",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "converted some Command to private to prevent auto-complete overload",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "the way command dry running is called, uses builder pattern now",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "remove args from wrapper functions in CLI",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3797] Remove custom date",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2402",
+        "type": "pr",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      }
+    ],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump rubocop from 1.88.1 to 1.88.2 in /app",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1905",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump aws-sdk-s3 from 1.226.0 to 1.227.0 in /app",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1904",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Populate reusedCode with fork upstream parent",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/127",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Phase 1: Populate reusedCode from USWDS and CMS Design System dependencies",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/125",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump golang.org/x/net from 0.47.0 to 0.55.0",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3518",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "[EASI-5050] Move Priority Alignment from Buisness Case to System Intake",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3517",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3787] Timeline readonly",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2404",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3800][MINT-3801][MINT-3802] Multi tweaks",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2401",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "ci: skip Go lint and Snyk Go scan on infra-only PRs",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/434",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 68,
+    "fixed": 4,
+    "changed": 25,
+    "removed": 1,
+    "other": 9
+  },
+  "active_repos_list": [
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 3
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 15,
+      "pulls": 19,
+      "issues": 1
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 13,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 6,
+      "pulls": 6,
+      "issues": 7
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 8
+    },
+    {
+      "name": "cms-it-alliance-demo",
+      "url": "https://github.com/DSACMS/cms-it-alliance-demo",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "index-generator-website",
+      "url": "https://github.com/DSACMS/index-generator-website",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 18,
+      "pulls": 7,
+      "issues": 2
+    },
+    {
+      "name": "code-book",
+      "url": "https://github.com/DSACMS/code-book",
+      "org": "DSACMS",
+      "commits": 8,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "codejson-core",
+      "url": "https://github.com/DSACMS/codejson-core",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codemeta",
+      "url": "https://github.com/DSACMS/codemeta",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codejson-action",
+      "url": "https://github.com/DSACMS/codejson-action",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codejson-action-e2e",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "easi-app",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "org": "CMS-Enterprise",
+      "commits": 2,
+      "pulls": 7,
+      "issues": 0
+    },
+    {
+      "name": "mint-app",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "org": "CMS-Enterprise",
+      "commits": 3,
+      "pulls": 21,
+      "issues": 0
+    },
+    {
+      "name": "batcave-tf-gatus",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "ztmf",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "org": "CMS-Enterprise",
+      "commits": 9,
+      "pulls": 21,
+      "issues": 24
+    },
+    {
+      "name": "batcave-workflow-engine",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    }
+  ]
+}
