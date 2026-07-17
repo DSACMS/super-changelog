@@ -91,94 +91,97 @@ class ChangelogGenerator:
         self.filename = filename
         self.token = token
 
-        self.g = Github(token)
-
+        self.g = Github(token, per_page=100, lazy=True)
     
-    def get_contributors(self,repo,data):
+    def get_contributors(self, repo, data):
         try:
             repo_contributors = repo.get_contributors()
             num_contributors = repo_contributors.totalCount
             print(f"Found {num_contributors} contributors")
+            
+            veteran_authors = set()
+            if self.start_date:
+                past_commits_stream = repo.get_commits(until=self.start_date)
+                names_generator = (c.commit.author.name for c in past_commits_stream if c.commit.author.name)
+                veteran_authors.update(names_generator)
 
-            new_users = []
-
-            for user in repo_contributors:
-                relevant_events = []
-
-                try:
-                    for event in user.get_events():
-                        if event.type == "PushEvent" and event.repo and event.repo.id == repo.id:
-                            relevant_events.append(event)
-                except GithubException as e:
-                    print(f"Could not get events for user {user.login}: {e}")
+            new_users = {}
+            current_commits = repo.get_commits(since=self.start_date)
+            
+            for commit in current_commits:
+                author_name = commit.commit.author.name
+                if not author_name:
                     continue
+                    
+                if author_name not in veteran_authors:
+                    commit_date = commit.commit.author.date.isoformat()
+                    
+                    if author_name not in new_users:
+                        user_obj = commit.author 
+                        
+                        new_users[author_name] = {
+                            "name": author_name,
+                            "company": user_obj.company if user_obj else None,
+                            "created_at": commit_date, 
+                            "email": commit.commit.author.email
+                        }
+
+            for user_data in new_users.values():
+                data["contributors"].append(user_data)
                 
-                relevant_events.sort(key=lambda x: x.created_at)
-
-                if relevant_events and self.start_date:
-                    if relevant_events[0].created_at.replace(tzinfo=None) >=self.start_date:
-                        new_users.append(user)
-
-            for user in new_users:
-                data["contributors"].append({
-                    "name" : user.name,
-                    "company": user.company,
-                    "created_at": user.created_at.isoformat() if user.created_at else None,
-                    "email": user.email
-                })
             print(f"Found {len(new_users)} new contributors")
+
         except Exception as e:
-            print(f"Error getting contributors: {e}")     
+            print(f"Error getting contributors: {e}")
 
-
-    def get_issues_and_prs(self,repo,data):
+    def get_issues_and_prs(self, repo, data):
         try:
-            issues_and_prs = list(repo.get_issues(state="all"))
-
-            num_issues = len([issue for issue in issues_and_prs if issue.pull_request is None])
-            print(f"Found {num_issues} issues")
-
-            num_prs = len([issue for issue in issues_and_prs if issue.pull_request])
-            print(f"Found {num_prs} pull requests") 
-
-            for issue in issues_and_prs:
-                if not self.start_date:
-                    continue
-
-                if (issue.created_at.replace(tzinfo=None) >= self.start_date or 
-                    issue.updated_at.replace(tzinfo=None) >= self.start_date):
-
-                    #print(f"GOT ONE {n}")
-                    if not issue.pull_request:
-                        #print(issue)
-                        data["issues"].append({
-                            "title": issue.title,
-                            "url": issue.html_url,
-                            "created_at": issue.created_at.isoformat(),
-                            "state": issue.state,
-                            "author": issue.user.login if issue.user else None,
-                            "is_new": issue.created_at.replace(tzinfo=None) >= self.start_date
+            if not self.start_date:
+                return 
+            
+            issues_and_prs = repo.get_issues(state="all", since=self.start_date)
+            
+            num_issues = 0
+            num_prs = 0
+            
+            for item in issues_and_prs:
+                
+                is_pr = item.pull_request is not None
+                
+                if not is_pr:
+                    num_issues += 1
+                    data["issues"].append({
+                        "title": item.title,
+                        "url": item.html_url,
+                        "created_at": item.created_at.isoformat(),
+                        "state": item.state,
+                        "author": item.user.login if item.user else None,
+                        "is_new": item.created_at.replace(tzinfo=None) >= self.start_date
+                    })
+                else:
+                    num_prs += 1
+                    try:
+                        pr = repo.get_pull(item.number)
+                        data["pulls"].append({
+                            "title": pr.title,
+                            "url": pr.html_url,
+                            "created_at": pr.created_at.isoformat(),
+                            "updated_at": pr.updated_at.isoformat(),
+                            "merged_at": pr.merged_at.isoformat() if pr.merged_at else None,
+                            "state": pr.state,
+                            "merged": pr.is_merged(),
+                            "author": pr.user.login if pr.user else None,
+                            "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
                         })
-                    else:
-                        try:
-                            pr = repo.get_pull(issue.number)
-                            #print(f"Got PULL merged: {pr.is_merged()}")
-                            data["pulls"].append({
-                                "title":pr.title,
-                                "url": pr.html_url,
-                                "created_at": pr.created_at.isoformat(),
-                                "updated_at": pr.updated_at.isoformat(),
-                                "merged_at": pr.merged_at.isoformat() if pr.merged_at else None,
-                                "state": pr.state,
-                                "merged": pr.is_merged(),
-                                "author": pr.user.login if pr.user else None,
-                                "is_new": pr.created_at.replace(tzinfo=None) >= self.start_date
-                            })
-                        except Exception as e:
-                            print(f"Error getting PR details for #{issue.number}: {e}")
+                    except Exception as e:
+                        print(f"Error getting PR details for #{item.number}: {e}")
+                    
+            print(f"Found {num_issues} issues")
+            print(f"Found {num_prs} pull requests")
+                    
         except Exception as e:
-            print(f"Error getting issues and PRs: {e}")
-
+                print(f"Error getting issues and PRs: {e}")
+            
     def get_releases(self, repo, data):
         try:
             releases = repo.get_releases()
@@ -193,7 +196,7 @@ class ChangelogGenerator:
                     continue
 
                 fetched_releases.append({
-                    "name": release.title,
+                    "name": release.name or release.tag_name,
                     "body": release.body,
                     "url": release.html_url,
                     "published_at": published.isoformat(),
@@ -321,13 +324,81 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching releases for {repo.name}: {str(e)}")
             
-            if (repo_data["issues"] or repo_data["pulls"] or
-                repo_data["commits"] or repo_data["changelog_entries"]) or repo_data["releases"]:
+            """
+            if  (repo_data["issues"] or repo_data["pulls"] or
+                repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
                 data["repos"].append(repo_data)
-        
+            """
+            data["repos"].append(repo_data)
+                        
         data["total_repo_count"] = total_repos
         return data
     
+    def get_archive_data(self, org_name):
+        try:
+            org = self.g.get_organization(org_name)
+        except Exception as e:
+            print(f"Error getting organization {org_name}: {e}")
+            raise
+        
+        data = {
+            "repos": [],
+            "period": {
+                "start": self.log_history_start,
+                "end": self.end_date
+            },
+            "generated_at": self.now.isoformat(),
+            "total_repo_count": 0
+        }
+        
+        total_repos = 0
+        for repo in org.get_repos(type="public"):
+            total_repos += 1
+            print(f"Processing repo: {repo.name}")
+            
+            repo_data = {
+                "name": repo.name,
+                "url": repo.html_url,
+                "description": repo.description,
+                "archived": repo.archived,
+                "issues": [],
+                "pulls": [],
+                "commits": [],
+                "releases": []
+            }
+            
+            if repo.archived:
+                print(f"Skipping archived repo: {repo.name}")
+                data["repos"].append(repo_data)
+                continue
+            
+            try:
+                self.get_issues_and_prs(repo, repo_data)
+            except Exception as e:
+                print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
+            
+            try:
+                if self.start_date:
+                    for commit in repo.get_commits(since=self.start_date):
+                        repo_data["commits"].append({
+                            "message": commit.commit.message,
+                            "url": commit.html_url,
+                            "author": commit.commit.author.name,
+                            "created_at": commit.commit.author.date.isoformat()
+                        })
+            except Exception as e:
+                print(f"Error fetching commits for {repo.name}: {str(e)}")
+                
+            try:
+                self.get_releases(repo, repo_data)
+            except Exception as e:
+                print(f"Error fetching releases for {repo.name}: {str(e)}")
+            
+            data["repos"].append(repo_data)
+            
+        data["total_repo_count"] = total_repos
+        return data
+            
     def save_data(self, data):
         if not self.filename:
             return None
@@ -341,4 +412,8 @@ class ChangelogGenerator:
     
     def get_and_save_data(self,org_name):
         data = self.get_data(org_name)
+        return self.save_data(data)
+    
+    def get_and_save_archive_data(self, org_name):
+        data = self.get_archive_data(org_name)
         return self.save_data(data)

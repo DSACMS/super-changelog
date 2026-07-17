@@ -72,7 +72,7 @@ class TestChangelogGenerator:
         """Test that initialization creates a GitHub client."""
         with patch('scripts.util.Github') as mock_github_class:
             generator = ChangelogGenerator(mock_github_token)
-            mock_github_class.assert_called_once_with(mock_github_token)
+            mock_github_class.assert_called_once_with(mock_github_token, per_page=100, lazy=True)
    
     def test_save_data_with_filename(self, mock_github_token, temp_dir):
         """Test saving data to file."""
@@ -123,7 +123,7 @@ class TestChangelogGenerator:
         generator.get_issues_and_prs(mock_repo, data)
        
         assert len(data["issues"]) >= 0
-        mock_repo.get_issues.assert_called_once_with(state="all")
+        mock_repo.get_issues.assert_called_once_with(state="all", since=generator.start_date)
    
     @patch('scripts.util.Github')
     def test_get_contributors_handles_exceptions(self, mock_github_class, mock_github_token):
@@ -214,6 +214,88 @@ class TestChangelogGenerator:
             assert "repos" in data
             assert "period" in data
             assert "generated_at" in data
+            
+    def test_get_archive_data_skips_archived_repos(self, mock_github_token):
+        """Test that archived repositories bypass API sub-calls but are still appended."""
+        generator = ChangelogGenerator(mock_github_token, log_history_start="2025-01-01")
+        
+        mock_org = Mock()
+        generator.g = Mock()
+        generator.g.get_organization.return_value = mock_org
+        
+        mock_repo = Mock()
+        mock_repo.name = "archived-repo"
+        mock_repo.html_url = "https://github.com/test/archived-repo"
+        mock_repo.description = "Old repo"
+        mock_repo.archived = True  
+        
+        mock_org.get_repos.return_value = [mock_repo]
+        
+        generator.get_issues_and_prs = Mock()
+        generator.get_releases = Mock()
+        
+        data = generator.get_archive_data("test-org")
+        
+        assert data["total_repo_count"] == 1
+        assert len(data["repos"]) == 1
+        assert data["repos"][0]["name"] == "archived-repo"
+        assert data["repos"][0]["archived"] is True
+        
+        generator.get_issues_and_prs.assert_not_called()
+        generator.get_releases.assert_not_called()
+        mock_repo.get_commits.assert_not_called()
+
+    def test_get_archive_data_processes_active_repos(self, mock_github_token):
+        """Test that unarchived repositories process issues, commits, and releases."""
+        generator = ChangelogGenerator(mock_github_token, log_history_start="2025-01-01")
+        
+        mock_org = Mock()
+        generator.g = Mock()
+        generator.g.get_organization.return_value = mock_org
+        
+        mock_repo = Mock()
+        mock_repo.name = "active-repo"
+        mock_repo.html_url = "https://github.com/test/active-repo"
+        mock_repo.description = "Active project"
+        mock_repo.archived = False  
+        
+        mock_commit = Mock()
+        mock_commit.html_url = "https://github.com/test/active-repo/commit/1"
+        mock_commit.commit.message = "Fix bug"
+        mock_commit.commit.author.name = "Developer One"
+        mock_commit.commit.author.date.isoformat.return_value = "2025-02-01T00:00:00"
+        mock_repo.get_commits.return_value = [mock_commit]
+        
+        mock_org.get_repos.return_value = [mock_repo]
+        
+        generator.get_issues_and_prs = Mock()
+        generator.get_releases = Mock()
+        
+        data = generator.get_archive_data("test-org")
+        
+        assert len(data["repos"]) == 1
+        repo_entry = data["repos"][0]
+        assert repo_entry["name"] == "active-repo"
+        assert len(repo_entry["commits"]) == 1
+        assert repo_entry["commits"][0]["message"] == "Fix bug"
+        
+        generator.get_issues_and_prs.assert_called_once_with(mock_repo, repo_entry)
+        generator.get_releases.assert_called_once_with(mock_repo, repo_entry)
+        mock_repo.get_commits.assert_called_once_with(since=generator.start_date)
+
+    def test_get_and_save_archive_data_workflow(self, mock_github_token):
+        """Test that get_and_save_archive_data orchestrates extraction and savings cleanly."""
+        generator = ChangelogGenerator(mock_github_token)
+        
+        dummy_data = {"repos": [], "total_repo_count": 0}
+        generator.get_archive_data = Mock(return_value=dummy_data)
+        generator.save_data = Mock(return_value="mock_path.json")
+        
+        result = generator.get_and_save_archive_data("test-org")
+        
+        generator.get_archive_data.assert_called_once_with("test-org")
+        generator.save_data.assert_called_once_with(dummy_data)
+        assert result == "mock_path.json"
 
 
 @pytest.mark.integration
