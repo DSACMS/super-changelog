@@ -324,10 +324,12 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching releases for {repo.name}: {str(e)}")
             
-            
+            """
             if  (repo_data["issues"] or repo_data["pulls"] or
                 repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
                 data["repos"].append(repo_data)
+            """
+            data["repos"].append(repo_data)
                         
         data["total_repo_count"] = total_repos
         return data
