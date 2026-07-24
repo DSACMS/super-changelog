@@ -1,0 +1,1335 @@
+{
+  "period": {
+    "start": "2026-07-17",
+    "end": "2026-07-24"
+  },
+  "generated_at": "2026-07-24T02:39:32.312212+00:00",
+  "total_repos": 171,
+  "active_repos": 22,
+  "total_commits": 123,
+  "total_pulls": 156,
+  "total_issues": 71,
+  "total_changelog_entries": 6,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "super-changelog",
+        "text": "Initial release of super-changelog",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Historical reporting with a custom date range",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Org-agnostic design &mdash; works with any public GitHub organization",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "JSON data output for downstream dashboards and reporting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "GitHub Ations workflow for automated weekly runs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "archival-identifier",
+        "text": "Action: Add CRITICALITY_SCORE_THRESHOLD parameter",
+        "url": "https://github.com/DSACMS/archival-identifier/pull/19",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Add tier histogram and improve map interactions",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/33",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-action-e2e",
+        "text": "Add end-to-end testing workflow, fixtures, and sample source",
+        "url": "https://github.com/DSACMS/codejson-action-e2e/pull/1",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-tf-gatus",
+        "text": "Changelog",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-tf-gatus",
+        "text": "pre-commit",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "ztmf",
+        "text": "adds guard on what systems a user can be assigned based on their opdivs",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/460",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "GitHub action auth support",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "settings package for config and metaconfig values",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "settings package marshalling / unmarshalling",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Grype Image Scan Task",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Task pattern instead of pipeline pattern for simplicity Note: currently the new experimental is behind a build flag",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image vulnerability scan task",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image antivirus scan",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Image build",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Snyk SAST Scan",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration File template rendering with built-in values",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration conversions",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Configuration init with the format option",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Semgrep, osemgrep, gitleaks shell commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Code Scan Pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Config Template auto rendering",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Version Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "All commands will defer to viper for arguments and defaults",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "no push flag to image publish",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Gatecheck Shell Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pipeline helper functions for common file operations",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Oras Command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Deploy pipeline validation only (beta feature)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "clamscan & freshclam for virus scanning",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "command run with context",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "command run with IO",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype CMD",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async task object",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "\"Combo\" pipelines for image-delivery and all pipelines",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "GitHub Actions Code Generation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "debugging flag",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell/commands Runner interface",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell/commands Command struct",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/shell for command wrappers",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "podman version",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker / podman support via CLI cmd interface",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker info",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image build pipeline (info only)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker info, build, and push commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "internal logger to image build pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "json, yaml, toml meta tags for pipelines/config",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "config parsing with viper",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "grype scan sbom command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image-scan pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft scan image command",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "syft to image-scan pipeline",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan pipeline to CLI",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan pipeline wiring in CLI for Viper config variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "cmd/workflow-engine for cli",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/environments",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/jobs",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/pipelines",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "pkg/system",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "initial project structure",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "Add System Delegate user role",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/595",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Improved `ConfigUtility` with environment variable support and validation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Advanced `logger` module with file rotation and configurable formatting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Comprehensive Documentation**: Complete README.md with installation, usage, and API documentation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Tools**: Added Makefile with common development commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Environment Variable Support**: All configuration can now be set via environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Templates**: Added `config.yaml.template` and `environment.template`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Secure Configuration**: Sensitive data (client secrets) now prefer environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Validation**: Added validation methods for required configuration",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Pytest Configuration**: Complete pytest setup with coverage reporting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Test Fixtures**: Comprehensive shared fixtures in `tests/conftest.py`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Unit Tests**: Sample unit tests for shared utilities with proper mocking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Test Categories**: Markers for unit, integration, network, and slow tests",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Requirements with Version Pinning**: Secure, pinned dependencies in `requirements.txt`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Comprehensive setup.py**: Proper package configuration with optional dependencies",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Type Checking**: mypy configuration for strict type checking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality Tools**: flake8, black, and other development tools",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Git Integration**: Comprehensive .gitignore for Python projects",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality**: Pre-commit hooks support and quality checks",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**CLI Tools**: Entry points for command-line usage",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Workflow**: Quick setup with `make setup`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "power-platform-webres",
+        "text": "[PPE-60] Changes to add new LCID fields",
+        "url": "https://github.com/CMS-Enterprise/power-platform-webres/pull/30",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Fix ruby dependency updater autofix PR by thawing the bundle",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1925",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Change that fixes issue 92",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/131",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "change that introduces fix to issue 107",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/130",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "change that introduces fix to issue 93",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/129",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "codejson-action-e2e",
+        "text": "Fix e2e workflow so validation mode actually runs",
+        "url": "https://github.com/DSACMS/codejson-action-e2e/pull/8",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Viper config key names",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Specified CLI command parameters for custom input and output for easier unit testing in the future",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Duplication**: Eliminated duplicate files across modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Import Issues**: Fixed circular imports and dependency issues",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Loading**: Improved config file discovery and error handling",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Refresh**: Fixed token expiration and refresh logic",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Package Structure**: Proper Python package hierarchy",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Management**: Cleaner dependency resolution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Module Isolation**: Better separation between modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Testing Infrastructure**: Reliable test setup and execution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1927",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Update versions from NPM/Python to please Snyk",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1926",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-07-10 to 2026-07-17",
+        "url": "https://github.com/DSACMS/super-changelog/pull/123",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-02-20 to 2026-02-27",
+        "url": "https://github.com/DSACMS/super-changelog/pull/122",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-07-03 to 2026-07-10",
+        "url": "https://github.com/DSACMS/super-changelog/pull/120",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/53",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Updated dashboard layout, 60% map, 40% cards",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/32",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Upgrade omnibus base image to v1.5.1",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Move existing CLI package to v0",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Task Run pattern",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "refactored CLI for readability and maintenance",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "upgraded to go 1.22.0",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "New Executable will default inputs and outputs to OS",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "WithStdin, WithStdout, WithStderr all merged to WithIO",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Config syntax to correlated with pipelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Code Scan Run organization to use functions for simplicity",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Add multi writer for Gatecheck list",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async run execution for image scan pipeline",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "moved shell package to legacy",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "image scan execution flow",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "docker build argument strategy for shell",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "shell command errors instead of exit codes",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "shell command rich errors",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "async task wraps stderr for cleaner log output",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "Limit the number of supported Github action fields",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "updated Version commands to return Commands instead of just an error",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "simplified Command Methods",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "converted some Command to private to prevent auto-complete overload",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "the way command dry running is called, uses builder pattern now",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "batcave-workflow-engine",
+        "text": "remove args from wrapper functions in CLI",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Type Hints**: Added comprehensive type annotations throughout shared utilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Error Handling**: Standardized and improved error handling patterns",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Logging**: Enhanced logging with structured output and rotation",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Structure**: Better separation of concerns and modularity",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Security**: Pinned versions to prevent security vulnerabilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Credential Management**: Moved sensitive data to environment variables",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Management**: Added token caching and expiration handling",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Security**: Warnings for insecure configuration practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**API Documentation**: Comprehensive docstrings and type information",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Usage Examples**: Clear examples for each module and common use cases",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Guide**: Detailed configuration options and best practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Guide**: Setup instructions and contribution guidelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Pinning**: All dependencies are pinned to specific versions",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Environment Variables**: Sensitive configuration moved to environment variables",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Security**: Improved token handling and storage",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Input Validation**: Better validation of configuration and input data",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Caching**: Reduced authentication overhead with intelligent caching",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Caching**: Config loaded once and reused",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Logging Optimization**: Efficient logging with rotation and proper levels",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Request Optimization**: Better connection handling and timeouts",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Testing Pipeline**: Automated testing with coverage reporting",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality Pipeline**: Linting, formatting, and type checking",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Build System**: Proper packaging and distribution setup",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Documentation Pipeline**: Automated documentation generation",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Import Paths**: Some import paths have changed due to shared utilities",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration**: Some configuration keys may have changed",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependencies**: Minimum Python version is now 3.9+",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**File Structure**: Some files have been moved or consolidated",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      }
+    ],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Dev formating adjustments",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/55",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Enhanced Mobile-card: highlighted hovering + reflecting combo-box ",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/31",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3519",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "Build(deps): bump body-parser from 1.20.4 to 1.20.6",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2418",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "Build(deps): bump shell-quote from 1.8.4 to 1.10.0",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2416",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "Build(deps): bump dompurify from 3.4.11 to 3.4.12",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2414",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "Track time spent in ZTMF by system",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/464",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "Nightly sync: main -> impl (2026-07-22)",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/461",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "Assign system picker now allows for acronym match",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/603",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "Record questionnaire question views for time-spent tracking",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/601",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "power-platform-webres",
+        "text": "Feature/ppe 11 lcid metadata and generation",
+        "url": "https://github.com/CMS-Enterprise/power-platform-webres/pull/29",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 93,
+    "fixed": 17,
+    "changed": 43,
+    "security": 18,
+    "other": 11
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 4
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 12,
+      "pulls": 23,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 7,
+      "issues": 7
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 7
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 5,
+      "issues": 1
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 2
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "org": "DSACMS",
+      "commits": 6,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 37,
+      "pulls": 10,
+      "issues": 0
+    },
+    {
+      "name": "code-book",
+      "url": "https://github.com/DSACMS/code-book",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "codejson-core",
+      "url": "https://github.com/DSACMS/codejson-core",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codejson-action-e2e",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "org": "DSACMS",
+      "commits": 8,
+      "pulls": 8,
+      "issues": 0
+    },
+    {
+      "name": "easi-app",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "org": "CMS-Enterprise",
+      "commits": 1,
+      "pulls": 11,
+      "issues": 0
+    },
+    {
+      "name": "mint-app",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "org": "CMS-Enterprise",
+      "commits": 7,
+      "pulls": 23,
+      "issues": 0
+    },
+    {
+      "name": "batcave-tf-gatus",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "ztmf",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "org": "CMS-Enterprise",
+      "commits": 12,
+      "pulls": 27,
+      "issues": 22
+    },
+    {
+      "name": "batcave-workflow-engine",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "ztmf-ui",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "org": "CMS-Enterprise",
+      "commits": 14,
+      "pulls": 32,
+      "issues": 26
+    },
+    {
+      "name": "Esmd-fhir-client-python",
+      "url": "https://github.com/CMS-Enterprise/Esmd-fhir-client-python",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "power-platform-webres",
+      "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+      "org": "CMS-Enterprise",
+      "commits": 12,
+      "pulls": 2,
+      "issues": 0
+    }
+  ]
+}
