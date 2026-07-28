@@ -74,7 +74,7 @@ def main() -> None:
     print("-" * 60)
 
     gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date)
-    saved = gen.get_and_save_data(org_name=org_name)
+    saved = gen.get_and_save_data(org_name=org_name, archival=True)
 
     if saved:
         print("-" * 60)

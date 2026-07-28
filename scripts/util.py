@@ -92,7 +92,7 @@ class ChangelogGenerator:
         self.token = token
 
         self.g = Github(token, per_page=100, lazy=True)
-    
+            
     def get_contributors(self, repo, data):
         try:
             repo_contributors = repo.get_contributors()
@@ -214,7 +214,7 @@ class ChangelogGenerator:
             data["releases"] = []
 
 
-    def get_data(self, org_name):
+    def get_data(self, org_name, archival=None):
         try:
             org = self.g.get_organization(org_name)
         except Exception as e:
@@ -235,11 +235,13 @@ class ChangelogGenerator:
         for repo in org.get_repos(type="public"):
             total_repos += 1
             print(f"Processing repo: {repo.name}")
-            try:
-                topics = repo.get_topics()
-            except Exception as e:
-                print(f"Error getting topics for {repo.name}: {e}")
-                topics = []
+            
+            if not archival:
+                try:
+                    topics = repo.get_topics()
+                except Exception as e:
+                    print(f"Error getting topics for {repo.name}: {e}")
+                    topics = []
 
             repo_data = {
                 "name": repo.name,
@@ -254,16 +256,22 @@ class ChangelogGenerator:
                 "changelog_entries": [],
                 "releases": []
             }
+            
+            if repo.archived:
+                print(f"Skipping archived repo: {repo.name}")
+                data["repos"].append(repo_data)
+                continue
 
             try:
                 self.get_issues_and_prs(repo, repo_data)
             except Exception as e:
                 print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
-            try:
-                self.get_contributors(repo, repo_data)
-            except Exception as e:
-                print(f"Error fetching contributors for {repo.name}: {str(e)}")
+            if not archival:
+                try:
+                    self.get_contributors(repo, repo_data)
+                except Exception as e:
+                    print(f"Error fetching contributors for {repo.name}: {str(e)}")
 
 
             try:
@@ -278,46 +286,46 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching commits for {repo.name}: {str(e)}")
             
+            if not archival:
+                try:
+                    changelog_files = [
+                        "CHANGELOG.md",
+                        "Changelog.md",
+                        "changelog.md",
+                        "CHANGELOG",
+                        "Changelog",
+                        "changelog"
+                    ]
 
-            try:
-                changelog_files = [
-                    "CHANGELOG.md",
-                    "Changelog.md",
-                    "changelog.md",
-                    "CHANGELOG",
-                    "Changelog",
-                    "changelog"
-                ]
+                    for changelog_file in changelog_files:
+                        try:
+                            content = repo.get_contents(changelog_file)
+                            if content:
+                                changelog_text = content.decoded_content.decode('utf-8')
+                                all_entries = parse_changelog(changelog_text)
 
-                for changelog_file in changelog_files:
-                    try:
-                        content = repo.get_contents(changelog_file)
-                        if content:
-                            changelog_text = content.decoded_content.decode('utf-8')
-                            all_entries = parse_changelog(changelog_text)
+                                recent_entries = []
+                                one_week_ago = self.now - timedelta(days=7)
 
-                            recent_entries = []
-                            one_week_ago = self.now - timedelta(days=7)
-
-                            for entry in all_entries:
-                                if entry.get("date"):
-                                    try:
-                                        entry_date = datetime.fromisoformat(entry["date"])
-                                        if entry_date >= one_week_ago:
+                                for entry in all_entries:
+                                    if entry.get("date"):
+                                        try:
+                                            entry_date = datetime.fromisoformat(entry["date"])
+                                            if entry_date >= one_week_ago:
+                                                recent_entries.append(entry)
+                                        except (ValueError, TypeError):
+                                            if len(recent_entries) < 2 and all_entries.index(entry) < 3:
+                                                recent_entries.append(entry)
+                                    elif all_entries.index(entry) < 2:
                                             recent_entries.append(entry)
-                                    except (ValueError, TypeError):
-                                        if len(recent_entries) < 2 and all_entries.index(entry) < 3:
-                                            recent_entries.append(entry)
-                                elif all_entries.index(entry) < 2:
-                                        recent_entries.append(entry)
 
-                            
-                            repo_data["changelog_entries"] = recent_entries
-                            break
-                    except Exception as e:
-                        continue
-            except Exception as e:
-                print(f"Error checking changelog for {repo.name}: {str(e)}")
+                                
+                                repo_data["changelog_entries"] = recent_entries
+                                break
+                        except Exception as e:
+                            continue
+                except Exception as e:
+                    print(f"Error checking changelog for {repo.name}: {str(e)}")
 
             try:
                 self.get_releases(repo, repo_data)
