@@ -53,7 +53,7 @@ def main() -> None:
         print(f"END_DATE not provided. Defaulting to current date: {end_date}")
 
     if start_date >= end_date:
-        print("Error: START_DATE ({start_date}) must be earlier than END_DATE ({end_date}).")
+        print(f"Error: START_DATE ({start_date}) must be earlier than END_DATE ({end_date}).")
         sys.exit(1)
 
     token = os.getenv("GH_TOKEN") or os.getenv("REPOLINTER_AUTO_TOKEN")
@@ -73,7 +73,7 @@ def main() -> None:
     print(f"Output file: {filename}")
     print("-" * 60)
 
-    gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date)
+    gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date, log_history_end=end_date)
     saved = gen.get_and_save_data(org_name=org_name, archival=True)
 
     if saved:

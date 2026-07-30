@@ -1,10 +1,9 @@
 from github import Github # type: ignore
-from github import GithubException
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 import json
 import os
 import re
-
+import time
 
 def parse_changelog(content):
     categories = [
@@ -80,19 +79,33 @@ def parse_changelog(content):
     return release
 
 class ChangelogGenerator:
-    def __init__(self, token, filename=None,log_history_start=None):
+    def __init__(self, token, filename=None,log_history_start=None, log_history_end=None):
         self.now = datetime.now(timezone.utc)
         self.log_history_start = log_history_start
+        self.log_history_end = log_history_end
 
         self.timestamp = self.now.strftime("%Y-%m-%d")
         self.start_date = datetime.strptime(self.log_history_start, "%Y-%m-%d") if log_history_start else None
-        self.end_date = self.now.strftime("%Y-%m-%d")
+        self.end_date = datetime.strptime(self.log_history_end, "%Y-%m-%d") if log_history_end else None
 
         self.filename = filename
         self.token = token
 
         self.g = Github(token, per_page=100, lazy=True)
-            
+        
+    def _check_rate_limit(self, buffer=200):
+        try:
+            core = self.g.get_rate_limit().resources.core
+            if core.remaining < buffer:
+                reset_time = core.reset.replace(tzinfo=timezone.utc)
+                wait_seconds = (reset_time - datetime.now(timezone.utc)).total_seconds()
+                if wait_seconds > 0:
+                    print(f"Rate limit low ({core.remaining} remaining). "
+                        f"Sleeping {int(wait_seconds)}s until reset.")
+                    time.sleep(wait_seconds + 5)  
+        except Exception as e:
+            print(f"Error checking rate limit: {e}")
+                
     def get_contributors(self, repo, data):
         try:
             repo_contributors = repo.get_contributors()
@@ -127,7 +140,7 @@ class ChangelogGenerator:
                         }
 
             for user_data in new_users.values():
-                data["contributors"].append(user_data)
+                data.setdefault("contributors", []).append(user_data)
                 
             print(f"Found {len(new_users)} new contributors")
 
@@ -214,7 +227,7 @@ class ChangelogGenerator:
             data["releases"] = []
 
 
-    def get_data(self, org_name, archival=None):
+    def get_data(self, org_name, archival=False):
         try:
             org = self.g.get_organization(org_name)
         except Exception as e:
@@ -225,7 +238,7 @@ class ChangelogGenerator:
             "repos": [],
             "period": {
                 "start": self.log_history_start,
-                "end": self.end_date
+                "end": self.log_history_end
             },
             "generated_at": self.now.isoformat(),
             "total_repo_count": 0
@@ -233,29 +246,27 @@ class ChangelogGenerator:
 
         total_repos = 0
         for repo in org.get_repos(type="public"):
+            self._check_rate_limit()
             total_repos += 1
             print(f"Processing repo: {repo.name}")
-            
-            if not archival:
-                try:
-                    topics = repo.get_topics()
-                except Exception as e:
-                    print(f"Error getting topics for {repo.name}: {e}")
-                    topics = []
 
             repo_data = {
                 "name": repo.name,
                 "url": repo.html_url,
                 "description": repo.description,
                 "archived": repo.archived,
-                "topics": topics,
                 "issues": [],
                 "pulls": [],
                 "commits": [],
-                "contributors": [],
-                "changelog_entries": [],
                 "releases": []
             }
+            
+            if archival:
+                try:
+                    topics = repo.get_topics()
+                    repo_data["topics"] = topics
+                except Exception as e:
+                    print(f"Error getting topics for {repo.name}: {e}")
             
             if repo.archived:
                 print(f"Skipping archived repo: {repo.name}")
@@ -267,16 +278,17 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
-            if not archival:
+            if archival:
                 try:
                     self.get_contributors(repo, repo_data)
+                    
                 except Exception as e:
                     print(f"Error fetching contributors for {repo.name}: {str(e)}")
 
 
             try:
                 if self.start_date:
-                    for commit in repo.get_commits(since=self.start_date):
+                    for commit in repo.get_commits(since=self.start_date, until=self.end_date):
                         repo_data["commits"].append({
                             "message": commit.commit.message,
                             "url": commit.html_url,
@@ -286,7 +298,7 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching commits for {repo.name}: {str(e)}")
             
-            if not archival:
+            if archival:
                 try:
                     changelog_files = [
                         "CHANGELOG.md",
@@ -305,13 +317,12 @@ class ChangelogGenerator:
                                 all_entries = parse_changelog(changelog_text)
 
                                 recent_entries = []
-                                one_week_ago = self.now - timedelta(days=7)
 
                                 for entry in all_entries:
                                     if entry.get("date"):
                                         try:
                                             entry_date = datetime.fromisoformat(entry["date"])
-                                            if entry_date >= one_week_ago:
+                                            if entry_date >= self.start_date:
                                                 recent_entries.append(entry)
                                         except (ValueError, TypeError):
                                             if len(recent_entries) < 2 and all_entries.index(entry) < 3:
@@ -341,72 +352,7 @@ class ChangelogGenerator:
                         
         data["total_repo_count"] = total_repos
         return data
-    
-    def get_archive_data(self, org_name):
-        try:
-            org = self.g.get_organization(org_name)
-        except Exception as e:
-            print(f"Error getting organization {org_name}: {e}")
-            raise
-        
-        data = {
-            "repos": [],
-            "period": {
-                "start": self.log_history_start,
-                "end": self.end_date
-            },
-            "generated_at": self.now.isoformat(),
-            "total_repo_count": 0
-        }
-        
-        total_repos = 0
-        for repo in org.get_repos(type="public"):
-            total_repos += 1
-            print(f"Processing repo: {repo.name}")
-            
-            repo_data = {
-                "name": repo.name,
-                "url": repo.html_url,
-                "description": repo.description,
-                "archived": repo.archived,
-                "issues": [],
-                "pulls": [],
-                "commits": [],
-                "releases": []
-            }
-            
-            if repo.archived:
-                print(f"Skipping archived repo: {repo.name}")
-                data["repos"].append(repo_data)
-                continue
-            
-            try:
-                self.get_issues_and_prs(repo, repo_data)
-            except Exception as e:
-                print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
-            
-            try:
-                if self.start_date:
-                    for commit in repo.get_commits(since=self.start_date):
-                        repo_data["commits"].append({
-                            "message": commit.commit.message,
-                            "url": commit.html_url,
-                            "author": commit.commit.author.name,
-                            "created_at": commit.commit.author.date.isoformat()
-                        })
-            except Exception as e:
-                print(f"Error fetching commits for {repo.name}: {str(e)}")
-                
-            try:
-                self.get_releases(repo, repo_data)
-            except Exception as e:
-                print(f"Error fetching releases for {repo.name}: {str(e)}")
-            
-            data["repos"].append(repo_data)
-            
-        data["total_repo_count"] = total_repos
-        return data
-            
+              
     def save_data(self, data):
         if not self.filename:
             return None
@@ -418,8 +364,8 @@ class ChangelogGenerator:
         
         return self.filename
     
-    def get_and_save_data(self,org_name):
-        data = self.get_data(org_name)
+    def get_and_save_data(self,org_name, archival=False):
+        data = self.get_data(org_name, archival)
         return self.save_data(data)
     
     def get_and_save_archive_data(self, org_name):
