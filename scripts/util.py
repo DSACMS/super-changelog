@@ -261,10 +261,10 @@ class ChangelogGenerator:
                 "releases": []
             }
             
-            if archival:
+            if not archival:
                 try:
                     topics = repo.get_topics()
-                    repo_data["topics"] = topics
+                    repo_data["topics"] = list(topics) if isinstance(topics, (list, tuple)) else []
                 except Exception as e:
                     print(f"Error getting topics for {repo.name}: {e}")
             
@@ -278,7 +278,7 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching issues and pull_requests for {repo.name}: {str(e)}")
             
-            if archival:
+            if not archival:
                 try:
                     self.get_contributors(repo, repo_data)
                     
@@ -298,7 +298,7 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching commits for {repo.name}: {str(e)}")
             
-            if archival:
+            if not archival:
                 try:
                     changelog_files = [
                         "CHANGELOG.md",
