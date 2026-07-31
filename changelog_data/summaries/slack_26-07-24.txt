@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-07-17 to 2026-07-24)
+
+• 22 of 171 repos with activity
+• 123 commits | 156 PRs | 71 issues
+
+*Key Changes:*
+• super-changelog: Added Initial release of super-changelog
+• super-changelog: Added Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs
+• batcave-tf-gatus: Added Changelog
+• batcave-tf-gatus: Added pre-commit
+• batcave-workflow-engine: Added GitHub action auth support
+• batcave-workflow-engine: Added settings package for config and metaconfig values
+• batcave-workflow-engine: Changed Upgrade omnibus base image to v1.5.1
+• batcave-workflow-engine: Changed refactored CLI for readability and maintenance
+
+*Most Active Repos:*
+• *medicare_monthly_enrollment_dashboard*: 37 commits, 10 PRs
+• *ztmf-ui*: 14 commits, 32 PRs
+• *ztmf*: 12 commits, 27 PRs
+• *iv-cbv-payroll*: 12 commits, 23 PRs
+• *mint-app*: 7 commits, 23 PRs
