@@ -98,50 +98,76 @@ class ChangelogGenerator:
             core = self.g.get_rate_limit().resources.core
             if core.remaining < buffer:
                 reset_time = core.reset.replace(tzinfo=timezone.utc)
-                wait_seconds = (reset_time - datetime.now(timezone.utc)).total_seconds()
-                if wait_seconds > 0:
-                    print(f"Rate limit low ({core.remaining} remaining). "
-                        f"Sleeping {int(wait_seconds)}s until reset.")
-                    time.sleep(wait_seconds + 5)  
-        except Exception as e:
-            print(f"Error checking rate limit: {e}")
+                # Calculate total wait duration including a 5-second safety buffer
+                wait_seconds = (reset_time - datetime.now(timezone.utc)).total_seconds() + 5
                 
-    def get_contributors(self, repo, data):
-        try:
-            repo_contributors = repo.get_contributors()
-            num_contributors = repo_contributors.totalCount
-            print(f"Found {num_contributors} contributors")
+                if wait_seconds > 0:
+                    print(f"Rate limit low: ({core.remaining} requests remaining). "
+                          f"Sleeping {int(wait_seconds)}s until reset.")
+                    time.sleep(wait_seconds)
+        except Exception as e:
+            print(f"Could not check rate limit: {e}")
             
-            veteran_authors = set()
-            if self.start_date:
-                past_commits_stream = repo.get_commits(until=self.start_date)
-                names_generator = (c.commit.author.name for c in past_commits_stream if c.commit.author.name)
-                veteran_authors.update(names_generator)
+    def _in_period(self, dt):
+        if self.start_date and dt.replace(tzinfo=None) < self.start_date:
+            return False
+        if self.end_date and dt.replace(tzinfo=None) > self.end_date:
+            return False
+        return True
+
+    def get_contributors(self, repo, data):
+        
+        data.setdefault("contributors", [])
+        
+        try:
+            stats = repo.get_stats_contributors()
 
             new_users = {}
-            current_commits = repo.get_commits(since=self.start_date)
-            
-            for commit in current_commits:
-                author_name = commit.commit.author.name
-                if not author_name:
-                    continue
-                    
-                if author_name not in veteran_authors:
-                    commit_date = commit.commit.author.date.isoformat()
-                    
-                    if author_name not in new_users:
-                        user_obj = commit.author 
-                        
-                        new_users[author_name] = {
-                            "name": author_name,
-                            "company": user_obj.company if user_obj else None,
-                            "created_at": commit_date, 
-                            "email": commit.commit.author.email
-                        }
+
+            for contributor in stats:
+                author = contributor.author  
+                if author is None:
+                    continue  
+
+                had_prior_activity = any(
+                    w.c > 0 and w.w.replace(tzinfo=None) < self.start_date
+                    for w in contributor.weeks
+                )
+                if had_prior_activity:
+                    continue 
+                
+                weeks_in_period = [
+                    w for w in contributor.weeks
+                    if w.c > 0 and self._in_period(w.w)
+                ]
+                if not weeks_in_period:
+                    continue  
+
+                new_users[author.login] = {
+                    "name": author.login,
+                    "company": author.company,
+                    "created_at": None,  
+                    "email": None,       
+                }
+
+            for login, user_data in new_users.items():
+                try:
+                    author_commits = repo.get_commits(
+                        since=self.start_date, until=self.end_date, author=login
+                    )
+                    first_commit = None
+                    for c in author_commits:
+                        first_commit = c  
+
+                    if first_commit is not None:
+                        user_data["created_at"] = first_commit.commit.author.date.isoformat()
+                        user_data["email"] = first_commit.commit.author.email
+                except Exception as e:
+                    print(f"Error getting first commit for {login}: {e}")
 
             for user_data in new_users.values():
-                data.setdefault("contributors", []).append(user_data)
-                
+                data["contributors"].append(user_data)
+
             print(f"Found {len(new_users)} new contributors")
 
         except Exception as e:
@@ -261,17 +287,17 @@ class ChangelogGenerator:
                 "releases": []
             }
             
+            if repo.archived:
+                print(f"Skipping archived repo: {repo.name}")
+                data["repos"].append(repo_data)
+                continue
+            
             if not archival:
                 try:
                     topics = repo.get_topics()
                     repo_data["topics"] = list(topics) if isinstance(topics, (list, tuple)) else []
                 except Exception as e:
                     print(f"Error getting topics for {repo.name}: {e}")
-            
-            if repo.archived:
-                print(f"Skipping archived repo: {repo.name}")
-                data["repos"].append(repo_data)
-                continue
 
             try:
                 self.get_issues_and_prs(repo, repo_data)
@@ -309,6 +335,7 @@ class ChangelogGenerator:
                         "changelog"
                     ]
 
+                    repo_data["changelog_entries"] = []
                     for changelog_file in changelog_files:
                         try:
                             content = repo.get_contents(changelog_file)
@@ -343,12 +370,12 @@ class ChangelogGenerator:
             except Exception as e:
                 print(f"Error fetching releases for {repo.name}: {str(e)}")
             
-            """
-            if  (repo_data["issues"] or repo_data["pulls"] or
-                repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
+            if not archival: 
+                if  (repo_data["issues"] or repo_data["pulls"] or
+                    repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
+                    data["repos"].append(repo_data)
+            else: 
                 data["repos"].append(repo_data)
-            """
-            data["repos"].append(repo_data)
                         
         data["total_repo_count"] = total_repos
         return data
@@ -366,8 +393,4 @@ class ChangelogGenerator:
     
     def get_and_save_data(self,org_name, archival=False):
         data = self.get_data(org_name, archival)
-        return self.save_data(data)
-    
-    def get_and_save_archive_data(self, org_name):
-        data = self.get_archive_data(org_name)
         return self.save_data(data)
