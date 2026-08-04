@@ -440,7 +440,7 @@ class ChangelogGenerator:
                                     if entry.get("date"):
                                         try:
                                             entry_date = datetime.fromisoformat(entry["date"])
-                                            if entry_date >= self.start_date:
+                                            if self._in_period(entry_date):
                                                 recent_entries.append(entry)
                                         except (ValueError, TypeError):
                                             if len(recent_entries) < 2 and all_entries.index(entry) < 3:

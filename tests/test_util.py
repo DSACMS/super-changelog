@@ -1015,3 +1015,71 @@ class TestChangelogGeneratorIntegration:
         assert isinstance(generator.start_date, datetime)
         assert isinstance(generator.end_date, datetime)
         assert len(generator.timestamp) > 0
+        
+class TestChangelogEntryFiltering:
+    """Test the changelog entry date filtering logic."""
+
+    def _get_filtered_entries(self, mock_github_token, content):
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.html_url = "https://github.com/test/repo"
+        mock_repo.description = "Test repository"
+        mock_repo.archived = False
+        mock_repo.get_topics.return_value = []
+        mock_repo.get_issues.return_value = []
+        
+        mock_commit = Mock()
+        mock_commit.commit.author.date = datetime(2024, 6, 1, tzinfo=timezone.utc)
+        mock_repo.get_commits.return_value = [mock_commit]
+        mock_repo.get_releases.return_value = []
+        
+        mock_content = Mock(decoded_content=content.encode("utf-8"))
+        
+        def get_contents_side_effect(path):
+            if path == "CHANGELOG.md":
+                return mock_content
+            raise Exception("not found")
+
+        mock_repo.get_contents.side_effect = get_contents_side_effect
+        
+        mock_github = Mock()
+        mock_github.get_organization.return_value = _make_mock_org(mock_repo)
+
+        generator = ChangelogGenerator(
+            mock_github_token,
+            log_history_start="2024-01-01",
+            log_history_end="2024-12-31",
+        )
+        generator.g = mock_github
+        
+        data = generator.get_data("test-org")
+        return data["repos"][0]["changelog_entries"]
+
+    @pytest.mark.parametrize(
+        "date_str, expected_count",
+        [
+            ("2024-06-15", 1),  # Inside period
+            ("2023-12-01", 0),  # Before start date
+            ("2025-03-01", 0),  # After end date
+        ],
+    )
+    def test_dated_entry_period_filtering(self, mock_github_token, date_str, expected_count):
+        """Verify dated entries are filtered according to start_date and end_date."""
+        content = f"## [1.0.0] - {date_str}\n### Added\n- Feature\n"
+        entries = self._get_filtered_entries(mock_github_token, content)
+        assert len(entries) == expected_count
+
+    @pytest.mark.parametrize(
+        "changelog_content, expected_version",
+        [
+            ("## [1.0.0] - invalid-date\n### Added\n- Feature\n", "1.0.0"),
+            ("## [1.0.0]\n### Added\n- Feature\n", "1.0.0"),
+        ],
+        ids=["unparseable_date", "missing_date"]
+    )
+    def test_changelog_date_fallbacks(self, mock_github_token, changelog_content, expected_version):
+        """Verify changelog entries with bad or missing dates fall back gracefully."""
+        entries = self._get_filtered_entries(mock_github_token, changelog_content)
+
+        assert len(entries) == 1
+        assert entries[0]["version"] == expected_version
