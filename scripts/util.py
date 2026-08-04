@@ -1,9 +1,12 @@
-from github import Github # type: ignore
+from github import Github, GithubException
 from datetime import datetime, timezone
 import json
 import os
 import re
 import time
+import shutil
+import tempfile
+import subprocess
 
 def parse_changelog(content):
     categories = [
@@ -114,65 +117,150 @@ class ChangelogGenerator:
         if self.end_date and dt.replace(tzinfo=None) > self.end_date:
             return False
         return True
+    
+    def _get_contributors_via_git(self, repo, data):
+        """
+        Clones the repository locally and uses git log to reliably extract 
+        contributors whose first-ever commit occurred within [start_date, end_date].
+        """
+        temp_dir = tempfile.mkdtemp()
+        try:
+            print(f"Cloning {repo.name} to parse git history...")
+            # Use GitHub token for authenticated clone if available (needed for private repos)
+            clone_url = repo.clone_url
+            if self.token:
+                clone_url = clone_url.replace("https://", f"https://x-access-token:{self.token}@")
+
+            # Perform a full clone (do NOT use --depth 1, as full history is required)
+            subprocess.run(
+                ["git", "clone", "--quiet", clone_url, temp_dir],
+                check=True #raise an error if cloning fails
+            )
+
+            # Extract all commits formatted as: AuthorName <AuthorEmail>|CommitDateISO
+            git_log_cmd = [
+                "git", "-C", temp_dir, "log", # Change the working directory to temp_dir first, and then run git log inside it.
+                "--all", # Check all branches and tags 
+                "--format=%an <%ae>|%aI"
+            ]
+            result = subprocess.run(git_log_cmd, capture_output=True, text=True, check=True)
+
+            # Dictionary mapping author -> earliest commit date
+            author_first_commits = {}
+            author_emails = {}
+
+            for line in result.stdout.strip().split("\n"):
+                if not line or "|" not in line:
+                    continue
+                
+                author, iso_date_str = line.split("|", 1)
+                # Parse standard ISO string 
+                # format is --date=iso (or iso8601)YYYY-MM-DD HH:MM:SS +/-HHMM
+                commit_dt = datetime.fromisoformat(iso_date_str).replace(tzinfo=None)
+
+                # Split name and email
+                if "<" in author and ">" in author:
+                    name, email = author.rsplit(" <", 1)
+                    email = email.rstrip(">")
+                else:
+                    name, email = author, None
+
+                # Keep track of the EARLIEST commit date seen for this author
+                if name not in author_first_commits or commit_dt < author_first_commits[name]:
+                    author_first_commits[name] = commit_dt
+                    author_emails[name] = email
+
+            # Filter for contributors whose FIRST commit falls within the target period
+            new_users = []
+            for name, first_date in author_first_commits.items():
+                is_after_start = (not self.start_date) or (first_date >= self.start_date)
+                is_before_end = (not self.end_date) or (first_date <= self.end_date)
+
+                if is_after_start and is_before_end:
+                    new_users.append({
+                        "name": name,
+                        "company": None,
+                        "created_at": first_date.isoformat(),
+                        "email": author_emails.get(name)
+                    })
+
+            data["contributors"].extend(new_users)
+            print(f"Found {len(new_users)} new contributors via local git log")
+
+        except Exception as e:
+            print(f"Error processing git log for {repo.name}: {e}")
+        finally:
+            # Delete the temporary cloned folder and everything inside it to free up space
+            shutil.rmtree(temp_dir, ignore_errors=True)
 
     def get_contributors(self, repo, data):
         
         data.setdefault("contributors", [])
         
         try:
-            stats = repo.get_stats_contributors()
+            contributors_count = repo.get_contributors().totalCount
+        except Exception:
+            contributors_count = 101
+        
+        if contributors_count <= 100: 
+            try:
+                stats = repo.get_stats_contributors()
+                if stats is None:
+                    print(f"No contributor stats available for {repo.name}. Falling back to git history.")
+                    self._get_contributors_via_git(repo, data)
+                    return
 
-            new_users = {}
+                new_users = {}
+                for contributor in stats:
+                    author = contributor.author  
+                    if author is None:
+                        continue  
 
-            for contributor in stats:
-                author = contributor.author  
-                if author is None:
-                    continue  
-
-                had_prior_activity = any(
-                    w.c > 0 and w.w.replace(tzinfo=None) < self.start_date
-                    for w in contributor.weeks
-                )
-                if had_prior_activity:
-                    continue 
-                
-                weeks_in_period = [
-                    w for w in contributor.weeks
-                    if w.c > 0 and self._in_period(w.w)
-                ]
-                if not weeks_in_period:
-                    continue  
-
-                new_users[author.login] = {
-                    "name": author.login,
-                    "company": author.company,
-                    "created_at": None,  
-                    "email": None,       
-                }
-
-            for login, user_data in new_users.items():
-                try:
-                    author_commits = repo.get_commits(
-                        since=self.start_date, until=self.end_date, author=login
+                    had_prior_activity = any(
+                        w.c > 0 and w.w.replace(tzinfo=None) < self.start_date
+                        for w in contributor.weeks
                     )
-                    first_commit = None
-                    for c in author_commits:
-                        first_commit = c  
+                    if had_prior_activity:
+                        continue 
+                    
+                    weeks_in_period = [
+                        w for w in contributor.weeks
+                        if w.c > 0 and self._in_period(w.w)
+                    ]
+                    if not weeks_in_period:
+                        continue  
 
-                    if first_commit is not None:
-                        user_data["created_at"] = first_commit.commit.author.date.isoformat()
-                        user_data["email"] = first_commit.commit.author.email
-                except Exception as e:
-                    print(f"Error getting first commit for {login}: {e}")
+                    new_users[author.login] = {
+                        "name": author.login,
+                        "company": author.company,
+                        "created_at": None,  
+                        "email": None,       
+                    }
 
-            for user_data in new_users.values():
-                data["contributors"].append(user_data)
+                for login, user_data in new_users.items():
+                    try:
+                        author_commits = repo.get_commits(
+                            since=self.start_date, until=self.end_date, author=login
+                        )
+                        first_commit = None
+                        for c in author_commits:
+                            first_commit = c  
 
-            print(f"Found {len(new_users)} new contributors")
+                        if first_commit is not None:
+                            user_data["created_at"] = first_commit.commit.author.date.isoformat()
+                            user_data["email"] = first_commit.commit.author.email
+                    except Exception as e:
+                        print(f"Error getting first commit for {login}: {e}")
 
-        except Exception as e:
-            print(f"Error getting contributors: {e}")
+                data["contributors"].extend(new_users.values())
+                print(f"Found {len(new_users)} new contributors")
 
+            except Exception as e:
+                print(f"Error getting contributors: {e}")
+        else: 
+            print(f"Repository {repo.name} has more than 100 contributors. Using local git log to find new contributors.")
+            self._get_contributors_via_git(repo, data)
+            
     def get_issues_and_prs(self, repo, data):
         try:
             if not self.start_date:
@@ -321,6 +409,9 @@ class ChangelogGenerator:
                             "author": commit.commit.author.name,
                             "created_at": commit.commit.author.date.isoformat()
                         })
+            except GithubException as e:
+                if e.status == 409:
+                    print(f"Repository {repo.name} is empty. Skipping commits.")
             except Exception as e:
                 print(f"Error fetching commits for {repo.name}: {str(e)}")
             

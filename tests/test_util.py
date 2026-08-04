@@ -1,6 +1,7 @@
 import pytest
 import json
 import os
+import subprocess
 from datetime import datetime, timezone
 from unittest.mock import Mock, patch
 from scripts.util import ChangelogGenerator, parse_changelog
@@ -305,8 +306,229 @@ class TestGetIssuesAndPrs:
         assert data == {"issues": [], "pulls": []}
 
 
-class TestGetContributors:
-    """Test ChangelogGenerator.get_contributors."""
+class TestGetContributorsViaGit:
+    """Test ChangelogGenerator._get_contributors_via_git."""
+
+    def _git_log_result(self, lines):
+        """Helper to build a mock CompletedProcess for the git log subprocess call."""
+        result = Mock()
+        result.stdout = "\n".join(lines) + "\n" if lines else ""
+        return result
+
+    @patch("scripts.util.shutil.rmtree")
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_identifies_contributor_whose_first_commit_is_in_period(
+        self, mock_mkdtemp, mock_run, mock_rmtree, mock_github_token
+    ):
+        """A contributor whose earliest commit falls within [start_date, end_date]
+        should be recorded, using the earliest of their commit dates."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([
+            "Jane Doe <jane@example.com>|2024-03-10T12:00:00+00:00",
+            "Jane Doe <jane@example.com>|2024-06-01T09:30:00+00:00",  # later commit, should be ignored
+        ])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert len(data["contributors"]) == 1
+        contributor = data["contributors"][0]
+        assert contributor["name"] == "Jane Doe"
+        assert contributor["email"] == "jane@example.com"
+        assert contributor["created_at"] == "2024-03-10T12:00:00"
+        assert contributor["company"] is None
+
+        # Verify clone used token-authenticated URL
+        clone_call_args = mock_run.call_args_list[0][0][0]
+        assert any("x-access-token" in arg for arg in clone_call_args)
+        mock_rmtree.assert_called_once_with("/tmp/fake_clone_dir", ignore_errors=True)
+
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_excludes_contributor_whose_first_commit_is_before_start_date(
+        self, mock_mkdtemp, mock_run, mock_github_token
+    ):
+        """A contributor whose earliest commit predates start_date is a veteran
+        and should be excluded, even if they also have commits inside the period."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([
+            "Veteran Dev <vet@example.com>|2023-05-01T00:00:00+00:00",
+            "Veteran Dev <vet@example.com>|2024-06-01T00:00:00+00:00",
+        ])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert data["contributors"] == []
+
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_excludes_contributor_whose_first_commit_is_after_end_date(
+        self, mock_mkdtemp, mock_run, mock_github_token
+    ):
+        """A contributor whose earliest commit falls after end_date should be excluded."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-06-30"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([
+            "Future Dev <future@example.com>|2024-09-01T00:00:00+00:00",
+        ])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert data["contributors"] == []
+
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_handles_author_without_email_angle_brackets(
+        self, mock_mkdtemp, mock_run, mock_github_token
+    ):
+        """If a log line's author string has no '<email>' portion, name/email
+        parsing should degrade gracefully (name=full string, email=None)."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([
+            "NoEmailUser|2024-04-01T00:00:00+00:00",
+        ])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert len(data["contributors"]) == 1
+        assert data["contributors"][0]["name"] == "NoEmailUser"
+        assert data["contributors"][0]["email"] is None
+        assert data["contributors"][0]["created_at"] == "2024-04-01T00:00:00"
+
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_skips_blank_and_malformed_lines(
+        self, mock_mkdtemp, mock_run, mock_github_token
+    ):
+        """Blank lines and lines without a '|' separator should be skipped
+        without raising."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([
+            "",
+            "malformed line with no pipe",
+            "Valid User <valid@example.com>|2024-05-01T00:00:00+00:00",
+        ])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert len(data["contributors"]) == 1
+        assert data["contributors"][0]["name"] == "Valid User"
+
+    @patch("scripts.util.shutil.rmtree")
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_clone_failure_is_caught_and_temp_dir_still_cleaned_up(
+        self, mock_mkdtemp, mock_run, mock_rmtree, mock_github_token
+    ):
+        """If git clone raises (e.g. CalledProcessError), the exception should be
+        caught, no contributors added, and the temp dir still removed in `finally`."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        mock_run.side_effect = subprocess.CalledProcessError(1, "git clone")
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        assert data["contributors"] == []
+        mock_rmtree.assert_called_once_with("/tmp/fake_clone_dir", ignore_errors=True)
+
+    @patch("scripts.util.subprocess.run")
+    @patch("scripts.util.tempfile.mkdtemp")
+    def test_clone_url_uses_plain_https_when_no_token(
+        self, mock_mkdtemp, mock_run
+    ):
+        """When no authentication token is provided, the clone URL should 
+        remain a plain HTTPS URL without embedded credentials."""
+        generator = ChangelogGenerator(
+            token=None, log_history_start="2024-01-01", log_history_end="2024-12-31"
+        )
+        mock_mkdtemp.return_value = "/tmp/fake_clone_dir"
+
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.clone_url = "https://github.com/test/repo.git"
+
+        clone_result = Mock()
+        log_result = self._git_log_result([])
+        mock_run.side_effect = [clone_result, log_result]
+
+        data = {"contributors": []}
+        generator._get_contributors_via_git(mock_repo, data)
+
+        # Retrieve the command list passed to the first subprocess.run call
+        command_list = mock_run.call_args_list[0][0][0]
+
+        # Verify that the exact original clone_url was passed (at index 3)
+        assert command_list[3] == "https://github.com/test/repo.git"
+        
+        # Verify no access token was inserted anywhere in the command
+        assert not any("x-access-token" in arg for arg in command_list)
+
+
+class TestGetStatsContributors:
+    """Test ChangelogGenerator.get_contributors. Calling get_stats_contributors()."""
 
     def _week(self, start_time, commit_count):
         """Helper to build a mock weekly-stats entry."""
@@ -314,6 +536,14 @@ class TestGetContributors:
         week.w = start_time
         week.c = commit_count
         return week
+    
+    def _mock_repo_under_contributor_cap(self, count=50):
+        """Helper: build a mock_repo whose get_contributors().totalCount is
+        below the 100-contributor threshold, so get_contributors takes the
+        get_stats_contributors path instead of falling through to git log."""
+        mock_repo = Mock()
+        mock_repo.get_contributors.return_value.totalCount = count
+        return mock_repo
 
     def test_identifies_new_contributor_and_excludes_veteran(self, mock_github_token):
         """A contributor with weekly activity only after start_date is 'new' and
@@ -322,7 +552,7 @@ class TestGetContributors:
         generator = ChangelogGenerator(
             mock_github_token, log_history_start="2024-01-01"
         )
-        mock_repo = Mock()
+        mock_repo = self._mock_repo_under_contributor_cap()
 
         veteran_stat = Mock()
         veteran_stat.author.login = "veteran"
@@ -368,7 +598,7 @@ class TestGetContributors:
         generator = ChangelogGenerator(
             mock_github_token, log_history_start="2024-01-01"
         )
-        mock_repo = Mock()
+        mock_repo = self._mock_repo_under_contributor_cap()
 
         no_author_stat = Mock()
         no_author_stat.author = None
@@ -408,7 +638,7 @@ class TestGetContributors:
         generator.start_date = datetime(2024, 1, 1, tzinfo=timezone.utc)
         generator.end_date = datetime(2024, 2, 1, tzinfo=timezone.utc)
 
-        mock_repo = Mock()
+        mock_repo = self._mock_repo_under_contributor_cap()
 
         # Case 1: Active week within period, but 0 commits (c == 0)
         idle_stat = Mock()
@@ -443,7 +673,7 @@ class TestGetContributors:
         generator = ChangelogGenerator(
             mock_github_token, log_history_start="2024-01-01"
         )
-        mock_repo = Mock()
+        mock_repo = self._mock_repo_under_contributor_cap()
 
         new_stat = Mock()
         new_stat.author.login = "flaky"
@@ -472,7 +702,7 @@ class TestGetContributors:
             mock_github_token, log_history_start="2024-01-01"
         )
 
-        mock_repo = Mock()
+        mock_repo = self._mock_repo_under_contributor_cap()
         mock_repo.get_stats_contributors.side_effect = Exception("API Error")
 
         data = {}
@@ -481,6 +711,90 @@ class TestGetContributors:
         # Asserts 'contributors' key exists and was initialized to an empty list
         assert "contributors" in data
         assert data["contributors"] == []
+    
+    
+class TestGetContributorsBranching:
+    """Test that get_contributors correctly branches between the
+    get_stats_contributors path and the local git log fallback, based on
+    contributor count."""
+    
+    @patch("scripts.util.ChangelogGenerator._get_contributors_via_git")
+    def test_stats_returning_none_falls_back_to_git_log(
+        self, mock_git_fallback, mock_github_token
+    ):
+        """If get_stats_contributors() returns None (e.g. 202 response/GitHub still computing
+        stats), get_contributors should fall back to _get_contributors_via_git
+        rather than just returning early."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01"
+        )
+        mock_repo = Mock()
+        mock_repo.get_contributors.return_value.totalCount = 50
+        mock_repo.name = "test-repo"
+        mock_repo.get_stats_contributors.return_value = None
+
+        data = {}
+        generator.get_contributors(mock_repo, data)
+
+        mock_git_fallback.assert_called_once_with(mock_repo, data)
+        
+    @patch("scripts.util.ChangelogGenerator._get_contributors_via_git")
+    def test_contributors_count_lookup_failure_falls_back_to_git_log_branch(
+        self, mock_git_fallback, mock_github_token
+    ):
+        """If repo.get_contributors() itself raises, contributors_count should
+        default to 101, which routes to the >100 branch (_get_contributors_via_git)
+        rather than get_stats_contributors."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01"
+        )
+        mock_repo = Mock()
+        mock_repo.name = "test-repo"
+        mock_repo.get_contributors.side_effect = Exception("API Error")
+
+        data = {}
+        generator.get_contributors(mock_repo, data)
+
+        mock_git_fallback.assert_called_once_with(mock_repo, data)
+        mock_repo.get_stats_contributors.assert_not_called()
+
+    @patch("scripts.util.ChangelogGenerator._get_contributors_via_git")
+    def test_uses_stats_contributors_when_count_at_or_under_100(
+        self, mock_git_fallback, mock_github_token
+    ):
+        """A repo with exactly 100 contributors should use get_stats_contributors,
+        not the git log fallback (boundary is inclusive: <= 100)."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01"
+        )
+        mock_repo = Mock()
+        mock_repo.get_contributors.return_value.totalCount = 100
+        mock_repo.get_stats_contributors.return_value = []
+
+        data = {}
+        generator.get_contributors(mock_repo, data)
+
+        mock_repo.get_stats_contributors.assert_called_once()
+        mock_git_fallback.assert_not_called()
+
+    @patch("scripts.util.ChangelogGenerator._get_contributors_via_git")
+    def test_uses_git_log_fallback_when_count_over_100(
+        self, mock_git_fallback, mock_github_token
+    ):
+        """A repo with more than 100 contributors should skip
+        get_stats_contributors entirely and delegate to _get_contributors_via_git."""
+        generator = ChangelogGenerator(
+            mock_github_token, log_history_start="2024-01-01"
+        )
+        mock_repo = Mock()
+        mock_repo.name = "big-repo"
+        mock_repo.get_contributors.return_value.totalCount = 150
+
+        data = {}
+        generator.get_contributors(mock_repo, data)
+
+        mock_git_fallback.assert_called_once_with(mock_repo, data)
+        mock_repo.get_stats_contributors.assert_not_called()
         
         
 class TestGetReleases:
