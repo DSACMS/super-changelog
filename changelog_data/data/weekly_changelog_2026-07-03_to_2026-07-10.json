@@ -1,0 +1,2842 @@
+{
+  "DSACMS": {
+    "repos": [
+      {
+        "name": "repo-scaffolder",
+        "url": "https://github.com/DSACMS/repo-scaffolder",
+        "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+        "archived": false,
+        "topics": [
+          "cookiecutter-template",
+          "maturity-models",
+          "repolinter",
+          "repo-hygiene",
+          "cmsoss-tier3",
+          "featured"
+        ],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Adding AI Usage Section to CONTRIBUTING.md",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/394",
+            "created_at": "2026-07-01T15:22:59+00:00",
+            "updated_at": "2026-07-08T17:18:54+00:00",
+            "merged_at": "2026-07-08T17:18:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Adding AI Usage Section to CONTRIBUTING.md (#394)\n\n* first pass of AI Usage section\n\n* adding to other tiers\n\n* adding comma/grammer\n\n* fixing language in content\n\n* adding section to tiers.md",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/ff5cf82ff728da9e6042afc7bda867f968de09f6",
+            "author": "Sachin Panayil",
+            "created_at": "2026-07-08T17:18:48+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "ospo-guide",
+        "url": "https://github.com/DSACMS/ospo-guide",
+        "description": "Open Source Program Office Guide for CMS.gov",
+        "archived": false,
+        "topics": [
+          "guide",
+          "ospo",
+          "featured"
+        ],
+        "issues": [
+          {
+            "title": "Look into playwright",
+            "url": "https://github.com/DSACMS/ospo-guide/issues/94",
+            "created_at": "2025-11-14T18:38:57+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "[DRAFT] Outbound: Create new Generative AI Usage policy",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/130",
+            "created_at": "2026-06-30T21:51:06+00:00",
+            "updated_at": "2026-07-09T15:26:17+00:00",
+            "merged_at": "2026-07-09T15:26:12+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "DSAC Engineering Handbook: Add LaunchDarkly and edit access request instructions",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/128",
+            "created_at": "2026-06-15T17:13:39+00:00",
+            "updated_at": "2026-07-06T15:56:13+00:00",
+            "merged_at": "2026-07-06T15:56:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Expand plain language documentation with best practices",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/127",
+            "created_at": "2026-06-08T18:47:31+00:00",
+            "updated_at": "2026-07-09T15:45:31+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "huda-code",
+            "is_new": false
+          },
+          {
+            "title": "Minor doc fixes",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/125",
+            "created_at": "2026-05-27T17:31:50+00:00",
+            "updated_at": "2026-07-06T15:55:21+00:00",
+            "merged_at": "2026-07-06T15:55:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "borrow-checker",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #130 from DSACMS/DSACMS/nat/genaipolicy\n\n[DRAFT] Outbound: Create new Generative AI Usage policy",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/29fad836b12114408e45a1de0cedaf52bba0d09c",
+            "author": "decause-gov",
+            "created_at": "2026-07-09T15:26:12+00:00"
+          },
+          {
+            "message": "Update title and add model option\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/695f3064354352123c1044cbc713dc454e88d14c",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-07-08T22:12:55+00:00"
+          },
+          {
+            "message": "Add draft to the title\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/bbd19451c795d4a8750821f93dec5cd56fe59c77",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-07-08T19:40:20+00:00"
+          },
+          {
+            "message": "Update AI usage policy section\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/650d4afe1b8fb0e674adb69c932e30ced6823811",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-07-08T19:38:04+00:00"
+          },
+          {
+            "message": "Add acknowlegements section and revise wording\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/f435c765efecae3b985d96c3f6664e41ea14b0c4",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-07-08T16:17:14+00:00"
+          },
+          {
+            "message": "Merge pull request #128 from DSACMS/natalialuzuriaga-patch-2\n\nDSAC Engineering Handbook: Add LaunchDarkly and edit access request instructions",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/b2e0baec26093b4700a17e8dc66ab9299cb0100c",
+            "author": "cschilly",
+            "created_at": "2026-07-06T15:56:13+00:00"
+          },
+          {
+            "message": "updating contributors list",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/4a9430ef279f00c918393f45a763b82c866b6859",
+            "author": "github-actions[bot]",
+            "created_at": "2026-07-06T15:55:31+00:00"
+          },
+          {
+            "message": "Merge pull request #125 from borrow-checker/minor_fixes_1779900177\n\nMinor doc fixes",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/a9b2bdd7a0984d0212b7453eb3e9a26b60037738",
+            "author": "cschilly",
+            "created_at": "2026-07-06T15:55:21+00:00"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "decause-gov",
+            "company": "@CMSgov ",
+            "created_at": "2022-06-21T20:20:11+00:00",
+            "email": null
+          },
+          {
+            "name": null,
+            "company": null,
+            "created_at": "2026-02-06T14:45:48+00:00",
+            "email": null
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "iv-cbv-payroll",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll",
+        "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+        "archived": false,
+        "topics": [
+          "cms",
+          "community-engagement",
+          "medicaid",
+          "medicaid-expansion",
+          "eligibility-determination",
+          "hr-1",
+          "income-verification",
+          "work-requirement",
+          "education",
+          "open-source",
+          "center-for-medicaid-and-children-services",
+          "education-program",
+          "work-program"
+        ],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "TEST FFS-4594 run-case (do not merge)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1893",
+            "created_at": "2026-07-09T21:02:11+00:00",
+            "updated_at": "2026-07-09T21:15:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "TEST FFS-4594 skip-case (do not merge)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1892",
+            "created_at": "2026-07-09T21:01:09+00:00",
+            "updated_at": "2026-07-09T21:15:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4466: Return to household list after member submission",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1891",
+            "created_at": "2026-07-09T20:18:47+00:00",
+            "updated_at": "2026-07-10T00:24:11+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4594: Move dependency & vulnerability checks to main",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1890",
+            "created_at": "2026-07-09T19:03:30+00:00",
+            "updated_at": "2026-07-09T21:23:55+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "Bump soupsieve from 2.7 to 2.8.4 in /app/analytics in the pip group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1889",
+            "created_at": "2026-07-09T17:44:11+00:00",
+            "updated_at": "2026-07-09T17:44:11+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4590: Rename \"demo launcher\" references to \"launcher\" or \"advanced launcher\"",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1888",
+            "created_at": "2026-07-08T19:17:03+00:00",
+            "updated_at": "2026-07-08T19:36:08+00:00",
+            "merged_at": "2026-07-08T19:36:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "Bump jupyterlab from 4.5.7 to 4.5.9 in /app/analytics in the pip group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1887",
+            "created_at": "2026-07-08T00:05:03+00:00",
+            "updated_at": "2026-07-08T19:25:44+00:00",
+            "merged_at": "2026-07-08T19:25:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4316: Only list prefilled activities in a hub",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1886",
+            "created_at": "2026-07-07T23:42:39+00:00",
+            "updated_at": "2026-07-09T17:43:14+00:00",
+            "merged_at": "2026-07-09T17:43:12+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4464: Build V1 household member list page and reporting context",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1885",
+            "created_at": "2026-07-07T21:41:40+00:00",
+            "updated_at": "2026-07-08T19:18:00+00:00",
+            "merged_at": "2026-07-08T19:17:57+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "Bump golang.org/x/crypto from 0.51.0 to 0.52.0 in /infra/test in the go_modules group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1884",
+            "created_at": "2026-07-07T20:22:17+00:00",
+            "updated_at": "2026-07-07T23:58:48+00:00",
+            "merged_at": "2026-07-07T23:58:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vite from 8.1.2 to 8.1.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1883",
+            "created_at": "2026-07-07T16:04:49+00:00",
+            "updated_at": "2026-07-07T20:20:35+00:00",
+            "merged_at": "2026-07-07T20:20:33+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump webpack from 5.108.3 to 5.108.4 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1882",
+            "created_at": "2026-07-07T16:04:35+00:00",
+            "updated_at": "2026-07-07T20:20:40+00:00",
+            "merged_at": "2026-07-07T20:20:38+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vitest from 4.1.9 to 4.1.10 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1881",
+            "created_at": "2026-07-07T16:04:25+00:00",
+            "updated_at": "2026-07-07T23:58:53+00:00",
+            "merged_at": "2026-07-07T23:58:50+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump webpack-cli from 7.0.3 to 7.2.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1880",
+            "created_at": "2026-07-07T16:04:16+00:00",
+            "updated_at": "2026-07-07T23:58:58+00:00",
+            "merged_at": "2026-07-07T23:58:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump rubocop from 1.88.0 to 1.88.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1879",
+            "created_at": "2026-07-07T15:54:34+00:00",
+            "updated_at": "2026-07-07T20:20:50+00:00",
+            "merged_at": "2026-07-07T20:20:49+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump net-ssh from 7.3.2 to 7.3.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1878",
+            "created_at": "2026-07-07T15:53:54+00:00",
+            "updated_at": "2026-07-07T20:20:56+00:00",
+            "merged_at": "2026-07-07T20:20:54+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4483: Use AWS ECS Deploy task instead of jq to deploy to CMS",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1877",
+            "created_at": "2026-07-06T22:32:10+00:00",
+            "updated_at": "2026-07-09T03:59:37+00:00",
+            "merged_at": "2026-07-09T03:59:34+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "Fix formatting issues in will-deploy script",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1876",
+            "created_at": "2026-07-06T21:10:11+00:00",
+            "updated_at": "2026-07-07T18:59:49+00:00",
+            "merged_at": "2026-07-07T18:59:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "bencalegari",
+            "is_new": true
+          },
+          {
+            "title": "Deduplicate and harden process for adding new agencies",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1874",
+            "created_at": "2026-07-01T22:17:18+00:00",
+            "updated_at": "2026-07-06T18:01:59+00:00",
+            "merged_at": "2026-07-06T18:01:57+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "bencalegari",
+            "is_new": false
+          },
+          {
+            "title": "[FFS-4511] Add CODEOWNERS for CM-01a",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1851",
+            "created_at": "2026-06-26T20:44:15+00:00",
+            "updated_at": "2026-07-07T15:53:49+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "lisac",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "FFS-4316: Only list prefilled activities in the hub (#1886)\n\n- Launcher uses same validation as API would but conditionally ignores month window for ad-hoc configuration and greys out the ability to prefill activities that aren't enabled for the agency",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/e3ebc6aa31a2c5231519ba640420b28d29d0b800",
+            "author": "Ben Calegari",
+            "created_at": "2026-07-09T17:43:11+00:00"
+          },
+          {
+            "message": "FFS-4483: Use AWS ECS Deploy task instead of jq to deploy to CMS (#1877)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f60a5ad6747a9c1abfc64bbfd9365bcc75575e98",
+            "author": "Ben Calegari",
+            "created_at": "2026-07-09T03:59:34+00:00"
+          },
+          {
+            "message": "FFS-4590: Rename \"demo launcher\" references to \"launcher\" or \"advanced launcher\" (#1888)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4947a2ac714eac58abc539e48d4654a1158d10ce",
+            "author": "Daphne Gold",
+            "created_at": "2026-07-08T19:36:05+00:00"
+          },
+          {
+            "message": "Bump jupyterlab from 4.5.7 to 4.5.9 in /app/analytics in the pip group across 1 directory (#1887)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/12446922a1f580f815dd5cb5748ddb263ba4d29a",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-08T19:25:41+00:00"
+          },
+          {
+            "message": "FFS-4464: Build V1 household member list page and reporting context (#1885)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3128267e0bc36b8da5edb81b4df1c4505512d66d",
+            "author": "Daphne Gold",
+            "created_at": "2026-07-08T19:17:57+00:00"
+          },
+          {
+            "message": "Bump webpack-cli from 7.0.3 to 7.2.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2f7dff3dccf365cb0387eac6af2c0e595bba82e4",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T23:58:55+00:00"
+          },
+          {
+            "message": "Bump vitest from 4.1.9 to 4.1.10 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d32fa9ae87fcd690a7a6a31fae9bfd0bb6322891",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T23:58:50+00:00"
+          },
+          {
+            "message": "Bump golang.org/x/crypto from 0.51.0 to 0.52.0 in /infra/test in the go_modules group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/47a62c53269d08bf92ba5123593cf4cae1f05d8c",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T23:58:45+00:00"
+          },
+          {
+            "message": "Bump net-ssh from 7.3.2 to 7.3.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/429223bd79705819e5b28a205af24bba3afedd6d",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T20:20:53+00:00"
+          },
+          {
+            "message": "Bump rubocop from 1.88.0 to 1.88.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/731aaef33bdcbf2d962b6f55d3669d04e3d0d52c",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T20:20:48+00:00"
+          },
+          {
+            "message": "Bump webpack from 5.108.3 to 5.108.4 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4f99fd3801a90b13ac36d04dff16eed6490486eb",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T20:20:37+00:00"
+          },
+          {
+            "message": "Bump vite from 8.1.2 to 8.1.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9f0c3719c78208cc36ee96119d581b030788ee54",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T20:20:32+00:00"
+          },
+          {
+            "message": "Fix formatting issues in will-deploy script (#1876)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/147dac46c84187135837eeb47f984c3f914e3f1b",
+            "author": "Ben Calegari",
+            "created_at": "2026-07-07T18:59:46+00:00"
+          },
+          {
+            "message": "Deduplicate and harden process for adding new agencies (#1874)\n\n- Move applicant field lists (`VALID_ATTRIBUTES`) and `has_redactable_fields` out of per-agency `CbvApplicant` subclasses into `client-agency-config.yml` into `redaction_type`/`required` keys.\n- Added a test that confirms any translation that needs an agency specific key either has one defined or uses a default value",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a444b6720bc130597998f5f8f2f1813de3474e0b",
+            "author": "Ben Calegari",
+            "created_at": "2026-07-06T18:01:56+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": [
+          {
+            "name": "deploy/prod/2026-07-07-14-44-43",
+            "body": "\ud83d\udc65 *User facing changes to Emmy Income + Emmy CE*\r\n  \u2022 FFS-4498: Enable the launcher in UAT ([#1833](https://github.com/DSACMS/iv-cbv-payroll/pull/1833)) - Daphne Gold\r\n\ud83d\udcdd *Emmy Income only user facing changes*\r\n  \u2022 FFS-4524: Income reports showing SNAP data field ([#1852](https://github.com/DSACMS/iv-cbv-payroll/pull/1852)) - Daphne Gold\r\n\ud83c\udfc6 *Emmy CE only user facing changes*\r\n  \u2022 FFS-4463: Set up household flow foundation with test household ([#1873](https://github.com/DSACMS/iv-cbv-payroll/pull/1873)) - Daphne Gold\r\n  \u2022 [FFS-4505] add hawaii to sandbox access to allow hawaii to test things out ([#1834](https://github.com/DSACMS/iv-cbv-payroll/pull/1834)) - iannorriswork\r\n  \u2022 FFS-4075: Self-attested employment page missing back button ([#1767](https://github.com/DSACMS/iv-cbv-payroll/pull/1767)) - Tim Miller\r\n\u2699\ufe0f *Other/Maintenance (Not user facing)*\r\n  \u2022 Bump github.com/hashicorp/go-getter, postcss, vite, selenium-webdriver, autoprefixer, actions/checkout, webpack, newrelic_rpm, prettier, axe-core-rspec, rails_semantic_logger, rubocop-rspec, aws-sdk-s3, cgi, happy-dom, vite, rubocop, actions/checkout, nokogiri, undici, sass\r\n  \u2022 Deduplicate and harden process for adding new agencies ([#1874](https://github.com/DSACMS/iv-cbv-payroll/pull/1874)) - Ben Calegari\r\n  \u2022 Add agency template variables for accenture agency ([#1875](https://github.com/DSACMS/iv-cbv-payroll/pull/1875)) - Tom Dooner\r\n  \u2022 Bump the go_modules group across 1 directory with 3 updates ([#1872](https://github.com/DSACMS/iv-cbv-payroll/pull/1872)) - dependabot[bot]\r\n  \u2022 Put dependabot updates listed in one line in /will-deploy ([#1853](https://github.com/DSACMS/iv-cbv-payroll/pull/1853)) - Ben Calegari\r\n  \u2022 FFS-4526: Update IMAGE_TAG on ECS deployment too ([#1868](https://github.com/DSACMS/iv-cbv-payroll/pull/1868)) - Tom Dooner\r\n  \u2022 Add AI disclosure to autofix PRs ([#1866](https://github.com/DSACMS/iv-cbv-payroll/pull/1866)) - Ben Calegari\r\n  \u2022 fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore ([#1850](https://github.com/DSACMS/iv-cbv-payroll/pull/1850)) - github-actions[bot]\r\n  \u2022 FFS-4526: Deploy to Solid Queue ECS container too ([#1854](https://github.com/DSACMS/iv-cbv-payroll/pull/1854)) - Tom Dooner\r\n  \u2022 FFS-4499: Use SHA image tags for UAT deploys ([#1848](https://github.com/DSACMS/iv-cbv-payroll/pull/1848)) - Daphne Gold\r\n  \u2022 FFS-4452: Add JSONSchema for Income Report API (and validate it) ([#1844](https://github.com/DSACMS/iv-cbv-payroll/pull/1844)) - Tom Dooner\r\n  \u2022 Bump the pip group across 1 directory with 2 updates ([#1832](https://github.com/DSACMS/iv-cbv-payroll/pull/1832)) - dependabot[bot]\r\n  \u2022 4470api docs ([#1829](https://github.com/DSACMS/iv-cbv-payroll/pull/1829)) - No\u010dnica Mellifera\r\n  \u2022 Skip \"AI Test Classifier\" CI workflow for dependabot PRs ([#1847](https://github.com/DSACMS/iv-cbv-payroll/pull/1847)) - Tom Dooner\r\n  \u2022 Bump faraday, faraday-net_http, json, concurrent-ruby for CVE-2026-54297 ([#1845](https://github.com/DSACMS/iv-cbv-payroll/pull/1845)) - Tom Dooner\r\n  \u2022 fix permissions on comment classifier ([#1835](https://github.com/DSACMS/iv-cbv-payroll/pull/1835)) - Tim Miller\r\n  \u2022 Skip publishing to the CMS regsitry when deploying PR envs ([#1830](https://github.com/DSACMS/iv-cbv-payroll/pull/1830)) - Ben Calegari\r\n  \u2022 [FFS-4399] clean up deploy actions to make the tagging work better ([#1828](https://github.com/DSACMS/iv-cbv-payroll/pull/1828)) - iannorriswork",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/deploy/prod/2026-07-07-14-44-43",
+            "published_at": "2026-07-07T19:45:05+00:00",
+            "created_at": "2026-07-06T18:01:56+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "daphnegold",
+            "tag_name": "deploy/prod/2026-07-07-14-44-43"
+          }
+        ]
+      },
+      {
+        "name": "codejson-generator",
+        "url": "https://github.com/DSACMS/codejson-generator",
+        "description": "Form to generate code.json",
+        "archived": false,
+        "topics": [
+          "dsacms-tier3",
+          "featured"
+        ],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/130",
+            "created_at": "2026-07-04T04:57:51+00:00",
+            "updated_at": "2026-07-04T04:57:51+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "testing-repository",
+        "url": "https://github.com/DSACMS/testing-repository",
+        "description": "Test repository for Repolinter Actions",
+        "archived": false,
+        "topics": [],
+        "issues": [
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/84",
+            "created_at": "2026-07-09T19:20:28+00:00",
+            "state": "open",
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/83",
+            "created_at": "2026-07-07T17:48:08+00:00",
+            "state": "open",
+            "author": "github-actions[bot]",
+            "is_new": true
+          }
+        ],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "Update archival-identifier action reference",
+            "url": "https://github.com/DSACMS/testing-repository/commit/10e082166d550c76f78cda8d3c4989abe4c0509c",
+            "author": "zionmich",
+            "created_at": "2026-07-09T18:11:42+00:00"
+          },
+          {
+            "message": "Refactor environment variable setup in workflow\n\nRemoved redundant environment variable definitions for GH_TOKEN, ORG_NAME, START_DATE, and END_DATE.",
+            "url": "https://github.com/DSACMS/testing-repository/commit/1cadb9da5be475a8e4c3cce5669f4e5192f6e004",
+            "author": "zionmich",
+            "created_at": "2026-07-07T19:31:34+00:00"
+          },
+          {
+            "message": "Add environment variables for archival workflow",
+            "url": "https://github.com/DSACMS/testing-repository/commit/e14e4903111cd87cd99f20a7ee464ac7499e85f5",
+            "author": "zionmich",
+            "created_at": "2026-07-07T17:11:35+00:00"
+          }
+        ],
+        "contributors": [
+          {
+            "name": null,
+            "company": null,
+            "created_at": "2022-09-14T19:03:35+00:00",
+            "email": null
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "automated-codejson-generator",
+        "url": "https://github.com/DSACMS/automated-codejson-generator",
+        "description": "Github Action that allows for automated code.json creation and maintenance ",
+        "archived": false,
+        "topics": [
+          "cmsoss-tier2",
+          "codejson",
+          "metadata",
+          "featured"
+        ],
+        "issues": [
+          {
+            "title": "Populate reusedCode Field from Dependency Files",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/issues/124",
+            "created_at": "2026-06-04T17:10:11+00:00",
+            "state": "open",
+            "author": "sachin-panayil",
+            "is_new": false
+          },
+          {
+            "title": "Metadata: Preserve tags that are not repo topics by adding as repo topics",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/issues/92",
+            "created_at": "2025-12-11T17:57:50+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Populate reusedCode with fork upstream parent",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/127",
+            "created_at": "2026-07-08T15:40:55+00:00",
+            "updated_at": "2026-07-09T17:08:02+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "haseebmalik18",
+            "is_new": true
+          },
+          {
+            "title": "Dsacms/haseeb/add gov dependencies",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/126",
+            "created_at": "2026-07-07T15:52:05+00:00",
+            "updated_at": "2026-07-07T18:30:27+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "haseebmalik18",
+            "is_new": true
+          },
+          {
+            "title": "Phase 1: Populate reusedCode from USWDS and CMS Design System dependencies",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/125",
+            "created_at": "2026-06-30T19:05:49+00:00",
+            "updated_at": "2026-07-09T15:50:52+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "haseebmalik18",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "ospo",
+        "url": "https://github.com/DSACMS/ospo",
+        "description": "General Support Repository for the Open Source Program Office (OSPO) at CMS.gov",
+        "archived": false,
+        "topics": [
+          "featured"
+        ],
+        "issues": [
+          {
+            "title": "AI Policy: Bulk update PR templates across DSACMS repositories with new AI Usage section",
+            "url": "https://github.com/DSACMS/ospo/issues/42",
+            "created_at": "2026-07-08T20:07:00+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Update yearly dashboard visualizations to use the most recent monthly enrollment data",
+            "url": "https://github.com/DSACMS/ospo/issues/41",
+            "created_at": "2026-07-07T18:22:32+00:00",
+            "state": "open",
+            "author": "isaac-rtc",
+            "is_new": true
+          },
+          {
+            "title": "Complete GFE Setup",
+            "url": "https://github.com/DSACMS/ospo/issues/38",
+            "created_at": "2026-06-15T16:34:15+00:00",
+            "state": "open",
+            "author": "decause-gov",
+            "is_new": false
+          },
+          {
+            "title": "Medicare Claims Pricer Repo",
+            "url": "https://github.com/DSACMS/ospo/issues/33",
+            "created_at": "2026-06-03T16:13:08+00:00",
+            "state": "open",
+            "author": "decause-gov",
+            "is_new": false
+          },
+          {
+            "title": "SAS Codebook Migration",
+            "url": "https://github.com/DSACMS/ospo/issues/32",
+            "created_at": "2026-06-03T16:10:20+00:00",
+            "state": "open",
+            "author": "decause-gov",
+            "is_new": false
+          },
+          {
+            "title": "Medicare Monthly Enrollment Dashboard",
+            "url": "https://github.com/DSACMS/ospo/issues/29",
+            "created_at": "2026-05-28T19:27:16+00:00",
+            "state": "open",
+            "author": "decause-gov",
+            "is_new": false
+          }
+        ],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "super-changelog",
+        "url": "https://github.com/DSACMS/super-changelog",
+        "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+        "archived": false,
+        "topics": [
+          "cmsgov",
+          "cmsoss-tier3",
+          "commops",
+          "ospo",
+          "superchangelog",
+          "featured"
+        ],
+        "issues": [
+          {
+            "title": "Add multi-org support to full weekly summary",
+            "url": "https://github.com/DSACMS/super-changelog/issues/118",
+            "created_at": "2026-07-07T03:54:02+00:00",
+            "state": "open",
+            "author": "DinneK",
+            "is_new": true
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Create multi org call",
+            "url": "https://github.com/DSACMS/super-changelog/pull/117",
+            "created_at": "2026-07-06T13:12:35+00:00",
+            "updated_at": "2026-07-06T20:53:14+00:00",
+            "merged_at": "2026-07-06T20:53:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "Create multi org call",
+            "url": "https://github.com/DSACMS/super-changelog/pull/116",
+            "created_at": "2026-07-05T21:40:54+00:00",
+            "updated_at": "2026-07-06T00:29:33+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "create multi org list",
+            "url": "https://github.com/DSACMS/super-changelog/pull/115",
+            "created_at": "2026-07-05T00:42:49+00:00",
+            "updated_at": "2026-07-05T00:43:01+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-06-26 to 2026-07-03",
+            "url": "https://github.com/DSACMS/super-changelog/pull/114",
+            "created_at": "2026-07-03T03:49:19+00:00",
+            "updated_at": "2026-07-05T00:13:47+00:00",
+            "merged_at": "2026-07-05T00:13:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-24 to 2025-10-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/113",
+            "created_at": "2026-07-03T03:49:13+00:00",
+            "updated_at": "2026-07-05T00:13:21+00:00",
+            "merged_at": "2026-07-05T00:13:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          }
+        ],
+        "commits": [
+          {
+            "message": "Create multi org call (#117)\n\n* create multi org list\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* fix top level repo merge\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* change repos to data\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* fix data gen\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* changelog: Final generating changelog across multiple orgs\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* add org to summary list\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* fix parsing\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n* fix parsing to prevent repeats\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>\n\n---------\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich@gsa.gov>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/00b2e83926b968776455633b205d178c5c38b34f",
+            "author": "Dinne Kopelevich",
+            "created_at": "2026-07-06T20:53:14+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-07-03 (#114)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/891c5aac85f00db3fcba2f4fce40d4f95bbed292",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-07-05T00:13:46+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-07-03 (#113)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/dbfe44dde84a2bac89bdd76b1baa292c19c4d6a6",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-07-05T00:13:21+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [
+          {
+            "version": "1.0.0",
+            "date": "2026-06-16",
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "Initial release of super-changelog",
+                  "Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+                  "Historical reporting with a custom date range",
+                  "Org-agnostic design &mdash; works with any public GitHub organization",
+                  "JSON data output for downstream dashboards and reporting",
+                  "GitHub Ations workflow for automated weekly runs"
+                ]
+              }
+            ]
+          }
+        ],
+        "releases": []
+      },
+      {
+        "name": "tier1",
+        "url": "https://github.com/DSACMS/tier1",
+        "description": "Tier 1 Template Repository",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier1/pull/4",
+            "created_at": "2026-07-08T17:19:01+00:00",
+            "updated_at": "2026-07-08T17:19:02+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "contributors": [
+          {
+            "name": "Natalia Luzuriaga",
+            "company": "@CMSgov (work) + personal projects",
+            "created_at": "2017-07-07T13:48:50+00:00",
+            "email": "nat.luzuriaga@gmail.com"
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "tier2",
+        "url": "https://github.com/DSACMS/tier2",
+        "description": "Tier 2 Template Repository",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier2/pull/6",
+            "created_at": "2026-07-08T17:19:06+00:00",
+            "updated_at": "2026-07-08T17:19:07+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "contributors": [
+          {
+            "name": "Natalia Luzuriaga",
+            "company": "@CMSgov (work) + personal projects",
+            "created_at": "2017-07-07T13:48:50+00:00",
+            "email": "nat.luzuriaga@gmail.com"
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "tier3",
+        "url": "https://github.com/DSACMS/tier3",
+        "description": "Tier 3 Template Repository",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier3/pull/6",
+            "created_at": "2026-07-08T17:19:09+00:00",
+            "updated_at": "2026-07-08T17:19:10+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "contributors": [
+          {
+            "name": "Natalia Luzuriaga",
+            "company": "@CMSgov (work) + personal projects",
+            "created_at": "2017-07-07T13:48:50+00:00",
+            "email": "nat.luzuriaga@gmail.com"
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "tier4",
+        "url": "https://github.com/DSACMS/tier4",
+        "description": "Tier 4 Template Repository",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier4/pull/6",
+            "created_at": "2026-07-08T17:19:13+00:00",
+            "updated_at": "2026-07-08T17:19:14+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "contributors": [
+          {
+            "name": "Natalia Luzuriaga",
+            "company": "@CMSgov (work) + personal projects",
+            "created_at": "2017-07-07T13:48:50+00:00",
+            "email": "nat.luzuriaga@gmail.com"
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "archival-identifier",
+        "url": "https://github.com/DSACMS/archival-identifier",
+        "description": "A GitHub Action to identify repositories for archival",
+        "archived": false,
+        "topics": [
+          "dsacms-tier3",
+          "archive",
+          "archive-candidate",
+          "end-of-life",
+          "eol",
+          "featured",
+          "github-actions",
+          "organization-management",
+          "ospos",
+          "stale-repo",
+          "sunset"
+        ],
+        "issues": [
+          {
+            "title": "Implement Rate Limiting",
+            "url": "https://github.com/DSACMS/archival-identifier/issues/20",
+            "created_at": "2026-06-18T20:00:27+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "emmy-agent-marketplace",
+        "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+        "description": null,
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Add CMS Hybrid Cloud Splunk plugin",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/16",
+            "created_at": "2026-07-07T13:54:17+00:00",
+            "updated_at": "2026-07-07T14:02:43+00:00",
+            "merged_at": "2026-07-07T14:02:43+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "j-shilling",
+            "is_new": true
+          },
+          {
+            "title": "Bump the javascript-development-dependencies group across 1 directory with 2 updates",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/15",
+            "created_at": "2026-07-06T13:17:48+00:00",
+            "updated_at": "2026-07-06T13:17:49+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump prettier from 3.8.4 to 3.9.3 in the javascript-development-dependencies group",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/14",
+            "created_at": "2026-06-29T13:14:57+00:00",
+            "updated_at": "2026-07-06T13:17:45+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Bump actions/checkout from 6 to 7",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/10",
+            "created_at": "2026-06-22T13:14:50+00:00",
+            "updated_at": "2026-07-07T16:13:47+00:00",
+            "merged_at": "2026-07-07T16:13:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Bump actions/checkout from 6 to 7 (#10)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/commit/16c9e3088dc6b540c5614f0d6d5fbfdceb912833",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T16:13:39+00:00"
+          },
+          {
+            "message": "Add CMS Hybrid Cloud Splunk plugin (#16)",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/commit/7b09b1f9f1531030216b00ede31509727ae199b6",
+            "author": "Jake Shilling",
+            "created_at": "2026-07-07T14:02:43+00:00"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Jake Shilling",
+            "company": "@PathableAI-org",
+            "created_at": "2016-02-10T16:19:24+00:00",
+            "email": "jshilling@pathableai.com"
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "medicare_monthly_enrollment_dashboard",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+        "description": "Re-implement the Medicare Monthly Enrollment dashboard in an open-source framework that could be deployed to data.cms.gov in the future.",
+        "archived": false,
+        "topics": [],
+        "issues": [
+          {
+            "title": "County View Overlay Design",
+            "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/issues/16",
+            "created_at": "2026-06-26T18:14:13+00:00",
+            "state": "open",
+            "author": "kmsheikh",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Merge latest monthly data into yearly datasets when yearly data is unavailable",
+            "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/19",
+            "created_at": "2026-07-08T13:42:50+00:00",
+            "updated_at": "2026-07-09T17:20:27+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "isaac-rtc",
+            "is_new": true
+          }
+        ],
+        "commits": [
+          {
+            "message": "Update deploy.yml\n\n+1 from CIF26 IRL",
+            "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/commit/9ff9af802b33166d1f53e40a9d2c1919dbea1426",
+            "author": "decause-gov",
+            "created_at": "2026-07-07T18:23:29+00:00"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "decause-gov",
+            "company": "@CMSgov ",
+            "created_at": "2022-06-21T20:20:11+00:00",
+            "email": null
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "MedicareClaimsPricerSource",
+        "url": "https://github.com/DSACMS/MedicareClaimsPricerSource",
+        "description": null,
+        "archived": false,
+        "topics": [],
+        "issues": [
+          {
+            "title": "Phase 1: GitHub Workflow Add Files from Internal Repos",
+            "url": "https://github.com/DSACMS/MedicareClaimsPricerSource/issues/2",
+            "created_at": "2026-07-09T23:20:48+00:00",
+            "state": "open",
+            "author": "kmsheikh",
+            "is_new": true
+          }
+        ],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "codejson-core",
+        "url": "https://github.com/DSACMS/codejson-core",
+        "description": "An NPM package for schemas, validation, and assembly logic for code.json.",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "adding documentation",
+            "url": "https://github.com/DSACMS/codejson-core/commit/16386ebe99e7f62209e7da771882857a050a20e9",
+            "author": "Sachin Panayil",
+            "created_at": "2026-07-09T20:22:08+00:00"
+          },
+          {
+            "message": "implemented assembly logic",
+            "url": "https://github.com/DSACMS/codejson-core/commit/8ce41e04549818e0b01995a25359881abdb41e77",
+            "author": "Sachin Panayil",
+            "created_at": "2026-07-09T17:56:16+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      }
+    ],
+    "period": {
+      "start": "2026-07-03",
+      "end": "2026-07-10"
+    },
+    "generated_at": "2026-07-10T03:19:37.673070+00:00",
+    "total_repo_count": 91
+  },
+  "CMS-Enterprise": {
+    "repos": [
+      {
+        "name": "easi-app",
+        "url": "https://github.com/CMS-Enterprise/easi-app",
+        "description": "EASi App",
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "[EASI-5050] Move Priority Alignment from Buisness Case to System Intake",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3517",
+            "created_at": "2026-07-08T22:30:35+00:00",
+            "updated_at": "2026-07-09T14:29:23+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "downeyn-cms",
+            "is_new": true
+          },
+          {
+            "title": "[NOREF] update syntax to correctly silence the no operation provided message",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3516",
+            "created_at": "2026-07-06T19:25:54+00:00",
+            "updated_at": "2026-07-06T20:13:54+00:00",
+            "merged_at": "2026-07-06T20:13:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "StevenWadeOddball",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump the other group across 1 directory with 9 updates",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3515",
+            "created_at": "2026-06-29T15:58:54+00:00",
+            "updated_at": "2026-07-06T15:59:58+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump actions/checkout from 6 to 7 in the major group across 1 directory",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3513",
+            "created_at": "2026-06-22T15:54:46+00:00",
+            "updated_at": "2026-07-06T15:54:39+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "[NOREF] update syntax to correctly silence the no operation provided message (#3516)\n\n* feat: update syntax to correctly silence the no operation provided messsage\n\n* feat: update ignored message to be specific to GRAPH validation specifically",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/fd79c7949e45d520c0ea939d0651cc4ae1c3ad90",
+            "author": "Steven Wade",
+            "created_at": "2026-07-06T20:13:51+00:00"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Steven Wade",
+            "company": "Oddball",
+            "created_at": "2022-02-08T22:01:58+00:00",
+            "email": null
+          }
+        ],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "mint-app",
+        "url": "https://github.com/CMS-Enterprise/mint-app",
+        "description": "MINT App",
+        "archived": false,
+        "topics": [
+          "graphql",
+          "serverless"
+        ],
+        "issues": [],
+        "pulls": [
+          {
+            "title": "[MINT-3727] Waivers page 7",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2391",
+            "created_at": "2026-07-09T21:45:01+00:00",
+            "updated_at": "2026-07-09T21:58:55+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3788] add mock data",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2390",
+            "created_at": "2026-07-09T21:32:21+00:00",
+            "updated_at": "2026-07-09T21:58:57+00:00",
+            "merged_at": "2026-07-09T21:58:54+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3761] Spike Okta redirect login behind feature flag",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2389",
+            "created_at": "2026-07-09T20:17:51+00:00",
+            "updated_at": "2026-07-09T20:23:59+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "garyjzhao",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3780] custom date emails",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2388",
+            "created_at": "2026-07-09T18:49:06+00:00",
+            "updated_at": "2026-07-09T22:00:04+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3778] Add custom date page",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2387",
+            "created_at": "2026-07-09T17:25:41+00:00",
+            "updated_at": "2026-07-09T21:58:21+00:00",
+            "merged_at": "2026-07-09T21:58:16+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump the other group across 1 directory with 20 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2386",
+            "created_at": "2026-07-07T21:08:46+00:00",
+            "updated_at": "2026-07-07T21:08:47+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3791]/additional ctat date tracking",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2385",
+            "created_at": "2026-07-07T18:28:46+00:00",
+            "updated_at": "2026-07-08T14:25:32+00:00",
+            "merged_at": "2026-07-08T14:25:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "StevenWadeOddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3777] Second timeline",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2384",
+            "created_at": "2026-07-07T18:04:05+00:00",
+            "updated_at": "2026-07-09T14:50:19+00:00",
+            "merged_at": "2026-07-09T14:50:17+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "update BE for UI parity",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2383",
+            "created_at": "2026-07-07T17:49:34+00:00",
+            "updated_at": "2026-07-07T17:52:21+00:00",
+            "merged_at": "2026-07-07T17:52:19+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "Noref/naming updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2382",
+            "created_at": "2026-07-07T15:37:22+00:00",
+            "updated_at": "2026-07-07T16:09:56+00:00",
+            "merged_at": "2026-07-07T16:09:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[NOREF] Upgraded faktory image",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2381",
+            "created_at": "2026-07-06T19:29:40+00:00",
+            "updated_at": "2026-07-07T13:35:16+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "Peyton232",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump the other group across 1 directory with 9 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2380",
+            "created_at": "2026-07-06T01:31:18+00:00",
+            "updated_at": "2026-07-07T16:13:37+00:00",
+            "merged_at": "2026-07-07T16:13:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump docker/bake-action from 7.2.0 to 7.3.0 in the other group",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2379",
+            "created_at": "2026-07-06T01:24:37+00:00",
+            "updated_at": "2026-07-07T13:47:41+00:00",
+            "merged_at": "2026-07-07T13:47:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump axios from 1.18.0 to 1.18.1",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2374",
+            "created_at": "2026-06-30T17:58:05+00:00",
+            "updated_at": "2026-07-07T20:56:14+00:00",
+            "merged_at": "2026-07-07T20:56:12+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Build(deps): bump the other group across 1 directory with 21 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2373",
+            "created_at": "2026-06-30T16:25:32+00:00",
+            "updated_at": "2026-07-07T21:07:29+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "changed health endpoint to ecs api call",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2367",
+            "created_at": "2026-06-25T16:12:48+00:00",
+            "updated_at": "2026-07-07T20:57:23+00:00",
+            "merged_at": "2026-07-07T20:57:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "Peyton232",
+            "is_new": false
+          },
+          {
+            "title": "Build(deps): bump the other group with 5 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2361",
+            "created_at": "2026-06-22T01:25:52+00:00",
+            "updated_at": "2026-07-06T01:23:08+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Feature: Custom model timeline dates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2349",
+            "created_at": "2026-06-16T18:34:06+00:00",
+            "updated_at": "2026-07-09T21:58:57+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "samoddball",
+            "is_new": false
+          },
+          {
+            "title": "Feature: CTAT MVP",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2280",
+            "created_at": "2026-05-13T17:46:54+00:00",
+            "updated_at": "2026-07-09T20:21:13+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "StevenWadeOddball",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "changed health endpoint to ecs api call (#2367)",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/31ae16d24873513190bf0f8fe615bd2a15810f69",
+            "author": "Peyton T",
+            "created_at": "2026-07-07T20:54:06+00:00"
+          },
+          {
+            "message": "Build(deps): bump axios from 1.18.0 to 1.18.1 (#2374)\n\nBumps [axios](https://github.com/axios/axios) from 1.18.0 to 1.18.1.\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.18.0...v1.18.1)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-version: 1.18.1\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/f86003c5a3bec58b2e92b9d0ccf3a4596c7600e3",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T20:52:52+00:00"
+          },
+          {
+            "message": "Build(deps): bump the other group across 1 directory with 9 updates (#2380)\n\n* Build(deps): bump the other group across 1 directory with 9 updates\n\nBumps the other group with 6 updates in the / directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [github.com/99designs/gqlgen](https://github.com/99designs/gqlgen) | `0.17.91` | `0.17.93` |\n| [github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | `1.42.0` | `1.42.1` |\n| [github.com/aws/aws-sdk-go-v2/config](https://github.com/aws/aws-sdk-go-v2) | `1.32.25` | `1.32.27` |\n| [github.com/aws/aws-sdk-go-v2/feature/rds/auth](https://github.com/aws/aws-sdk-go-v2) | `1.6.29` | `1.6.30` |\n| [github.com/aws/aws-sdk-go-v2/service/lambda](https://github.com/aws/aws-sdk-go-v2) | `1.92.3` | `1.94.1` |\n| [github.com/aws/aws-sdk-go-v2/service/s3](https://github.com/aws/aws-sdk-go-v2) | `1.103.3` | `1.104.2` |\n\n\n\nUpdates `github.com/99designs/gqlgen` from 0.17.91 to 0.17.93\n- [Release notes](https://github.com/99designs/gqlgen/releases)\n- [Changelog](https://github.com/99designs/gqlgen/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/99designs/gqlgen/compare/v0.17.91...v0.17.93)\n\nUpdates `github.com/vektah/gqlparser/v2` from 2.5.34 to 2.5.35\n- [Release notes](https://github.com/vektah/gqlparser/releases)\n- [Commits](https://github.com/vektah/gqlparser/compare/v2.5.34...v2.5.35)\n\nUpdates `github.com/aws/aws-sdk-go-v2` from 1.42.0 to 1.42.1\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/v1.42.0...v1.42.1)\n\nUpdates `github.com/aws/aws-sdk-go-v2/config` from 1.32.25 to 1.32.27\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/config/v1.32.25...config/v1.32.27)\n\nUpdates `github.com/aws/aws-sdk-go-v2/credentials` from 1.19.24 to 1.19.26\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/credentials/v1.19.24...credentials/v1.19.26)\n\nUpdates `github.com/aws/aws-sdk-go-v2/feature/rds/auth` from 1.6.29 to 1.6.30\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/feature/rds/auth/v1.6.29...feature/rds/auth/v1.6.30)\n\nUpdates `github.com/aws/aws-sdk-go-v2/service/lambda` from 1.92.3 to 1.94.1\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/lambda/v1.92.3...service/rds/v1.94.1)\n\nUpdates `github.com/aws/aws-sdk-go-v2/service/s3` from 1.103.3 to 1.104.2\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/s3/v1.103.3...service/s3/v1.104.2)\n\nUpdates `github.com/aws/smithy-go` from 1.27.1 to 1.27.3\n- [Release notes](https://github.com/aws/smithy-go/releases)\n- [Changelog](https://github.com/aws/smithy-go/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/aws/smithy-go/compare/v1.27.1...v1.27.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/99designs/gqlgen\n  dependency-version: 0.17.93\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/vektah/gqlparser/v2\n  dependency-version: 2.5.35\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2\n  dependency-version: 1.42.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/config\n  dependency-version: 1.32.27\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/credentials\n  dependency-version: 1.19.26\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/feature/rds/auth\n  dependency-version: 1.6.30\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/service/lambda\n  dependency-version: 1.94.1\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/service/s3\n  dependency-version: 1.104.2\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: other\n- dependency-name: github.com/aws/smithy-go\n  dependency-version: 1.27.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* abide by new auth recipe from gqlgen upon gorilla dep removal from their library\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>\nCo-authored-by: Sam Lawson <samlawson@Sam-Lawson-MacBook-Pro.local>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/73e2153385652f5e00445862db27a602375cc11c",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T16:09:37+00:00"
+          },
+          {
+            "message": "Build(deps): bump docker/bake-action from 7.2.0 to 7.3.0 in the other group (#2379)\n\nBuild(deps): bump docker/bake-action in the other group\n\nBumps the other group with 1 update: [docker/bake-action](https://github.com/docker/bake-action).\n\n\nUpdates `docker/bake-action` from 7.2.0 to 7.3.0\n- [Release notes](https://github.com/docker/bake-action/releases)\n- [Commits](https://github.com/docker/bake-action/compare/v7.2.0...v7.3.0)\n\n---\nupdated-dependencies:\n- dependency-name: docker/bake-action\n  dependency-version: 7.3.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: other\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/55f9a3d71ab6f16880b66c4d8b2bab470cca8b13",
+            "author": "dependabot[bot]",
+            "created_at": "2026-07-07T13:44:21+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-gatus",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+        "description": "batCAVE Gatus Terraform module",
+        "archived": true,
+        "topics": [
+          "aws-efs",
+          "aws-fargate",
+          "batcave",
+          "gatus",
+          "terraform",
+          "terraform-module"
+        ],
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [
+          {
+            "version": "3.0.0",
+            "date": "2022-10-05",
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "Changelog",
+                  "pre-commit"
+                ]
+              }
+            ]
+          }
+        ],
+        "releases": []
+      },
+      {
+        "name": "ztmf",
+        "url": "https://github.com/CMS-Enterprise/ztmf",
+        "description": "Zero Trust Maturity scoring tool",
+        "archived": false,
+        "topics": [],
+        "issues": [
+          {
+            "title": "copyPreviousScores silently swallows errors, can open a new data call with zero carried-over answers",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/411",
+            "created_at": "2026-07-10T00:04:35+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Compare Data Calls: whitespace-only note differences reported as changes",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/409",
+            "created_at": "2026-07-09T23:27:16+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "IdP-side single logout (Okta/Entra end_session) \u2014 follow-up to #402",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/406",
+            "created_at": "2026-07-09T19:54:35+00:00",
+            "state": "closed",
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Record target maturity at the Pillar and Function levels (deferred from #398 MVP)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/405",
+            "created_at": "2026-07-09T19:46:10+00:00",
+            "state": "open",
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Backend: logout endpoint to clear the app session and ALB OIDC cookies",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/402",
+            "created_at": "2026-07-09T15:37:06+00:00",
+            "state": "closed",
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Encrypt Draft text of freeform box at rest",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/399",
+            "created_at": "2026-07-08T21:38:11+00:00",
+            "state": "open",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Record the Expected Maturity Level",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/398",
+            "created_at": "2026-07-08T17:35:06+00:00",
+            "state": "open",
+            "author": "eschwein-usds",
+            "is_new": true
+          },
+          {
+            "title": "Canonicalize HHS system attributes and serve them as validated select boxes",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/395",
+            "created_at": "2026-07-07T22:34:02+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Data call handling: sort by deadline, deadline-driven current/latest chip, consolidate year-paired calls",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/393",
+            "created_at": "2026-07-07T19:15:16+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "HHS systems score 0.00: normalize data-center environments to a shared scoring vocabulary (mapping table)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/392",
+            "created_at": "2026-07-07T18:41:46+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Add a git hook to auto-regenerate openapi.yaml on schema/API changes (prevent drift CI failures)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/391",
+            "created_at": "2026-07-06T22:15:25+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "fismasystems missing `isso_name` column \u2014 11 of 12 HHS inventory fields landed in #380",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/389",
+            "created_at": "2026-07-06T21:28:02+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "`make test-e2e` / `make test-integration` can't connect on macOS: compose-test uses `network_mode: host`",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/384",
+            "created_at": "2026-07-06T15:30:46+00:00",
+            "state": "closed",
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Make `make test-e2e` emberfall install OS-aware for macOS (Apple Silicon)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/382",
+            "created_at": "2026-07-06T14:35:42+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "HHS datacall integration: schema migration, model + RBAC changes, and local mock data",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/379",
+            "created_at": "2026-07-02T19:44:28+00:00",
+            "state": "closed",
+            "author": "costacalvin",
+            "is_new": false
+          },
+          {
+            "title": "Update \"Data Center\" and transfer questionnaire",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/367",
+            "created_at": "2026-06-26T18:12:15+00:00",
+            "state": "open",
+            "author": "eschwein-usds",
+            "is_new": false
+          },
+          {
+            "title": "Systems that have updated are identifiable",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/299",
+            "created_at": "2026-04-30T21:27:10+00:00",
+            "state": "open",
+            "author": "eschwein-usds",
+            "is_new": false
+          },
+          {
+            "title": "Include Answer Text in Download",
+            "url": "https://github.com/CMS-Enterprise/ztmf/issues/212",
+            "created_at": "2025-04-17T17:26:51+00:00",
+            "state": "closed",
+            "author": "eschwein-usds",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Fix score-progress integration test and gate integration tests in CI",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/412",
+            "created_at": "2026-07-10T00:05:57+00:00",
+            "updated_at": "2026-07-10T01:46:40+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Refresh impl from main (HHS schema, isso_name, datacenter scoring, target maturity, logout)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/410",
+            "created_at": "2026-07-09T23:38:51+00:00",
+            "updated_at": "2026-07-10T00:02:12+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "feat(auth): logout endpoint clearing app + ALB OIDC sessions (#402)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/408",
+            "created_at": "2026-07-09T20:17:50+00:00",
+            "updated_at": "2026-07-09T21:40:58+00:00",
+            "merged_at": "2026-07-09T21:40:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Identifiable system questionnaire updates",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/407",
+            "created_at": "2026-07-09T20:10:54+00:00",
+            "updated_at": "2026-07-09T20:46:07+00:00",
+            "merged_at": "2026-07-09T20:46:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Identifiable system questionnaire updates",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/404",
+            "created_at": "2026-07-09T17:42:02+00:00",
+            "updated_at": "2026-07-09T20:11:17+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": true
+          },
+          {
+            "title": "feat(auth): logout endpoint clearing app + ALB OIDC sessions (#402)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/403",
+            "created_at": "2026-07-09T16:34:08+00:00",
+            "updated_at": "2026-07-09T20:19:54+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "feat(fismasystems): per-system target maturity tier + justification (#398 MVP)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/401",
+            "created_at": "2026-07-08T22:25:30+00:00",
+            "updated_at": "2026-07-09T01:05:15+00:00",
+            "merged_at": "2026-07-09T01:05:12+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "feat(fismasystems): per-system target maturity tier + justification (#398 MVP)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/400",
+            "created_at": "2026-07-08T22:01:33+00:00",
+            "updated_at": "2026-07-08T22:25:54+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "feat(datacalls): resolve current/latest by deadline, not datacallid",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/397",
+            "created_at": "2026-07-08T16:44:09+00:00",
+            "updated_at": "2026-07-08T21:44:53+00:00",
+            "merged_at": "2026-07-08T21:44:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "feat(datacalls): resolve current/latest by deadline, not datacallid (#393)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/396",
+            "created_at": "2026-07-08T14:51:37+00:00",
+            "updated_at": "2026-07-08T20:15:41+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Map data-center environments to a shared scoring vocabulary (#392)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/394",
+            "created_at": "2026-07-07T21:22:45+00:00",
+            "updated_at": "2026-07-08T15:18:55+00:00",
+            "merged_at": "2026-07-08T15:18:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "add isso_name to fismasystems (migration 0044)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/390",
+            "created_at": "2026-07-06T21:52:41+00:00",
+            "updated_at": "2026-07-06T22:57:27+00:00",
+            "merged_at": "2026-07-06T22:57:25+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Publish compose-test ports instead of host networking for macOS (rehome of #385)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/388",
+            "created_at": "2026-07-06T17:00:48+00:00",
+            "updated_at": "2026-07-06T18:02:20+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Publish compose-test ports instead of host networking so local e2e/integration work on macOS",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/387",
+            "created_at": "2026-07-06T16:43:17+00:00",
+            "updated_at": "2026-07-06T17:27:24+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "HHS schema integration (rehome of #380)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/386",
+            "created_at": "2026-07-06T16:33:04+00:00",
+            "updated_at": "2026-07-06T16:41:11+00:00",
+            "merged_at": "2026-07-06T16:41:10+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Publish compose-test ports instead of host networking so local e2e/integration work on macOS",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/385",
+            "created_at": "2026-07-06T16:27:54+00:00",
+            "updated_at": "2026-07-06T17:01:15+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Make the Emberfall e2e runner install OS-aware for macOS",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/383",
+            "created_at": "2026-07-06T15:08:00+00:00",
+            "updated_at": "2026-07-06T18:05:11+00:00",
+            "merged_at": "2026-07-06T18:05:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Sync impl with main (deploy to impl env)",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/381",
+            "created_at": "2026-07-06T13:37:07+00:00",
+            "updated_at": "2026-07-06T13:41:00+00:00",
+            "merged_at": "2026-07-06T13:40:59+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Enhancement/hhs schema migration",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/380",
+            "created_at": "2026-07-02T20:13:23+00:00",
+            "updated_at": "2026-07-06T16:35:27+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": false
+          },
+          {
+            "title": "chore(ci): bump the github-actions group across 1 directory with 6 updates",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/353",
+            "created_at": "2026-06-17T21:29:02+00:00",
+            "updated_at": "2026-07-08T21:48:18+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "feat(auth): logout endpoint clearing app + ALB OIDC sessions (#402) (#408)\n\n> **Note:** In-repo copy of #403 by @voidspooks. Moved from the fork so\nSnyk\n> and the deploy CI gates can run \u2014 those jobs require org secrets\nunavailable\n> to fork PRs. Commits and authorship are unchanged.\n>\n> Refs #403\n\n---\n\nCloses #402.\n\n## What\n\nAdds `POST /api/v1/auth/logout`, registered on the unauthenticated\n`root` router (alongside `/auth/lookup` and `/login`) so it can clear a\nsession that is already expired or invalid \u2014 it must not sit behind\n`auth.Middleware`.\n\nThe handler:\n- Clears the `ztmf_session` app session cookie (via the existing\n`ClearSessionCookie`).\n- Expires the ALB OIDC session cookies \u2014 `AWSELBAuthSessionCookie`\n(Okta) and `AWSELBAuthSessionCookie-Entra` (Entra), plus their `-0`/`-1`\nshards \u2014 as **host-only** deletes (no `Domain`) to match how the ALB\nsets them.\n- Runs the same same-origin CSRF check the middleware applies to\nstate-changing session requests (it's outside the middleware, so it does\nthis itself), returning the standard `FORBIDDEN_ORIGIN` error shape on a\ncross-origin request.\n- Returns `204 No Content`.\n\n## Why the ALB cookies matter\n\nClearing `ztmf_session` alone is not a complete logout:\n- **Dual-IdP mode** (`entra_enabled=true`): `/api/*` is gated by\n`ztmf_session`, so clearing it blocks API access \u2014 but a still-valid ALB\nsession silently re-authenticates the user on their next `/login` with\nno credential prompt.\n- **Single-IdP mode**: `/api/*` is gated by the ALB OIDC session itself,\nso expiring the ALB cookies is required, not best-effort.\n\nThe cookie names mirror the `session_cookie_name` values in\n`infrastructure/alb-internal.tf` (documented in a comment kept in sync\nby hand).\n\n## Out of scope\n\nIdP-side single logout (Okta/Entra `end_session` redirect). No\nend-session endpoint is configured anywhere in code or Terraform today;\nthat's a separate config + infra change. This ends the ZTMF and ALB\nsessions only.\n\n## Tests\n\n- **Unit** (`session_test.go`): cookie clearing (session + ALB families,\nhost-only attributes, expired), and CSRF rejection on a foreign origin\nreturning `FORBIDDEN_ORIGIN`.\n- **E2E** (`emberfall_tests.yml`): `204` on same-origin POST, `403` +\n`FORBIDDEN_ORIGIN` on a cross-origin POST.\n- Regenerated `openapi.yaml`; the deliberately-public logout route is\nadded to the redocly `security-defined` ignore list next to\n`/auth/lookup` (the rule stays a hard error for every other handler).\n\nRan locally and passing: `make test-unit`, `make test-integration`,\n`make test-e2e` (143 emberfall, 0 failed), `make lint-openapi`.\n\nThe frontend logout button is the partner ticket,\nCMS-Enterprise/ztmf-ui#477.\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/0774ecfef0e6a36293a5488e32ba50d98da5a323",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T21:40:55+00:00"
+          },
+          {
+            "message": "Identifiable system questionnaire updates (#407)\n\n> **Note:** In-repo copy of #404 by @tarratsco. Moved from the fork so\nSnyk\n> and the deploy CI gates can run \u2014 those jobs require org secrets\nunavailable\n> to fork PRs. Commits and authorship are unchanged.\n>\n> Refs #404\n\n---\n\n### Summary\n\nAdds `GET /api/v1/scores/progress`, a per-system questionnaire-progress\nendpoint that lets OpDiv Admins (and ISSOs, for their own systems) see\nwhich systems have actually updated their questionnaires during a data\ncall \u2014 the core of `ztmf#299`. This is the backend half; the dashboard\ncolumn ships in a companion `ztmf-ui` PR:\nhttps://github.com/CMS-Enterprise/ztmf-ui/pull/480.\n\n### The problem this solves\n\nWhen a data call opens, the backend pre-populates every system's answers\nby copying the previous cycle's responses (`copyPreviousScores`). So on\nday one, every system already has a full set of `scores` rows \u2014 which\nmeans the obvious \"count the answer rows\" metric reads **100% for\neveryone** and answers the wrong question. It measures \"was this ever\nanswered,\" not \"did anyone touch it this cycle.\"\n\n### The mechanic\n\nThe pre-population copy **deliberately records no audit events**;\ngenuine writes through the normal save path do. That asymmetry already\ndraws the line we need:\n\n| Row | Has a `scores` row? | Has an edit event this cycle? |\n| --- | --- | --- |\n| Carried over, untouched | yes | **no** |\n| Edited this cycle | yes | **yes** |\n\nSo **\"updated\" = the answer has an edit event in this data call.** No\nschema change, no new tracking \u2014 the endpoint counts answers that have\nan event (via the same `events` lateral join `FindScores` already uses\nfor `last_edited_at`) against the questions applicable to the system\n(via the `datacenterenvironments` scoring-vocabulary, so SaaS systems\nget their smaller denominator).\n\nResponse, per system: `questionsexpected`, `questionsupdated`,\n`lastupdatedat`, `updatedsincestart`.\n\n### Scoping\n\nIdentical tier rules to `/scores/aggregate`, applied after query decode\nso a client cannot widen scope via params: OWNER and HHS admins see all\nsystems, while OpDiv admins fail closed to their granted OpDiv systems.\nDecommissioned systems are excluded from the response.\n\n### File changes\n\n| Component | Files |\n| --- | --- |\n| Database model | `backend/internal/model/scoreprogress.go `,\n`scoreprogress_test.go`, `scoreprogress_integration_test.go` |\n| Handler + route | `cmd/api/internal/controller/scores.go`,\n`router/router.go` |\n| Controller tests | `cmd/api/internal/controller/authorization_test.go`\n|\n| Spec | `openapi.yaml` (regenerated) |\n\n6 commits, +683 / 7 files. No migration, no schema change.\n\n### Notes for reviewers\n\n* Additive only, meaning no existing endpoint or write path is touched.\n* `updatedsincestart` is derivable from `questionsupdated > 0`. It is\nkept because it names the ticket's literal question in the response and\nthe \"since start\" anchor is real, since an event can only postdate the\ndata call's creation.\n* Deferred to follow-ups: a downloadable progress report with contacts\n(can ride the existing `/datacalls/{id}/export` CSV) and \"viewed but not\nanswered\" tracking (which needs a new event type and NIH product input).\n\n---------\n\nCo-authored-by: Onix Tarrats Calderon <onix.tarratscalderon@aquia.us>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/2f0b9e6f2a355da3723797ff2662336971b2405e",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T20:46:04+00:00"
+          },
+          {
+            "message": "feat(fismasystems): per-system target maturity tier + justification (#398 MVP) (#401)\n\n> **Note:** In-repo copy of #400 by @voidspooks. Moved from the fork so\nSnyk\n> and the deploy CI gates can run \u2014 those jobs require org secrets\nunavailable\n> to fork PRs. Commits and authorship are unchanged.\n>\n> Refs #400\n\n---\n\nBackend half of #398 (MVP scope per the ticket discussion with\n@MackOverflow \u2014 system-level only; pillar/function targets, gap views,\nand audit-history UI stay tracked by the epic). Paired frontend PR on\nztmf-ui. MERGE THIS PR BEFORE THE REHOME OF 398\n\n## What\n\nEach system gets a risk-based **target maturity tier** plus a **required\none-sentence justification**, settable by the assigned ISSO/ISSM or an\nadmin, stored per system, audited, and included in the export.\n\n## Design decisions (from the review of the draft AC)\n\n- **Tier stored by NAME** (`Initial`/`Advanced`/`Optimal`,\nCHECK-constrained), not a CISA stage integer. The app's internal score\nscale is 1\u20135 and `Tier()` maps 3.10\u20134.09 \u2192 Advanced, so a stored `3`\ninvites an invalid raw-number comparison against `systemscore`. Storing\nthe name makes tier-vs-tier the only expressible comparison; the UI\nrenders the stage numerals as display labels (\"3 \u2014 Advanced\").\n- **No backfill; NULL = \"no target asserted.\"** Backfilling Advanced\nwould fabricate a GAO-auditable assertion nobody made. The UI/export\npresent the Advanced default explicitly labeled as such.\n- **Justification required on every save** \u2014 the risk rationale is the\ndeliverable.\n- **Dedicated endpoint** `PUT /fismasystems/{id}/target-maturity`\ninstead of widening the admin-only system PUT: the assigned ISSO/ISSM\nowns exactly this field pair. Gate mirrors the scores write path \u2014\nread-only tiers 403, non-admins must be assigned, admin tiers\nOpDiv-scoped via `guardManageFismaSystem`. Writes are audited through\nthe standard `events` hook.\n\n## Changes\n\n- Migration `0046`: `target_maturity_tier` (varchar, CHECK) +\n`target_maturity_justification` (varchar 1000), nullable.\n- Model: fields flow through all reads; `SaveTargetMaturity` validates\ntier/justification and records the audit event.\n- Controller/route + swag annotations; `openapi.yaml` regenerated.\n- Export: **Target Maturity Level** / **Target Justification** columns;\nNULL renders `Advanced (default)`.\n- Emberfall: 8 new cases (ISSO-assigned 200, unassigned ISSO 403,\nread-only tiers 403, out-of-scope OPDIV_ADMIN 403, bad tier 400, missing\njustification 400, read-through).\n\n## Test plan\n\n- [x] `make test-unit` \u2014 incl. new validation tests (run pre-DB,\n`-short`-safe)\n- [x] `make test-integration` \u2014 write \u2192 read-back, trim behavior, live\nCHECK-constraint rejection\n- [x] `make test-e2e` \u2014 **141 ran / 0 failed** incl. the 8 new\ntarget-maturity cases\n- [x] Full flow validated in the local stack (admin + ISSO roles,\nexport, audit events)\n\n## Screenshots\n\n<img width=\"2055\" height=\"1096\" alt=\"Screenshot 2026-07-08 at 4 53 24\nPM\"\nsrc=\"https://github.com/user-attachments/assets/978c64df-2a73-4408-a865-abab02276f01\"\n/>\n<img width=\"2056\" height=\"1103\" alt=\"Screenshot 2026-07-08 at 4 54 41\nPM\"\nsrc=\"https://github.com/user-attachments/assets/717c28a3-a94e-4049-a318-cd280fe8f244\"\n/>\n\nRefs #398\n\n---------\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/9b1203e05ba0cd31406ae8fc86c82f25a806b916",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T01:05:11+00:00"
+          },
+          {
+            "message": "feat(datacalls): resolve current/latest by deadline, not datacallid (#397)\n\nIn-repo rehome of #396 by @voidspooks (fork PR), moved so the org-secret CI gates (Snyk, Infrastructure/Deploy) can run \u2014 they can't on a fork PR. Commit pushed unchanged; authorship preserved.\n\nPart of #393 (the backend half; paired with the ztmf-ui PR for the picker/chip). The data-consolidation script (items 3-4 of the ticket) is a separate follow-up.\n\n## Problem\n\"Current\"/\"latest\" resolved by `datacallid`: `FindLatestDataCall` and the `FindDataCalls` list ordered by creation/id. A re-imported historical data call can be assigned a higher serial id than the real current call, so once the HHS historical load lands it would hijack the default/current view.\n\n## Changes\n- `FindLatestDataCall`: order by `deadline DESC` (`datacallid DESC` only as a tiebreak). This also fixes `GET /api/v1/datacalls/latest`.\n- `FindDataCalls`: same ordering, so the list the UI renders already agrees with \"latest\".\n- `findPreviousDataCall`: same ordering, so `copyPreviousScores`' rollover points at the true prior annual call rather than a high-id backfill. (Scope-adjacent, but the same bug in the rollover path called out in the ticket discussion.)\n- Integration test asserting a higher-`datacallid`/earlier-`deadline` call is **not** treated as latest, and updated the `copyPreviousScores` fixtures (which leaned on id ordering) to pin deadline ordering.\n\nNo schema change \u2014 `deadline` already exists on `datacalls` (and is `NOT NULL`, so `ORDER BY deadline DESC` has no NULL-ordering hazard). \n\n## Testing\n- `go build ./...`, `go vet`, `go test -short ./...` green (in the pinned `golang:1.25.11` container; host has no Go).\n- Full `internal/model` integration suite green against a real Postgres, including the new `TestFindLatestDataCallByDeadlineIntegration`. The deadline tie-break and the backfill-conflict scenario were independently re-verified against a live Postgres.\n\n## Follow-up note for #393 items 3-4 (historical-load consolidation) `findPreviousDataCall` now resolves to the global latest by deadline excluding the given id. The consolidation/historical-load script must therefore **not** insert backfilled rows via `DataCall.Save()`, which fires `copyPreviousScores` and would roll current scores backward into a historical row. Reassign scores/junction rows directly instead. \nRefs #393. Original contribution by @voidspooks.\n\n---------\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/0242e8db7ba330a1416d02f6b18d36b84390e92e",
+            "author": "J.Sosulska - CMS (SHEG)",
+            "created_at": "2026-07-08T21:44:50+00:00"
+          },
+          {
+            "message": "Map data-center environments to a shared scoring vocabulary (#392) (#394)\n\n## What and why\n\nHHS inventory systems were scoring 0.00. The scoring engine matches a\nsystem to its Zero Trust functions by an exact `datacenterenvironment`\nstring (`functions.datacenterenvironment =\nfismasystems.datacenterenvironment`). The functions catalog is keyed to\na small fixed vocabulary, but real inventory values (for example `Data\nCenter: Gov-Owned, Multi-tenant`, `AWS (incl GovCloud)`) are free text\nand absent from it, so the join returned no functions and roughly 69% of\nHHS systems scored 0.00.\n\nCloses #392.\n\n## Approach\n\nOption B from the issue: leave each system's raw `datacenterenvironment`\nuntouched (every OpDiv keeps its own reporting label) and add a\nreference table that maps the raw value to the scoring vocabulary.\n\nNew table `public.datacenterenvironments`:\n\n- `datacenterenvironment` (PK) - the raw value stored on a system\n- `category` - the reporting / dropdown bucket\n- `scoring_key` - the `functions.datacenterenvironment` set to score\nagainst (NULL = not scored, e.g. the legacy DECOMMISSIONED marker)\n- `selectable` - offered in the new/edit-system dropdown\n- `ordr` - dropdown order\n\nThe scoring aggregate and the answer-form query both resolve a system's\nraw value through this table via `scoring_key` instead of matching\nfunctions directly, so a value that is not itself a catalog key still\nscores.\n\nEvery scored environment is a first-class function set with its own key,\nso `scoring_key` is an identity mapping today. The migration:\n\n- renames the cryptic `OPDC` (\"Other People's Data Center\") set to\n`data-center-contractor` - a pure key rename, so its functionids and\nevery score referencing them are unchanged.\n- adds `MAG` (a copy of the CMS Azure/MAG set) and `data-center-gov` (a\ncopy of the OPDC set) as first-class sets, so those environments score\nindependently and can diverge later by editing data - de-CMS the MAG\nwording, drop SaaS's inapplicable questions, gov-vs-contractor tweaks -\nwith no further migration.\n\n`scoring_key` stays a distinct column so a future divergence can still\npoint several environments at one set by changing data, not code.\n\n## Category set\n\nMatches the business owner's decision: keep `CMS-Cloud-AWS`,\n`CMS-Cloud-MAG`, `CMSDC`; generic `AWS`, `MAG`, `SaaS`, `Other`; and\n`data-center-gov` + `data-center-contractor` (both built on the former\nOPDC/HHS ScoreCard question base today).\n\n## Changes\n\n- `migrations/0045datacenterenvironments.go` - create + seed the table,\nrename OPDC, add the MAG and data-center-gov sets\n- `scores.go`, `questions.go` - route both env joins through\n`scoring_key`\n- `controller/datacenterenvironments.go` + router - `GET\n/api/v1/datacenterenvironments` so the UI environment dropdown is\nbackend-driven (`selectable_only`)\n- `datacenterenvironments.go` model + DB-backed validation in\n`fismasystems.Save` / `functions.Save`\n- `validations.go` - removed the hardcoded vocabulary map\n- `openapi.yaml` regenerated\n\n## Existing data (companion cleanup, not in this PR)\n\nThis PR is the schema + code. On an environment that already has scores,\nthe schema change alone is not enough: measured on a full local CMS+HHS\ndataset, ~78% of score rows reference a different env's functionids than\nthe system now scores against (a pre-existing scatter, present in CMS\ndata too), so they would render as \"Not Assessed\" until realigned. A\nseparate, idempotent re-point script moves each such score to the\nmatching option in its system's own set (same function, same score -\nlossless, because the option sets are byte-identical across envs). It is\nrun manually per environment after a snapshot, matching the HHS load's\nprod discipline.\n\nValidated end to end on real local data:\n- re-point: 120,935 rows realigned, 0 ambiguous, 0 unmatchable\n- HCAS (an HHS system that showed 0.00) now returns 3.47 \"Advanced\" with\na full pillar breakdown through the live API\n- 988 HHS systems in one data call now spread across all four tiers\n(Traditional through Optimal) instead of collapsing to Not Assessed\n\n## Testing\n\n- `make test-unit`, `make test-integration`, `make test-e2e` all pass\n(emberfall 132/132).\n- Integration test proves an aliased environment (a raw value that is\nnot a functions key) scores identically to its real environment through\nthe mapping.\n- The all-aggregate invariant test iterates every seeded system through\nthe rewritten join, confirming no scoring regression.\n\n## Follow-ups (tracked separately)\n\n- The 7 new FY25 HHS questions need functions authored in each scoring\nenv before they score.\n- `DECOMMISSIONED` (7 systems) is a legacy marker, not an environment -\nsmall env-value cleanup.\n- Frontend (ztmf-ui#449): backend-driven dropdown + re-key pillar\nfiltering to the category.\n\n## Also in this PR: ISSO name for the systems table\n\nThe main systems table read `issoemail` for its ISSO column, so HHS\nsystems (which carry `isso_name`, not email) rendered blank. The list\nquery now returns `COALESCE(isso_name, the ISSO user's fullname resolved\nby issoemail)`, giving one populated name column for both CMS and HHS in\na single query with no per-row lookup. Read-only in the list; the\nsingle-system GET and the write path are unchanged, so no resolved value\nis persisted back.\n\nFollow-up ztmf#395 covers turning the other HHS system attributes (FIPS,\nsystem type, cloud fields, etc.) into canonical validated select boxes;\nthey ship as free-text fields for now.",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/76a73a721c0aac210b654cd700c985df7b78188f",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-08T15:18:52+00:00"
+          },
+          {
+            "message": "add isso_name to fismasystems (migration 0044) (#390)\n\n## Summary\n\nFixes #389. Migration 0043 landed 11 of the 12 HHS inventory columns;\n`isso_name` (ISSO display name, distinct from `issoemail`) was omitted.\nThis PR adds it with the same RBAC-gated treatment as the other 11 HHS\nfields.\n\n- **`0044isssoname.go`** \u2014 `ALTER TABLE public.fismasystems ADD COLUMN\nIF NOT EXISTS isso_name varchar(255)` (nullable, safe retry)\n- **`fismasystems.go` (model)** \u2014 `ISSOName *string` added to\n`FismaSystem` struct and `fismaSystemColumns`; `isso_name` added to\n`Save()` INSERT cols/vals and UPDATE `hhsCols` map\n- **`fismasystems.go` (controller)** \u2014 `clearHHSMetadata` and\n`copyHHSMetadata` updated to cover all 12 HHS fields\n- **`openapi.yaml`** \u2014 `isso_name: type: string` added to `FismaSystem`\nschema (alphabetically between `issoemail` and `legacy`)\n- **`emberfall_tests.yml`** \u2014 `hhsExpected`, `fismaSystemWithHHSData`,\n`system1002WithHHSData` anchors include `isso_name: \"Darth Vader\"`;\nscoped-admin clear-gate assertion adds `isso_name: null`\n- **`_test_data_empire.sql`** \u2014 `isso_name` column added to the INSERT\nfor all 15 HHS fixture rows (2001\u20132015); ~99% populated, rows with null\n`isso_name` left null to reflect real data sparsity\n\n## Test plan\n\n- [ ] `make generate-openapi` (if applicable to this repo) and confirm\nno diff beyond the new field\n- [ ] Run emberfall tests locally against a migrated DB \u2014 all existing\nHHS RBAC tests should pass; the clear-gate assertion now also checks\n`isso_name: null`\n- [ ] Manually verify: OWNER can set `isso_name` on create/update;\nOPDIV_ADMIN create strips it to null; OPDIV_ADMIN update preserves it\nvia `copyHHSMetadata`",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/e74380fda404e26b8c529c16d291c2dc5e9ef2d0",
+            "author": "MackOverflow",
+            "created_at": "2026-07-06T22:57:24+00:00"
+          },
+          {
+            "message": "Make the Emberfall e2e runner install OS-aware for macOS (#383)\n\nThe `test-e2e` target printed a hardcoded Linux install command for the Emberfall runner, so macOS (Apple Silicon) developers who followed it got a Linux binary that will not execute. This resolves the host platform and installs the matching release build.\n\n## Changes\n\n- Detect host OS and architecture (`uname -s` / `uname -m`) and build the correct `emberfall_<os>_<arch>.tar.gz` asset URL.\n- Add a `make install-emberfall` target that downloads and installs the right build into a user-writable directory (`~/.local/bin` by default, override with `EMBERFALL_BIN_DIR`), and warns if that directory is not\non `PATH`.\n- Point the `test-e2e` \"not installed\" hint at `make install-emberfall`.\n\nThe isolated e2e flow itself is unchanged; only the install path was platform-specific.\n\nFixes #382\n\n## Test plan\n\n- [x] `make install-emberfall` on Linux installs a working `emberfall` (`emberfall version 0.4.1`)\n- [x] OS/arch resolution: Linux to `Linux_x86_64`, Apple Silicon to `Darwin_arm64`, Intel Mac to `Darwin_x86_64` (all published release assets)\n- [x] `make help` parses; existing `test-e2e` run path is unchanged when the runner is already installed\n- [ ] `make install-emberfall` on an Apple Silicon Mac installs a working binary\n\n---------\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/9a24d0b0a5f4f89c5315b527efda11cdade6c988",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-06T18:05:09+00:00"
+          },
+          {
+            "message": "HHS schema integration (rehome of #380) (#386)\n\nRehomes #380 by @costacalvin so CI and Snyk can run against an in-repo\nbranch. Fork-head PRs cannot reach the org secrets Snyk needs, which\ngates every job that depends on the analysis stage. No history was\nrewritten; all commits are authored by @costacalvin.\n\nFull review history and approval are on #380.\n\n## Summary\n\nHHS schema integration. Migration 0043 adds 11 nullable HHS inventory\ncolumns to `fismasystems` and a `notes_is_ai_summary` boolean to\n`scores`. Model and RBAC changes gate the 11 HHS field writes to\nunscoped admins (owner / HHS admin); scoped admins see them read-only,\nand a partial update no longer wipes stored values. Includes Emberfall\nE2E coverage for the write gate and the flag semantics, plus local mock\ndata.\n\nReviewed and approved on #380; e2e verified green locally.\n\n---------\n\nCo-authored-by: Calvin Costa <calvin.costa@va.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/55ce96ed66aa7b8620c11ccb7b98a12b018fcf52",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-06T16:41:09+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-workflow-engine",
+        "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+        "description": "batCAVE workflow engine",
+        "archived": true,
+        "topics": [
+          "batcave",
+          "cicd",
+          "golang"
+        ],
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [
+          {
+            "version": "unknown",
+            "date": null,
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "GitHub action auth support",
+                  "settings package for config and metaconfig values",
+                  "settings package marshalling / unmarshalling",
+                  "Grype Image Scan Task",
+                  "Task pattern instead of pipeline pattern for simplicity Note: currently the new experimental is behind a build flag",
+                  "Image vulnerability scan task",
+                  "Image antivirus scan",
+                  "Image build",
+                  "Snyk SAST Scan"
+                ]
+              },
+              {
+                "category": "Changed",
+                "items": [
+                  "Upgrade omnibus base image to v1.5.1",
+                  "Move existing CLI package to v0",
+                  "Task Run pattern"
+                ]
+              },
+              {
+                "category": "Changed",
+                "items": [
+                  "refactored CLI for readability and maintenance",
+                  "upgraded to go 1.22.0",
+                  "New Executable will default inputs and outputs to OS",
+                  "WithStdin, WithStdout, WithStderr all merged to WithIO",
+                  "Config syntax to correlated with pipelines",
+                  "Code Scan Run organization to use functions for simplicity",
+                  "Add multi writer for Gatecheck list",
+                  "async run execution for image scan pipeline",
+                  "moved shell package to legacy",
+                  "image scan execution flow",
+                  "docker build argument strategy for shell",
+                  "shell command errors instead of exit codes",
+                  "shell command rich errors",
+                  "async task wraps stderr for cleaner log output",
+                  "Limit the number of supported Github action fields"
+                ]
+              },
+              {
+                "category": "Added",
+                "items": [
+                  "Configuration File template rendering with built-in values",
+                  "Configuration conversions",
+                  "Configuration init with the format option",
+                  "Semgrep, osemgrep, gitleaks shell commands",
+                  "Code Scan Pipeline",
+                  "Config Template auto rendering",
+                  "Version Command",
+                  "All commands will defer to viper for arguments and defaults",
+                  "no push flag to image publish",
+                  "Gatecheck Shell Command",
+                  "pipeline helper functions for common file operations",
+                  "Oras Command",
+                  "Deploy pipeline validation only (beta feature)",
+                  "clamscan & freshclam for virus scanning",
+                  "command run with context",
+                  "command run with IO",
+                  "grype CMD",
+                  "async task object",
+                  "\"Combo\" pipelines for image-delivery and all pipelines",
+                  "GitHub Actions Code Generation"
+                ]
+              },
+              {
+                "category": "Fixed",
+                "items": [
+                  "Viper config key names",
+                  "Specified CLI command parameters for custom input and output for easier unit testing in the future"
+                ]
+              }
+            ]
+          },
+          {
+            "version": "0.0.1",
+            "date": "2024-01-29",
+            "changes": [
+              {
+                "category": "Changed",
+                "items": [
+                  "refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+                  "updated Version commands to return Commands instead of just an error",
+                  "simplified Command Methods",
+                  "converted some Command to private to prevent auto-complete overload",
+                  "the way command dry running is called, uses builder pattern now",
+                  "remove args from wrapper functions in CLI"
+                ]
+              },
+              {
+                "category": "Added",
+                "items": [
+                  "debugging flag",
+                  "pkg/shell/commands Runner interface",
+                  "pkg/shell/commands Command struct",
+                  "pkg/shell for command wrappers",
+                  "grype version",
+                  "syft version",
+                  "podman version",
+                  "docker / podman support via CLI cmd interface",
+                  "docker info",
+                  "image build pipeline (info only)",
+                  "docker info, build, and push commands",
+                  "internal logger to image build pipeline",
+                  "json, yaml, toml meta tags for pipelines/config",
+                  "config parsing with viper",
+                  "grype scan sbom command",
+                  "image-scan pipeline",
+                  "syft scan image command",
+                  "syft to image-scan pipeline",
+                  "image scan pipeline to CLI",
+                  "image scan pipeline wiring in CLI for Viper config variables"
+                ]
+              },
+              {
+                "category": "Added",
+                "items": [
+                  "cmd/workflow-engine for cli",
+                  "pkg/environments",
+                  "pkg/jobs",
+                  "pkg/pipelines",
+                  "pkg/system",
+                  "initial project structure"
+                ]
+              }
+            ]
+          }
+        ],
+        "releases": []
+      },
+      {
+        "name": "ztmf-ui",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+        "description": "UI specific repository for the ZTMF Scoring Dashboard",
+        "archived": false,
+        "topics": [],
+        "issues": [
+          {
+            "title": "Dashboard filters: Environment, OpDiv, and Data Call progress",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/489",
+            "created_at": "2026-07-10T00:27:11+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Display confetti when an ISSO has finished their questionnaire",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/488",
+            "created_at": "2026-07-09T23:48:07+00:00",
+            "state": "open",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Add component (RTL) test coverage for QuestionnairePage effect paths",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/487",
+            "created_at": "2026-07-09T22:40:25+00:00",
+            "state": "open",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Upload Decommissioned Systems, etc from Updated Inventories Sheets",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/484",
+            "created_at": "2026-07-09T20:08:45+00:00",
+            "state": "open",
+            "author": "a-dipietro",
+            "is_new": true
+          },
+          {
+            "title": "Add a \"this is dev!\" banner",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/479",
+            "created_at": "2026-07-09T16:56:21+00:00",
+            "state": "closed",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Add a logout button to the header for all users (frontend for ztmf#402)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/477",
+            "created_at": "2026-07-09T15:37:32+00:00",
+            "state": "open",
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Encrypted questionnaire drafts: confidentiality hardening and persistence fixes",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/475",
+            "created_at": "2026-07-09T03:19:29+00:00",
+            "state": "closed",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Radar chart: label series with actual data-call names instead of Current/Previous",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/468",
+            "created_at": "2026-07-08T21:15:53+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Group the data-call selector by year (show paired CMS and HHS calls, don't merge)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/467",
+            "created_at": "2026-07-08T21:06:07+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Admin Email Users modal is not OpDiv aware",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/466",
+            "created_at": "2026-07-08T20:38:22+00:00",
+            "state": "open",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Visual Overrun on \"Add FISMA System\" Page",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/465",
+            "created_at": "2026-07-08T20:34:41+00:00",
+            "state": "closed",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Dashboard summary cards overflow with long HHS system names (fixed height)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/463",
+            "created_at": "2026-07-08T18:32:59+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Render extended system fields as validated selects in the Add/Edit modal (frontend for ztmf#395)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/460",
+            "created_at": "2026-07-08T13:57:42+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "System detail: show the OpDiv at the top of the Organization section",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/458",
+            "created_at": "2026-07-07T23:55:06+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Questionnaire: add autosave / draft persistence so in-progress answers survive a crash or accidental navigation",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/457",
+            "created_at": "2026-07-07T21:09:15+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "HHS metadata edits in the system detail edit view are silently discarded on save",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/456",
+            "created_at": "2026-07-07T21:07:00+00:00",
+            "state": "closed",
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Neutralize agency-specific UI language for multi-agency reuse (\"Extended Metadata\")",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/452",
+            "created_at": "2026-07-07T15:03:13+00:00",
+            "state": "closed",
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "FismaTable crashes on sort when issoemail is null (TypeError: reading 'split')",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/450",
+            "created_at": "2026-07-06T22:45:02+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Add/Edit System form: OpDiv selector + 12 new HHS fields; resolve ISSO / Data Call Contact semantics",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/449",
+            "created_at": "2026-07-06T21:57:11+00:00",
+            "state": "closed",
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "HHS datacall integration: render new fismasystems metadata + AI Summary badge on scores + widen DataCallModal regex",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/446",
+            "created_at": "2026-07-02T19:07:34+00:00",
+            "state": "closed",
+            "author": "tarratsco",
+            "is_new": false
+          },
+          {
+            "title": "Require update to text answer if maturity level changes",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/436",
+            "created_at": "2026-06-26T18:09:32+00:00",
+            "state": "closed",
+            "author": "eschwein-usds",
+            "is_new": false
+          },
+          {
+            "title": "Refactor tier color utilities to a single TIERS constant",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/362",
+            "created_at": "2026-05-20T13:50:45+00:00",
+            "state": "open",
+            "author": "danielbowne",
+            "is_new": false
+          },
+          {
+            "title": "For SaaS systems, the ZTMF should only display the applicable questions.",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/312",
+            "created_at": "2026-01-26T20:01:34+00:00",
+            "state": "closed",
+            "author": "eschwein-usds",
+            "is_new": false
+          },
+          {
+            "title": "feat: a general alert modal indicating a user isn't allow to perform an action if the backend returns a `403`",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/issues/156",
+            "created_at": "2025-01-02T12:53:12+00:00",
+            "state": "closed",
+            "author": "TranScripted",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Dashboard filters, stat card sizing, and header alignment",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/490",
+            "created_at": "2026-07-10T01:32:24+00:00",
+            "updated_at": "2026-07-10T01:45:10+00:00",
+            "merged_at": "2026-07-10T01:45:08+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Sync impl with main (10 PRs: HHS fields, draft encryption, dashboard + questionnaire features, non-prod banner)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/486",
+            "created_at": "2026-07-09T22:12:47+00:00",
+            "updated_at": "2026-07-09T23:33:08+00:00",
+            "merged_at": "2026-07-09T23:33:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Gate the dev banner to signed-in users",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/485",
+            "created_at": "2026-07-09T21:50:30+00:00",
+            "updated_at": "2026-07-10T01:34:23+00:00",
+            "merged_at": "2026-07-10T01:34:20+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Data Call Progress column on the dashboard",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/483",
+            "created_at": "2026-07-09T20:02:41+00:00",
+            "updated_at": "2026-07-09T20:47:13+00:00",
+            "merged_at": "2026-07-09T20:47:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Add non-production environment warning banner",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/482",
+            "created_at": "2026-07-09T19:18:08+00:00",
+            "updated_at": "2026-07-09T21:47:15+00:00",
+            "merged_at": "2026-07-09T21:04:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "feat(questionnaire): encrypt drafts at rest \u2014 non-extractable IDB key + lifecycle hardening (#475)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/481",
+            "created_at": "2026-07-09T19:00:53+00:00",
+            "updated_at": "2026-07-10T01:01:41+00:00",
+            "merged_at": "2026-07-10T01:01:39+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Data Call Progress column on the dashboard",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/480",
+            "created_at": "2026-07-09T17:54:27+00:00",
+            "updated_at": "2026-07-09T20:03:06+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": true
+          },
+          {
+            "title": "Enhancement/full encryption",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/478",
+            "created_at": "2026-07-09T15:59:09+00:00",
+            "updated_at": "2026-07-10T01:03:15+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "feat(questionnaire): encrypt saved drafts (AES-256-GCM)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/476",
+            "created_at": "2026-07-09T03:23:30+00:00",
+            "updated_at": "2026-07-09T17:36:04+00:00",
+            "merged_at": "2026-07-09T17:36:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "fix visual overrun on Add Fisma System modal",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/474",
+            "created_at": "2026-07-09T00:51:13+00:00",
+            "updated_at": "2026-07-09T17:00:07+00:00",
+            "merged_at": "2026-07-09T17:00:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "fix visual overrun on Add Fisma System modal",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/473",
+            "created_at": "2026-07-09T00:25:18+00:00",
+            "updated_at": "2026-07-09T00:51:31+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "Enhancement/encrypt drafts",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/472",
+            "created_at": "2026-07-08T22:33:14+00:00",
+            "updated_at": "2026-07-09T17:36:27+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "feat(system-detail): Target Maturity Level card (#398 MVP)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/471",
+            "created_at": "2026-07-08T22:30:54+00:00",
+            "updated_at": "2026-07-09T01:05:57+00:00",
+            "merged_at": "2026-07-09T01:05:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "feat(system-detail): Target Maturity Level card (#398 MVP)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/470",
+            "created_at": "2026-07-08T22:01:56+00:00",
+            "updated_at": "2026-07-09T00:49:11+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "add drafts for questionnaire",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/469",
+            "created_at": "2026-07-08T21:21:39+00:00",
+            "updated_at": "2026-07-09T17:36:03+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "add drafts for questionnaire",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/464",
+            "created_at": "2026-07-08T19:34:50+00:00",
+            "updated_at": "2026-07-08T21:21:59+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "feat(datacall): sort by deadline; deadline-driven Current/Latest chip (rehome of #461)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/462",
+            "created_at": "2026-07-08T16:25:45+00:00",
+            "updated_at": "2026-07-09T16:59:16+00:00",
+            "merged_at": "2026-07-09T16:59:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "feat(datacall): sort by deadline; deadline-driven Current/Latest chip (#393)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/461",
+            "created_at": "2026-07-08T14:51:52+00:00",
+            "updated_at": "2026-07-08T16:27:28+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "Datacenter environment vocabulary + extended system fields (ztmf#392)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/459",
+            "created_at": "2026-07-08T00:34:50+00:00",
+            "updated_at": "2026-07-08T15:21:54+00:00",
+            "merged_at": "2026-07-08T15:21:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "neutralize UI language",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/455",
+            "created_at": "2026-07-07T21:00:56+00:00",
+            "updated_at": "2026-07-07T21:55:07+00:00",
+            "merged_at": "2026-07-07T21:55:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jsos3-cms",
+            "is_new": true
+          },
+          {
+            "title": "Require updates to notes when users change their answers in the questionnaire (rehome of #445)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/454",
+            "created_at": "2026-07-07T20:30:30+00:00",
+            "updated_at": "2026-07-07T21:07:14+00:00",
+            "merged_at": "2026-07-07T21:07:11+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "neutralize UI language",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/453",
+            "created_at": "2026-07-07T19:38:57+00:00",
+            "updated_at": "2026-07-07T21:55:06+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "Add OpDiv selector and HHS expansion fields to Add/Edit System modal",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/451",
+            "created_at": "2026-07-07T12:35:55+00:00",
+            "updated_at": "2026-07-07T16:56:06+00:00",
+            "merged_at": "2026-07-07T16:56:04+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "MackOverflow",
+            "is_new": true
+          },
+          {
+            "title": "Sync impl with main (10 commits: auth errors, OpDiv grants, user-table guards)",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/448",
+            "created_at": "2026-07-06T14:05:50+00:00",
+            "updated_at": "2026-07-06T14:09:47+00:00",
+            "merged_at": "2026-07-06T14:09:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Hhs datacall schema integration",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/447",
+            "created_at": "2026-07-02T21:29:20+00:00",
+            "updated_at": "2026-07-07T23:12:13+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": false
+          },
+          {
+            "title": "Require updates to notes when users change their answers in the questionnaire",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/445",
+            "created_at": "2026-07-01T21:20:55+00:00",
+            "updated_at": "2026-07-07T21:07:12+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Dashboard filters, stat card sizing, and header alignment (#490)\n\nfeat: dashboard filters, stat card sizing, and header alignment\n\nAdd client-side filters to the dashboard system list for Environment,\nOpDiv, and Data Call progress so users can narrow the table without\nscrolling. Environment and OpDiv are compact multi-selects; a \"Not\nupdated only\" toggle isolates systems that have not updated for the\nactive data call, and a Clear filters action resets them. A facet\nfilter is hidden when the visible systems span a single value. The\nfilter logic is pure and unit-tested (dashboardFilters.ts).\n\nFix the summary cards clipping long system names: drop the fixed height\nfor a min-height with stretch so cards grow to fit and stay equal size.\n\nAlign the USA banner and development-environment banner text to the\nZTMF logo's left edge while the bars remain full width.\n\nCloses #489. Closes #463.",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/533abc3b7e91854fbcfb326b2e7f93bb52013d24",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-10T01:45:07+00:00"
+          },
+          {
+            "message": "Gate the dev banner to signed-in users (#485)\n\nfix: show the dev banner only to signed-in users\n\nThe banner mounted above the auth gate, so it also rendered on the\npre-login page. Add an `authenticated` prop and pass\n`loaderData.status === 200` from the app shell: signed-in users see the\nfull environment-specific copy and links, while pre-login visitors get\nonly the generic non-production marker. Extends the component tests to\ncover the pre-login state.",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/337a50a3519ed973fe3968cd78f01525934ee7d4",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-10T01:34:20+00:00"
+          },
+          {
+            "message": "feat(questionnaire): encrypt drafts at rest \u2014 non-extractable IDB key + lifecycle hardening (#475) (#481)\n\n* non-extractable keys used\n* addressing codex/claude bugs found\n* set loading to false on auth errors\n* fix(questionnaire): serialize device-key creation to prevent silent draft loss\n\ngetOrCreateDeviceKey had a check-then-act race: concurrent callers (two tabs, or rapid first-run navigation) each missed the key cache, generated their own AES-GCM key, and clobbered IndexedDB. Drafts encrypted with a losing key then failed to decrypt after reload and were silently evicted despite a \"saved\" indicator.\n\nMemoize the in-flight key-resolution promise so concurrent same-session callers share one key, and do the IndexedDB get-then-put-if-absent inside a single readwrite transaction that re-checks for an existing key. Reject on a synchronous put failure so the store keeps its resolve-false-on-failure contract instead of hanging.\n\nAdds regression coverage via an inline in-memory IndexedDB stub; the concurrency test fails on the pre-fix code and passes after.\n\n* fix(questionnaire): keep view consistent on scores-403 and evict read-only drafts\n\n1. When the scores fetch 403s on an auth-handled path (FORBIDDEN_ORIGIN or a  plain controller 403 that stays mounted), the catch returned before the batch that commits questions/datacallID/questionId \u2014 while the sidebar, URL, and category state had already moved to the new system/datacall, leaving a half-updated view with no spinner and risking a save under the wrong system. Fall through to the batch with an empty scores map instead.\n\n2. Read-only sessions no longer evicted a lingering draft. Re-add the eviction, bumping saveGenRef first so an autosave that fired just before isReadOnly flipped cannot rewrite the draft after the clear.\n\n* fix(questionnaire): re-seed answer on out-of-band scores refresh The post-save fetchQuestionScores is fire-and-forget, so navigating back to a just-saved question before that GET resolves seeded it from the pre-save scores snapshot \u2014 a newly-answered question showed as unanswered with scoreid 0, and re-answering it would POST a duplicate score. Re-seed the current question's answer when the scores map refreshes while idle with no unsaved edits and no restored draft; a key bump remounts the uncontrolled radio so it reflects the correction. Extract the derivation and re-seed guard into scoreSelection.ts with unit tests.\n\n---------\n\nCo-authored-by: Calvin Costa <calvin.costa@va.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/310256221c370625d1d509b800d8ef7c54600e50",
+            "author": "J.Sosulska - CMS (SHEG)",
+            "created_at": "2026-07-10T01:01:39+00:00"
+          },
+          {
+            "message": "Add non-production environment warning banner (#482)\n\nfeat: add non-production environment warning banner (#479)\n\nShow a dismissible warning banner in every non-production Vite build\nmode (dev, impl, local) and hide it in production. The banner marks the\nenvironment so testers do not mistake it for the live site or enter real\ndata, and surfaces a feedback and contact path.\n\nTesting-specific copy, the feedback-form URL, and the contact address\nare injected at build time via VITE_DEV_* variables sourced from dev\nGitHub Environment secrets, keeping them out of the repo so they can be\ncleared when a testing window ends. A mode-neutral default renders when\nno override is supplied.",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/dea71cf5740c11608ce794bc62cf096214ecc35b",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-09T21:04:20+00:00"
+          },
+          {
+            "message": "Data Call Progress column on the dashboard (#483)\n\n* feat(dashboard): data call progress cell + triage sort helpers\n\nScoreProgress mirrors GET /scores/progress: answers pre-populated from the previous data call do not count as updated until a user saves them, so a carried-over questionnaire renders 0/N with a Not updated chip. Ascending sort ranks not-updated systems first, then partial progress by fraction, with unknowns last. Helpers live apart from the cell so the component file keeps Fast Refresh.\n\n* feat(dashboard): wire the Data Call Progress column into the system list\n\nHome fetches /scores/progress alongside the aggregate on the same activeDataCallId dependency, so the datacall switcher refetches both. The progress fetch is independent of the score fetch: a failure leaves the column as em-dashes without blocking score display or the loading gate. Column sits between Zero Trust Score and Data Center Environment.\n\n* fix(dashboard): correct progress column sort, tooltip, and 0/0 state\n\nAddress PR #480 review on the ztmf#299 progress column:\n\n- progressSortValue classified the 0-expected (no-questionnaire) case after the not-updated branch, so a 0/0 system sorted to the triage top next to genuine laggards. Check expected <= 0 first; rank it 1.5 (after complete, before missing-data).\n- Add type: 'number' so the grid sorts the numeric sort key numerically instead of string-comparing.\n- progressTooltip no longer contradicts the chip on a missing or unparseable timestamp: reports \"Updated (time unavailable)\" or the no-questionnaire state instead of a blanket \"No updates\".\n- Derive the chip from questionsupdated > 0 so it cannot disagree with the fraction; render a neutral N/A chip for 0/0 systems.\n\n---------\n\nCo-authored-by: Onix Tarrats Calderon <onix.tarratscalderon@aquia.us>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/7742bb14f63596611fb179e18faba9fe78209ae8",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T20:47:08+00:00"
+          },
+          {
+            "message": "feat(questionnaire): encrypt saved drafts (AES-256-GCM) (#476)\n\n## Summary\n\nAdds an initial encrypted-drafts feature for the questionnaire. Drafts persist in the browser (from #469) and are encrypted at rest with AES-256-GCM via the Web Crypto API (from #472). This is a first cut: it obfuscates drafts at rest, and the confidentiality hardening plus persistence fixes are tracked in #475.\n\n## What's included\n\n- **Questionnaire draft persistence**, from #469, @MackOverflow.\n- **AES-256-GCM draft encryption** via `crypto.subtle`, from #472, @costacalvin: new `draftStore.ts`, wiring in `QuestionnairePage.tsx` and `Title.tsx`, jest crypto setup in `config/jest/setupTests.ts`, and `draftStore.test.ts`.\n\n## Known limitations (tracked in #475)\n\nPre-merge review found blockers that ship in this initial version. They are tracked in #475 rather than gating the first cut:\n\n- Key derivation uses the user id (a non-secret) plus a fixed salt, so the encryption obfuscates rather than protects against device access.\n- A failed save still reports \"Draft saved,\" which can lose data silently.\n- A malformed stored draft can crash the questionnaire view.\n- Draft keys omit the user, so a shared browser can leak drafts across users.\n- Reverting an answer to its original value does not clear the saved draft.\n\n---------\n\nCo-authored-by: Calvin Costa <calvin.costa@va.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/dc1af4e1bd43eeb8d98026d86371f20ea01ea5c2",
+            "author": "J.Sosulska - CMS (SHEG)",
+            "created_at": "2026-07-09T17:36:01+00:00"
+          },
+          {
+            "message": "fix visual overrun on Add Fisma System modal (#474)\n\nadd margin 0 to fix visual overrun\n\nCo-authored-by: Calvin Costa <calvin.costa@va.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/200842f745b0928bd248e6049b2e65d09c7eca85",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T17:00:04+00:00"
+          },
+          {
+            "message": "feat(datacall): sort by deadline; deadline-driven Current/Latest chip (rehome of #461) (#462)\n\n* feat(datacall): sort by deadline and show deadline-driven Current/Latest chip\n\nThe datacall picker sorted by datacallid descending, so a re-imported\nhistorical call (higher serial id, older deadline) would out-sort the real\ncurrent call and become the default selection. Sort by deadline instead\n(datacallid only as a tiebreak) in both the Title picker and ScoreDiffModal,\nand pick ScoreDiffModal's default 'from' as the next-older call by list order\nrather than by next-lower id.\n\nThe badge on the latest call now reads 'Current' only while it is open and\n'Latest' once its deadline has passed.\n\nAdds a ScoreDiffModal test asserting the furthest-out deadline is treated as\nlatest even when another call has a higher datacallid.\n\nRefs CMS-Enterprise/ztmf#393\n\n* harden datacall deadline sort against invalid deadlines\n\nExtract the deadline-first ordering into a shared, unit-tested\nsortDatacallsByDeadline util used by both Title and ScoreDiffModal. An empty\nor malformed deadline now sinks to the bottom (-Infinity) instead of yielding\nNaN and falling through to the datacallid tiebreak, which would reintroduce\nthe #393 'highest id wins' behavior for exactly the dirty historical records\nthis ordering is meant to tame.\n\n---------\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/f4c7f13b1726f3ef795b3603ab3f929a5d4ecef6",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-09T16:59:13+00:00"
+          },
+          {
+            "message": "feat(system-detail): Target Maturity Level card (#398 MVP) (#471)\n\n* feat(system-detail): target maturity card with page-level edit flow\n\nFrontend half of CMS-Enterprise/ztmf#398 (GAO-audit response). Each system\nshows a Target Maturity Level card in the right column between Data Lake\nExport and Organization, with the risk-based target tier and its required\njustification.\n\n- Tier options are 2 - Initial / 3 - Advanced (default) / 4 - Optimal; the\n  stored value is the tier NAME (numerals are display-only), matching the\n  backend vocabulary. Traditional is deliberately not offered.\n- No stored default: a system with no asserted target renders the Advanced\n  default explicitly labeled as such ('(default)' chip + caption); the DB row\n  stays NULL until someone saves.\n- Editing rides the existing page-level Edit/Save flow (no separate card\n  buttons). Save PUTs to the dedicated /target-maturity endpoint only when\n  the draft actually changed, so untouched saves record no spurious audit\n  event. Changing the tier requires a justification before Save enables.\n- The page Edit button now shows for system-scoped users (ISSO/ISSM) via a\n  new isSystemScoped role helper - for them only the target card unlocks,\n  the system form stays admin-only. Gating is by tier per the app convention\n  (the backend scopes an ISSO's systems list and re-checks assignment on\n  write); userInfo.assignedfismasystems is never populated client-side.\n- Jest coverage for the card's read/edit states, option vocabulary, and\n  required/over-limit justification.\n\nRefs CMS-Enterprise/ztmf#398\n\n* fix(system-detail): trim justification length check, save target before system\n\nTargetMaturityCard's justificationTooLong compared the untrimmed length\nagainst TARGET_JUSTIFICATION_MAX while the page-level Save gate\n(isTargetValid) trims first, so trailing whitespace at the boundary could\nmake the two disagree. Trim in the card too, mirroring the API-side fix\non ztmf#401.\n\nAlso reorder handleSave's dual PUT: fire the target-maturity PUT before\nthe full-system PUT. If the second call in a two-PUT save throws, nothing\nhas persisted yet, instead of the system form silently saving server-side\nwhile the UI reports \"Not Saved\".\n\n---------\n\nCo-authored-by: Cameron Testerman <11036339+voidspooks@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/c1815cca11a9a55978c1c97797218aa271f24766",
+            "author": "MackOverflow",
+            "created_at": "2026-07-09T01:05:55+00:00"
+          },
+          {
+            "message": "Datacenter environment vocabulary + extended system fields (ztmf#392) (#459)\n\n* feat(datacenter-env): consume backend environment vocabulary\n\nReplace the hardcoded datacenter-environment list with GET /api/v1/datacenterenvironments,\nfetched once at the Title layout and shared via outlet context. The system-form dropdowns\n(Add modal + detail edit view) render the selectable environments labeled by category, and\nthe questionnaire pillar filter now keys off the resolved scoring category rather than the\nraw value so alias environments filter correctly. Raw values are unchanged on save.\n\nPartner of backend ztmf#394. Refs ztmf#392.\n\n* feat(datacenter-env): round 2 - isso_name column, ungated extended fields\n\n- Keep a system's current datacenter environment selectable when editing even\n  after the backend marks it non-selectable (append it as a disabled option),\n  so legacy-valued systems don't show a blank required field.\n- Bind the FismaTable ISSO Name column to the backend-resolved isso_name and\n  drop the issoemail.split('@') derivation (fully resolves ztmf-ui#450).\n- Make the extended metadata fields editable across all OpDivs (remove the\n  org-wide-admin gate) and always include them in the create/edit payload,\n  sending null to leave a value unchanged. isso_name stays display-only.\n- Add a FIPS column to the main table.\n\nAdditive to round 1. Partner of backend ztmf#394. Refs ztmf#392.",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/584547a77a2ed82058b1eefcb4085e8f84b7f8d5",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-08T15:21:52+00:00"
+          },
+          {
+            "message": "neutralize UI language (#455)\n\n* neutralize UI language\n\n* docs: neutralize remaining HHS references in code comments\n\n---------\n\nCo-authored-by: Calvin Costa <calvin.costa@va.com>\nCo-authored-by: Daniel Bowne <daniel.bowne1@cms.hhs.gov>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/79c051bf308b6e4a5725a2cbca1b366b7f68cbc6",
+            "author": "J.Sosulska - CMS (SHEG)",
+            "created_at": "2026-07-07T21:55:04+00:00"
+          },
+          {
+            "message": "Require updates to notes when users change their answers in the questionnaire (rehome of #445) (#454)\n\n* feat(questionnaire): require notes update when the answer changes\n\nWhen the user changes the radio answer, the save is blocked until the notes are substantially updated (trim-comparison \u2014 a trailing space does not count, matching the ticket's bonus criterion). Notes-only edits are unaffected. Unanswered questions and read-only sessions never trigger the rule.\n\n* New saveGuard helpers: `isSubstantialNotesChange` and `needsNotesUpdateForChoiceChange`.\n* Notes `CssTextField` gets error + `helperText` when the rule fires.\n* Next button disabled while the rule is unresolved.\n* `saveResponse()` has a defense-in-depth backstop for future save triggers.\n\nrefactor(save gueard): Clean up docs.\n\n* fix(saveGuard): don't fire on first-time answers and reject cleared notes on choice change\n\n---------\n\nCo-authored-by: Onix Tarrats Calderon <onix.tarratscalderon@aquia.us>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/db8906de1e91d8612aa3fd32e8c908bb0ae8fb8c",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-07-07T21:07:10+00:00"
+          },
+          {
+            "message": "Add OpDiv selector and HHS expansion fields to Add/Edit System modal (#451)\n\n* fix(FismaTable): handle null issoemail to prevent crashes in DataGrid\n\n* feat(types): add HHS metadata fields and notes_is_ai_summary flag\n\n* feat(SystemDetailPage): render HHS Metadata section, only HHS-wide admins can edit\n\n* feat(EditSystemModal): expose HHS Metadata fields on create for HHS-wide admins\n\n* feat(scores): show AI Summary badge on notes flagged notes_is_ai_summary\n\n* feat(DataCallModal): accept FY__ ZTM name format and reset state on close\n\n* feat(Questionnaire): enhance notes input with cleasrer AI Summary pill location\n\n* feat(fisma-systems): add OpDiv selector and 12 HHS expansion fields to Add/Edit modal\n\nCloses #449\n\n* fix: address PR #451 review feedback\n\nBlockers (System Detail edit page):\n- Fix Save button permanently disabled for every write admin: optional\n  email fields now use optionalEmailValidator (empty passes), disabled\n  ValidatedTextFields no longer gate the form, and ValidatedTextField\n  honors a `required` prop instead of hardcoding it.\n- Fix HHS metadata / opdiv_id data loss on SystemDetailPage.handleSave:\n  PUT now sends opdiv_id always and the HHS keys when hasUnscopedRead,\n  mirroring the modal save path.\n\nAI summary badge:\n- Send notes_is_ai_summary: false on the notes PUT in QuestionnairePage\n  and QuestionnareModal so a human edit clears the AI badge; the existing\n  dirty-checks keep the badge on an identical no-op save.\n\nNon-blocking cleanups:\n- Derive HHS_METADATA_KEYS from fieldConfig (single source of truth).\n- Hide the read-view HHS Metadata card when no HHS fields are populated.\n- Thread the abort signal into fetchOpDivs and surface load failures\n  instead of swallowing them.\n- Type issoemail as string | null.\n- Make the modal HHS input ids and helper copy mode-aware.\n- Tighten the datacall quarter pattern to Q[1-4].\n\n---------\n\nCo-authored-by: Onix Tarrats Calderon <onix.tarratscalderon@aquia.us>",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/4cf4e5722c1fc2c0c9049c406bf76553cb8ea3fd",
+            "author": "MackOverflow",
+            "created_at": "2026-07-07T16:56:04+00:00"
+          }
+        ],
+        "contributors": [],
+        "changelog_entries": [],
+        "releases": []
+      },
+      {
+        "name": "Esmd-fhir-client-python",
+        "url": "https://github.com/CMS-Enterprise/Esmd-fhir-client-python",
+        "description": null,
+        "archived": false,
+        "topics": [],
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "contributors": [],
+        "changelog_entries": [
+          {
+            "version": "1.0.0",
+            "date": null,
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "**Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+                  "Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+                  "Improved `ConfigUtility` with environment variable support and validation",
+                  "Advanced `logger` module with file rotation and configurable formatting",
+                  "**Comprehensive Documentation**: Complete README.md with installation, usage, and API documentation",
+                  "**Development Tools**: Added Makefile with common development commands",
+                  "**Environment Variable Support**: All configuration can now be set via environment variables",
+                  "**Configuration Templates**: Added `config.yaml.template` and `environment.template`",
+                  "**Secure Configuration**: Sensitive data (client secrets) now prefer environment variables",
+                  "**Configuration Validation**: Added validation methods for required configuration",
+                  "**Pytest Configuration**: Complete pytest setup with coverage reporting",
+                  "**Test Fixtures**: Comprehensive shared fixtures in `tests/conftest.py`",
+                  "**Unit Tests**: Sample unit tests for shared utilities with proper mocking",
+                  "**Test Categories**: Markers for unit, integration, network, and slow tests",
+                  "**Requirements with Version Pinning**: Secure, pinned dependencies in `requirements.txt`",
+                  "**Comprehensive setup.py**: Proper package configuration with optional dependencies",
+                  "**Type Checking**: mypy configuration for strict type checking",
+                  "**Code Quality Tools**: flake8, black, and other development tools",
+                  "**Git Integration**: Comprehensive .gitignore for Python projects",
+                  "**Code Quality**: Pre-commit hooks support and quality checks",
+                  "**CLI Tools**: Entry points for command-line usage",
+                  "**Development Workflow**: Quick setup with `make setup`"
+                ]
+              },
+              {
+                "category": "Changed",
+                "items": [
+                  "**Type Hints**: Added comprehensive type annotations throughout shared utilities",
+                  "**Error Handling**: Standardized and improved error handling patterns",
+                  "**Logging**: Enhanced logging with structured output and rotation",
+                  "**Code Structure**: Better separation of concerns and modularity",
+                  "**Dependency Security**: Pinned versions to prevent security vulnerabilities",
+                  "**Credential Management**: Moved sensitive data to environment variables",
+                  "**Token Management**: Added token caching and expiration handling",
+                  "**Configuration Security**: Warnings for insecure configuration practices",
+                  "**API Documentation**: Comprehensive docstrings and type information",
+                  "**Usage Examples**: Clear examples for each module and common use cases",
+                  "**Configuration Guide**: Detailed configuration options and best practices",
+                  "**Development Guide**: Setup instructions and contribution guidelines"
+                ]
+              },
+              {
+                "category": "Fixed",
+                "items": [
+                  "**Code Duplication**: Eliminated duplicate files across modules",
+                  "**Import Issues**: Fixed circular imports and dependency issues",
+                  "**Configuration Loading**: Improved config file discovery and error handling",
+                  "**Token Refresh**: Fixed token expiration and refresh logic",
+                  "**Package Structure**: Proper Python package hierarchy",
+                  "**Dependency Management**: Cleaner dependency resolution",
+                  "**Module Isolation**: Better separation between modules",
+                  "**Testing Infrastructure**: Reliable test setup and execution"
+                ]
+              },
+              {
+                "category": "Security",
+                "items": [
+                  "**Dependency Pinning**: All dependencies are pinned to specific versions",
+                  "**Environment Variables**: Sensitive configuration moved to environment variables",
+                  "**Token Security**: Improved token handling and storage",
+                  "**Input Validation**: Better validation of configuration and input data",
+                  "**Token Caching**: Reduced authentication overhead with intelligent caching",
+                  "**Configuration Caching**: Config loaded once and reused",
+                  "**Logging Optimization**: Efficient logging with rotation and proper levels",
+                  "**Request Optimization**: Better connection handling and timeouts",
+                  "**Testing Pipeline**: Automated testing with coverage reporting",
+                  "**Code Quality Pipeline**: Linting, formatting, and type checking",
+                  "**Build System**: Proper packaging and distribution setup",
+                  "**Documentation Pipeline**: Automated documentation generation",
+                  "--",
+                  "**Import Paths**: Some import paths have changed due to shared utilities",
+                  "**Configuration**: Some configuration keys may have changed",
+                  "**Dependencies**: Minimum Python version is now 3.9+",
+                  "**File Structure**: Some files have been moved or consolidated",
+                  "--"
+                ]
+              }
+            ]
+          },
+          {
+            "version": "1.1.0",
+            "date": null,
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "**ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+                  "**AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls."
+                ]
+              },
+              {
+                "category": "Fixed",
+                "items": [
+                  "**NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+                  "**DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging."
+                ]
+              }
+            ]
+          }
+        ],
+        "releases": []
+      }
+    ],
+    "period": {
+      "start": "2026-07-03",
+      "end": "2026-07-10"
+    },
+    "generated_at": "2026-07-10T03:19:37.673070+00:00",
+    "total_repo_count": 77
+  }
+}

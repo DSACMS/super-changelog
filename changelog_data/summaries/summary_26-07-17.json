@@ -1,0 +1,312 @@
+{
+  "period": {
+    "start": "2026-07-10",
+    "end": "2026-07-17"
+  },
+  "generated_at": "2026-07-17T02:37:58.022507+00:00",
+  "total_repos": 171,
+  "active_repos": 24,
+  "total_issues": 48,
+  "total_pulls": 92,
+  "total_commits": 81,
+  "total_changelog_entries": 4,
+  "repos_with_activity": [
+    {
+      "name": "ospo-guide",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 3,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 19,
+      "commits": 15,
+      "changelog_entries": 0,
+      "highlights": [
+        "15 PR(s) merged"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 13,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 7,
+      "pulls": 6,
+      "commits": 6,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 8,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "cms-it-alliance-demo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/cms-it-alliance-demo",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "index-generator-website",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/index-generator-website",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 1,
+      "highlights": [
+        "Added: Initial release of super-changelog",
+        "Added: Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs"
+      ]
+    },
+    {
+      "name": "code-gov",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "archival-identifier",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "issues": 1,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "issues": 2,
+      "pulls": 7,
+      "commits": 18,
+      "changelog_entries": 0,
+      "highlights": [
+        "5 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "code-book",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/code-book",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-core",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-core",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codemeta",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codemeta",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-action",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-action",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-action-e2e",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "easi-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "issues": 0,
+      "pulls": 7,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "mint-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "issues": 0,
+      "pulls": 21,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "13 PR(s) merged"
+      ]
+    },
+    {
+      "name": "batcave-tf-gatus",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 1,
+      "highlights": [
+        "Added: Changelog",
+        "Added: pre-commit"
+      ]
+    },
+    {
+      "name": "ztmf",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "issues": 24,
+      "pulls": 21,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "12 PR(s) merged",
+        "10 new issue(s)"
+      ]
+    },
+    {
+      "name": "batcave-workflow-engine",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 2,
+      "highlights": [
+        "Added: GitHub action auth support",
+        "Added: settings package for config and metaconfig values",
+        "Changed: Upgrade omnibus base image to v1.5.1",
+        "Changed: refactored CLI for readability and maintenance",
+        "Added: Configuration File template rendering with built-in values",
+        "Added: Configuration conversions",
+        "Fixed: Viper config key names",
+        "Fixed: Specified CLI command parameters for custom input and output for easier unit testing in the future",
+        "Changed: refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+        "Added: debugging flag",
+        "Added: pkg/shell/commands Runner interface",
+        "Added: cmd/workflow-engine for cli",
+        "Added: pkg/environments"
+      ]
+    }
+  ],
+  "key_changes": [
+    "super-changelog: Added Initial release of super-changelog",
+    "super-changelog: Added Weekly pipeline (`run_weekly.py`) producing full and condensed summary PRs",
+    "batcave-tf-gatus: Added Changelog",
+    "batcave-tf-gatus: Added pre-commit",
+    "batcave-workflow-engine: Added GitHub action auth support",
+    "batcave-workflow-engine: Added settings package for config and metaconfig values",
+    "batcave-workflow-engine: Changed Upgrade omnibus base image to v1.5.1",
+    "batcave-workflow-engine: Changed refactored CLI for readability and maintenance",
+    "batcave-workflow-engine: Added Configuration File template rendering with built-in values",
+    "batcave-workflow-engine: Added Configuration conversions",
+    "batcave-workflow-engine: Fixed Viper config key names",
+    "batcave-workflow-engine: Fixed Specified CLI command parameters for custom input and output for easier unit testing in the future",
+    "batcave-workflow-engine: Changed refactored, the directory structure, all pipelines will exist in pkg/pipelines",
+    "batcave-workflow-engine: Added debugging flag",
+    "batcave-workflow-engine: Added pkg/shell/commands Runner interface",
+    "batcave-workflow-engine: Added cmd/workflow-engine for cli",
+    "batcave-workflow-engine: Added pkg/environments"
+  ]
+}
