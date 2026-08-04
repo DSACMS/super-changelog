@@ -21,8 +21,7 @@ def main():
     if not token:
         raise ValueError("Github token not found in environmental variables")
     
-    #org_names = ["DSACMS", "CMS-Enterprise"]
-    org_names = ["natalialuzuriaga-testing-org"]
+    org_names = ["DSACMS", "CMS-Enterprise"]
 
     gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date, log_history_end=end_date)
 
