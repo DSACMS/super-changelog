@@ -11,6 +11,7 @@ from scripts.generate_summary import (
     main
 )
 
+from tests.fixtures import mock_changelog_data, mock_repo_data, temp_dir
 
 class TestGenerateSummary:
     """Test to generate_summary function"""

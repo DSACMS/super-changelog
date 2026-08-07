@@ -23,7 +23,7 @@ def main():
     
     org_names = ["DSACMS", "CMS-Enterprise"]
 
-    gen = ChangelogGenerator(token, filename=filename,log_history_start=start_date)
+    gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date, log_history_end=end_date)
 
     combined_data = {}
     for org_name in org_names:

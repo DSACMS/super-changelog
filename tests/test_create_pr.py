@@ -13,6 +13,7 @@ from scripts.create_pr import (
     main
 )
 
+from tests.fixtures import temp_dir, mock_env_vars
 
 class TestGetLatestSummaryFiles:
     """Test getting latest summary files."""
