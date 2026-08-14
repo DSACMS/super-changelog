@@ -1,0 +1,916 @@
+{
+  "period": {
+    "start": "2026-08-07",
+    "end": "2026-08-14"
+  },
+  "generated_at": "2026-08-14T01:54:53.299048+00:00",
+  "total_repos": 175,
+  "active_repos": 35,
+  "total_commits": 139,
+  "total_pulls": 199,
+  "total_issues": 29,
+  "total_changelog_entries": 2,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "iv-doc-uploader",
+        "text": "LICENSE: Add CC0 1.0 Universal license",
+        "url": "https://github.com/DSACMS/iv-doc-uploader/pull/39",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "repo-scaffolder",
+        "text": " Add GitHub repository topic prompts and automatic topic assignment`",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/395",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "decks",
+        "text": "Add cif26 demo day deck",
+        "url": "https://github.com/DSACMS/decks/pull/20",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-delivery",
+        "text": "Metadata: Add code.json",
+        "url": "https://github.com/DSACMS/iv-delivery/pull/2",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "year-in-review",
+        "text": "Fixed redundant API calls and added timeout to get_stats_contributors",
+        "url": "https://github.com/DSACMS/year-in-review/pull/4",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "fdsh-utils",
+        "text": "Add Security Schemes",
+        "url": "https://github.com/DSACMS/fdsh-utils/pull/6",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Improved `ConfigUtility` with environment variable support and validation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "Advanced `logger` module with file rotation and configurable formatting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Comprehensive Documentation**: Complete README.md with installation, usage, and API documentation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Tools**: Added Makefile with common development commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Environment Variable Support**: All configuration can now be set via environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Templates**: Added `config.yaml.template` and `environment.template`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Secure Configuration**: Sensitive data (client secrets) now prefer environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Validation**: Added validation methods for required configuration",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Pytest Configuration**: Complete pytest setup with coverage reporting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Test Fixtures**: Comprehensive shared fixtures in `tests/conftest.py`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Unit Tests**: Sample unit tests for shared utilities with proper mocking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Test Categories**: Markers for unit, integration, network, and slow tests",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Requirements with Version Pinning**: Secure, pinned dependencies in `requirements.txt`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Comprehensive setup.py**: Proper package configuration with optional dependencies",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Type Checking**: mypy configuration for strict type checking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality Tools**: flake8, black, and other development tools",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Git Integration**: Comprehensive .gitignore for Python projects",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality**: Pre-commit hooks support and quality checks",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**CLI Tools**: Entry points for command-line usage",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Workflow**: Quick setup with `make setup`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+        "category": "Added",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4670: Fix Emmy Launcher to be enabled in CMS Cloud non-production environments",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1977",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Fix Solid Queue CMS deploy config",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1975",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "introduced change that fixes issue #91",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/128",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[NOREF] Fix incorrect translation path",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2455",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf",
+        "text": "fix(scores): tag the server-owned fields on FindScoresInput as non-bindable",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/552",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf",
+        "text": "fix: declare CloudFront price class and assert it",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/551",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "Fix questionnaire opening a different data call than the row's Data Call column",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/695",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Duplication**: Eliminated duplicate files across modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Import Issues**: Fixed circular imports and dependency issues",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Loading**: Improved config file discovery and error handling",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Refresh**: Fixed token expiration and refresh logic",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Package Structure**: Proper Python package hierarchy",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Management**: Cleaner dependency resolution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Module Isolation**: Better separation between modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Testing Infrastructure**: Reliable test setup and execution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/397",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "docs(contributor): contributors readme action update",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/137",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/44",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "readme contrinbuting community md files updated",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/43",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "code-book",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/code-book/pull/4",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "year-in-review",
+        "text": "Updated metrics with a rerun of the full year 08-07-25 to 08-07-2026",
+        "url": "https://github.com/DSACMS/year-in-review/pull/5",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "year-in-review",
+        "text": "Dsacms/zion/get contributors update",
+        "url": "https://github.com/DSACMS/year-in-review/pull/3",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Type Hints**: Added comprehensive type annotations throughout shared utilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Error Handling**: Standardized and improved error handling patterns",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Logging**: Enhanced logging with structured output and rotation",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Structure**: Better separation of concerns and modularity",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Security**: Pinned versions to prevent security vulnerabilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Credential Management**: Moved sensitive data to environment variables",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Management**: Added token caching and expiration handling",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Security**: Warnings for insecure configuration practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**API Documentation**: Comprehensive docstrings and type information",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Usage Examples**: Clear examples for each module and common use cases",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Guide**: Detailed configuration options and best practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Development Guide**: Setup instructions and contribution guidelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [
+      {
+        "repo": "ztmf-ui",
+        "text": "chore(deps): phase 1 \u2014 security floors, react-router unpin, and unreferenced dependency removal",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/700",
+        "type": "pr",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "chore(deps): phase 0 \u2014 version floors, unused dependency removal, and Storybook teardown",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/696",
+        "type": "pr",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      }
+    ],
+    "security": [
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependency Pinning**: All dependencies are pinned to specific versions",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Environment Variables**: Sensitive configuration moved to environment variables",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Security**: Improved token handling and storage",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Input Validation**: Better validation of configuration and input data",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Token Caching**: Reduced authentication overhead with intelligent caching",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration Caching**: Config loaded once and reused",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Logging Optimization**: Efficient logging with rotation and proper levels",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Request Optimization**: Better connection handling and timeouts",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Testing Pipeline**: Automated testing with coverage reporting",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Code Quality Pipeline**: Linting, formatting, and type checking",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Build System**: Proper packaging and distribution setup",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Documentation Pipeline**: Automated documentation generation",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Import Paths**: Some import paths have changed due to shared utilities",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Configuration**: Some configuration keys may have changed",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**Dependencies**: Minimum Python version is now 3.9+",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "**File Structure**: Some files have been moved or consolidated",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "Esmd-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      }
+    ],
+    "performance": [],
+    "documentation": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4555: Send activity documents over HTTP",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1976",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      },
+      {
+        "repo": "fdsh-utils",
+        "text": "[codex] Document specs project READMEs",
+        "url": "https://github.com/DSACMS/fdsh-utils/pull/4",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      }
+    ],
+    "other": [
+      {
+        "repo": "iv-doc-uploader",
+        "text": "Metadata: Create code.json",
+        "url": "https://github.com/DSACMS/iv-doc-uploader/pull/38",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Dsacms/zion/rate limiting",
+        "url": "https://github.com/DSACMS/super-changelog/pull/121",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "fdsh-utils",
+        "text": "Github Pages Setup + Formatting",
+        "url": "https://github.com/DSACMS/fdsh-utils/pull/5",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[NOREF] Bump Minor Version for json2csv",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2458",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3820] task complete email",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2457",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "feat(#545): seed the reduced-pillar rule and apply it to scoring and the questionnaire",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/549",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 30,
+    "fixed": 17,
+    "changed": 19,
+    "removed": 2,
+    "security": 18,
+    "documentation": 2,
+    "other": 6
+  },
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "iv-doc-uploader",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "org": "DSACMS",
+      "commits": 6,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 10,
+      "issues": 2
+    },
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 2
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 28,
+      "pulls": 34,
+      "issues": 1
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "iv-delivery",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 7,
+      "issues": 3
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 6
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 4,
+      "issues": 0
+    },
+    {
+      "name": "code-gov",
+      "url": "https://github.com/DSACMS/code-gov",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "metrics_frontend",
+      "url": "https://github.com/DSACMS/metrics_frontend",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier1",
+      "url": "https://github.com/DSACMS/tier1",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 2,
+      "issues": 2
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "website-template",
+      "url": "https://github.com/DSACMS/website-template",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 12,
+      "pulls": 4,
+      "issues": 0
+    },
+    {
+      "name": "code-book",
+      "url": "https://github.com/DSACMS/code-book",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "year-in-review",
+      "url": "https://github.com/DSACMS/year-in-review",
+      "org": "DSACMS",
+      "commits": 8,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "codejson-action-e2e",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "org": "DSACMS",
+      "commits": 10,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "fdsh-utils",
+      "url": "https://github.com/DSACMS/fdsh-utils",
+      "org": "DSACMS",
+      "commits": 25,
+      "pulls": 6,
+      "issues": 0
+    },
+    {
+      "name": "web-form-template",
+      "url": "https://github.com/DSACMS/web-form-template",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "year-in-review-cif",
+      "url": "https://github.com/DSACMS/year-in-review-cif",
+      "org": "DSACMS",
+      "commits": 6,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "easi-app",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "mint-app",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "org": "CMS-Enterprise",
+      "commits": 13,
+      "pulls": 24,
+      "issues": 0
+    },
+    {
+      "name": "ztmf",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "org": "CMS-Enterprise",
+      "commits": 6,
+      "pulls": 47,
+      "issues": 4
+    },
+    {
+      "name": "ztmf-ui",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "org": "CMS-Enterprise",
+      "commits": 6,
+      "pulls": 29,
+      "issues": 6
+    },
+    {
+      "name": "Esmd-fhir-client-python",
+      "url": "https://github.com/CMS-Enterprise/Esmd-fhir-client-python",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "power-platform-webres",
+      "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    }
+  ]
+}
