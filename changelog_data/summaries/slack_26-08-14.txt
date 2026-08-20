@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-08-07 to 2026-08-14)
+
+• 35 of 175 repos with activity
+• 139 commits | 199 PRs | 29 issues
+
+*Key Changes:*
+• Esmd-fhir-client-python: Added **Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication
+• Esmd-fhir-client-python: Added Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints
+• Esmd-fhir-client-python: Changed **Type Hints**: Added comprehensive type annotations throughout shared utilities
+• Esmd-fhir-client-python: Fixed **Code Duplication**: Eliminated duplicate files across modules
+• Esmd-fhir-client-python: Fixed **Import Issues**: Fixed circular imports and dependency issues
+• Esmd-fhir-client-python: Added **ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.
+• Esmd-fhir-client-python: Added **AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.
+• Esmd-fhir-client-python: Fixed **NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 28 commits, 34 PRs
+• *ztmf*: 6 commits, 47 PRs
+• *mint-app*: 13 commits, 24 PRs
+• *ztmf-ui*: 6 commits, 29 PRs
+• *fdsh-utils*: 25 commits, 6 PRs
