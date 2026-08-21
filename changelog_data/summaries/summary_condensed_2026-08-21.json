@@ -1,0 +1,289 @@
+{
+  "period": {
+    "start": "2026-08-14",
+    "end": "2026-08-21"
+  },
+  "generated_at": "2026-08-21T01:16:05.990221+00:00",
+  "total_repos": 98,
+  "active_repos": 13,
+  "total_commits": 55,
+  "total_pulls": 87,
+  "total_issues": 20,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "iv-doc-uploader",
+        "text": "Archival: Add workflow to archive repository",
+        "url": "https://github.com/DSACMS/iv-doc-uploader/pull/40",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "income-reporting-playbook",
+        "text": "Archival: Add workflow to archive repository",
+        "url": "https://github.com/DSACMS/income-reporting-playbook/pull/17",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "repo-scaffolder",
+        "text": "Outbound Checklists and Docs: Add instructions for installing dependencies",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/400",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-verify",
+        "text": "Archival: Add workflow to archive repository",
+        "url": "https://github.com/DSACMS/iv-verify/pull/100",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-verify",
+        "text": "Metadata: Add code.json",
+        "url": "https://github.com/DSACMS/iv-verify/pull/99",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-delivery",
+        "text": "Archival: Add workflow to archive repository",
+        "url": "https://github.com/DSACMS/iv-delivery/pull/3",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Templates: Fix typo in PR templates",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/402",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1994",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "fix(deps): resolve all 47 open Dependabot alerts",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/140",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Update maturity-model-tiers.md",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/384",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/135",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "testing-repository",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/testing-repository/pull/88",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "docs: update contributors information",
+        "url": "https://github.com/DSACMS/super-changelog/pull/140",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "docs: update contributors information",
+        "url": "https://github.com/DSACMS/super-changelog/pull/139",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "docs: update contributors information",
+        "url": "https://github.com/DSACMS/super-changelog/pull/138",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4688: Clean up order and styling of components on doc upload page",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1993",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      }
+    ],
+    "other": [
+      {
+        "repo": "ospo-guide",
+        "text": "[DRAFT] AI at CMS",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/136",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Resolved Issue: Status Table on the Github page is cut off (#132)",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/133",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4668: Report PR webhook initialization errors",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1992",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Bump actions/setup-node from 4 to 6",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/112",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Bump actions/checkout from 4 to 6",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/111",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 6,
+    "fixed": 3,
+    "changed": 6,
+    "documentation": 1,
+    "other": 5
+  },
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "iv-doc-uploader",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "income-reporting-playbook",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 6,
+      "issues": 2
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 14,
+      "pulls": 20,
+      "issues": 0
+    },
+    {
+      "name": "iv-verify",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 4,
+      "issues": 2
+    },
+    {
+      "name": "iv-delivery",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 3,
+      "issues": 1
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 4,
+      "issues": 2
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 12,
+      "issues": 4
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 5
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 14,
+      "pulls": 26,
+      "issues": 1
+    }
+  ]
+}

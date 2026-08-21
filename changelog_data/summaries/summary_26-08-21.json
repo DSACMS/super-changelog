@@ -1,0 +1,233 @@
+{
+  "period": {
+    "start": "2026-08-14",
+    "end": "2026-08-21"
+  },
+  "generated_at": "2026-08-21T01:16:05.990221+00:00",
+  "total_repos": 98,
+  "active_repos": 13,
+  "total_issues": 20,
+  "total_pulls": 87,
+  "total_commits": 55,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "open",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/open",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "metrics",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 1,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "drive2gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/drive2gource",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "income-reporting-playbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "repo-scaffolder",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "ospo-guide",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 2,
+      "pulls": 6,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 0,
+      "pulls": 20,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "14 PR(s) merged"
+      ]
+    },
+    {
+      "name": "interagency-research-ops",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/interagency-research-ops",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pycon-poster-2024",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pycon-poster-2024",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-verify",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 2,
+      "pulls": 4,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged",
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "iv-delivery",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "issues": 1,
+      "pulls": 3,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 2,
+      "pulls": 4,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged",
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "automated-codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 4,
+      "pulls": 12,
+      "commits": 4,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "ospo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 5,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 1,
+      "pulls": 26,
+      "commits": 14,
+      "changelog_entries": 0,
+      "highlights": [
+        "13 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "durc_is_crud",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
