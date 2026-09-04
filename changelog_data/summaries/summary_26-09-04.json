@@ -1,0 +1,452 @@
+{
+  "period": {
+    "start": "2026-08-28",
+    "end": "2026-09-04"
+  },
+  "generated_at": "2026-09-04T03:10:56.939899+00:00",
+  "total_repos": 99,
+  "active_repos": 32,
+  "total_issues": 6,
+  "total_pulls": 70,
+  "total_commits": 31,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "open",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/open",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "dsacms.github.io",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/dsacms.github.io",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "dedupliFHIR",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/dedupliFHIR",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "opportunities",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/opportunities",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "metrics",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/metrics",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "oss-community-runbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/oss-community-runbook",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "drive2gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/drive2gource",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/cms-gource",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "form-demo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/form-demo",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "decks",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/decks",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 28,
+      "commits": 20,
+      "changelog_entries": 0,
+      "highlights": [
+        "20 PR(s) merged"
+      ]
+    },
+    {
+      "name": "interagency-research-ops",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/interagency-research-ops",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pycon-poster-2024",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pycon-poster-2024",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-verify",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-delivery",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repodive-tools",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "reverse-scorecard-generation",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/reverse-scorecard-generation",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "mural-ollama",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/mural-ollama",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-open-source-policy",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/cms-open-source-policy",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "gource-log",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/gource-log",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repolinter-actions",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repolinter-actions",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 3,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "3 new issue(s)"
+      ]
+    },
+    {
+      "name": "codejson-index-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-index-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "gov-codejson",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 1,
+      "pulls": 4,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "un-sdg-form",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/un-sdg-form",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo",
+      "issues": 1,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "share-it-act-lp",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "index-generator-website",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/index-generator-website",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 3,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "project-ticket-template",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/project-ticket-template",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "agenda-scaffolder",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/agenda-scaffolder",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "outbound-tools-survey-2",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/outbound-tools-survey-2",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "code-gov",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/code-gov",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "outbound-understanding-survey-1",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/outbound-understanding-survey-1",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "durc_is_crud",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "caseworkerportal",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
