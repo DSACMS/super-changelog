@@ -1,0 +1,825 @@
+{
+  "DSACMS": {
+    "repos": [
+      {
+        "name": "open",
+        "url": "https://github.com/DSACMS/open",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "drive2gource",
+        "url": "https://github.com/DSACMS/drive2gource",
+        "description": "Moved to CMSgov Org: https://github.com/CMSgov/drive2gource",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-doc-uploader",
+        "url": "https://github.com/DSACMS/iv-doc-uploader",
+        "description": "A home for the suite of income verification related projects the DSAC and Facing Finical Shock teams are collaborating on",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "income-reporting-playbook",
+        "url": "https://github.com/DSACMS/income-reporting-playbook",
+        "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "repo-scaffolder",
+        "url": "https://github.com/DSACMS/repo-scaffolder",
+        "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Templates & Outbound Checklists: Add PRA, 508, and Plain Language Policy Guidance",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/406",
+            "created_at": "2026-09-08T19:05:53+00:00",
+            "updated_at": "2026-09-08T19:18:41+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "docs(templates): add PRA, Plain Language and Section 508 guidance to the README templates",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/401",
+            "created_at": "2026-08-16T02:50:19+00:00",
+            "updated_at": "2026-09-08T19:03:35+00:00",
+            "merged_at": "2026-09-08T19:03:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "opensource-joe",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "cookiecutter-template",
+          "maturity-models",
+          "repolinter",
+          "repo-hygiene",
+          "cmsoss-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "iv-cbv-payroll",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll",
+        "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+        "archived": false,
+        "issues": [
+          {
+            "title": "DSNP Enrollment Issues For Patients",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/2054",
+            "created_at": "2026-09-10T16:47:03+00:00",
+            "state": "open",
+            "author": "ibuddy66",
+            "is_new": true
+          },
+          {
+            "title": "ZAP Full Scan Report",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/1648",
+            "created_at": "2026-04-27T17:38:57+00:00",
+            "state": "open",
+            "author": "github-actions[bot]",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "Remove bencalegari from reviewer lottery",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2056",
+            "created_at": "2026-09-10T20:03:20+00:00",
+            "updated_at": "2026-09-10T22:01:59+00:00",
+            "merged_at": "2026-09-10T22:01:57+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4818 Make alerts accessible",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2055",
+            "created_at": "2026-09-10T18:12:11+00:00",
+            "updated_at": "2026-09-10T19:37:04+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4791 Implement Education type selection screen",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2053",
+            "created_at": "2026-09-10T00:30:10+00:00",
+            "updated_at": "2026-09-10T19:54:46+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4802 & FFS-4803: Update content on \"Choose how you want to add your work\" page on Emmy CE Employment flow, Update helper text on employment information page for paid work in Emmy CE manual reporting flow",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2052",
+            "created_at": "2026-09-09T22:20:07+00:00",
+            "updated_at": "2026-09-10T20:48:34+00:00",
+            "merged_at": "2026-09-10T20:41:43+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS4720 update release process documentation",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2051",
+            "created_at": "2026-09-09T16:49:19+00:00",
+            "updated_at": "2026-09-09T16:58:34+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "serverless-mom",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4819 Alternate text for images",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2050",
+            "created_at": "2026-09-09T16:27:29+00:00",
+            "updated_at": "2026-09-10T13:08:08+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4794: Add environment selection to deploy script",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2049",
+            "created_at": "2026-09-09T15:58:44+00:00",
+            "updated_at": "2026-09-10T21:51:26+00:00",
+            "merged_at": "2026-09-10T21:51:23+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "Release v0.5.0",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2048",
+            "created_at": "2026-09-09T15:27:26+00:00",
+            "updated_at": "2026-09-10T19:51:40+00:00",
+            "merged_at": "2026-09-10T19:44:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4713 Add an environment variable to disable NSC in a given environment, forcing the Education flow to self-attestation only.",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2047",
+            "created_at": "2026-09-08T22:41:00+00:00",
+            "updated_at": "2026-09-10T21:59:22+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "Bump google.golang.org/grpc from 1.83.1 to 1.83.2 in /infra/test in the go_modules group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2046",
+            "created_at": "2026-09-08T21:41:25+00:00",
+            "updated_at": "2026-09-09T15:07:07+00:00",
+            "merged_at": "2026-09-09T15:07:04+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump mixpanel-ruby from 3.3.0 to 3.4.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2045",
+            "created_at": "2026-09-08T15:56:07+00:00",
+            "updated_at": "2026-09-08T20:59:10+00:00",
+            "merged_at": "2026-09-08T20:59:07+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump bootsnap from 1.25.0 to 1.26.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2044",
+            "created_at": "2026-09-08T15:55:39+00:00",
+            "updated_at": "2026-09-08T20:59:50+00:00",
+            "merged_at": "2026-09-08T20:59:49+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4642 Remove help link",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2043",
+            "created_at": "2026-09-08T15:55:35+00:00",
+            "updated_at": "2026-09-09T16:19:13+00:00",
+            "merged_at": "2026-09-09T16:19:11+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "Bump rubocop from 1.89.0 to 1.90.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2042",
+            "created_at": "2026-09-08T15:55:12+00:00",
+            "updated_at": "2026-09-09T17:30:32+00:00",
+            "merged_at": "2026-09-09T17:30:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump rails_semantic_logger from 5.1.0 to 5.2.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2041",
+            "created_at": "2026-09-08T15:54:44+00:00",
+            "updated_at": "2026-09-08T21:00:44+00:00",
+            "merged_at": "2026-09-08T21:00:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump webpack from 5.110.1 to 5.110.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2040",
+            "created_at": "2026-09-08T15:54:29+00:00",
+            "updated_at": "2026-09-08T21:01:04+00:00",
+            "merged_at": "2026-09-08T21:01:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump sass from 1.103.1 to 1.104.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2039",
+            "created_at": "2026-09-08T15:54:21+00:00",
+            "updated_at": "2026-09-08T21:19:39+00:00",
+            "merged_at": "2026-09-08T21:19:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump lookbook from 2.3.14 to 2.3.15 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2038",
+            "created_at": "2026-09-08T15:54:19+00:00",
+            "updated_at": "2026-09-08T21:01:40+00:00",
+            "merged_at": "2026-09-08T21:01:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vitest from 4.1.11 to 5.0.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2037",
+            "created_at": "2026-09-08T15:54:14+00:00",
+            "updated_at": "2026-09-09T15:02:48+00:00",
+            "merged_at": "2026-09-09T15:02:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump postcss-cli from 11.0.1 to 12.0.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2036",
+            "created_at": "2026-09-08T15:54:05+00:00",
+            "updated_at": "2026-09-08T21:02:31+00:00",
+            "merged_at": "2026-09-08T21:02:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4718: CE PDF Implementation",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2035",
+            "created_at": "2026-09-04T23:03:45+00:00",
+            "updated_at": "2026-09-09T20:59:01+00:00",
+            "merged_at": "2026-09-09T20:52:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4717 Stop logging full validation error messages (PII risk) in Employment Self-Attested Mixpanel events",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2034",
+            "created_at": "2026-09-03T22:21:35+00:00",
+            "updated_at": "2026-09-08T18:51:58+00:00",
+            "merged_at": "2026-09-08T18:51:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4796 Create v2 invitations api",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2033",
+            "created_at": "2026-09-03T15:20:32+00:00",
+            "updated_at": "2026-09-08T17:12:24+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "Bump postcss-selector-parser from 7.1.1 to 7.1.5 in /app in the npm_and_yarn group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2032",
+            "created_at": "2026-09-03T05:51:20+00:00",
+            "updated_at": "2026-09-08T21:03:35+00:00",
+            "merged_at": "2026-09-08T21:03:32+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4768: Create ActivityJsonTransmitter (with the 2 self-attested activity types)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2031",
+            "created_at": "2026-09-02T23:11:06+00:00",
+            "updated_at": "2026-09-09T17:26:14+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "bencalegari",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4642 Hide language selector",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2029",
+            "created_at": "2026-09-02T12:27:22+00:00",
+            "updated_at": "2026-09-04T19:10:45+00:00",
+            "merged_at": "2026-09-04T19:10:43+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "Bump google.golang.org/grpc from 1.79.3 to 1.83.1 in /infra/test in the go_modules group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2028",
+            "created_at": "2026-09-01T22:19:05+00:00",
+            "updated_at": "2026-09-08T21:04:21+00:00",
+            "merged_at": "2026-09-08T21:04:19+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Bump tornado from 6.5.7 to 6.5.8 in /app/analytics in the pip group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2027",
+            "created_at": "2026-09-01T21:32:53+00:00",
+            "updated_at": "2026-09-08T21:04:40+00:00",
+            "merged_at": "2026-09-08T21:04:39+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4592: Fix NSC test scenarios in launcher",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2012",
+            "created_at": "2026-08-28T21:28:55+00:00",
+            "updated_at": "2026-09-08T21:08:50+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "bencalegari",
+            "is_new": false
+          },
+          {
+            "title": "Create noncompliance notices",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/1869",
+            "created_at": "2026-07-01T18:09:25+00:00",
+            "updated_at": "2026-09-09T19:50:08+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "lmsholar",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Remove bencalegari from reviewer lottery (#2056)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/471524febabd238d80905b7f0521f670bb5a9d40",
+            "author": "krista-skylight",
+            "created_at": "2026-09-10T22:01:55+00:00"
+          },
+          {
+            "message": "FFS-4794: Add environment selection to deploy script (#2049)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/8554b4430dd138d02a69245f99025529e2b6d235",
+            "author": "Tom Dooner",
+            "created_at": "2026-09-10T21:51:22+00:00"
+          },
+          {
+            "message": "FFS-4802 & FFS-4803: Update content on \"Choose how you want to add your work\" page on Emmy CE Employment flow, Update helper text on employment information page for paid work in Emmy CE manual reporting flow (#2052)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a621c1b76ad30efa805df2904021d436a8d60356",
+            "author": "Daphne Gold",
+            "created_at": "2026-09-10T20:41:43+00:00"
+          },
+          {
+            "message": "Release v0.5.0 (#2048)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9711bb58a9fc26eb3d09b1831485e210db585ec6",
+            "author": "Tom Dooner",
+            "created_at": "2026-09-10T19:44:53+00:00"
+          },
+          {
+            "message": "FFS-4718: CE PDF Implementation (#2035)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/c0f23eb4f74ec3aa7ef7a1efedce9f31e1ec8f23",
+            "author": "Daphne Gold",
+            "created_at": "2026-09-09T20:52:05+00:00"
+          },
+          {
+            "message": "Bump rubocop from 1.89.0 to 1.90.0 in /app (#2042)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5b514504b9da12399688df28de92a5ec04f6eced",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-09T17:30:29+00:00"
+          },
+          {
+            "message": "FFS-4642 Remove help link (#2043)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5c67a8be1cf6e33cfa6246a149f8ac0adcb8e3a8",
+            "author": "Chris",
+            "created_at": "2026-09-09T16:19:10+00:00"
+          },
+          {
+            "message": "Bump google.golang.org/grpc from 1.83.1 to 1.83.2 in /infra/test in the go_modules group across 1 directory (#2046)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/93f92c0e003b2b3b8d5aa1b3c3bfed6284d27277",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-09T15:07:04+00:00"
+          },
+          {
+            "message": "Bump vitest from 4.1.11 to 5.0.0 in /app (#2037)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3bf0f99a1453698e66a338df9729904c7e0908bb",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-09T15:02:45+00:00"
+          },
+          {
+            "message": "Bump sass from 1.103.1 to 1.104.0 in /app (#2039)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4578ae34cde74e12bd044f087075e1729ccf9f67",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:19:36+00:00"
+          },
+          {
+            "message": "Bump tornado from 6.5.7 to 6.5.8 in /app/analytics in the pip group across 1 directory (#2027)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/873f98a990084bc2cff2ae937e2a47ca1ebab20e",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:04:38+00:00"
+          },
+          {
+            "message": "Bump google.golang.org/grpc from 1.79.3 to 1.83.1 in /infra/test in the go_modules group across 1 directory (#2028)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/be41b2df5b142d3645d7350207e5bf1aa6902e98",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:04:19+00:00"
+          },
+          {
+            "message": "Bump postcss-selector-parser from 7.1.1 to 7.1.5 in /app in the npm_and_yarn group across 1 directory (#2032)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/33acc06abdb2981828c0877caf034ef2b0329341",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:03:31+00:00"
+          },
+          {
+            "message": "Bump postcss-cli from 11.0.1 to 12.0.0 in /app (#2036)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9ce8b0181435c6226a908c6726bac21877d3a6bc",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:02:28+00:00"
+          },
+          {
+            "message": "Bump lookbook from 2.3.14 to 2.3.15 in /app (#2038)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/43f9afc3133acccb452350a048d84bc2109b170d",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:01:37+00:00"
+          },
+          {
+            "message": "Bump webpack from 5.110.1 to 5.110.3 in /app (#2040)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fe17df793c62003b98edcd489746c2178a9656c1",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:01:01+00:00"
+          },
+          {
+            "message": "Bump rails_semantic_logger from 5.1.0 to 5.2.0 in /app (#2041)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9e4ff28b8fa54766ee4f686e9b6b76183434c16a",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T21:00:40+00:00"
+          },
+          {
+            "message": "Bump bootsnap from 1.25.0 to 1.26.0 in /app (#2044)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ea81472077f58fc58a0d10b60d52cb3f9e5dae28",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T20:59:48+00:00"
+          },
+          {
+            "message": "Bump mixpanel-ruby from 3.3.0 to 3.4.0 in /app (#2045)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/856962fe36b836dc093bdf646a646ed67c2a637e",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-08T20:59:07+00:00"
+          },
+          {
+            "message": "FFS-4717 Stop logging full validation error messages (PII risk) in Employment Self-Attested Mixpanel events (#2034)\n\nCo-authored-by: Krista Chan <kristachan@Kristas-MacBook-Pro.local>\nCo-authored-by: Daphne Gold <daphnegold@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d981fa27e0a236f1b6755d9c6665c25b5f7f83c1",
+            "author": "krista-skylight",
+            "created_at": "2026-09-08T18:51:55+00:00"
+          },
+          {
+            "message": "FFS-4642 Hide language selector (#2029)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b97100c989d00dbd546ff27ee152ab8b0fcc49a2",
+            "author": "Chris",
+            "created_at": "2026-09-04T19:10:42+00:00"
+          }
+        ],
+        "releases": [
+          {
+            "name": "v0.5.0",
+            "body": "### Emmy Income only user facing changes\r\n- No changes, nothing to review!\r\n\r\n### Emmy CE only user facing changes\r\n- CE PDF Implementation [(#2035)](https://github.com/DSACMS/iv-cbv-payroll/pull/2035) - Daphne Gold [[FFS-4718]](https://jiraent.cms.gov/browse/FFS-4718)\r\n- Remove help link [(#2043)](https://github.com/DSACMS/iv-cbv-payroll/pull/2043) - Chris [[FFS-4642]](https://jiraent.cms.gov/browse/FFS-4642)\r\n- Hide language selector [(#2029)](https://github.com/DSACMS/iv-cbv-payroll/pull/2029) - Chris [[FFS-4642]](https://jiraent.cms.gov/browse/FFS-4642)\r\n\r\n### Other/Maintenance (Not user facing)\r\n- Bump rubocop, google.golang.org/grpc, vitest, sass, tornado, google.golang.org/grpc, postcss-selector-parser, postcss-cli, lookbook, webpack, rails_semantic_logger, bootsnap, mixpanel-ruby\r\n- Stop logging full validation error messages (PII risk) in Employment Self-Attested Mixpanel events [(#2034)](https://github.com/DSACMS/iv-cbv-payroll/pull/2034) - krista-skylight [[FFS-4717]](https://jiraent.cms.gov/browse/FFS-4717)\r\n- Remove chromedriver dependency [(#2030)](https://github.com/DSACMS/iv-cbv-payroll/pull/2030) - Chris [[FFS-4289]](https://jiraent.cms.gov/browse/FFS-4289)\r\n- Security audit: remove api token to streamline what the behavior actually would be [(#2016)](https://github.com/DSACMS/iv-cbv-payroll/pull/2016) - iannorriswork\r\n- No consent pdf showing [(#2013)](https://github.com/DSACMS/iv-cbv-payroll/pull/2013) - Chris [[FFS-4596]](https://jiraent.cms.gov/browse/FFS-4596)\r\n- No matching employments error should not crash pdf [(#2015)](https://github.com/DSACMS/iv-cbv-payroll/pull/2015) - Chris [[FFS-4525]](https://jiraent.cms.gov/browse/FFS-4525)\r\n\r\n",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/v0.5.0",
+            "published_at": "2026-09-10T19:46:02+00:00",
+            "created_at": "2026-09-10T19:44:53+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "tdooner",
+            "tag_name": "v0.5.0"
+          }
+        ],
+        "topics": [
+          "cms",
+          "community-engagement",
+          "medicaid",
+          "medicaid-expansion",
+          "eligibility-determination",
+          "hr-1",
+          "income-verification",
+          "work-requirement",
+          "education",
+          "open-source",
+          "center-for-medicaid-and-children-services",
+          "education-program",
+          "work-program"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "interagency-research-ops",
+        "url": "https://github.com/DSACMS/interagency-research-ops",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pycon-poster-2024",
+        "url": "https://github.com/DSACMS/pycon-poster-2024",
+        "description": "Poster for PyCon 2024 Session about Establishing Repository Baselines",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-verify",
+        "url": "https://github.com/DSACMS/iv-verify",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-delivery",
+        "url": "https://github.com/DSACMS/iv-delivery",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "codejson-generator",
+        "url": "https://github.com/DSACMS/codejson-generator",
+        "description": "Form to generate code.json",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/142",
+            "created_at": "2026-09-05T05:53:10+00:00",
+            "updated_at": "2026-09-05T05:53:10+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Adding Local AI Generation",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/141",
+            "created_at": "2026-09-02T20:09:39+00:00",
+            "updated_at": "2026-09-09T20:18:12+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "sachin-panayil",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "dsacms-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "testing-repository",
+        "url": "https://github.com/DSACMS/testing-repository",
+        "description": "Test repository for Repolinter Actions",
+        "archived": false,
+        "issues": [
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/102",
+            "created_at": "2026-09-10T23:21:16+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/101",
+            "created_at": "2026-09-10T21:26:04+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/100",
+            "created_at": "2026-09-10T20:05:34+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/99",
+            "created_at": "2026-09-10T16:43:07+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/98",
+            "created_at": "2026-09-04T19:36:13+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/97",
+            "created_at": "2026-09-04T17:33:39+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "pulls": [],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "healthcare"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "super-changelog",
+        "url": "https://github.com/DSACMS/super-changelog",
+        "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Weekly Changelog Summary: 2026-05-28 to 2026-06-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/161",
+            "created_at": "2026-09-04T04:16:24+00:00",
+            "updated_at": "2026-09-04T04:16:25+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-28 to 2026-09-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/160",
+            "created_at": "2026-09-04T04:16:16+00:00",
+            "updated_at": "2026-09-04T04:16:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "cmsgov",
+          "cmsoss-tier3",
+          "commops",
+          "ospo",
+          "superchangelog",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "durc_is_crud",
+        "url": "https://github.com/DSACMS/durc_is_crud",
+        "description": "Python version of DURC",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pra-guides",
+        "url": "https://github.com/DSACMS/pra-guides",
+        "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "caseworkerportal",
+        "url": "https://github.com/DSACMS/caseworkerportal",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      }
+    ],
+    "period": {
+      "start": "2026-09-04",
+      "end": "2026-09-11"
+    },
+    "generated_at": "2026-09-11T03:18:03.125282+00:00",
+    "total_repo_count": 99
+  }
+}

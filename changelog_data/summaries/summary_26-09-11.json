@@ -1,0 +1,183 @@
+{
+  "period": {
+    "start": "2026-09-04",
+    "end": "2026-09-11"
+  },
+  "generated_at": "2026-09-11T03:18:03.125282+00:00",
+  "total_repos": 99,
+  "active_repos": 5,
+  "total_issues": 8,
+  "total_pulls": 36,
+  "total_commits": 21,
+  "total_changelog_entries": 0,
+  "repos_with_activity": [
+    {
+      "name": "open",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/open",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "drive2gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/drive2gource",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repo-scaffolder",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 2,
+      "pulls": 30,
+      "commits": 21,
+      "changelog_entries": 0,
+      "highlights": [
+        "21 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "interagency-research-ops",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/interagency-research-ops",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pycon-poster-2024",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pycon-poster-2024",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-verify",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-delivery",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "testing-repository",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "issues": 6,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "6 new issue(s)"
+      ]
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "durc_is_crud",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "caseworkerportal",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    }
+  ],
+  "key_changes": []
+}
