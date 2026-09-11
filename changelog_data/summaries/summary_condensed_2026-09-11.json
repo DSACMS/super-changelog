@@ -1,0 +1,100 @@
+{
+  "period": {
+    "start": "2026-09-04",
+    "end": "2026-09-11"
+  },
+  "generated_at": "2026-09-11T03:18:03.125282+00:00",
+  "total_repos": 99,
+  "active_repos": 5,
+  "total_commits": 21,
+  "total_pulls": 36,
+  "total_issues": 8,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "docs(templates): add PRA, Plain Language and Section 508 guidance to the README templates",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/401",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4802 & FFS-4803: Update content on \"Choose how you want to add your work\" page on Emmy CE Employment flow, Update helper text on employment information page for paid work in Emmy CE manual reporting flow",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2052",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4794: Add environment selection to deploy script",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2049",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [],
+    "changed": [],
+    "deprecated": [],
+    "removed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Remove bencalegari from reviewer lottery",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2056",
+        "type": "pr",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      }
+    ],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": []
+  },
+  "change_counts": {
+    "added": 3,
+    "removed": 1
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 21,
+      "pulls": 30,
+      "issues": 2
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 6
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    }
+  ]
+}

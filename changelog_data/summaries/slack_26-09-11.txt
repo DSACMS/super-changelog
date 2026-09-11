@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-09-04 to 2026-09-11)
+
+• 5 of 99 repos with activity
+• 21 commits | 36 PRs | 8 issues
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 21 commits, 30 PRs
+• *repo-scaffolder*: 0 commits, 2 PRs
+• *codejson-generator*: 0 commits, 2 PRs
+• *super-changelog*: 0 commits, 2 PRs
+• *open*: 0 commits, 0 PRs
