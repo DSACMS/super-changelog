@@ -1,0 +1,205 @@
+{
+  "period": {
+    "start": "2026-08-21",
+    "end": "2026-08-28"
+  },
+  "generated_at": "2026-08-28T09:53:24.022306+00:00",
+  "total_repos": 99,
+  "active_repos": 8,
+  "total_commits": 34,
+  "total_pulls": 151,
+  "total_issues": 3,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Auto-discover and verify new gov dependencie",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/136",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "[Snyk] Fix for 8 vulnerabilities",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/379",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-3788: Investigate and fix undefined method 'identity' for an instance of CbvFlow",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2009",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-05-01 to 2026-05-08",
+        "url": "https://github.com/DSACMS/super-changelog/pull/156",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-08-14 to 2026-08-21",
+        "url": "https://github.com/DSACMS/super-changelog/pull/155",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-07-24 to 2026-07-31",
+        "url": "https://github.com/DSACMS/super-changelog/pull/154",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Release: Merging Dev to Main",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/404",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "repo-scaffolder",
+        "text": "Workflows: Specify permissions for various workflows",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/403",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Outbound: Align guides with repo-scaffolder landing page",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/137",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "[DRAFT] AI at CMS",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/136",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Growing: Editing name of Coding it Forward fellowship",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/129",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump solid_queue from 1.6.0 to 1.7.0 in /app",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2007",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump rack-mini-profiler from 4.0.1 to 5.0.0 in /app",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2006",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Grouping Dependabot PRs by Group ",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/151",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "codejson-core Refactor",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/138",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 1,
+    "fixed": 2,
+    "changed": 3,
+    "other": 9
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 99,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 5,
+      "pulls": 13,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 14,
+      "pulls": 17,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 16,
+      "issues": 1
+    },
+    {
+      "name": "ospo",
+      "url": "https://github.com/DSACMS/ospo",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 2
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 5,
+      "pulls": 5,
+      "issues": 0
+    }
+  ]
+}
