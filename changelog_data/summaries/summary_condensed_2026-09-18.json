@@ -1,0 +1,176 @@
+{
+  "period": {
+    "start": "2026-09-11",
+    "end": "2026-09-18"
+  },
+  "generated_at": "2026-09-18T03:28:19.136390+00:00",
+  "total_repos": 100,
+  "active_repos": 7,
+  "total_commits": 35,
+  "total_pulls": 175,
+  "total_issues": 3,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Templates & Outbound Checklists: Add PRA, 508, and Plain Language Policy Guidance",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/406",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Outbound: Add new section on AI Action Plan to AI at CMS guide",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/143",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "ospo-guide",
+        "text": "Outbound: Add CMS AI CCI snippet to AI Guide",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/142",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4804: Add month selection page to Emmy CE Employment flow",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2071",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-generator",
+        "text": "Adding Local AI Generation",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/141",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "fix: app/analytics/requirements.txt to reduce vulnerabilities",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2072",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "codejson-generator",
+        "text": "AI Fix for Production",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/145",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "Outbound Checklists: Update with AI Policy Guidance and Recommended Practices",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/408",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-09-04 to 2026-09-11",
+        "url": "https://github.com/DSACMS/super-changelog/pull/163",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-03-27 to 2026-04-03",
+        "url": "https://github.com/DSACMS/super-changelog/pull/162",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-05-28 to 2026-06-04",
+        "url": "https://github.com/DSACMS/super-changelog/pull/161",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "No ticket: v0.6.0 version bump",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2074",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 5,
+    "fixed": 2,
+    "changed": 4,
+    "other": 1
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 17,
+      "pulls": 27,
+      "issues": 1
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "testing-repository",
+      "url": "https://github.com/DSACMS/testing-repository",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 2
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 136,
+      "issues": 0
+    }
+  ]
+}
