@@ -1,0 +1,192 @@
+{
+  "period": {
+    "start": "2026-09-18",
+    "end": "2026-09-25"
+  },
+  "generated_at": "2026-09-25T03:43:26.149869+00:00",
+  "total_repos": 100,
+  "active_repos": 9,
+  "total_commits": 45,
+  "total_pulls": 70,
+  "total_issues": 4,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "metrics",
+        "text": "Add missing auto-changelog file",
+        "url": "https://github.com/DSACMS/metrics/pull/441",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "No ticket: add asset to allow PDF to render",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2100",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "repodive-tools",
+        "text": "Add auto-changelog to tools",
+        "url": "https://github.com/DSACMS/repodive-tools/pull/26",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "share-it-act-lp",
+        "text": "Add auto-changelog to share-it",
+        "url": "https://github.com/DSACMS/share-it-act-lp/pull/57",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "ospo-guide",
+        "text": "Fix checkbox indentation",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/145",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "metrics-dash-backend-tools",
+        "text": "Fix auto-changelog",
+        "url": "https://github.com/DSACMS/metrics-dash-backend-tools/pull/10",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "ospo-guide",
+        "text": "Improve formatting of post-activity usability survey",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/144",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "No ticket: update AI attestation template",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2103",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "repodive-tools",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/repodive-tools/pull/25",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "share-it-act-lp",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/share-it-act-lp/pull/56",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "share-it-act-lp",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/share-it-act-lp/pull/55",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4846: File type and max size settings for LA",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2098",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 4,
+    "fixed": 2,
+    "changed": 5,
+    "other": 1
+  },
+  "active_repos_list": [
+    {
+      "name": "metrics",
+      "url": "https://github.com/DSACMS/metrics",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 5,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 26,
+      "pulls": 35,
+      "issues": 1
+    },
+    {
+      "name": "repodive-tools",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 10,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "metrics-dash-backend-tools",
+      "url": "https://github.com/DSACMS/metrics-dash-backend-tools",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 14,
+      "issues": 2
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 4,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    }
+  ]
+}
