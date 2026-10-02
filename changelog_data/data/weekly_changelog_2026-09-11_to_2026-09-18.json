@@ -1,0 +1,2446 @@
+{
+  "DSACMS": {
+    "repos": [
+      {
+        "name": "open",
+        "url": "https://github.com/DSACMS/open",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "drive2gource",
+        "url": "https://github.com/DSACMS/drive2gource",
+        "description": "Moved to CMSgov Org: https://github.com/CMSgov/drive2gource",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-doc-uploader",
+        "url": "https://github.com/DSACMS/iv-doc-uploader",
+        "description": "A home for the suite of income verification related projects the DSAC and Facing Finical Shock teams are collaborating on",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "income-reporting-playbook",
+        "url": "https://github.com/DSACMS/income-reporting-playbook",
+        "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "repo-scaffolder",
+        "url": "https://github.com/DSACMS/repo-scaffolder",
+        "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Outbound Checklists: Update with AI Policy Guidance and Recommended Practices",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/408",
+            "created_at": "2026-09-14T19:35:05+00:00",
+            "updated_at": "2026-09-15T22:28:03+00:00",
+            "merged_at": "2026-09-15T22:28:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Global Workflows: Add new workflow file to handle global bulk update of repository files",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/407",
+            "created_at": "2026-09-11T20:36:28+00:00",
+            "updated_at": "2026-09-14T19:21:41+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Templates & Outbound Checklists: Add PRA, 508, and Plain Language Policy Guidance",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/406",
+            "created_at": "2026-09-08T19:05:53+00:00",
+            "updated_at": "2026-09-14T16:20:42+00:00",
+            "merged_at": "2026-09-14T16:20:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #408 from DSACMS/DSACMS/nat/outbound-checklist-ai-rp\n\nOutbound Checklists: Update with AI Policy Guidance and Recommended Practices",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/14e2a01482084da7bc1a5aac825e2f1ea23e8529",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-15T22:28:02+00:00"
+          },
+          {
+            "message": "Add comment to include ai-assisted label to PR if ai used\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/5196c7c0c9807a4f82d7bb3edfdf8df01c49ee4a",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-14T19:23:08+00:00"
+          },
+          {
+            "message": "Updated the checklist with AI policy updates\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/f93435bbe1364b6f6d5ccb06b25bc720c215614a",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-14T18:54:55+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "cookiecutter-template",
+          "maturity-models",
+          "repolinter",
+          "repo-hygiene",
+          "cmsoss-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "ospo-guide",
+        "url": "https://github.com/DSACMS/ospo-guide",
+        "description": "Open Source Program Office Guide for CMS.gov",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Outbound: Add new section on AI Action Plan to AI at CMS guide",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/143",
+            "created_at": "2026-09-16T18:48:37+00:00",
+            "updated_at": "2026-09-16T21:56:55+00:00",
+            "merged_at": "2026-09-16T21:56:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Outbound: Add CMS AI CCI snippet to AI Guide",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/142",
+            "created_at": "2026-09-15T15:47:13+00:00",
+            "updated_at": "2026-09-15T15:47:27+00:00",
+            "merged_at": "2026-09-15T15:47:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Expand plain language documentation with best practices",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/127",
+            "created_at": "2026-06-08T18:47:31+00:00",
+            "updated_at": "2026-09-14T21:34:34+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "huda-code",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #143 from DSACMS/DSACMS/nat/ai-updates\n\nOutbound: Add new section on AI Action Plan to AI at CMS guide",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/35a72315e28664b7f90460377cc2e6b959c9cb13",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-16T21:56:54+00:00"
+          },
+          {
+            "message": "Add new section on AI Action Plan\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/987ee3bbdcae40e2fce7239fc570396c240b3ceb",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-16T18:46:41+00:00"
+          },
+          {
+            "message": "Merge pull request #142 from DSACMS/DSACMS/nat/ai-updates\n\nOutbound: Add CMS AI CCI snippet to AI Guide",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/42e6b3a087274e2a6d074238d3c6e30f0c3bc218",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-15T15:47:26+00:00"
+          },
+          {
+            "message": "Add CMS AI CCI snippet to AI Guide\n\nSigned-off-by: Natalia Luzuriaga <natalia.luzuriaga1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/2bcb829941d7c593f01e94e57172e5cfea8b1634",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-09-15T15:45:16+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "guide",
+          "ospo",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "iv-cbv-payroll",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll",
+        "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+        "archived": false,
+        "issues": [
+          {
+            "title": "ZAP Full Scan Report",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/issues/1648",
+            "created_at": "2026-04-27T17:38:57+00:00",
+            "state": "open",
+            "author": "github-actions[bot]",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "FFS-4822: Update monthly details pages for paid work in Emmy CE manual reporting flow",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2077",
+            "created_at": "2026-09-17T20:54:13+00:00",
+            "updated_at": "2026-09-17T23:03:36+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4792 Implement Education \"Other\" page (and its radio button)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2076",
+            "created_at": "2026-09-17T17:46:47+00:00",
+            "updated_at": "2026-09-17T19:23:16+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "Add monitoring and alerting for CMS Data Services Hub connectivity failures (e.g. NSC API errors, cert expiry).",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2075",
+            "created_at": "2026-09-17T03:55:09+00:00",
+            "updated_at": "2026-09-17T03:55:41+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "No ticket: v0.6.0 version bump",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2074",
+            "created_at": "2026-09-16T22:32:45+00:00",
+            "updated_at": "2026-09-17T16:15:45+00:00",
+            "merged_at": "2026-09-17T16:15:43+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "Two-way API doc updates",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2073",
+            "created_at": "2026-09-16T17:15:10+00:00",
+            "updated_at": "2026-09-16T18:15:50+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "serverless-mom",
+            "is_new": true
+          },
+          {
+            "title": "fix: app/analytics/requirements.txt to reduce vulnerabilities",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2072",
+            "created_at": "2026-09-15T22:44:35+00:00",
+            "updated_at": "2026-09-16T15:23:44+00:00",
+            "merged_at": "2026-09-16T15:23:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4804: Add month selection page to Emmy CE Employment flow",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2071",
+            "created_at": "2026-09-15T21:52:01+00:00",
+            "updated_at": "2026-09-16T18:34:01+00:00",
+            "merged_at": "2026-09-16T18:27:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4798 Remove prefilled activities",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2070",
+            "created_at": "2026-09-15T16:48:11+00:00",
+            "updated_at": "2026-09-17T09:40:22+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "Bump css_parser from 3.0.0 to 3.1.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2069",
+            "created_at": "2026-09-15T15:55:25+00:00",
+            "updated_at": "2026-09-15T19:32:42+00:00",
+            "merged_at": "2026-09-15T19:32:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump mission_control-jobs from 1.2.0 to 1.3.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2068",
+            "created_at": "2026-09-15T15:54:57+00:00",
+            "updated_at": "2026-09-15T21:08:15+00:00",
+            "merged_at": "2026-09-15T21:08:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump selenium-webdriver from 4.48.0 to 4.49.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2067",
+            "created_at": "2026-09-15T15:54:33+00:00",
+            "updated_at": "2026-09-15T21:35:49+00:00",
+            "merged_at": "2026-09-15T21:35:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump net-imap from 0.6.6 to 0.6.7 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2066",
+            "created_at": "2026-09-15T15:54:05+00:00",
+            "updated_at": "2026-09-15T21:36:54+00:00",
+            "merged_at": "2026-09-15T21:36:52+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump sass from 1.104.0 to 1.104.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2065",
+            "created_at": "2026-09-15T15:54:00+00:00",
+            "updated_at": "2026-09-15T21:49:47+00:00",
+            "merged_at": "2026-09-15T21:49:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump postcss from 8.5.26 to 8.5.28 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2064",
+            "created_at": "2026-09-15T15:53:53+00:00",
+            "updated_at": "2026-09-15T22:00:11+00:00",
+            "merged_at": "2026-09-15T22:00:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump autoprefixer from 10.5.4 to 10.6.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2063",
+            "created_at": "2026-09-15T15:53:48+00:00",
+            "updated_at": "2026-09-15T22:01:42+00:00",
+            "merged_at": "2026-09-15T22:01:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump happy-dom from 20.11.15 to 20.14.5 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2062",
+            "created_at": "2026-09-15T15:53:43+00:00",
+            "updated_at": "2026-09-15T22:02:26+00:00",
+            "merged_at": "2026-09-15T22:02:23+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump aws-sdk-s3 from 1.229.0 to 1.232.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2061",
+            "created_at": "2026-09-15T15:53:37+00:00",
+            "updated_at": "2026-09-15T22:05:18+00:00",
+            "merged_at": "2026-09-15T22:05:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vite from 8.2.2 to 8.3.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2060",
+            "created_at": "2026-09-15T15:53:34+00:00",
+            "updated_at": "2026-09-15T22:03:54+00:00",
+            "merged_at": "2026-09-15T22:03:52+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2059",
+            "created_at": "2026-09-12T12:39:06+00:00",
+            "updated_at": "2026-09-15T22:17:46+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4711: Create Aggregators::Sdk::NscFdshService for FDSH NSC test connection",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2058",
+            "created_at": "2026-09-11T21:50:10+00:00",
+            "updated_at": "2026-09-17T15:55:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4791 Implement Education type selection screen",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2057",
+            "created_at": "2026-09-11T20:59:29+00:00",
+            "updated_at": "2026-09-16T16:23:43+00:00",
+            "merged_at": "2026-09-16T16:23:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4818 Make alerts accessible",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2055",
+            "created_at": "2026-09-10T18:12:11+00:00",
+            "updated_at": "2026-09-17T15:38:12+00:00",
+            "merged_at": "2026-09-17T15:38:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4791 Implement Education type selection screen",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2053",
+            "created_at": "2026-09-10T00:30:10+00:00",
+            "updated_at": "2026-09-11T20:34:58+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4819 Alternate text for images",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2050",
+            "created_at": "2026-09-09T16:27:29+00:00",
+            "updated_at": "2026-09-17T15:53:26+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4713 Add an environment variable to disable NSC in a given environment, forcing the Education flow to self-attestation only.",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2047",
+            "created_at": "2026-09-08T22:41:00+00:00",
+            "updated_at": "2026-09-16T18:27:25+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4796 Create v2 invitations api",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2033",
+            "created_at": "2026-09-03T15:20:32+00:00",
+            "updated_at": "2026-09-15T17:10:35+00:00",
+            "merged_at": "2026-09-15T17:10:32+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4768: Create ActivityJsonTransmitter (with the 2 self-attested activity types)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2031",
+            "created_at": "2026-09-02T23:11:06+00:00",
+            "updated_at": "2026-09-16T16:18:38+00:00",
+            "merged_at": "2026-09-16T16:18:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "bencalegari",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "No ticket: v0.6.0 version bump (#2074)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/22bc691d7fe77b67b462e6ebdb40073befe2712d",
+            "author": "Tim Miller",
+            "created_at": "2026-09-17T16:15:43+00:00"
+          },
+          {
+            "message": "FFS-4818 Make alerts accessible (#2055)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cfc843126b1a516ee34527bb0e368678d9a47d96",
+            "author": "Chris",
+            "created_at": "2026-09-17T15:38:08+00:00"
+          },
+          {
+            "message": "FFS-4804: Add month selection page to Emmy CE Employment flow (#2071)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9c131d7fdd551a4b540b1b7af6106029c9f2dde0",
+            "author": "Daphne Gold",
+            "created_at": "2026-09-16T18:27:01+00:00"
+          },
+          {
+            "message": "FFS-4791 Implement Education type selection screen (#2057)\n\nCo-authored-by: Krista Chan <kristachan@Kristas-MacBook-Pro.local>\nCo-authored-by: Junie <junie@jetbrains.com>\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4a6e05d8ecbaa33c3e4e9f0b5be0bb63ba5b4c65",
+            "author": "krista-skylight",
+            "created_at": "2026-09-16T16:23:40+00:00"
+          },
+          {
+            "message": "FFS-4768: Create ActivityJsonTransmitter (with the 2 self-attested activity types) (#2031)\n\nCo-authored-by: Tom Dooner <tomdooner@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/67a368754cbf2397acbe0303b1043d47f8070d62",
+            "author": "Ben Calegari",
+            "created_at": "2026-09-16T16:18:35+00:00"
+          },
+          {
+            "message": "fix: app/analytics/requirements.txt to reduce vulnerabilities (#2072)\n\nCo-authored-by: snyk-bot <snyk-bot@snyk.io>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d21111f468ce535f2555d402f0f1b00962e050ac",
+            "author": "Tim Miller",
+            "created_at": "2026-09-16T15:23:40+00:00"
+          },
+          {
+            "message": "Bump aws-sdk-s3 from 1.229.0 to 1.232.0 in /app (#2061)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cb4a7cd5914d319fd08d528b6989e2e0083e0e2f",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T22:05:15+00:00"
+          },
+          {
+            "message": "Bump vite from 8.2.2 to 8.3.0 in /app (#2060)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a5067e671600dc2c609baa37bd7a9e0619dd4566",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T22:03:51+00:00"
+          },
+          {
+            "message": "Bump happy-dom from 20.11.15 to 20.14.5 in /app (#2062)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/88b09b51f7801e9ad4ecb57a5fc2aa0d4e5c0715",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T22:02:22+00:00"
+          },
+          {
+            "message": "Bump autoprefixer from 10.5.4 to 10.6.0 in /app (#2063)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/e9e51c1a43c89f94dcd2d2d1be9a05428b52c40e",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T22:01:40+00:00"
+          },
+          {
+            "message": "Bump postcss from 8.5.26 to 8.5.28 in /app (#2064)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9c5d4f8915f3cc14a423f65e8d1dff9da711da93",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T22:00:08+00:00"
+          },
+          {
+            "message": "Bump sass from 1.104.0 to 1.104.1 in /app (#2065)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/089e146c198621757f4d434abd3914f62db7e2bc",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T21:49:44+00:00"
+          },
+          {
+            "message": "Bump net-imap from 0.6.6 to 0.6.7 in /app (#2066)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/ad883d3a96c78eb8de1a3b78cd8616ed5889cb19",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T21:36:52+00:00"
+          },
+          {
+            "message": "Bump selenium-webdriver from 4.48.0 to 4.49.0 in /app (#2067)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/047088a6b3112edbf9d7f818624fe76e97d6cea9",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T21:35:47+00:00"
+          },
+          {
+            "message": "Bump mission_control-jobs from 1.2.0 to 1.3.1 in /app (#2068)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/6f2e84f2cedbb39fb1559abcfd58029a4cd24daf",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T21:08:13+00:00"
+          },
+          {
+            "message": "Bump css_parser from 3.0.0 to 3.1.0 in /app (#2069)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/62d6f81a1a22009715d30b51a28a8266582b1c47",
+            "author": "dependabot[bot]",
+            "created_at": "2026-09-15T19:32:39+00:00"
+          },
+          {
+            "message": "FFS-4796 Create v2 invitations api (#2033)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4b09cfc37468f7fb650a98ea276bec47affbe0ed",
+            "author": "Chris",
+            "created_at": "2026-09-15T17:10:31+00:00"
+          }
+        ],
+        "releases": [
+          {
+            "name": "v0.6.0",
+            "body": "### Emmy Income only user facing changes\r\n- No changes!\r\n\r\n### Emmy CE only user facing changes\r\n- Add month selection page to Emmy CE Employment flow [(#2071)](https://github.com/DSACMS/iv-cbv-payroll/pull/2071) - Daphne Gold [[FFS-4804]](https://jiraent.cms.gov/browse/FFS-4804)\r\n- Implement Education type selection screen [(#2057)](https://github.com/DSACMS/iv-cbv-payroll/pull/2057) - krista-skylight [[FFS-4791]](https://jiraent.cms.gov/browse/FFS-4791)\r\n- Create ActivityJsonTransmitter (with the 2 self-attested activity types) [(#2031)](https://github.com/DSACMS/iv-cbv-payroll/pull/2031) - Ben Calegari [[FFS-4768]](https://jiraent.cms.gov/browse/FFS-4768)\r\n- FFS-4803: Update content on \"Choose how you want to add your work\" page on Emmy CE Employment flow, Update helper text on employment information page for paid work in Emmy CE manual reporting flow [(#2052)](https://github.com/DSACMS/iv-cbv-payroll/pull/2052) - Daphne Gold [[FFS-4802]](https://jiraent.cms.gov/browse/FFS-4802)\r\n\r\n### Other/Maintenance (Not user facing)\r\n- Create v2 invitations api [(#2033)](https://github.com/DSACMS/iv-cbv-payroll/pull/2033) - Chris [[FFS-4796]](https://jiraent.cms.gov/browse/FFS-4796)\r\n- Bump aws-sdk-s3, vite, happy-dom, autoprefixer, postcss, sass, net-imap, selenium-webdriver, mission_control-jobs, css_parser\r\n- fix: app/analytics/requirements.txt to reduce vulnerabilities [(#2072)](https://github.com/DSACMS/iv-cbv-payroll/pull/2072) - Tim Miller\r\n- Remove bencalegari from reviewer lottery [(#2056)](https://github.com/DSACMS/iv-cbv-payroll/pull/2056) - krista-skylight\r\n- Add environment selection to deploy script [(#2049)](https://github.com/DSACMS/iv-cbv-payroll/pull/2049) - Tom Dooner [[FFS-4794]](https://jiraent.cms.gov/browse/FFS-4794)\r\n",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/v0.6.0",
+            "published_at": "2026-09-16T21:05:06+00:00",
+            "created_at": "2026-09-16T18:27:01+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "millerti",
+            "tag_name": "v0.6.0"
+          }
+        ],
+        "topics": [
+          "cms",
+          "community-engagement",
+          "medicaid",
+          "medicaid-expansion",
+          "eligibility-determination",
+          "hr-1",
+          "income-verification",
+          "work-requirement",
+          "education",
+          "open-source",
+          "center-for-medicaid-and-children-services",
+          "education-program",
+          "work-program"
+        ],
+        "contributors": [
+          {
+            "name": "junie-agent",
+            "company": null,
+            "created_at": null,
+            "email": null
+          }
+        ],
+        "changelog_entries": []
+      },
+      {
+        "name": "interagency-research-ops",
+        "url": "https://github.com/DSACMS/interagency-research-ops",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pycon-poster-2024",
+        "url": "https://github.com/DSACMS/pycon-poster-2024",
+        "description": "Poster for PyCon 2024 Session about Establishing Repository Baselines",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-verify",
+        "url": "https://github.com/DSACMS/iv-verify",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-delivery",
+        "url": "https://github.com/DSACMS/iv-delivery",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "codejson-generator",
+        "url": "https://github.com/DSACMS/codejson-generator",
+        "description": "Form to generate code.json",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/146",
+            "created_at": "2026-09-15T15:09:59+00:00",
+            "updated_at": "2026-09-15T15:09:59+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "AI Fix for Production",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/145",
+            "created_at": "2026-09-15T15:08:26+00:00",
+            "updated_at": "2026-09-15T15:09:33+00:00",
+            "merged_at": "2026-09-15T15:09:33+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": true
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/144",
+            "created_at": "2026-09-15T14:50:13+00:00",
+            "updated_at": "2026-09-15T14:50:13+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/143",
+            "created_at": "2026-09-12T05:56:33+00:00",
+            "updated_at": "2026-09-12T05:56:33+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Adding Local AI Generation",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/141",
+            "created_at": "2026-09-02T20:09:39+00:00",
+            "updated_at": "2026-09-15T14:49:56+00:00",
+            "merged_at": "2026-09-15T14:49:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #145 from DSACMS/sachin/ai-fix\n\nAI Fix for Production",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/89fe8635c3a0ee41f3a165dda8595a936da0b5ce",
+            "author": "Sachin Panayil",
+            "created_at": "2026-09-15T15:09:32+00:00"
+          },
+          {
+            "message": "adding error logging",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/bd79921b32ff8b18c13642eb69d7c6f4db48aefa",
+            "author": "Sachin Panayil",
+            "created_at": "2026-09-15T15:07:24+00:00"
+          },
+          {
+            "message": "renaming file to read properly",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/5f166752dcee9a99799adb8b3ca27dcc2f2ce4e3",
+            "author": "Sachin Panayil",
+            "created_at": "2026-09-15T15:06:11+00:00"
+          },
+          {
+            "message": "Merge pull request #141 from DSACMS/sachin/local-ai-generation\n\nAdding Local AI Generation",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/3e2d6f22e67b41fc949b1845d901e99ad3b84b3b",
+            "author": "Sachin Panayil",
+            "created_at": "2026-09-15T14:49:48+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "dsacms-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "testing-repository",
+        "url": "https://github.com/DSACMS/testing-repository",
+        "description": "Test repository for Repolinter Actions",
+        "archived": false,
+        "issues": [
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/104",
+            "created_at": "2026-09-15T17:43:39+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Archival Candidates Report",
+            "url": "https://github.com/DSACMS/testing-repository/issues/103",
+            "created_at": "2026-09-11T17:06:19+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "pulls": [],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "healthcare"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "automated-codejson-generator",
+        "url": "https://github.com/DSACMS/automated-codejson-generator",
+        "description": "Github Action that allows for automated code.json creation and maintenance ",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Adding Local AI Generation",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/156",
+            "created_at": "2026-09-17T18:51:50+00:00",
+            "updated_at": "2026-09-17T18:52:28+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "sachin-panayil",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "cmsoss-tier2",
+          "codejson",
+          "metadata",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "super-changelog",
+        "url": "https://github.com/DSACMS/super-changelog",
+        "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-09-04 to 2026-09-11",
+            "url": "https://github.com/DSACMS/super-changelog/pull/163",
+            "created_at": "2026-09-11T04:24:28+00:00",
+            "updated_at": "2026-09-17T19:08:03+00:00",
+            "merged_at": "2026-09-17T19:00:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-03-27 to 2026-04-03",
+            "url": "https://github.com/DSACMS/super-changelog/pull/162",
+            "created_at": "2026-09-11T04:24:25+00:00",
+            "updated_at": "2026-09-17T19:07:58+00:00",
+            "merged_at": "2026-09-17T19:00:16+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-05-28 to 2026-06-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/161",
+            "created_at": "2026-09-04T04:16:24+00:00",
+            "updated_at": "2026-09-17T19:07:56+00:00",
+            "merged_at": "2026-09-17T18:59:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-28 to 2026-09-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/160",
+            "created_at": "2026-09-04T04:16:16+00:00",
+            "updated_at": "2026-09-17T19:07:56+00:00",
+            "merged_at": "2026-09-17T18:58:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/159",
+            "created_at": "2026-09-01T02:49:06+00:00",
+            "updated_at": "2026-09-17T19:07:55+00:00",
+            "merged_at": "2026-09-17T18:56:50+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-21 to 2026-08-28",
+            "url": "https://github.com/DSACMS/super-changelog/pull/158",
+            "created_at": "2026-08-28T10:59:40+00:00",
+            "updated_at": "2026-09-17T19:07:52+00:00",
+            "merged_at": "2026-09-17T18:54:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-03-20 to 2026-03-27",
+            "url": "https://github.com/DSACMS/super-changelog/pull/157",
+            "created_at": "2026-08-28T10:59:22+00:00",
+            "updated_at": "2026-09-17T19:07:51+00:00",
+            "merged_at": "2026-09-17T18:53:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-05-01 to 2026-05-08",
+            "url": "https://github.com/DSACMS/super-changelog/pull/156",
+            "created_at": "2026-08-21T02:22:45+00:00",
+            "updated_at": "2026-09-17T19:07:48+00:00",
+            "merged_at": "2026-08-25T14:16:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-14 to 2026-08-21",
+            "url": "https://github.com/DSACMS/super-changelog/pull/155",
+            "created_at": "2026-08-21T02:22:40+00:00",
+            "updated_at": "2026-09-17T19:07:46+00:00",
+            "merged_at": "2026-08-25T14:16:20+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-07-24 to 2026-07-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/154",
+            "created_at": "2026-08-20T16:05:22+00:00",
+            "updated_at": "2026-09-17T19:07:44+00:00",
+            "merged_at": "2026-08-25T14:14:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-13 to 2026-08-20",
+            "url": "https://github.com/DSACMS/super-changelog/pull/153",
+            "created_at": "2026-08-20T16:05:22+00:00",
+            "updated_at": "2026-09-17T19:07:45+00:00",
+            "merged_at": "2026-08-25T14:15:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/152",
+            "created_at": "2026-08-20T14:52:30+00:00",
+            "updated_at": "2026-09-17T19:07:40+00:00",
+            "merged_at": "2026-08-25T14:14:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/150",
+            "created_at": "2026-08-20T13:14:13+00:00",
+            "updated_at": "2026-09-17T19:07:39+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/149",
+            "created_at": "2026-08-20T13:12:44+00:00",
+            "updated_at": "2026-09-17T19:07:36+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/148",
+            "created_at": "2026-08-20T13:10:35+00:00",
+            "updated_at": "2026-09-17T19:07:34+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/147",
+            "created_at": "2026-08-20T13:10:13+00:00",
+            "updated_at": "2026-09-17T19:07:33+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/146",
+            "created_at": "2026-08-20T13:09:44+00:00",
+            "updated_at": "2026-09-17T19:07:32+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/145",
+            "created_at": "2026-08-20T13:09:14+00:00",
+            "updated_at": "2026-09-17T19:07:31+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/144",
+            "created_at": "2026-08-20T13:08:47+00:00",
+            "updated_at": "2026-09-17T19:09:06+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/143",
+            "created_at": "2026-08-20T13:08:17+00:00",
+            "updated_at": "2026-09-17T19:09:04+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/142",
+            "created_at": "2026-08-20T13:07:53+00:00",
+            "updated_at": "2026-09-17T19:09:03+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/141",
+            "created_at": "2026-08-20T13:06:45+00:00",
+            "updated_at": "2026-09-17T19:09:02+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/140",
+            "created_at": "2026-08-20T13:06:12+00:00",
+            "updated_at": "2026-09-17T19:07:38+00:00",
+            "merged_at": "2026-08-20T13:13:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/139",
+            "created_at": "2026-08-20T13:05:28+00:00",
+            "updated_at": "2026-09-17T19:07:35+00:00",
+            "merged_at": "2026-08-20T13:12:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/138",
+            "created_at": "2026-08-20T13:04:30+00:00",
+            "updated_at": "2026-09-17T19:08:58+00:00",
+            "merged_at": "2026-08-20T13:10:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-03 to 2025-10-10",
+            "url": "https://github.com/DSACMS/super-changelog/pull/137",
+            "created_at": "2026-08-14T02:14:05+00:00",
+            "updated_at": "2026-09-17T19:08:57+00:00",
+            "merged_at": "2026-08-20T13:09:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-08-07 to 2026-08-14",
+            "url": "https://github.com/DSACMS/super-changelog/pull/136",
+            "created_at": "2026-08-14T02:14:02+00:00",
+            "updated_at": "2026-09-17T19:08:56+00:00",
+            "merged_at": "2026-08-20T13:09:31+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/135",
+            "created_at": "2026-08-07T17:12:07+00:00",
+            "updated_at": "2026-09-17T19:08:55+00:00",
+            "merged_at": "2026-08-20T13:09:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-07-31 to 2026-08-07",
+            "url": "https://github.com/DSACMS/super-changelog/pull/134",
+            "created_at": "2026-08-07T03:39:55+00:00",
+            "updated_at": "2026-09-17T19:08:54+00:00",
+            "merged_at": "2026-08-20T13:08:32+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-07 to 2025-09-14",
+            "url": "https://github.com/DSACMS/super-changelog/pull/133",
+            "created_at": "2026-08-07T03:39:55+00:00",
+            "updated_at": "2026-09-17T19:08:50+00:00",
+            "merged_at": "2026-08-20T13:08:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/132",
+            "created_at": "2026-08-01T02:03:06+00:00",
+            "updated_at": "2026-09-17T19:08:49+00:00",
+            "merged_at": "2026-08-20T13:07:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-07-24 to 2026-07-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/129",
+            "created_at": "2026-07-31T15:58:17+00:00",
+            "updated_at": "2026-09-17T19:08:48+00:00",
+            "merged_at": "2026-08-20T13:06:31+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/128",
+            "created_at": "2026-07-31T14:51:11+00:00",
+            "updated_at": "2026-09-17T19:08:47+00:00",
+            "merged_at": "2026-08-20T13:06:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs: update contributors information",
+            "url": "https://github.com/DSACMS/super-changelog/pull/127",
+            "created_at": "2026-07-31T14:50:06+00:00",
+            "updated_at": "2026-09-17T19:08:46+00:00",
+            "merged_at": "2026-08-20T13:05:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-07-17 to 2026-07-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/125",
+            "created_at": "2026-07-24T03:38:38+00:00",
+            "updated_at": "2026-09-17T19:08:45+00:00",
+            "merged_at": "2026-08-20T13:04:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-05-28 to 2026-06-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/124",
+            "created_at": "2026-07-24T03:38:33+00:00",
+            "updated_at": "2026-09-17T19:08:44+00:00",
+            "merged_at": "2026-07-31T14:50:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-06-18 to 2025-06-25",
+            "url": "https://github.com/DSACMS/super-changelog/pull/119",
+            "created_at": "2026-07-10T04:18:55+00:00",
+            "updated_at": "2026-09-17T19:08:43+00:00",
+            "merged_at": "2026-07-17T14:52:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Create multi org call",
+            "url": "https://github.com/DSACMS/super-changelog/pull/117",
+            "created_at": "2026-07-06T13:12:35+00:00",
+            "updated_at": "2026-09-17T19:08:42+00:00",
+            "merged_at": "2026-07-06T20:53:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-06-26 to 2026-07-03",
+            "url": "https://github.com/DSACMS/super-changelog/pull/114",
+            "created_at": "2026-07-03T03:49:19+00:00",
+            "updated_at": "2026-09-17T19:08:42+00:00",
+            "merged_at": "2026-07-05T00:13:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-24 to 2025-10-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/113",
+            "created_at": "2026-07-03T03:49:13+00:00",
+            "updated_at": "2026-09-17T19:09:18+00:00",
+            "merged_at": "2026-07-05T00:13:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/112",
+            "created_at": "2026-07-01T02:42:45+00:00",
+            "updated_at": "2026-09-17T19:09:20+00:00",
+            "merged_at": "2026-07-01T23:03:50+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-05-01 to 2026-05-08",
+            "url": "https://github.com/DSACMS/super-changelog/pull/110",
+            "created_at": "2026-06-26T04:17:58+00:00",
+            "updated_at": "2026-09-17T19:09:21+00:00",
+            "merged_at": "2026-07-01T23:01:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-06-19 to 2026-06-26",
+            "url": "https://github.com/DSACMS/super-changelog/pull/109",
+            "created_at": "2026-06-26T04:17:53+00:00",
+            "updated_at": "2026-09-17T19:09:23+00:00",
+            "merged_at": "2026-07-01T23:00:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-06-12 to 2026-06-19",
+            "url": "https://github.com/DSACMS/super-changelog/pull/108",
+            "created_at": "2026-06-19T04:52:34+00:00",
+            "updated_at": "2026-09-17T19:09:24+00:00",
+            "merged_at": "2026-07-01T23:00:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-02-27 to 2026-03-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/107",
+            "created_at": "2026-06-19T04:52:33+00:00",
+            "updated_at": "2026-09-17T19:09:31+00:00",
+            "merged_at": "2026-07-01T22:59:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-16 to 2026-01-23",
+            "url": "https://github.com/DSACMS/super-changelog/pull/106",
+            "created_at": "2026-06-12T04:35:23+00:00",
+            "updated_at": "2026-09-17T19:06:12+00:00",
+            "merged_at": "2026-07-01T22:58:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-06-05 to 2026-06-12",
+            "url": "https://github.com/DSACMS/super-changelog/pull/105",
+            "created_at": "2026-06-12T04:35:22+00:00",
+            "updated_at": "2026-09-17T19:06:11+00:00",
+            "merged_at": "2026-07-01T22:57:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-02-06 to 2026-02-13",
+            "url": "https://github.com/DSACMS/super-changelog/pull/104",
+            "created_at": "2026-06-05T04:26:47+00:00",
+            "updated_at": "2026-09-17T19:06:08+00:00",
+            "merged_at": "2026-06-05T15:29:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-05-29 to 2026-06-05",
+            "url": "https://github.com/DSACMS/super-changelog/pull/103",
+            "created_at": "2026-06-05T04:26:44+00:00",
+            "updated_at": "2026-09-17T19:06:07+00:00",
+            "merged_at": "2026-06-05T15:29:07+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-05-28 to 2026-06-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/102",
+            "created_at": "2026-06-04T23:51:37+00:00",
+            "updated_at": "2026-09-17T19:06:06+00:00",
+            "merged_at": "2026-06-05T15:28:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-05-28 to 2026-06-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/101",
+            "created_at": "2026-06-04T23:51:33+00:00",
+            "updated_at": "2026-09-17T19:06:04+00:00",
+            "merged_at": "2026-06-05T15:28:28+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/100",
+            "created_at": "2026-06-01T02:50:57+00:00",
+            "updated_at": "2026-09-17T19:06:09+00:00",
+            "merged_at": "2026-06-05T15:28:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Add GitHub App workflow",
+            "url": "https://github.com/DSACMS/super-changelog/pull/99",
+            "created_at": "2026-05-28T18:40:28+00:00",
+            "updated_at": "2026-09-17T19:05:59+00:00",
+            "merged_at": "2026-05-29T18:44:38+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-05-08 to 2026-05-15",
+            "url": "https://github.com/DSACMS/super-changelog/pull/98",
+            "created_at": "2026-05-15T04:17:27+00:00",
+            "updated_at": "2026-09-17T19:05:55+00:00",
+            "merged_at": "2026-06-05T15:24:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-09 to 2026-01-16",
+            "url": "https://github.com/DSACMS/super-changelog/pull/97",
+            "created_at": "2026-05-15T04:17:22+00:00",
+            "updated_at": "2026-09-17T19:05:54+00:00",
+            "merged_at": "2026-06-05T15:23:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Edit README with corrections",
+            "url": "https://github.com/DSACMS/super-changelog/pull/96",
+            "created_at": "2026-05-14T20:24:45+00:00",
+            "updated_at": "2026-09-17T19:05:53+00:00",
+            "merged_at": "2026-05-14T20:52:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Add historical changelog data from 2026-05-01 to 2026-05-14",
+            "url": "https://github.com/DSACMS/super-changelog/pull/94",
+            "created_at": "2026-05-14T14:26:50+00:00",
+            "updated_at": "2026-09-17T19:05:52+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add properties",
+            "url": "https://github.com/DSACMS/super-changelog/pull/92",
+            "created_at": "2026-05-14T13:00:28+00:00",
+            "updated_at": "2026-09-17T19:05:51+00:00",
+            "merged_at": "2026-05-14T15:58:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-02-06 to 2026-02-13",
+            "url": "https://github.com/DSACMS/super-changelog/pull/91",
+            "created_at": "2026-05-08T03:34:36+00:00",
+            "updated_at": "2026-09-17T19:05:48+00:00",
+            "merged_at": "2026-06-05T15:23:17+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-05-01 to 2026-05-08",
+            "url": "https://github.com/DSACMS/super-changelog/pull/90",
+            "created_at": "2026-05-08T03:34:35+00:00",
+            "updated_at": "2026-09-17T19:05:50+00:00",
+            "merged_at": "2026-06-05T15:22:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add workflow call for action dispatch",
+            "url": "https://github.com/DSACMS/super-changelog/pull/89",
+            "created_at": "2026-05-05T14:04:01+00:00",
+            "updated_at": "2026-09-17T19:06:55+00:00",
+            "merged_at": "2026-05-05T19:49:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-04-24 to 2026-05-01",
+            "url": "https://github.com/DSACMS/super-changelog/pull/88",
+            "created_at": "2026-05-01T04:20:15+00:00",
+            "updated_at": "2026-09-17T19:06:54+00:00",
+            "merged_at": "2026-06-05T15:22:17+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-04-24 to 2026-05-01",
+            "url": "https://github.com/DSACMS/super-changelog/pull/87",
+            "created_at": "2026-05-01T04:20:15+00:00",
+            "updated_at": "2026-09-17T19:06:53+00:00",
+            "merged_at": "2026-06-05T15:22:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/86",
+            "created_at": "2026-05-01T02:13:20+00:00",
+            "updated_at": "2026-09-17T19:06:49+00:00",
+            "merged_at": "2026-06-05T15:21:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-03-20 to 2026-03-27",
+            "url": "https://github.com/DSACMS/super-changelog/pull/85",
+            "created_at": "2026-04-24T03:18:55+00:00",
+            "updated_at": "2026-09-17T19:06:48+00:00",
+            "merged_at": "2026-04-27T19:48:24+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-04-17 to 2026-04-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/84",
+            "created_at": "2026-04-24T03:18:55+00:00",
+            "updated_at": "2026-09-17T19:06:47+00:00",
+            "merged_at": "2026-04-27T19:48:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-04-10 to 2026-04-17",
+            "url": "https://github.com/DSACMS/super-changelog/pull/83",
+            "created_at": "2026-04-17T03:12:22+00:00",
+            "updated_at": "2026-09-17T19:06:46+00:00",
+            "merged_at": "2026-04-21T20:02:27+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-17 to 2025-10-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/82",
+            "created_at": "2026-04-17T03:12:16+00:00",
+            "updated_at": "2026-09-17T19:06:45+00:00",
+            "merged_at": "2026-04-21T20:02:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-04-03 to 2026-04-10",
+            "url": "https://github.com/DSACMS/super-changelog/pull/81",
+            "created_at": "2026-04-10T03:07:13+00:00",
+            "updated_at": "2026-09-17T19:06:42+00:00",
+            "merged_at": "2026-04-21T20:01:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-24 to 2025-10-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/80",
+            "created_at": "2026-04-10T03:07:10+00:00",
+            "updated_at": "2026-09-17T19:06:41+00:00",
+            "merged_at": "2026-04-21T20:01:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-03-27 to 2026-04-03",
+            "url": "https://github.com/DSACMS/super-changelog/pull/79",
+            "created_at": "2026-04-03T03:01:38+00:00",
+            "updated_at": "2026-09-17T19:06:40+00:00",
+            "merged_at": "2026-04-21T20:01:28+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-28 to 2025-12-05",
+            "url": "https://github.com/DSACMS/super-changelog/pull/78",
+            "created_at": "2026-04-03T03:01:37+00:00",
+            "updated_at": "2026-09-17T19:06:38+00:00",
+            "merged_at": "2026-04-21T20:01:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/77",
+            "created_at": "2026-04-01T01:51:34+00:00",
+            "updated_at": "2026-09-17T19:06:37+00:00",
+            "merged_at": "2026-04-21T20:00:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Add historical call",
+            "url": "https://github.com/DSACMS/super-changelog/pull/76",
+            "created_at": "2026-03-27T14:42:38+00:00",
+            "updated_at": "2026-09-17T19:06:44+00:00",
+            "merged_at": "2026-04-21T19:59:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-03-13 to 2026-03-20",
+            "url": "https://github.com/DSACMS/super-changelog/pull/75",
+            "created_at": "2026-03-27T03:00:41+00:00",
+            "updated_at": "2026-09-17T19:06:36+00:00",
+            "merged_at": "2026-04-21T20:00:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-03-20 to 2026-03-27",
+            "url": "https://github.com/DSACMS/super-changelog/pull/74",
+            "created_at": "2026-03-27T03:00:40+00:00",
+            "updated_at": "2026-09-17T19:06:34+00:00",
+            "merged_at": "2026-04-21T20:00:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/73",
+            "created_at": "2026-03-20T02:45:20+00:00",
+            "updated_at": "2026-09-17T19:06:33+00:00",
+            "merged_at": "2026-03-26T22:49:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-03-13 to 2026-03-20",
+            "url": "https://github.com/DSACMS/super-changelog/pull/72",
+            "created_at": "2026-03-20T02:45:19+00:00",
+            "updated_at": "2026-09-17T19:06:32+00:00",
+            "merged_at": "2026-03-26T22:49:23+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-02 to 2026-01-09",
+            "url": "https://github.com/DSACMS/super-changelog/pull/71",
+            "created_at": "2026-03-13T02:41:47+00:00",
+            "updated_at": "2026-09-17T19:06:31+00:00",
+            "merged_at": "2026-03-13T14:08:11+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-03-06 to 2026-03-13",
+            "url": "https://github.com/DSACMS/super-changelog/pull/70",
+            "created_at": "2026-03-13T02:41:45+00:00",
+            "updated_at": "2026-09-17T19:06:30+00:00",
+            "merged_at": "2026-03-13T14:07:54+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add releases",
+            "url": "https://github.com/DSACMS/super-changelog/pull/69",
+            "created_at": "2026-03-13T01:55:25+00:00",
+            "updated_at": "2026-09-17T19:04:48+00:00",
+            "merged_at": "2026-03-13T14:06:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-02-27 to 2026-03-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/68",
+            "created_at": "2026-03-06T02:40:38+00:00",
+            "updated_at": "2026-09-17T19:04:49+00:00",
+            "merged_at": "2026-03-06T15:35:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-16 to 2026-01-23",
+            "url": "https://github.com/DSACMS/super-changelog/pull/67",
+            "created_at": "2026-03-06T02:40:36+00:00",
+            "updated_at": "2026-09-17T19:04:50+00:00",
+            "merged_at": "2026-03-06T15:34:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/66",
+            "created_at": "2026-03-01T01:28:10+00:00",
+            "updated_at": "2026-09-17T19:04:51+00:00",
+            "merged_at": "2026-03-06T15:34:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-12-19 to 2025-12-26",
+            "url": "https://github.com/DSACMS/super-changelog/pull/65",
+            "created_at": "2026-02-27T02:38:43+00:00",
+            "updated_at": "2026-09-17T19:04:53+00:00",
+            "merged_at": "2026-03-06T15:33:57+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-02-20 to 2026-02-27",
+            "url": "https://github.com/DSACMS/super-changelog/pull/64",
+            "created_at": "2026-02-27T02:38:42+00:00",
+            "updated_at": "2026-09-17T19:04:54+00:00",
+            "merged_at": "2026-03-06T15:33:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-02-13 to 2026-02-20",
+            "url": "https://github.com/DSACMS/super-changelog/pull/63",
+            "created_at": "2026-02-20T02:40:55+00:00",
+            "updated_at": "2026-09-17T19:04:56+00:00",
+            "merged_at": "2026-03-06T15:33:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-21 to 2025-11-28",
+            "url": "https://github.com/DSACMS/super-changelog/pull/62",
+            "created_at": "2026-02-20T02:40:51+00:00",
+            "updated_at": "2026-09-17T19:04:57+00:00",
+            "merged_at": "2026-03-06T15:32:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-02-06 to 2026-02-13",
+            "url": "https://github.com/DSACMS/super-changelog/pull/61",
+            "created_at": "2026-02-13T02:55:22+00:00",
+            "updated_at": "2026-09-17T19:04:58+00:00",
+            "merged_at": "2026-03-06T15:31:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-05 to 2025-09-12",
+            "url": "https://github.com/DSACMS/super-changelog/pull/60",
+            "created_at": "2026-02-13T02:55:16+00:00",
+            "updated_at": "2026-09-17T19:04:45+00:00",
+            "merged_at": "2026-03-06T15:30:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/59",
+            "created_at": "2026-02-06T02:36:52+00:00",
+            "updated_at": "2026-09-17T19:04:43+00:00",
+            "merged_at": "2026-02-09T14:34:19+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-01-30 to 2026-02-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/58",
+            "created_at": "2026-02-06T02:36:52+00:00",
+            "updated_at": "2026-09-17T19:04:44+00:00",
+            "merged_at": "2026-02-09T14:33:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/57",
+            "created_at": "2026-02-01T01:29:44+00:00",
+            "updated_at": "2026-09-17T19:04:42+00:00",
+            "merged_at": "2026-02-04T14:37:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Modify merged pr calculation",
+            "url": "https://github.com/DSACMS/super-changelog/pull/56",
+            "created_at": "2026-01-30T16:47:46+00:00",
+            "updated_at": "2026-09-17T19:04:40+00:00",
+            "merged_at": "2026-02-04T14:36:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Change changelog.yml from 1 to 3 jobs",
+            "url": "https://github.com/DSACMS/super-changelog/pull/53",
+            "created_at": "2026-01-29T21:56:48+00:00",
+            "updated_at": "2026-09-17T19:04:37+00:00",
+            "merged_at": "2026-02-04T14:34:18+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Fix early return and add emojis",
+            "url": "https://github.com/DSACMS/super-changelog/pull/50",
+            "created_at": "2026-01-23T04:06:53+00:00",
+            "updated_at": "2026-09-17T19:04:36+00:00",
+            "merged_at": "2026-01-23T14:26:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-01-16 to 2026-01-23",
+            "url": "https://github.com/DSACMS/super-changelog/pull/48",
+            "created_at": "2026-01-23T03:03:57+00:00",
+            "updated_at": "2026-09-17T19:04:35+00:00",
+            "merged_at": "2026-01-23T14:23:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Fix changelog action",
+            "url": "https://github.com/DSACMS/super-changelog/pull/47",
+            "created_at": "2026-01-22T17:52:18+00:00",
+            "updated_at": "2026-09-17T19:04:34+00:00",
+            "merged_at": "2026-01-22T19:44:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-09 to 2026-01-16",
+            "url": "https://github.com/DSACMS/super-changelog/pull/46",
+            "created_at": "2026-01-16T03:02:01+00:00",
+            "updated_at": "2026-09-17T19:05:41+00:00",
+            "merged_at": "2026-01-22T16:22:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-02 to 2026-01-09",
+            "url": "https://github.com/DSACMS/super-changelog/pull/45",
+            "created_at": "2026-01-09T03:01:14+00:00",
+            "updated_at": "2026-09-17T19:05:40+00:00",
+            "merged_at": "2026-01-22T16:22:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-12-26 to 2026-01-02",
+            "url": "https://github.com/DSACMS/super-changelog/pull/44",
+            "created_at": "2026-01-02T03:01:28+00:00",
+            "updated_at": "2026-09-17T19:05:38+00:00",
+            "merged_at": "2026-01-22T16:21:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/43",
+            "created_at": "2026-01-01T01:12:48+00:00",
+            "updated_at": "2026-09-17T19:05:38+00:00",
+            "merged_at": "2026-01-22T16:21:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-12-19 to 2025-12-26",
+            "url": "https://github.com/DSACMS/super-changelog/pull/42",
+            "created_at": "2025-12-26T02:57:20+00:00",
+            "updated_at": "2026-09-17T19:05:36+00:00",
+            "merged_at": "2026-01-22T16:21:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-12-12 to 2025-12-19",
+            "url": "https://github.com/DSACMS/super-changelog/pull/41",
+            "created_at": "2025-12-19T03:03:17+00:00",
+            "updated_at": "2026-09-17T19:05:35+00:00",
+            "merged_at": "2025-12-19T16:13:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add new condensed summary",
+            "url": "https://github.com/DSACMS/super-changelog/pull/40",
+            "created_at": "2025-12-17T00:09:02+00:00",
+            "updated_at": "2026-09-17T19:05:34+00:00",
+            "merged_at": "2025-12-19T13:26:47+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-12-05 to 2025-12-12",
+            "url": "https://github.com/DSACMS/super-changelog/pull/39",
+            "created_at": "2025-12-12T03:01:48+00:00",
+            "updated_at": "2026-09-17T19:05:32+00:00",
+            "merged_at": "2025-12-18T16:54:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "code.json: Add 'featured' to tags",
+            "url": "https://github.com/DSACMS/super-changelog/pull/38",
+            "created_at": "2025-12-11T18:50:17+00:00",
+            "updated_at": "2026-09-17T19:05:31+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Fix-active-repos-bug",
+            "url": "https://github.com/DSACMS/super-changelog/pull/37",
+            "created_at": "2025-12-10T17:03:04+00:00",
+            "updated_at": "2026-09-17T19:05:27+00:00",
+            "merged_at": "2025-12-10T17:38:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-28 to 2025-12-05",
+            "url": "https://github.com/DSACMS/super-changelog/pull/36",
+            "created_at": "2025-12-05T02:55:51+00:00",
+            "updated_at": "2026-09-17T19:05:25+00:00",
+            "merged_at": "2025-12-05T16:09:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Repolinter Results",
+            "url": "https://github.com/DSACMS/super-changelog/pull/35",
+            "created_at": "2025-12-01T16:45:19+00:00",
+            "updated_at": "2026-09-17T19:05:25+00:00",
+            "merged_at": "2025-12-10T16:43:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-21 to 2025-11-28",
+            "url": "https://github.com/DSACMS/super-changelog/pull/34",
+            "created_at": "2025-11-28T02:43:24+00:00",
+            "updated_at": "2026-09-17T19:05:23+00:00",
+            "merged_at": "2025-12-05T16:08:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-14 to 2025-11-21",
+            "url": "https://github.com/DSACMS/super-changelog/pull/33",
+            "created_at": "2025-11-21T02:50:32+00:00",
+            "updated_at": "2026-09-17T19:05:22+00:00",
+            "merged_at": "2025-12-05T16:08:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add all necessary files for a tier 3 project",
+            "url": "https://github.com/DSACMS/super-changelog/pull/32",
+            "created_at": "2025-11-20T22:25:49+00:00",
+            "updated_at": "2026-09-17T19:05:20+00:00",
+            "merged_at": "2025-12-01T16:44:09+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-11-07 to 2025-11-14",
+            "url": "https://github.com/DSACMS/super-changelog/pull/31",
+            "created_at": "2025-11-14T02:59:18+00:00",
+            "updated_at": "2026-09-17T19:05:18+00:00",
+            "merged_at": "2025-11-14T15:18:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-31 to 2025-11-07",
+            "url": "https://github.com/DSACMS/super-changelog/pull/30",
+            "created_at": "2025-11-07T02:54:05+00:00",
+            "updated_at": "2026-09-17T19:05:17+00:00",
+            "merged_at": "2025-11-13T16:17:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-24 to 2025-10-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/29",
+            "created_at": "2025-10-31T02:44:12+00:00",
+            "updated_at": "2026-09-17T19:05:14+00:00",
+            "merged_at": "2025-11-07T02:16:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add create.py tests",
+            "url": "https://github.com/DSACMS/super-changelog/pull/28",
+            "created_at": "2025-10-29T14:01:51+00:00",
+            "updated_at": "2026-09-17T19:05:15+00:00",
+            "merged_at": "2025-11-07T01:28:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Add initial summary tests",
+            "url": "https://github.com/DSACMS/super-changelog/pull/27",
+            "created_at": "2025-10-24T14:52:36+00:00",
+            "updated_at": "2026-09-17T19:05:13+00:00",
+            "merged_at": "2025-10-28T16:42:16+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-17 to 2025-10-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/26",
+            "created_at": "2025-10-24T02:34:43+00:00",
+            "updated_at": "2026-09-17T19:04:27+00:00",
+            "merged_at": "2025-10-28T17:01:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-10 to 2025-10-17",
+            "url": "https://github.com/DSACMS/super-changelog/pull/25",
+            "created_at": "2025-10-17T02:38:32+00:00",
+            "updated_at": "2026-09-17T19:04:26+00:00",
+            "merged_at": "2025-10-24T13:30:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-10-03 to 2025-10-10",
+            "url": "https://github.com/DSACMS/super-changelog/pull/24",
+            "created_at": "2025-10-10T02:31:00+00:00",
+            "updated_at": "2026-09-17T19:04:25+00:00",
+            "merged_at": "2025-10-24T13:29:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-28 to 2025-10-05",
+            "url": "https://github.com/DSACMS/super-changelog/pull/23",
+            "created_at": "2025-10-05T14:24:18+00:00",
+            "updated_at": "2026-09-17T19:04:22+00:00",
+            "merged_at": "2025-10-24T13:29:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-21 to 2025-09-28",
+            "url": "https://github.com/DSACMS/super-changelog/pull/22",
+            "created_at": "2025-09-28T14:24:42+00:00",
+            "updated_at": "2026-09-17T19:04:21+00:00",
+            "merged_at": "2025-10-24T13:29:12+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Fix tests",
+            "url": "https://github.com/DSACMS/super-changelog/pull/21",
+            "created_at": "2025-09-26T14:59:59+00:00",
+            "updated_at": "2026-09-17T19:04:20+00:00",
+            "merged_at": "2025-10-06T01:11:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-14 to 2025-09-21",
+            "url": "https://github.com/DSACMS/super-changelog/pull/20",
+            "created_at": "2025-09-21T14:25:56+00:00",
+            "updated_at": "2026-09-17T19:04:19+00:00",
+            "merged_at": "2025-09-23T18:22:28+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Initial tests",
+            "url": "https://github.com/DSACMS/super-changelog/pull/19",
+            "created_at": "2025-09-17T00:27:50+00:00",
+            "updated_at": "2026-09-17T19:04:17+00:00",
+            "merged_at": "2025-09-17T19:24:08+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-07 to 2025-09-14",
+            "url": "https://github.com/DSACMS/super-changelog/pull/18",
+            "created_at": "2025-09-14T14:22:50+00:00",
+            "updated_at": "2026-09-17T19:04:17+00:00",
+            "merged_at": "2025-09-19T14:22:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-09-05 to 2025-09-12",
+            "url": "https://github.com/DSACMS/super-changelog/pull/17",
+            "created_at": "2025-09-12T15:10:05+00:00",
+            "updated_at": "2026-09-17T19:04:15+00:00",
+            "merged_at": "2025-09-19T14:21:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-08-31 to 2025-09-07",
+            "url": "https://github.com/DSACMS/super-changelog/pull/15",
+            "created_at": "2025-09-07T13:35:01+00:00",
+            "updated_at": "2026-09-17T19:04:13+00:00",
+            "merged_at": "2025-09-19T14:21:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-08-28 to 2025-09-04",
+            "url": "https://github.com/DSACMS/super-changelog/pull/14",
+            "created_at": "2025-09-04T15:27:39+00:00",
+            "updated_at": "2026-09-17T19:04:12+00:00",
+            "merged_at": "2025-09-19T14:20:52+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-08-24 to 2025-08-31",
+            "url": "https://github.com/DSACMS/super-changelog/pull/13",
+            "created_at": "2025-08-31T13:37:19+00:00",
+            "updated_at": "2026-09-17T19:04:10+00:00",
+            "merged_at": "2025-09-19T14:20:25+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-08-17 to 2025-08-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/11",
+            "created_at": "2025-08-24T13:40:17+00:00",
+            "updated_at": "2026-09-17T19:04:09+00:00",
+            "merged_at": "2025-08-28T15:36:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-08-10 to 2025-08-17",
+            "url": "https://github.com/DSACMS/super-changelog/pull/7",
+            "created_at": "2025-08-17T13:34:28+00:00",
+            "updated_at": "2026-09-17T19:04:07+00:00",
+            "merged_at": "2025-08-18T14:22:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Add poetry",
+            "url": "https://github.com/DSACMS/super-changelog/pull/3",
+            "created_at": "2025-07-24T18:53:22+00:00",
+            "updated_at": "2026-09-17T19:04:06+00:00",
+            "merged_at": "2025-07-24T18:54:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-07-17 to 2025-07-24",
+            "url": "https://github.com/DSACMS/super-changelog/pull/2",
+            "created_at": "2025-07-24T18:26:07+00:00",
+            "updated_at": "2026-09-17T19:04:04+00:00",
+            "merged_at": "2025-08-18T14:24:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "IsaacMilarky",
+            "is_new": false
+          },
+          {
+            "title": "Create summary functionality",
+            "url": "https://github.com/DSACMS/super-changelog/pull/1",
+            "created_at": "2025-06-25T23:59:20+00:00",
+            "updated_at": "2026-09-17T19:03:57+00:00",
+            "merged_at": "2025-07-21T14:23:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "DinneK",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Add weekly condensed changelog summary for 2026-09-11 (#163)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/0f244f9dfddc1c61bbaf8d4347ce388a6eb2c1e9",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T19:00:47+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-09-11 (#162)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/f626ff5af404649430dccc48eafbb8b5d27264b8",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T19:00:15+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-09-04 (#161)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/83e27e9c7496feb42493b8390e5878b03c870708",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T18:59:22+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-09-04 (#160)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/bef6189881898a17fe4ae33d8b39d6c65f14b0ba",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T18:58:28+00:00"
+          },
+          {
+            "message": "Update code.json metadata (#159)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/cd0aa833bbb5e4e8d6a5f0f2d3ea0f6ccad49a01",
+            "author": "github-actions[bot]",
+            "created_at": "2026-09-17T18:56:49+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-08-28 (#158)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/3e0813d3ee071fbf5066ce3aaf1ea5c911a513ae",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T18:53:59+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-08-28 (#157)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/02ef6887022aa7e54fa85594649d444696e90501",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-09-17T18:53:25+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "cmsgov",
+          "cmsoss-tier3",
+          "commops",
+          "ospo",
+          "superchangelog",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "durc_is_crud",
+        "url": "https://github.com/DSACMS/durc_is_crud",
+        "description": "Python version of DURC",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pra-guides",
+        "url": "https://github.com/DSACMS/pra-guides",
+        "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "caseworkerportal",
+        "url": "https://github.com/DSACMS/caseworkerportal",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      }
+    ],
+    "period": {
+      "start": "2026-09-11",
+      "end": "2026-09-18"
+    },
+    "generated_at": "2026-09-18T03:28:19.136390+00:00",
+    "total_repo_count": 100
+  }
+}
