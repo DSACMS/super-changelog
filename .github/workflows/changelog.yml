@@ -57,6 +57,12 @@ jobs:
           name: weekly-changelog-summaries
           path: |
             changelog_data/summaries/
+
+      - name: Upload weekly json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-changelog-json
+          path: |
             changelog_data/data/weekly_changelog_*.json
 
   create-full-summary-pr:
@@ -90,7 +96,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: weekly-changelog-summaries
-          path: changelog_data/
+          path: changelog_data/summaries/
+
+      - name: Download weekly json artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: weekly-changelog-json
+          path: changelog_data/data/
 
       - name: Create Pull Request with Full Summary
         env: 
@@ -187,7 +199,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: weekly-changelog-summaries
-          path: changelog_data/
+          path: changelog_data/summaries/
+
+      - name: Download weekly json artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: weekly-changelog-json
+          path: changelog_data/data/
 
       - name: Create Condensed Pull Request
         env: 
@@ -252,4 +270,57 @@ jobs:
           else
             echo "Could not find PR title or body files"
             exit 1
+          fi
+
+  push-weekly-json-to-metrics-data:
+    needs: generate-weekly-data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate app token
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: metrics-data
+
+      - name: Checkout metrics-data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/metrics-data
+          token: ${{ steps.app-token.outputs.token }}
+          path: metrics-data
+
+      - name: Download weekly json artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: weekly-changelog-json
+          path: incoming/
+
+      - name: Copy weekly changelog json into metrics-data
+        run: |
+          SRC_FILE=$(ls -t incoming/weekly_changelog_*.json 2>/dev/null | head -n1)
+
+          if [ -z "$SRC_FILE" ]; then
+            echo "No weekly changelog json found"
+            exit 1
+          fi
+
+          mkdir -p metrics-data/data
+          cp "$SRC_FILE" metrics-data/data/
+
+      - name: Commit and push directly to main
+        working-directory: metrics-data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add data/
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -sm "Add weekly changelog data for $(date +"%Y-%m-%d")"
+            git push origin HEAD:main
           fi
