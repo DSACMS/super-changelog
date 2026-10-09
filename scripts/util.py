@@ -127,7 +127,7 @@ class ChangelogGenerator:
             print(f"DEBUG old token prefix: {self.token[:8]}... new token prefix: {new_token[:8]}...")
 
             test_client = Github(new_token, per_page=100, lazy=True)
-            test_client.get_rate_limit()
+            test_client.get_rate_limit() 
 
             self.token = new_token
             self.g = test_client
@@ -172,7 +172,7 @@ class ChangelogGenerator:
                 clone_url = clone_url.replace("https://", f"https://x-access-token:{self.token}@")
 
             subprocess.run(
-                ["git", "clone", "--quiet", clone_url, temp_dir],
+                ["git", "clone", "--quiet", "--filter=blob:none", "--no-checkout", clone_url, temp_dir],
                 check=True
             )
 
