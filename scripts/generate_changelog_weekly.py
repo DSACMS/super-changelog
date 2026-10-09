@@ -21,9 +21,25 @@ def main():
     if not token:
         raise ValueError("Github token not found in environmental variables")
     
+    app_id = os.getenv("GH_APP_ID")
+    private_key = os.getenv("GH_APP_PRIVATE_KEY")
+    installation_id = os.getenv("GH_APP_INSTALLATION_ID")
+
+    print(f"App ID present: {bool(app_id)}")
+    print(f"Private key present: {bool(private_key)}")
+    print(f"Installation ID present: {bool(installation_id)} (value: {installation_id})")
+    
     org_names = ["DSACMS"]
 
-    gen = ChangelogGenerator(token, filename=filename, log_history_start=start_date, log_history_end=end_date)
+    gen = ChangelogGenerator(
+        token, 
+        filename=filename, 
+        log_history_start=start_date, 
+        log_history_end=end_date,
+        app_id=app_id,
+        private_key=private_key,
+        installation_id=installation_id
+    )
 
     combined_data = {}
     for org_name in org_names:

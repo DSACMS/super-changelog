@@ -40,6 +40,9 @@ jobs:
       - name: Generate weekly changelog
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_APP_ID: ${{ vars.APP_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+          GH_APP_INSTALLATION_ID: ${{ steps.app-token.outputs.installation-id }}
         run: |
           python scripts/generate_changelog_weekly.py
       
