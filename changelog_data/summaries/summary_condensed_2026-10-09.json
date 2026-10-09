@@ -1,0 +1,322 @@
+{
+  "period": {
+    "start": "2026-10-02",
+    "end": "2026-10-09"
+  },
+  "generated_at": "2026-10-09T16:04:47.799562+00:00",
+  "total_repos": 101,
+  "active_repos": 20,
+  "total_commits": 65,
+  "total_pulls": 116,
+  "total_issues": 5,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4856 add report variant to json",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2159",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4856 Add report_variant to CeReport",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2155",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Adding Local AI Generation",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/156",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "fdsh-utils",
+        "text": " [FFS-4823] add tracking tags",
+        "url": "https://github.com/DSACMS/fdsh-utils/pull/31",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "fdsh-utils",
+        "text": " [FFS-4823] add analytics",
+        "url": "https://github.com/DSACMS/fdsh-utils/pull/30",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [],
+    "changed": [
+      {
+        "repo": "ospo-guide",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/146",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4867: Update Education self-attestation flow school info page",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2153",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-generator",
+        "text": "docs(contributor): contributors readme action update",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/150",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-generator",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/149",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-02-20 to 2026-02-27",
+        "url": "https://github.com/DSACMS/super-changelog/pull/169",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-09-25 to 2026-10-02",
+        "url": "https://github.com/DSACMS/super-changelog/pull/170",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/super-changelog/pull/168",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "archival-identifier",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/archival-identifier/pull/26",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [
+      {
+        "repo": "ospo-guide",
+        "text": "Expand plain language documentation with best practices",
+        "url": "https://github.com/DSACMS/ospo-guide/pull/127",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      }
+    ],
+    "other": [
+      {
+        "repo": "repo-scaffolder",
+        "text": "https://www.federalregister.gov/d/2025-02090/p-17",
+        "url": "https://github.com/DSACMS/repo-scaffolder/pull/251",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Bump codejson-core to 0.2.0",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/171",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "archival-identifier",
+        "text": "Dsacms/zion/dormant streams",
+        "url": "https://github.com/DSACMS/archival-identifier/pull/24",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "codejson-core",
+        "text": "v0.3.0",
+        "url": "https://github.com/DSACMS/codejson-core/pull/2",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 5,
+    "changed": 8,
+    "documentation": 1,
+    "other": 4
+  },
+  "active_repos_list": [
+    {
+      "name": "repo-scaffolder",
+      "url": "https://github.com/DSACMS/repo-scaffolder",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 4,
+      "issues": 3
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 25,
+      "pulls": 35,
+      "issues": 0
+    },
+    {
+      "name": "repodive-tools",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 46,
+      "issues": 1
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 6,
+      "issues": 0
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 7,
+      "issues": 0
+    },
+    {
+      "name": "tier1",
+      "url": "https://github.com/DSACMS/tier1",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier2",
+      "url": "https://github.com/DSACMS/tier2",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier3",
+      "url": "https://github.com/DSACMS/tier3",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "tier4",
+      "url": "https://github.com/DSACMS/tier4",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "archival-identifier",
+      "url": "https://github.com/DSACMS/archival-identifier",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-core",
+      "url": "https://github.com/DSACMS/codejson-core",
+      "org": "DSACMS",
+      "commits": 3,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "codejson-action-e2e",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "org": "DSACMS",
+      "commits": 4,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "fdsh-utils",
+      "url": "https://github.com/DSACMS/fdsh-utils",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "eng-cop-scheduler",
+      "url": "https://github.com/DSACMS/eng-cop-scheduler",
+      "org": "DSACMS",
+      "commits": 11,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "metrics-data",
+      "url": "https://github.com/DSACMS/metrics-data",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 0
+    }
+  ]
+}
