@@ -122,12 +122,19 @@ class ChangelogGenerator:
         try:
             integration = GithubIntegration(self.app_id, self.private_key)
             install_id_int = int(self.installation_id)
-            new_token = integration.get_access_token(install_id_int).token
+            access_token_obj = integration.get_access_token(install_id_int)
+
+            print(f"DEBUG access_token_obj type: {type(access_token_obj)}")
+            print(f"DEBUG access_token_obj attrs: {dir(access_token_obj)}")
+            print(f"DEBUG expires_at: {getattr(access_token_obj, 'expires_at', 'N/A')}")
+
+            new_token = access_token_obj.token
+            print(f"DEBUG new token length: {len(new_token)}")
 
             print(f"DEBUG old token prefix: {self.token[:8]}... new token prefix: {new_token[:8]}...")
 
             test_client = Github(new_token, per_page=100, lazy=True)
-            test_client.get_rate_limit() 
+            test_client.get_rate_limit()
 
             self.token = new_token
             self.g = test_client
