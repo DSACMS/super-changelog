@@ -1,0 +1,11 @@
+Weekly Changelog Summary* (2026-10-09 to 2026-10-16)
+
+• 13 of 101 repos with activity
+• 94 commits | 154 PRs | 9 issues
+
+*Most Active Repos:*
+• *codejson-action-e2e*: 32 commits, 37 PRs
+• *gov-codejson*: 11 commits, 51 PRs
+• *iv-cbv-payroll*: 25 commits, 32 PRs
+• *automated-codejson-generator*: 8 commits, 10 PRs
+• *index-generator-website*: 1 commits, 13 PRs
