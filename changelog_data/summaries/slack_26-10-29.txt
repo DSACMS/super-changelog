@@ -1,0 +1,16 @@
+Weekly Changelog Summary* (2026-10-22 to 2026-10-29)
+
+• 7 of 103 repos with activity
+• 64 commits | 59 PRs | 6 issues
+
+*Key Changes:*
+• libyears: Added Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production
+• libyears: Added Scan direct npm production dependencies from the root `package.json`, using
+• libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 40 commits, 51 PRs
+• *libyears*: 16 commits, 0 PRs
+• *fast-facts-2.0*: 7 commits, 2 PRs
+• *super-changelog*: 0 commits, 4 PRs
+• *decks*: 1 commits, 0 PRs

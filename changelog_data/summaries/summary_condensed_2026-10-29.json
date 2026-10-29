@@ -1,0 +1,182 @@
+{
+  "period": {
+    "start": "2026-10-22",
+    "end": "2026-10-29"
+  },
+  "generated_at": "2026-10-29T14:49:09.483282+00:00",
+  "total_repos": 103,
+  "active_repos": 7,
+  "total_commits": 64,
+  "total_pulls": 59,
+  "total_issues": 6,
+  "total_changelog_entries": 1,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "libyears",
+        "text": "Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan direct npm production dependencies from the root `package.json`, using",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan npm and PyPI dependencies together, with repository-wide and",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Report source discovery failures separately from dependency-level",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Use shared verified HTTPS registry transport for PyPI and npm metadata",
+        "category": "Added",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [],
+    "changed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4944: Update Education screener alert banner",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2258",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-10-09 to 2026-10-16",
+        "url": "https://github.com/DSACMS/super-changelog/pull/174",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2025-06-18 to 2025-06-25",
+        "url": "https://github.com/DSACMS/super-changelog/pull/173",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
+        "url": "https://github.com/DSACMS/super-changelog/pull/172",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/65",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Upgrade JSON output from schema v2 to schema v3. This is an intentional",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4961: Set employment_type to null for self-attested employment entries",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2257",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Bump version from 0.12.0 to 0.14.0",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2256",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Dev alt text",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/67",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 5,
+    "changed": 6,
+    "other": 3
+  },
+  "active_repos_list": [
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 40,
+      "pulls": 51,
+      "issues": 2
+    },
+    {
+      "name": "repodive-tools",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 4,
+      "issues": 0
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 2,
+      "issues": 4
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "libyears",
+      "url": "https://github.com/DSACMS/libyears",
+      "org": "DSACMS",
+      "commits": 16,
+      "pulls": 0,
+      "issues": 0
+    }
+  ]
+}

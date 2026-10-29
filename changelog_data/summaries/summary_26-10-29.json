@@ -1,0 +1,211 @@
+{
+  "period": {
+    "start": "2026-10-22",
+    "end": "2026-10-29"
+  },
+  "generated_at": "2026-10-29T14:49:09.483282+00:00",
+  "total_repos": 103,
+  "active_repos": 7,
+  "total_issues": 6,
+  "total_pulls": 59,
+  "total_commits": 64,
+  "total_changelog_entries": 1,
+  "repos_with_activity": [
+    {
+      "name": "open",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/open",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "drive2gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/drive2gource",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "decks",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/decks",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 2,
+      "pulls": 51,
+      "commits": 40,
+      "changelog_entries": 0,
+      "highlights": [
+        "44 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "interagency-research-ops",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/interagency-research-ops",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pycon-poster-2024",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pycon-poster-2024",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-verify",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-delivery",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "repodive-tools",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": [
+        "4 PR(s) merged"
+      ]
+    },
+    {
+      "name": "durc_is_crud",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "caseworkerportal",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "fast-facts-2.0",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "issues": 4,
+      "pulls": 2,
+      "commits": 7,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "libyears",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/libyears",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 16,
+      "changelog_entries": 1,
+      "highlights": [
+        "Added: Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+        "Added: Scan direct npm production dependencies from the root `package.json`, using",
+        "Changed: Upgrade JSON output from schema v2 to schema v3. This is an intentional"
+      ]
+    }
+  ],
+  "key_changes": [
+    "libyears: Added Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+    "libyears: Added Scan direct npm production dependencies from the root `package.json`, using",
+    "libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional"
+  ]
+}
