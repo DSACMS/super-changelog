@@ -1,0 +1,264 @@
+{
+  "period": {
+    "start": "2026-10-09",
+    "end": "2026-10-16"
+  },
+  "generated_at": "2026-10-16T03:23:37.577356+00:00",
+  "total_repos": 101,
+  "active_repos": 13,
+  "total_commits": 94,
+  "total_pulls": 154,
+  "total_issues": 9,
+  "total_changelog_entries": 0,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "codejson-generator",
+        "text": "Add webllm feature to README",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/153",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "medicare_monthly_enrollment_dashboard",
+        "text": "Added download CSV button to trend data table",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/53",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-action-e2e",
+        "text": "Add AGENCY and AI enrichment scenarios",
+        "url": "https://github.com/DSACMS/codejson-action-e2e/pull/53",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-action-e2e",
+        "text": "Add code.json fixture with blank enrichable fields",
+        "url": "https://github.com/DSACMS/codejson-action-e2e/pull/52",
+        "type": "pr",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [],
+    "changed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "Commit schema update",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2182",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4896 Update schema to match implementation",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2181",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4871: Update Education Review, Review and Submit, PDF",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2179",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-generator",
+        "text": "docs: update contributors information",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/152",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "gov-codejson",
+        "text": "Repository Hygiene: Update documentation to reflect current state of the repository",
+        "url": "https://github.com/DSACMS/gov-codejson/pull/61",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "gov-codejson",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/gov-codejson/pull/60",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "gov-codejson",
+        "text": "Update faq.md",
+        "url": "https://github.com/DSACMS/gov-codejson/pull/55",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "share-it-act-lp",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/share-it-act-lp/pull/59",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-action-e2e",
+        "text": "Updating docs",
+        "url": "https://github.com/DSACMS/codejson-action-e2e/pull/50",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "codejson-generator",
+        "text": "GSA-SHARE-IT Repository Migration Preparation",
+        "url": "https://github.com/DSACMS/codejson-generator/pull/151",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Sync main into dev",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/181",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "v2.0.0",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/180",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "automated-codejson-generator",
+        "text": "Cleaned up dependencies",
+        "url": "https://github.com/DSACMS/automated-codejson-generator/pull/179",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "index-generator-website",
+        "text": "GSA-SHARE-IT repository migration preparation",
+        "url": "https://github.com/DSACMS/index-generator-website/pull/21",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 4,
+    "changed": 9,
+    "other": 5
+  },
+  "active_repos_list": [
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 25,
+      "pulls": 32,
+      "issues": 0
+    },
+    {
+      "name": "codejson-generator",
+      "url": "https://github.com/DSACMS/codejson-generator",
+      "org": "DSACMS",
+      "commits": 6,
+      "pulls": 4,
+      "issues": 0
+    },
+    {
+      "name": "gov-codejson",
+      "url": "https://github.com/DSACMS/gov-codejson",
+      "org": "DSACMS",
+      "commits": 11,
+      "pulls": 51,
+      "issues": 3
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 8,
+      "pulls": 10,
+      "issues": 2
+    },
+    {
+      "name": "share-it-act-lp",
+      "url": "https://github.com/DSACMS/share-it-act-lp",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "index-generator-website",
+      "url": "https://github.com/DSACMS/index-generator-website",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 13,
+      "issues": 2
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 5,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "codejson-crosswalk",
+      "url": "https://github.com/DSACMS/codejson-crosswalk",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 1
+    },
+    {
+      "name": "emmy-agent-marketplace",
+      "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 2,
+      "pulls": 1,
+      "issues": 1
+    },
+    {
+      "name": "codejson-action-e2e",
+      "url": "https://github.com/DSACMS/codejson-action-e2e",
+      "org": "DSACMS",
+      "commits": 32,
+      "pulls": 37,
+      "issues": 0
+    },
+    {
+      "name": "metrics-data",
+      "url": "https://github.com/DSACMS/metrics-data",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 1,
+      "issues": 0
+    }
+  ]
+}
