@@ -1,4 +1,4 @@
-from github import Github, GithubException, GithubIntegration
+from github import Github, GithubException, Auth
 from datetime import datetime, timezone
 import json
 import os
@@ -81,8 +81,9 @@ def parse_changelog(content):
 
     return release
 
+
 class ChangelogGenerator:
-    def __init__(self, token, filename=None, log_history_start=None, log_history_end=None,
+    def __init__(self, token=None, filename=None, log_history_start=None, log_history_end=None,
                  app_id=None, private_key=None, installation_id=None):
         self.now = datetime.now(timezone.utc)
         self.log_history_start = log_history_start
@@ -93,57 +94,34 @@ class ChangelogGenerator:
         self.end_date = datetime.strptime(self.log_history_end, "%Y-%m-%d") if log_history_end else None
 
         self.filename = filename
-        self.token = token
 
-        # App credentials needed to mint fresh installation tokens mid-run.
-        # If not provided, token refresh is simply skipped (safe no-op fallback).
         self.app_id = app_id
         self.private_key = private_key
         self.installation_id = installation_id
-        self.token_minted_at = datetime.now(timezone.utc)
 
-        self.g = Github(token, per_page=100, lazy=True)
+        if app_id and private_key and installation_id:
+            app_auth = Auth.AppAuth(app_id, private_key)
+            auth = app_auth.get_installation_auth(int(installation_id))
+            self.g = Github(auth=auth, per_page=100)
+            self.token = None
+            self._uses_app_auth = True
+        elif token:
+            self.g = Github(token, per_page=100)
+            self.token = token
+            self._uses_app_auth = False
+        else:
+            raise ValueError("Must supply either a plain token or app_id/private_key/installation_id")
 
-    def _refresh_token_if_needed(self, max_age_minutes=45):
-        """
-        GitHub App installation tokens expire after 60 minutes.
-        If app credentials were provided, proactively mint a new token
-        before the old one expires, and swap it into self.g and self.token
-        so downstream calls (including git clone auth) use the fresh one.
-        Returns True if a refresh happened, False otherwise.
-        """
-        if not (self.app_id and self.private_key and self.installation_id):
-            return False
-
-        age = (datetime.now(timezone.utc) - self.token_minted_at).total_seconds() / 60
-        if age < max_age_minutes:
-            return False
-
-        try:
-            integration = GithubIntegration(self.app_id, self.private_key)
-            install_id_int = int(self.installation_id)
-            access_token_obj = integration.get_access_token(install_id_int)
-
-            print(f"DEBUG access_token_obj type: {type(access_token_obj)}")
-            print(f"DEBUG access_token_obj attrs: {dir(access_token_obj)}")
-            print(f"DEBUG expires_at: {getattr(access_token_obj, 'expires_at', 'N/A')}")
-
-            new_token = access_token_obj.token
-            print(f"DEBUG new token length: {len(new_token)}")
-
-            print(f"DEBUG old token prefix: {self.token[:8]}... new token prefix: {new_token[:8]}...")
-
-            test_client = Github(new_token, per_page=100, lazy=True)
-            test_client.get_rate_limit()
-
-            self.token = new_token
-            self.g = test_client
-            self.token_minted_at = datetime.now(timezone.utc)
-            print(f"Refreshed GitHub App installation token (age was {age:.1f} min).")
-            return True
-        except Exception as e:
-            print(f"Could not refresh installation token: {e}")
-            return False
+    def _get_clone_token(self):
+        if self._uses_app_auth:
+            # Auth.AppInstallationAuth exposes .token via its internal
+            # requester; simplest reliable way is to ask the Github
+            # client's requester for the current auth header.
+            try:
+                return self.g._Github__requester.auth.token
+            except Exception:
+                return None
+        return self.token
 
     def _check_rate_limit(self, buffer=200):
         try:
@@ -167,16 +145,13 @@ class ChangelogGenerator:
         return True
 
     def _get_contributors_via_git(self, repo, data):
-        """
-        Clones the repository locally and uses git log to reliably extract
-        contributors whose first-ever commit occurred within [start_date, end_date].
-        """
         temp_dir = tempfile.mkdtemp()
         try:
             print(f"Cloning {repo.name} to parse git history...")
             clone_url = repo.clone_url
-            if self.token:
-                clone_url = clone_url.replace("https://", f"https://x-access-token:{self.token}@")
+            clone_token = self._get_clone_token()
+            if clone_token:
+                clone_url = clone_url.replace("https://", f"https://x-access-token:{clone_token}@")
 
             subprocess.run(
                 ["git", "clone", "--quiet", "--filter=blob:none", "--no-checkout", clone_url, temp_dir],
@@ -232,7 +207,6 @@ class ChangelogGenerator:
             shutil.rmtree(temp_dir, ignore_errors=True)
 
     def get_contributors(self, repo, data):
-
         data.setdefault("contributors", [])
 
         try:
@@ -310,7 +284,6 @@ class ChangelogGenerator:
             num_prs = 0
 
             for item in issues_and_prs:
-
                 is_pr = item.pull_request is not None
 
                 if not is_pr:
@@ -345,7 +318,7 @@ class ChangelogGenerator:
             print(f"Found {num_prs} pull requests")
 
         except Exception as e:
-                print(f"Error getting issues and PRs: {e}")
+            print(f"Error getting issues and PRs: {e}")
 
     def get_releases(self, repo, data):
         try:
@@ -396,16 +369,14 @@ class ChangelogGenerator:
         }
 
         total_repos = 0
+        # NOTE: no more manual _refresh_token_if_needed() / self.g swap here.
+        # Auth.AppInstallationAuth refreshes transparently per-request, so
+        # this single iterator stays valid for the entire paginated walk,
+        # no matter how long it takes.
         for repo in org.get_repos(type="public"):
-            refreshed = self._refresh_token_if_needed()
             self._check_rate_limit()
             total_repos += 1
             print(f"Processing repo: {repo.name}")
-
-            if refreshed:
-                # repo was fetched with the old (now-replaced) client; re-fetch
-                # it using the new self.g so downstream lazy calls don't 401.
-                repo = self.g.get_repo(repo.full_name)
 
             repo_data = {
                 "name": repo.name,
@@ -438,7 +409,6 @@ class ChangelogGenerator:
             if not archival:
                 try:
                     self.get_contributors(repo, repo_data)
-
                 except Exception as e:
                     print(f"Error fetching contributors for {repo.name}: {str(e)}")
 
@@ -488,11 +458,11 @@ class ChangelogGenerator:
                                             if len(recent_entries) < 2 and all_entries.index(entry) < 3:
                                                 recent_entries.append(entry)
                                     elif all_entries.index(entry) < 2:
-                                            recent_entries.append(entry)
+                                        recent_entries.append(entry)
 
                                 repo_data["changelog_entries"] = recent_entries
                                 break
-                        except Exception as e:
+                        except Exception:
                             continue
                 except Exception as e:
                     print(f"Error checking changelog for {repo.name}: {str(e)}")
@@ -503,8 +473,8 @@ class ChangelogGenerator:
                 print(f"Error fetching releases for {repo.name}: {str(e)}")
 
             if not archival:
-                if  (repo_data["issues"] or repo_data["pulls"] or
-                    repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
+                if (repo_data["issues"] or repo_data["pulls"] or
+                        repo_data["commits"] or repo_data["changelog_entries"] or repo_data["releases"]):
                     data["repos"].append(repo_data)
             else:
                 data["repos"].append(repo_data)
