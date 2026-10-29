@@ -1,0 +1,2221 @@
+{
+  "DSACMS": {
+    "repos": [
+      {
+        "name": "open",
+        "url": "https://github.com/DSACMS/open",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "drive2gource",
+        "url": "https://github.com/DSACMS/drive2gource",
+        "description": "Moved to CMSgov Org: https://github.com/CMSgov/drive2gource",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-doc-uploader",
+        "url": "https://github.com/DSACMS/iv-doc-uploader",
+        "description": "A home for the suite of income verification related projects the DSAC and Facing Finical Shock teams are collaborating on",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "income-reporting-playbook",
+        "url": "https://github.com/DSACMS/income-reporting-playbook",
+        "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "repo-scaffolder",
+        "url": "https://github.com/DSACMS/repo-scaffolder",
+        "description": "Templates and commandline tools for creating repositories for US Federal open source projects ",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "https://www.federalregister.gov/d/2025-02090/p-17",
+            "url": "https://github.com/DSACMS/repo-scaffolder/pull/251",
+            "created_at": "2025-02-05T19:04:02+00:00",
+            "updated_at": "2026-10-07T19:00:20+00:00",
+            "merged_at": "2026-10-07T19:00:20+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "cms-eo14168",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #251 from DSACMS/eo14168\n\nhttps://www.federalregister.gov/d/2025-02090/p-17",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/172e445ce022d98d06b457ca03a0a5cb8e4b1dad",
+            "author": "decause-gov",
+            "created_at": "2026-10-07T19:00:19+00:00"
+          },
+          {
+            "message": "Merge branch 'main' into eo14168",
+            "url": "https://github.com/DSACMS/repo-scaffolder/commit/23401d83cec2ef585215369e6fc2615aafae97eb",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-07T18:39:04+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "cookiecutter-template",
+          "maturity-models",
+          "repolinter",
+          "repo-hygiene",
+          "cmsoss-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "ospo-guide",
+        "url": "https://github.com/DSACMS/ospo-guide",
+        "description": "Open Source Program Office Guide for CMS.gov",
+        "archived": false,
+        "issues": [
+          {
+            "title": "Updates to plain-language.md",
+            "url": "https://github.com/DSACMS/ospo-guide/issues/32",
+            "created_at": "2024-10-30T18:49:48+00:00",
+            "state": "closed",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Create a directory for event reports",
+            "url": "https://github.com/DSACMS/ospo-guide/issues/23",
+            "created_at": "2024-08-15T18:52:46+00:00",
+            "state": "open",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Update Draft AI Guidance for Q2 2026",
+            "url": "https://github.com/DSACMS/ospo-guide/issues/14",
+            "created_at": "2024-06-06T22:00:07+00:00",
+            "state": "closed",
+            "author": "aayatsali",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "About: Added new event reports section with California DPT OSS 2026 report",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/147",
+            "created_at": "2026-10-06T16:57:03+00:00",
+            "updated_at": "2026-10-06T16:57:20+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/146",
+            "created_at": "2026-10-01T04:42:27+00:00",
+            "updated_at": "2026-10-06T18:13:05+00:00",
+            "merged_at": "2026-10-06T18:13:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/141",
+            "created_at": "2026-09-01T04:03:26+00:00",
+            "updated_at": "2026-10-06T17:05:46+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Expand plain language documentation with best practices",
+            "url": "https://github.com/DSACMS/ospo-guide/pull/127",
+            "created_at": "2026-06-08T18:47:31+00:00",
+            "updated_at": "2026-10-06T17:00:18+00:00",
+            "merged_at": "2026-10-06T17:00:18+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "huda-code",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #146 from DSACMS/code-json-1790829745210\n\nUpdate code.json",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/68d9b57b40ba9e1ddd307bfc21ae8e4f06124e98",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-06T18:13:05+00:00"
+          },
+          {
+            "message": "updating contributors list",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/29cc203021a075d49f9eb77906138d44a8fcbaaa",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-06T17:00:35+00:00"
+          },
+          {
+            "message": "Merge pull request #127 from huda-code/patch-1\n\nExpand plain language documentation with best practices",
+            "url": "https://github.com/DSACMS/ospo-guide/commit/7b8a88e0792ea1be14879cf169c0542463bc4da5",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-06T17:00:17+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "guide",
+          "ospo",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "iv-cbv-payroll",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll",
+        "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "FFS-4895 Make gross_income required",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2160",
+            "created_at": "2026-10-09T15:47:47+00:00",
+            "updated_at": "2026-10-09T15:51:23+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4856 add report variant to json",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2159",
+            "created_at": "2026-10-09T13:06:34+00:00",
+            "updated_at": "2026-10-09T13:41:32+00:00",
+            "merged_at": "2026-10-09T13:41:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4903 Add education_type field to 3 places",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2158",
+            "created_at": "2026-10-08T21:42:34+00:00",
+            "updated_at": "2026-10-09T15:33:28+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4860: Add unpaid-only community engagement reporting",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2157",
+            "created_at": "2026-10-08T20:58:35+00:00",
+            "updated_at": "2026-10-09T12:47:45+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4857: Update \"Success\" page for Employment-focused ActivityFlow",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2156",
+            "created_at": "2026-10-08T19:45:24+00:00",
+            "updated_at": "2026-10-09T14:49:27+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4856 Add report_variant to CeReport",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2155",
+            "created_at": "2026-10-08T19:18:18+00:00",
+            "updated_at": "2026-10-09T13:04:22+00:00",
+            "merged_at": "2026-10-09T13:04:20+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4870 Update upload supporting docs page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2154",
+            "created_at": "2026-10-07T18:13:00+00:00",
+            "updated_at": "2026-10-08T17:06:57+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4867: Update Education self-attestation flow school info page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2153",
+            "created_at": "2026-10-07T17:46:59+00:00",
+            "updated_at": "2026-10-08T14:56:49+00:00",
+            "merged_at": "2026-10-08T14:49:52+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "Bump the pip group across 1 directory with 3 updates",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2152",
+            "created_at": "2026-10-07T15:38:14+00:00",
+            "updated_at": "2026-10-07T16:00:26+00:00",
+            "merged_at": "2026-10-07T16:00:23+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "[No ticket] Run dependabot on mondays",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2151",
+            "created_at": "2026-10-07T14:21:50+00:00",
+            "updated_at": "2026-10-07T14:41:33+00:00",
+            "merged_at": "2026-10-07T14:41:31+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "Fix markdownlint for your-agency.gov links",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2150",
+            "created_at": "2026-10-07T14:01:22+00:00",
+            "updated_at": "2026-10-07T16:03:31+00:00",
+            "merged_at": "2026-10-07T16:03:28+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4887 v2 api docs",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2149",
+            "created_at": "2026-10-07T13:55:38+00:00",
+            "updated_at": "2026-10-08T16:00:43+00:00",
+            "merged_at": "2026-10-08T15:53:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4919: Document Education JSON transmissions",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2148",
+            "created_at": "2026-10-06T20:22:35+00:00",
+            "updated_at": "2026-10-06T22:46:30+00:00",
+            "merged_at": "2026-10-06T22:46:27+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4864 custom submit page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2147",
+            "created_at": "2026-10-06T18:57:17+00:00",
+            "updated_at": "2026-10-09T14:23:28+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "Bump pg from 1.6.3 to 1.7.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2146",
+            "created_at": "2026-10-06T15:55:15+00:00",
+            "updated_at": "2026-10-07T16:17:05+00:00",
+            "merged_at": "2026-10-07T16:17:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump newrelic_rpm from 10.8.0 to 10.9.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2145",
+            "created_at": "2026-10-06T15:54:53+00:00",
+            "updated_at": "2026-10-07T16:07:28+00:00",
+            "merged_at": "2026-10-07T16:07:25+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump postcss-nesting from 14.0.1 to 14.0.2 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2144",
+            "created_at": "2026-10-06T15:54:38+00:00",
+            "updated_at": "2026-10-07T15:49:00+00:00",
+            "merged_at": "2026-10-07T15:48:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump brakeman from 8.0.6 to 8.1.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2143",
+            "created_at": "2026-10-06T15:54:34+00:00",
+            "updated_at": "2026-10-07T16:07:00+00:00",
+            "merged_at": "2026-10-07T16:06:57+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vite from 8.3.1 to 8.3.2 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2142",
+            "created_at": "2026-10-06T15:54:29+00:00",
+            "updated_at": "2026-10-07T16:04:57+00:00",
+            "merged_at": "2026-10-07T16:04:54+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump @scalar/api-reference from 1.72.1 to 1.72.4 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2141",
+            "created_at": "2026-10-06T15:54:19+00:00",
+            "updated_at": "2026-10-07T15:58:44+00:00",
+            "merged_at": "2026-10-07T15:58:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump jsdom from 30.1.0 to 30.1.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2140",
+            "created_at": "2026-10-06T15:54:03+00:00",
+            "updated_at": "2026-10-07T15:18:09+00:00",
+            "merged_at": "2026-10-07T15:18:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump sass from 1.105.0 to 1.105.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2139",
+            "created_at": "2026-10-06T15:53:59+00:00",
+            "updated_at": "2026-10-07T16:05:28+00:00",
+            "merged_at": "2026-10-07T16:05:25+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump aws-sdk-s3 from 1.232.2 to 1.233.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2138",
+            "created_at": "2026-10-06T15:53:59+00:00",
+            "updated_at": "2026-10-07T15:20:07+00:00",
+            "merged_at": "2026-10-07T15:20:04+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump json from 2.21.2 to 3.0.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2137",
+            "created_at": "2026-10-06T15:53:34+00:00",
+            "updated_at": "2026-10-07T16:23:45+00:00",
+            "merged_at": "2026-10-07T16:23:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Update version",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2136",
+            "created_at": "2026-10-06T15:42:49+00:00",
+            "updated_at": "2026-10-06T15:52:45+00:00",
+            "merged_at": "2026-10-06T15:44:32+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "Add Rspec style preference to AGENTS.md",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2135",
+            "created_at": "2026-10-05T19:06:35+00:00",
+            "updated_at": "2026-10-06T18:29:33+00:00",
+            "merged_at": "2026-10-06T18:29:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4720: Update documentation about release process",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2134",
+            "created_at": "2026-10-05T16:51:27+00:00",
+            "updated_at": "2026-10-07T17:06:35+00:00",
+            "merged_at": "2026-10-07T13:48:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "serverless-mom",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4865 Update copy on shared Employment-focused ActivityFlow pages",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2133",
+            "created_at": "2026-10-02T22:50:39+00:00",
+            "updated_at": "2026-10-08T01:38:31+00:00",
+            "merged_at": "2026-10-08T01:30:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4861 Add another job page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2132",
+            "created_at": "2026-10-02T17:25:02+00:00",
+            "updated_at": "2026-10-07T15:48:55+00:00",
+            "merged_at": "2026-10-07T15:41:23+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4769: Add education activities to ActivityJsonTransmitter",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2131",
+            "created_at": "2026-10-01T22:57:47+00:00",
+            "updated_at": "2026-10-02T19:23:18+00:00",
+            "merged_at": "2026-10-02T19:23:15+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4770: Add employment activities to ActivityJsonTransmitter",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2130",
+            "created_at": "2026-10-01T21:04:19+00:00",
+            "updated_at": "2026-10-05T15:01:49+00:00",
+            "merged_at": "2026-10-05T15:01:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4859 Add employment-focused entry page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2129",
+            "created_at": "2026-10-01T19:15:56+00:00",
+            "updated_at": "2026-10-02T23:08:35+00:00",
+            "merged_at": "2026-10-02T22:59:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4797 v2 api seperate endpoint v2",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2104",
+            "created_at": "2026-09-24T15:29:36+00:00",
+            "updated_at": "2026-10-08T17:01:22+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4708: Update documentation to remove Emmy API references",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2073",
+            "created_at": "2026-09-16T17:15:10+00:00",
+            "updated_at": "2026-10-07T13:48:17+00:00",
+            "merged_at": "2026-10-07T13:48:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "serverless-mom",
+            "is_new": false
+          },
+          {
+            "title": "FFS4720 update release process documentation",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2051",
+            "created_at": "2026-09-09T16:49:19+00:00",
+            "updated_at": "2026-10-05T16:51:48+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "serverless-mom",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "FFS-4887 v2 api docs (#2149)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5f7b17cb1f8590543e129bc58da0487f2e59584b",
+            "author": "Chris",
+            "created_at": "2026-10-08T15:53:29+00:00"
+          },
+          {
+            "message": "FFS-4867: Update Education self-attestation flow school info page (#2153)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0f3a9cb076df924babca5fe4f20095c9f69482e5",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-08T14:49:51+00:00"
+          },
+          {
+            "message": "FFS-4865 Update copy on shared Employment-focused ActivityFlow pages (#2133)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/890afe7b1b0a6f40cfc86109e11b3a0978abc731",
+            "author": "krista-skylight",
+            "created_at": "2026-10-08T01:30:54+00:00"
+          },
+          {
+            "message": "Bump json from 2.21.2 to 3.0.1 in /app (#2137)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4b1ca868cd119d1c57bd59bc0d675d2f324cd6cc",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:23:42+00:00"
+          },
+          {
+            "message": "Bump pg from 1.6.3 to 1.7.0 in /app (#2146)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f6645797ed020189f18b9a3fddeb99b1a9e31636",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:17:02+00:00"
+          },
+          {
+            "message": "Bump newrelic_rpm from 10.8.0 to 10.9.0 in /app (#2145)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/426c29a0c87e346e27320bc64a4bc2ee1f61105d",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:07:25+00:00"
+          },
+          {
+            "message": "Bump brakeman from 8.0.6 to 8.1.0 in /app (#2143)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1ba4a02bbbbf4560dc8c96824fc8532ce494eb2e",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:06:56+00:00"
+          },
+          {
+            "message": "Bump sass from 1.105.0 to 1.105.1 in /app (#2139)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/51d70b5d354e91a777e177d324a05b70c2a2d339",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:05:25+00:00"
+          },
+          {
+            "message": "Bump vite from 8.3.1 to 8.3.2 in /app (#2142)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b195471ba8733fef0732d024e1c41dfc634727d1",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:04:53+00:00"
+          },
+          {
+            "message": "Fix markdownlint for your-agency.gov links (#2150)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/dac79d374efb2bf1f076da0541a8ebbf94b6aea0",
+            "author": "Tom Dooner",
+            "created_at": "2026-10-07T16:03:28+00:00"
+          },
+          {
+            "message": "Bump the pip group across 1 directory with 3 updates (#2152)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cb44e6a3178d579cdca66ebd6c867696482d780e",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T16:00:22+00:00"
+          },
+          {
+            "message": "Bump @scalar/api-reference from 1.72.1 to 1.72.4 in /app (#2141)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/6374c064d9e2c810eeae2264f57b4808e5ba2cb4",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T15:58:39+00:00"
+          },
+          {
+            "message": "Bump postcss-nesting from 14.0.1 to 14.0.2 in /app (#2144)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/354b5329db2d363f0d63332fc6e430d06e9ed67b",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T15:48:58+00:00"
+          },
+          {
+            "message": "FFS-4861 Add another job page (#2132)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/542c034398269fcd365335b04c31075eafd8db11",
+            "author": "Chris",
+            "created_at": "2026-10-07T15:41:22+00:00"
+          },
+          {
+            "message": "Bump aws-sdk-s3 from 1.232.2 to 1.233.1 in /app (#2138)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d33eaf1b52e187ec01eea67299c7781eaf838694",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T15:20:03+00:00"
+          },
+          {
+            "message": "Bump jsdom from 30.1.0 to 30.1.1 in /app (#2140)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Chris Vetter <chrisvetter@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/fb482447a7308f43b26c570ab12c2ec545d3b6d2",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-07T15:18:06+00:00"
+          },
+          {
+            "message": "[No ticket] Run dependabot on mondays (#2151)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d459aad341819ef7f5ca33d87226ee2cea2bda25",
+            "author": "Chris",
+            "created_at": "2026-10-07T14:41:30+00:00"
+          },
+          {
+            "message": "FFS-4720: Update documentation about release process (#2134)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/dc3a4e41ecbe871e795d3022e440be960d972940",
+            "author": "No\u010dnica Mellifera",
+            "created_at": "2026-10-07T13:48:56+00:00"
+          },
+          {
+            "message": "FFS-4708: Update documentation to remove Emmy API references (#2073)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/432c91a73445f0066383fd051905aa7a70619a18",
+            "author": "No\u010dnica Mellifera",
+            "created_at": "2026-10-07T13:48:13+00:00"
+          },
+          {
+            "message": "FFS-4919: Document Education JSON transmissions (#2148)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3d318d3de0b79b49378f1b4783a62ca33607499e",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-06T22:46:27+00:00"
+          },
+          {
+            "message": "Add Rspec style preference to AGENTS.md (#2135)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b4fd58ef699ff6e78d7dc9d53ea03c196c8849e9",
+            "author": "Tom Dooner",
+            "created_at": "2026-10-06T18:29:30+00:00"
+          },
+          {
+            "message": "Release v0.10.0 (#2136)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/32827d557de6ef0209feade0a8c811aa7a8eb2cc",
+            "author": "Chris",
+            "created_at": "2026-10-06T15:44:31+00:00"
+          },
+          {
+            "message": "FFS-4770: Add employment activities to ActivityJsonTransmitter (#2130)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/8f0d4e35f24e5d680d12ceee089a8ecf5575b0f9",
+            "author": "Tom Dooner",
+            "created_at": "2026-10-05T15:01:45+00:00"
+          },
+          {
+            "message": "FFS-4859 Add employment-focused entry page (#2129)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/998bf76b18099add3cb55ed07f0c364b420cb25a",
+            "author": "Chris",
+            "created_at": "2026-10-02T22:59:45+00:00"
+          },
+          {
+            "message": "FFS-4769: Add education activities to ActivityJsonTransmitter (#2131)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f649d228705fe8546a7e2ca043d3bb45e495f21e",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-02T19:23:15+00:00"
+          }
+        ],
+        "releases": [
+          {
+            "name": "v0.10.0",
+            "body": "\ud83d\udcdd *Emmy Income only user facing changes*\r\n- No changes, nothing to review!\r\n\ud83c\udfc6 *Emmy CE only user facing changes*\r\n- Add employment activities to ActivityJsonTransmitter [(#2130)](https://github.com/DSACMS/iv-cbv-payroll/pull/2130) - Tom Dooner [[FFS-4770]](https://jiraent.cms.gov/browse/FFS-4770)\r\n- Add employment-focused entry page [(#2129)](https://github.com/DSACMS/iv-cbv-payroll/pull/2129) - Chris [[FFS-4859]](https://jiraent.cms.gov/browse/FFS-4859)\r\n- Add education activities to ActivityJsonTransmitter [(#2131)](https://github.com/DSACMS/iv-cbv-payroll/pull/2131) - Daphne Gold [[FFS-4769]](https://jiraent.cms.gov/browse/FFS-4769)\r\n- Update CE timeout page [(#2124)](https://github.com/DSACMS/iv-cbv-payroll/pull/2124) - Jake Wheeler [[FFS-4848]](https://jiraent.cms.gov/browse/FFS-4848)\r\n- Add employment-focused Tokenized API endpoint [(#2112)](https://github.com/DSACMS/iv-cbv-payroll/pull/2112) - Chris [[FFS-4858]](https://jiraent.cms.gov/browse/FFS-4858)\r\n- Update doc upload and review pages for unpaid/in-kind work in Emmy CE manual reporting flow [(#2125)](https://github.com/DSACMS/iv-cbv-payroll/pull/2125) - Daphne Gold [[FFS-4808]](https://jiraent.cms.gov/browse/FFS-4808)\r\n- Update API Docs generation to occur on DSACMS/iv-cbv-payroll [(#2123)](https://github.com/DSACMS/iv-cbv-payroll/pull/2123) - Tom Dooner [[FFS-4389]](https://jiraent.cms.gov/browse/FFS-4389)\r\n- Generate and publish OpenAPI developer documentation [(#2107)](https://github.com/DSACMS/iv-cbv-payroll/pull/2107) - Tom Dooner [[FFS-4389]](https://jiraent.cms.gov/browse/FFS-4389)\r\n\u2699\ufe0f *Other/Maintenance (Not user facing)*\r\n- Bump vitest\r\n- Update readme to keep testing flow up to date [(#2128)](https://github.com/DSACMS/iv-cbv-payroll/pull/2128) - iannorriswork\r\n- No ticket: Update PR template to include new test deployment job link [(#2127)](https://github.com/DSACMS/iv-cbv-payroll/pull/2127) - Jake Wheeler\r\n- Add Mixpanel events for employment month selection page [(#2126)](https://github.com/DSACMS/iv-cbv-payroll/pull/2126) - Daphne Gold [[FFS-4850]](https://jiraent.cms.gov/browse/FFS-4850)\r\n\r\nSee the full diff: https://github.com/DSACMS/iv-cbv-payroll/compare/v0.9.0..8f0d4e3",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/v0.10.0",
+            "published_at": "2026-10-06T15:47:10+00:00",
+            "created_at": "2026-10-06T15:44:31+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "ccvetter",
+            "tag_name": "v0.10.0"
+          }
+        ],
+        "topics": [
+          "cms",
+          "community-engagement",
+          "medicaid",
+          "medicaid-expansion",
+          "eligibility-determination",
+          "hr-1",
+          "income-verification",
+          "work-requirement",
+          "education",
+          "open-source",
+          "center-for-medicaid-and-children-services",
+          "education-program",
+          "work-program"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "interagency-research-ops",
+        "url": "https://github.com/DSACMS/interagency-research-ops",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pycon-poster-2024",
+        "url": "https://github.com/DSACMS/pycon-poster-2024",
+        "description": "Poster for PyCon 2024 Session about Establishing Repository Baselines",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-verify",
+        "url": "https://github.com/DSACMS/iv-verify",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-delivery",
+        "url": "https://github.com/DSACMS/iv-delivery",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "repodive-tools",
+        "url": "https://github.com/DSACMS/repodive-tools",
+        "description": "Scripts and tools to gather information about git repositories.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Add tool scripts",
+            "url": "https://github.com/DSACMS/repodive-tools/pull/28",
+            "created_at": "2026-10-08T13:31:39+00:00",
+            "updated_at": "2026-10-08T19:10:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "dsacms-tier1",
+          "cms-oss-tier1",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "codejson-generator",
+        "url": "https://github.com/DSACMS/codejson-generator",
+        "description": "Form to generate code.json",
+        "archived": false,
+        "issues": [
+          {
+            "title": "Fix loading button state",
+            "url": "https://github.com/DSACMS/codejson-generator/issues/96",
+            "created_at": "2025-08-25T21:47:25+00:00",
+            "state": "closed",
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "pulls": [
+          {
+            "title": "GSA-SHARE-IT Repository Migration Preparation",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/151",
+            "created_at": "2026-10-08T23:38:17+00:00",
+            "updated_at": "2026-10-08T23:47:58+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/150",
+            "created_at": "2026-10-03T06:38:58+00:00",
+            "updated_at": "2026-10-08T22:47:48+00:00",
+            "merged_at": "2026-10-08T22:47:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/149",
+            "created_at": "2026-10-01T03:35:27+00:00",
+            "updated_at": "2026-10-08T22:50:55+00:00",
+            "merged_at": "2026-10-08T22:50:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/148",
+            "created_at": "2026-09-26T06:12:11+00:00",
+            "updated_at": "2026-10-08T22:48:14+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/147",
+            "created_at": "2026-09-19T06:02:16+00:00",
+            "updated_at": "2026-10-08T22:48:25+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/146",
+            "created_at": "2026-09-15T15:09:59+00:00",
+            "updated_at": "2026-10-08T22:49:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/144",
+            "created_at": "2026-09-15T14:50:13+00:00",
+            "updated_at": "2026-10-08T22:49:20+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/143",
+            "created_at": "2026-09-12T05:56:33+00:00",
+            "updated_at": "2026-10-08T22:49:19+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/142",
+            "created_at": "2026-09-05T05:53:10+00:00",
+            "updated_at": "2026-10-08T22:49:19+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/140",
+            "created_at": "2026-09-01T03:03:28+00:00",
+            "updated_at": "2026-10-08T22:51:24+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/139",
+            "created_at": "2026-08-29T07:55:08+00:00",
+            "updated_at": "2026-10-08T22:49:18+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/138",
+            "created_at": "2026-08-22T02:29:58+00:00",
+            "updated_at": "2026-10-08T22:49:17+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/137",
+            "created_at": "2026-08-15T02:28:07+00:00",
+            "updated_at": "2026-10-08T22:49:16+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/136",
+            "created_at": "2026-08-08T03:02:06+00:00",
+            "updated_at": "2026-10-08T22:49:16+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/135",
+            "created_at": "2026-08-01T04:43:15+00:00",
+            "updated_at": "2026-10-08T22:49:15+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/134",
+            "created_at": "2026-08-01T02:11:47+00:00",
+            "updated_at": "2026-10-08T22:51:23+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/133",
+            "created_at": "2026-07-25T04:34:04+00:00",
+            "updated_at": "2026-10-08T22:49:14+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/132",
+            "created_at": "2026-07-18T04:17:19+00:00",
+            "updated_at": "2026-10-08T22:49:13+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/131",
+            "created_at": "2026-07-11T04:32:03+00:00",
+            "updated_at": "2026-10-08T22:49:13+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/130",
+            "created_at": "2026-07-04T04:57:51+00:00",
+            "updated_at": "2026-10-08T22:49:12+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/129",
+            "created_at": "2026-07-01T02:52:31+00:00",
+            "updated_at": "2026-10-08T22:51:23+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/128",
+            "created_at": "2026-06-27T05:05:02+00:00",
+            "updated_at": "2026-10-08T22:49:11+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/127",
+            "created_at": "2026-06-20T05:45:28+00:00",
+            "updated_at": "2026-10-08T22:49:10+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/126",
+            "created_at": "2026-06-13T05:47:29+00:00",
+            "updated_at": "2026-10-08T22:49:10+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/125",
+            "created_at": "2026-06-06T05:05:51+00:00",
+            "updated_at": "2026-10-08T22:49:09+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/124",
+            "created_at": "2026-06-01T03:00:16+00:00",
+            "updated_at": "2026-10-08T22:51:22+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/123",
+            "created_at": "2026-05-30T05:01:13+00:00",
+            "updated_at": "2026-10-08T22:49:08+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/122",
+            "created_at": "2026-05-23T04:52:56+00:00",
+            "updated_at": "2026-10-08T22:49:08+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/121",
+            "created_at": "2026-05-16T04:42:54+00:00",
+            "updated_at": "2026-10-08T22:49:07+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/120",
+            "created_at": "2026-05-09T04:38:34+00:00",
+            "updated_at": "2026-10-08T22:50:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/119",
+            "created_at": "2026-05-02T04:30:33+00:00",
+            "updated_at": "2026-10-08T22:50:20+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/118",
+            "created_at": "2026-05-01T02:32:50+00:00",
+            "updated_at": "2026-10-08T22:51:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/117",
+            "created_at": "2026-04-25T04:09:32+00:00",
+            "updated_at": "2026-10-08T22:50:20+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/116",
+            "created_at": "2026-04-18T04:05:44+00:00",
+            "updated_at": "2026-10-08T22:50:19+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/115",
+            "created_at": "2026-04-11T03:55:28+00:00",
+            "updated_at": "2026-10-08T22:50:18+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/114",
+            "created_at": "2026-04-04T03:43:20+00:00",
+            "updated_at": "2026-10-08T22:50:18+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/113",
+            "created_at": "2026-04-01T02:01:53+00:00",
+            "updated_at": "2026-10-08T22:51:21+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/112",
+            "created_at": "2026-03-28T03:45:45+00:00",
+            "updated_at": "2026-10-08T22:50:17+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/111",
+            "created_at": "2026-03-21T03:31:18+00:00",
+            "updated_at": "2026-10-08T22:50:16+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/110",
+            "created_at": "2026-03-14T03:36:13+00:00",
+            "updated_at": "2026-10-08T22:50:16+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "docs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/109",
+            "created_at": "2026-03-11T14:20:43+00:00",
+            "updated_at": "2026-10-08T22:50:15+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/107",
+            "created_at": "2026-03-01T01:49:24+00:00",
+            "updated_at": "2026-10-08T22:51:20+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/106",
+            "created_at": "2026-02-01T01:50:41+00:00",
+            "updated_at": "2026-10-08T22:51:19+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/105",
+            "created_at": "2026-01-01T01:21:22+00:00",
+            "updated_at": "2026-10-08T22:51:19+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Refactor-draft-to-remove-bootstrap",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/42",
+            "created_at": "2025-03-26T14:00:07+00:00",
+            "updated_at": "2026-10-08T22:55:18+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Repolinter Results",
+            "url": "https://github.com/DSACMS/codejson-generator/pull/27",
+            "created_at": "2025-02-11T17:40:45+00:00",
+            "updated_at": "2026-10-08T22:53:05+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "IsaacMilarky",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #149 from DSACMS/code-json-1790825724957\n\nUpdate code.json",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/fff9aa07e29ab8708937893b428be4cb373b7d11",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-08T22:50:54+00:00"
+          },
+          {
+            "message": "Merge pull request #150 from DSACMS/contributors-readme-action-vaEucSIbRb\n\ndocs(contributor): contributors readme action update",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/e245a0ca74cbb0d335fef551a28df1746645c38e",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-08T22:47:47+00:00"
+          },
+          {
+            "message": "update contributors information",
+            "url": "https://github.com/DSACMS/codejson-generator/commit/b0909dd1ae04832db86f0eff2c1a24ba8a659220",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-03T06:38:56+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "dsacms-tier3",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "automated-codejson-generator",
+        "url": "https://github.com/DSACMS/automated-codejson-generator",
+        "description": "Github Action that allows for automated code.json creation and maintenance ",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Bump the npm group across 1 directory with 18 updates",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/175",
+            "created_at": "2026-10-07T18:10:33+00:00",
+            "updated_at": "2026-10-07T18:10:35+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump the npm group across 1 directory with 19 updates",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/174",
+            "created_at": "2026-10-02T17:23:23+00:00",
+            "updated_at": "2026-10-07T18:09:44+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump the npm group across 1 directory with 18 updates",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/173",
+            "created_at": "2026-10-01T18:17:03+00:00",
+            "updated_at": "2026-10-02T17:22:36+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Bump codejson-core to 0.2.0",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/171",
+            "created_at": "2026-09-30T18:38:54+00:00",
+            "updated_at": "2026-10-07T18:05:53+00:00",
+            "merged_at": "2026-10-07T18:05:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          },
+          {
+            "title": "Adding Local AI Generation",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/156",
+            "created_at": "2026-09-17T18:51:50+00:00",
+            "updated_at": "2026-10-02T17:18:41+00:00",
+            "merged_at": "2026-10-02T17:18:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          },
+          {
+            "title": "chore: update federal dependency list",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/pull/154",
+            "created_at": "2026-08-31T14:59:34+00:00",
+            "updated_at": "2026-10-05T13:53:03+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Bump codejson-core to 0.2.0 (#171)\n\n* bump codejson-core to 0.2.0\n\n* use cmsProfile and remove draft patch\n\n* reverting workflow pointer",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/commit/a8fa08c27e2b3849cad42493891f6f1f9f6a0429",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-07T18:05:52+00:00"
+          },
+          {
+            "message": "Adding Local AI Generation (#156)\n\n* recreating dockerfile to donwload gemma model\n\n* adding extra ignore statements, just incase\n\n* updating action.yml\n\n* doing an llm test\n\n* updating workflow file\n\n* updating action for testing\n\n* fixing test\n\n* updating action file to use GHRC image\n\n* filling out more deterministic fields\n\n* adding llm model integration logic\n\n* creating logic to connect code.json to model\n\n* hooking up model logic into main\n\n* reverting back to local dockerfile for testing\n\n* reverting code.json for testing\n\n* fixing empty tags generation\n\n* actually fixing tags\n\n* adding classfication instructions\n\n* Potential fix for pull request finding 'CodeQL / Incomplete multi-character sanitization'\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>\n\n* adding security logic to reduce attacks to new AI vector\n\n* adding opt in for AI features\n\n* reverting to use the GHCR package\n\n---------\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/automated-codejson-generator/commit/fa6e57fd52a1dc3af0c8704f647ff8a4e31f689e",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T17:18:40+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "code-json",
+          "dsacms-tier3"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "share-it-act-lp",
+        "url": "https://github.com/DSACMS/share-it-act-lp",
+        "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Metadata & FAQ: Add content on code.json fields that can be auto-generated",
+            "url": "https://github.com/DSACMS/share-it-act-lp/pull/60",
+            "created_at": "2026-10-06T22:29:47+00:00",
+            "updated_at": "2026-10-08T18:07:34+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "cms-ospo",
+          "share-it-act",
+          "featured",
+          "codejson",
+          "inventory",
+          "metadata"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "super-changelog",
+        "url": "https://github.com/DSACMS/super-changelog",
+        "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Weekly Changelog Summary: 2026-02-20 to 2026-02-27",
+            "url": "https://github.com/DSACMS/super-changelog/pull/169",
+            "created_at": "2026-10-02T05:28:11+00:00",
+            "updated_at": "2026-10-02T14:39:43+00:00",
+            "merged_at": "2026-10-02T14:39:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-09-25 to 2026-10-02",
+            "url": "https://github.com/DSACMS/super-changelog/pull/170",
+            "created_at": "2026-10-02T05:28:11+00:00",
+            "updated_at": "2026-10-02T14:40:41+00:00",
+            "merged_at": "2026-10-02T14:40:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/super-changelog/pull/168",
+            "created_at": "2026-10-01T03:19:10+00:00",
+            "updated_at": "2026-10-02T14:39:12+00:00",
+            "merged_at": "2026-10-02T14:39:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-08-21 to 2026-08-28",
+            "url": "https://github.com/DSACMS/super-changelog/pull/167",
+            "created_at": "2026-09-25T04:49:58+00:00",
+            "updated_at": "2026-10-02T14:37:02+00:00",
+            "merged_at": "2026-10-02T14:36:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-09-18 to 2026-09-25",
+            "url": "https://github.com/DSACMS/super-changelog/pull/166",
+            "created_at": "2026-09-25T04:49:52+00:00",
+            "updated_at": "2026-10-02T14:36:18+00:00",
+            "merged_at": "2026-10-02T14:36:13+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-06-26 to 2026-07-03",
+            "url": "https://github.com/DSACMS/super-changelog/pull/165",
+            "created_at": "2026-09-18T04:33:28+00:00",
+            "updated_at": "2026-10-02T14:35:39+00:00",
+            "merged_at": "2026-10-02T14:35:33+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-09-11 to 2026-09-18",
+            "url": "https://github.com/DSACMS/super-changelog/pull/164",
+            "created_at": "2026-09-18T04:33:23+00:00",
+            "updated_at": "2026-10-02T14:35:00+00:00",
+            "merged_at": "2026-10-02T14:34:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Add weekly condensed changelog summary for 2026-10-02 (#170)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/ecebc2c3f758647f895799c0d5de74a740a9c57c",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:40:28+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-10-02 (#169)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/7d187317808925422f97ef63828b5412f8bf2650",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:39:36+00:00"
+          },
+          {
+            "message": "Update code.json metadata (#168)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/b3cd58f1b2654b7eb47128e0d3673640d0953c06",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T14:39:04+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-09-25 (#167)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/52707edadcda480e76c07540237c259760b14b44",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:36:47+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-09-25 (#166)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/13e1885edbf2154be62e5fd96aa5884bb9859f2e",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:36:12+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-09-18 (#165)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/35214ededed039d6e428f05a376c97017bacb0de",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:35:33+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-09-18 (#164)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/b390f53f1d8ea34c421bc179fedd7198d7bf7c4c",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-02T14:34:54+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "cmsgov",
+          "cmsoss-tier3",
+          "commops",
+          "ospo",
+          "superchangelog",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "tier1",
+        "url": "https://github.com/DSACMS/tier1",
+        "description": "Tier 1 Template Repository",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier1/pull/4",
+            "created_at": "2026-07-08T17:19:01+00:00",
+            "updated_at": "2026-10-07T19:00:42+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "tier2",
+        "url": "https://github.com/DSACMS/tier2",
+        "description": "Tier 2 Template Repository",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier2/pull/6",
+            "created_at": "2026-07-08T17:19:06+00:00",
+            "updated_at": "2026-10-07T19:00:50+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "tier3",
+        "url": "https://github.com/DSACMS/tier3",
+        "description": "Tier 3 Template Repository",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier3/pull/6",
+            "created_at": "2026-07-08T17:19:09+00:00",
+            "updated_at": "2026-10-07T19:00:56+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "tier4",
+        "url": "https://github.com/DSACMS/tier4",
+        "description": "Tier 4 Template Repository",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "\ud83d\udd04 synced file(s) with DSACMS/repo-scaffolder",
+            "url": "https://github.com/DSACMS/tier4/pull/6",
+            "created_at": "2026-07-08T17:19:13+00:00",
+            "updated_at": "2026-10-07T19:01:02+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "durc_is_crud",
+        "url": "https://github.com/DSACMS/durc_is_crud",
+        "description": "Python version of DURC",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pra-guides",
+        "url": "https://github.com/DSACMS/pra-guides",
+        "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "caseworkerportal",
+        "url": "https://github.com/DSACMS/caseworkerportal",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "archival-identifier",
+        "url": "https://github.com/DSACMS/archival-identifier",
+        "description": "A GitHub Action to identify repositories for archival",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/archival-identifier/pull/26",
+            "created_at": "2026-10-01T03:35:50+00:00",
+            "updated_at": "2026-10-07T17:10:37+00:00",
+            "merged_at": "2026-10-07T17:10:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/archival-identifier/pull/25",
+            "created_at": "2026-09-01T03:03:50+00:00",
+            "updated_at": "2026-10-07T17:10:15+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Dsacms/zion/dormant streams",
+            "url": "https://github.com/DSACMS/archival-identifier/pull/24",
+            "created_at": "2026-08-12T15:31:56+00:00",
+            "updated_at": "2026-10-07T17:09:56+00:00",
+            "merged_at": "2026-10-07T17:09:56+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "zionmich",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #26 from DSACMS/code-json-1790825746382\n\nUpdate code.json",
+            "url": "https://github.com/DSACMS/archival-identifier/commit/97fe49fbe4cc57fb47729f2f0284b927b8c3d082",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-07T17:10:36+00:00"
+          },
+          {
+            "message": "Merge pull request #24 from DSACMS/DSACMS/zion/dormant-streams\n\nDsacms/zion/dormant streams",
+            "url": "https://github.com/DSACMS/archival-identifier/commit/fd949fdce8a5eeeb5008c819c12989a8dee684cb",
+            "author": "Natalia Luzuriaga",
+            "created_at": "2026-10-07T17:09:55+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "dsacms-tier3",
+          "archive",
+          "archive-candidate",
+          "end-of-life",
+          "eol",
+          "featured",
+          "github-actions",
+          "organization-management",
+          "ospos",
+          "stale-repo",
+          "sunset"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "emmy-agent-marketplace",
+        "url": "https://github.com/DSACMS/emmy-agent-marketplace",
+        "description": null,
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Bump the javascript-development-dependencies group across 1 directory with 3 updates",
+            "url": "https://github.com/DSACMS/emmy-agent-marketplace/pull/18",
+            "created_at": "2026-09-21T13:11:43+00:00",
+            "updated_at": "2026-10-05T13:10:27+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "medicare_monthly_enrollment_dashboard",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+        "description": "Re-implement the Medicare Monthly Enrollment dashboard in an open-source framework that could be deployed to data.cms.gov in the future.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Feature/accessibility",
+            "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/62",
+            "created_at": "2026-09-04T16:12:19+00:00",
+            "updated_at": "2026-10-05T13:45:45+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "mgifford",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "dsacms-tier2",
+          "dashboard",
+          "medicare",
+          "medicare-advantage",
+          "medicare-data",
+          "prescription-drug"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "codejson-core",
+        "url": "https://github.com/DSACMS/codejson-core",
+        "description": "An NPM package for schemas, validation, and assembly logic for code.json.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "v0.3.0",
+            "url": "https://github.com/DSACMS/codejson-core/pull/2",
+            "created_at": "2026-10-01T14:56:25+00:00",
+            "updated_at": "2026-10-07T18:06:31+00:00",
+            "merged_at": "2026-10-07T18:06:25+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #2 from DSACMS/sachin/deep-merge\n\nv0.3.0",
+            "url": "https://github.com/DSACMS/codejson-core/commit/fd7ffe44b59cbb6d8fa22ea11fb130f251aa0c86",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-07T18:06:25+00:00"
+          },
+          {
+            "message": "updating readme for release v0.3.0",
+            "url": "https://github.com/DSACMS/codejson-core/commit/b47d0872fb0ed8a28c2b1411e789e1f710a4b91b",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-05T15:29:21+00:00"
+          },
+          {
+            "message": "porting over merge logic from ACG and additionnal",
+            "url": "https://github.com/DSACMS/codejson-core/commit/10ac4bb219c0ab7269d0edee9fe20295115aa2f5",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-05T15:15:51+00:00"
+          }
+        ],
+        "releases": [
+          {
+            "name": "v0.3.0",
+            "body": "## What's Changed\r\n* v0.3.0 by @sachin-panayil in https://github.com/DSACMS/codejson-core/pull/2\r\n\r\n**Full Changelog**: https://github.com/DSACMS/codejson-core/compare/v0.2.0...v0.3.0",
+            "url": "https://github.com/DSACMS/codejson-core/releases/tag/v0.3.0",
+            "published_at": "2026-10-07T18:17:11+00:00",
+            "created_at": "2026-10-07T18:06:25+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "sachin-panayil",
+            "tag_name": "v0.3.0"
+          }
+        ],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "codejson-action-e2e",
+        "url": "https://github.com/DSACMS/codejson-action-e2e",
+        "description": null,
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/pull/46",
+            "created_at": "2026-10-02T17:24:31+00:00",
+            "updated_at": "2026-10-02T17:24:42+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Update code.json",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/pull/45",
+            "created_at": "2026-10-02T17:21:25+00:00",
+            "updated_at": "2026-10-02T17:21:36+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          }
+        ],
+        "commits": [
+          {
+            "message": "Reset sandbox code.json after e2e",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/commit/db107670b0f4df350d938e3092554536c3f0dbf5",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T17:24:43+00:00"
+          },
+          {
+            "message": "Update code.json metadata",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/commit/3a51cfb39522a43fc83166acfd9e6831ce52696d",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T17:24:35+00:00"
+          },
+          {
+            "message": "Reset sandbox code.json after e2e",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/commit/d8a4c04ee48866eb57c5c90e0dcfce37e92fa866",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T17:21:37+00:00"
+          },
+          {
+            "message": "Update code.json metadata",
+            "url": "https://github.com/DSACMS/codejson-action-e2e/commit/e08911dcc722c1d30397630bbfe466d0e4819a65",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T17:21:30+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "fdsh-utils",
+        "url": "https://github.com/DSACMS/fdsh-utils",
+        "description": null,
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": " [FFS-4823] add tracking tags",
+            "url": "https://github.com/DSACMS/fdsh-utils/pull/31",
+            "created_at": "2026-10-06T15:01:13+00:00",
+            "updated_at": "2026-10-06T15:08:48+00:00",
+            "merged_at": "2026-10-06T15:08:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "iannorriswork",
+            "is_new": true
+          },
+          {
+            "title": " [FFS-4823] add analytics",
+            "url": "https://github.com/DSACMS/fdsh-utils/pull/30",
+            "created_at": "2026-10-05T16:22:01+00:00",
+            "updated_at": "2026-10-05T17:45:08+00:00",
+            "merged_at": "2026-10-05T17:45:08+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "iannorriswork",
+            "is_new": true
+          }
+        ],
+        "commits": [
+          {
+            "message": "add tracking tags (#31)\n\nCo-authored-by: Ian Norris <iannorris@Ians-MacBook-Pro.local>",
+            "url": "https://github.com/DSACMS/fdsh-utils/commit/ed85120a32bc61eeb8c8a43c86c2a67c24508a3d",
+            "author": "iannorriswork",
+            "created_at": "2026-10-06T15:08:47+00:00"
+          },
+          {
+            "message": " [FFS-4823] add analytics (#30)",
+            "url": "https://github.com/DSACMS/fdsh-utils/commit/6eecb58d0553652e50971361c53f25389096ccd1",
+            "author": "iannorriswork",
+            "created_at": "2026-10-05T17:45:07+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "eng-cop-scheduler",
+        "url": "https://github.com/DSACMS/eng-cop-scheduler",
+        "description": "Talk schedule for the OHTP Engineering Community of Practice",
+        "archived": false,
+        "issues": [
+          {
+            "title": "[Talk] AI in the Web Browser",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/issues/1",
+            "created_at": "2026-10-02T18:29:45+00:00",
+            "state": "closed",
+            "author": "sachin-panayil",
+            "is_new": true
+          }
+        ],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "adding colored background for easier reading",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/27da89b2da3a9117848152aefd129387bdc8d4a7",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-05T14:28:41+00:00"
+          },
+          {
+            "message": "fixing broken link",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/1ec9c9b90854330fd0ca84005a33d05c3cf7c4e3",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-05T14:10:35+00:00"
+          },
+          {
+            "message": "bolding date",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/bba05902c1c8fefd0a4bf1d48ae4963de9aa060e",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-05T14:09:50+00:00"
+          },
+          {
+            "message": "chore: rebuild schedule",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/0a580153ffdc6a8b35a94532454167d74f2db808",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T18:54:40+00:00"
+          },
+          {
+            "message": "Update title of README to Engineering CoP Scheduler",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/5114d660a58409e49ac3799ac81ae59666d7911f",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T18:53:38+00:00"
+          },
+          {
+            "message": "Streamline the admin runbook and README; accept hand-edited format answers\n\nADMIN.md now covers end-to-end admin work: approving, changes, format/date\nchanges after approval, speakers backing out, collisions, no-account\nproposals, and calendar edits (add/cancel/restore/reshape/move dates).\nREADME is trimmed to what the tool is, how to propose, and how to develop.\n\nA speaker editing the issue by hand can now write the format as the full\noption, the short name, or the key, and the error lists the exact options.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014EYorxqr7yzxLgBJed5JDR",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/8c2fa2b684f56dc064fd0f548aa2e8e029c1a59a",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T18:49:01+00:00"
+          },
+          {
+            "message": "Update site header, page title and add feds-only membership note\n\nRemove the top-bar icon, retitle the header (Office of Health & Technology\nProducts / Open Source Program Group), rename the page to Engineering\nCommunity of Practice with a one-line subtitle, and add a note pointing\npeople to #cms-ospo (feds only).\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014EYorxqr7yzxLgBJed5JDR",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/9babf78a81219e84857e4f05b536de45cbf0054d",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T18:38:16+00:00"
+          },
+          {
+            "message": "chore: rebuild schedule",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/a00a336c0835c4d25d087ad99e97844729928b1d",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T18:30:10+00:00"
+          },
+          {
+            "message": "chore: rebuild schedule",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/fb901dba7ac5e47064546bdf539548c2ff6e327a",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-02T18:29:57+00:00"
+          },
+          {
+            "message": "Fix HTTP 406 on submit: rename the \"format\" form field to \"talk-format\"\n\nField ids become query parameters on github.com/<repo>/issues/new, and Rails\ntreats ?format= as the response type, so \"Lightning talk (20 min)\" returned\n406 Not Acceptable. Add a reserved-id guard to form.json validation so this\ncannot come back.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014EYorxqr7yzxLgBJed5JDR",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/ab47cfcbc4350865576969affa89ad981b9409c3",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T18:26:11+00:00"
+          },
+          {
+            "message": "Initial commit: Engineering CoP talk schedule\n\nStatic site, schedule compiler, issue-form parser and Actions workflow that\nlet participants claim open speaking slots via a prefilled GitHub issue.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014EYorxqr7yzxLgBJed5JDR",
+            "url": "https://github.com/DSACMS/eng-cop-scheduler/commit/d42d2fc1139bce6cd56109c54d14bd92eb62faf9",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-02T18:20:04+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "metrics-data",
+        "url": "https://github.com/DSACMS/metrics-data",
+        "description": "A repository to hold various metrics data",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Add initial README",
+            "url": "https://github.com/DSACMS/metrics-data/pull/1",
+            "created_at": "2026-10-08T15:29:19+00:00",
+            "updated_at": "2026-10-08T15:29:20+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          }
+        ],
+        "commits": [
+          {
+            "message": "Initial commit",
+            "url": "https://github.com/DSACMS/metrics-data/commit/e1ff94c5a8f1a7b000961ae5231d44f5db6c9842",
+            "author": "Dinne Kopelevich",
+            "created_at": "2026-10-08T14:23:49+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [
+          {
+            "name": "DinneK",
+            "company": "DSAC(Work), GSA (work) + personal projects",
+            "created_at": "2026-10-08T14:23:49+00:00",
+            "email": "63877492+DinneK@users.noreply.github.com"
+          }
+        ],
+        "changelog_entries": []
+      }
+    ],
+    "period": {
+      "start": "2026-10-02",
+      "end": "2026-10-09"
+    },
+    "generated_at": "2026-10-09T16:04:47.799562+00:00",
+    "total_repo_count": 101
+  }
+}
