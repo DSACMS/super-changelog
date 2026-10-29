@@ -1,0 +1,339 @@
+{
+  "period": {
+    "start": "2026-10-22",
+    "end": "2026-10-29"
+  },
+  "generated_at": "2026-10-29T15:24:26.104874+00:00",
+  "total_repos": 184,
+  "active_repos": 15,
+  "total_commits": 97,
+  "total_pulls": 135,
+  "total_issues": 6,
+  "total_changelog_entries": 1,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "libyears",
+        "text": "Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan direct npm production dependencies from the root `package.json`, using",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan npm and PyPI dependencies together, with repository-wide and",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Report source discovery failures separately from dependency-level",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Use shared verified HTTPS registry transport for PyPI and npm metadata",
+        "category": "Added",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "site",
+        "text": "Fixing Vulnerabilities",
+        "url": "https://github.com/GSA-SHARE-IT/site/pull/7",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf",
+        "text": "fix(misc#433): score pillars with the HHS x1.25 formula",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/621",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "fix(misc#433): show question scores on the HHS x1.25 scale and explain the formula",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/758",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4948: Update activity hub alerting",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2261",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4944: Update Education screener alert banner",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2258",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "\ud83d\udccb Changelog Summary: 2026-10-09 to 2026-10-16",
+        "url": "https://github.com/DSACMS/super-changelog/pull/174",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2025-06-18 to 2025-06-25",
+        "url": "https://github.com/DSACMS/super-changelog/pull/173",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "super-changelog",
+        "text": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
+        "url": "https://github.com/DSACMS/super-changelog/pull/172",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/65",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Upgrade JSON output from schema v2 to schema v3. This is an intentional",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "site",
+        "text": "Update Link for Repository Discovery Form Tool",
+        "url": "https://github.com/GSA-SHARE-IT/site/pull/9",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [],
+    "security": [],
+    "performance": [],
+    "documentation": [],
+    "other": [
+      {
+        "repo": "iv-cbv-payroll",
+        "text": "FFS-4961: Set employment_type to null for self-attested employment entries",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2257",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Dev alt text",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/67",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "site",
+        "text": "Rework journey checklists and stack wide schema tables",
+        "url": "https://github.com/GSA-SHARE-IT/site/pull/10",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump brace-expansion from 1.1.11 to 1.1.21",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3582",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump js-yaml from 3.14.1 to 3.15.2",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3581",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump markdown-it from 14.3.2 to 14.3.3",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3579",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3909] Email Template for Email Blast",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2633",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "Build(deps): bump axios from 1.20.0 to 1.21.0",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2631",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3922] ctat discussion resolvers",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2630",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "feat(misc#377): put the dev internal ALB listener on the FIPS post-quantum TLS policy",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/616",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "chore(deps): bump follow-redirects to 1.16.1 to clear the Snyk gate",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/759",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 5,
+    "fixed": 3,
+    "changed": 8,
+    "other": 11
+  },
+  "active_repos_list": [
+    {
+      "name": "decks",
+      "url": "https://github.com/DSACMS/decks",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "org": "DSACMS",
+      "commits": 40,
+      "pulls": 51,
+      "issues": 2
+    },
+    {
+      "name": "repodive-tools",
+      "url": "https://github.com/DSACMS/repodive-tools",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 6,
+      "issues": 0
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "org": "DSACMS",
+      "commits": 7,
+      "pulls": 2,
+      "issues": 4
+    },
+    {
+      "name": "medicare_monthly_enrollment_dashboard",
+      "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "libyears",
+      "url": "https://github.com/DSACMS/libyears",
+      "org": "DSACMS",
+      "commits": 16,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codejson-schemas",
+      "url": "https://github.com/GSA-SHARE-IT/codejson-schemas",
+      "org": "GSA-SHARE-IT",
+      "commits": 0,
+      "pulls": 3,
+      "issues": 0
+    },
+    {
+      "name": "site",
+      "url": "https://github.com/GSA-SHARE-IT/site",
+      "org": "GSA-SHARE-IT",
+      "commits": 5,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "easi-app",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "org": "CMS-Enterprise",
+      "commits": 11,
+      "pulls": 20,
+      "issues": 0
+    },
+    {
+      "name": "mint-app",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "org": "CMS-Enterprise",
+      "commits": 13,
+      "pulls": 27,
+      "issues": 0
+    },
+    {
+      "name": "ztmf",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "org": "CMS-Enterprise",
+      "commits": 2,
+      "pulls": 8,
+      "issues": 0
+    },
+    {
+      "name": "ztmf-ui",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "org": "CMS-Enterprise",
+      "commits": 2,
+      "pulls": 5,
+      "issues": 0
+    },
+    {
+      "name": "power-platform-webres",
+      "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "emmy-app",
+      "url": "https://github.com/CMS-Enterprise/emmy-app",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 5,
+      "issues": 0
+    }
+  ]
+}
