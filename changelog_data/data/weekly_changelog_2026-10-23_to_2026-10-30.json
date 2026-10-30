@@ -1,0 +1,3259 @@
+{
+  "DSACMS": {
+    "repos": [
+      {
+        "name": "open",
+        "url": "https://github.com/DSACMS/open",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "drive2gource",
+        "url": "https://github.com/DSACMS/drive2gource",
+        "description": "Moved to CMSgov Org: https://github.com/CMSgov/drive2gource",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-doc-uploader",
+        "url": "https://github.com/DSACMS/iv-doc-uploader",
+        "description": "A home for the suite of income verification related projects the DSAC and Facing Finical Shock teams are collaborating on",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "income-reporting-playbook",
+        "url": "https://github.com/DSACMS/income-reporting-playbook",
+        "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "decks",
+        "url": "https://github.com/DSACMS/decks",
+        "description": "Repository containing various presentations delivered by the Digital Service at CMS",
+        "archived": false,
+        "issues": [],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "Update content in accordance with EO 14434",
+            "url": "https://github.com/DSACMS/decks/commit/8476c796eaeba528ce880a1d25a3768ea8ccd818",
+            "author": "decause-gov",
+            "created_at": "2026-10-26T18:12:40+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "iv-cbv-payroll",
+        "url": "https://github.com/DSACMS/iv-cbv-payroll",
+        "description": "Eligibility Made Easy (Emmy) using Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "FFS-4894 Sev1: PDF 508 compliance issues",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2265",
+            "created_at": "2026-10-29T19:46:44+00:00",
+            "updated_at": "2026-10-29T23:33:28+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4975 Remove gross income from unpaid work",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2264",
+            "created_at": "2026-10-29T18:20:37+00:00",
+            "updated_at": "2026-10-29T18:55:47+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "4927 readme update",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2263",
+            "created_at": "2026-10-29T17:06:00+00:00",
+            "updated_at": "2026-10-29T18:58:11+00:00",
+            "merged_at": "2026-10-29T18:58:08+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "serverless-mom",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4950: Update employment flow validation UI",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2262",
+            "created_at": "2026-10-29T15:34:54+00:00",
+            "updated_at": "2026-10-29T19:19:21+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4948: Update activity hub alerting",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2261",
+            "created_at": "2026-10-28T20:53:18+00:00",
+            "updated_at": "2026-10-29T15:25:13+00:00",
+            "merged_at": "2026-10-29T15:18:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4945 Month selection input screens error handling",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2260",
+            "created_at": "2026-10-28T19:52:44+00:00",
+            "updated_at": "2026-10-29T19:03:08+00:00",
+            "merged_at": "2026-10-29T18:56:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4949: Self-attestation validation updates",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2259",
+            "created_at": "2026-10-28T14:49:09+00:00",
+            "updated_at": "2026-10-29T17:14:23+00:00",
+            "merged_at": "2026-10-29T17:06:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4944: Update Education screener alert banner",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2258",
+            "created_at": "2026-10-27T22:33:49+00:00",
+            "updated_at": "2026-10-29T00:24:00+00:00",
+            "merged_at": "2026-10-29T00:17:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4961: Set employment_type to null for self-attested employment entries",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2257",
+            "created_at": "2026-10-27T21:31:25+00:00",
+            "updated_at": "2026-10-27T22:21:05+00:00",
+            "merged_at": "2026-10-27T22:21:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "Bump version from 0.12.0 to 0.14.0",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2256",
+            "created_at": "2026-10-27T21:27:29+00:00",
+            "updated_at": "2026-10-27T21:32:31+00:00",
+            "merged_at": "2026-10-27T21:32:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "v0.14.0",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2255",
+            "created_at": "2026-10-27T21:13:33+00:00",
+            "updated_at": "2026-10-27T21:22:36+00:00",
+            "merged_at": "2026-10-27T21:16:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "FFS-5014 Remove nsc_withdrawn field and regroup NSC enrollment statuses",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2254",
+            "created_at": "2026-10-27T21:04:01+00:00",
+            "updated_at": "2026-10-29T01:42:15+00:00",
+            "merged_at": "2026-10-29T01:34:17+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "No ticket: fix for json package bump regression",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2253",
+            "created_at": "2026-10-27T20:42:59+00:00",
+            "updated_at": "2026-10-27T21:12:07+00:00",
+            "merged_at": "2026-10-27T21:04:39+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4943: Update Employment screener alert banner",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2252",
+            "created_at": "2026-10-27T18:57:24+00:00",
+            "updated_at": "2026-10-29T14:44:52+00:00",
+            "merged_at": "2026-10-29T14:34:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "Release v0.13.0",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2251",
+            "created_at": "2026-10-27T18:37:03+00:00",
+            "updated_at": "2026-10-27T18:39:29+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "millerti",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4937 implement review and submit",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2250",
+            "created_at": "2026-10-27T17:02:47+00:00",
+            "updated_at": "2026-10-29T20:14:13+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2249",
+            "created_at": "2026-10-26T22:18:28+00:00",
+            "updated_at": "2026-10-26T22:18:31+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4936 Implement Enrollment details page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2248",
+            "created_at": "2026-10-26T21:46:36+00:00",
+            "updated_at": "2026-10-29T01:14:05+00:00",
+            "merged_at": "2026-10-29T01:06:58+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4935: Enrollment details de-dupe records",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2247",
+            "created_at": "2026-10-26T20:28:02+00:00",
+            "updated_at": "2026-10-27T19:09:07+00:00",
+            "merged_at": "2026-10-27T19:02:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "Bump fast-uri from 3.1.8 to 3.1.9 in /app in the npm_and_yarn group across 1 directory",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2246",
+            "created_at": "2026-10-26T16:44:05+00:00",
+            "updated_at": "2026-10-26T17:19:47+00:00",
+            "merged_at": "2026-10-26T17:19:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump net-sftp from 4.0.0 to 4.0.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2245",
+            "created_at": "2026-10-26T15:56:10+00:00",
+            "updated_at": "2026-10-26T18:00:42+00:00",
+            "merged_at": "2026-10-26T18:00:39+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump newrelic_rpm from 10.9.0 to 10.9.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2244",
+            "created_at": "2026-10-26T15:55:52+00:00",
+            "updated_at": "2026-10-26T18:08:08+00:00",
+            "merged_at": "2026-10-26T18:08:06+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump net-ssh from 7.3.6 to 8.0.2 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2243",
+            "created_at": "2026-10-26T15:55:32+00:00",
+            "updated_at": "2026-10-27T18:29:03+00:00",
+            "merged_at": "2026-10-27T18:29:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump sass from 1.105.1 to 1.106.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2242",
+            "created_at": "2026-10-26T15:55:28+00:00",
+            "updated_at": "2026-10-26T18:42:04+00:00",
+            "merged_at": "2026-10-26T18:42:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump jsdom from 30.1.1 to 30.1.3 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2241",
+            "created_at": "2026-10-26T15:55:19+00:00",
+            "updated_at": "2026-10-26T19:04:19+00:00",
+            "merged_at": "2026-10-26T19:04:17+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump webmock from 3.26.4 to 3.34.0 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2240",
+            "created_at": "2026-10-26T15:55:13+00:00",
+            "updated_at": "2026-10-26T20:36:55+00:00",
+            "merged_at": "2026-10-26T20:36:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump vite from 8.3.4 to 8.3.5 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2239",
+            "created_at": "2026-10-26T15:55:11+00:00",
+            "updated_at": "2026-10-26T19:32:12+00:00",
+            "merged_at": "2026-10-26T19:32:10+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump webpack from 5.112.0 to 5.112.2 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2238",
+            "created_at": "2026-10-26T15:54:56+00:00",
+            "updated_at": "2026-10-26T19:42:25+00:00",
+            "merged_at": "2026-10-26T19:42:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump pry from 0.16.0 to 0.16.1 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2237",
+            "created_at": "2026-10-26T15:54:52+00:00",
+            "updated_at": "2026-10-26T19:49:47+00:00",
+            "merged_at": "2026-10-26T19:49:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump postcss from 8.5.30 to 8.5.31 in /app",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2236",
+            "created_at": "2026-10-26T15:54:47+00:00",
+            "updated_at": "2026-10-26T19:23:39+00:00",
+            "merged_at": "2026-10-26T19:23:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4957: Update legal agreement checkbox content on review and submit page",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2235",
+            "created_at": "2026-10-26T15:39:28+00:00",
+            "updated_at": "2026-10-28T13:29:48+00:00",
+            "merged_at": "2026-10-28T13:22:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4827 Add manual expiration of tokenized links",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2234",
+            "created_at": "2026-10-26T15:09:34+00:00",
+            "updated_at": "2026-10-28T17:36:49+00:00",
+            "merged_at": "2026-10-28T17:29:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2233",
+            "created_at": "2026-10-24T13:07:34+00:00",
+            "updated_at": "2026-10-26T16:42:54+00:00",
+            "merged_at": "2026-10-26T16:42:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2232",
+            "created_at": "2026-10-23T18:32:36+00:00",
+            "updated_at": "2026-10-26T16:42:25+00:00",
+            "merged_at": "2026-10-26T16:42:22+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4934: Update Review and submit page static content",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2231",
+            "created_at": "2026-10-23T17:16:18+00:00",
+            "updated_at": "2026-10-23T19:16:20+00:00",
+            "merged_at": "2026-10-23T19:09:03+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4962 One-time use CE and Employment links",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2230",
+            "created_at": "2026-10-23T16:57:21+00:00",
+            "updated_at": "2026-10-28T18:40:33+00:00",
+            "merged_at": "2026-10-28T18:32:54+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4833: Implement .gov banner in CMS infra",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2229",
+            "created_at": "2026-10-23T14:48:26+00:00",
+            "updated_at": "2026-10-27T13:18:20+00:00",
+            "merged_at": "2026-10-27T13:08:39+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jakewheeler",
+            "is_new": true
+          },
+          {
+            "title": "Add launcher case for \"Enrollment-only\" and improve docs",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2228",
+            "created_at": "2026-10-23T00:32:14+00:00",
+            "updated_at": "2026-10-23T13:59:50+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tdooner",
+            "is_new": true
+          },
+          {
+            "title": "FFS-4873: Implement CE completion screen copy updates",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2227",
+            "created_at": "2026-10-22T22:25:38+00:00",
+            "updated_at": "2026-10-23T18:36:45+00:00",
+            "merged_at": "2026-10-23T18:29:38+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "daphnegold",
+            "is_new": false
+          },
+          {
+            "title": "Remove AI Test Classifier GH Action",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2226",
+            "created_at": "2026-10-22T19:51:40+00:00",
+            "updated_at": "2026-10-26T22:15:40+00:00",
+            "merged_at": "2026-10-26T22:15:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4974 Persist schoolCertifiedOnDate and withdrawn status",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2225",
+            "created_at": "2026-10-22T18:39:31+00:00",
+            "updated_at": "2026-10-23T16:52:23+00:00",
+            "merged_at": "2026-10-23T16:52:20+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4931: Add \"Common questions\" section and content to Activity Hub",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2220",
+            "created_at": "2026-10-21T18:03:47+00:00",
+            "updated_at": "2026-10-23T14:08:59+00:00",
+            "merged_at": "2026-10-23T14:01:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "jakewheeler",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4930: Add dismissible unpaid work alert",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2218",
+            "created_at": "2026-10-21T15:01:38+00:00",
+            "updated_at": "2026-10-23T20:45:55+00:00",
+            "merged_at": "2026-10-23T20:38:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "tdooner",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4924 Add agency/CMS branding to header/footer",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2217",
+            "created_at": "2026-10-21T14:52:45+00:00",
+            "updated_at": "2026-10-26T16:55:05+00:00",
+            "merged_at": "2026-10-26T16:47:59+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4829 Redact CE flow data (ActivityFlow, Household, Identity, activities) parallel to Income flow",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2204",
+            "created_at": "2026-10-19T21:21:53+00:00",
+            "updated_at": "2026-10-23T15:30:51+00:00",
+            "merged_at": "2026-10-23T15:30:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "krista-skylight",
+            "is_new": false
+          },
+          {
+            "title": "FFS-4863 update copy unpaid only v2",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/pull/2203",
+            "created_at": "2026-10-19T19:59:09+00:00",
+            "updated_at": "2026-10-26T15:13:29+00:00",
+            "merged_at": "2026-10-26T15:06:07+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "ccvetter",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "4927 readme update (#2263)\n\nCo-authored-by: Nocnica <nicamellifera@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/026852b692507e4c123a7d94696844895eedc89e",
+            "author": "No\u010dnica Mellifera",
+            "created_at": "2026-10-29T18:58:07+00:00"
+          },
+          {
+            "message": "FFS-4945 Month selection input screens error handling (#2260)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/3f20d3c1977a020f1502ebaccb831c8c3df35748",
+            "author": "krista-skylight",
+            "created_at": "2026-10-29T18:56:02+00:00"
+          },
+          {
+            "message": "FFS-4949: Self-attestation validation updates (#2259)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/94f7464f5429524f9143b2a784a90ca517c0bb39",
+            "author": "Jake Wheeler",
+            "created_at": "2026-10-29T17:06:04+00:00"
+          },
+          {
+            "message": "FFS-4948: Update activity hub alerting (#2261)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4c81aa0f4731a78394bad85a68870eaea9d7ede4",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-29T15:18:04+00:00"
+          },
+          {
+            "message": "FFS-4943: Update Employment screener alert banner (#2252)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2cc31a6694f1667ff38d887d12698d8ab041877f",
+            "author": "Jake Wheeler",
+            "created_at": "2026-10-29T14:34:50+00:00"
+          },
+          {
+            "message": "FFS-5014 Remove nsc_withdrawn field and regroup NSC enrollment statuses (#2254)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/40cb16da8f1c25fcf5f88bae9e0d4e6ab747c8f5",
+            "author": "krista-skylight",
+            "created_at": "2026-10-29T01:34:16+00:00"
+          },
+          {
+            "message": "FFS-4936 Implement Enrollment details page (#2248)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/274564e3ab57c19b9b26a71cea4af68fe4f4e311",
+            "author": "krista-skylight",
+            "created_at": "2026-10-29T01:06:57+00:00"
+          },
+          {
+            "message": "FFS-4944: Update Education screener alert banner (#2258)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/283dee250a5b6019a5bf8970122fc6b3be00bd89",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-29T00:17:02+00:00"
+          },
+          {
+            "message": "FFS-4962 One-time use CE and Employment links (#2230)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cfd92405b633d15fad98e8a6a7a26952b6e3dcb6",
+            "author": "krista-skylight",
+            "created_at": "2026-10-28T18:32:53+00:00"
+          },
+          {
+            "message": "FFS-4827 Add manual expiration of tokenized links (#2234)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/62df420854db5cc5dd92e5ec1439213722298ff9",
+            "author": "Chris",
+            "created_at": "2026-10-28T17:29:28+00:00"
+          },
+          {
+            "message": "FFS-4957: Update legal agreement checkbox content on review and submit page (#2235)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2e8856a5943a889fa077db8c4a61ee205089f1e5",
+            "author": "Jake Wheeler",
+            "created_at": "2026-10-28T13:22:36+00:00"
+          },
+          {
+            "message": "FFS-4961: Set employment_type to null for self-attested employment entries (#2257)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/1a4cafdad2e3af62928e491f84b1f040db1db1a6",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-27T22:21:02+00:00"
+          },
+          {
+            "message": "Bump version from 0.12.0 to 0.14.0 (#2256)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9f1a0fa5c1bc2c3f9d5682b8ee6dae15ce9e9831",
+            "author": "Tim Miller",
+            "created_at": "2026-10-27T21:32:28+00:00"
+          },
+          {
+            "message": "v0.14.0 (#2255)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/68c4990ada522736f6ea4e13a906694dc34d7281",
+            "author": "Tim Miller",
+            "created_at": "2026-10-27T21:16:52+00:00"
+          },
+          {
+            "message": "No ticket: fix for json package bump regression (#2253)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/dfc72fea1c43a366beff3da55214ab7954f2f239",
+            "author": "Tim Miller",
+            "created_at": "2026-10-27T21:04:38+00:00"
+          },
+          {
+            "message": "FFS-4935: Enrollment details de-dupe records (#2247)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0699edb3d79a2e899a3793e3270170880b5be1e8",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-27T19:02:04+00:00"
+          },
+          {
+            "message": "Bump net-ssh from 7.3.6 to 8.0.2 in /app (#2243)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/eda5dce9e1c7364a53982130af9526c9fce81b8f",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-27T18:29:00+00:00"
+          },
+          {
+            "message": "FFS-4833: Implement .gov banner in CMS infra (#2229)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/94f9c95e85f2109ba4b31e09c8e9088390d82cfe",
+            "author": "Jake Wheeler",
+            "created_at": "2026-10-27T13:08:38+00:00"
+          },
+          {
+            "message": "Remove AI Test Classifier GH Action (#2226)\n\nCo-authored-by: Tim Miller <timmiller@navapbc.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0bede59da525c9cea8aa5a29c16c898e6c974f22",
+            "author": "Tom Dooner",
+            "created_at": "2026-10-26T22:15:37+00:00"
+          },
+          {
+            "message": "Bump webmock from 3.26.4 to 3.34.0 in /app (#2240)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/f5e21503e8ad2a7721f925c1fb58274ad1b9670f",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T20:36:52+00:00"
+          },
+          {
+            "message": "Bump pry from 0.16.0 to 0.16.1 in /app (#2237)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4bae3d1301404c236a49431376848d35d2dec2a9",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:49:43+00:00"
+          },
+          {
+            "message": "Bump webpack from 5.112.0 to 5.112.2 in /app (#2238)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7f11277f6939e82af7782c2794cd09aa4c9607b6",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:42:22+00:00"
+          },
+          {
+            "message": "Bump vite from 8.3.4 to 8.3.5 in /app (#2239)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/4189603ad54197180e7190ed067b66bb1cffdba7",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:32:09+00:00"
+          },
+          {
+            "message": "Bump postcss from 8.5.30 to 8.5.31 in /app (#2236)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d68c708d73ee833f279dd2bf4bcea472974c7bfb",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:23:36+00:00"
+          },
+          {
+            "message": "Bump jsdom from 30.1.1 to 30.1.3 in /app (#2241)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/69373d8ac61188e5d394c1f4b2ee0e84e6af0132",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:04:17+00:00"
+          },
+          {
+            "message": "Bump sass from 1.105.1 to 1.106.1 in /app (#2242)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/03285843d389e403f42695e5a91aeb66e16f410b",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T18:41:59+00:00"
+          },
+          {
+            "message": "Bump newrelic_rpm from 10.9.0 to 10.9.1 in /app (#2244)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7766e5327cc53b62f7816b9cb8e25d59d4a5a536",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T18:08:05+00:00"
+          },
+          {
+            "message": "Bump net-sftp from 4.0.0 to 4.0.1 in /app (#2245)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/97dfcfef38d4d10d63fd0d02d72c3e364c3bbef4",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T18:00:38+00:00"
+          },
+          {
+            "message": "Bump fast-uri from 3.1.8 to 3.1.9 in /app in the npm_and_yarn group across 1 directory (#2246)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/cbaa14ec23e52184d945cd19cdd5f46bae698e9b",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T17:19:43+00:00"
+          },
+          {
+            "message": "FFS-4924 Add agency/CMS branding to header/footer (#2217)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/d430fa218be91d7cfde30205f3b052b62572ff1c",
+            "author": "Chris",
+            "created_at": "2026-10-26T16:47:58+00:00"
+          },
+          {
+            "message": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore (#2233)\n\nCo-authored-by: bencalegari <4923102+bencalegari@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b15d6f6b72188c495d797eb70429984b3d47bdcb",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-26T16:42:50+00:00"
+          },
+          {
+            "message": "fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit (#2232)\n\nCo-authored-by: daphnegold <13158571+daphnegold@users.noreply.github.com>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/2999f389b23ca33566cdd6f42e6cf70d0afa6930",
+            "author": "github-actions[bot]",
+            "created_at": "2026-10-26T16:42:22+00:00"
+          },
+          {
+            "message": "FFS-4863 update copy unpaid only v2 (#2203)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/a9e53f8679efec374916a2e97b2a0a3f3b4d3040",
+            "author": "Chris",
+            "created_at": "2026-10-26T15:06:06+00:00"
+          },
+          {
+            "message": "FFS-4930: Add dismissible unpaid work alert (#2218)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/0befcbec346132e71d7037e9c9519952e6e870f2",
+            "author": "Tom Dooner",
+            "created_at": "2026-10-23T20:38:47+00:00"
+          },
+          {
+            "message": "FFS-4934: Update Review and submit page static content (#2231)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/87f1e38da4406cd53bde646d1bbb9fc0ee26465a",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-23T19:09:03+00:00"
+          },
+          {
+            "message": "FFS-4873: Implement CE completion screen copy updates (#2227)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/9441ee2e50b55b4b2f6cead4f221fae3bd48db45",
+            "author": "Daphne Gold",
+            "created_at": "2026-10-23T18:29:37+00:00"
+          },
+          {
+            "message": "FFS-4974 Persist schoolCertifiedOnDate and withdrawn status (#2225)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/b73c98a320195bc84738fdcf004bac3f38ddf3b6",
+            "author": "krista-skylight",
+            "created_at": "2026-10-23T16:52:20+00:00"
+          },
+          {
+            "message": "FFS-4829 Redact CE flow data (ActivityFlow, Household, Identity, activities) parallel to Income flow (#2204)\n\nCo-authored-by: Jake Wheeler <jake.wheeler@skylight.digital>",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/5ddffc799121cf2ffb372fb5199e8e64696abdc9",
+            "author": "krista-skylight",
+            "created_at": "2026-10-23T15:30:47+00:00"
+          },
+          {
+            "message": "FFS-4931: Add \"Common questions\" section and content to Activity Hub (#2220)",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/commit/7ca08708e819770b8a78e47cde94985fa60c2588",
+            "author": "Jake Wheeler",
+            "created_at": "2026-10-23T14:01:36+00:00"
+          }
+        ],
+        "releases": [
+          {
+            "name": "v0.14.0",
+            "body": "\ud83d\udc65 *User facing changes to Emmy Income + Emmy CE*\r\n- No ticket: fix for json package bump regression [(#2253)](https://github.com/DSACMS/iv-cbv-payroll/pull/2253) - Tim Miller\r\n\ud83d\udcdd *Emmy Income only user facing changes*\r\n- No changes, nothing to review!\r\n\ud83c\udfc6 *Emmy CE only user facing changes*\r\n- Enrollment details de-dupe records [(#2247)](https://github.com/DSACMS/iv-cbv-payroll/pull/2247) - Daphne Gold [[FFS-4935]](https://jiraent.cms.gov/browse/FFS-4935)\r\n- Implement .gov banner in CMS infra [(#2229)](https://github.com/DSACMS/iv-cbv-payroll/pull/2229) - Jake Wheeler [[FFS-4833]](https://jiraent.cms.gov/browse/FFS-4833)\r\n- Add agency/CMS branding to header/footer [(#2217)](https://github.com/DSACMS/iv-cbv-payroll/pull/2217) - Chris [[FFS-4924]](https://jiraent.cms.gov/browse/FFS-4924)\r\n- update copy unpaid only v2 [(#2203)](https://github.com/DSACMS/iv-cbv-payroll/pull/2203) - Chris [[FFS-4863]](https://jiraent.cms.gov/browse/FFS-4863)\r\n- Add dismissible unpaid work alert [(#2218)](https://github.com/DSACMS/iv-cbv-payroll/pull/2218) - Tom Dooner [[FFS-4930]](https://jiraent.cms.gov/browse/FFS-4930)\r\n- Update Review and submit page static content [(#2231)](https://github.com/DSACMS/iv-cbv-payroll/pull/2231) - Daphne Gold [[FFS-4934]](https://jiraent.cms.gov/browse/FFS-4934)\r\n- Implement CE completion screen copy updates [(#2227)](https://github.com/DSACMS/iv-cbv-payroll/pull/2227) - Daphne Gold [[FFS-4873]](https://jiraent.cms.gov/browse/FFS-4873)\r\n- Persist schoolCertifiedOnDate and withdrawn status [(#2225)](https://github.com/DSACMS/iv-cbv-payroll/pull/2225) - krista-skylight [[FFS-4974]](https://jiraent.cms.gov/browse/FFS-4974)\r\n- Redact CE flow data (ActivityFlow, Household, Identity, activities) parallel to Income flow [(#2204)](https://github.com/DSACMS/iv-cbv-payroll/pull/2204) - krista-skylight [[FFS-4829]](https://jiraent.cms.gov/browse/FFS-4829)\r\n- Add \"Common questions\" section and content to Activity Hub [(#2220)](https://github.com/DSACMS/iv-cbv-payroll/pull/2220) - Jake Wheeler [[FFS-4931]](https://jiraent.cms.gov/browse/FFS-4931)\r\n- Update Activity Hub heading elements [(#2222)](https://github.com/DSACMS/iv-cbv-payroll/pull/2222) - Daphne Gold [[FFS-4929]](https://jiraent.cms.gov/browse/FFS-4929)\r\n- Disable progress indicator across pages [(#2219)](https://github.com/DSACMS/iv-cbv-payroll/pull/2219) - Daphne Gold [[FFS-4928]](https://jiraent.cms.gov/browse/FFS-4928)\r\n- Add expired invitation page for CE flows [(#2216)](https://github.com/DSACMS/iv-cbv-payroll/pull/2216) - krista-skylight [[FFS-4923]](https://jiraent.cms.gov/browse/FFS-4923)\r\n- Consolidate maintenance under ENABLED_ALERTS [(#2211)](https://github.com/DSACMS/iv-cbv-payroll/pull/2211) - Tom Dooner [[FFS-4942]](https://jiraent.cms.gov/browse/FFS-4942)\r\n- Add the full-site technical difficulties alert [(#2210)](https://github.com/DSACMS/iv-cbv-payroll/pull/2210) - Tom Dooner [[FFS-4940]](https://jiraent.cms.gov/browse/FFS-4940)\r\n- Show alerts for delayed payroll synchronizations [(#2209)](https://github.com/DSACMS/iv-cbv-payroll/pull/2209) - Tom Dooner [[FFS-4938]](https://jiraent.cms.gov/browse/FFS-4938)\r\n- Add the aggregator outage alert [(#2207)](https://github.com/DSACMS/iv-cbv-payroll/pull/2207) - Tom Dooner [[FFS-4939]](https://jiraent.cms.gov/browse/FFS-4939)\r\n- Replace the site alert flag with ENABLED_ALERTS [(#2206)](https://github.com/DSACMS/iv-cbv-payroll/pull/2206) - Tom Dooner [[FFS-4941]](https://jiraent.cms.gov/browse/FFS-4941)\r\n- Tweak OpenAPI documentation [(#2215)](https://github.com/DSACMS/iv-cbv-payroll/pull/2215) - Tom Dooner\r\n- CE flow invitation expiration [(#2187)](https://github.com/DSACMS/iv-cbv-payroll/pull/2187) - Jake Wheeler [[FFS-4828]](https://jiraent.cms.gov/browse/FFS-4828)\r\n- Update Education \"Other\" page to route to unpaid work [(#2184)](https://github.com/DSACMS/iv-cbv-payroll/pull/2184) - Chris [[FFS-4915]](https://jiraent.cms.gov/browse/FFS-4915)\r\n- Add webhooks to OpenAPI documentation [(#2212)](https://github.com/DSACMS/iv-cbv-payroll/pull/2212) - Tom Dooner\r\n\u2699\ufe0f *Other/Maintenance (Not user facing)*\r\n- Bump net-ssh, webmock, pry, webpack, vite, postcss, jsdom, sass, newrelic_rpm, net-sftp, fast-uri, json, certifi, github.com/klauspost/compress\r\n- fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore [(#2233)](https://github.com/DSACMS/iv-cbv-payroll/pull/2233) - github-actions[bot]\r\n- fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit [(#2232)](https://github.com/DSACMS/iv-cbv-payroll/pull/2232) - github-actions[bot]\r\n\r\nSee the full diff: https://github.com/DSACMS/iv-cbv-payroll/compare/v0.12.0..dfc72fe\r\n",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/v0.14.0",
+            "published_at": "2026-10-27T21:33:43+00:00",
+            "created_at": "2026-10-27T21:32:28+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "millerti",
+            "tag_name": "v0.14.0"
+          },
+          {
+            "name": "v0.13.0",
+            "body": "\ud83d\udcdd *Emmy Income only user facing changes*\r\n- No changes, nothing to review!\r\n\ud83c\udfc6 *Emmy CE only user facing changes*\r\n- Implement .gov banner in CMS infra [(#2229)](https://github.com/DSACMS/iv-cbv-payroll/pull/2229) - Jake Wheeler [[FFS-4833]](https://jiraent.cms.gov/browse/FFS-4833)\r\n- Add agency/CMS branding to header/footer [(#2217)](https://github.com/DSACMS/iv-cbv-payroll/pull/2217) - Chris [[FFS-4924]](https://jiraent.cms.gov/browse/FFS-4924)\r\n- update copy unpaid only v2 [(#2203)](https://github.com/DSACMS/iv-cbv-payroll/pull/2203) - Chris [[FFS-4863]](https://jiraent.cms.gov/browse/FFS-4863)\r\n- Add dismissible unpaid work alert [(#2218)](https://github.com/DSACMS/iv-cbv-payroll/pull/2218) - Tom Dooner [[FFS-4930]](https://jiraent.cms.gov/browse/FFS-4930)\r\n- Update Review and submit page static content [(#2231)](https://github.com/DSACMS/iv-cbv-payroll/pull/2231) - Daphne Gold [[FFS-4934]](https://jiraent.cms.gov/browse/FFS-4934)\r\n- Implement CE completion screen copy updates [(#2227)](https://github.com/DSACMS/iv-cbv-payroll/pull/2227) - Daphne Gold [[FFS-4873]](https://jiraent.cms.gov/browse/FFS-4873)\r\n- Persist schoolCertifiedOnDate and withdrawn status [(#2225)](https://github.com/DSACMS/iv-cbv-payroll/pull/2225) - krista-skylight [[FFS-4974]](https://jiraent.cms.gov/browse/FFS-4974)\r\n- Redact CE flow data (ActivityFlow, Household, Identity, activities) parallel to Income flow [(#2204)](https://github.com/DSACMS/iv-cbv-payroll/pull/2204) - krista-skylight [[FFS-4829]](https://jiraent.cms.gov/browse/FFS-4829)\r\n- Add \"Common questions\" section and content to Activity Hub [(#2220)](https://github.com/DSACMS/iv-cbv-payroll/pull/2220) - Jake Wheeler [[FFS-4931]](https://jiraent.cms.gov/browse/FFS-4931)\r\n- Update Activity Hub heading elements [(#2222)](https://github.com/DSACMS/iv-cbv-payroll/pull/2222) - Daphne Gold [[FFS-4929]](https://jiraent.cms.gov/browse/FFS-4929)\r\n- Disable progress indicator across pages [(#2219)](https://github.com/DSACMS/iv-cbv-payroll/pull/2219) - Daphne Gold [[FFS-4928]](https://jiraent.cms.gov/browse/FFS-4928)\r\n- Add expired invitation page for CE flows [(#2216)](https://github.com/DSACMS/iv-cbv-payroll/pull/2216) - krista-skylight [[FFS-4923]](https://jiraent.cms.gov/browse/FFS-4923)\r\n- Consolidate maintenance under ENABLED_ALERTS [(#2211)](https://github.com/DSACMS/iv-cbv-payroll/pull/2211) - Tom Dooner [[FFS-4942]](https://jiraent.cms.gov/browse/FFS-4942)\r\n- Add the full-site technical difficulties alert [(#2210)](https://github.com/DSACMS/iv-cbv-payroll/pull/2210) - Tom Dooner [[FFS-4940]](https://jiraent.cms.gov/browse/FFS-4940)\r\n- Show alerts for delayed payroll synchronizations [(#2209)](https://github.com/DSACMS/iv-cbv-payroll/pull/2209) - Tom Dooner [[FFS-4938]](https://jiraent.cms.gov/browse/FFS-4938)\r\n- Add the aggregator outage alert [(#2207)](https://github.com/DSACMS/iv-cbv-payroll/pull/2207) - Tom Dooner [[FFS-4939]](https://jiraent.cms.gov/browse/FFS-4939)\r\n- Replace the site alert flag with ENABLED_ALERTS [(#2206)](https://github.com/DSACMS/iv-cbv-payroll/pull/2206) - Tom Dooner [[FFS-4941]](https://jiraent.cms.gov/browse/FFS-4941)\r\n- Update AI options [(#2221)](https://github.com/DSACMS/iv-cbv-payroll/pull/2221) - Daphne Gold\r\n- Tweak OpenAPI documentation [(#2215)](https://github.com/DSACMS/iv-cbv-payroll/pull/2215) - Tom Dooner\r\n- CE flow invitation expiration [(#2187)](https://github.com/DSACMS/iv-cbv-payroll/pull/2187) - Jake Wheeler [[FFS-4828]](https://jiraent.cms.gov/browse/FFS-4828)\r\n- Update Education \"Other\" page to route to unpaid work [(#2184)](https://github.com/DSACMS/iv-cbv-payroll/pull/2184) - Chris [[FFS-4915]](https://jiraent.cms.gov/browse/FFS-4915)\r\n- Add webhooks to OpenAPI documentation [(#2212)](https://github.com/DSACMS/iv-cbv-payroll/pull/2212) - Tom Dooner\r\n\u2699\ufe0f *Other/Maintenance (Not user facing)*\r\n- Bump net-ssh, webmock, pry, webpack, vite, postcss, jsdom, sass, newrelic_rpm, net-sftp, fast-uri, json, certifi, github.com/klauspost/compress\r\n- fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore [(#2233)](https://github.com/DSACMS/iv-cbv-payroll/pull/2233) - github-actions[bot]\r\n- fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit [(#2232)](https://github.com/DSACMS/iv-cbv-payroll/pull/2232) - github-actions[bot]\r\n\r\nSee the full diff: https://github.com/DSACMS/iv-cbv-payroll/compare/v0.12.0..eda5dce\r\n",
+            "url": "https://github.com/DSACMS/iv-cbv-payroll/releases/tag/v0.13.0",
+            "published_at": "2026-10-27T18:40:32+00:00",
+            "created_at": "2026-10-27T18:29:00+00:00",
+            "is_draft": false,
+            "is_prerelease": false,
+            "author": "millerti",
+            "tag_name": "v0.13.0"
+          }
+        ],
+        "topics": [
+          "cms",
+          "community-engagement",
+          "medicaid",
+          "medicaid-expansion",
+          "eligibility-determination",
+          "hr-1",
+          "income-verification",
+          "work-requirement",
+          "education",
+          "open-source",
+          "center-for-medicaid-and-children-services",
+          "education-program",
+          "work-program"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "interagency-research-ops",
+        "url": "https://github.com/DSACMS/interagency-research-ops",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pycon-poster-2024",
+        "url": "https://github.com/DSACMS/pycon-poster-2024",
+        "description": "Poster for PyCon 2024 Session about Establishing Repository Baselines",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-verify",
+        "url": "https://github.com/DSACMS/iv-verify",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "iv-delivery",
+        "url": "https://github.com/DSACMS/iv-delivery",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "repodive-tools",
+        "url": "https://github.com/DSACMS/repodive-tools",
+        "description": "Scripts and tools to gather information about git repositories.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Add tool scripts",
+            "url": "https://github.com/DSACMS/repodive-tools/pull/28",
+            "created_at": "2026-10-08T13:31:39+00:00",
+            "updated_at": "2026-10-30T01:12:40+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "dsacms-tier1",
+          "cms-oss-tier1",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "super-changelog",
+        "url": "https://github.com/DSACMS/super-changelog",
+        "description": "SuperChangelog is a tool for aggregating CHANGELOG.md files from individual repositories into one SUPERCHANGELOG",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Add fallback token",
+            "url": "https://github.com/DSACMS/super-changelog/pull/178",
+            "created_at": "2026-10-29T18:01:03+00:00",
+            "updated_at": "2026-10-29T18:23:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "Add weekly condensed changelog summary for 2026-10-29",
+            "url": "https://github.com/DSACMS/super-changelog/pull/177",
+            "created_at": "2026-10-29T15:44:04+00:00",
+            "updated_at": "2026-10-29T15:47:01+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": true
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-10-22 to 2026-10-29",
+            "url": "https://github.com/DSACMS/super-changelog/pull/176",
+            "created_at": "2026-10-29T15:02:36+00:00",
+            "updated_at": "2026-10-29T15:20:52+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-07-31 to 2026-08-07",
+            "url": "https://github.com/DSACMS/super-changelog/pull/175",
+            "created_at": "2026-10-29T15:02:34+00:00",
+            "updated_at": "2026-10-29T15:20:57+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "super-changelog-bot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-10-09 to 2026-10-16",
+            "url": "https://github.com/DSACMS/super-changelog/pull/174",
+            "created_at": "2026-10-16T03:36:35+00:00",
+            "updated_at": "2026-10-29T15:47:04+00:00",
+            "merged_at": "2026-10-29T14:29:07+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2025-06-18 to 2025-06-25",
+            "url": "https://github.com/DSACMS/super-changelog/pull/173",
+            "created_at": "2026-10-16T03:36:33+00:00",
+            "updated_at": "2026-10-29T15:47:07+00:00",
+            "merged_at": "2026-10-29T14:28:29+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "Weekly Changelog Summary: 2026-01-30 to 2026-02-06",
+            "url": "https://github.com/DSACMS/super-changelog/pull/172",
+            "created_at": "2026-10-09T16:56:42+00:00",
+            "updated_at": "2026-10-29T15:47:09+00:00",
+            "merged_at": "2026-10-29T14:28:02+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "\ud83d\udccb Changelog Summary: 2026-10-02 to 2026-10-09",
+            "url": "https://github.com/DSACMS/super-changelog/pull/171",
+            "created_at": "2026-10-09T16:56:41+00:00",
+            "updated_at": "2026-10-29T15:47:11+00:00",
+            "merged_at": "2026-10-29T14:27:40+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "super-changelog-bot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Add new orgs w/ quick fix\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/f9d384dd1954e35c49c4ab20ce2c327503e1bea3",
+            "author": "Dinne Kopelevich",
+            "created_at": "2026-10-29T15:22:13+00:00"
+          },
+          {
+            "message": "Fix auth for GitHub App\n\nSigned-off-by: Dinne Kopelevich <dinne.kopelevich1@cms.hhs.gov>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/e42c1d49373b93d48ebc5dc8a54a76514f49e3d7",
+            "author": "Dinne Kopelevich",
+            "created_at": "2026-10-29T14:45:26+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-10-16 (#174)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/66f54fe4c5a487e6a5cf119a271a180b49f76664",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-29T14:29:06+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-10-16 (#173)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/7b8dcb58306d66d375e67b13e7e9ac3106efab01",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-29T14:28:28+00:00"
+          },
+          {
+            "message": "Add weekly changelog summary for 2026-10-09 (#172)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/74f92ba84f347b26d8b7df384786d791a5a2b5d1",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-29T14:28:01+00:00"
+          },
+          {
+            "message": "Add weekly condensed changelog summary for 2026-10-09 (#171)\n\nSigned-off-by: GitHub Action <action@github.com>\nCo-authored-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/super-changelog/commit/f35882eeaa04f58efa34312656862cda9d52c7e6",
+            "author": "super-changelog-bot[bot]",
+            "created_at": "2026-10-29T14:27:39+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "cmsgov",
+          "cmsoss-tier3",
+          "commops",
+          "ospo",
+          "superchangelog",
+          "featured"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "durc_is_crud",
+        "url": "https://github.com/DSACMS/durc_is_crud",
+        "description": "Python version of DURC",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "pra-guides",
+        "url": "https://github.com/DSACMS/pra-guides",
+        "description": "PRA Guides is a static Eleventy site providing clear, structured guidance and resources for Paperwork Reduction Act compliance.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "caseworkerportal",
+        "url": "https://github.com/DSACMS/caseworkerportal",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "medicare_monthly_enrollment_dashboard",
+        "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard",
+        "description": "Re-implement the Medicare Monthly Enrollment dashboard in an open-source framework that could be deployed to data.cms.gov in the future.",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "fix(grid): mark lone States tab inactive until a state is selected",
+            "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/65",
+            "created_at": "2026-10-23T23:38:42+00:00",
+            "updated_at": "2026-10-23T23:38:42+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "Masad791",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "dsacms-tier2",
+          "dashboard",
+          "medicare",
+          "medicare-advantage",
+          "medicare-data",
+          "prescription-drug"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "metrics-data",
+        "url": "https://github.com/DSACMS/metrics-data",
+        "description": "A repository to hold various metrics data",
+        "archived": false,
+        "issues": [],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "Add weekly changelog data for 2026-10-29\n\nSigned-off-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/metrics-data/commit/b1ecf7350f377eb0ea52d8127bc74819d7efb35b",
+            "author": "GitHub Action",
+            "created_at": "2026-10-29T18:19:22+00:00"
+          },
+          {
+            "message": "Add weekly changelog data for 2026-10-29\n\nSigned-off-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/metrics-data/commit/1a1efa4b77290941d3d1dabc9670fc0381235917",
+            "author": "GitHub Action",
+            "created_at": "2026-10-29T15:42:06+00:00"
+          },
+          {
+            "message": "Add weekly changelog data for 2026-10-29\n\nSigned-off-by: GitHub Action <action@github.com>",
+            "url": "https://github.com/DSACMS/metrics-data/commit/24389703ac5b5312baf515bb3aeb746c8a56607b",
+            "author": "GitHub Action",
+            "created_at": "2026-10-29T15:02:28+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "libyears",
+        "url": "https://github.com/DSACMS/libyears",
+        "description": "Attempt at implementing CHAOSS metric libyears as a standalone python library",
+        "archived": false,
+        "issues": [],
+        "pulls": [],
+        "commits": [
+          {
+            "message": "chore(observations): record run 005-0013",
+            "url": "https://github.com/DSACMS/libyears/commit/709966904e8bde6652a3f6224c7d4a62f22be6ec",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:35:26+00:00"
+          },
+          {
+            "message": "docs(ruby): approve feature 005 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/63f61356448edcb1014069084096debf030c560e",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:33:22+00:00"
+          },
+          {
+            "message": "docs(ruby): draft group-scope implementation task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/b87a88a1d6f5e1b8430857f71d05129b1c80e205",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:29:34+00:00"
+          },
+          {
+            "message": "docs(ruby): correct and approve FIFO-safe group-scope plan",
+            "url": "https://github.com/DSACMS/libyears/commit/52109ab9c09249bbdbb64b10d2c8e9c80a581e4a",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:22:55+00:00"
+          },
+          {
+            "message": "docs(gemfile): record decomposed technical plan review",
+            "url": "https://github.com/DSACMS/libyears/commit/d8a6e19adadfeceeef053a868e74fee85a8ca66b",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:17:44+00:00"
+          },
+          {
+            "message": "docs(review): record incomplete Feature 005 plan review",
+            "url": "https://github.com/DSACMS/libyears/commit/591da218c1627d9ef79cfd38dc89001dff368e03",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:12:42+00:00"
+          },
+          {
+            "message": "docs(gemfile): draft Feature 005 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/d26908a98dbbb6bb1f37476cbd0207882ac9be2f",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:09:45+00:00"
+          },
+          {
+            "message": "docs(gemfile): correct and approve group scope specification",
+            "url": "https://github.com/DSACMS/libyears/commit/68589b32c8c9a347c1d0b08d0c553ab7ad3c0413",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T21:04:17+00:00"
+          },
+          {
+            "message": "docs(gemfile): record decomposed specification review\n\nPreserve the incomplete 005-0005 attempt and record the completed 005-0006 review with two validated contract findings. Record prior observations 005-0004 and 005-0005; leave the specification unchanged.",
+            "url": "https://github.com/DSACMS/libyears/commit/b8a52bb662edce4084bff981de9cbea6d57c5a72",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T20:49:41+00:00"
+          },
+          {
+            "message": "docs(005): clarify specification and record prior run\n\nReconcile human Q1-Q3 decisions, including unmeasurable textual requirement mismatch and repeatable --ruby-group selection. Finalize additive schema-v3 reporting for independent review.\n\nRecord completed prior run 005-0003 from fixed machine and human evidence; leave 005-0004 for the one-run-lag protocol.",
+            "url": "https://github.com/DSACMS/libyears/commit/9e7a0ef5dac7d0eaa58b64f164e0a42466ea3312",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T20:27:30+00:00"
+          },
+          {
+            "message": "docs(gemfile): draft Feature 005 product specification",
+            "url": "https://github.com/DSACMS/libyears/commit/183aa885baea7faa5b86ef23b932b97ca0ade4fb",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T20:20:12+00:00"
+          },
+          {
+            "message": "docs(observations): record completed run 005-0002",
+            "url": "https://github.com/DSACMS/libyears/commit/ff9a2e92d290b2698c2d469b23f8d4bc77c72d38",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T20:14:49+00:00"
+          },
+          {
+            "message": "docs(gemfile): record Feature 005 product selection\n\nRecord human approval of bounded static Gemfile group scope, preserve discovery chronology, and reconcile roadmap selection authority.\n\nSDD: 005-gemfile-group-scope selection; run 005-0002\n\nVerification: documentation scope, chronology, product boundaries, unchanged observation ledger, and git diff --check passed. No product tests required.",
+            "url": "https://github.com/DSACMS/libyears/commit/9b77451ecfa80b6fb2e3e421fef78d48bc2e4abd",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T20:08:30+00:00"
+          },
+          {
+            "message": "chore(observations): record discovery run 005-0001",
+            "url": "https://github.com/DSACMS/libyears/commit/656e905b822dd783b447cc417a06a3833656f68d",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T19:21:28+00:00"
+          },
+          {
+            "message": "docs(discovery): record Feature 005 selection gate\n\nPreserve roadmap authority, bounded Gemfile-scope evidence, and unresolved human product decisions before specification. No product direction is selected.\n\nSDD: 005 discovery",
+            "url": "https://github.com/DSACMS/libyears/commit/2263baed160ba0622b0f244202f7d47690101548",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T18:37:28+00:00"
+          },
+          {
+            "message": "chore(observations): establish prospective agent run ledger",
+            "url": "https://github.com/DSACMS/libyears/commit/d7262534fadf5834490f6d66e48f8053df7a68ef",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T18:08:50+00:00"
+          },
+          {
+            "message": "docs(readme): satisfy blocking Repolinter content rules",
+            "url": "https://github.com/DSACMS/libyears/commit/cb2a7461c47c3aabed2b579b8b8a3fa0c01f437b",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T17:52:36+00:00"
+          },
+          {
+            "message": "test(rubygems): guard FIFO coverage for Windows portability",
+            "url": "https://github.com/DSACMS/libyears/commit/4fa12a31487e73e51178459ac77a96ab97275f07",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T17:26:33+00:00"
+          },
+          {
+            "message": "docs(agents): add provisional routing guidance",
+            "url": "https://github.com/DSACMS/libyears/commit/cb5dc6c64287b6d021e5ec21b30252922f1e55ca",
+            "author": "decause-gov",
+            "created_at": "2026-10-29T16:59:35+00:00"
+          },
+          {
+            "message": "docs(rubygems): record post-convergence retrospective\n\nSynthesize accessible feature history with comparative analysis and bounded methodology experiments. Close T021 lifecycle references while preserving evidence limits.\n\nSDD: 004-rubygems-support/T021\n\nValidation: chronology, local links, commit references, certificate hygiene and git diff --check passed. No deterministic rerun for prose-only changes.",
+            "url": "https://github.com/DSACMS/libyears/commit/1fcbd89b6f94fe49f0d55a59965f6330a2d1e12e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T20:59:50+00:00"
+          },
+          {
+            "message": "docs(rubygems): reconcile feature completion records\n\nRecord authoritative completed T019 convergence and preserve distinct review, trust and resolver observations for pending T021. Reconcile ROADMAP with completed Feature 004 without changing radar states or product scope.\n\nSDD: 004-rubygems-support/T020\n\nVerification: completion references and artifact consistency checked; git diff --check passed. No tests rerun for bookkeeping alone.",
+            "url": "https://github.com/DSACMS/libyears/commit/577c81ef335a53c54084d15265690583c8aa49cf",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T20:18:53+00:00"
+          },
+          {
+            "message": "docs(rubygems): record authorized repository validation\n\nRecord accepted human-supplied release evidence, verified CA-bundle use, target integrity and redundant smoke disposition. Preserve environmental validation history and leave independent convergence pending.\n\nSDD: 004-rubygems-support/T018",
+            "url": "https://github.com/DSACMS/libyears/commit/ee79d35b79b82db6c8457cb14ba35bab39a43dc2",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T19:44:37+00:00"
+          },
+          {
+            "message": "docs(rubygems): record authorized repository validation\n\nRecord partial read-only dpc-admin human/JSON dogfood and unchanged-target evidence. Keep T018 blocked because verified RubyGems TLS failed for all 67 eligible candidates; successful Ruby publication evidence remains unavailable.\n\nSDD: 004-rubygems-support/T018 (incomplete)\n\nVerification: available release checks passed; cite T017 deterministic gate (289 tests, 52/52 ACs). Smoke: UNAVAILABLE. No runtime changes.",
+            "url": "https://github.com/DSACMS/libyears/commit/bb6505fc0f9a63ffadeb8de218ab907aa4568b61",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T19:02:23+00:00"
+          },
+          {
+            "message": "test(rubygems): record final deterministic integration gate",
+            "url": "https://github.com/DSACMS/libyears/commit/6e27d1349b3e7f848dec30aaf6a44d8ada282a6e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:41:55+00:00"
+          },
+          {
+            "message": "test(rubygems): verify cross-boundary evidence failures",
+            "url": "https://github.com/DSACMS/libyears/commit/106997a9f5cd118ae0e9472371231ac932677beb",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:39:37+00:00"
+          },
+          {
+            "message": "feat(rubygems): activate coherent lock snapshot scanning\n\nSDD: 004-rubygems-support/T015\nTests: focused mixed/output/CLI 62 passed; full deterministic suite 285 passed",
+            "url": "https://github.com/DSACMS/libyears/commit/0af7e1174aacf4de889c789748ddef7e9f12b472",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:32:24+00:00"
+          },
+          {
+            "message": "feat(rubygems): schedule authorized candidates deterministically\n\nSDD: 004-rubygems-support/T014\nTests: Phase 4 gate 68 passed; required regressions 91 passed; full deterministic suite 273 passed",
+            "url": "https://github.com/DSACMS/libyears/commit/27cb271e3f949d8619c11fb4d8807aa197f6f7e0",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:19:09+00:00"
+          },
+          {
+            "message": "feat(rubygems): pace registry requests and enforce cooldown\n\nSDD: 004-rubygems-support/T013\nTests: 46 focused registry and transport tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/9716b6f13496c0e5ad07655f8d27bbd9162e5d0d",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:15:25+00:00"
+          },
+          {
+            "message": "feat(rubygems): canonicalize observable publication evidence\n\nSDD: 004-rubygems-support/T012\nTests: 34 focused registry and metric tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/ab71486da61210234a20e613043d2e3765bbbcd6",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:14:05+00:00"
+          },
+          {
+            "message": "feat(rubygems): validate public registry identity and artifacts\n\nSDD: 004-rubygems-support/T011\nTests: 12 focused deterministic tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/0ec41fd199e17bdc1023e35882ab78d240b6e3c9",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:12:02+00:00"
+          },
+          {
+            "message": "feat(registry): retain safe rate-limit response metadata",
+            "url": "https://github.com/DSACMS/libyears/commit/9f546c866a25f8bf4d1df81c870dc0e81054033a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:03:34+00:00"
+          },
+          {
+            "message": "feat(registry): add opt-in bounded verified transport",
+            "url": "https://github.com/DSACMS/libyears/commit/c14c37e67d3343d0a0f8c6807e61a5aa5f3a811b",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T18:00:35+00:00"
+          },
+          {
+            "message": "test(registry): preserve default and injected transport contracts",
+            "url": "https://github.com/DSACMS/libyears/commit/464f1d6722df3fe87dfb2ebbb88630a35df2f303",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:57:38+00:00"
+          },
+          {
+            "message": "feat(rubygems): discover internal root lock source results",
+            "url": "https://github.com/DSACMS/libyears/commit/bbf0e3611ec2a45f4e48f5ae505c08ad876e43a6",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:55:05+00:00"
+          },
+          {
+            "message": "feat(rubygems): match direct lock snapshot evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/b26663531837977733f62e5dec4c7524f88fa960",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:52:59+00:00"
+          },
+          {
+            "message": "feat(rubygems): gate candidates on public source authority",
+            "url": "https://github.com/DSACMS/libyears/commit/72f0918dff953602cca6f99969fe1edc548d4fa5",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:51:10+00:00"
+          },
+          {
+            "message": "feat(rubygems): add optional typed provenance records",
+            "url": "https://github.com/DSACMS/libyears/commit/c95a937a64dd4f2a640c03c565b7ad4508cd9ce1",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:49:58+00:00"
+          },
+          {
+            "message": "feat(rubygems): reject unsupported and malformed lock evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/9b234e9145f02d0d9e2839a6ba3378b9cedc2cdc",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:46:57+00:00"
+          },
+          {
+            "message": "feat(rubygems): preserve lock source and nested framing",
+            "url": "https://github.com/DSACMS/libyears/commit/9514f60a436ce2abaca19aa7cbf39cb041cdff1a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:45:31+00:00"
+          },
+          {
+            "message": "feat(rubygems): parse bounded lock snapshot structure",
+            "url": "https://github.com/DSACMS/libyears/commit/d7cf220b635e235311b65fe1eb95ee985ce2b189",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:44:47+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/cf0490bda701e83183053a49e046f56adcb46cee",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:40:56+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/c34600d1fdcdd4efeb9cae3eaf990d7c9c0fae8a",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:35:44+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 task graph",
+            "url": "https://github.com/DSACMS/libyears/commit/38df5a740b20121978ea4349c595b63e1f1288d5",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:29:03+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 architecture",
+            "url": "https://github.com/DSACMS/libyears/commit/1fdaf0d0356a1de8c0564dfad2b7a0b4190c9f64",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:22:07+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/8b4bf8fb6535bad524fc02bdfdcc5e1beea79a92",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:17:46+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/223032e2b537d11a9dcbbf0eb49248d571373b1e",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T17:09:16+00:00"
+          },
+          {
+            "message": "docs(rubygems): approve Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/86be122e7570ed121572b25531f8b3994b2c6766",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T16:58:22+00:00"
+          },
+          {
+            "message": "docs(rubygems): clarify Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/3b315696e4d03b5e7aac325b47a800abbade70e0",
+            "author": "decause-gov",
+            "created_at": "2026-10-28T16:40:48+00:00"
+          },
+          {
+            "message": "docs(rubygems): record specification review",
+            "url": "https://github.com/DSACMS/libyears/commit/5c5b69adb810827cd4c8e74d1bbbeef44bd34465",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T22:06:07+00:00"
+          },
+          {
+            "message": "docs(rubygems): draft Feature 004 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/c761b113ea19988e7e9ea5ca16b373c1e2c526fb",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:50:12+00:00"
+          },
+          {
+            "message": "docs(rubygems): select Feature 004 for specification",
+            "url": "https://github.com/DSACMS/libyears/commit/a16145f5ed88be66e8591c91dd57df0ffc8b7fab",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:35:36+00:00"
+          },
+          {
+            "message": "docs(discovery): refine Feature 004 evidence",
+            "url": "https://github.com/DSACMS/libyears/commit/67b7d89ca6f1c48bc92dcd128b19bb478a6ba969",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T21:11:00+00:00"
+          },
+          {
+            "message": "docs(discovery): draft Feature 004 direction",
+            "url": "https://github.com/DSACMS/libyears/commit/df7aee60446795f67da321331f778c3d1457fea7",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T19:27:41+00:00"
+          },
+          {
+            "message": "docs(yarn): document Feature 003 retrospective",
+            "url": "https://github.com/DSACMS/libyears/commit/be985d1a6faa77097405af7d16fee8bc90e92e84",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:41:44+00:00"
+          },
+          {
+            "message": "docs(yarn): complete Feature 003",
+            "url": "https://github.com/DSACMS/libyears/commit/6e24402c1832e7a15bac2d10ffb6743167741b36",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:33:12+00:00"
+          },
+          {
+            "message": "fix(yarn): preserve malformed lock diagnostics",
+            "url": "https://github.com/DSACMS/libyears/commit/ace9ccf69d259ad6041dd0c19e00bf5df2208309",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:28:53+00:00"
+          },
+          {
+            "message": "docs(yarn): skip redundant live registry smoke\n\nT009 already validated the public npm registry and verified HTTPS path across 77 real dependencies. Record T010 as skipped without affecting deterministic correctness or convergence eligibility.\n\nSDD: 003-yarn-lock-evidence/T010",
+            "url": "https://github.com/DSACMS/libyears/commit/ac1f89105e53130f889166670c9178cfcd5b2833",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:23:13+00:00"
+          },
+          {
+            "message": "docs(yarn): record Classic lock dogfood results\n\nRecord read-only live validation against the authorized easi-app root Yarn Classic v1 lockfile. Human and schema-v3 JSON output agreed across 77 measured production dependencies.\n\nSDD: 003-yarn-lock-evidence/T009",
+            "url": "https://github.com/DSACMS/libyears/commit/338b9b86017e48f5bd2e03d8e43636d3a49fb534",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:21:26+00:00"
+          },
+          {
+            "message": "test(yarn): cover end-to-end evidence reporting\n\nAdd an offline mixed-repository fixture that verifies Yarn exact-version evidence, partial npm coverage, retained PyPI measurement, schema-v3 JSON, and human output.\n\nRecord the Yarn Classic v1 capability in the Unreleased changelog.\n\nSDD: 003-yarn-lock-evidence/T008\n\nTests: 186 passed",
+            "url": "https://github.com/DSACMS/libyears/commit/aec3fc0e7b3b051028acf8cdbf219691405c93fa",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:05:01+00:00"
+          },
+          {
+            "message": "feat(npm): activate Yarn evidence reporting\n\nActivate root Yarn Classic v1 evidence with schema-v3 metadata, source availability, human diagnostics, and README documentation.\n\nSDD: 003-yarn-lock-evidence/T007\n\nTests: 44 focused tests; 185 deterministic suite tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/be724ad62a5ba86d8fa3bd46b063fb857c7b57f7",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T18:00:22+00:00"
+          },
+          {
+            "message": "feat(npm): use Yarn lock evidence for npm dependencies\n\nConnect the Classic v1 parser and textual matcher behind the internal npm evidence selector. Preserve source rejection and dependency failure isolation while public scans retain the existing package-lock path.\n\nSDD: 003-yarn-lock-evidence/T006\n\nTests: 54 focused Yarn/npm tests, 13 npm registry tests, and all 180 deterministic tests passed.",
+            "url": "https://github.com/DSACMS/libyears/commit/f420602940343474dd0760f67c4f7c9b2215a57b",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:56:45+00:00"
+          },
+          {
+            "message": "refactor(npm): centralize resolution source selection\n\nSDD: 003-yarn-lock-evidence/T005\n\nKeep source selection internal until T007 and reserve Yarn dispatch for T006.\nReuse package-lock resolution with the selector presence result.\n\nTests: 46 focused npm/registry tests and 175 deterministic tests passed.",
+            "url": "https://github.com/DSACMS/libyears/commit/6a8dea6c360ce9615455c615e4893ff3c0c95374",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:51:36+00:00"
+          },
+          {
+            "message": "refactor(scan): model source availability explicitly\n\nSDD: 003-yarn-lock-evidence/T004\nTests: 26 focused tests and 168 full-suite tests passed.",
+            "url": "https://github.com/DSACMS/libyears/commit/6b13a1b64995b9778220ff0923cb467c6d2cceff",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:47:25+00:00"
+          },
+          {
+            "message": "feat(npm): match declarations to Yarn selectors\n\nMatch decoded selectors by exact text and preserve dependency-level failures without activating Yarn selection.\n\nSDD: 003-yarn-lock-evidence/T003\nTests: 10 focused matcher tests, 42 parser/npm tests, 165 full-suite tests passed",
+            "url": "https://github.com/DSACMS/libyears/commit/28220479cc226917894a44f928f1fcc14107ef91",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:44:04+00:00"
+          },
+          {
+            "message": "feat(yarn): parse bounded Classic v1 entries",
+            "url": "https://github.com/DSACMS/libyears/commit/e2a801da1ae61b60b529373b917a7da9d69b93b1",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:40:17+00:00"
+          },
+          {
+            "message": "feat(yarn): recognize Classic v1 lockfiles",
+            "url": "https://github.com/DSACMS/libyears/commit/a93e84c696c4faa5b2fccdef3c4945151cbf5fb6",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:36:50+00:00"
+          },
+          {
+            "message": "docs(yarn): approve Feature 003 implementation plan",
+            "url": "https://github.com/DSACMS/libyears/commit/fe8202537ea63a28b4f98631f02db094b333679b",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:29:58+00:00"
+          },
+          {
+            "message": "docs(yarn): approve Feature 003 technical plan",
+            "url": "https://github.com/DSACMS/libyears/commit/d372b971c6cd365b963bba05a4413df722da71d9",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T17:06:09+00:00"
+          },
+          {
+            "message": "docs(yarn): approve Feature 003 specification",
+            "url": "https://github.com/DSACMS/libyears/commit/2cf4b2a27b3dbf920645877a35aa3aa51d6dc9a0",
+            "author": "decause-gov",
+            "created_at": "2026-10-27T16:38:36+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": [
+          {
+            "version": "unknown",
+            "date": null,
+            "changes": [
+              {
+                "category": "Added",
+                "items": [
+                  "Measure direct RubyGems dependencies from a bounded root `Gemfile.lock` snapshot,",
+                  "Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+                  "Scan direct npm production dependencies from the root `package.json`, using",
+                  "Scan npm and PyPI dependencies together, with repository-wide and",
+                  "Report source discovery failures separately from dependency-level",
+                  "Use shared verified HTTPS registry transport for PyPI and npm metadata"
+                ]
+              },
+              {
+                "category": "Changed",
+                "items": [
+                  "Upgrade JSON output from schema v2 to schema v3. This is an intentional"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "period": {
+      "start": "2026-10-23",
+      "end": "2026-10-30"
+    },
+    "generated_at": "2026-10-30T04:38:30.105529+00:00",
+    "total_repo_count": 103
+  },
+  "GSA-SHARE-IT": {
+    "repos": [
+      {
+        "name": "codejson-schemas",
+        "url": "https://github.com/GSA-SHARE-IT/codejson-schemas",
+        "description": "code.json: A metadata standard for federal software projects",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Schemas: Add proposed agency-index.json v3 schema",
+            "url": "https://github.com/GSA-SHARE-IT/codejson-schemas/pull/6",
+            "created_at": "2026-10-20T21:29:08+00:00",
+            "updated_at": "2026-10-23T17:29:24+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Create CHANGELOG.md for schema version tracking",
+            "url": "https://github.com/GSA-SHARE-IT/codejson-schemas/pull/5",
+            "created_at": "2026-10-19T23:22:47+00:00",
+            "updated_at": "2026-10-23T17:17:01+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          },
+          {
+            "title": "Docs: Add automation to support file content sync between codejson-schemas and site",
+            "url": "https://github.com/GSA-SHARE-IT/codejson-schemas/pull/4",
+            "created_at": "2026-10-19T22:38:17+00:00",
+            "updated_at": "2026-10-23T17:14:47+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "natalialuzuriaga",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "site",
+        "url": "https://github.com/GSA-SHARE-IT/site",
+        "description": "Guide to the SHARE IT Act helping federal agencies comply with source code sharing requirements",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Rework journey checklists and stack wide schema tables",
+            "url": "https://github.com/GSA-SHARE-IT/site/pull/10",
+            "created_at": "2026-10-26T20:27:30+00:00",
+            "updated_at": "2026-10-27T14:42:03+00:00",
+            "merged_at": "2026-10-27T14:42:00+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": true
+          },
+          {
+            "title": "Update Link for Repository Discovery Form Tool",
+            "url": "https://github.com/GSA-SHARE-IT/site/pull/9",
+            "created_at": "2026-10-23T18:12:49+00:00",
+            "updated_at": "2026-10-23T19:29:42+00:00",
+            "merged_at": "2026-10-23T19:29:38+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": true
+          },
+          {
+            "title": "Fix link for repo discovery form",
+            "url": "https://github.com/GSA-SHARE-IT/site/pull/8",
+            "created_at": "2026-10-21T12:58:29+00:00",
+            "updated_at": "2026-10-23T18:14:09+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "DinneK",
+            "is_new": false
+          },
+          {
+            "title": "Fixing Vulnerabilities",
+            "url": "https://github.com/GSA-SHARE-IT/site/pull/7",
+            "created_at": "2026-10-20T19:55:03+00:00",
+            "updated_at": "2026-10-23T18:07:53+00:00",
+            "merged_at": "2026-10-23T18:07:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          },
+          {
+            "title": "Adding Unit and Playwright Tests",
+            "url": "https://github.com/GSA-SHARE-IT/site/pull/5",
+            "created_at": "2026-10-20T18:02:25+00:00",
+            "updated_at": "2026-10-23T18:07:52+00:00",
+            "merged_at": "2026-10-23T18:07:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "sachin-panayil",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #10 from GSA-SHARE-IT/sachin/qol-changes\n\nRework journey checklists and stack wide schema tables",
+            "url": "https://github.com/GSA-SHARE-IT/site/commit/9664348d58578f60fd16487919014d31278f011d",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-27T14:41:59+00:00"
+          },
+          {
+            "message": "fixing requested changes",
+            "url": "https://github.com/GSA-SHARE-IT/site/commit/8b2e228e72255d393b30e27df7c8dccc63e1ba74",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-26T20:23:59+00:00"
+          },
+          {
+            "message": "Merge pull request #9 from GSA-SHARE-IT/sachin-panayil-patch-1\n\nUpdate Link for Repository Discovery Form Tool",
+            "url": "https://github.com/GSA-SHARE-IT/site/commit/8200ba671bd6b7d0a0b57f470dd43ce2151477fc",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-23T19:29:37+00:00"
+          },
+          {
+            "message": "Update link for Repository Discovery Form tool",
+            "url": "https://github.com/GSA-SHARE-IT/site/commit/73087928ba3428e3b7c1cb67925222f7b000eec7",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-23T18:11:52+00:00"
+          },
+          {
+            "message": "Merge pull request #7 from GSA-SHARE-IT/sachin/security-fixes\n\nFixing Vulnerabilities",
+            "url": "https://github.com/GSA-SHARE-IT/site/commit/3b38d0ec8937e0a88f57d381e7118d477ddfa431",
+            "author": "Sachin Panayil",
+            "created_at": "2026-10-23T18:07:50+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      }
+    ],
+    "period": {
+      "start": "2026-10-23",
+      "end": "2026-10-30"
+    },
+    "generated_at": "2026-10-30T04:49:42.051285+00:00",
+    "total_repo_count": 8
+  },
+  "CMS-Enterprise": {
+    "repos": [
+      {
+        "name": "easi-app",
+        "url": "https://github.com/CMS-Enterprise/easi-app",
+        "description": "EASi App",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "build(deps): bump systeminformation from 5.33.14 to 5.33.18",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3592",
+            "created_at": "2026-10-29T18:25:19+00:00",
+            "updated_at": "2026-10-29T18:25:23+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps-dev): bump vite from 6.4.4 to 6.4.5",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3591",
+            "created_at": "2026-10-29T18:22:51+00:00",
+            "updated_at": "2026-10-29T18:32:05+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump qs from 6.14.0 to 6.17.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3590",
+            "created_at": "2026-10-28T14:25:59+00:00",
+            "updated_at": "2026-10-29T18:19:46+00:00",
+            "merged_at": "2026-10-29T18:19:44+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump glob from 13.0.6 to 14.0.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3589",
+            "created_at": "2026-10-28T14:24:05+00:00",
+            "updated_at": "2026-10-29T18:22:31+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump the other group across 1 directory with 17 updates",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3588",
+            "created_at": "2026-10-26T17:44:41+00:00",
+            "updated_at": "2026-10-29T18:39:22+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump the other group across 1 directory with 18 updates",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3587",
+            "created_at": "2026-10-26T16:39:20+00:00",
+            "updated_at": "2026-10-26T17:43:51+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps-dev): bump vite from 6.4.3 to 6.4.4",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3586",
+            "created_at": "2026-10-26T16:08:35+00:00",
+            "updated_at": "2026-10-29T18:20:53+00:00",
+            "merged_at": "2026-10-29T18:20:50+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump qs from 6.14.0 to 6.17.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3585",
+            "created_at": "2026-10-26T16:07:05+00:00",
+            "updated_at": "2026-10-28T14:26:13+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.7 to 3.1.9",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3584",
+            "created_at": "2026-10-26T16:06:37+00:00",
+            "updated_at": "2026-10-29T18:22:54+00:00",
+            "merged_at": "2026-10-29T18:22:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump follow-redirects from 1.16.0 to 1.16.2",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3583",
+            "created_at": "2026-10-26T10:01:09+00:00",
+            "updated_at": "2026-10-29T18:29:30+00:00",
+            "merged_at": "2026-10-29T18:29:28+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump brace-expansion from 1.1.11 to 1.1.21",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3582",
+            "created_at": "2026-10-26T09:42:08+00:00",
+            "updated_at": "2026-10-28T14:46:48+00:00",
+            "merged_at": "2026-10-28T14:46:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump js-yaml from 3.14.1 to 3.15.2",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3581",
+            "created_at": "2026-10-26T09:41:45+00:00",
+            "updated_at": "2026-10-28T14:21:45+00:00",
+            "merged_at": "2026-10-28T14:21:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "[NOREF] update requester data",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3580",
+            "created_at": "2026-10-23T16:38:23+00:00",
+            "updated_at": "2026-10-29T20:47:25+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "build(deps): bump markdown-it from 14.3.2 to 14.3.3",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3579",
+            "created_at": "2026-10-22T01:37:56+00:00",
+            "updated_at": "2026-10-26T18:21:57+00:00",
+            "merged_at": "2026-10-26T18:21:53+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump follow-redirects from 1.16.0 to 1.16.1",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3577",
+            "created_at": "2026-10-20T19:41:58+00:00",
+            "updated_at": "2026-10-26T10:01:22+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump the other group across 1 directory with 19 updates",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3576",
+            "created_at": "2026-10-19T15:59:54+00:00",
+            "updated_at": "2026-10-26T16:38:36+00:00",
+            "merged_at": null,
+            "state": "closed",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump handlebars from 4.7.9 to 4.7.10",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3575",
+            "created_at": "2026-10-17T10:06:45+00:00",
+            "updated_at": "2026-10-26T16:33:29+00:00",
+            "merged_at": "2026-10-26T16:33:26+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump dompurify from 3.4.16 to 3.4.17",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3574",
+            "created_at": "2026-10-17T09:53:49+00:00",
+            "updated_at": "2026-10-26T16:29:58+00:00",
+            "merged_at": "2026-10-26T16:29:55+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump @graphql-tools/executor-legacy-ws from 1.1.17 to 1.1.37",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3572",
+            "created_at": "2026-10-06T15:30:04+00:00",
+            "updated_at": "2026-10-26T16:29:17+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump axios from 1.18.0 to 1.20.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3566",
+            "created_at": "2026-10-02T14:56:27+00:00",
+            "updated_at": "2026-10-26T17:33:33+00:00",
+            "merged_at": "2026-10-26T17:33:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "[NOREF] typescript 7 upgrade",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3561",
+            "created_at": "2026-10-01T20:32:28+00:00",
+            "updated_at": "2026-10-26T16:04:45+00:00",
+            "merged_at": "2026-10-26T16:04:42+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": false
+          },
+          {
+            "title": "build(deps): bump @tiptap/core from 2.12.0 to 3.30.5",
+            "url": "https://github.com/CMS-Enterprise/easi-app/pull/3551",
+            "created_at": "2026-09-08T22:10:27+00:00",
+            "updated_at": "2026-10-26T16:05:47+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Merge pull request #3583 from CMS-Enterprise/dependabot/npm_and_yarn/follow-redirects-1.16.2\n\nbuild(deps): bump follow-redirects from 1.16.0 to 1.16.2",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/24af21c9d17ad47372ed45a10fb6c60be963fdb7",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-29T18:29:27+00:00"
+          },
+          {
+            "message": "Merge pull request #3584 from CMS-Enterprise/dependabot/npm_and_yarn/fast-uri-3.1.9\n\nbuild(deps): bump fast-uri from 3.1.7 to 3.1.9",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/0fbb124312ed99e9bdfa15b182e4bdef0be51a0a",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-29T18:22:50+00:00"
+          },
+          {
+            "message": "Merge pull request #3586 from CMS-Enterprise/dependabot/npm_and_yarn/vite-6.4.4\n\nbuild(deps-dev): bump vite from 6.4.3 to 6.4.4",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/e65c87b87a7e4b6937e1bd76c99ec3b45fe737f2",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-29T18:20:49+00:00"
+          },
+          {
+            "message": "Merge pull request #3590 from CMS-Enterprise/dependabot/npm_and_yarn/qs-6.17.0\n\nbuild(deps): bump qs from 6.14.0 to 6.17.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/59eb94014aa068accdd5ea9cf07118e3b93e664a",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-29T18:19:43+00:00"
+          },
+          {
+            "message": "Merge pull request #3582 from CMS-Enterprise/dependabot/npm_and_yarn/brace-expansion-1.1.21\n\nbuild(deps): bump brace-expansion from 1.1.11 to 1.1.21",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/69dcda72e9c0b76376169f07217b00cc1e0af6e7",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-28T14:46:45+00:00"
+          },
+          {
+            "message": "build(deps): bump qs from 6.14.0 to 6.17.0\n\nBumps [qs](https://github.com/ljharb/qs) from 6.14.0 to 6.17.0.\n- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/ljharb/qs/compare/v6.14.0...v6.17.0)\n\n---\nupdated-dependencies:\n- dependency-name: qs\n  dependency-version: 6.17.0\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/1bdfc296c64d10463a111f01d03849c0d7631274",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-28T14:25:55+00:00"
+          },
+          {
+            "message": "Merge pull request #3581 from CMS-Enterprise/dependabot/npm_and_yarn/js-yaml-3.15.2\n\nbuild(deps): bump js-yaml from 3.14.1 to 3.15.2",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/27ca0ecc01e554a761275181024cfd394bd828e5",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-28T14:21:41+00:00"
+          },
+          {
+            "message": "Merge pull request #3579 from CMS-Enterprise/dependabot/npm_and_yarn/markdown-it-14.3.3\n\nbuild(deps): bump markdown-it from 14.3.2 to 14.3.3",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/821da89ebee19a2758394d3f4c2fc3640cb12888",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-26T18:21:52+00:00"
+          },
+          {
+            "message": "build(deps): bump follow-redirects from 1.16.0 to 1.16.2\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.0 to 1.16.2.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.0...v1.16.2)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/110e3495d16ff65e62f52d5d27e832a994377df1",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T17:36:13+00:00"
+          },
+          {
+            "message": "Merge pull request #3566 from CMS-Enterprise/dependabot/npm_and_yarn/axios-1.20.0\n\nbuild(deps): bump axios from 1.18.0 to 1.20.0",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/f76353629dfe1c4c42aaf8c363bcc153d858f36d",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-26T17:33:29+00:00"
+          },
+          {
+            "message": "build(deps): bump brace-expansion from 1.1.11 to 1.1.21\n\nBumps [brace-expansion](https://github.com/juliangruber/brace-expansion) from 1.1.11 to 1.1.21.\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/1.1.11...v1.1.21)\n\n---\nupdated-dependencies:\n- dependency-name: brace-expansion\n  dependency-version: 1.1.21\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/5d5bd7b1896d77a6f07b9bffe6f485cbb5f84b1f",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T16:36:21+00:00"
+          },
+          {
+            "message": "Merge pull request #3575 from CMS-Enterprise/dependabot/npm_and_yarn/handlebars-4.7.10\n\nbuild(deps): bump handlebars from 4.7.9 to 4.7.10",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/fa8f887cc2c8a83b8889508a73c722a7e24ec889",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-26T16:33:25+00:00"
+          },
+          {
+            "message": "Merge pull request #3574 from CMS-Enterprise/dependabot/npm_and_yarn/dompurify-3.4.17\n\nbuild(deps): bump dompurify from 3.4.16 to 3.4.17",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/de20fac134ed852ce92c7bfeb7af999b64d3f33f",
+            "author": "Gary Zhao",
+            "created_at": "2026-10-26T16:29:54+00:00"
+          },
+          {
+            "message": "build(deps): bump axios from 1.18.0 to 1.20.0\n\nBumps [axios](https://github.com/axios/axios) from 1.18.0 to 1.20.0.\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.18.0...v1.20.0)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-version: 1.20.0\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/e6b85812c036e1227371f8213804c3dd4fc533ff",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-02T14:56:24+00:00"
+          },
+          {
+            "message": "build(deps-dev): bump vite from 6.4.3 to 6.4.4\n\nBumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 6.4.3 to 6.4.4.\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v6.4.4/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v6.4.4/packages/vite)\n\n---\nupdated-dependencies:\n- dependency-name: vite\n  dependency-version: 6.4.4\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/8316fd1abe5ae5f8c22ad8bb905f9c414b56431a",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T16:08:31+00:00"
+          },
+          {
+            "message": "build(deps): bump fast-uri from 3.1.7 to 3.1.9\n\nBumps [fast-uri](https://github.com/fastify/fast-uri) from 3.1.7 to 3.1.9.\n- [Release notes](https://github.com/fastify/fast-uri/releases)\n- [Commits](https://github.com/fastify/fast-uri/compare/v3.1.7...v3.1.9)\n\n---\nupdated-dependencies:\n- dependency-name: fast-uri\n  dependency-version: 3.1.9\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/bf4225c59d944f7325f96b932732a89e3a272aaa",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T16:06:33+00:00"
+          },
+          {
+            "message": "[NOREF] typescript 7 upgrade (#3561)\n\nsome ts7 upgrades and cleanups",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/c4f2b9e9fa1610c8cbf7be5b3513c1020d8757f4",
+            "author": "samoddball",
+            "created_at": "2026-10-26T16:04:41+00:00"
+          },
+          {
+            "message": "build(deps): bump js-yaml from 3.14.1 to 3.15.2\n\nBumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.14.1 to 3.15.2.\n- [Changelog](https://github.com/nodeca/js-yaml/blob/3.15.2/CHANGELOG.md)\n- [Commits](https://github.com/nodeca/js-yaml/compare/3.14.1...3.15.2)\n\n---\nupdated-dependencies:\n- dependency-name: js-yaml\n  dependency-version: 3.15.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "url": "https://github.com/CMS-Enterprise/easi-app/commit/02d76818907f611b282949022fe1eda7e8a74801",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T09:41:40+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "mint-app",
+        "url": "https://github.com/CMS-Enterprise/mint-app",
+        "description": "MINT App",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "[MINT-3910, MINT-3911, MINT-3912] Email Blast Notification Settings",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2635",
+            "created_at": "2026-10-29T14:13:43+00:00",
+            "updated_at": "2026-10-29T17:39:42+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "garyjzhao",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3853] Group Filtered View Report",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2634",
+            "created_at": "2026-10-28T21:20:04+00:00",
+            "updated_at": "2026-10-29T17:23:37+00:00",
+            "merged_at": "2026-10-29T17:23:35+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3909] Email Template for Email Blast",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2633",
+            "created_at": "2026-10-27T19:42:49+00:00",
+            "updated_at": "2026-10-29T03:51:43+00:00",
+            "merged_at": "2026-10-29T03:51:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "garyjzhao",
+            "is_new": true
+          },
+          {
+            "title": "[FEATURE/MINT-3850] Report Filter",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2632",
+            "created_at": "2026-10-27T18:38:22+00:00",
+            "updated_at": "2026-10-29T17:28:01+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump axios from 1.20.0 to 1.21.0",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2631",
+            "created_at": "2026-10-27T18:33:52+00:00",
+            "updated_at": "2026-10-28T15:24:10+00:00",
+            "merged_at": "2026-10-28T15:24:08+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3922] ctat discussion resolvers",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2630",
+            "created_at": "2026-10-27T16:58:45+00:00",
+            "updated_at": "2026-10-29T15:10:48+00:00",
+            "merged_at": "2026-10-29T15:10:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3852] Generic report filter",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2629",
+            "created_at": "2026-10-26T21:06:51+00:00",
+            "updated_at": "2026-10-27T18:36:49+00:00",
+            "merged_at": "2026-10-27T18:36:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "yiranli624",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump ws from 6.2.3 to 6.2.6",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2628",
+            "created_at": "2026-10-26T15:25:06+00:00",
+            "updated_at": "2026-10-26T19:16:47+00:00",
+            "merged_at": "2026-10-26T19:16:45+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump brace-expansion from 1.1.12 to 1.1.21",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2627",
+            "created_at": "2026-10-26T15:24:51+00:00",
+            "updated_at": "2026-10-26T18:50:07+00:00",
+            "merged_at": "2026-10-26T18:50:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump js-yaml from 3.14.2 to 3.15.2",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2626",
+            "created_at": "2026-10-26T15:24:20+00:00",
+            "updated_at": "2026-10-26T18:20:16+00:00",
+            "merged_at": "2026-10-26T18:20:14+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump fast-uri from 3.1.7 to 3.1.9",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2625",
+            "created_at": "2026-10-26T15:23:56+00:00",
+            "updated_at": "2026-10-26T17:58:54+00:00",
+            "merged_at": "2026-10-26T17:58:51+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump body-parser from 1.20.6 to 1.20.9",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2624",
+            "created_at": "2026-10-26T15:23:30+00:00",
+            "updated_at": "2026-10-26T17:30:44+00:00",
+            "merged_at": "2026-10-26T17:30:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Build(deps): bump the other group with 9 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2623",
+            "created_at": "2026-10-26T01:29:06+00:00",
+            "updated_at": "2026-10-26T15:19:39+00:00",
+            "merged_at": "2026-10-26T15:19:37+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3928] ctat discussion storage layer",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2622",
+            "created_at": "2026-10-23T22:12:15+00:00",
+            "updated_at": "2026-10-26T22:18:08+00:00",
+            "merged_at": "2026-10-26T22:18:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3925] DB infra, swap out `bool` for `enum` for `poster_role`",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2621",
+            "created_at": "2026-10-23T20:10:20+00:00",
+            "updated_at": "2026-10-23T21:01:23+00:00",
+            "merged_at": "2026-10-23T21:01:21+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[MINT-3923] ctat discussion gql schema",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2620",
+            "created_at": "2026-10-23T15:50:23+00:00",
+            "updated_at": "2026-10-23T17:53:20+00:00",
+            "merged_at": "2026-10-23T17:53:18+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "samoddball",
+            "is_new": true
+          },
+          {
+            "title": "[FEATURE/MINT-3921] CTAT discussions",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2619",
+            "created_at": "2026-10-22T22:14:15+00:00",
+            "updated_at": "2026-10-29T15:10:48+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "samoddball",
+            "is_new": false
+          },
+          {
+            "title": "Build(deps): bump dompurify from 3.4.16 to 3.4.17",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2618",
+            "created_at": "2026-10-22T19:29:31+00:00",
+            "updated_at": "2026-10-26T16:27:43+00:00",
+            "merged_at": "2026-10-26T16:27:41+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "[MINT-3908] Backend Resolver work for Email Blast",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2617",
+            "created_at": "2026-10-22T16:04:52+00:00",
+            "updated_at": "2026-10-27T14:57:33+00:00",
+            "merged_at": "2026-10-27T14:57:30+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "garyjzhao",
+            "is_new": false
+          },
+          {
+            "title": "Build(deps-dev): bump vite from 6.4.3 to 6.4.4",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2613",
+            "created_at": "2026-10-20T21:19:29+00:00",
+            "updated_at": "2026-10-27T18:32:09+00:00",
+            "merged_at": "2026-10-27T18:32:07+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "dependabot[bot]",
+            "is_new": false
+          },
+          {
+            "title": "[MINT-2368] migrate transactions from storage pkg to resolvers",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2606",
+            "created_at": "2026-10-19T15:11:10+00:00",
+            "updated_at": "2026-10-26T18:56:23+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "samoddball",
+            "is_new": false
+          },
+          {
+            "title": "added delay to faktory startup",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2605",
+            "created_at": "2026-10-19T15:04:20+00:00",
+            "updated_at": "2026-10-26T15:16:48+00:00",
+            "merged_at": "2026-10-26T15:16:46+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "Peyton232",
+            "is_new": false
+          },
+          {
+            "title": "[FEATURE/MINT-3700] Waiver library",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2599",
+            "created_at": "2026-10-15T18:13:30+00:00",
+            "updated_at": "2026-10-23T17:57:06+00:00",
+            "merged_at": "2026-10-23T17:57:04+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "yiranli624",
+            "is_new": false
+          },
+          {
+            "title": "[MINT-3891] Email Blast from Collab Area Feature Branch",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2591",
+            "created_at": "2026-10-13T15:01:38+00:00",
+            "updated_at": "2026-10-29T14:45:33+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "garyjzhao",
+            "is_new": false
+          },
+          {
+            "title": "Build(deps): bump the other group across 1 directory with 35 updates",
+            "url": "https://github.com/CMS-Enterprise/mint-app/pull/2590",
+            "created_at": "2026-10-12T23:04:58+00:00",
+            "updated_at": "2026-10-26T01:35:01+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "Build(deps): bump axios from 1.20.0 to 1.21.0 (#2631)\n\n* Build(deps): bump axios from 1.20.0 to 1.21.0\n\nBumps [axios](https://github.com/axios/axios) from 1.20.0 to 1.21.0.\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.20.0...v1.21.0)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-version: 1.21.0\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* retrigger pipeline\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Sam Lawson <samlawson@Sam-Lawson-MacBook-Pro.local>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/c05a52c9499053608631bbc3e4e37f4b5d8cf28d",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-28T15:17:48+00:00"
+          },
+          {
+            "message": "Build(deps-dev): bump vite from 6.4.3 to 6.4.4 (#2613)\n\n* Build(deps-dev): bump vite from 6.4.3 to 6.4.4\n\nBumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 6.4.3 to 6.4.4.\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v6.4.4/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v6.4.4/packages/vite)\n\n---\nupdated-dependencies:\n- dependency-name: vite\n  dependency-version: 6.4.4\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* bump an additional version to fix an issue in 6.4.4\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Peyton T <peyton.t131@gmail.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>\nCo-authored-by: Sam Lawson <samlawson@Sam-Lawson-MacBook-Pro.local>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/50cb0ebf5b0cf5031ca1e4ee52c91266d3005010",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-27T18:25:39+00:00"
+          },
+          {
+            "message": "Build(deps): bump ws from 6.2.3 to 6.2.6 (#2628)\n\nBumps [ws](https://github.com/websockets/ws) from 6.2.3 to 6.2.6.\n- [Release notes](https://github.com/websockets/ws/releases)\n- [Commits](https://github.com/websockets/ws/compare/6.2.3...6.2.6)\n\n---\nupdated-dependencies:\n- dependency-name: ws\n  dependency-version: 6.2.6\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Elle Li <68085997+yiranli624@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/73532ced020b85c70fbeaa5deebce203228f0be7",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T19:11:11+00:00"
+          },
+          {
+            "message": "Build(deps): bump brace-expansion from 1.1.12 to 1.1.21 (#2627)\n\nBumps [brace-expansion](https://github.com/juliangruber/brace-expansion) from 1.1.12 to 1.1.21.\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/v1.1.12...v1.1.21)\n\n---\nupdated-dependencies:\n- dependency-name: brace-expansion\n  dependency-version: 1.1.21\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/0ee3fd0d0312313a442ab5f7ff30cdfa15c6cbe8",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T18:40:37+00:00"
+          },
+          {
+            "message": "Build(deps): bump js-yaml from 3.14.2 to 3.15.2 (#2626)\n\nBumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.14.2 to 3.15.2.\n- [Changelog](https://github.com/nodeca/js-yaml/blob/3.15.2/CHANGELOG.md)\n- [Commits](https://github.com/nodeca/js-yaml/compare/3.14.2...3.15.2)\n\n---\nupdated-dependencies:\n- dependency-name: js-yaml\n  dependency-version: 3.15.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Elle Li <68085997+yiranli624@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/7f32fe2048c00af67cbb9afaffb4d2a9d1496597",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T18:13:13+00:00"
+          },
+          {
+            "message": "Build(deps): bump fast-uri from 3.1.7 to 3.1.9 (#2625)\n\nBumps [fast-uri](https://github.com/fastify/fast-uri) from 3.1.7 to 3.1.9.\n- [Release notes](https://github.com/fastify/fast-uri/releases)\n- [Commits](https://github.com/fastify/fast-uri/compare/v3.1.7...v3.1.9)\n\n---\nupdated-dependencies:\n- dependency-name: fast-uri\n  dependency-version: 3.1.9\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/b29f950794baf0e79b7a6dcd93d7dfef83f60dc4",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T17:52:00+00:00"
+          },
+          {
+            "message": "Build(deps): bump body-parser from 1.20.6 to 1.20.9 (#2624)\n\nBumps [body-parser](https://github.com/expressjs/body-parser) from 1.20.6 to 1.20.9.\n- [Release notes](https://github.com/expressjs/body-parser/releases)\n- [Changelog](https://github.com/expressjs/body-parser/blob/1.20.9/HISTORY.md)\n- [Commits](https://github.com/expressjs/body-parser/compare/1.20.6...1.20.9)\n\n---\nupdated-dependencies:\n- dependency-name: body-parser\n  dependency-version: 1.20.9\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/df47673d3c6ad64e4e117f17260cd87d08d9e399",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T17:24:31+00:00"
+          },
+          {
+            "message": "Build(deps): bump dompurify from 3.4.16 to 3.4.17 (#2618)\n\nBumps [dompurify](https://github.com/cure53/DOMPurify) from 3.4.16 to 3.4.17.\n- [Release notes](https://github.com/cure53/DOMPurify/releases)\n- [Commits](https://github.com/cure53/DOMPurify/compare/3.4.16...3.4.17)\n\n---\nupdated-dependencies:\n- dependency-name: dompurify\n  dependency-version: 3.4.17\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Peyton T <peyton.t131@gmail.com>\nCo-authored-by: samoddball <156127704+samoddball@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/0d79bbcbb775cef5a259fb74d8de409affbcd2bc",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T16:21:19+00:00"
+          },
+          {
+            "message": "Build(deps): bump the other group with 9 updates (#2623)\n\n* Build(deps): bump the other group with 9 updates\n\nBumps the other group with 9 updates:\n\n| Package | From | To |\n| --- | --- | --- |\n| [github.com/99designs/gqlgen](https://github.com/99designs/gqlgen) | `0.17.95` | `0.17.98` |\n| [github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | `1.47.3` | `1.47.4` |\n| [github.com/aws/aws-sdk-go-v2/config](https://github.com/aws/aws-sdk-go-v2) | `1.33.9` | `1.33.10` |\n| [github.com/aws/aws-sdk-go-v2/credentials](https://github.com/aws/aws-sdk-go-v2) | `1.20.9` | `1.20.10` |\n| [github.com/aws/aws-sdk-go-v2/feature/rds/auth](https://github.com/aws/aws-sdk-go-v2) | `1.7.6` | `1.7.7` |\n| [github.com/aws/aws-sdk-go-v2/service/lambda](https://github.com/aws/aws-sdk-go-v2) | `1.113.0` | `1.113.3` |\n| [github.com/aws/aws-sdk-go-v2/service/s3](https://github.com/aws/aws-sdk-go-v2) | `1.114.3` | `1.114.5` |\n| [github.com/aws/smithy-go](https://github.com/aws/smithy-go) | `1.28.5` | `1.28.6` |\n| [github.com/vektah/gqlparser/v2](https://github.com/vektah/gqlparser) | `2.5.63` | `2.5.64` |\n\n\nUpdates `github.com/99designs/gqlgen` from 0.17.95 to 0.17.98\n- [Release notes](https://github.com/99designs/gqlgen/releases)\n- [Changelog](https://github.com/99designs/gqlgen/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/99designs/gqlgen/compare/v0.17.95...v0.17.98)\n\nUpdates `github.com/aws/aws-sdk-go-v2` from 1.47.3 to 1.47.4\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/v1.47.3...v1.47.4)\n\nUpdates `github.com/aws/aws-sdk-go-v2/config` from 1.33.9 to 1.33.10\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/config/v1.33.9...config/v1.33.10)\n\nUpdates `github.com/aws/aws-sdk-go-v2/credentials` from 1.20.9 to 1.20.10\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/kms/v1.20.9...service/emr/v1.20.10)\n\nUpdates `github.com/aws/aws-sdk-go-v2/feature/rds/auth` from 1.7.6 to 1.7.7\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/m2/v1.7.6...service/m2/v1.7.7)\n\nUpdates `github.com/aws/aws-sdk-go-v2/service/lambda` from 1.113.0 to 1.113.3\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/s3/v1.113.0...service/s3/v1.113.3)\n\nUpdates `github.com/aws/aws-sdk-go-v2/service/s3` from 1.114.3 to 1.114.5\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/service/s3/v1.114.3...service/s3/v1.114.5)\n\nUpdates `github.com/aws/smithy-go` from 1.28.5 to 1.28.6\n- [Release notes](https://github.com/aws/smithy-go/releases)\n- [Changelog](https://github.com/aws/smithy-go/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/aws/smithy-go/compare/v1.28.5...v1.28.6)\n\nUpdates `github.com/vektah/gqlparser/v2` from 2.5.63 to 2.5.64\n- [Release notes](https://github.com/vektah/gqlparser/releases)\n- [Commits](https://github.com/vektah/gqlparser/compare/v2.5.63...v2.5.64)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/99designs/gqlgen\n  dependency-version: 0.17.98\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2\n  dependency-version: 1.47.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/config\n  dependency-version: 1.33.10\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/credentials\n  dependency-version: 1.20.10\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/feature/rds/auth\n  dependency-version: 1.7.7\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/service/lambda\n  dependency-version: 1.113.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/aws-sdk-go-v2/service/s3\n  dependency-version: 1.114.5\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/aws/smithy-go\n  dependency-version: 1.28.6\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n- dependency-name: github.com/vektah/gqlparser/v2\n  dependency-version: 2.5.64\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: other\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* gql gen\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Sam Lawson <samlawson@Sam-Lawson-MacBook-Pro.local>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/4a796ed88151f57c1a1323ba7973800dc20246ed",
+            "author": "dependabot[bot]",
+            "created_at": "2026-10-26T15:12:54+00:00"
+          },
+          {
+            "message": "added delay to faktory startup (#2605)\n\n* added delay to faktory startup\n\n* added tests\n\n* Potential fix for pull request finding 'Return context error when zero-delay draw meets canceled context'\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* fixed test flakiness\n\n* changed logger\n\n* added faktory delay startup to docker compose\n\n* added FAKTORY_STARTUP_DELAY_MAX_SECONDS to envrc\n\n---------\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/e20af9c71738ae92ee064556e9b7d3c8a26d9860",
+            "author": "Peyton T",
+            "created_at": "2026-10-26T15:10:10+00:00"
+          },
+          {
+            "message": "[FEATURE/MINT-3700] Waiver library (#2599)\n\n* [MINT-3886] Waiver library section on HKC (#2596)\n\n[Implement hkc home page waiver library section related components and tests]\n\n* [MINT-3887] Waiver Library (#2600)\n\n* [WIP implementing waiver library]\n\n* [Add unit tests]\n\n* [Tweak style]\n\n* [Fix nullable value]\n\n* [MNT-3888] Waiver Library Filter Search (#2607)\n\n* [WIP implement filter and search]\n\n* [Continue working on waiver filter and search]\n\n* [Add empty alert]\n\n* [Update snapshots]\n\n* [Add util tests]\n\n* [Fix incorrect id, flat map labels, and setQuery on change]\n\n* [Don't display type if not provided]\n\n* [Fix updated id]\n\n* [Update task button to match figma]",
+            "url": "https://github.com/CMS-Enterprise/mint-app/commit/f1ae8ddcdeb1c4d0cdbeba2645d651758ca8f248",
+            "author": "Elle Li",
+            "created_at": "2026-10-23T17:49:55+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [
+          "graphql",
+          "serverless"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "batcave-tf-cluster",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-cluster",
+        "description": "batCAVE EKS cluster Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-buckets",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-buckets",
+        "description": "batCAVE S3 bucket Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-karpenter",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-karpenter",
+        "description": "batCAVE Karpenter Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-kms",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-kms",
+        "description": "batCAVE KMS Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-postgresql",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-postgresql",
+        "description": "batCAVE PostgreSQL Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-vpc",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-vpc",
+        "description": "batCAVE VPC Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-autoscaler",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-autoscaler",
+        "description": "batCAVE autoscaler Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-route53",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-route53",
+        "description": "batCAVE Route53 Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-serverless",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-serverless",
+        "description": "batCAVE Serverless Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-mysql",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-mysql",
+        "description": "batCAVE MySQL Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-configmap",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-configmap",
+        "description": "batCAVE Configmap Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-misc-modules",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-misc-modules",
+        "description": "IAC scripts that will help manage batCAVE landing zone resources.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-efs",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-efs",
+        "description": "batCAVE EFS Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-irsa",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-irsa",
+        "description": "batCAVE IRSA Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-gatus",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+        "description": "batCAVE Gatus Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-crunchy-data-postgresql-stig-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-crunchy-data-postgresql-stig-overlay",
+        "description": "This is your first repository",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-aws-rds-crunchy-data-postgresql-stig-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-aws-rds-crunchy-data-postgresql-stig-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-eks-cis-node-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-eks-cis-node-overlay",
+        "description": "This is your first repository",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-eks-cis-cluster-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-eks-cis-cluster-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-k8s-node-stig-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-k8s-node-stig-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-k8s-cluster-stig-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-k8s-cluster-stig-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-oracle-19c-cis-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-oracle-19c-cis-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-aws-rds-oracle-19c-cis-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-aws-rds-oracle-19c-cis-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "cms-ars-5.0-oracle-mysql-8-stig-overlay",
+        "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-oracle-mysql-8-stig-overlay",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "sbom-harbor",
+        "url": "https://github.com/CMS-Enterprise/sbom-harbor",
+        "description": "Repository for the SBOM Harbor.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "ztmf",
+        "url": "https://github.com/CMS-Enterprise/ztmf",
+        "description": "Zero Trust Maturity scoring tool",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "fix(backend): bump golang.org/x/net to v0.62.0 for the html DoS advisory",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/627",
+            "created_at": "2026-10-29T15:47:38+00:00",
+            "updated_at": "2026-10-29T15:50:28+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#379): TLS 1.3 only at the edge and the FIPS post-quantum ALB policy in impl and prod",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/626",
+            "created_at": "2026-10-29T15:01:23+00:00",
+            "updated_at": "2026-10-29T15:41:39+00:00",
+            "merged_at": "2026-10-29T15:41:36+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "voidspooks",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#396): fork, publish and archive questionnaire versions",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/625",
+            "created_at": "2026-10-27T17:35:32+00:00",
+            "updated_at": "2026-10-27T17:35:32+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#434): constrain answer option scores to 1-4; tighten scoring tests",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/624",
+            "created_at": "2026-10-27T16:40:17+00:00",
+            "updated_at": "2026-10-27T17:10:25+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#395): resolve the pinned questionnaire version at every read site",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/623",
+            "created_at": "2026-10-27T15:46:08+00:00",
+            "updated_at": "2026-10-27T17:33:53+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "feat(misc#394): add questionnaire_versions and pin the catalog to a baseline",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/622",
+            "created_at": "2026-10-27T14:42:30+00:00",
+            "updated_at": "2026-10-27T17:27:10+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "costacalvin",
+            "is_new": true
+          },
+          {
+            "title": "fix(misc#433): score pillars with the HHS x1.25 formula",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/621",
+            "created_at": "2026-10-23T19:12:59+00:00",
+            "updated_at": "2026-10-26T22:26:03+00:00",
+            "merged_at": "2026-10-26T22:26:01+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "feat(pr-env): Cognito sign-in and a reaper exemption for demo environments",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/620",
+            "created_at": "2026-10-22T18:24:46+00:00",
+            "updated_at": "2026-10-29T18:04:10+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": false
+          },
+          {
+            "title": "feat(misc#377): put the dev internal ALB listener on the FIPS post-quantum TLS policy",
+            "url": "https://github.com/CMS-Enterprise/ztmf/pull/616",
+            "created_at": "2026-10-14T14:39:39+00:00",
+            "updated_at": "2026-10-27T17:23:52+00:00",
+            "merged_at": "2026-10-27T17:23:48+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "voidspooks",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "feat(misc#379): TLS 1.3 only at the edge and the FIPS post-quantum ALB policy in impl and prod (#626)\n\nCloses CMS-Enterprise/ztmf-misc#379\nCloses CMS-Enterprise/ztmf-misc#377\n\n### What and why\n\nThis takes the two post-quantum changes that dev already runs to impl\nand prod, in one PR so they go through one review and one prod apply.\n\n- CloudFront viewer security policy `TLSv1.3_2025`, the same value dev\nhas run since\n[ztmf!617](https://github.com/CMS-Enterprise/ztmf/pull/617). CloudFront\noffers hybrid post-quantum key exchange only under TLS 1.3, so this\ncloses the classical path at the edge.\n- Internal ALB listener policy\n`ELBSecurityPolicy-TLS13-1-2-Res-FIPS-PQ-2025-09`, the same value dev\nhas run since\n[ztmf!616](https://github.com/CMS-Enterprise/ztmf/pull/616). Its backend\npolicy makes the ALB to API hop hybrid.\n\nEach is one line in `impl.tfvars` and `prod.tfvars`. Both variables keep\ntheir old defaults. I also reworded the two comments in `dev.tfvars`\nthat said impl and prod keep the default.\n\nMerging applies prod. Impl gets it with the next main to impl sync\n([ztmf!612](https://github.com/CMS-Enterprise/ztmf/pull/612) is still\nopen), so prod is on the new settings before impl.\n\n### How dev held\n\nCloudFront edge: dev went to TLS 1.3 only at 21:52 UTC on 2026-10-21.\nCloudFront logs from then to 15:08 UTC on 2026-10-27, against the week\nbefore:\n\n| window | HTTPS requests | TLS 1.2 | 502 from origin |\n|---|---|---|---|\n| 2026-10-14 to 2026-10-21 (7 days) | 9,465 | 7 (0.07%) | 60 |\n| 2026-10-21 to 2026-10-27 (5.7 days) | 11,526 | 0 | 50 |\n\nThe 502s are the same 10 a day as before the change, and each matches a\nfailed CloudFront to ALB connection in the ALB connection logs at the\nsame second. A client refused during the TLS 1.2 handshake never sends a\nrequest, so zero TLS 1.2 rows is what the change guarantees, not proof\nnobody tried. The clients from before are still here on TLS 1.3: the\nPalo Alto scanner that used TLS 1.2 on 2026-10-16 came back on TLS 1.3,\nand the Microsoft traffic in dev was all TLS 1.3. Prod was 99.89% TLS\n1.3 over the 14 days in\n[ztmf-misc#379](https://github.com/CMS-Enterprise/ztmf-misc/issues/379),\nand none of its TLS 1.2 traffic came from people using ZTMF.\n\nALB: after ztmf!616 deployed on 2026-10-27, every `hop=alb` handshake\nthe API logged from 17:29:34 UTC on was TLS 1.3 on X25519MLKEM768, with\nnone classical since. Okta and Entra login both work through the new\npolicy. Details are on\n[ztmf-misc#377](https://github.com/CMS-Enterprise/ztmf-misc/issues/377).\n\n### Visible change\n\nIn impl and prod, a client that can only do TLS 1.2 gets a handshake\nfailure. Browsers and other TLS 1.3 clients see no change, and plain\nHTTP still gets its redirect. Microsoft's link scanners and preview bots\nmay stop working on ZTMF links if they cannot do TLS 1.3, which means no\nlink preview in Teams, not a blocked user. The ALB change is not visible\nto users.\n\n### Testing\n\n`terraform fmt -check` passes. `make test-unit`, `make\ntest-integration`, and `make test-e2e` pass (280 e2e checks, 0 failed);\nno Go code changed.\n\nProbe on 2026-10-29: `dev.ztmf.cms.gov` refuses TLS 1.2 with a protocol\nversion alert and negotiates X25519MLKEM768 on TLS 1.3.\n`impl.ztmf.cms.gov` and `ztmf.cms.gov` still accept TLS 1.2 today.\n\nAfter the prod deploy I will run the same probe against `ztmf.cms.gov`,\ncheck that prod `hop=alb` moves to X25519MLKEM768, and watch the prod\n502 count, which should stay at about 10 a day. Rollback is reverting\nthe two prod lines. Impl gets the same probe once the sync lands; it has\nno CloudFront logs.",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/cc9381c2181129c2ceec453254c9465d9e5e74c5",
+            "author": "cameron testerman",
+            "created_at": "2026-10-29T15:41:35+00:00"
+          },
+          {
+            "message": "feat(misc#377): put the dev internal ALB listener on the FIPS post-quantum TLS policy (#616)\n\nPart of CMS-Enterprise/ztmf-misc#377 (dev only; the impl and prod PR\ncloses it)\n\n### What and why\n\nThis moves the internal ALB's HTTPS listener in dev to\n`ELBSecurityPolicy-TLS13-1-2-Res-FIPS-PQ-2025-09`, the FIPS policy\nElizabeth chose. AWS ties the ALB's backend policy to the listener\npolicy, so with a FIPS post-quantum listener the ALB connects to the API\ntargets with `ELBSecurityPolicy-TLS13-1-0-FIPS-PQ-2025-09`, which offers\nhybrid ML-KEM. That is what makes the ALB to API hop hybrid.\n\nThe policy is now a variable, `alb_ssl_policy`, whose default is the\ncurrent `ELBSecurityPolicy-TLS13-1-2-2021-06`. Only `dev.tfvars` sets\nthe new policy, so impl and prod plan no change. A merge to main deploys\ndev and prod in the same run, and this keeps prod out of it until dev\nhas been checked. A follow-up PR sets impl and prod.\n\n### What I checked before the change\n\n- **CloudFront to ALB.** A week of dev connection logs (2026-10-08 to\n2026-10-14, 706 connections) shows CloudFront on TLS 1.3 with\n`TLS_AES_128_GCM_SHA256` and secp256r1. The new listener policy supports\nall of it.\n- **ALB to Okta and Entra.** The backend policy also covers the ALB's\nOIDC calls. Okta (dev and prod) negotiates TLS 1.2 with\n`ECDHE-RSA-AES128-GCM-SHA256` on P-256, and Entra negotiates TLS 1.3\nwith `TLS_AES_256_GCM_SHA384`. Both are in the backend policy.\n- **Baseline.** The API's handshake log from\n[ztmf!613](https://github.com/CMS-Enterprise/ztmf/pull/613) recorded 60\n`hop=alb` handshakes in dev on 2026-10-14, all TLS 1.3 on X25519.\n\n### Open question the dev rollout answers\n\nAWS lists SecP256r1MLKEM768, SecP384r1MLKEM1024, and X25519MLKEM768 for\nits post-quantum policies but does not publish the groups per policy.\nSince [ztmf!619](https://github.com/CMS-Enterprise/ztmf/pull/619) the\nAPI builds with Go 1.27.3, which supports both X25519MLKEM768 and\nSecP256r1MLKEM768, and the API server does not set `CurvePreferences`,\nso it takes Go's defaults. If `hop=alb` still logs a classical group\nafter the dev deploy, the FIPS backend policy does not offer a hybrid\ngroup Go supports, and that question goes to AWS.\n\n### Testing\n\n`terraform fmt -check` and `terraform validate` pass. `make test-unit`\npasses; no Go code changed. After the dev deploy I will check the\n`hop=alb` group in the API logs, CloudFront origin errors, and a login\nthrough Okta and Entra.",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/a2fbc4a5663819b8a96be229142f4a39b1fcd1d9",
+            "author": "cameron testerman",
+            "created_at": "2026-10-27T17:23:48+00:00"
+          },
+          {
+            "message": "fix(misc#433): score pillars with the HHS x1.25 formula (#621)\n\nCloses CMS-Enterprise/ztmf-misc#433. Closes\nCMS-Enterprise/ztmf-misc#383.\n\nPillar scores now use the HHS scorecard formula: the average of the 1-4\nanswers times 1.25 (sum x 5 / max), instead of adding 1 to each answer\nand averaging. The HHS FY25 numbers on record were scored this way, and\nchecking the FY25 HHS sheet confirms it: every pillar matches sum x 5 /\nmax, and the overall is the average of the six pillars, which we already\ndo.\n\n| Answers in a pillar | Before (+1) | After (x1.25) |\n|---|---|---|\n| all 1 | 2.00 | 1.25 |\n| all 2 | 3.00 | 2.50 |\n| all 3 | 4.00 | 3.75 |\n| all 4 | 5.00 | 5.00 |\n\nAn unanswered question counts as a 1, so a pillar with nothing answered\nscores 1.25. Blanks only exist on incomplete systems; once a question is\nsaved one of the four options is always selected. Tier cutoffs and the\nsystem score (average of pillars) are unchanged.\n\nA pillar with nothing answered is still labeled Not Assessed, not\nTraditional, and so is a system with nothing answered in any pillar. Its\nscore stays 1.25 and still counts in averages. The query now returns an\nanswered count per pillar and per system, and the rollup uses Not\nAssessed when it is zero; otherwise the tier comes from the score as\nbefore. A pillar answered all 1s also scores 1.25 but reads Traditional,\nbecause it was assessed.\n\nThe change is one expression in the `pillar_scores` CTE in\n`backend/internal/model/scores.go`. Scores are computed on read, so\nevery data call is rescored, which is intended: rescored FY25 then lines\nup with the HHS FY25 figures for all but a handful of systems.\n\n## Rider: export labels its score column\n\nThe data call export's column I is now headed \"Answer Score (1-4)\", and\na second sheet, \"How scores work\", states how the dashboard builds\npillar and system scores from it and why averaging column I directly\nwill not match. This is the #383 ask; layout and values are otherwise\nunchanged.\n\n## Testing\n\n- New `TestPillarScoreHHSFormulaIntegration` recomputes every pillar and\nsystem score in the seed from the raw answers. The seed has one question\nper pillar, so the test adds a second, unanswered question to an\nanswered pillar to cover the partial case, and removes it on cleanup.\nChecked that it fails with blanks counted as 0 and with a wrong\nmultiplier.\n- New export test pins the column header and the notes sheet.\n- Unit tests pin the Not Assessed rule (`tierFor`), including an all-1s\npillar that must read Traditional. The integration test checks each\npillar's and each system's tier against an answered count computed\nseparately from the raw rows.\n- `make test-unit` and `make test-integration` pass. No OpenAPI drift\nand no emberfall changes: emberfall asserts pillar names on\n`/scores/aggregate`, not values.\n\n## Deploy notes\n\n- Ship with the matching ztmf-ui PR (same branch name). Its\nquestion-level breakdown uses the same x1.25 factor; if one lands\nwithout the other, question rows and pillar scores disagree.\n- On a 9/30 prod copy, every data call drops about 0.4 on average and\nroughly half of systems drop one tier; none move up. The comms decision\nis tracked on misc#433.\n- Outside this repo, the same window: the ztmf-insights reporting PR\nplus a `refresh_opdivs.py` run, and the Power BI pillar score measure.",
+            "url": "https://github.com/CMS-Enterprise/ztmf/commit/b1d356370fcdb9de410b149be5cd02cbb22757be",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-10-26T22:26:00+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "batcave-tf-mssql",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-mssql",
+        "description": "batCAVE Microsoft SQL Server Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-sqs",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-sqs",
+        "description": "batCAVE SQS Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-dynamodb",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-dynamodb",
+        "description": "batCAVE DynamoDB Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "sbom-harbor-ui",
+        "url": "https://github.com/CMS-Enterprise/sbom-harbor-ui",
+        "description": "Repository for the SBOM Harbor UI.",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-utilitybelt-data",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-utilitybelt-data",
+        "description": "batCAVE Terraform utility belt data",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-s3-replication",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-s3-replication",
+        "description": "batCAVE S3 replication Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-utility-belt",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-utility-belt",
+        "description": "batCAVE utility belt Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-db-s3-integration",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-db-s3-integration",
+        "description": null,
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-redis",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-redis",
+        "description": "batCAVE Redis Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-lambda",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-lambda",
+        "description": "batCAVE AWS Lambda Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-workflow-engine",
+        "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+        "description": "batCAVE workflow engine",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-knight-light",
+        "url": "https://github.com/CMS-Enterprise/batcave-knight-light",
+        "description": "batCAVE knight light demo application",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-omnibus",
+        "url": "https://github.com/CMS-Enterprise/batcave-omnibus",
+        "description": "batCAVE Omnibus",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-wt-sdl-reporting",
+        "url": "https://github.com/CMS-Enterprise/batcave-wt-sdl-reporting",
+        "description": "batCAVE Security Data Lake daily reporting automation",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-utility-belt-irsa",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-utility-belt-irsa",
+        "description": "batCAVE utility belt IRSA Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-eso",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-eso",
+        "description": "batCAVE External Secrets Operator Terraform module",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-workflow-engine-action",
+        "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine-action",
+        "description": "This is your first repository",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "batcave-tf-ado-irsa",
+        "url": "https://github.com/CMS-Enterprise/batcave-tf-ado-irsa",
+        "description": "This is your first repository",
+        "archived": true,
+        "issues": [],
+        "pulls": [],
+        "commits": [],
+        "releases": []
+      },
+      {
+        "name": "ztmf-ui",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+        "description": "UI specific repository for the ZTMF Scoring Dashboard",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "fix(misc#434): Not Assessed shows no score in RiskPanel, tooltip and fallback cleanup",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/760",
+            "created_at": "2026-10-27T16:38:36+00:00",
+            "updated_at": "2026-10-27T17:08:03+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "chore(deps): bump follow-redirects to 1.16.1 to clear the Snyk gate",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/759",
+            "created_at": "2026-10-26T16:39:18+00:00",
+            "updated_at": "2026-10-27T15:20:17+00:00",
+            "merged_at": "2026-10-26T18:41:38+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "fix(misc#433): show question scores on the HHS x1.25 scale and explain the formula",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/758",
+            "created_at": "2026-10-23T19:13:06+00:00",
+            "updated_at": "2026-10-26T22:26:07+00:00",
+            "merged_at": "2026-10-26T22:26:05+00:00",
+            "state": "closed",
+            "merged": true,
+            "author": "danielbowne",
+            "is_new": true
+          },
+          {
+            "title": "Migrate dashboard reads in Title and Home onto TanStack Query",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/756",
+            "created_at": "2026-10-13T15:50:56+00:00",
+            "updated_at": "2026-10-27T17:31:54+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": false
+          },
+          {
+            "title": "fix(misc#408): correct breadcrumbs, page size, and missing-system state",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/746",
+            "created_at": "2026-09-29T17:05:46+00:00",
+            "updated_at": "2026-10-27T17:34:04+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "tarratsco",
+            "is_new": false
+          }
+        ],
+        "commits": [
+          {
+            "message": "fix(misc#433): show question scores on the HHS x1.25 scale and explain the formula (#758)\n\n* fix(misc#433): show per-question scores on the HHS x1.25 scale and explain the formula\n\n* fix(misc#433): give the score info buttons a 24px target\n\n* fix(misc#433): floor copy and formula tooltip for blanks counting as a 1\n\n* fix(misc#433): legend and target gap treat Not Assessed as nothing answered\n\n* fix(misc#433): show unassessed systems on the targets line and tidy floor comments",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/6c8810383dacfecc4dab1ae02ae60ccbff9505e8",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-10-26T22:26:04+00:00"
+          },
+          {
+            "message": "chore(deps): bump follow-redirects to 1.16.1 to clear the Snyk gate (#759)\n\nchore(deps): bump follow-redirects to 1.16.1 to clear SNYK-JS-FOLLOWREDIRECTS-21280747",
+            "url": "https://github.com/CMS-Enterprise/ztmf-ui/commit/9ac37cb6e05e8faf9293753c46f6082d1a342f95",
+            "author": "HomeBrewAdmin",
+            "created_at": "2026-10-26T18:41:37+00:00"
+          }
+        ],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "power-platform-webres",
+        "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+        "description": "Custom Web Reources for Microsoft Power Platform applications",
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Ppe 136/update dev scripts to match impl data",
+            "url": "https://github.com/CMS-Enterprise/power-platform-webres/pull/52",
+            "created_at": "2026-10-08T17:24:10+00:00",
+            "updated_at": "2026-10-29T14:53:48+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "cheinrichs-oddball",
+            "is_new": false
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [
+          "html-css-javascript",
+          "microsoft-power-apps",
+          "microsoft-power-apps-model-driven-apps",
+          "microsoft-power-platform"
+        ],
+        "contributors": [],
+        "changelog_entries": []
+      },
+      {
+        "name": "emmy-app",
+        "url": "https://github.com/CMS-Enterprise/emmy-app",
+        "description": null,
+        "archived": false,
+        "issues": [],
+        "pulls": [
+          {
+            "title": "Bump certifi from 2026.7.22 to 2026.10.19 in /app/analytics in the pip group across 1 directory",
+            "url": "https://github.com/CMS-Enterprise/emmy-app/pull/45",
+            "created_at": "2026-10-26T12:48:28+00:00",
+            "updated_at": "2026-10-26T12:48:31+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump bridgecrewio/checkov-action from 12.2296.0 to 12.3135.0",
+            "url": "https://github.com/CMS-Enterprise/emmy-app/pull/44",
+            "created_at": "2026-10-26T08:46:54+00:00",
+            "updated_at": "2026-10-26T08:46:58+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+            "url": "https://github.com/CMS-Enterprise/emmy-app/pull/43",
+            "created_at": "2026-10-24T20:31:43+00:00",
+            "updated_at": "2026-10-24T20:31:46+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "dependabot[bot]",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Ruby/JS dependencies for CVEs flagged by bundler-audit/npm audit",
+            "url": "https://github.com/CMS-Enterprise/emmy-app/pull/42",
+            "created_at": "2026-10-24T12:10:52+00:00",
+            "updated_at": "2026-10-24T12:10:54+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          },
+          {
+            "title": "fix: patch Dockerfile for OS-level CVEs flagged by Trivy/Anchore",
+            "url": "https://github.com/CMS-Enterprise/emmy-app/pull/41",
+            "created_at": "2026-10-24T09:22:19+00:00",
+            "updated_at": "2026-10-24T09:22:21+00:00",
+            "merged_at": null,
+            "state": "open",
+            "merged": false,
+            "author": "github-actions[bot]",
+            "is_new": true
+          }
+        ],
+        "commits": [],
+        "releases": [],
+        "topics": [],
+        "contributors": [],
+        "changelog_entries": []
+      }
+    ],
+    "period": {
+      "start": "2026-10-23",
+      "end": "2026-10-30"
+    },
+    "generated_at": "2026-10-30T04:50:39.600827+00:00",
+    "total_repo_count": 73
+  }
+}
