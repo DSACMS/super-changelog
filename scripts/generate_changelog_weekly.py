@@ -4,6 +4,13 @@ import json
 import os
 from util import ChangelogGenerator
 
+ORG_CONFIGS = [
+    {"name": "DSACMS", "use_app": True},
+    {"name": "GSA-SHARE-IT", "use_app": False},
+    {"name": "CMS-Enterprise", "use_app": False},
+]
+
+
 def main():
     now = datetime.now(timezone.utc)
     one_week_ago = now - timedelta(days=7)
@@ -16,22 +23,30 @@ def main():
     private_key = os.getenv("GH_APP_PRIVATE_KEY")
     installation_id = os.getenv("GH_APP_INSTALLATION_ID")
 
-    fallback_token = os.getenv("GH_TOKEN") or os.getenv("REPOLINTER_AUTO_TOKEN")
-    if not fallback_token:
-        raise ValueError("Fallback GitHub token not found in environmental variables")
+    fallback_pat = os.getenv("GH_FALLBACK_PAT")
+    if not fallback_pat:
+        raise ValueError(
+            "GH_FALLBACK_PAT not found in environment. This is required for "
+            "orgs without the GitHub App installed (see ORG_CONFIGS)."
+        )
 
-    org_configs = [
-        {"name": "DSACMS", "use_app": True},
-        {"name": "GSA-SHARE-IT", "use_app": False},
-        {"name": "CMS-Enterprise", "use_app": False},
-    ]
+    print(f"App ID present: {bool(app_id)}")
+    print(f"Private key present: {bool(private_key)}")
+    print(f"Installation ID present: {bool(installation_id)} (value: {installation_id})")
+    print(f"Fallback PAT present: {bool(fallback_pat)}")
 
     combined_data = {}
-    for org in org_configs:
-        print(f"Fetching data for {org['name']}...")
+    for org in ORG_CONFIGS:
+        org_name = org["name"]
+        print(f"Fetching data for {org_name}...")
+
         if org["use_app"]:
+            if not (app_id and private_key and installation_id):
+                raise ValueError(
+                    f"Org '{org_name}' is configured to use the GitHub App, "
+                    f"but App credentials are missing from the environment."
+                )
             gen = ChangelogGenerator(
-                token=fallback_token,
                 filename=None,
                 log_history_start=start_date,
                 log_history_end=end_date,
@@ -41,16 +56,18 @@ def main():
             )
         else:
             gen = ChangelogGenerator(
-                token=fallback_token,
+                token=fallback_pat,
                 filename=None,
                 log_history_start=start_date,
                 log_history_end=end_date,
             )
-        combined_data[org["name"]] = gen.get_data(org["name"])
+
+        combined_data[org_name] = gen.get_data(org_name)
 
     with open(filename, "w") as f:
         json.dump(combined_data, f, indent=2)
-    print(f"Saved combined changelog for {len(org_configs)} orgs to {filename}")
+    print(f"Saved combined changelog for {len(ORG_CONFIGS)} orgs to {filename}")
+
 
 if __name__ == "__main__":
     main()
