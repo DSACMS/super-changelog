@@ -13,7 +13,8 @@
     ],
     "usageType": [
       "openSource"
-    ]
+    ],
+    "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/super-changelog",
@@ -24,7 +25,7 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 19512,
+  "laborHours": 20394,
   "reuseFrequency": {
     "forks": 3,
     "clones": 0
@@ -50,8 +51,8 @@
   "partners": [],
   "date": {
     "created": "2025-04-09T00:43:10Z",
-    "lastModified": "2026-09-17T19:00:52Z",
-    "metadataLastUpdated": "2026-10-01T03:19:07.928Z"
+    "lastModified": "2026-10-30T14:19:51Z",
+    "metadataLastUpdated": "2026-11-01T03:31:07.016Z"
   },
   "tags": [
     "cmsgov",
