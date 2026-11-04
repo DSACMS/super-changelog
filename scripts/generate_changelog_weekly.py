@@ -68,6 +68,11 @@ def main():
         json.dump(combined_data, f, indent=2)
     print(f"Saved combined changelog for {len(ORG_CONFIGS)} orgs to {filename}")
 
+    github_output = os.getenv("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a") as f:
+            f.write(f"weekly_file={filename}\n")
+
 
 if __name__ == "__main__":
     main()
