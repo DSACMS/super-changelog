@@ -13,6 +13,8 @@ permissions:
 jobs:
   generate-weekly-data:
     runs-on: ubuntu-latest
+    outputs:
+      weekly_file: ${{ steps.weekly.outputs.weekly_file }}
     
     steps:
       - name: Checkout repository
@@ -38,6 +40,7 @@ jobs:
           pip install PyGithub
 
       - name: Generate weekly changelog
+        id: weekly
         env:
           GH_APP_ID: ${{ vars.APP_ID }}
           GH_APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
@@ -65,8 +68,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: weekly-changelog-json
-          path: |
-            changelog_data/data/weekly_changelog_*.json
+          path: ${{ steps.weekly.outputs.weekly_file }}
+          if-no-files-found: error
 
   create-full-summary-pr:
     needs: generate-weekly-data
@@ -303,16 +306,41 @@ jobs:
           path: incoming/
 
       - name: Copy weekly changelog json into metrics-data
+        env:
+          EXPECTED_FILE: ${{ needs.generate-weekly-data.outputs.weekly_file }}
         run: |
-          SRC_FILE=$(ls -t incoming/weekly_changelog_*.json 2>/dev/null | head -n1)
-
-          if [ -z "$SRC_FILE" ]; then
-            echo "No weekly changelog json found"
+          if [ -z "$EXPECTED_FILE" ]; then
+            echo "::error::generate-weekly-data did not report a weekly file name"
             exit 1
           fi
 
+          EXPECTED_NAME=$(basename "$EXPECTED_FILE")
+          SRC_FILE="incoming/$EXPECTED_NAME"
+
+          if [[ ! "$EXPECTED_NAME" =~ ^weekly_changelog_[0-9]{4}-[0-9]{2}-[0-9]{2}_to_[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$ ]]; then
+            echo "::error::Unexpected file name: $EXPECTED_NAME"
+            exit 1
+          fi
+
+          COUNT=$(find incoming -maxdepth 1 -name 'weekly_changelog_*.json' | wc -l)
+          if [ "$COUNT" -ne 1 ]; then
+            echo "::error::Expected exactly 1 weekly json in artifact, found $COUNT"
+            exit 1
+          fi
+
+          if [ ! -f "$SRC_FILE" ]; then
+            echo "::error::Expected $EXPECTED_NAME but it is not in the artifact"
+            exit 1
+          fi
+
+          python3 -m json.tool "$SRC_FILE" > /dev/null || {
+            echo "::error::$EXPECTED_NAME is not valid JSON"
+            exit 1
+          }
+
           mkdir -p metrics-data/data
           cp "$SRC_FILE" metrics-data/data/
+          echo "Copied $EXPECTED_NAME"
 
       - name: Commit and push directly to main
         working-directory: metrics-data
