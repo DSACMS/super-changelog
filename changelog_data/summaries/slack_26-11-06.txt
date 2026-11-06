@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-10-30 to 2026-11-06)
+
+• 65 of 188 repos with activity
+• 206 commits | 201 PRs | 10 issues
+
+*Key Changes:*
+• libyears: Added Measure explicitly selected declared Ruby groups with repeatable
+• libyears: Added Measure direct RubyGems dependencies from a bounded root `Gemfile.lock` snapshot,
+• libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional
+• codejson-schemas: Added `identifier` field — a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.
+• codejson-schemas: Added `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.
+• codejson-schemas: Changed `$id` updated to `https://gsa-share-it.github.io/code-json-schema.json` (reflecting the repository's move from the `DSACMS` org to `GSA-SHARE-IT`).
+• codejson-schemas: Added `feedbackMechanism` (singular)
+• codejson-schemas: Added `version`, `homepageURL`, `downloadURL`, `disclaimerURL`, `disclaimerText`, `relatedCode`, `reusedCode`, `partners` added as optional fields, taken from original [M-16-21 code.json schema](https://github.com/GSA/code-gov-data/tree/master/schemas)
+
+*Most Active Repos:*
+• *iv-cbv-payroll*: 32 commits, 48 PRs
+• *libyears*: 63 commits, 0 PRs
+• *emmy-app*: 23 commits, 17 PRs
+• *ztmf*: 10 commits, 16 PRs
+• *mint-app*: 7 commits, 18 PRs
