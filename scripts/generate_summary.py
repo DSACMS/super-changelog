@@ -290,7 +290,7 @@ def create_pr_content(summary: Dict[str, Any]) -> tuple:
 
     body_sections.extend([
         "---",
-        f"*Generated automatically on {summary.get('generated_at', 'Unknoen')}*"
+        f"*Generated automatically on {summary.get('generated_at', 'Unknown')}*"
     ])
 
     return title, '\n'.join(body_sections)
@@ -320,7 +320,7 @@ def main():
         output_dir = "changelog_data/summaries"
         os.makedirs(output_dir, exist_ok=True)
 
-        timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         summary_file = os.path.join(output_dir, f"summary_{timestamp}.json")
         with open(summary_file, 'w') as f:
             json.dump(summary, f, indent=2)
