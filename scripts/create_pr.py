@@ -144,7 +144,7 @@ def main():
             print(f"Successfully created pull request: {pr_url}")
 
             output_dir = "changelog_data/summaries"
-            timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+            timestamp = datetime.now(timezone.utc).strftime("Y-%m-%d")
             pr_url_file = os.path.join(output_dir, f"pr_url_{timestamp}.txt")
             with open(pr_url_file, 'w') as f:
                 f.write(pr_url)

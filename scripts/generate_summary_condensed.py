@@ -129,8 +129,25 @@ def get_emoji_for_category(category: str) -> tuple:
     return ('❓', 'other')
 
 
+def merged_in_period(pr: Dict[str, Any], start: str, end: str) -> bool:
+    """True if the PR was merged within [start, end] (YYYY-MM-DD, inclusive)."""
+    merged_at = pr.get("merged_at")
+    if not (pr.get("merged") and merged_at):
+        return False
+    merged_date = merged_at[:10]
+    if start and merged_date < start:
+        return False
+    if end and merged_date > end:
+        return False
+    return True
+
+
 def categorize_changes(data: Dict[str, Any]) -> Dict[str, List[Dict]]:
     """Categorize all of the changes in the data."""
+    period = data.get("period", {})
+    period_start = period.get("start") or ""
+    period_end = period.get("end") or ""
+
     categorized = {
         'added': [],
         'fixed': [],
@@ -161,7 +178,8 @@ def categorize_changes(data: Dict[str, Any]) -> Dict[str, List[Dict]]:
                         'emoji': emoji
                     })
 
-        merged_prs = [pr for pr in repo_data.get("pulls", []) if pr.get("merged")]
+        merged_prs = [pr for pr in repo_data.get("pulls", []) 
+                      if merged_in_period(pr, period_start, period_end)]
         if merged_prs:
             for pr in merged_prs[:3]:
                 title = pr.get("title", "")
@@ -188,10 +206,11 @@ def generate_condensed_summary(data_file: str) -> Dict[str, Any]:
         print(f"Error reading data file {data_file}: {e}")
         raise
     
-    # if "repos" not in data:
-    #     raise ValueError("Invalid data structure: missing 'repos' key")
-
     data = normalize_data(data)
+
+    period = data.get("period", {})
+    p_start = period.get("start") or ""
+    p_end = period.get("end") or ""
     
     summary = {
         "period": data.get("period", {}),
@@ -204,6 +223,10 @@ def generate_condensed_summary(data_file: str) -> Dict[str, Any]:
         "total_pulls": sum(len(r.get("pulls", [])) for r in data["repos"]),
         "total_issues": sum(len(r.get("issues", [])) for r in data["repos"]),
         "total_changelog_entries": sum(len(r.get("changelog_entries", [])) for r in data["repos"]),
+        "new_pulls": sum(1 for r in data["repos"] for p in r.get("pulls", []) if p.get("is_new")),
+        "new_issues": sum(1 for r in data["repos"] for i in r.get("issues", []) if i.get("is_new")),
+        "merged_pulls": sum(1 for r in data["repos"] for p in r.get("pulls", [])
+                            if merged_in_period(p, p_start, p_end)),
     }
 
     summary["categorized_changes"] = categorize_changes(data)
@@ -244,8 +267,11 @@ def create_condensed_pr_content(summary: Dict[str, Any]) -> tuple:
         "",
         "## 📊 Quick Stats",
         f"- **Active Repositories**: {summary.get('active_repos', 0)}/{summary.get('total_repos', 0)}",
-        f"- 📦 **Commits**: {summary.get('total_commits', 0)} | 🔀 **Pull Requests**: {summary.get('total_pulls', 0)} | ❗️ **Issues**: {summary.get('total_issues', 0)}",
-        ""
+        f"- 📦 **Commits**: {summary.get('total_commits', 0)} | "
+        f"🔀 **Pull Requests updated**: {summary.get('total_pulls', 0)} "
+        f"({summary.get('new_pulls', 0)} new, {summary.get('merged_pulls', 0)} merged) | "
+        f"❗️ **Issues updated**: {summary.get('total_issues', 0)} "
+        f"({summary.get('new_issues', 0)} new)",
     ]
 
     categorized = summary.get("categorized_changes", {})
