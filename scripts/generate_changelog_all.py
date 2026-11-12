@@ -6,7 +6,7 @@ import re
 from util import ChangelogGenerator
 
 def main():
-    timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     filename = f"changelog_data/data/changelog{timestamp}.json"
     # since = datetime.now(timezone.utc) - timedelta(days=7)
 
