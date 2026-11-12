@@ -171,8 +171,8 @@ class TestCreatePRContent:
         title, _ = create_pr_content(summary)
 
         assert "Weekly Changelog Summary" in title
-        assert "2025-01-01" in title
-        assert "2025-01-08" in title
+        assert "2024-06-01" in title
+        assert "2024-06-08" in title
 
     def test_pr_body_markdown_format(self, mock_changelog_data, temp_dir):
         """Test that PR body uses markdown formatting."""
@@ -210,7 +210,7 @@ class TestMainFunction:
         data_dir = os.path.join(temp_dir, "changelog_data", "data")
         os.makedirs(data_dir, exist_ok=True)
 
-        timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         data_file = os.path.join(data_dir, f"weekly_changelog_{timestamp}.json")
         with open(data_file, 'w') as f:
             json.dump(mock_changelog_data, f)
