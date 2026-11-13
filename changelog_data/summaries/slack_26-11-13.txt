@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-11-06 to 2026-11-13)
+
+• 20 of 189 repos with activity
+• 207 commits | 143 PRs | 5 issues
+
+*Key Changes:*
+• libyears: Fixed Align human-readable dependency tables using the displayed headers and values,
+• libyears: Changed Ordinary NuGet scans can date qualified selected versions against a disclosed
+• libyears: Added Automatically report independent Maven Declared / Observed dependency-age views
+• libyears: Added Automatically select qualified current NuGet repository project/lock snapshots
+• libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional
+• codejson-schemas: Added `identifier` field — a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.
+• codejson-schemas: Added `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.
+• codejson-schemas: Changed `$id` updated to `https://gsa-share-it.github.io/code-json-schema.json` (reflecting the repository's move from the `DSACMS` org to `GSA-SHARE-IT`).
+
+*Most Active Repos:*
+• *libyears*: 100 commits, 0 PRs
+• *emmy-app*: 35 commits, 33 PRs
+• *iv-cbv-payroll*: 25 commits, 37 PRs
+• *mint-app*: 7 commits, 21 PRs
+• *site*: 20 commits, 7 PRs
