@@ -54,7 +54,7 @@ def create_pull_request_with_api(title, body, branch_name):
 
     repo_name = os.getenv("GITHUB_REPOSITORY")
     if not repo_name:
-        raise ValueError("GITHUB_REPOSITORY environment variable not set")
+        raise ValueError("GITHUB_REPOSITOR environment variable not set")
     
     repo = g.get_repo(repo_name)
 
@@ -144,7 +144,7 @@ def main():
             print(f"Successfully created pull request: {pr_url}")
 
             output_dir = "changelog_data/summaries"
-            timestamp = datetime.now(timezone.utc).strftime("Y-%m-%d")
+            timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             pr_url_file = os.path.join(output_dir, f"pr_url_{timestamp}.txt")
             with open(pr_url_file, 'w') as f:
                 f.write(pr_url)
