@@ -87,7 +87,7 @@ def main():
         print(" 3. Create a condensed PR: python scripts/create_pr_condensed.py")
         print(" 4. Use the mailto link to send email notifications")
 
-        timestamp = datetime.now(timezone.utc).strftime("%y-%m-%d")
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         mailto_file = os.path.join(summary_dir, f"mailto_{timestamp}.txt")
         if os.path.exists(mailto_file):
             with open(mailto_file, 'r') as f:

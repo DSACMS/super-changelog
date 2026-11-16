@@ -120,9 +120,9 @@ jobs:
           PR_BODY_FILE="changelog_data/summaries/pr_body_${TIMESTAMP}.md"
 
           if [ ! -f "$PR_TITLE_FILE" ] || [ ! -f "$PR_BODY_FILE" ]; then
-            echo "Summary not found, checking latest file..."
-            PR_TITLE_FILE=$(ls -t changelog_data/summaries/pr_title_*.txt 2>/dev/null | grep -v "condensed" | head -n1)
-            PR_BODY_FILE=$(ls -t changelog_data/summaries/pr_body_*.md 2>/dev/null | grep -v "condensed" | head -n1)
+            echo "::error::Expected $PR_TITLE_FILE and $PR_BODY_FILE but they were not found"
+            ls changelog_data/summaries/ | head -n 50
+            exit 1
           fi
 
           if [ -f "$PR_TITLE_FILE" ] && [ -f "$PR_BODY_FILE" ]; then
@@ -223,9 +223,9 @@ jobs:
           PR_BODY_FILE="changelog_data/summaries/pr_body_condensed_${TIMESTAMP}.md"
 
           if [ ! -f "$PR_TITLE_FILE" ] || [ ! -f "$PR_BODY_FILE" ]; then
-            echo "Condensed summary not found, checking latest file..."
-            PR_TITLE_FILE=$(ls -t changelog_data/summaries/pr_title_condensed_*.txt 2>/dev/null | head -n1)
-            PR_BODY_FILE=$(ls -t changelog_data/summaries/pr_body_condensed_*.md 2>/dev/null | head -n1)
+            echo "::error::Expected $PR_TITLE_FILE and $PR_BODY_FILE but they were not found"
+            ls changelog_data/summaries/ | head -n 50
+            exit 1
           fi
 
           if [ -f "$PR_TITLE_FILE" ] && [ -f "$PR_BODY_FILE" ]; then
