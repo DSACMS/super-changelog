@@ -7,6 +7,7 @@ import time
 import shutil
 import tempfile
 import subprocess
+import base64
 
 def parse_changelog(content):
     categories = [
@@ -98,10 +99,13 @@ class ChangelogGenerator:
         self.app_id = app_id
         self.private_key = private_key
         self.installation_id = installation_id
+        self._auth = None
+        self._masked_tokens = set()
 
         if app_id and private_key and installation_id:
             app_auth = Auth.AppAuth(app_id, private_key)
             auth = app_auth.get_installation_auth(int(installation_id))
+            self._auth = auth
             self.g = Github(auth=auth, per_page=100)
             self.token = None
             self._uses_app_auth = True
@@ -114,14 +118,38 @@ class ChangelogGenerator:
 
     def _get_clone_token(self):
         if self._uses_app_auth:
-            # Auth.AppInstallationAuth exposes .token via its internal
-            # requester; simplest reliable way is to ask the Github
-            # client's requester for the current auth header.
             try:
-                return self.g._Github__requester.auth.token
+                token = self._auth.token
             except Exception:
                 return None
-        return self.token
+        else:
+            token = self.token
+
+        if token and os.getenv("GITHUB_ACTIONS") == "true":
+            if token not in self._masked_tokens:
+                print(f"::add-mask::{token}")
+                self._masked_tokens.add(token)
+        return token
+
+    def _git_env(self, token):
+        """Environment for git subprocesses. The token is sent as an HTTP
+        header via env vars so it never appears in argv or in exceptions."""
+        env = os.environ.copy()
+        env["GIT_TERMINAL_PROMPT"] = "0"
+        if token:
+            creds = base64.b64encode(f"x-access-token:{token}".encode()).decode()
+            env["GIT_CONFIG_COUNT"] = "1"
+            env["GIT_CONFIG_KEY_0"] = "http.https://github.com/.extraheader"
+            env["GIT_CONFIG_VALUE_0"] = f"Authorization: Basic {creds}"
+        return env
+
+    @staticmethod
+    def _redact(text, token):
+        text = str(text)
+        if token:
+            creds = base64.b64encode(f"x-access-token:{token}".encode()).decode()
+            text = text.replace(token, "***").replace(creds, "***")
+        return text
 
     def _check_rate_limit(self, buffer=200):
         try:
@@ -146,16 +174,17 @@ class ChangelogGenerator:
 
     def _get_contributors_via_git(self, repo, data):
         temp_dir = tempfile.mkdtemp()
+        clone_token = None
         try:
             print(f"Cloning {repo.name} to parse git history...")
-            clone_url = repo.clone_url
             clone_token = self._get_clone_token()
-            if clone_token:
-                clone_url = clone_url.replace("https://", f"https://x-access-token:{clone_token}@")
+            git_env = self._git_env(clone_token)
 
             subprocess.run(
-                ["git", "clone", "--quiet", "--filter=blob:none", "--no-checkout", clone_url, temp_dir],
-                check=True
+                ["git", "clone", "--quiet", "--filter=blob:none", "--no-checkout",
+                 repo.clone_url, temp_dir],
+                check=True,
+                env=git_env,
             )
 
             git_log_cmd = [
@@ -163,7 +192,9 @@ class ChangelogGenerator:
                 "--all",
                 "--format=%an <%ae>|%aI"
             ]
-            result = subprocess.run(git_log_cmd, capture_output=True, text=True, check=True)
+            result = subprocess.run(
+                git_log_cmd, capture_output=True, text=True, check=True, env=git_env
+            )
 
             author_first_commits = {}
             author_emails = {}
@@ -202,7 +233,7 @@ class ChangelogGenerator:
             print(f"Found {len(new_users)} new contributors via local git log")
 
         except Exception as e:
-            print(f"Error processing git log for {repo.name}: {e}")
+            print(f"Error processing git log for {repo.name}: {self._redact(e, clone_token)}")
         finally:
             shutil.rmtree(temp_dir, ignore_errors=True)
 
