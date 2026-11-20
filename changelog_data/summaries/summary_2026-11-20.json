@@ -1,0 +1,871 @@
+{
+  "period": {
+    "start": "2026-11-13",
+    "end": "2026-11-20"
+  },
+  "generated_at": "2026-11-20T05:56:23.843211+00:00",
+  "total_repos": 192,
+  "active_repos": 24,
+  "total_issues": 22,
+  "total_pulls": 191,
+  "total_commits": 240,
+  "total_changelog_entries": 5,
+  "repos_with_activity": [
+    {
+      "name": "open",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/open",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "drive2gource",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/drive2gource",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-doc-uploader",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-doc-uploader",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "income-reporting-playbook",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/income-reporting-playbook",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ospo-guide",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-cbv-payroll",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-cbv-payroll",
+      "issues": 1,
+      "pulls": 26,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "interagency-research-ops",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/interagency-research-ops",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pycon-poster-2024",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pycon-poster-2024",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-verify",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-verify",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "iv-delivery",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/iv-delivery",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "automated-codejson-generator",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "super-changelog",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "issues": 0,
+      "pulls": 5,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "durc_is_crud",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/durc_is_crud",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "pra-guides",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/pra-guides",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "caseworkerportal",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/caseworkerportal",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "fdsh-utils",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/fdsh-utils",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "metrics-data",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/metrics-data",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "gov-codejson-mcp",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/gov-codejson-mcp",
+      "issues": 0,
+      "pulls": 16,
+      "commits": 54,
+      "changelog_entries": 0,
+      "highlights": [
+        "12 PR(s) merged"
+      ]
+    },
+    {
+      "name": "libyears",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/libyears",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 42,
+      "changelog_entries": 1,
+      "highlights": [
+        "Fixed: Keep every retained unmeasurable Maven Declared occurrence individually visible",
+        "Fixed: Align ordinary Maven Declared measurements in a module-qualified table with",
+        "Changed: Keep ordinary directory reports focused on positively relevant ecosystems, with",
+        "Added: Accept explicitly supplied, byte-bound Maven parent/BOM documents through",
+        "Added: Automatically report independent Maven Declared / Observed dependency-age views",
+        "Changed: Upgrade JSON output from schema v2 to schema v3. This is an intentional"
+      ]
+    },
+    {
+      "name": "ohtp-join",
+      "org": "DSACMS",
+      "url": "https://github.com/DSACMS/ohtp-join",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-form",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/codejson-form",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "codejson-schemas",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/codejson-schemas",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 1,
+      "changelog_entries": 2,
+      "highlights": [
+        "Added: `identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+        "Added: `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+        "Changed: `$id` updated to `https://gsa-share-it.github.io/code-json-schema.json` (reflecting the repository's move from the `DSACMS` org to `GSA-SHARE-IT`).",
+        "Added: `feedbackMechanism` (singular)",
+        "Added: `version`, `homepageURL`, `downloadURL`, `disclaimerURL`, `disclaimerText`, `relatedCode`, `reusedCode`, `partners` added as optional fields, taken from original [M-16-21 code.json schema](https://github.com/GSA/code-gov-data/tree/master/schemas)",
+        "Changed: Migrated `$schema` dialect from `draft-04` to `2020-12` and introduced a formal `$id` (`https://dsacms.github.io/code-json-schema.json`).",
+        "Added: `identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+        "Added: `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+        "Changed: `permissions.usageType`",
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "demo-repo",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/demo-repo",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "GSA-index.json",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/GSA-index.json",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "site",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/site",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 2,
+      "changelog_entries": 0,
+      "highlights": [
+        "1 PR(s) merged"
+      ]
+    },
+    {
+      "name": "govcode-index",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/govcode-index",
+      "issues": 0,
+      "pulls": 11,
+      "commits": 63,
+      "changelog_entries": 0,
+      "highlights": [
+        "10 PR(s) merged"
+      ]
+    },
+    {
+      "name": ".github",
+      "org": "GSA-SHARE-IT",
+      "url": "https://github.com/GSA-SHARE-IT/.github",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "2 PR(s) merged"
+      ]
+    },
+    {
+      "name": "easi-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "issues": 0,
+      "pulls": 2,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "mint-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "issues": 0,
+      "pulls": 15,
+      "commits": 3,
+      "changelog_entries": 0,
+      "highlights": [
+        "8 PR(s) merged"
+      ]
+    },
+    {
+      "name": "batcave-tf-cluster",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-cluster",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-buckets",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-buckets",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-karpenter",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-karpenter",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-kms",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-kms",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-postgresql",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-postgresql",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-vpc",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-vpc",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-autoscaler",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-autoscaler",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-route53",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-route53",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-serverless",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-serverless",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-mysql",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-mysql",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-configmap",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-configmap",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-misc-modules",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-misc-modules",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-efs",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-efs",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-irsa",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-irsa",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-gatus",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-gatus",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-crunchy-data-postgresql-stig-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-crunchy-data-postgresql-stig-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-aws-rds-crunchy-data-postgresql-stig-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-aws-rds-crunchy-data-postgresql-stig-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-eks-cis-node-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-eks-cis-node-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-eks-cis-cluster-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-eks-cis-cluster-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-k8s-node-stig-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-k8s-node-stig-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-k8s-cluster-stig-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-k8s-cluster-stig-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-oracle-19c-cis-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-oracle-19c-cis-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-aws-rds-oracle-19c-cis-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-aws-rds-oracle-19c-cis-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "cms-ars-5.0-oracle-mysql-8-stig-overlay",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/cms-ars-5.0-oracle-mysql-8-stig-overlay",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "sbom-harbor",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/sbom-harbor",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ztmf",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "issues": 10,
+      "pulls": 18,
+      "commits": 9,
+      "changelog_entries": 0,
+      "highlights": [
+        "9 PR(s) merged",
+        "1 new issue(s)"
+      ]
+    },
+    {
+      "name": "batcave-tf-mssql",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-mssql",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-sqs",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-sqs",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-dynamodb",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-dynamodb",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "sbom-harbor-ui",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/sbom-harbor-ui",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-utilitybelt-data",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-utilitybelt-data",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-s3-replication",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-s3-replication",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-utility-belt",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-utility-belt",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-db-s3-integration",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-db-s3-integration",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-redis",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-redis",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-lambda",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-lambda",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-workflow-engine",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-knight-light",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-knight-light",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-omnibus",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-omnibus",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-wt-sdl-reporting",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-wt-sdl-reporting",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-utility-belt-irsa",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-utility-belt-irsa",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-eso",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-eso",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-workflow-engine-action",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-workflow-engine-action",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "batcave-tf-ado-irsa",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/batcave-tf-ado-irsa",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "ztmf-ui",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "issues": 10,
+      "pulls": 22,
+      "commits": 8,
+      "changelog_entries": 0,
+      "highlights": [
+        "8 PR(s) merged",
+        "2 new issue(s)"
+      ]
+    },
+    {
+      "name": "power-platform-webres",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+      "issues": 0,
+      "pulls": 1,
+      "commits": 0,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "emmy-app",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/emmy-app",
+      "issues": 1,
+      "pulls": 63,
+      "commits": 41,
+      "changelog_entries": 0,
+      "highlights": [
+        "43 PR(s) merged"
+      ]
+    },
+    {
+      "name": "nist-decoder-ring-cisa",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/nist-decoder-ring-cisa",
+      "issues": 0,
+      "pulls": 4,
+      "commits": 1,
+      "changelog_entries": 0,
+      "highlights": []
+    },
+    {
+      "name": "esmd-ext-fhir-client-python",
+      "org": "CMS-Enterprise",
+      "url": "https://github.com/CMS-Enterprise/esmd-ext-fhir-client-python",
+      "issues": 0,
+      "pulls": 0,
+      "commits": 0,
+      "changelog_entries": 2,
+      "highlights": [
+        "Added: **Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+        "Added: Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+        "Changed: **Type Hints**: Added comprehensive type annotations throughout shared utilities",
+        "Fixed: **Code Duplication**: Eliminated duplicate files across modules",
+        "Fixed: **Import Issues**: Fixed circular imports and dependency issues",
+        "Added: **ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+        "Added: **AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+        "Fixed: **NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "Fixed: **DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging."
+      ]
+    }
+  ],
+  "key_changes": [
+    "libyears: Fixed Keep every retained unmeasurable Maven Declared occurrence individually visible",
+    "libyears: Fixed Align ordinary Maven Declared measurements in a module-qualified table with",
+    "libyears: Changed Keep ordinary directory reports focused on positively relevant ecosystems, with",
+    "libyears: Added Accept explicitly supplied, byte-bound Maven parent/BOM documents through",
+    "libyears: Added Automatically report independent Maven Declared / Observed dependency-age views",
+    "libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional",
+    "codejson-schemas: Added `identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+    "codejson-schemas: Added `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+    "codejson-schemas: Changed `$id` updated to `https://gsa-share-it.github.io/code-json-schema.json` (reflecting the repository's move from the `DSACMS` org to `GSA-SHARE-IT`).",
+    "codejson-schemas: Added `feedbackMechanism` (singular)",
+    "codejson-schemas: Added `version`, `homepageURL`, `downloadURL`, `disclaimerURL`, `disclaimerText`, `relatedCode`, `reusedCode`, `partners` added as optional fields, taken from original [M-16-21 code.json schema](https://github.com/GSA/code-gov-data/tree/master/schemas)",
+    "codejson-schemas: Changed Migrated `$schema` dialect from `draft-04` to `2020-12` and introduced a formal `$id` (`https://dsacms.github.io/code-json-schema.json`).",
+    "codejson-schemas: Added `identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+    "codejson-schemas: Added `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+    "codejson-schemas: Changed `permissions.usageType`",
+    "esmd-ext-fhir-client-python: Added **Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+    "esmd-ext-fhir-client-python: Added Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+    "esmd-ext-fhir-client-python: Changed **Type Hints**: Added comprehensive type annotations throughout shared utilities",
+    "esmd-ext-fhir-client-python: Fixed **Code Duplication**: Eliminated duplicate files across modules",
+    "esmd-ext-fhir-client-python: Fixed **Import Issues**: Fixed circular imports and dependency issues",
+    "esmd-ext-fhir-client-python: Added **ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+    "esmd-ext-fhir-client-python: Added **AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+    "esmd-ext-fhir-client-python: Fixed **NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+    "esmd-ext-fhir-client-python: Fixed **DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging."
+  ]
+}
