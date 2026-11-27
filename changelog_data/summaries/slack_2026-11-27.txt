@@ -1,0 +1,21 @@
+Weekly Changelog Summary* (2026-11-20 to 2026-11-27)
+
+• 19 of 193 repos with activity
+• 135 commits | 98 PRs | 6 issues
+
+*Key Changes:*
+• libyears: Fixed Keep every retained unmeasurable Maven Declared occurrence individually visible
+• libyears: Fixed Align ordinary Maven Declared measurements in a module-qualified table with
+• libyears: Changed Keep ordinary directory reports focused on positively relevant ecosystems, with
+• libyears: Added Add an explicit extended SBOM metadata budget for larger local inventories,
+• libyears: Added Measure a separate local CycloneDX JSON 1.5 SBOM inventory using supported exact
+• libyears: Changed Upgrade JSON output from schema v2 to schema v3. This is an intentional
+• codejson-schemas: Added `identifier` field — a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.
+• codejson-schemas: Added `downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.
+
+*Most Active Repos:*
+• *emmy-app*: 24 commits, 31 PRs
+• *gov-codejson-mcp*: 23 commits, 11 PRs
+• *libyears*: 27 commits, 0 PRs
+• *govcode-index*: 20 commits, 6 PRs
+• *mint-app*: 4 commits, 16 PRs
