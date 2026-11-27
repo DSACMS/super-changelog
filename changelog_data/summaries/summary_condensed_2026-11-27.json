@@ -1,0 +1,1072 @@
+{
+  "period": {
+    "start": "2026-11-20",
+    "end": "2026-11-27"
+  },
+  "generated_at": "2026-11-27T06:58:46.794413+00:00",
+  "total_repos": 193,
+  "active_repos": 19,
+  "total_commits": 135,
+  "total_pulls": 98,
+  "total_issues": 6,
+  "total_changelog_entries": 5,
+  "new_pulls": 59,
+  "new_issues": 2,
+  "merged_pulls": 62,
+  "categorized_changes": {
+    "added": [
+      {
+        "repo": "libyears",
+        "text": "Add an explicit extended SBOM metadata budget for larger local inventories,",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Measure a separate local CycloneDX JSON 1.5 SBOM inventory using supported exact",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Accept explicitly supplied, byte-bound Maven parent/BOM documents through",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Automatically report independent Maven Declared / Observed dependency-age views",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Automatically select qualified current NuGet repository project/lock snapshots",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Accept an explicitly bound resolved NuGet snapshot as a population fallback when",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Accept explicit per-project supplier witnesses with repeatable",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Measure explicitly selected NuGet project snapshots with `--nuget-project`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Measure explicitly selected declared Ruby groups with repeatable",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Measure direct RubyGems dependencies from a bounded root `Gemfile.lock` snapshot,",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Use root Yarn Classic v1 `yarn.lock` evidence to measure direct npm production",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan direct npm production dependencies from the root `package.json`, using",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Scan npm and PyPI dependencies together, with repository-wide and",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Report source discovery failures separately from dependency-level",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "libyears",
+        "text": "Use shared verified HTTPS registry transport for PyPI and npm metadata",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`feedbackMechanism` (singular)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`version`, `homepageURL`, `downloadURL`, `disclaimerURL`, `disclaimerText`, `relatedCode`, `reusedCode`, `partners` added as optional fields, taken from original [M-16-21 code.json schema](https://github.com/GSA/code-gov-data/tree/master/schemas)",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`AIUseCaseID` added for assisting with agency collection of their AI Use Case Inventory as part of M-25-21 compliance",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`SBOM` added to include software's SBOM in metadata as part of EO 14028",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`identifier` field \u2014 a persistent unique ID used to track an asset across renames/migrations. Added to `properties` (right after `name`) and to `required`.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`downloads` property added to `reuseFrequency.properties`, alongside the existing `forks` and `clones`.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[NOREF] Add Approved ICIP Cypress coverage and TaskCard mutation tests",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2676",
+        "type": "pr",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Shared Utilities Package**: Created `esmd_shared` package to eliminate code duplication",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "Enhanced `EsmdAuthClient` with token caching, better error handling, and type hints",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "Improved `ConfigUtility` with environment variable support and validation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "Advanced `logger` module with file rotation and configurable formatting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Comprehensive Documentation**: Complete README.md with installation, usage, and API documentation",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Development Tools**: Added Makefile with common development commands",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Environment Variable Support**: All configuration can now be set via environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Templates**: Added `config.yaml.template` and `environment.template`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Secure Configuration**: Sensitive data (client secrets) now prefer environment variables",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Validation**: Added validation methods for required configuration",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Pytest Configuration**: Complete pytest setup with coverage reporting",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Test Fixtures**: Comprehensive shared fixtures in `tests/conftest.py`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Unit Tests**: Sample unit tests for shared utilities with proper mocking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Test Categories**: Markers for unit, integration, network, and slow tests",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Requirements with Version Pinning**: Secure, pinned dependencies in `requirements.txt`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Comprehensive setup.py**: Proper package configuration with optional dependencies",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Type Checking**: mypy configuration for strict type checking",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Code Quality Tools**: flake8, black, and other development tools",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Git Integration**: Comprehensive .gitignore for Python projects",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Code Quality**: Pre-commit hooks support and quality checks",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**CLI Tools**: Entry points for command-line usage",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Development Workflow**: Quick setup with `make setup`",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**ProviderDeliveryAck**:  Added the Provider Delivery Ack module with proper logging and exception handling.",
+        "category": "Added",
+        "emoji": "\u2705"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**AuthAPI**: Added code to enforce the required User-Agent header, as some clients were not populating this header. The User-Agent header is mandatory for all API calls.",
+        "category": "Added",
+        "emoji": "\u2705"
+      }
+    ],
+    "fixed": [
+      {
+        "repo": "libyears",
+        "text": "Keep every retained unmeasurable Maven Declared occurrence individually visible",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "libyears",
+        "text": "Align ordinary Maven Declared measurements in a module-qualified table with",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "libyears",
+        "text": "Align human-readable dependency tables using the displayed headers and values,",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "govcode-index",
+        "text": "Update Docs and Fix Workflows",
+        "url": "https://github.com/GSA-SHARE-IT/govcode-index/pull/15",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "easi-app",
+        "text": "[NOREF] Fixing TRB assign lead modal submit not firing",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3600",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf",
+        "text": "fix(misc#415, misc#416): skip fork PRs and publish main's test image in order",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/652",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "fix(misc#416): publish ztmf_ui_tag one at a time from main's tip",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/779",
+        "type": "pr",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Code Duplication**: Eliminated duplicate files across modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Import Issues**: Fixed circular imports and dependency issues",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Loading**: Improved config file discovery and error handling",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Token Refresh**: Fixed token expiration and refresh logic",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Package Structure**: Proper Python package hierarchy",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Dependency Management**: Cleaner dependency resolution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Module Isolation**: Better separation between modules",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Testing Infrastructure**: Reliable test setup and execution",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**NotificationScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**DocumentRefScheduler**: Fixed invalid search parameters by replacing them with valid parameters, updated the request/response processing logic, and added logging.",
+        "category": "Fixed",
+        "emoji": "\ud83e\udeb2"
+      }
+    ],
+    "changed": [
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Update code.json",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/68",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Keep ordinary directory reports focused on positively relevant ecosystems, with",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Document durable private storage for explicitly supplied approved CA bundles,",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Ordinary NuGet scans can date qualified selected versions against a disclosed",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Measure accepted NuGet project/lock snapshots with explicit package-specific",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Ordinary directory scans automatically attempt bounded NuGet project sources.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "libyears",
+        "text": "Upgrade JSON output from schema v2 to schema v3. This is an intentional",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`$id` updated to `https://gsa-share-it.github.io/code-json-schema.json` (reflecting the repository's move from the `DSACMS` org to `GSA-SHARE-IT`).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`permissions.usageType`",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "enum: M-16-21 exemptions are removed from the schema: `exemptByIPRestriction`, `exemptByAgencySystem`, `exemptByAgencyMission`, `exemptByCIO`, and `exemptByPolicyDate`",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "enum: `exemptByDisposableCode`, `exemptByExperimentalCode`, and `exemptByCommercialSoftware` are added, reflecting the SHARE IT Act's exclusions for exploratory/disposable code and commercial/COTS software.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`identifier` added to `required`.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`AIUseCaseID`, `SBOM`, `date`, `description`, `laborHours`, `languages`, `tags`, and `vcs` removed from `required` (now optional).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Migrated `$schema` dialect from `draft-04` to `2020-12` and introduced a formal `$id` (`https://dsacms.github.io/code-json-schema.json`).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Corrected the same structural bug present in `gov-schema-1.0.0.json`, where all field definitions were incorrectly nested one level too deep under a top-level `items` key instead of directly under `properties`.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`permissions.usageType` changed from a single `string` value to an `array` of strings, allowing multiple exemption reasons to be declared simultaneously.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Expanded and refined the exemption enum taxonomy: the old `exemptByLaw` was split into `exemptByNationalSecurity`, `exemptByNationalIntelligence`, `exemptByFOIA`, `exemptByEAR`, `exemptByITAR`, `exemptByTSA`, and `exemptByClassifiedInformation`; the old `exemptByNationalSecurity` (covering national security, confidentiality, _and_ individual privacy risk) was split so privacy risk became its own value, `exemptByPrivacyRisk`; `exemptByIPRestriction` was also added.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`organization`: removed the CMS-specific enum restriction (`Centers for Medicare & Medicaid Services`) and generalized it to a free-text string with an example (`'18F'` or `'Navy'`) suitable for any agency.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Top-level `additionalProperties` changed from `false` to `true`, allowing agencies to extend the schema with their own custom fields.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`AIUseCaseID`, `SBOM`, and `feedbackMechanism` added to `required`; `categories`, `feedbackMechanisms`, `localisation`, `longDescription`, `platforms`, and `softwareType` removed from `required` (dropped entirely, see Removed above).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Field definitions are nested one level too deep under `properties.items` instead of directly under `properties` (the same structural bug present in the CMS schema's `schema-0.0.0.json`).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`permissions.usageType` is a single `string` value (not an array), so only one exemption reason could be declared per release, with a smaller 8-value exemption enum (`openSource`, `governmentWideReuse`, `exemptByLaw`, `exemptByNationalSecurity`, `exemptByAgencySystem`, `exemptByAgencyMission`, `exemptByCIO`, `exemptByPolicyDate`).",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`organization` was restricted to a CMS-only enum value (`Centers for Medicare & Medicaid Services`), despite this being the generic, agency-agnostic schema.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "`permissions.usageType`",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "enum: M-16-21 exemptions are removed from the schema: `exemptByIPRestriction`, `exemptByAgencySystem`, `exemptByAgencyMission`, `exemptByCIO`, and `exemptByPolicyDate`",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "enum: `exemptByDisposableCode`, `exemptByExperimentalCode`, and `exemptByCommercialSoftware` are added, reflecting the SHARE IT Act's exclusions for exploratory/disposable code and commercial/COTS software.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Updated the `usageType` description text to define and renumber all 13 enum values to match.",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "codejson-schemas",
+        "text": "Reworded the `reuseFrequency` description for clarity: _\"Measures frequency of code reuse in various forms such as forks and clones for repositories, and downloads for packaged and distributed software.\"_",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "govcode-index",
+        "text": "chore: update agency indexes",
+        "url": "https://github.com/GSA-SHARE-IT/govcode-index/pull/13",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "ztmf",
+        "text": "chore(ci): bump the github-actions group with 2 updates",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/653",
+        "type": "pr",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Type Hints**: Added comprehensive type annotations throughout shared utilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Error Handling**: Standardized and improved error handling patterns",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Logging**: Enhanced logging with structured output and rotation",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Code Structure**: Better separation of concerns and modularity",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Dependency Security**: Pinned versions to prevent security vulnerabilities",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Credential Management**: Moved sensitive data to environment variables",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Token Management**: Added token caching and expiration handling",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Security**: Warnings for insecure configuration practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**API Documentation**: Comprehensive docstrings and type information",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Usage Examples**: Clear examples for each module and common use cases",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Guide**: Detailed configuration options and best practices",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Development Guide**: Setup instructions and contribution guidelines",
+        "category": "Changed",
+        "emoji": "\ud83d\udd27"
+      }
+    ],
+    "deprecated": [],
+    "removed": [
+      {
+        "repo": "codejson-schemas",
+        "text": "`categories`, `feedbackMechanisms` (plural, replaced by singular `feedbackMechanism`), `localisation`, `longDescription`, `platforms`, `softwareType` \u2014 these agency-extension-style fields were dropped from the generic gov-wide schema.",
+        "category": "Removed",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "Migrate ScoreDiffModal onto queries and delete its cache",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/770",
+        "type": "pr",
+        "emoji": "\ud83d\uddd1\ufe0f"
+      }
+    ],
+    "security": [
+      {
+        "repo": "libyears",
+        "text": "Prevent pathological backtracking when classifying npm registry versions,",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Dependency Pinning**: All dependencies are pinned to specific versions",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Environment Variables**: Sensitive configuration moved to environment variables",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Token Security**: Improved token handling and storage",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Input Validation**: Better validation of configuration and input data",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Token Caching**: Reduced authentication overhead with intelligent caching",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration Caching**: Config loaded once and reused",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Logging Optimization**: Efficient logging with rotation and proper levels",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Request Optimization**: Better connection handling and timeouts",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Testing Pipeline**: Automated testing with coverage reporting",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Code Quality Pipeline**: Linting, formatting, and type checking",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Build System**: Proper packaging and distribution setup",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Documentation Pipeline**: Automated documentation generation",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Import Paths**: Some import paths have changed due to shared utilities",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Configuration**: Some configuration keys may have changed",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**Dependencies**: Minimum Python version is now 3.9+",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "**File Structure**: Some files have been moved or consolidated",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      },
+      {
+        "repo": "esmd-ext-fhir-client-python",
+        "text": "--",
+        "category": "Security",
+        "emoji": "\ud83d\udd12"
+      }
+    ],
+    "performance": [],
+    "documentation": [
+      {
+        "repo": "gov-codejson-mcp",
+        "text": "doc: final README edits",
+        "url": "https://github.com/DSACMS/gov-codejson-mcp/pull/27",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      },
+      {
+        "repo": "gov-codejson-mcp",
+        "text": "doc: final-inventory local-client check",
+        "url": "https://github.com/DSACMS/gov-codejson-mcp/pull/26",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      },
+      {
+        "repo": "gov-codejson-mcp",
+        "text": "ci: verify Docker build and HTTP health",
+        "url": "https://github.com/DSACMS/gov-codejson-mcp/pull/25",
+        "type": "pr",
+        "emoji": "\ud83d\udcda"
+      }
+    ],
+    "other": [
+      {
+        "repo": "fast-facts-2.0",
+        "text": "Dev feedback static",
+        "url": "https://github.com/DSACMS/fast-facts-2.0/pull/71",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "govcode-index",
+        "text": "Dataset: Complete gov-code.json and gov-code.csv is created!",
+        "url": "https://github.com/GSA-SHARE-IT/govcode-index/pull/14",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "[EASI-5061] Select the app container by name in ECS deploy scripts (CrowdStrike prerequisite)",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3599",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "easi-app",
+        "text": "build(deps): bump glob from 14.0.0 to 14.0.2",
+        "url": "https://github.com/CMS-Enterprise/easi-app/pull/3595",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[NOREF] Return unmarked Approved ICIP task to Upcoming before clearance",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2680",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "mint-app",
+        "text": "[MINT-3965] BSG Model migration and enum work- #2648",
+        "url": "https://github.com/CMS-Enterprise/mint-app/pull/2677",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf",
+        "text": "feat(misc#420): check the pr-env reaper token before reaping and warn ahead of its expiry",
+        "url": "https://github.com/CMS-Enterprise/ztmf/pull/650",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "ztmf-ui",
+        "text": "chore: bump frostfall to v1.9.0",
+        "url": "https://github.com/CMS-Enterprise/ztmf-ui/pull/780",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "emmy-app",
+        "text": "release v0.20.0",
+        "url": "https://github.com/CMS-Enterprise/emmy-app/pull/142",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "emmy-app",
+        "text": "Bump view_component from 4.20.0 to 4.24.0 in /app",
+        "url": "https://github.com/CMS-Enterprise/emmy-app/pull/138",
+        "type": "pr",
+        "emoji": "\u2753"
+      },
+      {
+        "repo": "emmy-app",
+        "text": "Bump aws-sdk-s3 from 1.238.0 to 1.245.0 in /app",
+        "url": "https://github.com/CMS-Enterprise/emmy-app/pull/137",
+        "type": "pr",
+        "emoji": "\u2753"
+      }
+    ]
+  },
+  "change_counts": {
+    "added": 48,
+    "fixed": 17,
+    "changed": 42,
+    "removed": 2,
+    "security": 19,
+    "documentation": 3,
+    "other": 11
+  },
+  "active_repos_list": [
+    {
+      "name": "ospo-guide",
+      "url": "https://github.com/DSACMS/ospo-guide",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "automated-codejson-generator",
+      "url": "https://github.com/DSACMS/automated-codejson-generator",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "super-changelog",
+      "url": "https://github.com/DSACMS/super-changelog",
+      "org": "DSACMS",
+      "commits": 0,
+      "pulls": 2,
+      "issues": 0
+    },
+    {
+      "name": "fast-facts-2.0",
+      "url": "https://github.com/DSACMS/fast-facts-2.0",
+      "org": "DSACMS",
+      "commits": 8,
+      "pulls": 3,
+      "issues": 2
+    },
+    {
+      "name": "year-in-review-cif",
+      "url": "https://github.com/DSACMS/year-in-review-cif",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "metrics-data",
+      "url": "https://github.com/DSACMS/metrics-data",
+      "org": "DSACMS",
+      "commits": 1,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "gov-codejson-mcp",
+      "url": "https://github.com/DSACMS/gov-codejson-mcp",
+      "org": "DSACMS",
+      "commits": 23,
+      "pulls": 11,
+      "issues": 0
+    },
+    {
+      "name": "libyears",
+      "url": "https://github.com/DSACMS/libyears",
+      "org": "DSACMS",
+      "commits": 27,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "indelegible",
+      "url": "https://github.com/DSACMS/indelegible",
+      "org": "DSACMS",
+      "commits": 12,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "codejson-schemas",
+      "url": "https://github.com/GSA-SHARE-IT/codejson-schemas",
+      "org": "GSA-SHARE-IT",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "govcode-index",
+      "url": "https://github.com/GSA-SHARE-IT/govcode-index",
+      "org": "GSA-SHARE-IT",
+      "commits": 20,
+      "pulls": 6,
+      "issues": 0
+    },
+    {
+      "name": "Hopper",
+      "url": "https://github.com/GSA-SHARE-IT/Hopper",
+      "org": "GSA-SHARE-IT",
+      "commits": 2,
+      "pulls": 0,
+      "issues": 0
+    },
+    {
+      "name": "easi-app",
+      "url": "https://github.com/CMS-Enterprise/easi-app",
+      "org": "CMS-Enterprise",
+      "commits": 6,
+      "pulls": 12,
+      "issues": 0
+    },
+    {
+      "name": "mint-app",
+      "url": "https://github.com/CMS-Enterprise/mint-app",
+      "org": "CMS-Enterprise",
+      "commits": 4,
+      "pulls": 16,
+      "issues": 0
+    },
+    {
+      "name": "ztmf",
+      "url": "https://github.com/CMS-Enterprise/ztmf",
+      "org": "CMS-Enterprise",
+      "commits": 4,
+      "pulls": 8,
+      "issues": 1
+    },
+    {
+      "name": "ztmf-ui",
+      "url": "https://github.com/CMS-Enterprise/ztmf-ui",
+      "org": "CMS-Enterprise",
+      "commits": 3,
+      "pulls": 6,
+      "issues": 2
+    },
+    {
+      "name": "power-platform-webres",
+      "url": "https://github.com/CMS-Enterprise/power-platform-webres",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 1,
+      "issues": 0
+    },
+    {
+      "name": "emmy-app",
+      "url": "https://github.com/CMS-Enterprise/emmy-app",
+      "org": "CMS-Enterprise",
+      "commits": 24,
+      "pulls": 31,
+      "issues": 1
+    },
+    {
+      "name": "esmd-ext-fhir-client-python",
+      "url": "https://github.com/CMS-Enterprise/esmd-ext-fhir-client-python",
+      "org": "CMS-Enterprise",
+      "commits": 0,
+      "pulls": 0,
+      "issues": 0
+    }
+  ]
+}
